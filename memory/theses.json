@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "thesis-cowos-packaging-broadcom-custom-ai-asics",
+    "topic": "cowos-packaging-broadcom-custom-ai-asics",
+    "statement": "TSMC's CoWoS advanced-packaging capacity, not silicon wafer starts or HBM memory itself, is the binding constraint on AI accelerator supply through 2026-2027, and because allocation is won through committed multi-year volume rather than spot orders, the constraint is reinforcing the position of the largest, best-capitalized buyers (Nvidia and Broadcom's six anchor custom-ASIC customers) rather than expanding total industry throughput.",
+    "confidence": "medium",
+    "created_at": "2026-08-19",
+    "updated_at": "2026-08-19",
+    "supporting_reports": ["reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md"],
+    "kill_conditions": [
+      {
+        "condition": "CoWoS lead times normalize or capacity is confirmed no longer fully booked",
+        "metric": "TSMC management commentary on CoWoS booking status / reported packaging lead times",
+        "threshold": "TSMC states CoWoS capacity is no longer fully booked for the year, or reported lead times fall to industry-typical levels",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Broadcom AI semiconductor revenue misses guidance",
+        "metric": "Quarterly AI semiconductor revenue vs. guided figure",
+        "threshold": "Actual revenue below the guided figure by a material margin for two consecutive quarters",
+        "time_window": "next 2 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Major AI capex slowdown announced by hyperscaler customers",
+        "metric": "Aggregate hyperscaler capex guidance (Google, Meta, Microsoft, Amazon)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      }
+    ]
+  }
+]

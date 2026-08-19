@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "slug": "cowos-packaging-broadcom-custom-ai-asics",
+    "title": "CoWoS advanced-packaging capacity as the binding constraint on AI accelerator supply",
+    "last_updated": "2026-08-19",
+    "reports": ["reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md"],
+    "status": "active",
+    "categories": ["semiconductors", "ai-infrastructure", "advanced-packaging"],
+    "companies": ["Broadcom"]
+  }
+]

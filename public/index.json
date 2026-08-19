@@ -1,5 +1,24 @@
 [
   {
+    "title": "CoWoS advanced-packaging capacity as the binding constraint on AI accelerator supply",
+    "date": "2026-08-19",
+    "slug": "cowos-packaging-broadcom-custom-ai-asics",
+    "research_type": "NEW",
+    "topics": [
+      "semiconductors",
+      "ai-infrastructure",
+      "advanced-packaging"
+    ],
+    "companies": [
+      "Broadcom"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/cowos-packaging-broadcom-custom-ai-asics",
+    "path": "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
+    "one_sentence_conclusion": "CoWoS advanced-packaging capacity, not silicon wafer starts or HBM memory, currently qualifies as the structural bottleneck on AI accelerator supply, and its allocation is entrenching the largest incumbent buyers rather than expanding the field."
+  },
+  {
     "title": "HBM memory supply as the binding constraint on AI accelerators",
     "date": "2026-08-01",
     "slug": "hbm-supply-ai-accelerators",

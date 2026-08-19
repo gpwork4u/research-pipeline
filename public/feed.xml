@@ -6,6 +6,19 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>CoWoS advanced-packaging capacity as the binding constraint on AI accelerator supply</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/cowos-packaging-broadcom-custom-ai-asics</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/cowos-packaging-broadcom-custom-ai-asics</guid>
+      <pubDate>Wed, 19 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <category>advanced-packaging</category>
+      <description>CoWoS advanced-packaging capacity, not silicon wafer starts or HBM memory, currently qualifies as the structural bottleneck on AI accelerator supply, and its allocation is entrenching the largest incumbent buyers rather than expanding the field.
+
+Broadcom&apos;s fiscal 2026 guidance and TSMC&apos;s own capacity disclosures both point to the same binding constraint: TSMC&apos;s CoWoS advanced-packaging lines are fully booked through 2026, and expanding them requires multi-year equipment lead times even as TSMC works to nearly quadruple monthly output. Broadcom&apos;s custom AI accelerator (XPU/ASIC) business is growing off this same scarce packaging pool alongside Nvidia&apos;s merchant GPUs, with guidance of $16 billion in Q3 FY2026 AI semiconductor revenue, a full-year target near $56 billion, and a committed backlog exceeding $73 billion concentrated in six hyperscale customers. Because packaging allocation is won through multi-year committed volume rather than spot purchasing, the scarcity appears to be reinforcing the position of the largest, best-capitalized buyers -- Nvidia and Broadcom&apos;s six anchor accounts -- rather than broadening the supply base. The main uncertainty is cyclical and structural at once: TSMC&apos;s stated capacity-ramp target for the end of 2026 would, if sustained, exceed current full-year demand estimates, and history shows packaging and memory cycles can flip from scarcity to oversupply quickly if AI capital expenditure decelerates.</description>
+    </item>
+    <item>
       <title>HBM memory supply as the binding constraint on AI accelerators</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/hbm-supply-ai-accelerators</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/hbm-supply-ai-accelerators</guid>

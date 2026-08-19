@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "event": "Broadcom Q3 FY2026 earnings call",
+    "expected_window": "September 2026",
+    "supports_if": "AI semiconductor revenue meets or exceeds the ~$16 billion guide and the committed backlog continues growing",
+    "weakens_if": "Revenue misses guidance or backlog growth stalls",
+    "source_to_monitor": "Broadcom investor relations (investors.broadcom.com)",
+    "origin_report": "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC Q3 2026 earnings call",
+    "expected_window": "mid-October 2026",
+    "supports_if": "Management reiterates that CoWoS capacity is fully booked and maintains or raises 2026/2027 capacity and capex targets",
+    "weakens_if": "Management signals CoWoS capacity easing or capital-expenditure guidance is cut",
+    "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
+    "origin_report": "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
+    "status": "open"
+  },
+  {
+    "event": "OpenAI custom-ASIC shipment milestone",
+    "expected_window": "Q3-Q4 2026",
+    "supports_if": "Shipment continues to slip and any delay is explicitly tied to packaging or capacity constraints",
+    "weakens_if": "OpenAI's custom ASIC ships on the revised schedule with no packaging-related delay cited",
+    "source_to_monitor": "OpenAI and Broadcom public statements, trade press",
+    "origin_report": "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
+    "status": "open"
+  },
+  {
+    "event": "Hyperscaler Q3 2026 capital-expenditure guidance (Google, Meta, Microsoft, Amazon)",
+    "expected_window": "October-November 2026",
+    "supports_if": "Capex guidance continues to grow, sustaining demand pressure on packaging capacity",
+    "weakens_if": "Capex guidance decelerates or is cut",
+    "source_to_monitor": "Respective hyperscaler quarterly earnings releases",
+    "origin_report": "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
+    "status": "open"
+  }
+]

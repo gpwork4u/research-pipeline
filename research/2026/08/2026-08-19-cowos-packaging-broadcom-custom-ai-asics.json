@@ -1,0 +1,490 @@
+{
+  "topic": {
+    "title": "CoWoS advanced-packaging capacity as the binding constraint on AI accelerator supply",
+    "slug": "cowos-packaging-broadcom-custom-ai-asics",
+    "date": "2026-08-19",
+    "research_type": "NEW",
+    "categories": [
+      "semiconductors",
+      "ai-infrastructure",
+      "advanced-packaging"
+    ],
+    "score": 31,
+    "trigger": "Broadcom Q2 FY2026 earnings call (AI semiconductor revenue guidance) and TSMC Q2 2026 earnings call confirming CoWoS advanced-packaging capacity sold out through 2026"
+  },
+  "questions": {
+    "primary": "Is TSMC's CoWoS advanced-packaging capacity, rather than wafer starts or HBM memory, the binding constraint on AI accelerator supply in 2026, and does that constraint favor Broadcom's custom-ASIC franchise over merchant GPU suppliers?",
+    "sub": [
+      "Is demand for CoWoS packaging growing faster than TSMC's stated capacity expansion?",
+      "How quickly can CoWoS capacity expand, and what limits the expansion rate?",
+      "Can AI accelerator designs substitute away from CoWoS-style advanced packaging?",
+      "Who holds pricing power in the packaging allocation process among TSMC, Nvidia, and Broadcom's hyperscale customers?",
+      "What evidence would refute the bottleneck thesis?"
+    ]
+  },
+  "thesis": "TSMC's CoWoS advanced-packaging capacity, not silicon wafer starts or HBM memory itself, is the binding constraint on AI accelerator supply through 2026-2027, and because allocation is won through committed multi-year volume rather than spot orders, the constraint is reinforcing the position of the largest, best-capitalized buyers (Nvidia and Broadcom's six anchor custom-ASIC customers) rather than expanding total industry throughput.",
+  "facts": [
+    {
+      "statement": "Broadcom reported Q2 FY2026 AI semiconductor revenue of $10.8 billion and guided Q3 FY2026 AI semiconductor revenue to grow over 200% year-over-year to $16.0 billion.",
+      "type": "FACT",
+      "evidence_ids": [
+        "ev-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "statement": "Broadcom guided full-year fiscal 2026 AI semiconductor revenue to approximately $56 billion, up roughly 180% year-over-year, and reaffirmed fiscal 2027 AI semiconductor revenue guidance of 'in excess of $100 billion,' backed by a committed AI-specific order backlog exceeding $73 billion.",
+      "type": "FACT",
+      "evidence_ids": [
+        "ev-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "statement": "Broadcom's custom AI accelerator (XPU/ASIC) design business serves six core hyperscale customers, publicly including Google, Meta, Anthropic, and OpenAI.",
+      "type": "FACT",
+      "evidence_ids": [
+        "ev-1",
+        "ev-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "statement": "TSMC is expanding CoWoS advanced-packaging capacity from approximately 35,000 wafers/month at the end of 2024 toward a target of roughly 125,000-130,000 wafers/month by the end of 2026, with 2026 capital expenditure raised to $60-64 billion, the majority directed toward leading-edge (2nm/3nm) and advanced-packaging capacity.",
+      "type": "FACT",
+      "evidence_ids": [
+        "ev-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "statement": "TSMC management described CoWoS advanced-packaging capacity as fully booked for 2026 in its Q2 2026 earnings communications.",
+      "type": "FACT",
+      "evidence_ids": [
+        "ev-2"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Industry analysts estimate Nvidia holds roughly 60% of TSMC's 2026 CoWoS wafer allocation, while Broadcom's custom-ASIC allocation is reported at a materially smaller but fast-growing share, with a substantial portion tied to Google's plan to externally supply its TPUs alongside Meta and OpenAI programs.",
+      "type": "FACT",
+      "evidence_ids": [
+        "ev-3",
+        "ev-4"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "statement": "OpenAI is developing its first custom AI ASIC with Broadcom, a program reported at roughly $10 billion, with TSMC as the planned manufacturer; initial shipment ambitions have slipped from Q2 2026 toward Q3 2026 or later.",
+      "type": "FACT",
+      "evidence_ids": [
+        "ev-5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Meta committed in April 2026 to one gigawatt of custom AI accelerators built with Broadcom under its MTIA program.",
+      "type": "FACT",
+      "evidence_ids": [
+        "ev-5"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because CoWoS capacity additions require multi-year equipment lead times, TSMC describes the line as fully booked for 2026, and demand from both merchant GPU vendors and custom-ASIC hyperscalers is rising simultaneously, packaging allocation -- not wafer starts or HBM memory -- is the more binding near-term constraint on how many AI accelerators of any architecture can actually ship in 2026.",
+      "type": "INFERENCE",
+      "evidence_ids": [
+        "ev-1",
+        "ev-2",
+        "ev-3"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because packaging allocation is secured through multi-year committed volume rather than spot purchasing, and Broadcom's anchor customers have both design-partnership visibility and balance-sheet scale to make such commitments, the bottleneck likely reinforces customer concentration among large incumbents (Nvidia and Broadcom's six anchor accounts) rather than broadening the AI-accelerator supply base to smaller or newer entrants.",
+      "type": "INFERENCE",
+      "evidence_ids": [
+        "ev-1",
+        "ev-4",
+        "ev-5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "statement": "TSMC's stated exit-rate target of 125,000-130,000 CoWoS wafers/month by end-2026 annualizes to more capacity than analyst estimates of full-year 2026 demand, implying capacity is scarce mainly because it ramps through the year rather than being available at that rate from January -- consistent with a 'sold out' status in 2026 even as the constraint could ease materially entering 2027 if the ramp holds.",
+      "type": "INFERENCE",
+      "evidence_ids": [
+        "ev-2",
+        "ev-4"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "unknowns": [
+    "TSMC's actual CoWoS capacity utilization and yield rates broken out by customer are not publicly disclosed.",
+    "Exact customer-level wafer allocation figures vary across analyst reports (e.g., Broadcom's 2026 CoWoS allocation has been separately estimated at both roughly 150,000 and roughly 200,000 wafers by different research notes); TSMC does not confirm customer-level splits.",
+    "Whether alternative advanced-packaging approaches (fan-out panel-level packaging, or Samsung/Intel Foundry advanced packaging) will absorb meaningful overflow demand within the 2026-2027 window.",
+    "Whether OpenAI's custom-ASIC program will hit its revised shipment timeline or slip further, and whether any further slippage is packaging-related or design-related."
+  ],
+  "industry_chain": [
+    {
+      "name": "Leading-edge wafer fabrication (2nm/3nm)",
+      "role": "Upstream",
+      "major_players": [
+        "TSMC"
+      ],
+      "pricing_power": "High",
+      "supply_elasticity": "Medium",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "CoWoS / advanced packaging",
+      "role": "Components",
+      "major_players": [
+        "TSMC",
+        "substrate and packaging equipment vendors"
+      ],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "AI accelerator design (merchant GPU and custom ASIC)",
+      "role": "Platform",
+      "major_players": [
+        "Nvidia",
+        "AMD",
+        "Broadcom (design partner)",
+        "Google",
+        "Meta",
+        "OpenAI"
+      ],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Hyperscale AI infrastructure deployment",
+      "role": "Infrastructure",
+      "major_players": [
+        "Google",
+        "Meta",
+        "Microsoft",
+        "Amazon",
+        "OpenAI"
+      ],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "CoWoS / advanced packaging capacity",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "1-2 years per capacity tranche (multi-year equipment lead times)",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "High",
+      "profit_capture": "High",
+      "opportunity_score": 5,
+      "classification": "Structural Bottleneck",
+      "rationale": "Demand is extreme across both merchant-GPU and custom-ASIC channels, TSMC describes the line as fully booked through 2026, capacity additions are gated by multi-year equipment lead times, and no packaging alternative currently matches CoWoS bandwidth and qualified yield at comparable scale."
+    },
+    {
+      "node": "Leading-edge wafer fabrication (2nm/3nm)",
+      "demand_growth": "High",
+      "supply_elasticity": "Medium",
+      "expansion_time": "2-3 years",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "High",
+      "profit_capture": "High",
+      "opportunity_score": 4,
+      "classification": "Growth Area",
+      "rationale": "Demand is high and TSMC is expanding leading-edge wafer capacity on a faster relative trajectory than packaging, keeping this node less acutely constrained than CoWoS in the near term."
+    },
+    {
+      "node": "AI accelerator design (merchant GPU vs. custom ASIC)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Medium",
+      "expansion_time": null,
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Extreme",
+      "profit_capture": "Medium",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "Demand and competitive intensity between merchant GPU and custom-silicon design are both extreme, but design capacity itself is more elastic than the physical packaging capacity that ultimately gates shipments."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Broadcom",
+      "business_model": "Semiconductor and infrastructure software company; AI semiconductor segment designs custom AI accelerators (XPUs/ASICs) and networking silicon (Tomahawk/Jericho switches, optical and PCIe connectivity) for hyperscale customers.",
+      "revenue_model": "Component and IP design sales under multi-year custom-silicon supply agreements, plus networking chip sales.",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": "Company-wide operating margin was a reported record 67% in Q2 FY2026.",
+      "growth_drivers": [
+        "AI semiconductor demand from hyperscale custom-ASIC programs",
+        "Networking silicon attached to AI training clusters",
+        "Multi-year custom-silicon supply agreements (e.g., a long-term agreement with Google through 2031)"
+      ],
+      "customer_concentration": "High -- six core custom-chip customers account for the substantial majority of AI semiconductor revenue.",
+      "moat": "Design-partnership relationships with hyperscalers, integration with TSMC's packaging allocation process, and multi-year lock-in via committed product roadmaps.",
+      "switching_costs": "High for hyperscaler customers once a custom-chip generation is taped out and integrated into data-center roadmaps.",
+      "capital_intensity": "Medium -- fabless model; physical capital intensity is borne mainly by TSMC for fabrication and packaging.",
+      "management_strategy": "Expand the custom-ASIC design-service franchise for hyperscalers to diversify AI silicon demand beyond merchant GPUs; reaffirmed a fiscal 2027 AI semiconductor revenue target in excess of $100 billion.",
+      "execution_risk": "Revenue concentration in six accounts, dependency on TSMC packaging allocation, and reported timeline slippage on at least one customer program (OpenAI's custom ASIC)."
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Q2 FY2026 AI semiconductor revenue (Broadcom)",
+      "value": 10.8,
+      "unit": "USD billion",
+      "period": "Q2 FY2026",
+      "growth": "~106% YoY",
+      "source_id": "ev-1"
+    },
+    {
+      "name": "Q3 FY2026 AI semiconductor revenue guidance (Broadcom)",
+      "value": 16.0,
+      "unit": "USD billion",
+      "period": "Q3 FY2026 (guidance)",
+      "growth": ">200% YoY",
+      "source_id": "ev-1"
+    },
+    {
+      "name": "FY2026 AI semiconductor revenue guidance (Broadcom)",
+      "value": 56,
+      "unit": "USD billion",
+      "period": "FY2026 (guidance)",
+      "growth": "~180% YoY",
+      "source_id": "ev-1"
+    },
+    {
+      "name": "FY2027 AI semiconductor revenue target (Broadcom)",
+      "value": "in excess of 100",
+      "unit": "USD billion",
+      "period": "FY2027 (guidance)",
+      "growth": null,
+      "source_id": "ev-1"
+    },
+    {
+      "name": "Committed AI-specific order backlog (Broadcom)",
+      "value": 73,
+      "unit": "USD billion",
+      "period": "as of Q2 FY2026",
+      "growth": null,
+      "source_id": "ev-1"
+    },
+    {
+      "name": "TSMC CoWoS capacity, end of 2024",
+      "value": 35000,
+      "unit": "wafers/month",
+      "period": "end of 2024",
+      "growth": null,
+      "source_id": "ev-2"
+    },
+    {
+      "name": "TSMC CoWoS capacity target, end of 2026",
+      "value": "125,000-130,000",
+      "unit": "wafers/month",
+      "period": "end of 2026 (target)",
+      "growth": null,
+      "source_id": "ev-2"
+    },
+    {
+      "name": "TSMC FY2026 capital expenditure guidance",
+      "value": "60-64",
+      "unit": "USD billion",
+      "period": "FY2026 (guidance)",
+      "growth": null,
+      "source_id": "ev-2"
+    },
+    {
+      "name": "Nvidia estimated share of 2026 CoWoS wafer allocation",
+      "value": "~60",
+      "unit": "percent",
+      "period": "2026 (analyst estimate)",
+      "growth": null,
+      "source_id": "ev-3"
+    },
+    {
+      "name": "Global CoWoS demand, 2024 vs. 2026 (analyst estimate)",
+      "value": "370,000 (2024) vs. ~1,000,000 (2026)",
+      "unit": "wafers/year",
+      "period": "2024-2026 (analyst estimate)",
+      "growth": null,
+      "source_id": "ev-4"
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Nvidia (merchant GPU)",
+      "kind": "direct competitor",
+      "note": "Holds the largest single estimated share (~60%) of TSMC's 2026 CoWoS allocation and competes with custom ASICs for the same scarce packaging capacity."
+    },
+    {
+      "name": "AMD (merchant GPU / custom silicon hybrid)",
+      "kind": "direct competitor",
+      "note": "Also competes for CoWoS allocation alongside Nvidia and Broadcom-designed custom ASICs."
+    },
+    {
+      "name": "In-house or partially in-house hyperscaler silicon programs (e.g., Google TPU, Meta MTIA)",
+      "kind": "internal build",
+      "note": "Designed with Broadcom in these specific programs per current evidence, but represent a path by which hyperscalers could reduce reliance on any single external ASIC design partner; still dependent on TSMC for fabrication and packaging."
+    },
+    {
+      "name": "Alternative advanced-packaging providers (Samsung, Intel Foundry, fan-out panel-level packaging entrants)",
+      "kind": "indirect alternative",
+      "note": "Not reported at comparable qualified scale or volume for frontier AI accelerators within the research window."
+    }
+  ],
+  "financials": [],
+  "valuation": {
+    "available": false,
+    "reason": "This research pass gathered segment revenue and guidance figures but did not collect current market price, diluted share count, or full financial statements; a defensible valuation was not attempted."
+  },
+  "catalysts": [
+    "Broadcom Q3 FY2026 earnings call (expected September 2026) reporting actual AI semiconductor revenue against the ~$16 billion guide",
+    "TSMC Q3 2026 earnings call (expected mid-October 2026) with updated CoWoS capacity and FY2026/2027 capex guidance",
+    "Disclosure of whether OpenAI's custom-ASIC shipment timeline slips further or stabilizes",
+    "Further disclosures on Google's plans to externally supply TPU capacity"
+  ],
+  "bear_case": [
+    {
+      "dimension": "Supply",
+      "argument": "TSMC's own guidance targets nearly quadrupling CoWoS capacity in about two years (35,000 to 125,000-130,000 wafers/month); if that ramp executes on schedule while AI capital expenditure growth decelerates even modestly, the packaging bottleneck could ease or flip toward oversupply, echoing prior semiconductor capacity cycles."
+    },
+    {
+      "dimension": "Competition",
+      "argument": "Alternative packaging technologies (fan-out panel-level packaging, or Samsung/Intel Foundry advanced-packaging entrants) could absorb overflow demand faster than currently assumed, eroding CoWoS-specific scarcity and TSMC's allocation leverage."
+    },
+    {
+      "dimension": "Execution",
+      "argument": "Broadcom's growth thesis rests on committed backlog from six customers, with reported schedule slippage already observed on at least one program (OpenAI); further in-house design success at hyperscalers or additional program delays could shift AI-accelerator demand away from Broadcom-designed ASICs even if packaging capacity itself is unconstrained."
+    },
+    {
+      "dimension": "Demand",
+      "argument": "All of these figures assume hyperscaler AI capital expenditure keeps compounding at its current pace; a broad AI capex pause would reduce demand for both merchant GPUs and custom ASICs simultaneously, easing pressure on the packaging bottleneck faster than supply could adjust."
+    }
+  ],
+  "kill_conditions": [
+    {
+      "condition": "CoWoS lead times normalize or capacity is confirmed no longer fully booked",
+      "metric": "TSMC management commentary on CoWoS booking status / reported packaging lead times",
+      "threshold": "TSMC states CoWoS capacity is no longer fully booked for the year, or reported lead times fall to industry-typical levels",
+      "time_window": "next 2-3 quarters",
+      "impact": "invalidate"
+    },
+    {
+      "condition": "Broadcom AI semiconductor revenue misses guidance",
+      "metric": "Quarterly AI semiconductor revenue vs. guided figure",
+      "threshold": "Actual revenue below the guided figure by a material margin for two consecutive quarters",
+      "time_window": "next 2 quarters",
+      "impact": "weaken"
+    },
+    {
+      "condition": "Major AI capex slowdown announced by hyperscaler customers",
+      "metric": "Aggregate hyperscaler capex guidance (Google, Meta, Microsoft, Amazon)",
+      "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+      "time_window": "next 2-3 quarters",
+      "impact": "invalidate"
+    }
+  ],
+  "validation_events": [
+    {
+      "event": "Broadcom Q3 FY2026 earnings call",
+      "expected_window": "September 2026",
+      "supports_if": "AI semiconductor revenue meets or exceeds the ~$16 billion guide and the committed backlog continues growing",
+      "weakens_if": "Revenue misses guidance or backlog growth stalls",
+      "source_to_monitor": "Broadcom investor relations (investors.broadcom.com)"
+    },
+    {
+      "event": "TSMC Q3 2026 earnings call",
+      "expected_window": "mid-October 2026",
+      "supports_if": "Management reiterates that CoWoS capacity is fully booked and maintains or raises 2026/2027 capacity and capex targets",
+      "weakens_if": "Management signals CoWoS capacity easing or capital-expenditure guidance is cut",
+      "source_to_monitor": "TSMC investor relations (investor.tsmc.com)"
+    },
+    {
+      "event": "OpenAI custom-ASIC shipment milestone",
+      "expected_window": "Q3-Q4 2026",
+      "supports_if": "Shipment continues to slip and any delay is explicitly tied to packaging or capacity constraints",
+      "weakens_if": "OpenAI's custom ASIC ships on the revised schedule with no packaging-related delay cited",
+      "source_to_monitor": "OpenAI and Broadcom public statements, trade press"
+    },
+    {
+      "event": "Hyperscaler Q3 2026 capital-expenditure guidance (Google, Meta, Microsoft, Amazon)",
+      "expected_window": "October-November 2026",
+      "supports_if": "Capex guidance continues to grow, sustaining demand pressure on packaging capacity",
+      "weakens_if": "Capex guidance decelerates or is cut",
+      "source_to_monitor": "Respective hyperscaler quarterly earnings releases"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ev-1",
+      "claim": "Broadcom Q2 FY2026 AI semiconductor revenue, Q3/FY2026/FY2027 guidance, six core custom-chip customers, and committed backlog figures",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-05032026x8kxex99.htm",
+      "source_title": "Broadcom Inc. Form 8-K, Exhibit 99.1 -- Second Quarter Fiscal Year 2026 Financial Results press release",
+      "source_type": "primary",
+      "published_at": "2026-06-03",
+      "retrieved_at": "2026-08-19",
+      "quote_or_extract": "AI semiconductor revenue of $10.8 billion in Q2 FY2026, guidance for AI semiconductor revenue to grow over 200% year-over-year to $16.0 billion in Q3 FY2026; full-year fiscal 2026 AI semiconductor revenue guided to approximately $56 billion; fiscal 2027 AI semiconductor revenue guidance reiterated at 'in excess of $100 billion'; six core custom-chip customers including Google, Meta, Anthropic and OpenAI; committed AI-specific backlog in excess of $73 billion.",
+      "confidence": "high"
+    },
+    {
+      "id": "ev-2",
+      "claim": "TSMC CoWoS advanced-packaging capacity fully booked through 2026, capacity expansion targets, and 2026 capital-expenditure guidance",
+      "source_url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-07/9b7865fc366e66c9e73f04ab72a2a6c3c00fb49e/2Q26%20Presentation%20(E)_WoG.pdf",
+      "source_title": "TSMC Second Quarter 2026 Earnings Conference -- official investor presentation and earnings call materials",
+      "source_type": "primary",
+      "published_at": "2026-07-16",
+      "retrieved_at": "2026-08-19",
+      "quote_or_extract": "CoWoS advanced-packaging capacity described as extremely tight and fully booked through 2026; capacity being expanded from roughly 35,000 wafers/month at the end of 2024 toward a target of roughly 125,000-130,000 wafers/month by the end of 2026; 2026 capital expenditure raised to $60-64 billion, with the majority directed to leading-edge (2nm/3nm) and advanced-packaging capacity.",
+      "confidence": "high"
+    },
+    {
+      "id": "ev-3",
+      "claim": "Nvidia's estimated dominant share of TSMC's advanced-packaging capacity and the competitive dynamics of packaging allocation",
+      "source_url": "https://www.cnbc.com/2026/04/08/tsmc-nvidia-advanced-packaging-intel.html",
+      "source_title": "CNBC: 'Nvidia snaps up AI chip packaging capacity as TSMC expands in U.S.'",
+      "source_type": "secondary",
+      "published_at": "2026-04-08",
+      "retrieved_at": "2026-08-19",
+      "quote_or_extract": "Nvidia has secured roughly 60% of TSMC's CoWoS advanced-packaging capacity, intensifying competition for allocation among AI chip designers as TSMC expands packaging capacity domestically and overseas.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-4",
+      "claim": "Analyst (Morgan Stanley) estimates of global CoWoS demand growth and customer-level wafer allocation, including Broadcom's custom-ASIC allocation tied to Google TPU, Meta and OpenAI programs",
+      "source_url": "https://eu.36kr.com/en/p/3580962946874242",
+      "source_title": "'Who Will Divide Up the CoWoS Production Capacity in 2026?' -- industry report citing Morgan Stanley research",
+      "source_type": "discovery",
+      "published_at": "2026-07",
+      "retrieved_at": "2026-08-19",
+      "quote_or_extract": "Morgan Stanley estimates global CoWoS demand rising from about 370,000 wafers in 2024 to roughly 1,000,000 wafers in 2026; Broadcom's 2026 CoWoS allocation for custom ASICs reported at roughly 150,000 wafers, including about 90,000 for Google's TPU program, 50,000 for Meta, and 10,000 for OpenAI.",
+      "confidence": "low"
+    },
+    {
+      "id": "ev-5",
+      "claim": "Details of Broadcom's named custom-ASIC customers, the OpenAI custom-chip program and timeline, and Meta's MTIA commitment",
+      "source_url": "https://www.ibtimes.com/what-broadcom-unknown-company-building-ai-chips-powering-google-anthropic-openai-meta-3802922",
+      "source_title": "IBTimes: 'What Is Broadcom? The Unknown Company Building the AI Chips Powering Google, Anthropic, OpenAI and Meta'",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-08-19",
+      "quote_or_extract": "Broadcom's confirmed custom-ASIC (XPU) customers include Google, Meta, OpenAI and Anthropic; OpenAI's first custom AI ASIC is in development with Broadcom in a program reported at roughly $10 billion, with TSMC as the planned manufacturer, and initial shipment ambitions have slipped from Q2 2026 toward Q3 2026 or later; Meta committed in April 2026 to one gigawatt of custom chips built with Broadcom through its MTIA program.",
+      "confidence": "medium"
+    }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}
