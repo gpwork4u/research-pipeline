@@ -11,12 +11,14 @@
     "validate:file": "tsx src/validate-file.ts",
     "write": "tsx src/main.ts --stage write",
     "build:rss": "tsx src/main.ts --stage rss",
+    "build:site": "tsx src/site.ts",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.117.1",
-    "ajv": "^8.17.1"
+    "ajv": "^8.17.1",
+    "marked": "^18.0.10"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
