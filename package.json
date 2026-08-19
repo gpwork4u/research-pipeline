@@ -8,6 +8,7 @@
     "daily": "tsx src/main.ts",
     "research": "tsx src/main.ts --stage research",
     "validate": "tsx src/main.ts --stage validate",
+    "validate:file": "tsx src/validate-file.ts",
     "write": "tsx src/main.ts --stage write",
     "build:rss": "tsx src/main.ts --stage rss",
     "typecheck": "tsc --noEmit",
