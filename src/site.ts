@@ -46,6 +46,54 @@ const UI: Record<Lang, Record<string, string>> = {
 const esc = (s: string): string =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+// Section headings are canonical in the markdown files (spec §29); the display
+// layer swaps them per language so a page is never mixed-language. Keyed by
+// the canonical heading; a reverse map lets already-translated headings in
+// .zh.md files resolve to the same key.
+export const SECTION_LABELS: Record<string, { en: string; zh: string }> = {
+  一句話結論: { en: "One-Sentence Conclusion", zh: "一句話結論" },
+  "Executive Summary": { en: "Executive Summary", zh: "重點摘要" },
+  "Research Question / Why Now": { en: "Research Question / Why Now", zh: "研究問題與時機" },
+  "Known Facts": { en: "Known Facts", zh: "已知事實" },
+  "Reasonable Inferences": { en: "Reasonable Inferences", zh: "合理推論" },
+  Unknowns: { en: "Unknowns", zh: "未知事項" },
+  "Core Mechanism": { en: "Core Mechanism", zh: "核心機制" },
+  "Industry Chain": { en: "Industry Chain", zh: "產業鏈" },
+  "Bottleneck Analysis": { en: "Bottleneck Analysis", zh: "瓶頸分析" },
+  "Key Metrics": { en: "Key Metrics", zh: "關鍵指標" },
+  Competition: { en: "Competition", zh: "競爭格局" },
+  "Financial / Valuation": { en: "Financial / Valuation", zh: "財務與估值" },
+  Catalysts: { en: "Catalysts", zh: "催化劑" },
+  "Strongest Bear Case": { en: "Strongest Bear Case", zh: "最強反方論點" },
+  "Kill Conditions": { en: "Kill Conditions", zh: "推翻條件" },
+  "30–90 Day Validation": { en: "30–90 Day Validation", zh: "30–90 天驗證" },
+  "Final Assessment": { en: "Final Assessment", zh: "總體評估" },
+  Sources: { en: "Sources", zh: "資料來源" },
+};
+
+const ZH_TO_KEY: Record<string, string> = Object.fromEntries(
+  Object.entries(SECTION_LABELS).map(([key, v]) => [v.zh, key]),
+);
+
+/** "Known Facts（已知事實）" → "Known Facts"; unify hyphen/en-dash. */
+function canonicalHeadingKey(raw: string): string | null {
+  const stripped = raw
+    .replace(/[（(][^（）()]*[）)]\s*$/, "")
+    .replace(/(\d)\s*-\s*(\d)/g, "$1–$2")
+    .trim();
+  if (SECTION_LABELS[stripped]) return stripped;
+  if (ZH_TO_KEY[stripped]) return ZH_TO_KEY[stripped];
+  return null;
+}
+
+/** Replace canonical section headings with the target language's labels. */
+export function localizeHeadings(markdown: string, lang: Lang): string {
+  return markdown.replace(/^# (.+)$/gm, (line, text: string) => {
+    const key = canonicalHeadingKey(text);
+    return key ? `# ${SECTION_LABELS[key][lang]}` : line;
+  });
+}
+
 const VERDICT_CLASS: Record<string, string> = {
   "BUILD NOW": "v-build",
   VALIDATE: "v-validate",
@@ -228,7 +276,7 @@ export function renderReportPage(
   const ui = UI[lang];
   const fm = parseFrontMatter(markdown) as Partial<ReportMeta>;
   const title = (fm.title as string) || meta.title;
-  const body = markdown.replace(/^---\n[\s\S]*?\n---\n/, "");
+  const body = localizeHeadings(markdown.replace(/^---\n[\s\S]*?\n---\n/, ""), lang);
   const rootPrefix = lang === "zh" ? "../../../" : "../../";
   let html = marked.parse(body, { async: false }) as string;
   // Asset references inside reports resolve against the site root.
