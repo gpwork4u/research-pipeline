@@ -24,7 +24,7 @@ export async function translateReport(
     `- Translation ONLY: do not add, remove, or reinterpret any claim.\n` +
     `- Keep the YAML front matter keys and structure identical. Translate only the "title" value; keep date, slug, research_type, topics, companies, verdict, confidence unchanged. Translate the primary_question value.\n` +
     `- Keep all numbers, URLs, evidence ids (ev-*), table structure, and section order identical.\n` +
-    `- Section headings: translate to natural Traditional Chinese, but keep "# 一句話結論" as-is.\n` +
+    `- Keep every top-level section heading (lines starting with "# ") EXACTLY as in the original — do not translate or annotate headings; the site localizes headings at display time.\n` +
     `- Keep company/product names and technical terms (CoWoS, HBM, ASIC...) in their original form.\n\n` +
     `Report:\n\n${reportMarkdown}`;
   const result = await llm.generateStructured<{ markdown: string }>(
