@@ -18,6 +18,8 @@ export interface PipelineConfig {
   siteTitle: string;
   siteUrl: string;
   siteDescription: string;
+  siteTitleZh?: string;
+  siteDescriptionZh?: string;
 }
 
 export interface CliOptions {

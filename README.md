@@ -34,7 +34,9 @@ RSS Builder      — public/feed.xml + public/index.json
 ## Repository layout
 
 ```text
-reports/YYYY/MM/YYYY-MM-DD-slug.md    published reports
+reports/YYYY/MM/YYYY-MM-DD-slug.md    published reports (English)
+reports/YYYY/MM/YYYY-MM-DD-slug.zh.md Traditional Chinese edition (same data)
+assets/YYYY-MM-DD-slug/charts.json    chart data referenced by the site
 research/YYYY/MM/YYYY-MM-DD-slug.json structured research data
 memory/                               topics / theses / watchlist / companies
 prompts/                              agent prompts
@@ -145,6 +147,20 @@ Set the `LLM_MODEL` env var (e.g. in the workflow) or edit the default in
 `src/providers.ts`. To switch vendors entirely, implement `LLMProvider` /
 `SearchProvider` (`src/providers.ts`) with another SDK and wire it in
 `src/main.ts` — no other module talks to a vendor directly.
+
+## i18n & static site
+
+- The site is bilingual with separated language trees:
+  English at `/` + `/reports/<slug>/`, 繁體中文 at `/zh/` + `/zh/reports/<slug>/`,
+  with a language switcher on every page. A missing `.zh.md` falls back to the
+  English text with a notice.
+- The pipeline translates each published report to Traditional Chinese
+  (`src/translator.ts`) as a non-fatal stage; translations are pure translations
+  of validated content — never new research.
+- Charts: `assets/<date>-<slug>/charts.json` series are rendered as theme-aware
+  inline SVG on the report page (`src/charts.ts`); each chart carries a
+  `source_id` pointing at an evidence object. Images placed under `assets/` can
+  be referenced from report markdown as `assets/...`.
 
 ## Governance
 

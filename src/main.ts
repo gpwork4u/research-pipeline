@@ -23,6 +23,7 @@ import {
 import { reviewReport } from "./reviewer.js";
 import { buildRss } from "./rss.js";
 import { selectTopic } from "./topic-selector.js";
+import { translateReport, zhReportPath } from "./translator.js";
 import { validateResearch } from "./validator.js";
 import { renderReport, writeNarrative } from "./writer.js";
 import { exampleSearchResults } from "./mock-fixtures.js";
@@ -149,6 +150,16 @@ async function main() {
   fs.writeFileSync(reportFile, reportMd);
   const reportRel = path.relative(ROOT_DIR, reportFile);
   log(`report written: ${reportRel}`);
+
+  // Stage: Translate — bilingual (zh-TW) edition; failure is non-fatal.
+  try {
+    const zhMarkdown = await translateReport(llm, reportMd);
+    const zhFile = zhReportPath(reportFile);
+    fs.writeFileSync(zhFile, zhMarkdown);
+    log(`zh report written: ${path.relative(ROOT_DIR, zhFile)}`);
+  } catch (err) {
+    log(`zh translation failed (non-fatal): ${(err as Error).message}`);
+  }
   log(`research written: ${path.relative(ROOT_DIR, researchFile)}`);
 
   // Stage: Update Memory.

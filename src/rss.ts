@@ -29,7 +29,9 @@ export function collectReports(rootDir: string): ReportMeta[] {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
       const full = path.join(dir, entry.name);
       if (entry.isDirectory()) walk(full);
-      else if (entry.name.endsWith(".md")) {
+      else if (entry.name.endsWith(".md") && !entry.name.endsWith(".zh.md")) {
+        // .zh.md files are translations of the sibling .md — the site renders
+        // them under /zh/, but the feed and index list each report once.
         const md = fs.readFileSync(full, "utf8");
         try {
           const fm = parseFrontMatter(md) as Record<string, never>;

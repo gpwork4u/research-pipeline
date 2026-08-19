@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 /** Paths the daily agent is allowed to modify (spec §41). */
-export const ALLOWED_PATHS = ["reports", "research", "memory", "public"];
+export const ALLOWED_PATHS = ["reports", "research", "memory", "public", "assets"];
 
 function git(rootDir: string, args: string[]): string {
   return execFileSync("git", args, { cwd: rootDir, encoding: "utf8" }).trim();

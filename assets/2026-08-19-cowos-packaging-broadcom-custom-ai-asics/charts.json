@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Broadcom AI semiconductor revenue (quarterly)",
+    "title_zh": "Broadcom AI 半導體營收（季度）",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "ev-1",
+    "series": [
+      { "label": "Q2 FY26", "value": 10.8 },
+      { "label": "Q3 FY26 (guidance)", "value": 16.0 }
+    ]
+  },
+  {
+    "title": "TSMC CoWoS capacity ramp (range midpoint for end-2026 target)",
+    "title_zh": "TSMC CoWoS 產能擴張（2026 年底目標取區間中點）",
+    "type": "bar",
+    "unit": "wafers/month",
+    "source_id": "ev-2",
+    "series": [
+      { "label": "End 2024", "value": 35000 },
+      { "label": "End 2026 (target)", "value": 127500 }
+    ]
+  }
+]
