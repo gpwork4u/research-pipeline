@@ -2,7 +2,7 @@
   "topic": {
     "title": "HBM memory supply as the binding constraint on AI accelerators",
     "slug": "hbm-supply-ai-accelerators",
-    "date": "2026-08-19",
+    "date": "2026-08-01",
     "research_type": "NEW",
     "categories": [
       "semiconductors",
@@ -225,8 +225,8 @@
       "source_url": "https://example.com/supplier-a-earnings-call",
       "source_title": "Supplier A quarterly earnings call transcript",
       "source_type": "primary",
-      "published_at": "2026-08-19",
-      "retrieved_at": "2026-08-19",
+      "published_at": "2026-08-01",
+      "retrieved_at": "2026-08-01",
       "quote_or_extract": "Our HBM capacity is essentially sold out for the coming year.",
       "confidence": "high"
     },
@@ -236,8 +236,8 @@
       "source_url": "https://example.com/supplier-a-ir-deck",
       "source_title": "Supplier A investor presentation",
       "source_type": "primary",
-      "published_at": "2026-08-19",
-      "retrieved_at": "2026-08-19",
+      "published_at": "2026-08-01",
+      "retrieved_at": "2026-08-01",
       "quote_or_extract": "HBM bit growth materially outpaces conventional DRAM.",
       "confidence": "medium"
     },
@@ -247,8 +247,8 @@
       "source_url": "https://example.com/reuters-hbm-packaging",
       "source_title": "Reuters: packaging bottleneck in HBM supply",
       "source_type": "secondary",
-      "published_at": "2026-08-19",
-      "retrieved_at": "2026-08-19",
+      "published_at": "2026-08-01",
+      "retrieved_at": "2026-08-01",
       "quote_or_extract": "TSV packaging capacity remains the limiting step.",
       "confidence": "medium"
     }

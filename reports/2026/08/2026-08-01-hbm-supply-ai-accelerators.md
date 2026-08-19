@@ -1,6 +1,6 @@
 ---
 title: "HBM memory supply as the binding constraint on AI accelerators"
-date: "2026-08-19"
+date: "2026-08-01"
 slug: "hbm-supply-ai-accelerators"
 research_type: NEW
 topics: ["semiconductors", "ai-infrastructure"]
@@ -121,6 +121,6 @@ Verdict VALIDATE: the topic merits continued research with defined validation ev
 
 # Sources
 
-- `ev-1` [primary] [Supplier A quarterly earnings call transcript](https://example.com/supplier-a-earnings-call) (2026-08-19)
-- `ev-2` [primary] [Supplier A investor presentation](https://example.com/supplier-a-ir-deck) (2026-08-19)
-- `ev-3` [secondary] [Reuters: packaging bottleneck in HBM supply](https://example.com/reuters-hbm-packaging) (2026-08-19)
+- `ev-1` [primary] [Supplier A quarterly earnings call transcript](https://example.com/supplier-a-earnings-call) (2026-08-01)
+- `ev-2` [primary] [Supplier A investor presentation](https://example.com/supplier-a-ir-deck) (2026-08-01)
+- `ev-3` [secondary] [Reuters: packaging bottleneck in HBM supply](https://example.com/reuters-hbm-packaging) (2026-08-01)
