@@ -203,20 +203,21 @@ function sitePage(o: PageOpts): string {
   const siteTitle =
     o.lang === "zh" ? (o.config.siteTitleZh ?? o.config.siteTitle) : o.config.siteTitle;
   const homePath = o.lang === "zh" ? `${o.rootPrefix}zh/` : o.rootPrefix || "./";
+  const feedHref = o.lang === "zh" ? `${o.rootPrefix}zh/feed.xml` : `${o.rootPrefix}feed.xml`;
   return `<!doctype html>
 <html lang="${o.lang === "zh" ? "zh-Hant" : "en"}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(o.title)}</title>
-<link rel="alternate" type="application/rss+xml" title="${esc(siteTitle)}" href="${o.rootPrefix}feed.xml">
+<link rel="alternate" type="application/rss+xml" title="${esc(siteTitle)}" href="${feedHref}">
 <style>${STYLE}</style>
 </head>
 <body>
 <div class="topbar"><div class="inner">
   <a class="brand" href="${homePath}">${esc(siteTitle)}</a>
   <span class="spacer"></span>
-  <a href="${o.rootPrefix}feed.xml">${ui.rss}</a>
+  <a href="${feedHref}">${ui.rss}</a>
   <a class="lang" href="${o.rootPrefix}${o.altPath}">${ui.switchLabel}</a>
 </div></div>
 <main>
@@ -404,6 +405,10 @@ export function buildSite(rootDir: string = ROOT_DIR): string {
   for (const f of ["feed.xml", "index.json"]) {
     const src = path.join(rootDir, "public", f);
     if (fs.existsSync(src)) fs.copyFileSync(src, path.join(outDir, f));
+  }
+  const zhFeed = path.join(rootDir, "public", "feed.zh.xml");
+  if (fs.existsSync(zhFeed)) {
+    fs.copyFileSync(zhFeed, path.join(outDir, "zh", "feed.xml"));
   }
   fs.writeFileSync(path.join(outDir, ".nojekyll"), "");
 

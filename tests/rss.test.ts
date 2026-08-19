@@ -45,6 +45,24 @@ test("feed item count respects feedItemLimit", () => {
   assert.equal(count, config.feedItemLimit);
 });
 
+test("zh feed uses zh titles, zh descriptions, and /zh/ links with en fallback", () => {
+  const withZh = meta({
+    title_zh: "報告 A",
+    one_sentence_conclusion_zh: "A 很可能是瓶頸。",
+    executive_summary_zh: "中文摘要。",
+  });
+  const xml = buildFeedXml([withZh], config, "zh");
+  assert.match(xml, /<language>zh-Hant<\/language>/);
+  assert.match(xml, /<title>報告 A<\/title>/);
+  assert.match(xml, /A 很可能是瓶頸。/);
+  assert.match(xml, /\/zh\/reports\/report-a<\/link>/);
+
+  // No translation -> fall back to the English fields, still /zh/ links.
+  const fallback = buildFeedXml([meta()], config, "zh");
+  assert.match(fallback, /<title>Report &lt;A&gt; &amp; B<\/title>/);
+  assert.match(fallback, /\/zh\/reports\/report-a<\/link>/);
+});
+
 test("index.json contains permanent URLs", () => {
   const index = JSON.parse(buildIndexJson([meta()], config));
   assert.equal(index.length, 1);

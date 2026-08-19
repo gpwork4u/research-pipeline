@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>自動化研究報告</title>
+    <link>https://gpwork4u.github.io/research-pipeline/zh/</link>
+    <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
+    <language>zh-Hant</language>
+    <item>
+      <title>CoWoS 先進封裝產能：AI 加速器供給的關鍵限制</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/cowos-packaging-broadcom-custom-ai-asics</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/cowos-packaging-broadcom-custom-ai-asics</guid>
+      <pubDate>Wed, 19 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <category>advanced-packaging</category>
+      <description>目前 AI 加速器供給的結構性瓶頸在於 CoWoS 先進封裝產能，而非矽晶圓投片或 HBM 記憶體；且其配額分配方式正在鞏固最大的既有買家，而非擴大參與者的範圍。
+
+Broadcom 的 2026 財年財測與 TSMC 自身的產能揭露，都指向同一個關鍵限制：TSMC 的 CoWoS 先進封裝產線已被預訂一空直到 2026 年底，而即使 TSMC 正努力將月產能提升到接近四倍，擴產仍受限於長達數年的設備交期。Broadcom 的客製 AI 加速器（XPU/ASIC）業務與 Nvidia 的商用 GPU 共用同一池稀缺封裝產能，其財測包括 Q3 FY2026 AI 半導體營收 160 億美元、全年約 560 億美元，以及超過 730 億美元、集中於六家超大規模客戶的已承諾訂單。由於封裝配額是透過多年期承諾量而非現貨採購取得，這種稀缺性看來正在強化資本最雄厚的大型買家（Nvidia 與 Broadcom 的六家錨定客戶）的地位，而非擴大供給基礎。主要不確定性兼具週期性與結構性：TSMC 宣示的 2026 年底產能目標若能達成並持續，將超過目前的全年需求估計；且歷史顯示，一旦 AI 資本支出減速，封裝與記憶體週期可能迅速從稀缺翻轉為過剩。</description>
+    </item>
+    <item>
+      <title>HBM 記憶體供給作為 AI 加速器的關鍵限制</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/hbm-supply-ai-accelerators</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/hbm-supply-ai-accelerators</guid>
+      <pubDate>Sat, 01 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <description>HBM 封裝產能目前符合 AI 加速器供給的結構性瓶頸條件，但記憶體產業的週期歷史顯示應先驗證再下定論。
+
+供應商的公開說法顯示 HBM 產能已全數售罄，而需求仍在加速；擴產受限於長達數年的封裝設備交期。依瓶頸框架評估，HBM 堆疊／TSV 封裝符合結構性瓶頸的三項條件：需求極高、供給彈性低、難以替代。主要不確定性在於週期性：三大供應商同時擴產，若 AI 資本支出減速，稀缺可能迅速翻轉為過剩。因此本論點應追蹤驗證事件，而非立即建立高度信念。</description>
+    </item>
+  </channel>
+</rss>

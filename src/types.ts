@@ -169,4 +169,8 @@ export interface ReportMeta {
   path: string;
   one_sentence_conclusion?: string;
   executive_summary?: string;
+  /** Filled from the sibling .zh.md translation when it exists. */
+  title_zh?: string;
+  one_sentence_conclusion_zh?: string;
+  executive_summary_zh?: string;
 }

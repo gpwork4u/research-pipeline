@@ -14,7 +14,9 @@ export function escapeXml(text: string): string {
 }
 
 function extractSection(markdown: string, heading: string): string {
-  const re = new RegExp(`^# ${heading}\\s*\\n+([\\s\\S]*?)(?=\\n# |$)`, "m");
+  // Tolerates legacy annotated headings like "# Executive Summary（摘要）".
+  const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`^# ${escaped}[^\\n]*\\n+([\\s\\S]*?)(?=\\n# |$)`, "m");
   const match = markdown.match(re);
   return match ? match[1].trim() : "";
 }
@@ -35,7 +37,23 @@ export function collectReports(rootDir: string): ReportMeta[] {
         const md = fs.readFileSync(full, "utf8");
         try {
           const fm = parseFrontMatter(md) as Record<string, never>;
+          const zhFile = full.replace(/\.md$/, ".zh.md");
+          let zhFields: Partial<ReportMeta> = {};
+          if (fs.existsSync(zhFile)) {
+            const zhMd = fs.readFileSync(zhFile, "utf8");
+            try {
+              const zhFm = parseFrontMatter(zhMd) as Record<string, string>;
+              zhFields = {
+                title_zh: zhFm["title"],
+                one_sentence_conclusion_zh: extractSection(zhMd, "一句話結論"),
+                executive_summary_zh: extractSection(zhMd, "Executive Summary"),
+              };
+            } catch {
+              // a broken translation never blocks the English feed
+            }
+          }
           found.push({
+            ...zhFields,
             title: fm["title"],
             date: fm["date"],
             slug: fm["slug"],
@@ -59,29 +77,40 @@ export function collectReports(rootDir: string): ReportMeta[] {
   return found.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export function reportUrl(config: PipelineConfig, meta: ReportMeta): string {
+export function reportUrl(
+  config: PipelineConfig,
+  meta: ReportMeta,
+  lang: "en" | "zh" = "en",
+): string {
   // Permanent URL: /reports/<slug> — never changes once published (spec §39).
-  return `${config.siteUrl.replace(/\/$/, "")}/reports/${meta.slug}`;
+  const base = config.siteUrl.replace(/\/$/, "");
+  return lang === "zh" ? `${base}/zh/reports/${meta.slug}` : `${base}/reports/${meta.slug}`;
 }
 
 export function buildFeedXml(
   reports: ReportMeta[],
   config: PipelineConfig,
+  lang: "en" | "zh" = "en",
 ): string {
   const items = reports
     .slice(0, config.feedItemLimit)
     .map((r) => {
-      const description = [
-        r.one_sentence_conclusion,
-        r.executive_summary,
-      ]
+      const title = lang === "zh" ? (r.title_zh ?? r.title) : r.title;
+      const description = (lang === "zh"
+        ? [
+            r.one_sentence_conclusion_zh || r.one_sentence_conclusion,
+            r.executive_summary_zh || r.executive_summary,
+          ]
+        : [r.one_sentence_conclusion, r.executive_summary]
+      )
         .filter(Boolean)
         .join("\n\n");
+      const url = reportUrl(config, r, lang);
       return [
         "    <item>",
-        `      <title>${escapeXml(r.title)}</title>`,
-        `      <link>${escapeXml(reportUrl(config, r))}</link>`,
-        `      <guid isPermaLink="true">${escapeXml(reportUrl(config, r))}</guid>`,
+        `      <title>${escapeXml(title)}</title>`,
+        `      <link>${escapeXml(url)}</link>`,
+        `      <guid isPermaLink="true">${escapeXml(url)}</guid>`,
         `      <pubDate>${new Date(`${r.date}T0${config.publicationHour}:00:00+08:00`).toUTCString()}</pubDate>`,
         `      <category>${escapeXml(r.research_type)}</category>`,
         ...r.topics.map((t) => `      <category>${escapeXml(t)}</category>`),
@@ -95,10 +124,10 @@ export function buildFeedXml(
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<rss version="2.0">',
     "  <channel>",
-    `    <title>${escapeXml(config.siteTitle)}</title>`,
-    `    <link>${escapeXml(config.siteUrl)}</link>`,
-    `    <description>${escapeXml(config.siteDescription)}</description>`,
-    `    <language>en</language>`,
+    `    <title>${escapeXml(lang === "zh" ? (config.siteTitleZh ?? config.siteTitle) : config.siteTitle)}</title>`,
+    `    <link>${escapeXml(lang === "zh" ? `${config.siteUrl.replace(/\/$/, "")}/zh/` : config.siteUrl)}</link>`,
+    `    <description>${escapeXml(lang === "zh" ? (config.siteDescriptionZh ?? config.siteDescription) : config.siteDescription)}</description>`,
+    `    <language>${lang === "zh" ? "zh-Hant" : "en"}</language>`,
     items,
     "  </channel>",
     "</rss>",
@@ -141,7 +170,8 @@ export function buildRss(rootDir: string, config: PipelineConfig): {
   fs.mkdirSync(publicDir, { recursive: true });
   const feedPath = path.join(publicDir, "feed.xml");
   const indexPath = path.join(publicDir, "index.json");
-  fs.writeFileSync(feedPath, buildFeedXml(reports, config));
+  fs.writeFileSync(feedPath, buildFeedXml(reports, config, "en"));
+  fs.writeFileSync(path.join(publicDir, "feed.zh.xml"), buildFeedXml(reports, config, "zh"));
   fs.writeFileSync(indexPath, buildIndexJson(reports, config));
   return { feedPath, indexPath, itemCount: Math.min(reports.length, config.feedItemLimit) };
 }

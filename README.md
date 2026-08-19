@@ -134,8 +134,10 @@ See `schemas/research.schema.json`. Highlights:
 
 ## RSS
 
-- Feed: `public/feed.xml` (RSS 2.0, latest 50 items, description = one-sentence
-  conclusion + executive summary)
+- Feeds: `public/feed.xml` (English) and `public/feed.zh.xml` (繁體中文, served
+  at `/zh/feed.xml` on the site) — RSS 2.0, latest 50 items, description =
+  one-sentence conclusion + executive summary; zh items use the `.zh.md`
+  translation with English fallback
 - Index: `public/index.json`
 - Raw URL once pushed:
   `https://raw.githubusercontent.com/<owner>/research-pipeline/main/public/feed.xml`
