@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Automated Research Reports</title>
+    <link>https://gpwork4u.github.io/research-pipeline</link>
+    <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
+    <language>en</language>
+    <item>
+      <title>HBM memory supply as the binding constraint on AI accelerators</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/hbm-supply-ai-accelerators</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/hbm-supply-ai-accelerators</guid>
+      <pubDate>Wed, 19 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <description>HBM packaging capacity currently qualifies as a structural bottleneck for AI accelerator supply, but memory-cycle history argues for validation before conviction.
+
+Supplier statements indicate HBM capacity is fully committed while demand keeps accelerating, and expansion is gated by multi-year packaging equipment lead times. The bottleneck framework qualifies HBM stacking/TSV packaging as a structural bottleneck: extreme demand growth, low supply elasticity, and hard substitutability. The main uncertainty is cyclical: simultaneous capacity additions by all suppliers could flip scarcity into oversupply if AI capital expenditure decelerates. The thesis therefore warrants tracking its validation events rather than immediate conviction.</description>
+    </item>
+  </channel>
+</rss>

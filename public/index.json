@@ -1,0 +1,20 @@
+[
+  {
+    "title": "HBM memory supply as the binding constraint on AI accelerators",
+    "date": "2026-08-19",
+    "slug": "hbm-supply-ai-accelerators",
+    "research_type": "NEW",
+    "topics": [
+      "semiconductors",
+      "ai-infrastructure"
+    ],
+    "companies": [
+      "Supplier A"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/hbm-supply-ai-accelerators",
+    "path": "reports/2026/08/2026-08-19-hbm-supply-ai-accelerators.md",
+    "one_sentence_conclusion": "HBM packaging capacity currently qualifies as a structural bottleneck for AI accelerator supply, but memory-cycle history argues for validation before conviction."
+  }
+]

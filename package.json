@@ -1,0 +1,25 @@
+{
+  "name": "research-pipeline",
+  "version": "1.0.0",
+  "description": "Automated daily research publishing pipeline",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "daily": "tsx src/main.ts",
+    "research": "tsx src/main.ts --stage research",
+    "validate": "tsx src/main.ts --stage validate",
+    "write": "tsx src/main.ts --stage write",
+    "build:rss": "tsx src/main.ts --stage rss",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.117.1",
+    "ajv": "^8.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,48 @@
+name: Maintenance
+
+# Manually-triggered maintenance: prompt changes, schema migrations, pipeline
+# upgrades, dependency updates. The daily research job must NEVER modify the
+# pipeline itself — that work happens here, by a human or an explicitly
+# instructed coding agent.
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "src/**"
+      - "tests/**"
+      - "schemas/**"
+      - "prompts/**"
+      - "config/**"
+      - "package.json"
+      - "tsconfig.json"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Run tests
+        run: npm test
+
+      - name: Structural dry run (mock providers, no API key)
+        env:
+          FORCE_UPDATE: "true"
+        run: npm run daily -- --dry-run

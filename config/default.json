@@ -1,0 +1,12 @@
+{
+  "timezone": "Asia/Taipei",
+  "publicationHour": 9,
+  "minTopicScore": 23,
+  "recentTopicWindowDays": 30,
+  "minPrimarySources": 2,
+  "minTotalSources": 3,
+  "feedItemLimit": 50,
+  "siteTitle": "Automated Research Reports",
+  "siteUrl": "https://gpwork4u.github.io/research-pipeline",
+  "siteDescription": "Daily automated deep-research reports on technology, industry structure and bottlenecks."
+}
