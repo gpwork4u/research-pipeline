@@ -8,5 +8,7 @@
   "feedItemLimit": 50,
   "siteTitle": "Automated Research Reports",
   "siteUrl": "https://gpwork4u.github.io/research-pipeline",
-  "siteDescription": "Daily automated deep-research reports on technology, industry structure and bottlenecks."
+  "siteDescription": "Daily automated deep-research reports on technology, industry structure and bottlenecks.",
+  "siteTitleZh": "自動化研究報告",
+  "siteDescriptionZh": "每日自動產出的科技、產業結構與瓶頸深度研究報告。"
 }
