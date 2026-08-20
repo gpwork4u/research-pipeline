@@ -1,5 +1,24 @@
 [
   {
+    "title": "Nvidia's $500 billion third-party AI financing push: does it solve a capital bottleneck, or relocate a credit-risk one?",
+    "date": "2026-08-20",
+    "slug": "nvidia-ai-infrastructure-financing-platform",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "capital-markets"
+    ],
+    "companies": [
+      "Nvidia"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/nvidia-ai-infrastructure-financing-platform",
+    "path": "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
+    "one_sentence_conclusion": "Capital itself is not scarce for the AI buildout, but credible, arm's-length underwriting capacity for AI compute as loan collateral is -- and Nvidia's $500 billion financing push, plus its own rapid retreat on the OpenAI Ohio guarantee, is direct evidence of exactly that constraint."
+  },
+  {
     "title": "CoWoS advanced-packaging capacity as the binding constraint on AI accelerator supply",
     "date": "2026-08-19",
     "slug": "cowos-packaging-broadcom-custom-ai-asics",

@@ -6,6 +6,19 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>Nvidia&apos;s $500 billion third-party AI financing push: does it solve a capital bottleneck, or relocate a credit-risk one?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/nvidia-ai-infrastructure-financing-platform</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/nvidia-ai-infrastructure-financing-platform</guid>
+      <pubDate>Thu, 20 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>capital-markets</category>
+      <description>Capital itself is not scarce for the AI buildout, but credible, arm&apos;s-length underwriting capacity for AI compute as loan collateral is -- and Nvidia&apos;s $500 billion financing push, plus its own rapid retreat on the OpenAI Ohio guarantee, is direct evidence of exactly that constraint.
+
+On August 10, 2026, Nvidia announced financing platforms with six major financial institutions -- Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR -- aimed at mobilizing over $500 billion of third-party capital for AI compute infrastructure. This arrives against a backdrop of mounting concern: the Bank for International Settlements&apos; June 2026 Annual Economic Report named an AI-capex bust and &quot;circular financing&quot; collapse among its top financial-stability risks, and Nvidia&apos;s own five-year credit default swap spread hit a record 82 basis points on July 27, 2026 as reports circulated of Nvidia AI infrastructure arrangements potentially exceeding $750 billion. The clearest real-time evidence of where the actual constraint lies emerged within the research window itself: Nvidia&apos;s proposed guarantee for OpenAI&apos;s Ohio data-center campus was cut from roughly $250 billion under discussion in late July to $105 billion when the deal was finally signed on August 17, reportedly after investor pushback over balance-sheet risk concentration -- and reports characterized the original guarantee as necessary in the first place because OpenAI, projected to lose about $14 billion in 2026, lacks an investment-grade credit rating and could not otherwise access debt markets at this scale. This research concludes that global capital supply is not the binding constraint -- private credit and alternative-asset capacity is abundant and can be committed in months -- but that credible underwriting capacity for GPU-backed debt is scarce, because no large AI GPU cluster has yet completed a full multi-year depreciation and resale cycle, leaving lenders unable to confidently price the collateral. The main uncertainty is how much of this is manageable market discipline working as intended versus an early symptom of a larger, poorly disclosed structural fragility.</description>
+    </item>
+    <item>
       <title>CoWoS advanced-packaging capacity as the binding constraint on AI accelerator supply</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/cowos-packaging-broadcom-custom-ai-asics</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/cowos-packaging-broadcom-custom-ai-asics</guid>

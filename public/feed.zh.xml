@@ -6,6 +6,19 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>Nvidia 5,000 億美元第三方 AI 融資計畫：解決的是資本瓶頸，還是把信用風險轉移了位置？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/nvidia-ai-infrastructure-financing-platform</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/nvidia-ai-infrastructure-financing-platform</guid>
+      <pubDate>Thu, 20 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>capital-markets</category>
+      <description>對 AI 建設而言，資本本身並不稀缺；真正稀缺的是願意為 AI 運算資產做擔保、可信賴的第三方信用承作能力——而 Nvidia 的 5,000 億美元融資計畫，以及它自己迅速收縮對 OpenAI 俄亥俄州擔保金額的舉動，正是這項限制的直接證據。
+
+2026 年 8 月 10 日，Nvidia 宣布與六家主要金融機構——Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 與 KKR——建立融資平台，目標為 AI 運算基礎設施募集超過 5,000 億美元的第三方資金。此舉發生在一連串警訊之後：國際清算銀行（BIS）2026 年 6 月的年度經濟報告將 AI 資本支出泡沫破裂與「循環融資」崩潰列為其首要的金融穩定風險之一；而 Nvidia 自身的五年期信用違約交換（CDS）利差在 2026 年 7 月 27 日創下 82 個基點的歷史新高，當時市場傳出 Nvidia 的 AI 基礎設施相關安排總規模可能超過 7,500 億美元。研究期間內浮現的最清楚的即時證據，正好指出真正限制之所在：Nvidia 原本為 OpenAI 俄亥俄州資料中心園區討論中的擔保金額，從 7 月下旬討論的約 2,500 億美元，在 8 月 17 日正式簽署時降至 1,050 億美元——據報導是在投資人針對資產負債表風險過度集中表達疑慮後所做的調整；而多篇報導指出，最初之所以需要如此規模的擔保，是因為 OpenAI（預估 2026 年虧損約 140 億美元）並不具備投資等級信用評等，難以自行取得同等規模的債務融資。本研究的結論是：全球資本供給並非約束所在——私募信貸與另類資產的資金量龐大，且能在數月內到位；真正稀缺的是為 GPU 擔保債務提供可信承作的能力，因為目前尚未有任何大型 AI GPU 叢集完整走過一個多年期的折舊與轉售週期，導致放款方難以有信心地為這類抵押品定價。主要的不確定性在於：這究竟是市場紀律正常運作的表現，還是一個規模更大、揭露不足的結構性脆弱性的早期徵兆。</description>
+    </item>
+    <item>
       <title>CoWoS 先進封裝產能：AI 加速器供給的關鍵限制</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/cowos-packaging-broadcom-custom-ai-asics</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/cowos-packaging-broadcom-custom-ai-asics</guid>

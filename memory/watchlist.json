@@ -34,5 +34,50 @@
     "source_to_monitor": "Respective hyperscaler quarterly earnings releases",
     "origin_report": "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
     "status": "open"
+  },
+  {
+    "event": "Execution of definitive agreements for Nvidia's six AI compute-infrastructure financing platforms",
+    "expected_window": "Q4 2026 - H1 2027",
+    "supports_if": "Agreements are signed with terms showing Nvidia guarantees, equity stakes, or other circular linkages to borrowing counterparties",
+    "weakens_if": "Agreements are signed with fully arm's-length, diversified, transparent terms with no Nvidia guarantee exposure",
+    "source_to_monitor": "NVIDIA Newsroom (nvidianews.nvidia.com) and partner-firm investor communications (Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR)",
+    "origin_report": "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
+    "status": "open"
+  },
+  {
+    "event": "Nvidia quarterly earnings calls and SEC filings disclosing guarantee and financing-commitment exposure",
+    "expected_window": "November 2026 and February 2027",
+    "supports_if": "Nvidia discloses growing guarantee, financing, or equity-stake commitments to AI-lab and hyperscaler customers",
+    "weakens_if": "Nvidia discloses shrinking or capped financing-related exposure, or clarifies prior reported figures were overstated",
+    "source_to_monitor": "Nvidia investor relations / SEC filings",
+    "origin_report": "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
+    "status": "open"
+  },
+  {
+    "event": "Next Bank for International Settlements or IMF financial-stability commentary on AI-related credit risk",
+    "expected_window": "Q4 2026 (BIS quarterly review) / October 2026 (IMF Global Financial Stability Report)",
+    "supports_if": "BIS or IMF reiterate or escalate warnings about AI circular financing and hyperscaler debt",
+    "weakens_if": "BIS or IMF assess AI financing risk as contained or improving",
+    "source_to_monitor": "bis.org and imf.org publications",
+    "origin_report": "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
+    "status": "open"
+  },
+  {
+    "event": "Continued movement in Nvidia and major hyperscaler credit default swap and bond spreads",
+    "expected_window": "ongoing, next 2-3 quarters",
+    "supports_if": "Spreads remain elevated or widen further",
+    "weakens_if": "Spreads normalize toward pre-2026 levels",
+    "source_to_monitor": "Credit market data and financial press coverage of CDS/bond spreads",
+    "origin_report": "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
+    "status": "open"
+  },
+  {
+    "event": "First large-scale secondary-market resale or retirement of 3+ year old frontier AI GPU clusters",
+    "expected_window": "H2 2026 - 2027",
+    "supports_if": "Resale values come in materially below industry retention estimates, consistent with the depreciation bear case",
+    "weakens_if": "Resale values meet or exceed industry retention estimates",
+    "source_to_monitor": "Secondary GPU marketplace data and industry analyst reports",
+    "origin_report": "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
+    "status": "open"
   }
 ]

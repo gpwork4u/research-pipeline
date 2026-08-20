@@ -30,5 +30,37 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-nvidia-ai-infrastructure-financing-platform",
+    "topic": "nvidia-ai-infrastructure-financing-platform",
+    "statement": "Nvidia's push to mobilize over $500 billion in third-party financing does not resolve a capital-quantity bottleneck -- global private credit and alternative-asset capacity is abundant and readily deployed -- but it does not resolve the harder constraint either: credible, arm's-length underwriting capacity for AI compute as loan collateral remains scarce because no large AI GPU cluster has yet completed a full multi-year depreciation and resale cycle, leaving lenders, regulators (BIS), and credit markets (Nvidia's own record CDS spread) unable to price the risk with confidence, while Nvidia's simultaneous role as chip vendor, prospective guarantor, and financing orchestrator is what critics label 'circular financing.'",
+    "confidence": "medium",
+    "created_at": "2026-08-20",
+    "updated_at": "2026-08-20",
+    "supporting_reports": ["reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md"],
+    "kill_conditions": [
+      {
+        "condition": "Definitive financing-platform agreements are disclosed with fully transparent, conventional, arm's-length terms that do not depend on Nvidia guarantees, Nvidia equity stakes in borrowers, or overlapping collateral",
+        "metric": "Disclosed terms of the six financing platforms",
+        "threshold": "Publicly disclosed agreement terms show no Nvidia guarantee or equity linkage to borrowing counterparties",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Nvidia and hyperscaler credit-risk pricing normalizes despite continued AI capex growth",
+        "metric": "Nvidia 5-year CDS spread and hyperscaler investment-grade bond spreads",
+        "threshold": "Sustained normalization to roughly pre-2026 levels (around 40 basis points or below for Nvidia CDS) for at least one full quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Realized secondary-market resale prices for 3+ year old AI GPU clusters come in at or above industry bull-case retention estimates",
+        "metric": "Observed secondary-market GPU resale values as a percentage of original price",
+        "threshold": "Verified resale transactions at or above roughly 50% of original value at three years",
+        "time_window": "next 12-18 months",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

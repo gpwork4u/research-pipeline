@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Nvidia 5-year credit default swap spread",
+    "title_zh": "Nvidia 五年期信用違約交換利差",
+    "type": "bar",
+    "unit": "basis points",
+    "source_id": "ev-4",
+    "series": [
+      { "label": "Pre-summer 2026", "value": 40 },
+      { "label": "Record, July 27, 2026", "value": 82 }
+    ]
+  },
+  {
+    "title": "Nvidia's OpenAI Ohio guarantee: discussed vs. signed",
+    "title_zh": "Nvidia 對 OpenAI 俄亥俄州擔保：討論金額與簽署金額",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "ev-10",
+    "series": [
+      { "label": "Discussed, July 27, 2026", "value": 250 },
+      { "label": "Signed, August 17, 2026", "value": 105 }
+    ]
+  },
+  {
+    "title": "Incremental hyperscaler debt as share of AI capital expenditure",
+    "title_zh": "增量債務占超大規模業者 AI 資本支出之比例",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "ev-7",
+    "series": [
+      { "label": "FY2024", "value": 9 },
+      { "label": "LTM before June 2026", "value": 32 }
+    ]
+  }
+]

@@ -3,5 +3,10 @@
     "name": "Broadcom",
     "reports": ["reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md"],
     "last_updated": "2026-08-19"
+  },
+  {
+    "name": "Nvidia",
+    "reports": ["reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md"],
+    "last_updated": "2026-08-20"
   }
 ]

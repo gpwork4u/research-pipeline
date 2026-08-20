@@ -7,5 +7,14 @@
     "status": "active",
     "categories": ["semiconductors", "ai-infrastructure", "advanced-packaging"],
     "companies": ["Broadcom"]
+  },
+  {
+    "slug": "nvidia-ai-infrastructure-financing-platform",
+    "title": "Nvidia's $500 billion third-party AI financing push: does it solve a capital bottleneck, or relocate a credit-risk one?",
+    "last_updated": "2026-08-20",
+    "reports": ["reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md"],
+    "status": "active",
+    "categories": ["ai-infrastructure", "semiconductors", "capital-markets"],
+    "companies": ["Nvidia"]
   }
 ]
