@@ -26,7 +26,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Without the ANTHROPIC_API_KEY secret this workflow skips cleanly (green):
+  # the Claude cloud routine handles daily publishing in that case, and we
+  # must never publish mock data. Setting the secret activates this job.
+  preflight:
+    runs-on: ubuntu-latest
+    outputs:
+      has_key: ${{ steps.check.outputs.has_key }}
+    steps:
+      - id: check
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "has_key=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_key=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::ANTHROPIC_API_KEY secret is not set — skipping (the Claude cloud routine publishes the daily report)"
+          fi
+
   research:
+    needs: preflight
+    if: needs.preflight.outputs.has_key == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -39,15 +60,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Verify API key is configured
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "::error::ANTHROPIC_API_KEY secret is not set — refusing to run with mock data"
-            exit 1
-          fi
 
       - name: Run tests
         run: npm test
