@@ -62,7 +62,7 @@ npm install
 
 | Variable | Purpose |
 |---|---|
-| `ANTHROPIC_API_KEY` | required for real runs (LLM + web search) |
+| `ANTHROPIC_API_KEY` | only for local/Actions pipeline runs (LLM + web search); the cloud routine needs none |
 | `LLM_MODEL` | optional model override (default `claude-opus-5`) |
 | `DRY_RUN=true` | research + write, but no commit/push |
 | `FORCE_UPDATE=true` | overwrite an existing same-day report |
@@ -98,9 +98,15 @@ npm run typecheck
 
 ## Schedule
 
-`daily-research.yml` runs at `0 1 * * *` UTC = **09:00 Asia/Taipei** daily,
-plus manual `workflow_dispatch`. The daily job refuses to run without the API
-key secret (it will not publish mock data).
+Daily publishing is done by a **Claude Code cloud routine** (09:10
+Asia/Taipei) that acts as the pipeline's LLM directly — no API key needed. It
+follows AGENTS.md, writes only `reports/ research/ memory/ public/ assets/`,
+and pushes to main; GitHub Pages redeploys automatically.
+
+`daily-research.yml` is a manual (`workflow_dispatch`) alternative that runs
+the TypeScript pipeline with your own `ANTHROPIC_API_KEY` secret; without the
+secret it skips cleanly. Re-add a `schedule:` block to make it the daily
+publisher again (idempotency by `date + slug` prevents double publishing).
 
 ## Pipeline stages
 

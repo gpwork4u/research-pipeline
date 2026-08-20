@@ -1,9 +1,10 @@
 name: Daily Research
 
+# Daily publishing is handled by the Claude cloud routine (09:10 Asia/Taipei),
+# which needs no API key. This workflow is kept as a manual, API-key-based
+# alternative: set the ANTHROPIC_API_KEY secret and trigger it by hand (or
+# re-add a `schedule:` block to make it the daily publisher again).
 on:
-  schedule:
-    # 09:00 Asia/Taipei == 01:00 UTC
-    - cron: "0 1 * * *"
   workflow_dispatch:
     inputs:
       topic:
