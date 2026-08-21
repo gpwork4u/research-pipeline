@@ -284,6 +284,13 @@ details.appendix summary { cursor: pointer; color: var(--ink-2);
   font-weight: 600; padding: 0.5rem 0; min-height: 44px;
   display: flex; align-items: center; }
 details.appendix .meta a { overflow-wrap: anywhere; }
+details.appendix li { scroll-margin-top: 4.5rem; }
+details.appendix li:target { background: var(--bg-head); border-radius: 6px;
+  padding: 0.2rem 0.4rem; }
+a.evref { font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.82em; color: var(--accent); text-decoration: none;
+  border-bottom: 1px dotted var(--accent); white-space: nowrap; }
+a.evref:hover { border-bottom-style: solid; }
 
 .cards { list-style: none; padding: 0; margin: 1.5rem 0 0; }
 .cards li { border-top: 1px solid var(--border); padding: 1.3rem 0; }
@@ -305,6 +312,19 @@ footer a { color: var(--ink-3); }
 
 const SCROLL_SPY = `
 <script>
+(function () {
+  // Anchor navigation into the collapsed sources appendix: open it first.
+  function openTarget() {
+    var id = decodeURIComponent(location.hash.slice(1));
+    if (!id) return;
+    var el = document.getElementById(id);
+    if (!el) return;
+    var d = el.closest("details");
+    if (d && !d.open) { d.open = true; el.scrollIntoView(); }
+  }
+  window.addEventListener("hashchange", openTarget);
+  openTarget();
+})();
 (function () {
   if (!("IntersectionObserver" in window)) return;
   var links = document.querySelectorAll(".toc a[href^='#']");
@@ -369,6 +389,33 @@ ${o.body}
 </body>
 </html>
 `;
+}
+
+/**
+ * Turn evidence-id mentions (ev-1, ev-2 …) in already-rendered HTML into
+ * links that jump to the matching entry in the sources appendix. Operates on
+ * text nodes only, so tag attributes (hrefs etc.) are never touched.
+ */
+export function linkEvidenceRefs(html: string): string {
+  return html
+    .split(/(<[^>]+>)/g)
+    .map((part) =>
+      part.startsWith("<")
+        ? part
+        : part.replace(
+            /\bev-(\d+)\b/g,
+            '<a class="evref" href="#src-ev-$1">ev-$1</a>',
+          ),
+    )
+    .join("");
+}
+
+/** Give each source list item an anchor id so evidence refs can target it. */
+export function anchorSourceEntries(html: string): string {
+  return html.replace(
+    /<li><code>ev-(\d+)<\/code>/g,
+    '<li id="src-ev-$1"><code>ev-$1</code>',
+  );
 }
 
 /** Wrap tables for horizontal overflow; zebra only when ≥5 rows and ≥4 cols. */
@@ -517,7 +564,7 @@ ${mdToHtml(s.content, rootPrefix)}
         : `${SECTION_LABELS["Sources"].en} (${count})`;
     appendix = `<details class="appendix" id="sources">
 <summary>${esc(ui.appendix)} · ${esc(summaryLabel)}</summary>
-<div class="meta">${mdToHtml(sources.content, rootPrefix)}</div>
+<div class="meta">${anchorSourceEntries(mdToHtml(sources.content, rootPrefix))}</div>
 </details>`;
     inlineToc.push(`<a href="#sources">${esc(SECTION_LABELS["Sources"][lang])}</a>`);
     tocGroups.push(
@@ -536,7 +583,7 @@ ${mdToHtml(s.content, rootPrefix)}
 ${verdictCard}
 ${notice}
 <nav class="toc-inline">${inlineToc.join("")}</nav>
-${partsHtml.join("\n")}
+${linkEvidenceRefs(partsHtml.join("\n"))}
 ${appendix}
 </article>
 <aside class="toc"><div class="toc-part">${ui.contents}</div>${tocGroups.join("")}</aside>
