@@ -16,5 +16,14 @@
     "status": "active",
     "categories": ["ai-infrastructure", "semiconductors", "capital-markets"],
     "companies": ["Nvidia"]
+  },
+  {
+    "slug": "abf-substrate-ajinomoto-ai-chip-packaging",
+    "title": "ABF dielectric film and Ajinomoto's near-monopoly: the bottleneck emerging behind AI chip packaging as CoWoS eases",
+    "last_updated": "2026-08-21",
+    "reports": ["reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"],
+    "status": "active",
+    "categories": ["semiconductors", "ai-infrastructure", "advanced-packaging", "materials"],
+    "companies": ["Ajinomoto", "Ibiden", "Unimicron"]
   }
 ]

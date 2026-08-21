@@ -1,5 +1,27 @@
 [
   {
+    "title": "ABF dielectric film and Ajinomoto's near-monopoly: the bottleneck emerging behind AI chip packaging as CoWoS eases",
+    "date": "2026-08-21",
+    "slug": "abf-substrate-ajinomoto-ai-chip-packaging",
+    "research_type": "NEW",
+    "topics": [
+      "semiconductors",
+      "ai-infrastructure",
+      "advanced-packaging",
+      "materials"
+    ],
+    "companies": [
+      "Ajinomoto",
+      "Ibiden",
+      "Unimicron"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/abf-substrate-ajinomoto-ai-chip-packaging",
+    "path": "reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md",
+    "one_sentence_conclusion": "As TSMC's CoWoS packaging capacity closes in on demand, the binding constraint on AI accelerator supply is shifting one layer upstream to ABF dielectric film and the substrates built from it -- a genuine structural bottleneck by this research's own strict test, where CoWoS assembly increasingly no longer qualifies."
+  },
+  {
     "title": "Nvidia's $500 billion third-party AI financing push: does it solve a capital bottleneck, or relocate a credit-risk one?",
     "date": "2026-08-20",
     "slug": "nvidia-ai-infrastructure-financing-platform",

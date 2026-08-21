@@ -79,5 +79,41 @@
     "source_to_monitor": "Secondary GPU marketplace data and industry analyst reports",
     "origin_report": "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
     "status": "open"
+  },
+  {
+    "event": "Ajinomoto's next investor disclosures / earnings commentary on its Electronic Materials (ABF) business segment",
+    "expected_window": "around November 2026 (Ajinomoto's fiscal H1, April-September 2026, results)",
+    "supports_if": "Ajinomoto confirms the Q3 2026 price increase took effect, reiterates its ABF capacity timeline (including the reported 2032 new-plant target), and reports continued strong ABF demand/pricing",
+    "weakens_if": "Ajinomoto reports the price increase was scaled back, delayed, or that new capacity is being accelerated materially ahead of 2032",
+    "source_to_monitor": "Ajinomoto Group investor relations (ajinomoto.com)",
+    "origin_report": "reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md",
+    "status": "open"
+  },
+  {
+    "event": "Ibiden's fiscal Q2 FY2026 results (period ending September 2026)",
+    "expected_window": "late October-early November 2026",
+    "supports_if": "Ibiden reiterates that AI-server IC substrate demand continues to exceed capacity and confirms its capex plan and Gama/Ono plant timeline are on track",
+    "weakens_if": "Ibiden reports demand softening relative to capacity, or delays/scales back its FY2026-2028 capital investment plan",
+    "source_to_monitor": "Ibiden investor relations (ibiden.com/ir)",
+    "origin_report": "reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md",
+    "status": "open"
+  },
+  {
+    "event": "Unimicron's Q3 2026 earnings call",
+    "expected_window": "late October 2026",
+    "supports_if": "AI/HPC share of ABF substrate revenue continues rising toward or beyond the ~70% H2 2026 projection and utilization/margin trends show continued capacity constraint",
+    "weakens_if": "Gross margin recovers sharply or AI/HPC revenue share plateaus, suggesting the substrate shortage is easing faster than expected",
+    "source_to_monitor": "Unimicron investor relations (unimicron.com)",
+    "origin_report": "reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's Q3 2026 earnings call: memory/ABF substrate bottleneck commentary",
+    "expected_window": "mid-October 2026",
+    "supports_if": "TSMC management reiterates or escalates memory/ABF substrate bottleneck commentary from the August 11, 2026 OCP APAC Summit remarks",
+    "weakens_if": "TSMC management states the memory/ABF constraint has eased or that CoWoS-adjacent supply chain pressure is resolving faster than expected",
+    "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
+    "origin_report": "reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md",
+    "status": "open"
   }
 ]

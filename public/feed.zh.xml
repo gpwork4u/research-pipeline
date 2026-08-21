@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>ABF 介電膜與 Ajinomoto 的近乎壟斷地位：CoWoS 產能吃緊趨緩後，AI 晶片封裝背後浮現的新瓶頸</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/abf-substrate-ajinomoto-ai-chip-packaging</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/abf-substrate-ajinomoto-ai-chip-packaging</guid>
+      <pubDate>Fri, 21 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <category>advanced-packaging</category>
+      <category>materials</category>
+      <description>隨著台積電 CoWoS 封裝產能逐漸追上需求，AI 加速器供應鏈的約束正在往上游一層轉移，來到 ABF 介電膜與以此製成的載板——依本研究自身嚴格的判準，這是一個真正的結構性瓶頸，而 CoWoS 封裝組裝本身則愈來愈不符合這項資格。
+
+2026 年 8 月 11 日，台積電先進封裝技術暨服務部門副總經理何軍在 OCP APAC 峰會上表示，CoWoS 封裝產能已連續三年幾乎每年翻倍，如今已「非常接近」市場需求——同時明確點名記憶體與 ABF 載板將是 AI 供應鏈的下一個瓶頸。這項發言與一連串具體發展相互呼應：在全球 ABF（Ajinomoto Build-up Film）市場市佔率估計達 95% 以上、幾乎為所有高效能 IC 載板核心介電材料供應商的 Ajinomoto，已通知載板廠自 2026 年第三季起調漲價格 30%；Ibiden 在表示其 AI 伺服器載板需求持續超過產能後，揭露了一項為期三年、約 33 億美元的資本投資計畫（2026–2028 財年）；台灣的欣興電子（Unimicron）則在毛利率因折舊上升壓縮至 2026 年第二季 13.2% 的同時，將 2026 年資本支出上調至約 17 億美元。以本研究嚴格的結構性瓶頸判準（需求 High/Extreme、供給彈性 Low、可替代性 Hard）檢視，ABF 介電膜與以 ABF 為基礎的載板兩個節點均符合資格；而 CoWoS 封裝組裝本身——鑑於台積電自身表示產能三年內幾近三倍成長——在本研究中則被重新歸類為成長領域（Growth Area），而非結構性瓶頸。最主要的不確定性在於：Ajinomoto、Ibiden 與 Unimicron 目前已在進行的多年期產能投資,最終是否會像 CoWoS 本身一樣,在類似的多年期時間軸上緩解這項限制;抑或多家供應商的產能同時到位,反而可能讓當前的短缺翻轉為供過於求——正如這個產業在記憶體與封裝週期中曾經發生過的情況。</description>
+    </item>
+    <item>
       <title>Nvidia 5,000 億美元第三方 AI 融資計畫：解決的是資本瓶頸，還是把信用風險轉移了位置？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/nvidia-ai-infrastructure-financing-platform</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/nvidia-ai-infrastructure-financing-platform</guid>

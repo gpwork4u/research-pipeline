@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Ajinomoto ABF film price index (before vs. after Q3 2026 increase)",
+    "title_zh": "Ajinomoto ABF 薄膜價格指數（漲價前 vs. 2026 年第三季漲價後）",
+    "type": "bar",
+    "unit": "index (100 = pre-increase price)",
+    "source_id": "ev-8",
+    "series": [
+      { "label": "Before increase", "value": 100 },
+      { "label": "After 30% increase (Q3 2026)", "value": 130 }
+    ]
+  },
+  {
+    "title": "Unimicron 2026 capital expenditure: before vs. after board-approved increase",
+    "title_zh": "Unimicron 2026 年資本支出：董事會核准追加前 vs. 追加後",
+    "type": "bar",
+    "unit": "NT$ billion",
+    "source_id": "ev-6",
+    "series": [
+      { "label": "Before board-approved increase (implied)", "value": 34.0 },
+      { "label": "After board-approved increase (2026 total)", "value": 53.7 }
+    ]
+  },
+  {
+    "title": "Unimicron gross margin: prior quarter (implied) vs. Q2 2026",
+    "title_zh": "Unimicron 毛利率：前一季（推算） vs. 2026 年第二季",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "ev-6",
+    "series": [
+      { "label": "Prior quarter (implied, +3.1pp)", "value": 16.3 },
+      { "label": "Q2 2026", "value": 13.2 }
+    ]
+  }
+]

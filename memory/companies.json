@@ -8,5 +8,20 @@
     "name": "Nvidia",
     "reports": ["reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md"],
     "last_updated": "2026-08-20"
+  },
+  {
+    "name": "Ajinomoto",
+    "reports": ["reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"],
+    "last_updated": "2026-08-21"
+  },
+  {
+    "name": "Ibiden",
+    "reports": ["reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"],
+    "last_updated": "2026-08-21"
+  },
+  {
+    "name": "Unimicron",
+    "reports": ["reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"],
+    "last_updated": "2026-08-21"
   }
 ]

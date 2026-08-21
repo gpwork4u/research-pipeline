@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>ABF dielectric film and Ajinomoto&apos;s near-monopoly: the bottleneck emerging behind AI chip packaging as CoWoS eases</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/abf-substrate-ajinomoto-ai-chip-packaging</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/abf-substrate-ajinomoto-ai-chip-packaging</guid>
+      <pubDate>Fri, 21 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <category>advanced-packaging</category>
+      <category>materials</category>
+      <description>As TSMC&apos;s CoWoS packaging capacity closes in on demand, the binding constraint on AI accelerator supply is shifting one layer upstream to ABF dielectric film and the substrates built from it -- a genuine structural bottleneck by this research&apos;s own strict test, where CoWoS assembly increasingly no longer qualifies.
+
+At the OCP APAC Summit on August 11, 2026, TSMC Vice President Jun He said CoWoS advanced-packaging capacity has nearly doubled every year for three consecutive years and is now &quot;very close&quot; to market demand -- while explicitly naming memory and ABF substrates as the AI supply chain&apos;s next bottlenecks. That statement lands alongside a concrete set of developments: Ajinomoto, which holds an estimated 95%+ share of the global market for ABF (Ajinomoto Build-up Film), the core dielectric material used in essentially all high-performance IC package substrates, notified substrate makers of a 30% price increase effective Q3 2026; Ibiden disclosed a roughly $3.3 billion, three-year capital investment plan (FY2026-2028) after stating that AI-server substrate demand continues to exceed its capacity; and Taiwan&apos;s Unimicron raised its 2026 capital expenditure to roughly $1.7 billion even as rising depreciation compressed its gross margin to 13.2% in Q2 2026. Applying this research&apos;s strict Structural Bottleneck test (demand High/Extreme, supply elasticity Low, substitutability Hard), the ABF film and ABF-based substrate nodes both qualify, while CoWoS assembly itself -- given TSMC&apos;s own account of capacity nearly tripling over three years -- is reclassified here as a Growth Area rather than a Structural Bottleneck. The main uncertainty is whether the multi-year capacity investments already underway at Ajinomoto, Ibiden, and Unimicron will resolve this constraint on a similar multi-year timeline to how CoWoS itself eased, or whether simultaneous capacity landing across suppliers could instead flip today&apos;s shortage into oversupply, as has happened before in adjacent memory and packaging cycles.</description>
+    </item>
+    <item>
       <title>Nvidia&apos;s $500 billion third-party AI financing push: does it solve a capital bottleneck, or relocate a credit-risk one?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/nvidia-ai-infrastructure-financing-platform</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/nvidia-ai-infrastructure-financing-platform</guid>

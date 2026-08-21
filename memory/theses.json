@@ -62,5 +62,37 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-abf-substrate-ajinomoto-ai-chip-packaging",
+    "topic": "abf-substrate-ajinomoto-ai-chip-packaging",
+    "statement": "As TSMC's CoWoS advanced-packaging capacity closes in on demand after tripling-plus over three years, the AI accelerator supply chain's binding structural constraint is shifting one layer upstream to ABF dielectric film and the IC substrates built from it: Ajinomoto's estimated 95%+ share of global ABF film supply, its Q3 2026 30% price increase, and multi-year, multi-billion-dollar capacity build-outs at substrate makers Ibiden and Unimicron (each targeting 2028 or later for major new capacity) together indicate that packaging is no longer the tightest link -- materials and substrate fabrication now are, and by the strict definition used in this research (extreme demand, low supply elasticity, hard substitutability), this node qualifies as a genuine structural bottleneck where CoWoS assembly increasingly does not.",
+    "confidence": "medium",
+    "created_at": "2026-08-21",
+    "updated_at": "2026-08-21",
+    "supporting_reports": ["reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"],
+    "kill_conditions": [
+      {
+        "condition": "Ajinomoto or a credible alternative ABF material supplier brings meaningful new capacity online well ahead of the reported 2032 target, or a qualified substitute dielectric material is adopted in volume by a top-tier substrate maker for AI-grade substrates",
+        "metric": "Announced/confirmed new ABF-equivalent material capacity or qualified substitute adoption",
+        "threshold": "New capacity equal to at least 10% of current global ABF supply confirmed online, or a qualified substitute material adopted in volume production by at least one top-3 substrate maker",
+        "time_window": "next 2-3 years",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "The ABF substrate supply-demand gap, as tracked by industry analysts, narrows materially or turns to surplus well before the 2027-2028 window currently projected",
+        "metric": "Industry-analyst-reported ABF substrate supply-demand gap percentage",
+        "threshold": "Gap falls below roughly 10% or flips to surplus within the next 12-18 months",
+        "time_window": "next 12-18 months",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "AI hyperscaler capital-expenditure guidance decelerates materially, reducing downstream demand for AI accelerators and therefore ABF substrates",
+        "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]
