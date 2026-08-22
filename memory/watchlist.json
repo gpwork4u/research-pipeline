@@ -115,5 +115,41 @@
     "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
     "origin_report": "reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md",
     "status": "open"
+  },
+  {
+    "event": "Micron's fiscal Q4 2026 earnings call",
+    "expected_window": "late September 2026",
+    "supports_if": "Micron reiterates or raises HBM4 shipment and pricing commitments and confirms calendar-2026 HBM supply remains fully committed under long-term agreements",
+    "weakens_if": "Micron reports softening HBM order commitments, delayed HBM4 ramp, or a pullback in guided gross margin tied to memory pricing",
+    "source_to_monitor": "Micron investor relations (investors.micron.com)",
+    "origin_report": "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "SK Hynix's Q3 2026 earnings call",
+    "expected_window": "around late October 2026",
+    "supports_if": "SK Hynix reiterates its shortage-through-2030 outlook, continues HBM4 ramp on schedule, and maintains or raises 2026 capital expenditure guidance",
+    "weakens_if": "SK Hynix walks back its shortage timeline, signals HBM4 demand softening, or scales back capital expenditure guidance",
+    "source_to_monitor": "SK Hynix newsroom / investor relations (news.skhynix.com)",
+    "origin_report": "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Samsung Electronics' Q3 2026 earnings call",
+    "expected_window": "around late October 2026",
+    "supports_if": "Samsung reports progress toward its ~250,000 wafers/month HBM capacity target and confirms HBM4 yield and qualification progress with major customers",
+    "weakens_if": "Samsung reports HBM4 yield problems, delayed qualification, or falls materially short of its stated capacity ramp target",
+    "source_to_monitor": "Samsung Electronics investor relations (samsung.com/global/ir)",
+    "origin_report": "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further industry tracking (TrendForce, Counterpoint, SemiAnalysis) of CXMT's HBM wafer-start ramp and global DRAM/HBM supply-demand balance",
+    "expected_window": "ongoing, next 2-4 quarters",
+    "supports_if": "CXMT's HBM ramp remains behind SemiAnalysis-cited projections and overall market trackers continue to show a supply deficit persisting toward 2028-2030",
+    "weakens_if": "CXMT's HBM output scales faster than projected, or trackers show the supply-demand gap narrowing materially ahead of the 2027-2028 window some analysts already flag",
+    "source_to_monitor": "TrendForce, Counterpoint Research, and SemiAnalysis published research",
+    "origin_report": "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
+    "status": "open"
   }
 ]

@@ -6,6 +6,19 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>AI 記憶體超級週期：HBM（而非封裝或基板）才是 AI 加速器供應鏈最持久的結構性瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/hbm-memory-supercycle-ai-accelerator-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/hbm-memory-supercycle-ai-accelerator-bottleneck</guid>
+      <pubDate>Sat, 22 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <category>memory</category>
+      <description>高頻寬記憶體（HBM）已成為 AI 加速器供應鏈中持續時間最長的結構性瓶頸，SK 海力士高層預測短缺將持續到 2030 年前後，比先前檢視的封裝或基板瓶頸都更持久。
+
+SK Hynix reported record Q2 2026 results (revenue +257% YoY, 76% operating margin) as HBM4 entered mass production, and its CEO and controlling shareholder have each independently forecast the shortage persisting to around 2030. Micron sold out its entire calendar-2026 HBM supply under long-term agreements, and Samsung is racing to add roughly 50% more HBM capacity by year-end. Because HBM consumes roughly three times the wafer capacity of equivalent conventional DRAM, capacity reallocation toward HBM appears to be the direct cause of a parallel DDR5 price shock hitting PCs and smartphones. HBM production qualifies as a Structural Bottleneck under this research&apos;s strict test -- but credible analysts sharply disagree on durability: some argue the shortage already peaked in Q2 2026 and could tip toward oversupply by 2028 as incumbent capacity, plus China&apos;s fast-scaling CXMT, lands simultaneously.</description>
+    </item>
+    <item>
       <title>ABF 介電膜與 Ajinomoto 的近乎壟斷地位：CoWoS 產能吃緊趨緩後，AI 晶片封裝背後浮現的新瓶頸</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/abf-substrate-ajinomoto-ai-chip-packaging</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/abf-substrate-ajinomoto-ai-chip-packaging</guid>

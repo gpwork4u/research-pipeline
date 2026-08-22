@@ -23,5 +23,20 @@
     "name": "Unimicron",
     "reports": ["reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"],
     "last_updated": "2026-08-21"
+  },
+  {
+    "name": "SK Hynix",
+    "reports": ["reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"],
+    "last_updated": "2026-08-22"
+  },
+  {
+    "name": "Samsung Electronics",
+    "reports": ["reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"],
+    "last_updated": "2026-08-22"
+  },
+  {
+    "name": "Micron",
+    "reports": ["reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"],
+    "last_updated": "2026-08-22"
   }
 ]

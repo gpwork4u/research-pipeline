@@ -25,5 +25,14 @@
     "status": "active",
     "categories": ["semiconductors", "ai-infrastructure", "advanced-packaging", "materials"],
     "companies": ["Ajinomoto", "Ibiden", "Unimicron"]
+  },
+  {
+    "slug": "hbm-memory-supercycle-ai-accelerator-bottleneck",
+    "title": "The AI memory supercycle: is HBM -- not packaging or substrates -- the AI accelerator supply chain's most durable structural bottleneck?",
+    "last_updated": "2026-08-22",
+    "reports": ["reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"],
+    "status": "active",
+    "categories": ["semiconductors", "ai-infrastructure", "memory"],
+    "companies": ["SK Hynix", "Samsung Electronics", "Micron"]
   }
 ]

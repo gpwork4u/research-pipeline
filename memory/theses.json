@@ -94,5 +94,37 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-hbm-memory-supercycle-ai-accelerator-bottleneck",
+    "topic": "hbm-memory-supercycle-ai-accelerator-bottleneck",
+    "statement": "SK Hynix's, Samsung's, and Micron's 2026 results and guidance indicate that High Bandwidth Memory has become the AI accelerator supply chain's most severe and longest-duration structural bottleneck: HBM4 mass production is ramping under long-term agreements, HBM's roughly 3-to-1 wafer-consumption ratio against conventional DRAM is driving a parallel commodity-memory price shock, and SK Hynix's own CEO and controlling shareholder have publicly warned the shortage persists beyond 2030 -- longer than either the CoWoS packaging constraint (now easing) or the ABF-substrate constraint (targeted 2028-2032) this pipeline previously examined. Credible analysts disagree sharply on durability: some argue the shortage already peaked in Q2 2026 and could tip toward oversupply by 2028 as incumbent capacity, plus China's fast-scaling CXMT, lands simultaneously.",
+    "confidence": "medium",
+    "created_at": "2026-08-22",
+    "updated_at": "2026-08-22",
+    "supporting_reports": ["reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"],
+    "kill_conditions": [
+      {
+        "condition": "Independent analyst tracking confirms supply-demand stabilizing or surplus well ahead of the 2029-2030 timeline SK Hynix leadership has forecast",
+        "metric": "Reported memory supply-demand sufficiency ratio / industry inventory levels",
+        "threshold": "Credible industry-analyst data showing the DRAM/HBM market at or near balance by Q4 2027 rather than 2029-2030",
+        "time_window": "next 4-6 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "CXMT or another new entrant brings qualified, volume HBM4-class output online at a scale materially exceeding current projections well ahead of 2028",
+        "metric": "CXMT (or other new entrant) HBM wafer starts per month, and evidence of qualification by a top-tier AI accelerator customer",
+        "threshold": "New entrant HBM output reaching at least 10% of incumbent combined HBM capacity, with at least one qualified design win outside China, within the next 2 years",
+        "time_window": "next 2 years",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "AI hyperscaler capital-expenditure guidance decelerates materially, reducing downstream demand for AI accelerators and therefore HBM",
+        "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

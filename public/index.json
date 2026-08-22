@@ -1,5 +1,26 @@
 [
   {
+    "title": "The AI memory supercycle: is HBM -- not packaging or substrates -- the AI accelerator supply chain's most durable structural bottleneck?",
+    "date": "2026-08-22",
+    "slug": "hbm-memory-supercycle-ai-accelerator-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "semiconductors",
+      "ai-infrastructure",
+      "memory"
+    ],
+    "companies": [
+      "SK Hynix",
+      "Samsung Electronics",
+      "Micron"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/hbm-memory-supercycle-ai-accelerator-bottleneck",
+    "path": "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
+    "one_sentence_conclusion": "High Bandwidth Memory has become the AI accelerator supply chain's longest-duration structural bottleneck, with SK Hynix's own leadership forecasting the shortage persisting to around 2030 -- longer than either the packaging or substrate constraints this pipeline previously examined."
+  },
+  {
     "title": "ABF dielectric film and Ajinomoto's near-monopoly: the bottleneck emerging behind AI chip packaging as CoWoS eases",
     "date": "2026-08-21",
     "slug": "abf-substrate-ajinomoto-ai-chip-packaging",

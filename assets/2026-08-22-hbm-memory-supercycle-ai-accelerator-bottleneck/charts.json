@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Global DRAM market share by revenue, Q2 2026",
+    "title_zh": "全球 DRAM 市場占有率（按營收），2026 年第 2 季",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "ev-11",
+    "series": [
+      { "label": "Samsung", "value": 39 },
+      { "label": "SK Hynix", "value": 26 },
+      { "label": "Micron", "value": 25 },
+      { "label": "CXMT", "value": 7 }
+    ]
+  }
+]
