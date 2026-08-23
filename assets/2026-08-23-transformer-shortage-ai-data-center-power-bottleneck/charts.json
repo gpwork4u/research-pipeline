@@ -1,0 +1,24 @@
+[
+  {
+    "title": "US large power transformer lead times by type, 2026",
+    "title_zh": "美國大型電力變壓器交期（依類型），2026 年",
+    "type": "bar",
+    "unit": "weeks",
+    "source_id": "ev-4",
+    "series": [
+      { "label": "Power transformer", "value": 128 },
+      { "label": "GSU transformer", "value": 144 }
+    ]
+  },
+  {
+    "title": "US data-center electrical-equipment market size, 2026 vs. 2030 (projected)",
+    "title_zh": "美國資料中心電氣設備市場規模，2026 年對 2030 年（預估）",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "ev-4",
+    "series": [
+      { "label": "2026", "value": 20 },
+      { "label": "2030 (projected)", "value": 65 }
+    ]
+  }
+]

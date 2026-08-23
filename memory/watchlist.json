@@ -151,5 +151,41 @@
     "source_to_monitor": "TrendForce, Counterpoint Research, and SemiAnalysis published research",
     "origin_report": "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Siemens Energy's Q4 FY2026 earnings call",
+    "expected_window": "around November 2026 (fiscal year ends September 30)",
+    "supports_if": "Grid Technologies order backlog and margin guidance continue rising and lead times are reiterated or extended",
+    "weakens_if": "Grid Technologies order growth decelerates, backlog growth stalls, or margin guidance is cut",
+    "source_to_monitor": "Siemens Energy investor relations (siemens-energy.com)",
+    "origin_report": "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "GE Vernova's Q3 2026 earnings call",
+    "expected_window": "around late October 2026",
+    "supports_if": "Electrification segment orders and equipment backlog continue growing at a comparable or faster pace than Q2 2026",
+    "weakens_if": "Electrification orders or backlog growth decelerates materially, or book-to-bill falls toward 1.0",
+    "source_to_monitor": "GE Vernova investor relations (gevernova.com)",
+    "origin_report": "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Progress updates on Hitachi Energy's South Boston, Virginia plant and other announced US transformer-capacity expansions",
+    "expected_window": "ongoing through 2028-2029",
+    "supports_if": "Construction proceeds on the announced ~2028-2029 production timeline with no reported delays",
+    "weakens_if": "Construction timelines slip, or announced capacity investment is scaled back",
+    "source_to_monitor": "Hitachi Energy newsroom (hitachienergy.com) and trade press (Utility Dive, Manufacturing Dive)",
+    "origin_report": "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next industry tracking (Wood Mackenzie or equivalent) of US data-center electrical-equipment lead times and 2026-2027 delay/cancellation rates",
+    "expected_window": "ongoing, next 2-4 quarters",
+    "supports_if": "Lead times remain at or near current multi-year levels and the reported delay/cancellation share of planned data-center capacity stays in or above the 30-50% range",
+    "weakens_if": "Lead times shorten materially or the reported delay/cancellation share falls well below current levels",
+    "source_to_monitor": "Wood Mackenzie published research and trade press (Data Center Knowledge, Utility Dive)",
+    "origin_report": "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md",
+    "status": "open"
   }
 ]

@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>AI 基礎建設的電力瓶頸：電網變壓器與電工鋼——而非晶片——是否已成為資料中心產能的關鍵限制？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/transformer-shortage-ai-data-center-power-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/transformer-shortage-ai-data-center-power-bottleneck</guid>
+      <pubDate>Sun, 23 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>electrical-equipment</category>
+      <category>data-centers</category>
+      <description>電網變壓器與其背後的電工鋼，而非晶片，才是 2026 年延遲 AI 資料中心產能的最直接實體瓶頸。
+
+西門子能源、GE Vernova 與日立能源皆公布創紀錄電網設備訂單積壓，變壓器交期長達三到六年——正是新建 AI 資料中心所需的關鍵設備。獨立報導指出，2026 年美國資料中心規劃產能中有 30-50% 將因缺乏電力設備而延遲或取消，即使業者計畫投入逾 6,500 億美元 AI 資本支出。瓶頸根源在於上游電工鋼，美國來源僅一家，品質據報較低。新產能雖在興建，但要到 2027-2028 年才會實質緩解。</description>
+    </item>
+    <item>
       <title>AI 記憶體超級週期：HBM（而非封裝或基板）才是 AI 加速器供應鏈最持久的結構性瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/hbm-memory-supercycle-ai-accelerator-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/hbm-memory-supercycle-ai-accelerator-bottleneck</guid>

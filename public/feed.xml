@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The AI buildout&apos;s electrical bottleneck: are grid transformers and electrical steel -- not chips -- now the binding constraint on data center capacity?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/transformer-shortage-ai-data-center-power-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/transformer-shortage-ai-data-center-power-bottleneck</guid>
+      <pubDate>Sun, 23 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>electrical-equipment</category>
+      <category>data-centers</category>
+      <description>Grid transformers and the electrical steel behind them, not chips, are now the most immediate physical bottleneck delaying AI data-center capacity in 2026.
+
+Siemens Energy, GE Vernova, and Hitachi Energy each reported record 2026 grid-equipment order backlogs, with large-power-transformer lead times running three to six years -- precisely the equipment gating new AI data centers. Independent reporting says 30-50% of planned 2026 US data-center capacity will be delayed or canceled largely for lack of transformers and switchgear, even as hyperscalers plan over $650 billion in 2026 AI capex. The constraint traces upstream to grain-oriented electrical steel, with a single, reportedly lower-grade domestic US source. Billions in new capacity are under construction, but relief is not expected before 2027-2028.</description>
+    </item>
+    <item>
       <title>The AI memory supercycle: is HBM -- not packaging or substrates -- the AI accelerator supply chain&apos;s most durable structural bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/hbm-memory-supercycle-ai-accelerator-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/hbm-memory-supercycle-ai-accelerator-bottleneck</guid>

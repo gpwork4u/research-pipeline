@@ -1,5 +1,27 @@
 [
   {
+    "title": "The AI buildout's electrical bottleneck: are grid transformers and electrical steel -- not chips -- now the binding constraint on data center capacity?",
+    "date": "2026-08-23",
+    "slug": "transformer-shortage-ai-data-center-power-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "electrical-equipment",
+      "data-centers"
+    ],
+    "companies": [
+      "Siemens Energy",
+      "GE Vernova",
+      "Hitachi"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/transformer-shortage-ai-data-center-power-bottleneck",
+    "path": "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md",
+    "one_sentence_conclusion": "Grid transformers and the electrical steel behind them, not chips, are now the most immediate physical bottleneck delaying AI data-center capacity in 2026."
+  },
+  {
     "title": "The AI memory supercycle: is HBM -- not packaging or substrates -- the AI accelerator supply chain's most durable structural bottleneck?",
     "date": "2026-08-22",
     "slug": "hbm-memory-supercycle-ai-accelerator-bottleneck",

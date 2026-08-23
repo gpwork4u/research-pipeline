@@ -126,5 +126,37 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-transformer-shortage-ai-data-center-power-bottleneck",
+    "topic": "transformer-shortage-ai-data-center-power-bottleneck",
+    "statement": "Record 2026 order backlogs and multi-year lead times at Siemens Energy, GE Vernova, and Hitachi Energy -- the three largest Western suppliers of large power transformers -- combined with reporting that 30-50% of 2026's planned US AI data-center capacity is being delayed or canceled specifically for lack of transformers and switchgear, indicate that grid equipment has emerged as a structural bottleneck on AI infrastructure that is more immediate and broader in scope than the chip-side constraints (CoWoS packaging, ABF substrates, HBM memory) this pipeline has previously examined, because it gates every data center regardless of which AI chip it houses. The root constraint traces further upstream to grain-oriented electrical steel (GOES), which has a single, comparatively lower-grade domestic US source. Billions of dollars in new transformer manufacturing capacity are under construction, but analysts and manufacturers consistently place meaningful relief no earlier than 2027-2028.",
+    "confidence": "medium",
+    "created_at": "2026-08-23",
+    "updated_at": "2026-08-23",
+    "supporting_reports": ["reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"],
+    "kill_conditions": [
+      {
+        "condition": "Publicly reported tier-1 OEM lead times for large power transformers shorten materially from the 48-60+ month range currently cited",
+        "metric": "Quoted large-power-transformer lead time (months) at Siemens Energy, GE Vernova, and Hitachi Energy",
+        "threshold": "Lead times fall below 24 months at two or more of the three major suppliers",
+        "time_window": "next 2 years",
+        "impact": "weaken"
+      },
+      {
+        "condition": "The share of planned US data-center capacity delayed or canceled for electrical-equipment reasons falls well below the 30-50% range reported for 2026",
+        "metric": "Reported share of planned annual US data-center capacity (GW) delayed or canceled specifically for power-equipment shortages",
+        "threshold": "Reported delay/cancellation rate attributable to electrical equipment falls below 15% for a full calendar year",
+        "time_window": "next 2 years",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "AI hyperscaler capital-expenditure guidance decelerates materially, reducing downstream demand for new data-center capacity and therefore grid equipment",
+        "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

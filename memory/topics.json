@@ -34,5 +34,14 @@
     "status": "active",
     "categories": ["semiconductors", "ai-infrastructure", "memory"],
     "companies": ["SK Hynix", "Samsung Electronics", "Micron"]
+  },
+  {
+    "slug": "transformer-shortage-ai-data-center-power-bottleneck",
+    "title": "The AI buildout's electrical bottleneck: are grid transformers and electrical steel -- not chips -- now the binding constraint on data center capacity?",
+    "last_updated": "2026-08-23",
+    "reports": ["reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"],
+    "status": "active",
+    "categories": ["ai-infrastructure", "energy", "electrical-equipment", "data-centers"],
+    "companies": ["Siemens Energy", "GE Vernova", "Hitachi"]
   }
 ]

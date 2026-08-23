@@ -38,5 +38,20 @@
     "name": "Micron",
     "reports": ["reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"],
     "last_updated": "2026-08-22"
+  },
+  {
+    "name": "Siemens Energy",
+    "reports": ["reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"],
+    "last_updated": "2026-08-23"
+  },
+  {
+    "name": "GE Vernova",
+    "reports": ["reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"],
+    "last_updated": "2026-08-23"
+  },
+  {
+    "name": "Hitachi",
+    "reports": ["reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"],
+    "last_updated": "2026-08-23"
   }
 ]
