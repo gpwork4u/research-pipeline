@@ -187,5 +187,50 @@
     "source_to_monitor": "Wood Mackenzie published research and trade press (Data Center Knowledge, Utility Dive)",
     "origin_report": "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "ICSG's next Copper Market Forecast update",
+    "expected_window": "around October 2026",
+    "supports_if": "The forecast reverts to or confirms a deficit for 2026-2027",
+    "weakens_if": "The forecast maintains or widens the surplus projected in April 2026",
+    "source_to_monitor": "International Copper Study Group (icsg.org)",
+    "origin_report": "reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Freeport-McMoRan's Q3 2026 earnings call",
+    "expected_window": "around late October 2026",
+    "supports_if": "Management reiterates strong AI/data-center-linked copper demand commentary and raises capex or production guidance",
+    "weakens_if": "Demand commentary softens materially or capital-expenditure guidance is cut",
+    "source_to_monitor": "Freeport-McMoRan investor relations (fcx.com)",
+    "origin_report": "reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "US copper tariff decision",
+    "expected_window": "H2 2026",
+    "supports_if": "Tariffs are imposed, sustaining the US stockpiling squeeze and price premium",
+    "weakens_if": "Tariff plans are dropped or delayed, releasing COMEX inventory back toward global markets",
+    "source_to_monitor": "White House / USTR announcements, trade press (Reuters, Bloomberg)",
+    "origin_report": "reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "DRC concentrate export ban implementation and enforcement outcome",
+    "expected_window": "Q4 2026",
+    "supports_if": "The ban is enforced and sustained, forcing smelters to compete harder for constrained concentrate supply",
+    "weakens_if": "The ban is reversed, eased, or shown to be widely evaded or of limited effect",
+    "source_to_monitor": "Reuters, DRC Ministry of Mines, Ivanhoe Mines and other DRC-exposed miners' disclosures",
+    "origin_report": "reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Updated Wood Mackenzie or S&P Global copper supply-demand balance report",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Deficit projections widen or are reaffirmed for 2027 and beyond",
+    "weakens_if": "Projections narrow materially toward balance",
+    "source_to_monitor": "woodmac.com, spglobal.com",
+    "origin_report": "reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md",
+    "status": "open"
   }
 ]

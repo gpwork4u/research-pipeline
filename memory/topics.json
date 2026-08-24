@@ -43,5 +43,14 @@
     "status": "active",
     "categories": ["ai-infrastructure", "energy", "electrical-equipment", "data-centers"],
     "companies": ["Siemens Energy", "GE Vernova", "Hitachi"]
+  },
+  {
+    "slug": "copper-supply-ai-data-center-bottleneck",
+    "title": "Copper: is the physical metal behind every wire, motor and transformer becoming the AI buildout's next structural bottleneck?",
+    "last_updated": "2026-08-24",
+    "reports": ["reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md"],
+    "status": "active",
+    "categories": ["ai-infrastructure", "commodities", "mining", "data-centers"],
+    "companies": ["Freeport-McMoRan"]
   }
 ]

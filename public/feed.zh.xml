@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>銅：每一條電線、馬達與變壓器背後的實體金屬，是否正成為 AI 基礎建設的下一個結構性瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/copper-supply-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/copper-supply-ai-data-center-bottleneck</guid>
+      <pubDate>Mon, 24 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>commodities</category>
+      <category>mining</category>
+      <category>data-centers</category>
+      <description>銅礦供給的僵固性是真實的長期瓶頸，但目前的價格飆升更多是關稅與剛果禁令所致，而非 AI 需求造成。
+
+2026 年 8 月銅價一度突破每噸 14,000 美元，逼近 1 月的歷史高點；關稅預期引發的搶購潮使 COMEX 庫存暴增近 8 倍，剛果民主共和國於 8 月 6 日禁止銅鈷精礦出口。摩根大通估計 2026 年 AI 資料中心將消耗 47.5 萬噸銅，較 2025 年的 11 萬噸大增，但這僅占全球約 2,870 萬噸精煉銅市場的不到 2%。各機構對整體供需平衡看法分歧：ICSG 的預測從短缺 15 萬噸翻轉為過剩 9.6 萬噸。唯一沒有爭議的是供給端的僵固性：新礦產能平均需 17.9 年才能量產。</description>
+    </item>
+    <item>
       <title>AI 基礎建設的電力瓶頸：電網變壓器與電工鋼——而非晶片——是否已成為資料中心產能的關鍵限制？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/transformer-shortage-ai-data-center-power-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/transformer-shortage-ai-data-center-power-bottleneck</guid>

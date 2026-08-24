@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>Copper: is the physical metal behind every wire, motor and transformer becoming the AI buildout&apos;s next structural bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/copper-supply-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/copper-supply-ai-data-center-bottleneck</guid>
+      <pubDate>Mon, 24 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>commodities</category>
+      <category>mining</category>
+      <category>data-centers</category>
+      <description>Copper&apos;s mine-supply rigidity is a genuine long-run bottleneck, but the current price spike looks more tariff- and DRC-driven than AI-caused.
+
+Copper prices topped $14,000/tonne through August 2026, near the January 2026 record, as a tariff-anticipation squeeze pulled COMEX inventories roughly eightfold higher and the DRC banned copper and cobalt concentrate exports on August 6. JPMorgan estimates AI data centers will draw 475,000 tonnes of copper in 2026, up from 110,000 in 2025 -- but that is under 2% of the ~28.7-million-tonne global refined market. Forecasters disagree sharply on the overall balance: ICSG flipped from a 150,000-tonne deficit to a 96,000-tonne surplus forecast for the same year. What is not contested is supply rigidity: new mine production takes an average 17.9 years.</description>
+    </item>
+    <item>
       <title>The AI buildout&apos;s electrical bottleneck: are grid transformers and electrical steel -- not chips -- now the binding constraint on data center capacity?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/transformer-shortage-ai-data-center-power-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/transformer-shortage-ai-data-center-power-bottleneck</guid>

@@ -158,5 +158,44 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-copper-supply-ai-data-center-bottleneck",
+    "topic": "copper-supply-ai-data-center-bottleneck",
+    "statement": "Copper prices near all-time highs, a fresh DRC export ban on copper and cobalt concentrate, and a tariff-driven US stockpiling squeeze together indicate copper has joined chip packaging, substrates, memory and grid transformers as a physical constraint on the AI buildout, but the evidence for copper specifically as an AI-caused structural bottleneck is weaker and more contested than for those prior nodes: AI data centers are estimated to draw only ~475,000 tonnes of copper in 2026, under 2% of the ~28.7-million-tonne global refined market, and the major forecasters disagree sharply on whether the overall market is even in deficit -- ICSG's own forecast flipped from a 150,000-tonne deficit (October 2025) to a 96,000-tonne surplus (April 2026) for the same calendar year. What is not contested is supply-side rigidity: new mine production takes an average 17.9 years from discovery, with permitting alone now stretching toward 30 years in some jurisdictions -- a genuinely low-elasticity, hard-to-substitute (for mission-critical power distribution) upstream node whose recent price spike looks substantially driven by tariff-anticipation stockpiling and the DRC's new export restriction rather than AI demand alone.",
+    "confidence": "medium",
+    "created_at": "2026-08-24",
+    "updated_at": "2026-08-24",
+    "supporting_reports": ["reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md"],
+    "kill_conditions": [
+      {
+        "condition": "A major forecaster (ICSG, Wood Mackenzie, or S&P Global) confirms a full-year refined copper surplus for 2026",
+        "metric": "Annual global refined copper supply-demand balance",
+        "threshold": "A confirmed surplus of at least 50,000 tonnes is reported for calendar year 2026 by two or more of ICSG, Wood Mackenzie, or S&P Global",
+        "time_window": "next 2 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Copper prices retreat sharply from current near-record levels",
+        "metric": "LME three-month copper price",
+        "threshold": "Sustained decline below $10,000/tonne for a full calendar quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "AI hyperscaler capital-expenditure guidance decelerates materially, reducing downstream copper demand growth",
+        "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "The DRC's concentrate export ban is reversed, eased, or shown to have negligible effect on refined copper supply",
+        "metric": "DRC export policy status and refined-copper flow from DRC-sourced concentrate to global smelters",
+        "threshold": "Ban is formally reversed or eased within 6 months, or independent reporting shows no material disruption to smelter concentrate supply",
+        "time_window": "next 2 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

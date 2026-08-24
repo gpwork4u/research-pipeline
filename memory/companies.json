@@ -53,5 +53,10 @@
     "name": "Hitachi",
     "reports": ["reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"],
     "last_updated": "2026-08-23"
+  },
+  {
+    "name": "Freeport-McMoRan",
+    "reports": ["reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md"],
+    "last_updated": "2026-08-24"
   }
 ]

@@ -1,5 +1,25 @@
 [
   {
+    "title": "Copper: is the physical metal behind every wire, motor and transformer becoming the AI buildout's next structural bottleneck?",
+    "date": "2026-08-24",
+    "slug": "copper-supply-ai-data-center-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "commodities",
+      "mining",
+      "data-centers"
+    ],
+    "companies": [
+      "Freeport-McMoRan"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/copper-supply-ai-data-center-bottleneck",
+    "path": "reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md",
+    "one_sentence_conclusion": "Copper's mine-supply rigidity is a genuine long-run bottleneck, but the current price spike looks more tariff- and DRC-driven than AI-caused."
+  },
+  {
     "title": "The AI buildout's electrical bottleneck: are grid transformers and electrical steel -- not chips -- now the binding constraint on data center capacity?",
     "date": "2026-08-23",
     "slug": "transformer-shortage-ai-data-center-power-bottleneck",

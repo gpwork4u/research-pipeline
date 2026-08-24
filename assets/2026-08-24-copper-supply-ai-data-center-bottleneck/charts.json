@@ -1,0 +1,24 @@
+[
+  {
+    "title": "AI data center copper demand (JPMorgan estimate)",
+    "title_zh": "AI 資料中心銅需求（摩根大通估計）",
+    "type": "bar",
+    "unit": "tonnes",
+    "source_id": "ev-5",
+    "series": [
+      { "label": "2025", "value": 110000 },
+      { "label": "2026 (est.)", "value": 475000 }
+    ]
+  },
+  {
+    "title": "COMEX copper inventories",
+    "title_zh": "COMEX 銅庫存",
+    "type": "bar",
+    "unit": "tonnes",
+    "source_id": "ev-8",
+    "series": [
+      { "label": "Feb 2025", "value": 80000 },
+      { "label": "Aug 2026", "value": 650000 }
+    ]
+  }
+]
