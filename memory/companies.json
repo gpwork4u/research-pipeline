@@ -58,5 +58,15 @@
     "name": "Freeport-McMoRan",
     "reports": ["reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md"],
     "last_updated": "2026-08-24"
+  },
+  {
+    "name": "Coherent Corp",
+    "reports": ["reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"],
+    "last_updated": "2026-08-26"
+  },
+  {
+    "name": "Lumentum Holdings",
+    "reports": ["reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"],
+    "last_updated": "2026-08-26"
   }
 ]

@@ -197,5 +197,44 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-optical-transceiver-laser-shortage-ai-networking-bottleneck",
+    "topic": "optical-transceiver-laser-shortage-ai-networking-bottleneck",
+    "statement": "EML laser fabrication for 800G/1.6T optical transceivers is a genuine near-term structural bottleneck on AI GPU-cluster networking -- demand is extreme, only a handful of companies worldwide can fabricate qualifying-yield InP-based lasers, and substitutability is hard for high-speed long-reach interconnects -- evidenced by Nvidia's unprecedented March 2026 direct $4 billion investment in its two largest suppliers (Coherent and Lumentum) to secure capacity. However, InP and transceiver-module capacity can roughly double within 12-18 months, far faster than the mining, grid-equipment, or advanced-packaging bottlenecks this pipeline has previously examined, creating a genuine 2027 oversupply risk if hyperscaler capital-expenditure growth decelerates from its 2026 pace.",
+    "confidence": "medium",
+    "created_at": "2026-08-26",
+    "updated_at": "2026-08-26",
+    "supporting_reports": ["reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"],
+    "kill_conditions": [
+      {
+        "condition": "InP/EML lead times normalize to pre-2026 industry-typical levels",
+        "metric": "Reported EML laser and 800G/1.6T transceiver lead times",
+        "threshold": "Lead times reported at or below 20 weeks for two consecutive quarters",
+        "time_window": "next 3-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Hyperscaler capital-expenditure guidance decelerates materially, reducing downstream optical-networking demand growth",
+        "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter, toward the 30-50% range flagged by analysts",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Coherent's or Lumentum's own revenue growth or bookings decelerate sharply despite continued industry capex growth, signaling early inventory correction",
+        "metric": "Quarter-over-quarter revenue growth and book-to-bill ratio at Coherent and Lumentum",
+        "threshold": "Sequential revenue growth turns negative or book-to-bill falls below 1.0 for two consecutive quarters",
+        "time_window": "next 2-4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Co-packaged optics adoption accelerates faster than expected, reducing discrete pluggable-transceiver demand",
+        "metric": "Reported CPO switch/GPU shipment volumes as a share of total AI-cluster networking ports",
+        "threshold": "CPO ports exceed 25% of new AI-cluster networking deployments within the next year",
+        "time_window": "next 3-4 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

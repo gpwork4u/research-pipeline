@@ -52,5 +52,14 @@
     "status": "active",
     "categories": ["ai-infrastructure", "commodities", "mining", "data-centers"],
     "companies": ["Freeport-McMoRan"]
+  },
+  {
+    "slug": "optical-transceiver-laser-shortage-ai-networking-bottleneck",
+    "title": "Optical transceivers and EML lasers: has AI GPU-cluster networking replaced packaging and memory as the AI buildout's tightest chokepoint?",
+    "last_updated": "2026-08-26",
+    "reports": ["reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"],
+    "status": "active",
+    "categories": ["ai-infrastructure", "semiconductors", "networking", "optics"],
+    "companies": ["Coherent Corp", "Lumentum Holdings"]
   }
 ]

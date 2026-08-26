@@ -1,5 +1,26 @@
 [
   {
+    "title": "Optical transceivers and EML lasers: has AI GPU-cluster networking replaced packaging and memory as the AI buildout's tightest chokepoint?",
+    "date": "2026-08-26",
+    "slug": "optical-transceiver-laser-shortage-ai-networking-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "networking",
+      "optics"
+    ],
+    "companies": [
+      "Coherent Corp",
+      "Lumentum Holdings"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/optical-transceiver-laser-shortage-ai-networking-bottleneck",
+    "path": "reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md",
+    "one_sentence_conclusion": "EML laser fabrication is a real, qualifying structural bottleneck on AI networking, but its 1-3 year capacity-doubling timeline makes it far less durable than memory, packaging or mining constraints."
+  },
+  {
     "title": "Copper: is the physical metal behind every wire, motor and transformer becoming the AI buildout's next structural bottleneck?",
     "date": "2026-08-24",
     "slug": "copper-supply-ai-data-center-bottleneck",

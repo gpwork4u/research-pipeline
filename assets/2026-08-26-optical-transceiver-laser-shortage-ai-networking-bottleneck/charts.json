@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Global AI optical transceiver market size",
+    "title_zh": "全球 AI 光收發模組市場規模",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "ev-7",
+    "series": [
+      { "label": "2025", "value": 16.5 },
+      { "label": "2026 (forecast)", "value": 26 }
+    ]
+  },
+  {
+    "title": "Worldwide 800G-and-above transceiver shipments",
+    "title_zh": "全球 800G 以上收發模組出貨量",
+    "type": "bar",
+    "unit": "million units",
+    "source_id": "ev-7",
+    "series": [
+      { "label": "2025", "value": 24 },
+      { "label": "2026 (forecast)", "value": 63 }
+    ]
+  }
+]

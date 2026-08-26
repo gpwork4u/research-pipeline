@@ -232,5 +232,50 @@
     "source_to_monitor": "woodmac.com, spglobal.com",
     "origin_report": "reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Coherent Corp's Q1 FY2027 earnings call",
+    "expected_window": "around November 2026",
+    "supports_if": "Management reiterates capacity constraints, raises guidance, and confirms InP fab expansion remains fully subscribed",
+    "weakens_if": "Management signals easing lead times, decelerating bookings, or a pause in capacity expansion plans",
+    "source_to_monitor": "Coherent Corp investor relations (coherent.com/news/press-releases)",
+    "origin_report": "reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Lumentum's Q1 FY2027 earnings call",
+    "expected_window": "around November 2026",
+    "supports_if": "Management confirms the guided ~130% YoY growth, reiterates capacity-constrained commentary, and reports continued OCS/CPO backlog growth",
+    "weakens_if": "Guidance is missed or management signals softening demand or easing component constraints",
+    "source_to_monitor": "Lumentum investor relations (investor.lumentum.com)",
+    "origin_report": "reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Hyperscaler Q4 2026 and Q1 2027 capital-expenditure guidance (Google, Meta, Microsoft, Amazon)",
+    "expected_window": "late January - February 2027",
+    "supports_if": "Capex guidance continues growing at or near 2026's pace, sustaining demand pressure on optical-networking capacity",
+    "weakens_if": "Capex guidance decelerates materially toward the 30-50% range analysts flag as the oversupply trigger",
+    "source_to_monitor": "Respective hyperscaler quarterly earnings releases",
+    "origin_report": "reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Updated TrendForce or McKinsey optical-transceiver supply-demand balance research",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Shortfall estimates are reaffirmed or widened for 2027",
+    "weakens_if": "Shortfall estimates narrow materially or forecasters flag emerging oversupply risk",
+    "source_to_monitor": "TrendForce press center (trendforce.com/presscenter) and McKinsey Technology, Media & Telecommunications insights",
+    "origin_report": "reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Disclosure of actual terms or early deliveries under Nvidia's March 2026 purchase commitments with Coherent and Lumentum",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Disclosed volumes confirm a large, multi-year capacity lock-in consistent with reported lead-time extensions for other buyers",
+    "weakens_if": "Disclosed terms turn out to be smaller or less exclusive than initial coverage suggested",
+    "source_to_monitor": "Nvidia Newsroom (nvidianews.nvidia.com), Coherent and Lumentum SEC filings",
+    "origin_report": "reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md",
+    "status": "open"
   }
 ]
