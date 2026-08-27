@@ -277,5 +277,50 @@
     "source_to_monitor": "Nvidia Newsroom (nvidianews.nvidia.com), Coherent and Lumentum SEC filings",
     "origin_report": "reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Air Products' fiscal Q4 2026 earnings call",
+    "expected_window": "around November 2026",
+    "supports_if": "Management again cites helium as a margin headwind and reiterates elevated pricing/dislocation costs tied to the Middle East disruption",
+    "weakens_if": "Management reports helium turning into a net tailwind or normalized costs",
+    "source_to_monitor": "Air Products investor relations (investors.airproducts.com)",
+    "origin_report": "reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Linde's Q3 2026 earnings call",
+    "expected_window": "around late October-November 2026",
+    "supports_if": "Management maintains or pushes out its 'early 2027' helium normalization guidance and reports continued electronics backlog growth",
+    "weakens_if": "Management pulls forward its normalization timeline or reports decelerating electronics backlog growth",
+    "source_to_monitor": "Linde investor relations (linde.com/investors)",
+    "origin_report": "reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Continued Strait of Hormuz transit data",
+    "expected_window": "ongoing, next 1-2 quarters",
+    "supports_if": "Daily transits remain far below the roughly 85/day pre-conflict baseline",
+    "weakens_if": "Transits recover materially toward pre-conflict levels",
+    "source_to_monitor": "Lloyd's List Intelligence and shipping-data trackers",
+    "origin_report": "reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "QatarEnergy Ras Laffan repair-progress disclosure",
+    "expected_window": "Q4 2026 - 2027",
+    "supports_if": "QatarEnergy reports repairs still years from completion or force majeure remains in effect",
+    "weakens_if": "QatarEnergy lifts force majeure and confirms near-full capacity restoration",
+    "source_to_monitor": "QatarEnergy official channels and trade press (Reuters, Bloomberg, Argus Media)",
+    "origin_report": "reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC, Samsung and SK Hynix commentary on helium inventory buffers",
+    "expected_window": "next 2-3 quarters (quarterly earnings calls)",
+    "supports_if": "Fabs report drawing down buffer inventory further or facing rationing",
+    "weakens_if": "Fabs report buffers fully replenished with no operational impact",
+    "source_to_monitor": "TSMC, Samsung Electronics and SK Hynix investor relations",
+    "origin_report": "reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md",
+    "status": "open"
   }
 ]

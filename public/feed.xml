@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>Helium Shortage 5.0: is the Qatar/Strait-of-Hormuz helium crisis a durable structural bottleneck on AI-driven semiconductor fabs, or a war-contingent price shock?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/helium-shortage-ai-semiconductor-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/helium-shortage-ai-semiconductor-bottleneck</guid>
+      <pubDate>Thu, 27 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>commodities</category>
+      <category>energy</category>
+      <description>Helium is a genuine, non-substitutable AI-fab input squeezed by a war-damaged Qatari supply and a closed Strait of Hormuz, but leading-edge fabs&apos; buffers and 2027 normalization guidance temper its durability.
+
+Iranian strikes on Qatar&apos;s Ras Laffan complex beginning around March 2026 cut Qatar&apos;s LNG export capacity by 17% and, by QatarEnergy&apos;s own estimate, could take up to five years to fully repair. The Strait of Hormuz -- Qatar&apos;s only maritime helium export route -- remained at a small fraction of normal transit volume as of Lloyd&apos;s List Intelligence&apos;s August 19, 2026 brief. Air Products and Linde both flagged helium as a margin headwind in their July 2026 quarterly results even as their electronics/semiconductor backlogs hit records on AI-driven demand. TSMC, Samsung and SK Hynix hold multi-month buffers and high recycling rates that blunt near-term impact, and Linde does not expect the market to normalize before early 2027. The main uncertainty is how much of global helium supply is actually impaired -- estimates range from 11% to 33-35%.</description>
+    </item>
+    <item>
       <title>Optical transceivers and EML lasers: has AI GPU-cluster networking replaced packaging and memory as the AI buildout&apos;s tightest chokepoint?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/optical-transceiver-laser-shortage-ai-networking-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/optical-transceiver-laser-shortage-ai-networking-bottleneck</guid>

@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>氦氣短缺 5.0：卡達／荷姆茲海峽氦氣危機，是 AI 半導體晶圓廠的持久結構性瓶頸，還是戰爭導致的暫時性價格衝擊？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/helium-shortage-ai-semiconductor-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/helium-shortage-ai-semiconductor-bottleneck</guid>
+      <pubDate>Thu, 27 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>commodities</category>
+      <category>energy</category>
+      <description>氦氣是遭戰爭破壞的卡達供應與封閉荷姆茲海峽夾擊下、真實且無法替代的 AI 晶圓廠投入品，但頂尖晶圓廠的庫存緩衝與 2027 年正常化指引，削弱了其持久性。
+
+伊朗 2026 年 3 月攻擊卡達 Ras Laffan 設施，卡達液化天然氣出口產能減 17%，修復恐需五年。荷姆茲海峽——唯一海運出口通道——截至 8 月 19 日通行量仍近乎歸零。Air Products 與 Linde 7 月財報均稱氦氣為毛利逆風，同時電子業訂單創新高。台積電、三星、SK 海力士庫存緩衝與高回收率使短期衝擊有限；Linde 預期 2027 年初才正常化。最大不確定性：全球供應受損比例估計 11% 至 35% 不等。</description>
+    </item>
+    <item>
       <title>光收發模組與 EML 雷射：AI GPU 叢集網路是否已取代封裝與記憶體，成為 AI 基礎建設最緊繃的瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/optical-transceiver-laser-shortage-ai-networking-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/optical-transceiver-laser-shortage-ai-networking-bottleneck</guid>

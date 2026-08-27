@@ -1,5 +1,26 @@
 [
   {
+    "title": "Helium Shortage 5.0: is the Qatar/Strait-of-Hormuz helium crisis a durable structural bottleneck on AI-driven semiconductor fabs, or a war-contingent price shock?",
+    "date": "2026-08-27",
+    "slug": "helium-shortage-ai-semiconductor-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "commodities",
+      "energy"
+    ],
+    "companies": [
+      "Air Products and Chemicals",
+      "Linde plc"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/helium-shortage-ai-semiconductor-bottleneck",
+    "path": "reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md",
+    "one_sentence_conclusion": "Helium is a genuine, non-substitutable AI-fab input squeezed by a war-damaged Qatari supply and a closed Strait of Hormuz, but leading-edge fabs' buffers and 2027 normalization guidance temper its durability."
+  },
+  {
     "title": "Optical transceivers and EML lasers: has AI GPU-cluster networking replaced packaging and memory as the AI buildout's tightest chokepoint?",
     "date": "2026-08-26",
     "slug": "optical-transceiver-laser-shortage-ai-networking-bottleneck",

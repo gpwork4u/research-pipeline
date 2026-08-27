@@ -236,5 +236,51 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-helium-shortage-ai-semiconductor-bottleneck",
+    "topic": "helium-shortage-ai-semiconductor-bottleneck",
+    "statement": "Helium is a genuine structural bottleneck behind AI-driven semiconductor fabrication -- a non-substitutable input to wafer crystal growth, cooling and leak detection, concentrated in a war-damaged Qatari complex (QatarEnergy's own estimate: up to five years to repair) with its sole maritime export route (the Strait of Hormuz) collapsed for months. Unlike this pipeline's prior AI-demand-driven bottlenecks, this is a supply-side geopolitical shock that AI/electronics demand happens to be absorbing fastest. Its durability is genuinely contested: TSMC, Samsung and SK Hynix hold multi-month buffers and high recycling rates that blunt near-term impact, industrial gas majors (Air Products, Linde) describe helium as margin-neutral-to-dilutive rather than a windfall, and Linde does not expect normalization before early 2027.",
+    "confidence": "medium",
+    "created_at": "2026-08-27",
+    "updated_at": "2026-08-27",
+    "supporting_reports": ["reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"],
+    "kill_conditions": [
+      {
+        "condition": "Strait of Hormuz shipping normalizes",
+        "metric": "Daily ship transit count (Lloyd's List Intelligence and similar trackers)",
+        "threshold": "Transits recover to at least 70 ships/day (roughly 80% of the ~85/day pre-conflict baseline) for four or more consecutive weeks",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Qatar's Ras Laffan helium/LNG production resumes at scale",
+        "metric": "QatarEnergy production/export capacity disclosures",
+        "threshold": "QatarEnergy confirms LNG/helium export capacity restored to at least 90% of pre-strike levels",
+        "time_window": "next 4-6 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Helium spot and contract prices normalize",
+        "metric": "Spot and contract helium price indices",
+        "threshold": "Spot prices fall back within 20% of pre-March-2026 levels for two consecutive quarters",
+        "time_window": "next 3-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Industrial gas majors report helium turning from headwind to tailwind",
+        "metric": "Air Products and Linde quarterly segment commentary on helium",
+        "threshold": "Both companies report helium as a net margin positive (not a headwind) for two consecutive quarters",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Alternative supply scales fast enough to replace lost Qatari volume",
+        "metric": "Independent helium supply-demand balance trackers (e.g. Smith, Fusion, industry gas-market research)",
+        "threshold": "Trackers report the global deficit closing to within 5% of the pre-crisis supply-demand balance",
+        "time_window": "next 4-6 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

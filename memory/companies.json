@@ -68,5 +68,15 @@
     "name": "Lumentum Holdings",
     "reports": ["reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"],
     "last_updated": "2026-08-26"
+  },
+  {
+    "name": "Air Products and Chemicals",
+    "reports": ["reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"],
+    "last_updated": "2026-08-27"
+  },
+  {
+    "name": "Linde plc",
+    "reports": ["reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"],
+    "last_updated": "2026-08-27"
   }
 ]

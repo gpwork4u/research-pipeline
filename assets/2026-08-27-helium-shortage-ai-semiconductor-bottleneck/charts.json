@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Strait of Hormuz daily ship transits",
+    "title_zh": "荷姆茲海峽每日船隻通行數",
+    "type": "bar",
+    "unit": "ships/day",
+    "source_id": "ev-13",
+    "series": [
+      { "label": "Normal (pre-conflict)", "value": 85 },
+      { "label": "August 2026 (disrupted)", "value": 3 }
+    ]
+  }
+]

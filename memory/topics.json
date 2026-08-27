@@ -61,5 +61,14 @@
     "status": "active",
     "categories": ["ai-infrastructure", "semiconductors", "networking", "optics"],
     "companies": ["Coherent Corp", "Lumentum Holdings"]
+  },
+  {
+    "slug": "helium-shortage-ai-semiconductor-bottleneck",
+    "title": "Helium Shortage 5.0: is the Qatar/Strait-of-Hormuz helium crisis a durable structural bottleneck on AI-driven semiconductor fabs, or a war-contingent price shock?",
+    "last_updated": "2026-08-27",
+    "reports": ["reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"],
+    "status": "active",
+    "categories": ["ai-infrastructure", "semiconductors", "commodities", "energy"],
+    "companies": ["Air Products and Chemicals", "Linde plc"]
   }
 ]
