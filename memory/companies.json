@@ -78,5 +78,10 @@
     "name": "Linde plc",
     "reports": ["reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"],
     "last_updated": "2026-08-27"
+  },
+  {
+    "name": "PJM Interconnection",
+    "reports": ["reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md"],
+    "last_updated": "2026-08-28"
   }
 ]

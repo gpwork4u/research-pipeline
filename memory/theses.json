@@ -282,5 +282,37 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-pjm-byonc-grid-interconnection-ai-data-center-bottleneck",
+    "topic": "pjm-byonc-grid-interconnection-ai-data-center-bottleneck",
+    "statement": "PJM's FERC-filed Interim Resource Adequacy Service / BYONC curtailment framework is not itself the bottleneck -- it is a rationing mechanism that reveals a genuine, pre-existing structural bottleneck in firm, dispatchable generation capacity within the largest US grid, evidenced by a more-than-tenfold rise in PJM's capacity-auction clearing price (to a record $333.44/MW-day) and PJM's first-ever failure to clear its full reliability requirement (a ~6,623MW shortfall). Because gas-turbine lead times (three-plus years, backlogs into 2029-2031 at GE Vernova, Siemens Energy and Mitsubishi Power) gate the BYONC self-generation path, the policy allocates existing scarcity toward better-capitalized developers rather than creating new supply. Its durability is genuinely contested: the binding mechanism does not apply until June 1, 2027, applies only to new loads, FERC has not yet ruled, and PJM previously retreated from a similar mandatory bring-your-own-generation proposal to a voluntary one after 2025 stakeholder pushback.",
+    "confidence": "medium",
+    "created_at": "2026-08-28",
+    "updated_at": "2026-08-28",
+    "supporting_reports": ["reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md"],
+    "kill_conditions": [
+      {
+        "condition": "FERC rejects or materially waters down PJM's IRAS/BYONC proposal",
+        "metric": "FERC order on Docket ER26-3380",
+        "threshold": "FERC denies the mandatory curtailment-priority framework, requires it be made voluntary, or orders substantial revisions removing the BYONC-linked curtailment priority",
+        "time_window": "next 1-2 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "PJM's capacity-auction reliability shortfall closes",
+        "metric": "PJM Base Residual Auction cleared capacity vs. Reliability Requirement",
+        "threshold": "A subsequent PJM capacity auction fully clears its Reliability Requirement with no shortfall",
+        "time_window": "next 2 auction cycles (~12-18 months)",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Gas-turbine lead times shorten materially",
+        "metric": "Reported order-to-delivery lead time at GE Vernova, Siemens Energy and Mitsubishi Power",
+        "threshold": "Quoted lead times fall below 2 years at two or more of the three major OEMs",
+        "time_window": "next 2-3 years",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

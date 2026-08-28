@@ -322,5 +322,50 @@
     "source_to_monitor": "TSMC, Samsung Electronics and SK Hynix investor relations",
     "origin_report": "reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "FERC ruling on PJM's ER26-3380 IRAS/BYONC filing",
+    "expected_window": "Q4 2026 (around or after PJM's requested October 12, 2026 effective date)",
+    "supports_if": "FERC approves the IRAS framework substantially as filed, with the BYONC-linked curtailment priority intact",
+    "weakens_if": "FERC rejects, materially delays, or requires the framework be made voluntary",
+    "source_to_monitor": "FERC.gov Docket ER26-3380 and RM26-4",
+    "origin_report": "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Other RTOs' (MISO, SPP, ISO-NE, NYISO, CAISO) compliance filings under FERC's RM26-4 show-cause order",
+    "expected_window": "H2 2026 - 2027",
+    "supports_if": "Multiple RTOs adopt comparable curtailment-priority or BYONC-style frameworks, confirming a national pattern rather than a PJM-only anomaly",
+    "weakens_if": "Other RTOs adopt materially weaker or no comparable rules, enabling large-load migration away from PJM",
+    "source_to_monitor": "Respective RTO/ISO filings and FERC.gov",
+    "origin_report": "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "PJM's next Base Residual Auction results",
+    "expected_window": "~2027",
+    "supports_if": "The reliability shortfall persists or widens and clearing prices remain at or above the 2027/2028 record",
+    "weakens_if": "The shortfall closes and clearing prices decline materially",
+    "source_to_monitor": "PJM Inside Lines auction-results releases",
+    "origin_report": "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "GE Vernova, Siemens Energy and Mitsubishi Power quarterly earnings calls",
+    "expected_window": "Q4 2026 and Q1 2027 reporting cycles",
+    "supports_if": "Gas-turbine backlogs continue growing and lead times remain at or beyond 2029-2031",
+    "weakens_if": "Backlog growth stalls or lead times shorten materially",
+    "source_to_monitor": "Respective investor relations pages",
+    "origin_report": "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "PJM Large Load Registry data on new large-load interconnection requests and BYONC uptake",
+    "expected_window": "ongoing, next 2-3 quarters once operational",
+    "supports_if": "Registry shows a high volume of large-load requests without secured BYONC, confirming binding curtailment exposure",
+    "weakens_if": "Most new large loads register with BYONC already secured via contracts or purchased capacity, reducing curtailment exposure",
+    "source_to_monitor": "PJM Large Load Registry / PJM Inside Lines",
+    "origin_report": "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
+    "status": "open"
   }
 ]

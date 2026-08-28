@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>PJM「自帶電力」新規：美國電網併網政策，是否已取代設備供應，成為 AI 資料中心的最緊束縛？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/pjm-byonc-grid-interconnection-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/pjm-byonc-grid-interconnection-ai-data-center-bottleneck</guid>
+      <pubDate>Fri, 28 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>regulation</category>
+      <category>data-centers</category>
+      <description>PJM 的限電新規並未創造瓶頸，而是在配給既有、以十年計的美國固定發電容量稀缺，渦輪機交期無法快速化解此稀缺。
+
+美國最大電網營運商 PJM 於 2026 年 8 月 13 日向 FERC 提出提案：新增 50MW 以上資料中心若未自行取得發電、合約或已購容量(「BYONC」)，在缺電時將優先於一般用戶被限電。此舉緊隨 FERC 於 2026 年 6 月要求全美六大電網營運商改革大型負載規則之後，且正值 PJM 容量拍賣價格創下每 MW-日 333.44 美元新高、電網首度未能達成可靠度目標之際。真正的限制在更上游：GE Vernova、西門子能源與三菱電力的燃氣渦輪機積壓交期現已長達三至五年。此規則要到 2027 年 6 月才生效，且 PJM 先前已因反彈而軟化過類似的強制性提案，其最終、具拘束力的形式仍存在真實爭議。</description>
+    </item>
+    <item>
       <title>氦氣短缺 5.0：卡達／荷姆茲海峽氦氣危機，是 AI 半導體晶圓廠的持久結構性瓶頸，還是戰爭導致的暫時性價格衝擊？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/helium-shortage-ai-semiconductor-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/helium-shortage-ai-semiconductor-bottleneck</guid>

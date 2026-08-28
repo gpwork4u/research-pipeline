@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>PJM&apos;s &apos;Bring Your Own Power&apos; Mandate: Has US Grid Interconnection Policy Overtaken Equipment Supply as AI Data Centers&apos; Binding Constraint?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/pjm-byonc-grid-interconnection-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/pjm-byonc-grid-interconnection-ai-data-center-bottleneck</guid>
+      <pubDate>Fri, 28 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>regulation</category>
+      <category>data-centers</category>
+      <description>PJM&apos;s new curtailment-priority rule doesn&apos;t create the bottleneck -- it rations a pre-existing, decade-scale scarcity of firm US generation capacity that gas-turbine lead times cannot quickly fix.
+
+PJM, the largest US grid operator, filed a proposal with FERC on August 13, 2026 that would curtail new 50MW-plus data centers before ordinary customers during shortages unless they secure their own generation, contracts, or purchased capacity (&quot;BYONC&quot;). This follows FERC&apos;s June 2026 order compelling all six US grid operators to reform large-load rules, and lands as PJM&apos;s capacity-auction price hit a record $333.44/MW-day and the grid missed its reliability target for the first time. The real constraint sits upstream: gas-turbine backlogs at GE Vernova, Siemens Energy and Mitsubishi Power now run three to five years. The rule doesn&apos;t bind until June 2027, and PJM previously softened a similar mandatory proposal after pushback, so its final, binding form remains genuinely contested.</description>
+    </item>
+    <item>
       <title>Helium Shortage 5.0: is the Qatar/Strait-of-Hormuz helium crisis a durable structural bottleneck on AI-driven semiconductor fabs, or a war-contingent price shock?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/helium-shortage-ai-semiconductor-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/helium-shortage-ai-semiconductor-bottleneck</guid>

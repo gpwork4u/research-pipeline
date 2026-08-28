@@ -70,5 +70,14 @@
     "status": "active",
     "categories": ["ai-infrastructure", "semiconductors", "commodities", "energy"],
     "companies": ["Air Products and Chemicals", "Linde plc"]
+  },
+  {
+    "slug": "pjm-byonc-grid-interconnection-ai-data-center-bottleneck",
+    "title": "PJM's 'Bring Your Own Power' Mandate: Has US Grid Interconnection Policy Overtaken Equipment Supply as AI Data Centers' Binding Constraint?",
+    "last_updated": "2026-08-28",
+    "reports": ["reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md"],
+    "status": "active",
+    "categories": ["ai-infrastructure", "energy", "regulation", "data-centers"],
+    "companies": ["PJM Interconnection"]
   }
 ]

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "PJM capacity-auction clearing price by delivery year",
+    "title_zh": "PJM 容量拍賣結清價格（依交割年度）",
+    "type": "bar",
+    "unit": "USD/MW-day",
+    "source_id": "ev-10",
+    "series": [
+      { "label": "2024/2025", "value": 28.92 },
+      { "label": "2025/2026", "value": 269.92 },
+      { "label": "2026/2027", "value": 329.17 },
+      { "label": "2027/2028", "value": 333.44 }
+    ]
+  },
+  {
+    "title": "GE Vernova gas-power equipment backlog",
+    "title_zh": "GE Vernova 燃氣發電設備訂單積壓",
+    "type": "line",
+    "unit": "GW",
+    "source_id": "ev-13",
+    "series": [
+      { "label": "End 2025", "value": 83 },
+      { "label": "Q1 2026", "value": 100 },
+      { "label": "Q2 2026", "value": 116 }
+    ]
+  }
+]

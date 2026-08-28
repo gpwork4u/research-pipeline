@@ -1,0 +1,692 @@
+{
+  "topic": {
+    "title": "PJM's 'Bring Your Own Power' Mandate: Has US Grid Interconnection Policy Overtaken Equipment Supply as AI Data Centers' Binding Constraint?",
+    "slug": "pjm-byonc-grid-interconnection-ai-data-center-bottleneck",
+    "date": "2026-08-28",
+    "research_type": "NEW",
+    "categories": ["ai-infrastructure", "energy", "regulation", "data-centers"],
+    "score": 32,
+    "trigger": "PJM Interconnection -- the largest US grid operator, covering roughly 65 million people -- filed a proposed 'Interim Resource Adequacy Service' (IRAS) and Large Load Registry with FERC (Docket ER26-3380) on August 13, 2026, following a Board of Managers decisional letter on July 27, 2026. The filing would make any new data center or other 'Large Load' of 50MW or more that does not secure its own qualifying generation, storage, or contracted capacity (Bring Your Own New Capacity, or 'BYONC') first in line for involuntary curtailment ahead of ordinary residential and commercial demand-response measures, starting June 1, 2027. This follows FERC's unprecedented June 18, 2026 show-cause orders (Docket RM26-4) to all six US grid operators to justify or reform their large-load interconnection rules within 60 days, and lands the same week PJM's own capacity auction data show data centers driving a record $333.44/MW-day clearing price and PJM's first-ever reliability shortfall. This is a distinct, non-duplicative angle on the AI buildout's power constraint this pipeline has not yet examined: a policy-driven capacity-allocation mechanism, not a physical-equipment shortage like the grid-transformer bottleneck covered on 2026-08-23."
+  },
+  "questions": {
+    "primary": "Does PJM's FERC-filed Interim Resource Adequacy Service / 'Bring Your Own New Capacity' (BYONC) curtailment framework mark a shift from physical-equipment scarcity to a policy-created capacity-allocation constraint that will bind AI data center buildout in the largest US grid -- and is that constraint durable, or a contestable proposal likely to be watered down before it ever takes effect?",
+    "sub": [
+      "What exactly does PJM's August 13, 2026 FERC filing (Interim Resource Adequacy Service, IRAS) require of new 'Large Loads' of 50MW+ after June 1, 2027, and what qualifies as BYONC?",
+      "How does this policy-layer constraint relate to -- and interact with -- the physical grid-equipment shortage (transformers, electrical steel) this pipeline covered on 2026-08-23, and the gas-turbine backlog behind on-site self-generation?",
+      "What is driving PJM specifically: how large is the capacity-auction price run-up and reliability shortfall, and how much of requested data-center load is real versus 'phantom' per independent forecasters?",
+      "Is this a PJM-only phenomenon, or is FERC's broader June 2026 show-cause order producing similar rules at other grid operators (MISO, ERCOT, SPP, ISO-NE, NYISO, CAISO)?",
+      "What would falsify the thesis that this is a durable structural constraint, given PJM's own history of softening an earlier mandatory bring-your-own-generation proposal after stakeholder pushback?"
+    ]
+  },
+  "thesis": "PJM's FERC filing for an Interim Resource Adequacy Service that would curtail new 50MW+ 'Large Loads' ahead of ordinary demand-response unless they secure Bring-Your-Own-New-Capacity is not itself the bottleneck -- it is a rationing mechanism that reveals a genuine, pre-existing structural bottleneck in firm, dispatchable generation capacity within the largest US grid, evidenced by PJM's capacity-auction clearing price rising more than tenfold in three years (to a record $333.44/MW-day) and its first-ever failure to clear enough capacity to meet its own reliability requirement (a roughly 6,600MW shortfall). Because gas-turbine lead times (three-plus years, backlogs into 2029-2031 at GE Vernova, Siemens Energy and Mitsubishi Power) are now the binding constraint on the BYONC self-generation path meant to satisfy PJM's rule, the policy does not create new supply -- it allocates scarcity, shifting risk onto AI data-center developers and, indirectly, onto Nvidia's downstream GPU-cluster deployment timelines. The framework's durability is genuinely contested: it does not bind until June 1, 2027, applies only to new loads, and PJM itself abandoned a mandatory bring-your-own-generation proposal for a voluntary one after 2025 stakeholder pushback, so FERC approval, legal challenge, or further softening before mid-2027 are all live risks.",
+  "facts": [
+    {
+      "statement": "On June 18, 2026, FERC issued six separate Section 206 show-cause orders (Docket RM26-4) to all US FERC-jurisdictional grid operators (PJM, MISO, SPP, CAISO, ISO-NE, NYISO), giving each 60 days (to August 17, 2026) to justify why existing tariffs adequately address large-load (20MW+) interconnection or propose reforms, plus a 30-day reliability report on securing generation capacity for large loads. The orders cover roughly 200 million people across 30+ states -- about two-thirds of FERC-jurisdictional load.",
+      "type": "FACT",
+      "evidence_ids": ["ev-1", "ev-2"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "PJM's Board of Managers issued a decisional letter on July 27, 2026 directing PJM staff to file a Reliability Backstop Procurement framework and an 'Interim Resource Adequacy Service' (IRAS) with FERC. PJM filed the core framework under Docket ER26-3380 beginning July 31, 2026, followed by the specific IRAS proposal and a new Large Load Registry on August 13, 2026.",
+      "type": "FACT",
+      "evidence_ids": ["ev-3", "ev-4", "ev-5", "ev-18"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "PJM's IRAS proposal defines a 'Large Load' as end-use demand with a cumulative peak of at least 50MW at a single electrical site (within a one-mile radius), and a 'New Large Load' as one entering service after June 1, 2027. Under the proposal, any portion of a New Large Load's demand not backed by qualifying new capacity -- on-site generation, a long-term power contract, or purchased PJM-market capacity, collectively 'Bring Your Own New Capacity' (BYONC) -- would be curtailed before Pre-Emergency Load Management is deployed on ordinary customers during a capacity shortage.",
+      "type": "FACT",
+      "evidence_ids": ["ev-5", "ev-6", "ev-7", "ev-8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "PJM requested a FERC-approved effective date of October 12, 2026 for the tariff revisions, to give it time to build the administrative framework before the IRAS/BYONC curtailment mechanism itself takes effect for New Large Loads on June 1, 2027.",
+      "type": "FACT",
+      "evidence_ids": ["ev-6", "ev-9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "PJM's capacity-auction clearing price rose from $28.92/MW-day (2024/2025 delivery year) to $269.92/MW-day (2025/2026) to $329.17/MW-day (2026/2027) to a record $333.44/MW-day (2027/2028), with PJM's own market monitor attributing roughly 40% ($6.5 billion of a total $16.4 billion) of the most recent auction's cleared cost to data-center load.",
+      "type": "FACT",
+      "evidence_ids": ["ev-10", "ev-12"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "PJM's 2027/2028 delivery-year capacity auction cleared roughly 6,623MW less than PJM's own Reliability Requirement -- reported as the first time in PJM's history that an auction failed to fully meet its reliability target.",
+      "type": "FACT",
+      "evidence_ids": ["ev-11"],
+      "confidence": "low"
+    },
+    {
+      "statement": "As of its Q2 2026 earnings call (late July 2026), GE Vernova reported a 116GW gas-power-equipment backlog (53GW firm orders, 63GW paid slot reservations), up from 100GW three months earlier and 83GW at end-2025, and guided to at least 125GW under contract by December 2026; ordering a heavy-duty gas turbine from GE Vernova today results in delivery not before 2031. Siemens Energy reported a 69GW firm gas-turbine backlog as of its fiscal Q3 (ended June 30, 2026); Mitsubishi Heavy Industries reported a 35GW large-frame turbine backlog (up from 23GW a year earlier), with orders booked in the quarter scheduled for 2028-2030 delivery.",
+      "type": "FACT",
+      "evidence_ids": ["ev-13", "ev-14"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "A Bloomberg analysis published August 12, 2026, citing Wood Mackenzie, estimated that of 1,066GW of electricity requested for US data-center projects, grid operators and utilities are likely to actually commit to only about 28% (roughly 299GW), with the remaining ~768GW characterized as 'phantom load' from speculative or duplicate project pitches that will not materialize.",
+      "type": "FACT",
+      "evidence_ids": ["ev-15"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Texas's ERCOT market took a parallel but distinct approach: the Public Utility Commission of Texas approved rules on June 18, 2026 for an initial 'Batch Zero' large-load interconnection process requiring transmission-voltage customers connecting after December 31, 2025 to accept curtailment during firm load-shed events (unless designated critical); ERCOT received 198GW of large-load interconnection applications in Q1 2026 alone, with 86GW under active review.",
+      "type": "FACT",
+      "evidence_ids": ["ev-16"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "On August 26, 2026, Anthropic agreed to pay Nscale $45 billion over six years for 460MW of AI compute capacity (running Nvidia's Vera Rubin chips) at Nscale's 'Monarch' data-center campus in Mason County, West Virginia -- reported as the latest in a series of Anthropic compute deals that secure dedicated capacity ahead of grid-connection risk, following an earlier $10 billion deal with Volta for capacity in Norway.",
+      "type": "FACT",
+      "evidence_ids": ["ev-17"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "PJM's current large-load framework follows an earlier, more contested stakeholder process in which PJM had proposed a mandatory bring-your-own-generation (BYOG) requirement; after 'clear, overall stakeholder concern,' PJM shifted to a voluntary framework before the current, more binding IRAS/BYONC proposal was filed in mid-2026. Consumer advocates (e.g., Citizens Utility Board) and some state officials have criticized the current plan for leaving key implementation questions to individual states.",
+      "type": "FACT",
+      "evidence_ids": ["ev-19"],
+      "confidence": "low"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because PJM's capacity-auction clearing price rose more than tenfold in three years and the grid failed for the first time to clear its full reliability requirement, the underlying constraint predates and is independent of PJM's IRAS filing -- the filing is a rationing/allocation mechanism responding to an already-binding scarcity of firm dispatchable capacity, not the cause of that scarcity.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-10", "ev-11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because BYONC compliance can be satisfied via a long-term power contract or purchased PJM-market capacity rather than only new on-site generation, and because GE Vernova, Siemens Energy and Mitsubishi Power gas-turbine lead times run three to five years, most New Large Loads reaching PJM's June 1, 2027 binding date will likely satisfy BYONC through contracts/purchased capacity rather than newly built on-site turbines -- meaning the rule's near-term effect is more a reallocation of existing capacity toward well-capitalized developers than a direct trigger for new physical generation build.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-5", "ev-13", "ev-14"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because Wood Mackenzie estimates roughly 72% of requested US data-center power is 'phantom load,' PJM's own large-load interconnection queue and reliability-shortfall projections likely embed some of that inflation, meaning the true scale of the binding constraint may be smaller than headline gigawatt figures suggest, even though the auction price and shortfall data indicate a real, not purely speculative, shortfall exists today.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-15", "ev-11"],
+      "confidence": "low"
+    },
+    {
+      "statement": "Because PJM previously retreated from a mandatory bring-your-own-generation requirement to a voluntary one after stakeholder pushback, and because the current IRAS proposal still requires FERC approval by the requested October 12, 2026 effective date with the binding curtailment mechanism itself not applying until June 1, 2027, there is a meaningful multi-quarter window in which the rule's final, binding form could still be softened, delayed, or legally challenged before it constrains any actual data-center project.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-6", "ev-19"],
+      "confidence": "medium"
+    }
+  ],
+  "unknowns": [
+    "Whether FERC will approve PJM's ER26-3380/IRAS filing as proposed, modify it, or reject it was not resolved by any source gathered in this research pass -- FERC's ruling had not been reported as of August 28, 2026.",
+    "The precise number or aggregate MW of specific, named AI data-center projects that would be immediately subject to New-Large-Load curtailment risk under the June 1, 2027 effective date (as opposed to projects grandfathered by connecting earlier) was not found in any source gathered.",
+    "Whether MISO, SPP, ISO-NE, NYISO and CAISO will adopt comparable curtailment-priority/BYONC-style frameworks in response to FERC's RM26-4 show-cause order, or materially weaker rules, remained unresolved in the sources gathered as of this research pass.",
+    "The specific historical timeline and stakeholder-comment details of PJM's earlier 2025 mandatory-to-voluntary BYOG reversal (exact dates, vote counts, which stakeholders drove the change) were not independently confirmed beyond a single secondary source's summary.",
+    "Every primary-source fetch attempted in this research pass (ferc.gov, pjm.com filing PDFs and board disclosures, sec.gov, and several law-firm and trade-press domains) was blocked by the research environment's egress proxy; all facts rely on convergent web-search-result snippets rather than directly retrieved primary documents."
+  ],
+  "industry_chain": [
+    {
+      "name": "Firm/dispatchable generation capacity (gas turbines, gas supply, nuclear uprates)",
+      "role": "Upstream",
+      "major_players": ["GE Vernova", "Siemens Energy", "Mitsubishi Power", "Constellation Energy", "existing PJM generators"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Grid interconnection, tariff design & capacity-market administration",
+      "role": "Infrastructure",
+      "major_players": ["PJM Interconnection", "FERC", "MISO", "ERCOT", "SPP", "ISO-NE", "NYISO", "CAISO"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Behind-the-meter self-generation & storage (BYONC-qualifying assets)",
+      "role": "Infrastructure",
+      "major_players": ["GE Vernova", "Siemens Energy", "Mitsubishi Power", "battery-storage developers"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI data-center development & operation",
+      "role": "Platform",
+      "major_players": ["Nscale", "Volta Infra", "hyperscalers (AWS, Google, Microsoft, Meta)"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI compute / GPU cluster leasing",
+      "role": "Application",
+      "major_players": ["Nvidia", "Anthropic", "OpenAI"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI compute end customers",
+      "role": "Customer",
+      "major_players": ["AI labs", "Enterprises"],
+      "pricing_power": "Low",
+      "supply_elasticity": null,
+      "substitutability": null
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "Firm/dispatchable generation capacity within PJM",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "3-5 years for new gas-turbine capacity (GE Vernova lead times run to 2031; Mitsubishi orders booked for 2028-2030 delivery)",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "Extreme",
+      "profit_capture": "High",
+      "opportunity_score": 5,
+      "classification": "Structural Bottleneck",
+      "rationale": "Meets the strict three-part test: demand growth is extreme (capacity-auction clearing price rose more than tenfold in three years to a record $333.44/MW-day, and the grid failed for the first time to clear its full reliability requirement); supply elasticity is low because new firm capacity requires multi-year turbine lead times and permitting; substitutability is hard because renewables and short-duration storage cannot fully replace firm, dispatchable capacity for grid-reliability purposes at the scale and timeline required."
+    },
+    {
+      "node": "Grid interconnection & tariff/curtailment-rule administration (PJM IRAS and FERC's broader RM26-4 process)",
+      "demand_growth": "High",
+      "supply_elasticity": "Medium",
+      "expansion_time": "months for a FERC ruling; PJM's own requested effective date is October 12, 2026 with the binding mechanism applying from June 1, 2027",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Extreme",
+      "profit_capture": "Medium",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "Demand for large-load interconnection is high (198GW of ERCOT requests in Q1 2026 alone; PJM building a new Large Load Registry), but the process itself has medium elasticity -- FERC can approve, modify or reject rules on a multi-month timeline -- and medium substitutability, since developers can route new projects to other RTOs/ISOs or off-grid configurations, so it does not meet the strict Hard-substitutability bar for a Structural Bottleneck."
+    },
+    {
+      "node": "Behind-the-meter self-generation equipment (BYONC-qualifying gas turbines/storage)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "3-5 years for new gas turbines from the three dominant OEMs (GE Vernova, Siemens Energy, Mitsubishi Power)",
+      "substitutability": "Medium",
+      "pricing_power": "High",
+      "market_attention": "High",
+      "profit_capture": "High",
+      "opportunity_score": 4,
+      "classification": "Growth Area",
+      "rationale": "BYONC-driven demand for new turbines is extreme and turbine supply elasticity is low, but substitutability is only medium because PJM's BYONC definition also accepts long-term power-purchase contracts and purchased PJM-market capacity, giving developers routes to compliance that do not require building new on-site generation -- so this node falls short of the strict Hard-substitutability test."
+    }
+  ],
+  "companies": [
+    {
+      "name": "PJM Interconnection",
+      "business_model": "Nonprofit regional transmission organization operating the wholesale electricity market and transmission grid for roughly 65 million people across 13 US states and Washington, D.C.; not a publicly traded company.",
+      "revenue_model": "Funded by market administration fees and tariff charges on generators, load-serving entities and transmission owners, not by equity/debt capital markets in the way a public company is.",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": [
+        "Rapid AI/data-center load growth driving record capacity-auction prices",
+        "FERC's June 2026 show-cause order compelling tariff reform",
+        "New Large Load Registry and IRAS administrative build-out"
+      ],
+      "customer_concentration": null,
+      "moat": "Sole grid operator and capacity-market administrator for its multi-state footprint; regulatory authority derives from its FERC-approved tariff rather than a competitive market position.",
+      "switching_costs": "High for generators, load-serving entities and large loads physically connected to PJM's footprint; a developer can choose a different RTO or off-grid site only for a new project, not an existing one.",
+      "capital_intensity": null,
+      "management_strategy": "Filed the Interim Resource Adequacy Service and Large Load Registry with FERC to prioritize reliability for existing customers over new, uncommitted large loads while pushing some implementation questions to individual states.",
+      "execution_risk": "PJM previously retreated from a mandatory bring-your-own-generation proposal to a voluntary one after stakeholder pushback in 2025, indicating a track record of the rule's binding elements being negotiated down before final implementation."
+    }
+  ],
+  "metrics": [
+    {
+      "name": "FERC RM26-4 show-cause order deadline",
+      "value": 60,
+      "unit": "days from June 18, 2026 issuance",
+      "period": "due August 17, 2026",
+      "growth": null,
+      "source_id": "ev-1"
+    },
+    {
+      "name": "PJM Large Load definition threshold",
+      "value": 50,
+      "unit": "MW cumulative peak at a single site",
+      "period": "IRAS proposal, filed August 13, 2026",
+      "growth": null,
+      "source_id": "ev-6"
+    },
+    {
+      "name": "PJM requested IRAS tariff effective date",
+      "value": "2026-10-12",
+      "unit": "date",
+      "period": "requested in August 13, 2026 filing",
+      "growth": null,
+      "source_id": "ev-6"
+    },
+    {
+      "name": "PJM New Large Load curtailment-mechanism binding date",
+      "value": "2027-06-01",
+      "unit": "date",
+      "period": "per IRAS proposal",
+      "growth": null,
+      "source_id": "ev-7"
+    },
+    {
+      "name": "PJM capacity-auction clearing price, 2024/2025 delivery year",
+      "value": 28.92,
+      "unit": "USD/MW-day",
+      "period": "2024/2025",
+      "growth": null,
+      "source_id": "ev-10"
+    },
+    {
+      "name": "PJM capacity-auction clearing price, 2027/2028 delivery year (record)",
+      "value": 333.44,
+      "unit": "USD/MW-day",
+      "period": "2027/2028",
+      "growth": "record, ~11.5x the 2024/2025 price",
+      "source_id": "ev-10"
+    },
+    {
+      "name": "PJM 2027/2028 reliability shortfall",
+      "value": 6623,
+      "unit": "MW",
+      "period": "2027/2028 delivery year auction",
+      "growth": null,
+      "source_id": "ev-11"
+    },
+    {
+      "name": "Data centers' share of PJM's latest capacity-auction cost",
+      "value": 40,
+      "unit": "%",
+      "period": "latest auction (~$6.5bn of $16.4bn total)",
+      "growth": null,
+      "source_id": "ev-12"
+    },
+    {
+      "name": "GE Vernova gas-power equipment backlog",
+      "value": 116,
+      "unit": "GW",
+      "period": "Q2 2026",
+      "growth": "up from 100GW (Q1 2026) and 83GW (end-2025)",
+      "source_id": "ev-13"
+    },
+    {
+      "name": "Siemens Energy gas-turbine firm backlog",
+      "value": 69,
+      "unit": "GW",
+      "period": "fiscal Q3 2026 (ended June 30, 2026)",
+      "growth": null,
+      "source_id": "ev-14"
+    },
+    {
+      "name": "Mitsubishi Heavy Industries large-frame turbine backlog",
+      "value": 35,
+      "unit": "GW",
+      "period": "as of 2026",
+      "growth": "up from 23GW a year earlier",
+      "source_id": "ev-14"
+    },
+    {
+      "name": "US data-center power requested vs. likely committed (Wood Mackenzie est.)",
+      "value": "1066 requested / ~299 likely committed",
+      "unit": "GW",
+      "period": "as of August 2026",
+      "growth": null,
+      "source_id": "ev-15"
+    },
+    {
+      "name": "ERCOT large-load interconnection requests",
+      "value": 198,
+      "unit": "GW",
+      "period": "Q1 2026",
+      "growth": null,
+      "source_id": "ev-16"
+    },
+    {
+      "name": "Anthropic-Nscale compute deal",
+      "value": 45,
+      "unit": "USD billion over 6 years for 460MW",
+      "period": "announced August 26, 2026",
+      "growth": null,
+      "source_id": "ev-17"
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Long-term power purchase agreements with existing generators",
+      "kind": "indirect alternative",
+      "note": "Satisfies PJM's BYONC requirement without building new on-site generation, diluting the near-term pull-through to gas-turbine OEMs -- illustrated by Anthropic's $45bn Nscale deal and its earlier $10bn Volta deal."
+    },
+    {
+      "name": "Purchased PJM-market capacity",
+      "kind": "indirect alternative",
+      "note": "Large loads can qualify for BYONC by purchasing existing capacity in PJM's market rather than adding new physical generation, which reallocates scarce capacity rather than expanding it."
+    },
+    {
+      "name": "Other RTOs/ISOs and off-grid siting (ERCOT, MISO, SPP, behind-the-meter)",
+      "kind": "indirect alternative",
+      "note": "Developers can site new large loads outside PJM's footprint or entirely off-grid to avoid PJM-specific curtailment risk, though ERCOT has adopted its own (different) curtailment-acceptance rules and FERC's RM26-4 order pushes all six RTOs toward some form of reform."
+    },
+    {
+      "name": "Battery energy storage systems",
+      "kind": "indirect alternative",
+      "note": "Can partially qualify as BYONC capacity for shorter-duration reliability needs without the 3-5 year lead times of new gas turbines, though duration and scale limits constrain full substitution for firm generation."
+    }
+  ],
+  "financials": [],
+  "valuation": {
+    "available": false,
+    "reason": "This is a market-structure/regulatory topic centered on a nonprofit grid operator (PJM) and a pending FERC proceeding, not a topic where a single public company's current market price, share count and financial data were gathered for a valuation exercise."
+  },
+  "catalysts": [
+    "FERC ruling on PJM's ER26-3380 Interim Resource Adequacy Service / BYONC filing, expected around or after the requested October 12, 2026 effective date",
+    "Compliance filings from MISO, SPP, ISO-NE, NYISO and CAISO under FERC's RM26-4 show-cause order",
+    "PJM's next Base Residual Auction results and reliability-requirement clearing outcome",
+    "GE Vernova, Siemens Energy and Mitsubishi Power quarterly earnings on gas-turbine backlog and lead times",
+    "Data on New Large Load registrations and BYONC uptake in PJM's Large Load Registry once operational"
+  ],
+  "bear_case": [
+    {
+      "dimension": "Regulation",
+      "argument": "PJM already retreated once from a mandatory bring-your-own-generation requirement to a voluntary framework after 2025 stakeholder pushback, and FERC could similarly modify, delay or reject the current IRAS/BYONC proposal before its requested October 12, 2026 effective date."
+    },
+    {
+      "dimension": "Demand",
+      "argument": "Wood Mackenzie estimates roughly 72% of the 1,066GW of US data-center power currently requested is 'phantom load' that will never materialize, suggesting the scale of demand pressure driving PJM's rule may be significantly overstated relative to what actually gets built."
+    },
+    {
+      "dimension": "Execution",
+      "argument": "The IRAS curtailment mechanism does not bind until June 1, 2027 and applies only to New Large Loads, giving developers roughly ten months to secure grandfathered interconnection, lock in BYONC-qualifying contracts, or lobby for further changes before any project faces actual curtailment risk."
+    },
+    {
+      "dimension": "Supply",
+      "argument": "BYONC can be satisfied through long-term power contracts or purchased PJM-market capacity, not only new on-site generation, so the three-to-five-year gas-turbine lead times at GE Vernova, Siemens Energy and Mitsubishi Power do not necessarily gate compliance for most developers."
+    },
+    {
+      "dimension": "Competition",
+      "argument": "Developers can route new large loads to other RTOs/ISOs with different rules (e.g., ERCOT's curtailment-acceptance-based process) or to off-grid, behind-the-meter configurations entirely, potentially arbitraging away PJM-specific policy risk rather than being bound by it."
+    }
+  ],
+  "kill_conditions": [
+    {
+      "condition": "FERC rejects or materially waters down PJM's IRAS/BYONC proposal",
+      "metric": "FERC order on Docket ER26-3380",
+      "threshold": "FERC denies the mandatory curtailment-priority framework, requires it be made voluntary, or orders substantial revisions removing the BYONC-linked curtailment priority",
+      "time_window": "next 1-2 quarters",
+      "impact": "invalidate"
+    },
+    {
+      "condition": "PJM's capacity-auction reliability shortfall closes",
+      "metric": "PJM Base Residual Auction cleared capacity vs. Reliability Requirement",
+      "threshold": "A subsequent PJM capacity auction fully clears its Reliability Requirement with no shortfall",
+      "time_window": "next 2 auction cycles (~12-18 months)",
+      "impact": "weaken"
+    },
+    {
+      "condition": "Gas-turbine lead times shorten materially",
+      "metric": "Reported order-to-delivery lead time at GE Vernova, Siemens Energy and Mitsubishi Power",
+      "threshold": "Quoted lead times fall below 2 years at two or more of the three major OEMs",
+      "time_window": "next 2-3 years",
+      "impact": "weaken"
+    },
+    {
+      "condition": "New large loads bypass PJM en masse for other RTOs or off-grid siting",
+      "metric": "Reported large-load interconnection queue volumes by RTO/ISO",
+      "threshold": "PJM's share of new US large-load interconnection requests falls materially quarter over quarter relative to ERCOT/MISO/off-grid alternatives",
+      "time_window": "next 3-4 quarters",
+      "impact": "weaken"
+    },
+    {
+      "condition": "Independent analysis confirms realized data-center load growth in PJM falls well below current planning assumptions",
+      "metric": "Independent load-forecast reconciliation studies (e.g., Wood Mackenzie, PJM's own load forecast revisions)",
+      "threshold": "Realized/contracted large-load growth in PJM comes in well below current capacity-auction-driving forecasts for two or more consecutive planning cycles",
+      "time_window": "next 2-3 years",
+      "impact": "invalidate"
+    }
+  ],
+  "validation_events": [
+    {
+      "event": "FERC ruling on PJM's ER26-3380 IRAS/BYONC filing",
+      "expected_window": "Q4 2026 (around or after PJM's requested October 12, 2026 effective date)",
+      "supports_if": "FERC approves the IRAS framework substantially as filed, with the BYONC-linked curtailment priority intact",
+      "weakens_if": "FERC rejects, materially delays, or requires the framework be made voluntary",
+      "source_to_monitor": "FERC.gov Docket ER26-3380 and RM26-4"
+    },
+    {
+      "event": "Other RTOs' (MISO, SPP, ISO-NE, NYISO, CAISO) compliance filings under FERC's RM26-4 show-cause order",
+      "expected_window": "H2 2026 - 2027",
+      "supports_if": "Multiple RTOs adopt comparable curtailment-priority or BYONC-style frameworks, confirming a national pattern rather than a PJM-only anomaly",
+      "weakens_if": "Other RTOs adopt materially weaker or no comparable rules, enabling large-load migration away from PJM",
+      "source_to_monitor": "Respective RTO/ISO filings and FERC.gov"
+    },
+    {
+      "event": "PJM's next Base Residual Auction results",
+      "expected_window": "~2027",
+      "supports_if": "The reliability shortfall persists or widens and clearing prices remain at or above the 2027/2028 record",
+      "weakens_if": "The shortfall closes and clearing prices decline materially",
+      "source_to_monitor": "PJM Inside Lines auction-results releases"
+    },
+    {
+      "event": "GE Vernova, Siemens Energy and Mitsubishi Power quarterly earnings calls",
+      "expected_window": "Q4 2026 and Q1 2027 reporting cycles",
+      "supports_if": "Gas-turbine backlogs continue growing and lead times remain at or beyond 2029-2031",
+      "weakens_if": "Backlog growth stalls or lead times shorten materially",
+      "source_to_monitor": "Respective investor relations pages"
+    },
+    {
+      "event": "PJM Large Load Registry data on new large-load interconnection requests and BYONC uptake",
+      "expected_window": "ongoing, next 2-3 quarters once operational",
+      "supports_if": "Registry shows a high volume of large-load requests without secured BYONC, confirming binding curtailment exposure",
+      "weakens_if": "Most new large loads register with BYONC already secured via contracts or purchased capacity, reducing curtailment exposure",
+      "source_to_monitor": "PJM Large Load Registry / PJM Inside Lines"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ev-1",
+      "claim": "FERC Docket RM26-4: Interconnection of Large Loads to the Interstate Transmission System -- official docket page",
+      "source_url": "https://www.ferc.gov/rm26-4",
+      "source_title": "Federal Energy Regulatory Commission: \"Interconnection of Large Loads to the Interstate Transmission System (Docket No. RM26-4-000)\"",
+      "source_type": "primary",
+      "published_at": "2026-06-18",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of ferc.gov was blocked by the research environment's egress proxy. Search-result snippets and multiple corroborating law-firm summaries (Day Pitney, Baker Botts, Duane Morris, McGuireWoods) confirm: on June 18, 2026, FERC issued six Section 206 show-cause orders to PJM, MISO, SPP, CAISO, ISO-NE and NYISO, giving each 60 days to justify or reform tariff provisions for interconnecting large loads (20MW+), covering roughly 200 million people / two-thirds of FERC-jurisdictional load.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-2",
+      "claim": "FERC show-cause orders background, scope and deadlines",
+      "source_url": "https://www.daypitney.com/ferc-issues-show-cause-orders-to-six-rtos/isos-on-large-load-integration",
+      "source_title": "Day Pitney LLP: \"FERC Issues Show Cause Orders to Six RTOs/ISOs on Large Load Integration\"",
+      "source_type": "secondary",
+      "published_at": "2026-06",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of daypitney.com was blocked by the research environment's egress proxy. Search-result snippet: FERC's orders initiated Section 206 proceedings finding each RTO/ISO's tariff appears unjust/unreasonable for lacking adequate large-load provisions, with a 60-day (by August 17, 2026) show-cause deadline and a 30-day reliability-report requirement, following an October 2025 Secretary of Energy letter directing an ANOPR on the topic.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-3",
+      "claim": "PJM Board of Managers decisional letter directing the IRAS/Reliability Backstop Procurement FERC filing",
+      "source_url": "https://www.pjm.com/-/media/DotCom/about-pjm/who-we-are/public-disclosures/2026/20260727-board-decisional-letter-on-cifp-reliability-backstop-procurement-and-connect-and-manage.pdf",
+      "source_title": "PJM Interconnection: Board of Managers decisional letter on CIFP, Reliability Backstop Procurement and Connect and Manage",
+      "source_type": "primary",
+      "published_at": "2026-07-27",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of pjm.com was blocked by the research environment's egress proxy. Search-result snippets (Foley Hoag, Mondaq, GridBeyond) confirm: on July 27, 2026, PJM's Board of Managers directed staff to file a Reliability Backstop Procurement and a renamed 'Interim Resource Adequacy Service' with FERC in the following days, to require Electric Distributors to implement IRAS for New Large Loads contributing to PJM falling below its Reliability Requirement.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-4",
+      "claim": "Foley Hoag summary of PJM Board's IRAS/Reliability Backstop Procurement decisional letter",
+      "source_url": "https://foleyhoag.com/news-and-insights/blogs/energy-and-climate-counsel/2026/july/pjm-board-directs-ferc-filing-on-reliability-backstop-procurement-and-interim-resource-adequacy-serv/",
+      "source_title": "Foley Hoag LLP: \"PJM Board Directs FERC Filing on Reliability Backstop Procurement and Interim Resource Adequacy Service\"",
+      "source_type": "secondary",
+      "published_at": "2026-07",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of foleyhoag.com was blocked by the research environment's egress proxy. Search-result snippet: PJM will establish a federally approved hourly credit rate for Interim Resource Adequacy Service, set equal to 50% of the existing Performance Assessment Interval rate (the Non-PAI rate FERC approved June 26, 2026 for Pre-Emergency Load Management events), to compensate Electric Distributors implementing the new emergency curtailment procedure for new Large Load customers.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-5",
+      "claim": "PJM's ER26-3380-000 FERC filing document (Interim Resource Adequacy Service / Reliability Backstop Procurement)",
+      "source_url": "https://www.pjm.com/pjmfiles/directory/etariff/FercDockets/9806/20260731-er26-3380-000.pdf",
+      "source_title": "PJM Interconnection: FERC eTariff filing, Docket ER26-3380-000",
+      "source_type": "primary",
+      "published_at": "2026-07-31",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of pjm.com was blocked by the research environment's egress proxy. Search-result snippets and secondary corroboration (electroneconomics, PA Environment Digest, MLQ News) confirm PJM filed this tariff revision at FERC under Docket ER26-3380-000, initially July 31, 2026, with the specific Interim Resource Adequacy Service proposal and a new Large Load Registry following on August 13, 2026, defining BYONC (Bring Your Own New Capacity) and the 50MW New Large Load curtailment-priority mechanism.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-6",
+      "claim": "Detail on PJM's 50MW curtailment-priority proposal, BYONC mechanics and requested effective date",
+      "source_url": "https://mlq.ai/news/pjm-proposal-would-put-new-50-mw-plus-data-centers-first-in-line-for-curtailment-during-shortages/",
+      "source_title": "MLQ News: \"PJM proposal would put new 50 MW-plus data centers first in line for curtailment during shortages\"",
+      "source_type": "secondary",
+      "published_at": "2026-08",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of mlq.ai was blocked by the research environment's egress proxy. Search-result snippet: on Aug. 13, PJM filed its proposed Interim Resource Adequacy Service (IRAS) and a Large Load Registry; a Large Load is end-use demand with a cumulative peak of at least 50MW at a single electrical site; load-serving entities serving New Large Loads must designate qualifying new capacity equal to or greater than the load's peak demand or face curtailment priority; PJM requested an October 12, 2026 effective date for the tariff revisions.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-7",
+      "claim": "PJM's New Data Center Power Equation -- BYONC definition and June 1, 2027 New Large Load date",
+      "source_url": "https://www.datacenterfrontier.com/energy/article/55397507/pjms-new-data-center-power-equation",
+      "source_title": "Data Center Frontier: \"PJM's New Data Center Power Equation\"",
+      "source_type": "secondary",
+      "published_at": "2026-08",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of datacenterfrontier.com was blocked by the research environment's egress proxy. Search-result snippet: PJM defines a New Large Load as one entering service or adding incremental demand after June 1, 2027; a covered load that secures its own qualifying capacity (on-site generation, long-term power contract, or purchased PJM-market capacity -- BYONC) moves out of the mandatory curtailment-first tier ahead of Pre-Emergency Load Management.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-8",
+      "claim": "Corroborating detail on PJM's 50MW-plus curtailment-first rule for new data centers",
+      "source_url": "https://www.tomshardware.com/tech-industry/data-centers/new-data-centers-on-americas-largest-grid-face-first-in-line-blackouts-unless-they-bring-their-own-power",
+      "source_title": "Tom's Hardware: \"America's largest grid wants to cut power to new data centers first during shortages\"",
+      "source_type": "secondary",
+      "published_at": "2026-08",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of tomshardware.com was blocked by the research environment's egress proxy. Search-result snippet: 50MW-plus new data centers on PJM's grid must bring their own electricity generation, or secure equivalent capacity, to avoid being first in line for shutoffs during shortages, under PJM's newly filed rule.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-9",
+      "claim": "Virginia Mercury coverage of PJM's bring-your-own-power proposal",
+      "source_url": "https://virginiamercury.com/2026/08/27/new-proposal-from-grid-operator-pjm-would-require-data-centers-to-bring-their-own-power/",
+      "source_title": "Virginia Mercury: \"New proposal from grid operator PJM would require data centers to bring their own power\"",
+      "source_type": "secondary",
+      "published_at": "2026-08-27",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of virginiamercury.com was blocked by the research environment's egress proxy. Search-result snippet corroborates PJM's IRAS filing requiring new large data centers to bring their own generation or accept curtailment priority, with the requested October 12, 2026 effective date.",
+      "confidence": "low"
+    },
+    {
+      "id": "ev-10",
+      "claim": "PJM capacity-auction clearing price history across delivery years",
+      "source_url": "https://www.igs.com/energy-resource-center/energy-101/capacity-auction-results--what-it-means-for-your-business-s-electric-bill",
+      "source_title": "IGS Energy: \"PJM Capacity Auction Hits Record $329/MW-Day: Business Impact Guide\"",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of igs.com was blocked by the research environment's egress proxy. Search-result snippet, cross-checked against Enel North America's PJM auction-results summary: PJM capacity clearing prices were $28.92/MW-day (2024/2025), $269.92/MW-day (2025/2026), $329.17/MW-day (2026/2027) and a record $333.44/MW-day (2027/2028).",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-11",
+      "claim": "PJM's 2027/2028 delivery-year capacity auction reliability shortfall",
+      "source_url": "https://introl.com/blog/pjm-grid-crisis-2027-data-center-capacity-shortfall",
+      "source_title": "Introl: \"PJM's 6GW Capacity Shortfall\"",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of introl.com was blocked by the research environment's egress proxy. Search-result snippet: PJM's 2027 capacity auction cleared roughly 6,623MW short of PJM's Reliability Requirement, described as the first time in PJM's history that an auction failed to fully meet its reliability target.",
+      "confidence": "low"
+    },
+    {
+      "id": "ev-12",
+      "claim": "Data centers' 40% share of PJM's latest capacity-auction cost, per PJM's Independent Market Monitor",
+      "source_url": "https://www.utilitydive.com/news/data-centers-pjm-capacity-auction/808951/",
+      "source_title": "Utility Dive: \"Data centers were 40% of PJM capacity costs in last auction: market monitor\"",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of utilitydive.com was blocked by the research environment's egress proxy. Search-result snippet: PJM's Independent Market Monitor found data-center load accounted for about 40% ($6.5 billion) of the $16.4 billion total cost cleared in the most recent capacity auction.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-13",
+      "claim": "GE Vernova gas-power equipment backlog growth and lead times",
+      "source_url": "https://energynewsbeat.co/ai/ge-vernovas-gas-turbine-backlog-hits-116-gw-what-does-this-mean-for-the-ai-market/",
+      "source_title": "Energy News Beat: \"GE Vernova's Gas Turbine Backlog Hits 116 GW. What Does This Mean for the AI Market?\"",
+      "source_type": "secondary",
+      "published_at": "2026-07",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of energynewsbeat.co was blocked by the research environment's egress proxy. Search-result snippet, cross-checked against Utility Dive and Natural Gas Intel coverage of GE Vernova's July 22, 2026 earnings call: GE Vernova's gas-power equipment backlog reached 116GW (53GW firm, 63GW slot reservations) at Q2 2026, up from 100GW three months earlier and 83GW at end-2025; the company guided to at least 125GW under contract by December 2026; a heavy-duty turbine ordered today would not be delivered before 2031.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-14",
+      "claim": "Siemens Energy and Mitsubishi Power gas-turbine backlogs and lead times",
+      "source_url": "https://oilprice.com/Energy/Energy-General/The-Gas-Turbine-Shortage-Just-Became-AIs-Biggest-Constraint.amp.html",
+      "source_title": "OilPrice.com: \"The Gas Turbine Shortage Just Became AI's Biggest Constraint\"",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of oilprice.com was blocked by the research environment's egress proxy. Search-result snippet, cross-checked against a related Utility Dive report on Mitsubishi's capacity expansion: Siemens Energy ended fiscal Q3 2026 (June 30, 2026) with a 69GW firm gas-turbine backlog; Mitsubishi Heavy Industries reported a 35GW large-frame backlog, up from 23GW a year earlier, with quarter-booked orders scheduled for 2028-2030 delivery; the article frames the concentrated 3-OEM gas-turbine market as a direct constraint on AI data-center project timelines.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-15",
+      "claim": "Wood Mackenzie estimate that most requested US data-center power will not materialize",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-12/most-electricity-sought-for-ai-data-centers-in-us-will-never-materialize",
+      "source_title": "Bloomberg: \"Most Power Sought for US Data Centers Will Never Materialize\"",
+      "source_type": "secondary",
+      "published_at": "2026-08-12",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of bloomberg.com was blocked by the research environment's egress proxy. Search-result snippet: Wood Mackenzie estimates US grid operators and utilities are likely to actually commit to only about 28% of the 1,066GW of power requested for data-center projects, meaning roughly 768GW of requested 'phantom load' will not materialize, driven by speculative or duplicate project pitches.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-16",
+      "claim": "ERCOT's parallel large-load interconnection and curtailment-acceptance framework",
+      "source_url": "https://www.utilitydive.com/news/texas-facing-438-gw-queue-approves-initial-large-load-interconnection-pro/823367/",
+      "source_title": "Utility Dive: \"Texas, facing 438 GW queue, approves initial large-load interconnection process\"",
+      "source_type": "secondary",
+      "published_at": "2026-06",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of utilitydive.com was blocked by the research environment's egress proxy. Search-result snippet: the Public Utility Commission of Texas approved rules on June 18, 2026 for ERCOT's initial 'Batch Zero' large-load interconnection process; transmission-voltage customers interconnecting after December 31, 2025 must accept curtailment during firm load-shed events unless designated critical; ERCOT received 198GW of large-load interconnection applications in Q1 2026 alone, with 86GW under active review, against a total queue described elsewhere as 438GW.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-17",
+      "claim": "Anthropic's $45 billion, 460MW compute deal with Nscale",
+      "source_url": "https://www.cnbc.com/2026/08/26/anthropic-and-nscale-strike-45-billion-cloud-deal-sources-say.html",
+      "source_title": "CNBC: \"Anthropic and Nscale strike $45 billion cloud deal, sources say\"",
+      "source_type": "secondary",
+      "published_at": "2026-08-26",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of cnbc.com was blocked by the research environment's egress proxy. Search-result snippet, cross-checked against Bloomberg's parallel report: Anthropic agreed to pay Nscale $45 billion over six years for 460MW of AI compute capacity at Nscale's 'Monarch' campus in Mason County, West Virginia, running Nvidia's Vera Rubin chips; the deal follows an earlier $10 billion Anthropic-Volta deal for capacity in Norway.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ev-18",
+      "claim": "Corroboration of PJM's August 13, 2026 FERC filing on data-center power supply options",
+      "source_url": "http://paenvironmentdaily.blogspot.com/2026/08/pjm-formally-submits-ferc-proposal-on.html",
+      "source_title": "PA Environment Digest Blog: \"PJM Formally Submits FERC Proposal On Connecting Data Centers That Bring And Don't Bring Their Own Power Supplies\"",
+      "source_type": "secondary",
+      "published_at": "2026-08",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of paenvironmentdaily.blogspot.com was blocked by the research environment's egress proxy. Search-result snippet corroborates the August 13, 2026 filing date and PJM's framing of distinct pathways for data centers that do and do not bring their own power supplies.",
+      "confidence": "low"
+    },
+    {
+      "id": "ev-19",
+      "claim": "Consumer-advocate and state-level criticism of PJM's data-center plan, and reference to PJM's earlier mandatory-to-voluntary BYOG shift",
+      "source_url": "https://www.citizensutilityboard.org/blog/2026/08/21/pjm-enlists-states-in-plan-to-hold-big-tech-accountable-for-data-center-costs/",
+      "source_title": "Citizens Utility Board: \"PJM enlists states in plan to hold Big Tech accountable for data center costs\"",
+      "source_type": "secondary",
+      "published_at": "2026-08-21",
+      "retrieved_at": "2026-08-28",
+      "quote_or_extract": "LIMITATION: direct fetch of citizensutilityboard.org was blocked by the research environment's egress proxy. Search-result snippet, cross-checked against a related Chesapeake Climate Action Network post: consumer advocates criticized PJM's plan for pushing implementation questions to individual states and noted PJM had earlier shifted from a proposed mandatory bring-your-own-generation (BYOG) requirement to a voluntary framework after stakeholder concern.",
+      "confidence": "low"
+    }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

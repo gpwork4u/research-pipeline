@@ -1,5 +1,25 @@
 [
   {
+    "title": "PJM's 'Bring Your Own Power' Mandate: Has US Grid Interconnection Policy Overtaken Equipment Supply as AI Data Centers' Binding Constraint?",
+    "date": "2026-08-28",
+    "slug": "pjm-byonc-grid-interconnection-ai-data-center-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "regulation",
+      "data-centers"
+    ],
+    "companies": [
+      "PJM Interconnection"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/pjm-byonc-grid-interconnection-ai-data-center-bottleneck",
+    "path": "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
+    "one_sentence_conclusion": "PJM's new curtailment-priority rule doesn't create the bottleneck -- it rations a pre-existing, decade-scale scarcity of firm US generation capacity that gas-turbine lead times cannot quickly fix."
+  },
+  {
     "title": "Helium Shortage 5.0: is the Qatar/Strait-of-Hormuz helium crisis a durable structural bottleneck on AI-driven semiconductor fabs, or a war-contingent price shock?",
     "date": "2026-08-27",
     "slug": "helium-shortage-ai-semiconductor-bottleneck",
