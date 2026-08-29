@@ -367,5 +367,50 @@
     "source_to_monitor": "PJM Large Load Registry / PJM Inside Lines",
     "origin_report": "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Associated Builders and Contractors' next annual construction workforce shortage report",
+    "expected_window": "around January 2027",
+    "supports_if": "The reported net-new-worker need for 2027, and specifically for electrical/mechanical trades, stays elevated or rises",
+    "weakens_if": "The reported shortfall narrows materially or ABC reports the gap closing",
+    "source_to_monitor": "Associated Builders and Contractors (abc.org) / GlobeNewswire releases",
+    "origin_report": "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "EMCOR Group, Comfort Systems USA and Quanta Services Q3 2026 earnings calls",
+    "expected_window": "October-November 2026",
+    "supports_if": "Backlog and electrical/mechanical segment revenue continue growing at or near Q2 2026's pace and management continues citing labor availability as a constraint",
+    "weakens_if": "Backlog growth decelerates sharply or management no longer cites labor as a binding constraint",
+    "source_to_monitor": "Respective company investor relations pages",
+    "origin_report": "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "BLS Occupational Outlook Handbook / Employment Projections update for electricians",
+    "expected_window": "next update cycle, 2026-2027",
+    "supports_if": "Projected annual openings or growth rate for electricians rises from the current ~9%/72,700-per-year estimate",
+    "weakens_if": "Projected growth or openings estimate falls, signaling the gap is expected to close faster",
+    "source_to_monitor": "bls.gov Occupational Outlook Handbook",
+    "origin_report": "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Reported graduate/hiring outcomes from Microsoft-NABTU and Meta's Workforce Academy training programs",
+    "expected_window": "H2 2026-2027",
+    "supports_if": "Programs report modest graduate numbers relative to the multi-hundred-thousand-worker shortfall, or hyperscalers announce further training investment",
+    "weakens_if": "Programs report graduate numbers that materially close the shortfall or the shortage is reported easing",
+    "source_to_monitor": "Microsoft News, Meta Newsroom, NABTU",
+    "origin_report": "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Industry tracking of AI data-center delay/cancellation rates attributed to labor availability",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Trackers (e.g., Turner & Townsend, Wood Mackenzie, JLL) report labor availability as a leading or growing cause of project delay",
+    "weakens_if": "Labor-attributed delay share falls or other causes (power, permitting) dominate instead",
+    "source_to_monitor": "Turner & Townsend, Wood Mackenzie, JLL published research and trade press",
+    "origin_report": "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md",
+    "status": "open"
   }
 ]

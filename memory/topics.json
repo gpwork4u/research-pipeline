@@ -79,5 +79,14 @@
     "status": "active",
     "categories": ["ai-infrastructure", "energy", "regulation", "data-centers"],
     "companies": ["PJM Interconnection"]
+  },
+  {
+    "slug": "electrician-labor-shortage-ai-data-center-bottleneck",
+    "title": "The AI Buildout's Human Bottleneck: Is a Skilled-Trades Labor Shortage Now Constraining Data Center Construction More Than Chips, Power Equipment or Grid Policy?",
+    "last_updated": "2026-08-29",
+    "reports": ["reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"],
+    "status": "active",
+    "categories": ["ai-infrastructure", "labor-market", "construction", "data-centers"],
+    "companies": ["EMCOR Group", "Comfort Systems USA", "Quanta Services"]
   }
 ]

@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>AI 建設熱潮的人力瓶頸：技術工人短缺是否已取代晶片、電力設備與電網政策，成為美國 AI 資料中心建設的最直接限制？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/electrician-labor-shortage-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/electrician-labor-shortage-ai-data-center-bottleneck</guid>
+      <pubDate>Sat, 29 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>labor-market</category>
+      <category>construction</category>
+      <category>data-centers</category>
+      <description>技術工人短缺——而非晶片、變壓器或電網政策——現已成為美國 AI 資料中心建設速度的最直接限制。
+
+美國三大上市電機承包商 2026 年第二季積壓訂單創紀錄：EMCOR（171.4 億美元，+44%）、Comfort Systems USA（141 億美元，+73%）、Quanta Services（534 億美元，+50%），顯示建設需求已超越技術工人供給。American Edge Project 估計美國需增加約 50 萬名電工、30 萬名焊工與 55 萬名管線工才能符合建設期限，而 BLS 預估電工就業僅在 2025-2035 十年間成長 9%。NBC News 與 CNN 均於 8 月 6 日報導，建設仍因缺工而延宕。微軟與 Meta 已直接出資培訓管道，顯示問題嚴重，但也帶來一條本報告視為真正不確定的潛在解方。</description>
+    </item>
+    <item>
       <title>PJM「自帶電力」新規：美國電網併網政策，是否已取代設備供應，成為 AI 資料中心的最緊束縛？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/pjm-byonc-grid-interconnection-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/pjm-byonc-grid-interconnection-ai-data-center-bottleneck</guid>

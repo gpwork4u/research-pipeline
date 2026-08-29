@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The AI Buildout&apos;s Human Bottleneck: Is a Skilled-Trades Labor Shortage Now Constraining Data Center Construction More Than Chips, Power Equipment or Grid Policy?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/electrician-labor-shortage-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/electrician-labor-shortage-ai-data-center-bottleneck</guid>
+      <pubDate>Sat, 29 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>labor-market</category>
+      <category>construction</category>
+      <category>data-centers</category>
+      <description>A skilled-trades labor shortage -- not chips, transformers or grid policy -- is now the most immediate constraint on how fast US AI data centers get built.
+
+Record Q2 2026 backlogs at the three largest public electrical/mechanical contractors -- EMCOR ($17.14B, +44% YoY), Comfort Systems USA ($14.1B, +73%) and Quanta Services ($53.4B, +50%) -- show construction demand outrunning the skilled-trades workforce needed to execute it. The American Edge Project estimates the US needs roughly 500,000 more electricians, 300,000 welders and 550,000 plumbers to meet data-center buildout deadlines, while BLS projects only 9% electrician employment growth over the full 2025-2035 decade. NBC News and CNN both reported August 6, 2026 that construction is being slowed by worker shortages even as project announcements pile up. Microsoft and Meta have responded by directly funding training pipelines rather than waiting on the market, an unusual intervention that signals severity but also introduces a plausible resolution path this report treats as genuinely uncertain.</description>
+    </item>
+    <item>
       <title>PJM&apos;s &apos;Bring Your Own Power&apos; Mandate: Has US Grid Interconnection Policy Overtaken Equipment Supply as AI Data Centers&apos; Binding Constraint?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/pjm-byonc-grid-interconnection-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/pjm-byonc-grid-interconnection-ai-data-center-bottleneck</guid>

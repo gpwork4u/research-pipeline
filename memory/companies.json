@@ -83,5 +83,20 @@
     "name": "PJM Interconnection",
     "reports": ["reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md"],
     "last_updated": "2026-08-28"
+  },
+  {
+    "name": "EMCOR Group",
+    "reports": ["reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"],
+    "last_updated": "2026-08-29"
+  },
+  {
+    "name": "Comfort Systems USA",
+    "reports": ["reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"],
+    "last_updated": "2026-08-29"
+  },
+  {
+    "name": "Quanta Services",
+    "reports": ["reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"],
+    "last_updated": "2026-08-29"
   }
 ]

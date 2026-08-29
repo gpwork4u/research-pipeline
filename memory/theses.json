@@ -314,5 +314,37 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-electrician-labor-shortage-ai-data-center-bottleneck",
+    "topic": "electrician-labor-shortage-ai-data-center-bottleneck",
+    "statement": "A severe and geographically concentrated shortage of skilled construction trades -- especially electricians, whose work spans roughly half of all on-site labor on AI data-center projects -- has emerged as a structural constraint on US AI data-center construction that is distinct from, and in some respects more immediate than, the chip-packaging, memory, grid-equipment and interconnection-policy bottlenecks this pipeline has previously examined, evidenced by record contractor backlogs (EMCOR +44%, Comfort Systems USA +73%, Quanta Services +50% YoY in Q2 2026), a multi-hundred-thousand-worker shortfall estimate, and direct multi-hundred-million-dollar hyperscaler intervention (Microsoft, Meta) to train new workers rather than wait for the market to supply them.",
+    "confidence": "medium",
+    "created_at": "2026-08-29",
+    "updated_at": "2026-08-29",
+    "supporting_reports": ["reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"],
+    "kill_conditions": [
+      {
+        "condition": "Electrician wage growth and job-opening projections normalize toward historical trend",
+        "metric": "YoY electrician wage growth (Indeed data) and BLS projected annual openings/growth rate",
+        "threshold": "Wage growth falls back below roughly 3% YoY and BLS's projected openings/growth rate is not revised upward",
+        "time_window": "next 3-4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Training pipeline programs demonstrably close the shortfall gap",
+        "metric": "Reported graduate/placement counts from Microsoft-NABTU, Meta's Workforce Academy and comparable programs versus the 500,000+ estimated electrician shortfall",
+        "threshold": "Verified graduate/placement counts reach a material share (tens of thousands) of the estimated shortfall within 2 years",
+        "time_window": "next 2 years",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "AI hyperscaler capital-expenditure guidance decelerates materially, reducing new data-center construction starts and therefore labor demand",
+        "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

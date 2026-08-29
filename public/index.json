@@ -1,5 +1,27 @@
 [
   {
+    "title": "The AI Buildout's Human Bottleneck: Is a Skilled-Trades Labor Shortage Now Constraining Data Center Construction More Than Chips, Power Equipment or Grid Policy?",
+    "date": "2026-08-29",
+    "slug": "electrician-labor-shortage-ai-data-center-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "labor-market",
+      "construction",
+      "data-centers"
+    ],
+    "companies": [
+      "EMCOR Group",
+      "Comfort Systems USA",
+      "Quanta Services"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/electrician-labor-shortage-ai-data-center-bottleneck",
+    "path": "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md",
+    "one_sentence_conclusion": "A skilled-trades labor shortage -- not chips, transformers or grid policy -- is now the most immediate constraint on how fast US AI data centers get built."
+  },
+  {
     "title": "PJM's 'Bring Your Own Power' Mandate: Has US Grid Interconnection Policy Overtaken Equipment Supply as AI Data Centers' Binding Constraint?",
     "date": "2026-08-28",
     "slug": "pjm-byonc-grid-interconnection-ai-data-center-bottleneck",

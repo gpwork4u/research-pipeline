@@ -1,0 +1,25 @@
+[
+  {
+    "title": "EMCOR Q2 2026: total backlog vs. data-center-driven electrical construction revenue",
+    "title_zh": "EMCOR 2026 年第二季：總積壓訂單 vs. 資料中心驅動之電機工程營收",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "ev-7",
+    "series": [
+      { "label": "Total backlog (RPO)", "value": 17.14 },
+      { "label": "Electrical construction revenue", "value": 1.66 }
+    ]
+  },
+  {
+    "title": "Estimated US skilled-trades shortfall for data-center buildout",
+    "title_zh": "美國資料中心建設技術工人估計缺口",
+    "type": "bar",
+    "unit": "workers",
+    "source_id": "ev-2",
+    "series": [
+      { "label": "Electricians", "value": 500000 },
+      { "label": "Plumbers", "value": 550000 },
+      { "label": "Welders", "value": 300000 }
+    ]
+  }
+]
