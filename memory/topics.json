@@ -88,5 +88,16 @@
     "status": "active",
     "categories": ["ai-infrastructure", "labor-market", "construction", "data-centers"],
     "companies": ["EMCOR Group", "Comfort Systems USA", "Quanta Services"]
+  },
+  {
+    "slug": "data-center-moratorium-political-opposition-bottleneck",
+    "title": "The Permission Bottleneck: Is Local and State Political Opposition Now Blocking More AI Data-Center Capacity Than Any Physical Supply Constraint?",
+    "last_updated": "2026-08-30",
+    "reports": [
+      "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": ["ai-infrastructure", "regulation", "politics", "data-centers"],
+    "companies": ["Amazon"]
   }
 ]

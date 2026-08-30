@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>許可瓶頸：地方與州政治反對是否已成為比任何實體供應限制更嚴重的 AI 資料中心產能瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/data-center-moratorium-political-opposition-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/data-center-moratorium-political-opposition-bottleneck</guid>
+      <pubDate>Sun, 30 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>regulation</category>
+      <category>politics</category>
+      <category>data-centers</category>
+      <description>地方與州政治反對——約 38 個新澤西禁令、紐約州級暫停令、德州併網凍結——是快速擴散但目前仍可地理分散的限制，僅在已選定特定基地層級才屬於「硬」瓶頸。
+
+快速擴散的地方、州與部落反對正封鎖或延遲特定 AI 資料中心基地，但尚未限制全國整體興建規模。僅 2026 年 8 月 19 至 28 日這一週：新澤西新增四個市鎮禁令(累計 38 個，全美最多)；印第安納波利斯完成至 2027 年的暫停令；徹羅基民族禁止部落土地興建超大規模資料中心；帝國郡法院推翻一項地方暫停令。這些疊加在紐約全州許可暫停令(第 62 號行政命令)與德州約 200 GW 併網凍結之上。Data Center Watch 估計兩年來全美已有 640 億美元遭封鎖或延遲。然而多數州級暫停令法案未過關，一項暫停令剛遭法院推翻，聯邦政策也明確不介入否決。</description>
+    </item>
+    <item>
       <title>AI 建設熱潮的人力瓶頸：技術工人短缺是否已取代晶片、電力設備與電網政策，成為美國 AI 資料中心建設的最直接限制？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/electrician-labor-shortage-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/electrician-labor-shortage-ai-data-center-bottleneck</guid>

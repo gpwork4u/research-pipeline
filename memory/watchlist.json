@@ -412,5 +412,50 @@
     "source_to_monitor": "Turner & Townsend, Wood Mackenzie, JLL published research and trade press",
     "origin_report": "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Governor Hochul's decision on the Responsible Data Center Development Act (S10642/A11560)",
+    "expected_window": "remainder of 2026 legislative calendar",
+    "supports_if": "She signs it, codifying a second, broader (20 MW) statewide moratorium layer on top of Executive Order 62",
+    "weakens_if": "She vetoes it or lets it lapse without signing",
+    "source_to_monitor": "New York State Senate/Assembly bill tracker; Governor's office announcements",
+    "origin_report": "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Conclusion of the Texas PUC/ERCOT data-center interconnection audit",
+    "expected_window": "targeted around December 2026",
+    "supports_if": "A material share of the ~200 GW/250-300 projects under review is denied or further delayed",
+    "weakens_if": "Most projects are cleared and interconnection processing resumes at pre-audit pace",
+    "source_to_monitor": "Texas PUC and ERCOT public filings; trade press (Utility Dive, Texas Tribune)",
+    "origin_report": "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further court rulings on challenged local/state data-center moratoria beyond Imperial County",
+    "expected_window": "next 6-12 months",
+    "supports_if": "Courts generally uphold moratoria against legal challenge",
+    "weakens_if": "More courts strike down moratoria on procedural or substantive grounds, as in Imperial County",
+    "source_to_monitor": "State court dockets; local and legal trade press",
+    "origin_report": "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Ohio ballot campaign's renewed signature drive for a future statewide vote on banning data centers",
+    "expected_window": "2027",
+    "supports_if": "Organizers qualify the initiative for a future ballot",
+    "weakens_if": "The campaign is abandoned or fails to gather sufficient signatures again",
+    "source_to_monitor": "Ohio Secretary of State filings; Ohio Capital Journal",
+    "origin_report": "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next comprehensive tally of blocked/delayed data-center capital and local moratoria count",
+    "expected_window": "Q4 2026-Q1 2027",
+    "supports_if": "Blocked/delayed capital and moratoria count continue climbing at a similar or faster pace",
+    "weakens_if": "Growth in blocked capital or new moratoria plateaus or reverses",
+    "source_to_monitor": "Data Center Watch, MultiState published research",
+    "origin_report": "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md",
+    "status": "open"
   }
 ]

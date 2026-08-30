@@ -346,5 +346,39 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-data-center-moratorium-political-opposition-bottleneck",
+    "topic": "data-center-moratorium-political-opposition-bottleneck",
+    "statement": "Organized local, state and tribal opposition -- roughly 38 New Jersey municipal bans, 70-100+ local moratoria nationwide, New York's Executive Order 62 statewide permitting pause, a ~200 GW Texas interconnection freeze, Indianapolis's binding moratorium through 2027, and a ban by the Cherokee Nation -- is a distinct, fast-proliferating 'permission' bottleneck on US AI data-center buildout that cannot be resolved with capital alone. Because developers can generally relocate to another jurisdiction, it is structurally hard only at the level of a specific already-committed site (interconnection queue position, water rights, fiber proximity), not at the national portfolio level, where the ~$64 billion blocked/delayed to date remains a small share of total US data-center capex. Its durability is already being tested by a court ruling that struck down one moratorium (Imperial County) and by state legislatures where 13 of 14 tracked statewide moratorium bills have failed to pass.",
+    "confidence": "medium",
+    "created_at": "2026-08-30",
+    "updated_at": "2026-08-30",
+    "supporting_reports": [
+      "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Courts strike down a critical mass of local/state moratoria following the Imperial County precedent",
+        "metric": "Share of litigated moratoria overturned versus upheld",
+        "threshold": "A majority of litigated moratoria are struck down within the next 12 months",
+        "time_window": "next 12 months",
+        "impact": "weaken"
+      },
+      {
+        "condition": "The rate of new local moratoria/bans plateaus or reverses",
+        "metric": "Net new local moratoria enacted per month, minus repeals",
+        "threshold": "Net new enactments fall to zero or go negative for two consecutive quarters",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Congress or the federal government adopts binding preemption of state/local data-center zoning and moratoria",
+        "metric": "Passage of federal preemption legislation or a court ruling establishing federal preemption",
+        "threshold": "Enacted preemption law or controlling appellate ruling",
+        "time_window": "next 1-3 years",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

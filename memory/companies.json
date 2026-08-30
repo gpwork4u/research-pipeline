@@ -98,5 +98,10 @@
     "name": "Quanta Services",
     "reports": ["reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"],
     "last_updated": "2026-08-29"
+  },
+  {
+    "name": "Amazon",
+    "reports": ["reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md"],
+    "last_updated": "2026-08-30"
   }
 ]

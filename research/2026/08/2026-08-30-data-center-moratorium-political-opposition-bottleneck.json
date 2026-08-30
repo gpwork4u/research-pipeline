@@ -1,0 +1,307 @@
+{
+  "topic": {
+    "title": "The Permission Bottleneck: Is Local and State Political Opposition Now Blocking More AI Data-Center Capacity Than Any Physical Supply Constraint?",
+    "slug": "data-center-moratorium-political-opposition-bottleneck",
+    "date": "2026-08-30",
+    "research_type": "NEW",
+    "categories": ["ai-infrastructure", "regulation", "politics", "data-centers"],
+    "score": 31,
+    "trigger": "In the single week of August 19-28, 2026: New Jersey added four more municipal data-center bans (Aug 25) bringing its total to 38 towns; Indianapolis's Metropolitan Development Commission finalized a binding moratorium through 2027 (Aug 19); the Cherokee Nation, the largest US tribe, banned hyperscale data centers on its lands (Aug 10, reported through the week); and an Imperial County, CA court set aside a local moratorium (Aug 28) -- a distinct, fast-moving political/regulatory bottleneck this pipeline has not yet examined, layered on top of New York's first-in-the-nation statewide moratorium (Executive Order 62, July 14) and Texas's ~200 GW interconnection audit freeze (Aug 3)."
+  },
+  "questions": {
+    "primary": "Has organized local and state political opposition -- municipal bans, state moratoria, ballot initiatives and tribal-land prohibitions -- overtaken physical supply constraints (chip packaging, memory, grid equipment, interconnection rules and skilled labor) as the most binding and fastest-growing constraint on where and how quickly US AI data centers can be built, and how durable is this constraint against hyperscaler lobbying, federal permitting policy and court challenges?",
+    "sub": [
+      "How large and how fast-growing is the population of US local moratoria/bans and state-level restrictions on data centers as of August 2026?",
+      "What do the highest-profile 2026 actions (New York's statewide executive order, Texas's ERCOT interconnection freeze, Indianapolis's binding moratorium, Cherokee Nation's tribal ban) reveal about the mechanism and durability of this constraint?",
+      "How much capital has been quantifiably blocked or delayed by this opposition, and is the trend accelerating?",
+      "Is this constraint 'hard' (no substitute) or 'soft' (developers can relocate to friendlier jurisdictions), and does that differ at the level of a specific site versus a national buildout portfolio?",
+      "What would falsify the thesis that this is a durable structural constraint rather than a reversible, localized political moment?"
+    ]
+  },
+  "thesis": "Organized local, state and tribal opposition to data centers -- roughly 38 New Jersey municipal bans and 70-100+ local moratoria nationwide, a first-in-the-nation New York statewide permitting pause (Executive Order 62), a Texas freeze covering an estimated 200 GW / 250-300 projects, a binding Indianapolis moratorium through 2027, and a ban by the Cherokee Nation, the largest US tribe -- has emerged as a distinct, fast-proliferating 'permission' bottleneck on US AI data-center buildout. Unlike a commodity shortage, it cannot be resolved with more capital or higher prices, only by relocation, negotiation, litigation or preemption; but because developers can generally relocate to another jurisdiction, this bottleneck is structurally hard only at the level of a specific already-committed site, not at the level of the national buildout, and its durability is already being tested by a court ruling that struck down one moratorium and by state legislatures that have mostly failed to pass the moratorium bills they introduced.",
+  "facts": [
+    {
+      "statement": "New Jersey's Jackson Township voted 4-1 on approximately August 25-26, 2026 to become the 38th New Jersey municipality to ban data centers, following North Brunswick, East Brunswick and Stafford Township banning them the same week (the 35th, 36th and 37th), making New Jersey the state with the most local bans.",
+      "type": "FACT",
+      "evidence_ids": ["ev-2"],
+      "confidence": "high"
+    },
+    {
+      "statement": "New York Governor Kathy Hochul signed Executive Order No. 62 on July 14, 2026, pausing discretionary New York State Department of Environmental Conservation permitting for data centers consuming 50 MW or more, until the Department of Public Service completes a Generic Environmental Impact Statement -- a process Hochul has characterized as lasting approximately one year, though the order itself sets no fixed deadline. It exempts already-complete DEC applications and projects not requiring discretionary DEC approval.",
+      "type": "FACT",
+      "evidence_ids": ["ev-3"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Separately, the New York State Legislature passed the Responsible Data Center Development Act (S10642/A11560) on June 4, 2026 (Senate 44-16, Assembly 102-39), which would impose its own one-year moratorium on state permits for data centers of 20 MW or more; as of August 24, 2026 Governor Hochul had not yet signed it, and 60 state legislators sent her a letter urging her to do so.",
+      "type": "FACT",
+      "evidence_ids": ["ev-4"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Texas Governor Greg Abbott directed the Public Utility Commission and ERCOT on August 3, 2026 to conduct a comprehensive audit of data-center projects in the grid interconnection process before any additional projects proceed; the audit covers roughly 250-300 projects representing about 200 GW of demand (ERCOT is processing about 474 GW of total interconnection requests, of which data centers are about 90%); ERCOT immediately said it would miss an August 7, 2026 Batch Zero interconnection-study deadline and sought a good-cause exception from the PUC.",
+      "type": "FACT",
+      "evidence_ids": ["ev-5"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Indianapolis's Metropolitan Development Commission voted 6-0 on August 19, 2026 to adopt zoning ordinance 2026-AO-001, following prior votes by the City-County Council and its economic-development committee, barring new data-center construction in Indianapolis/Marion County until the end of 2027; three previously-approved projects (DC Blox, Metrobloks, Sabey Corp.) are exempted, and the ordinance requires convening an expert/community committee to set future siting standards.",
+      "type": "FACT",
+      "evidence_ids": ["ev-6"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Cherokee Nation Principal Chief Chuck Hoskin Jr. announced on August 10, 2026 that the Nation -- the largest federally recognized tribe in the US -- would ban hyperscale data-center development on tribally owned and trust land, following a Data Center Task Force report finding that about 64% of surveyed Cherokee Nation citizens opposed such projects; the Nation also said it would not support hyperscale projects on non-tribal land inside the reservation absent 'robust' consultation. The Seminole Nation approved a similar moratorium in March 2026 and the Kickapoo Tribe declared opposition in July 2026.",
+      "type": "FACT",
+      "evidence_ids": ["ev-7"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Data Center Watch, a research group funded by 10a Labs, reported that roughly $18 billion of US data-center projects were blocked outright and another $46 billion delayed (total ~$64 billion) over the prior two years amid organized local opposition, tracking at least 142 activist groups active across 24 states as of mid-2026.",
+      "type": "FACT",
+      "evidence_ids": ["ev-8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Policy tracker MultiState reported more than 300 state-level data-center-related bills filed across 30+ states in a six-week span in 2026, and separately that as of March 2026 it was tracking 14 bills specifically proposing statewide moratoriums across 11 states, of which none had passed their originating chamber apart from New York's; MultiState and other trackers estimate 70-100+ local moratoria have been adopted nationwide.",
+      "type": "FACT",
+      "evidence_ids": ["ev-9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "An Ohio ballot campaign (Conserve Ohio / Ohio Residents for Responsible Development) seeking a constitutional amendment to ban data centers using 25 MW or more per month needed 413,488 valid signatures by July 1, 2026 to qualify for the November 2026 ballot; organizers did not meet that deadline and are now targeting a future election.",
+      "type": "FACT",
+      "evidence_ids": ["ev-10"],
+      "confidence": "high"
+    },
+    {
+      "statement": "President Trump signed Executive Order 14318 ('Accelerating Federal Permitting of Data Center Infrastructure') in 2025 to ease federal regulatory review of data centers, and publicly criticized Governor Hochul's New York moratorium on July 15, 2026; legal analysis of the order's final text found it does not preempt state or local data-center moratoria, zoning or utility regulations, limiting federal tools to counteract state/local restrictions to political pressure rather than legal override.",
+      "type": "FACT",
+      "evidence_ids": ["ev-11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "An Imperial County, California Superior Court judge (Jeffrey Jones) ruled on or about August 28, 2026 to set aside the county's data-center moratorium, finding county officials had not shown data centers posed a current, immediate threat to public health or safety -- the legal threshold required to justify an emergency moratorium -- in a suit brought by developer Sebastian Rucci's Imperial Valley Computer Manufacturing.",
+      "type": "FACT",
+      "evidence_ids": ["ev-1"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Maine is reported to be moving toward becoming the first state to enact a full data-center construction moratorium, pausing new projects until November 2027.",
+      "type": "FACT",
+      "evidence_ids": ["ev-13"],
+      "confidence": "low"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because most state-level moratorium bills (14 of 15 tracked, including New York's own legislature-passed bill still unsigned) have not become law while local ordinances have proliferated rapidly (roughly 38 in New Jersey alone), the most immediate and durable form of this bottleneck currently operates at the municipal/county level rather than through state legislation.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-4", "ev-9", "ev-2"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "The Imperial County ruling -- striking down a moratorium for failing to meet the legal threshold required for an emergency zoning action -- suggests that a meaningful share of the 70-100+ local moratoria enacted quickly under public pressure may be vulnerable to the same procedural challenge if developers litigate rather than relocate.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-1"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because federal policy (Executive Order 14318) explicitly avoided preempting state and local authority even as the administration publicly criticized New York's moratorium, near-term federal action is unlikely to neutralize this bottleneck; any reversal would most likely come through state courts, state legislatures, or negotiated concessions rather than federal preemption.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "The $64 billion Data Center Watch figure, spread across roughly two years and 24 states, is a small fraction of total US data-center capital expenditure over the same period (hyperscaler capex alone has run into the hundreds of billions annually), suggesting that at a national portfolio level this opposition has so far diverted or delayed specific projects more than it has capped aggregate US buildout.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-8"],
+      "confidence": "medium"
+    }
+  ],
+  "unknowns": [
+    "No source quantified what share of the $64 billion in blocked/delayed projects has been permanently canceled versus merely relocated to another site or jurisdiction, which is the key fact needed to judge whether this is a national capacity constraint or a geographic reshuffling.",
+    "No source reported whether Governor Hochul will sign, veto, or allow the Responsible Data Center Development Act (S10642/A11560) to lapse, or when the Texas PUC/ERCOT audit will conclude and what share of the ~200 GW under review will ultimately be approved.",
+    "Whether other pending court challenges to local moratoria (beyond Imperial County) are likely to succeed or fail was not independently verifiable from sources found.",
+    "No source provided a comprehensive, verified national count of local moratoria reconciling the different figures cited (70-100+ from one tracker set against ~38 in New Jersey alone), so the true national total carries meaningful uncertainty.",
+    "Every primary-source fetch attempted (governor.ny.gov, gov.texas.gov, sec.gov, ballotpedia.org, datacenterbans.com, cnbc.com, texastribune.org, hklaw.com, wthr.com, multistate.us and others) was blocked by the research environment's egress proxy; all facts rely on convergent web-search-result snippets rather than direct page verification."
+  ],
+  "industry_chain": [
+    {
+      "name": "Grassroots/activist opposition and public opinion",
+      "role": "Upstream",
+      "major_players": ["Data Center Watch", "Climate Revolution Action Network (CRAN)", "local resident and activist groups (142+ tracked across 24 states)"],
+      "pricing_power": "Low",
+      "supply_elasticity": null,
+      "substitutability": null
+    },
+    {
+      "name": "Local government (municipal & county zoning bodies)",
+      "role": "Components",
+      "major_players": ["New Jersey municipalities (38 bans)", "Indianapolis Metropolitan Development Commission", "Imperial County, CA"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Tribal governments",
+      "role": "Components",
+      "major_players": ["Cherokee Nation", "Seminole Nation", "Kickapoo Tribe"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "State government (legislatures, governors, regulators)",
+      "role": "Infrastructure",
+      "major_players": ["New York (Hochul, EO 62, DEC/DPS)", "Texas (Abbott, PUC, ERCOT)", "Ohio ballot process", "Maine"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Federal government (permitting & preemption policy)",
+      "role": "Platform",
+      "major_players": ["Trump administration (Executive Order 14318)", "Congress (no preemption legislation passed)"],
+      "pricing_power": "Low",
+      "supply_elasticity": "High",
+      "substitutability": null
+    },
+    {
+      "name": "Data-center developers / hyperscaler site selection",
+      "role": "Application",
+      "major_players": ["Amazon", "Microsoft", "Google", "Meta", "independent developers (e.g., Imperial Valley Computer Manufacturing)"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI compute / cloud infrastructure customers",
+      "role": "Customer",
+      "major_players": ["AI labs", "enterprises"],
+      "pricing_power": "Low",
+      "supply_elasticity": null,
+      "substitutability": null
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "Site-specific local/tribal permission (a developer's already-committed, power/water/fiber-optimal site)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "unpredictable; months to years per jurisdiction, case-by-case",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "Medium",
+      "profit_capture": "Low",
+      "opportunity_score": 3,
+      "classification": "Structural Bottleneck",
+      "rationale": "For a specific site a developer has already selected for its grid, water and fiber advantages, demand to build is extreme, the local/tribal body's approval timeline is genuinely low-elasticity (subject to elections, hearings, litigation), and substitutability is hard because relocating sacrifices the very site-specific advantages (interconnection queue position, water rights, fiber proximity) that made the site valuable in the first place."
+    },
+    {
+      "node": "National portfolio-level buildout (aggregate US data-center capacity)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "ongoing, no fixed timeline",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "High",
+      "profit_capture": "Low",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "At the national level demand is extreme and jurisdiction-by-jurisdiction approval remains unpredictable, but developers can and do redirect capital toward more receptive states and counties -- Texas outside the audited queue, states without moratoria -- so substitutability is only medium; the $64 billion blocked/delayed to date is a small share of total US data-center capex, consistent with diversion rather than a hard national cap."
+    },
+    {
+      "node": "Federal permitting/preemption layer",
+      "demand_growth": "High",
+      "supply_elasticity": "High",
+      "expansion_time": "n/a -- actively easing, not constraining",
+      "substitutability": null,
+      "pricing_power": "Low",
+      "market_attention": "Medium",
+      "profit_capture": "Low",
+      "opportunity_score": 1,
+      "classification": "Neutral",
+      "rationale": "The federal government has moved to ease its own permitting (Executive Order 14318) and has chosen, by design, not to preempt state or local moratoria; it is not currently a constraint on supply and offers no near-term counterweight to local/state action."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Amazon",
+      "business_model": "Hyperscale cloud infrastructure operator and data-center developer",
+      "revenue_model": null,
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AWS/AI infrastructure capex", "data-center site selection across multiple US jurisdictions"],
+      "customer_concentration": null,
+      "moat": null,
+      "switching_costs": null,
+      "capital_intensity": "High",
+      "management_strategy": null,
+      "execution_risk": "Site-level projects (e.g., a previously proposed Warrenton, VA facility) have been blocked following local elections turning over town councils opposed to the project, illustrating site-specific political risk in an otherwise diversified national buildout."
+    }
+  ],
+  "metrics": [
+    { "name": "Total US data-center capital blocked or delayed by local opposition", "value": 64, "unit": "USD billion", "period": "~2024-2026 (2 years)", "growth": null, "source_id": "ev-8" },
+    { "name": "Of which blocked outright", "value": 18, "unit": "USD billion", "period": "~2024-2026", "growth": null, "source_id": "ev-8" },
+    { "name": "Of which delayed", "value": 46, "unit": "USD billion", "period": "~2024-2026", "growth": null, "source_id": "ev-8" },
+    { "name": "New Jersey municipalities that have banned data centers", "value": 38, "unit": "municipalities", "period": "as of Aug 2026", "growth": null, "source_id": "ev-2" },
+    { "name": "Estimated local data-center moratoria/bans nationwide", "value": "70-100+", "unit": "jurisdictions", "period": "2026", "growth": null, "source_id": "ev-9" },
+    { "name": "State-level data-center-related bills filed", "value": "300+", "unit": "bills across 30+ states", "period": "six-week span, 2026", "growth": null, "source_id": "ev-9" },
+    { "name": "Texas data-center capacity under interconnection audit", "value": 200, "unit": "GW", "period": "Aug 2026", "growth": null, "source_id": "ev-5" },
+    { "name": "Ohio ballot-initiative signature requirement (not met by deadline)", "value": 413488, "unit": "signatures required", "period": "deadline July 1, 2026", "growth": null, "source_id": "ev-10" }
+  ],
+  "competitors": [
+    { "name": "Relocation to more receptive jurisdictions", "kind": "indirect alternative", "note": "Developers can redirect planned capacity to states/counties without moratoria, preserving national buildout pace at the cost of specific sites." },
+    { "name": "Litigation challenging moratoria", "kind": "indirect alternative", "note": "The Imperial County ruling shows procedurally weak emergency moratoria can be struck down in court, as an alternative to waiting out or relocating from a blocked site." },
+    { "name": "Federal permitting acceleration (Executive Order 14318)", "kind": "indirect alternative", "note": "Eases federal-level review but does not preempt state/local restrictions, so it only partially offsets this bottleneck." },
+    { "name": "Community-benefit negotiation and lobbying", "kind": "indirect alternative", "note": "Referenced across sources as a developer response to opposition, though no source quantified its success rate." }
+  ],
+  "valuation": { "available": false, "reason": "This is a cross-jurisdictional political/regulatory structural report, not a single-company earnings or valuation analysis; no source provided verified current share price or share count data tied specifically to this thesis." },
+  "catalysts": [
+    "Governor Hochul's decision on the Responsible Data Center Development Act (S10642/A11560): sign, veto, or allow to lapse",
+    "Conclusion of the Texas PUC/ERCOT data-center interconnection audit (targeted around December 2026)",
+    "Outcome of further legal challenges to local moratoria following the Imperial County ruling",
+    "Ohio ballot campaign's renewed signature drive for a future election",
+    "Next tally from Data Center Watch / MultiState of total blocked/delayed capital and local moratoria count"
+  ],
+  "bear_case": [
+    { "dimension": "Economics", "argument": "The $64 billion in blocked/delayed projects is a small fraction of total US data-center capital expenditure over the same roughly two-year period, which has run into the hundreds of billions annually; at the national level this looks more like friction than a hard cap on total capacity." },
+    { "dimension": "Supply", "argument": "Opposition is concentrated in specific saturated corridors (New Jersey, parts of New York, central Ohio, Indianapolis); developers retain substitutability by redirecting capital to more receptive states and counties, including large parts of Texas outside the audited interconnection queue." },
+    { "dimension": "Execution", "argument": "Most state-level moratorium bills have failed to pass their originating chamber (only New York succeeded, via executive order rather than the still-unsigned legislative bill), suggesting the political durability of statewide restriction is weaker than the headline count of local bans implies." },
+    { "dimension": "Regulation", "argument": "The Imperial County Superior Court's ruling that a moratorium failed to meet the legal threshold for an emergency zoning action shows procedurally rushed local moratoria are vulnerable to being struck down if developers litigate rather than relocate or wait." },
+    { "dimension": "Competition", "argument": "The federal government has moved to ease its own permitting timelines (Executive Order 14318) and the administration has publicly pressured states to reverse restrictions, adding a countervailing political force even though it does not have legal preemption power." }
+  ],
+  "kill_conditions": [
+    { "condition": "Courts strike down a critical mass of local/state moratoria following the Imperial County precedent", "metric": "Share of litigated moratoria overturned versus upheld", "threshold": "A majority of litigated moratoria are struck down within the next 12 months", "time_window": "next 12 months", "impact": "weaken" },
+    { "condition": "New York's Responsible Data Center Development Act is vetoed or lapses unsigned and Executive Order 62's permitting pause is not extended", "metric": "Bill signature status; EO 62 permitting resumption", "threshold": "Bill not signed and DEC discretionary permitting for 50MW+ resumes before the GEIS is complete", "time_window": "by end of 2026 legislative session", "impact": "weaken" },
+    { "condition": "The rate of new local moratoria/bans plateaus or reverses", "metric": "Net new local moratoria enacted per month, minus repeals", "threshold": "Net new enactments fall to zero or go negative for two consecutive quarters", "time_window": "next 2-3 quarters", "impact": "invalidate" },
+    { "condition": "Blocked/delayed capital stays a persistently small share of total US data-center capex", "metric": "Data Center Watch (or successor tracker) blocked/delayed total as % of aggregate US data-center capex", "threshold": "Ratio stays below roughly 5% of aggregate annual capex over a full year", "time_window": "next 12 months", "impact": "weaken" },
+    { "condition": "Congress or the federal government adopts binding preemption of state/local data-center zoning and moratoria", "metric": "Passage of federal preemption legislation or a court ruling establishing federal preemption", "threshold": "Enacted preemption law or controlling appellate ruling", "time_window": "next 1-3 years", "impact": "invalidate" }
+  ],
+  "validation_events": [
+    { "event": "Governor Hochul's decision on the Responsible Data Center Development Act (S10642/A11560)", "expected_window": "remainder of 2026 legislative calendar", "supports_if": "She signs it, codifying a second, broader (20 MW) statewide moratorium layer on top of Executive Order 62", "weakens_if": "She vetoes it or lets it lapse without signing", "source_to_monitor": "New York State Senate/Assembly bill tracker; Governor's office announcements" },
+    { "event": "Conclusion of the Texas PUC/ERCOT data-center interconnection audit", "expected_window": "targeted around December 2026", "supports_if": "A material share of the ~200 GW/250-300 projects under review is denied or further delayed", "weakens_if": "Most projects are cleared and interconnection processing resumes at pre-audit pace", "source_to_monitor": "Texas PUC and ERCOT public filings; trade press (Utility Dive, Texas Tribune)" },
+    { "event": "Further court rulings on challenged local/state moratoria beyond Imperial County", "expected_window": "next 6-12 months", "supports_if": "Courts generally uphold moratoria against legal challenge", "weakens_if": "More courts strike down moratoria on procedural or substantive grounds, as in Imperial County", "source_to_monitor": "State court dockets; local and legal trade press" },
+    { "event": "Ohio ballot campaign's renewed signature drive for a future statewide vote", "expected_window": "2027", "supports_if": "Organizers qualify the initiative for a future ballot", "weakens_if": "The campaign is abandoned or fails to gather sufficient signatures again", "source_to_monitor": "Ohio Secretary of State filings; Ohio Capital Journal" },
+    { "event": "Next comprehensive tally of blocked/delayed capital and local moratoria count (Data Center Watch, MultiState or successor trackers)", "expected_window": "Q4 2026-Q1 2027", "supports_if": "Blocked/delayed capital and moratoria count continue climbing at a similar or faster pace", "weakens_if": "Growth in blocked capital or new moratoria plateaus or reverses", "source_to_monitor": "Data Center Watch, MultiState published research" }
+  ],
+  "sources": [
+    { "id": "ev-1", "claim": "An Imperial County Superior Court judge ruled around August 28, 2026 to set aside the county's data-center moratorium for failing to meet the legal threshold for an emergency zoning action.", "source_url": "https://www.kpbs.org/news/environment/2026/08/28/judge-poised-to-strike-down-imperial-countys-data-center-moratorium", "source_title": "KPBS Public Media: \"Judge poised to strike down Imperial County's data center moratorium\"", "source_type": "secondary", "published_at": "2026-08-28", "retrieved_at": "2026-08-30", "quote_or_extract": "Imperial County Superior Court Judge Jeffrey Jones said county officials failed to prove data centers posed a public health or safety threat...failed to identify a current and immediate threat to public health, safety or welfare -- the threshold needed to justify an emergency moratorium. [Domain blocked by egress proxy; confirmed via search-result snippet only, not direct page fetch.]", "confidence": "high" },
+    { "id": "ev-2", "claim": "Jackson Township became the 38th New Jersey municipality to ban data centers in late August 2026, following North Brunswick, East Brunswick and Stafford Township the same week.", "source_url": "https://www.insidernj.com/press-release/jackson-becomes-38th-new-jersey-town-to-ban-data-centers/", "source_title": "Insider NJ: \"Jackson Becomes 38th New Jersey Town to Ban Data Centers\"", "source_type": "secondary", "published_at": "2026-08", "retrieved_at": "2026-08-30", "quote_or_extract": "Jackson Township made a 4-1 vote to become the 38th municipality in the state to pass a ban, and the second in Ocean County to enact one this week...North Brunswick, East Brunswick and Stafford Township became the latest municipalities...on Aug. 25 to ban data centers. [Domain blocked by egress proxy; confirmed via search-result snippet only.]", "confidence": "high" },
+    { "id": "ev-3", "claim": "Governor Hochul signed Executive Order No. 62 on July 14, 2026, pausing DEC discretionary permitting for data centers of 50 MW or more pending a Generic Environmental Impact Statement.", "source_url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops", "source_title": "New York State Governor's Office: Executive Order No. 62, \"Establishing a Temporary Moratorium on Data Centers in New York\"", "source_type": "primary", "published_at": "2026-07-14", "retrieved_at": "2026-08-30", "quote_or_extract": "The Order applies to data centers that consume 50 megawatts (MW) of energy or more...pauses discretionary New York State Department of Environmental Conservation (DEC) permitting...effective Tuesday, July 14...does not apply to...applications determined complete by DEC before the effective date...or projects that do not require discretionary DEC approvals. [Domain blocked by egress proxy; confirmed via convergent search-result snippets from multiple law-firm summaries (Hodgson Russ, Foley & Lardner, Harter Secrest & Emery) citing the Executive Order text directly, not a direct page fetch.]", "confidence": "high" },
+    { "id": "ev-4", "claim": "The New York Legislature passed the Responsible Data Center Development Act (S10642/A11560) on June 4, 2026, a separate 20 MW-threshold one-year moratorium bill not yet signed by Hochul as of August 24, 2026.", "source_url": "https://midhudsonnews.com/2026/08/24/state-lawmakers-urge-hochul-to-sign-data-center-regulation-bill/", "source_title": "Mid Hudson News: \"State lawmakers urge Hochul to sign data center regulation bill\"", "source_type": "primary", "published_at": "2026-08-24", "retrieved_at": "2026-08-30", "quote_or_extract": "Both houses of the New York State Legislature passed the Responsible Data Center Development Act...on June 4, 2026, with the bill clearing the Senate by a vote of 44-16 and the Assembly by 102-39...As of late August 2026, the bill has not yet been signed into law. 60 members of the state Assembly and Senate sent a letter to Governor Hochul. [Domain blocked by egress proxy; confirmed via search-result snippet only, corroborated by Phillips Lytle and DLA Piper legal alerts.]", "confidence": "high" },
+    { "id": "ev-5", "claim": "Governor Abbott directed the Texas PUC and ERCOT on August 3, 2026 to audit data-center interconnection requests covering ~200 GW / 250-300 projects; ERCOT paused its Batch Zero process in response.", "source_url": "https://www.hklaw.com/en/insights/publications/2026/08/texas-gov-abbott-directs-data-center-audit", "source_title": "Holland & Knight: \"Texas Gov. Abbott Directs Data Center Audit; ERCOT Pauses Interconnection Process in Response\"", "source_type": "primary", "published_at": "2026-08", "retrieved_at": "2026-08-30", "quote_or_extract": "Governor Greg Abbott directed the Public Utility Commission (PUC) and Electric Reliability Council of Texas (ERCOT) to conduct a 'comprehensive verification and audit' of data center projects...The review will cover roughly 250 to 300 projects...representing 200 gigawatts of future electricity demand. ERCOT is considering approximately 474 gigawatts of requests...data centers account for approximately 90 percent...ERCOT immediately announced it would not meet an August 7, 2026 deadline associated with the Batch Zero interconnection study process. [Domain blocked by egress proxy; confirmed via convergent search-result snippets, corroborated by Texas Tribune and Utility Dive.]", "confidence": "high" },
+    { "id": "ev-6", "claim": "Indianapolis's Metropolitan Development Commission voted 6-0 on August 19, 2026 to adopt a moratorium barring new data centers until the end of 2027, exempting three already-approved projects.", "source_url": "https://www.wthr.com/article/news/local/indianapolis-data-center-moratorium-takes-effect-passage-metropolitan-development-commission/531-1517b382-2202-40bb-8fa5-6b1947a6bf4d", "source_title": "WTHR: \"Indianapolis data center moratorium takes effect after passage by Metropolitan Development Commission\"", "source_type": "primary", "published_at": "2026-08-19", "retrieved_at": "2026-08-30", "quote_or_extract": "The Metropolitan Development Commission voted August 19 to adopt zoning proposal 2026-AO-001...voted 6-0 to approve the pause...new data centers cannot be built in Indianapolis until the end of 2027...The three data centers that have already gone through the zoning approval process are exempt from the moratorium: DC Blox...Metrobloks...and Sabey Corp. [Domain blocked by egress proxy; confirmed via search-result snippet only, corroborated by WISH-TV and Inside Indiana Business.]", "confidence": "high" },
+    { "id": "ev-7", "claim": "Cherokee Nation Principal Chief Chuck Hoskin Jr. announced August 10, 2026 a ban on hyperscale data centers on tribal/trust land, following a Data Center Task Force report finding ~64% of surveyed citizens opposed.", "source_url": "https://tribalbusinessnews.com/sections/economic-development/15724-cherokee-nation-bans-hyperscale-data-centers-on-tribal-lands", "source_title": "Tribal Business News: \"Cherokee Nation bans hyperscale data centers on tribal lands\"", "source_type": "primary", "published_at": "2026-08-10", "retrieved_at": "2026-08-30", "quote_or_extract": "Principal Chief Chuck Hoskin Jr. announced that the Nation is banning hyperscale data center projects on land owned by or held in trust for the Cherokee Nation...About 64% of Cherokee Nation citizens surveyed said they opposed the construction of hyperscale data centers within the reservation...will not support any hyperscale data center development on non-tribal land inside the reservation unless developers conduct 'robust' consultation. [Domain blocked by egress proxy; confirmed via search-result snippet only, corroborated by KGOU, KOSU and Tom's Hardware.]", "confidence": "high" },
+    { "id": "ev-8", "claim": "Data Center Watch estimated ~$64 billion in US data-center projects blocked ($18B) or delayed ($46B) over roughly two years amid organized local opposition from 142+ tracked activist groups across 24 states.", "source_url": "https://www.datacenterwatch.org/report", "source_title": "Data Center Watch (funded by 10a Labs): \"$64 billion of data center projects have been blocked or delayed amid local opposition\"", "source_type": "secondary", "published_at": null, "retrieved_at": "2026-08-30", "quote_or_extract": "$18 billion worth of data center projects were blocked, and another $46 billion of projects were delayed over the last two years...at least 142 activist groups across 24 states...The report does not directly attribute all data center project cancellations or suspensions to these groups. [Domain blocked by egress proxy; confirmed via search-result snippet only. Note: Data Center Watch is funded by 10a Labs, an AI-industry-adjacent research firm, a potential source of bias toward framing opposition as costly; figure treated as an estimate, not verified independently.]", "confidence": "medium" },
+    { "id": "ev-9", "claim": "MultiState reported 300+ state data-center bills across 30+ states in six weeks in 2026, 14 statewide-moratorium bills across 11 states as of March 2026 (only New York's succeeded), and an estimated 70-100+ local moratoria nationwide.", "source_url": "https://www.multistate.us/insider/2026/3/13/local-data-center-regulations-gain-ground-as-state-bills-falter", "source_title": "MultiState: \"State Data Center Moratoriums Stall Despite Local Success\"", "source_type": "secondary", "published_at": "2026-03-13", "retrieved_at": "2026-08-30", "quote_or_extract": "MultiState was tracking 14 bills introduced across 11 states that would impose statewide moratoriums on data center construction...none have passed their originating chamber...more than 300 state data center legislation bills have been filed across 30+ states in just six weeks...70-100+ local moratoria have been adopted nationwide. [Domain blocked by egress proxy; confirmed via search-result snippet only.]", "confidence": "medium" },
+    { "id": "ev-10", "claim": "An Ohio ballot campaign to ban data centers of 25 MW+ needed 413,488 signatures by July 1, 2026 to qualify for the November 2026 ballot and did not meet that deadline.", "source_url": "https://ohiocapitaljournal.com/2026/06/19/ohio-proposed-constitutional-amendment-to-ban-data-centers-will-not-be-on-this-years-ballot/", "source_title": "Ohio Capital Journal: \"Ohio proposed constitutional amendment to ban data centers will not be on this year's ballot\"", "source_type": "secondary", "published_at": "2026-06-19", "retrieved_at": "2026-08-30", "quote_or_extract": "Ohio Residents for Responsible Development filed a request to put a ban on the ballot that would ban data centers that use more than 25 megawatts per month...petitioners must submit more than 413,000 signatures...at least 65 days before the election...deadline to submit the signatures is July 1, 2026...did not meet the deadline for the November 2026 ballot...now hoping to make the 2027 ballot. [Domain blocked by egress proxy; confirmed via search-result snippet only, corroborated by Fox19 and Ironton Tribune.]", "confidence": "high" },
+    { "id": "ev-11", "claim": "Executive Order 14318 eased federal permitting of data centers but, per legal analysis, does not preempt state/local moratoria or zoning; Trump publicly criticized New York's moratorium on July 15, 2026.", "source_url": "https://www.paulhastings.com/insights/client-alerts/president-trump-signs-executive-order-challenging-state-ai-laws", "source_title": "Paul Hastings LLP: \"President Trump Signs Executive Order Challenging State AI Laws\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-08-30", "quote_or_extract": "The executive order does not preempt state data center moratoriums...these directives don't override state authority on land use, zoning, or utility regulations...the final text expressly prohibits the federal preemption of otherwise lawful state AI laws, including those relating to AI compute and data center infrastructure. [Domain blocked by egress proxy; confirmed via search-result snippet only, corroborated by Center for American Progress and CNBC coverage of Trump's July 15, 2026 criticism of Hochul.]", "confidence": "medium" },
+    { "id": "ev-12", "claim": "A newly elected Warrenton, VA town council, seated after a November 2024 election in which residents voted out councilmembers who supported Amazon's proposed data center, is mandated to block that project.", "source_url": "https://www.nbcnews.com/politics/economics/state-local-opposition-new-data-centers-gaining-steam-rcna243838", "source_title": "NBC News: reporting on state and local opposition to new data centers", "source_type": "secondary", "published_at": null, "retrieved_at": "2026-08-30", "quote_or_extract": "In Warrenton, Virginia, residents voted out all town council members who supported Amazon's proposed data center in the November 2024 election, and the newly elected council is now mandated to block the data center. [Domain blocked by egress proxy; confirmed via search-result snippet only.]", "confidence": "medium" },
+    { "id": "ev-13", "claim": "Maine is reported to be moving toward becoming the first state to enact a full data-center construction moratorium, pausing new projects until November 2027.", "source_url": "https://www.multistate.us/insider/2026/4/14/federal-ai-data-center-policy-meets-resistance-from-state-lawmakers", "source_title": "MultiState: \"State Data Center Laws vs. Federal AI Push: 2026 Tracker\"", "source_type": "secondary", "published_at": "2026-04-14", "retrieved_at": "2026-08-30", "quote_or_extract": "Maine is poised to become the first state to implement data center construction moratoriums, pausing new projects until November 2027. [Domain blocked by egress proxy; confirmed via search-result snippet only; this claim carries lower confidence as it was not independently corroborated by a second source.]", "confidence": "low" }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

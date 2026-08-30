@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Permission Bottleneck: Is Local and State Political Opposition Now Blocking More AI Data-Center Capacity Than Any Physical Supply Constraint?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/data-center-moratorium-political-opposition-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/data-center-moratorium-political-opposition-bottleneck</guid>
+      <pubDate>Sun, 30 Aug 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>regulation</category>
+      <category>politics</category>
+      <category>data-centers</category>
+      <description>Local and state political opposition -- roughly 38 New Jersey bans, a New York statewide pause, a Texas interconnection freeze -- is a fast-growing but so far geographically diversifiable constraint, hard only at the level of a specific committed site.
+
+A fast-proliferating wave of local, state and tribal opposition is blocking or delaying specific AI data-center sites, but not yet capping the national buildout. In the week of August 19-28, 2026 alone: New Jersey added four more municipal bans (38 total, most of any state); Indianapolis finalized a moratorium through 2027; the Cherokee Nation banned hyperscale projects on tribal land; and an Imperial County, CA court struck down a local moratorium. These sit alongside New York&apos;s statewide permitting pause (Executive Order 62) and a Texas freeze covering roughly 200 GW of pending interconnection requests. Data Center Watch estimates $64 billion blocked or delayed nationally over two years. Yet most state moratorium bills have failed, a court just overturned one moratorium, and federal policy explicitly avoids preempting these actions.</description>
+    </item>
+    <item>
       <title>The AI Buildout&apos;s Human Bottleneck: Is a Skilled-Trades Labor Shortage Now Constraining Data Center Construction More Than Chips, Power Equipment or Grid Policy?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/electrician-labor-shortage-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/electrician-labor-shortage-ai-data-center-bottleneck</guid>

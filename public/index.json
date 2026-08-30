@@ -1,5 +1,25 @@
 [
   {
+    "title": "The Permission Bottleneck: Is Local and State Political Opposition Now Blocking More AI Data-Center Capacity Than Any Physical Supply Constraint?",
+    "date": "2026-08-30",
+    "slug": "data-center-moratorium-political-opposition-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "regulation",
+      "politics",
+      "data-centers"
+    ],
+    "companies": [
+      "Amazon"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/data-center-moratorium-political-opposition-bottleneck",
+    "path": "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md",
+    "one_sentence_conclusion": "Local and state political opposition -- roughly 38 New Jersey bans, a New York statewide pause, a Texas interconnection freeze -- is a fast-growing but so far geographically diversifiable constraint, hard only at the level of a specific committed site."
+  },
+  {
     "title": "The AI Buildout's Human Bottleneck: Is a Skilled-Trades Labor Shortage Now Constraining Data Center Construction More Than Chips, Power Equipment or Grid Policy?",
     "date": "2026-08-29",
     "slug": "electrician-labor-shortage-ai-data-center-bottleneck",
