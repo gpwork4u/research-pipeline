@@ -103,5 +103,18 @@
     "name": "Amazon",
     "reports": ["reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md"],
     "last_updated": "2026-08-30"
+  },
+  {
+    "name": "GE Vernova",
+    "reports": [
+      "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md",
+      "reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md"
+    ],
+    "last_updated": "2026-09-02"
+  },
+  {
+    "name": "Ciena",
+    "reports": ["reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md"],
+    "last_updated": "2026-09-02"
   }
 ]

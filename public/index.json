@@ -1,5 +1,26 @@
 [
   {
+    "title": "The Rare-Earth Chokepoint: Are China's Yttrium and Erbium Export Controls the AI Buildout's Next Structural Bottleneck?",
+    "date": "2026-09-02",
+    "slug": "rare-earth-yttrium-erbium-export-controls-ai-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "materials",
+      "networking"
+    ],
+    "companies": [
+      "GE Vernova",
+      "Ciena"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/rare-earth-yttrium-erbium-export-controls-ai-bottleneck",
+    "path": "reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md",
+    "one_sentence_conclusion": "China's near-monopoly on yttrium and erbium processing is squeezing gas-turbine and data-center optical-networking supply chains, but the restriction is a reversible trade-truce artifact expiring November 10, 2026, not a physical shortage."
+  },
+  {
     "title": "The Permission Bottleneck: Is Local and State Political Opposition Now Blocking More AI Data-Center Capacity Than Any Physical Supply Constraint?",
     "date": "2026-08-30",
     "slug": "data-center-moratorium-political-opposition-bottleneck",

@@ -99,5 +99,14 @@
     "status": "active",
     "categories": ["ai-infrastructure", "regulation", "politics", "data-centers"],
     "companies": ["Amazon"]
+  },
+  {
+    "slug": "rare-earth-yttrium-erbium-export-controls-ai-bottleneck",
+    "title": "The Rare-Earth Chokepoint: Are China's Yttrium and Erbium Export Controls the AI Buildout's Next Structural Bottleneck?",
+    "last_updated": "2026-09-02",
+    "reports": ["reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md"],
+    "status": "active",
+    "categories": ["ai-infrastructure", "semiconductors", "materials", "networking"],
+    "companies": ["GE Vernova", "Ciena"]
   }
 ]

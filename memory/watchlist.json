@@ -457,5 +457,50 @@
     "source_to_monitor": "Data Center Watch, MultiState published research",
     "origin_report": "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "China's decision on the November 10, 2026 rare-earth export-control suspension deadline",
+    "expected_window": "around November 10, 2026",
+    "supports_if": "China narrows license approvals, imposes new company-specific blacklist actions, or lets controls on erbium and the other four elements resume",
+    "weakens_if": "China extends the full suspension or formally lifts controls with no new restrictions",
+    "source_to_monitor": "MOFCOM/GACC announcements; trade press (Reuters, Bloomberg, Financial Times)",
+    "origin_report": "reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "GE Vernova, Siemens Energy and Mitsubishi Power Q4 2026/Q1 2027 earnings calls",
+    "expected_window": "late January-February 2027",
+    "supports_if": "Management cites yttrium/rare-earth input costs or availability as a turbine-delivery risk factor",
+    "weakens_if": "Management reports no material rare-earth-related cost or delivery impact",
+    "source_to_monitor": "Respective investor relations pages",
+    "origin_report": "reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "MP Materials, Lynas and USA Rare Earth reported progress on heavy-rare-earth (yttrium/erbium) separation capacity",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Reported capacity and output remain well below stated nameplate targets or timelines slip",
+    "weakens_if": "Capacity ramps materially ahead of schedule toward or beyond stated nameplate targets",
+    "source_to_monitor": "Company investor relations and SEC filings",
+    "origin_report": "reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Updated trade/customs data on yttrium and erbium export volumes to non-China markets",
+    "expected_window": "ongoing, next 2-3 quarters",
+    "supports_if": "Export volumes remain depressed or decline further versus pre-2025-restriction baselines",
+    "weakens_if": "Export volumes recover materially toward pre-restriction levels",
+    "source_to_monitor": "China customs data via trade press and industry trackers",
+    "origin_report": "reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Ex-China vs. China-domestic rare-earth price spread tracking",
+    "expected_window": "ongoing, next 2-3 quarters",
+    "supports_if": "The spread stays wide or widens further, indicating persistent scarcity pricing outside China",
+    "weakens_if": "The spread narrows materially, indicating supply access is normalizing",
+    "source_to_monitor": "Rare-earth market pricing trackers and industry research",
+    "origin_report": "reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md",
+    "status": "open"
   }
 ]

@@ -1,0 +1,316 @@
+{
+  "topic": {
+    "title": "The Rare-Earth Chokepoint: Are China's Yttrium and Erbium Export Controls the AI Buildout's Next Structural Bottleneck?",
+    "slug": "rare-earth-yttrium-erbium-export-controls-ai-bottleneck",
+    "date": "2026-09-02",
+    "research_type": "NEW",
+    "categories": ["ai-infrastructure", "semiconductors", "materials", "networking"],
+    "score": 31,
+    "trigger": "In the week of August 28-September 2, 2026, The Register and IEEE Spectrum reported that Chinese customs data show 2026 yttrium exports down roughly 75% year-on-year, with China's November 7, 2025 suspension of export controls on erbium and four other heavy rare earths (holmium, thulium, europium, ytterbium) set to expire November 10, 2026; the Financial Times separately reported European erbium prices up over 50% since June 2026 amid stockpiling ahead of that deadline, and China blacklisted domestic alternative suppliers MP Materials and USA Rare Earth on June 22, 2026 -- a distinct materials-supply angle this pipeline has not yet examined, feeding into both AI data-center optical networking (erbium-doped fiber amplifiers) and gas-turbine power generation (yttria thermal barrier coatings) already covered from other angles in this pipeline's prior reports."
+  },
+  "questions": {
+    "primary": "Are China's export controls on yttrium and erbium -- rare earths used respectively in gas-turbine thermal barrier coatings/ceramic capacitors and in erbium-doped fiber amplifiers for data-center optical networking -- emerging as a genuine structural bottleneck on AI data-center buildout, independent of the chip-packaging, memory, and grid-equipment constraints this pipeline has previously examined, and how durable is this constraint given the pending November 10, 2026 decision on whether China extends, narrows, or lets its rare-earth export-control suspension lapse?",
+    "sub": [
+      "What exactly do China's October 2025 and November 2025 export-control announcements cover for yttrium and erbium, and what is their current legal status as of September 2026?",
+      "How much has actual yttrium and erbium supply to non-China markets fallen in 2026, and what do price signals show?",
+      "Which AI-adjacent industries and companies are most exposed -- gas-turbine makers (power for data centers) and optical-networking equipment makers (data-center interconnects) -- and what have they disclosed?",
+      "Is there a viable near-term substitute for erbium in fiber-optic amplification or for yttrium in turbine thermal barrier coatings, and how hard is substitutability?",
+      "What would falsify the thesis that this is a durable structural constraint rather than a temporary trade-negotiation artifact?"
+    ]
+  },
+  "thesis": "China's near-total control of yttrium and erbium processing -- yttrium exports to non-China markets down roughly 75% year-on-year in 2026 and erbium prices up over 50% in Europe since June -- has created a distinct materials-level bottleneck feeding two AI-buildout-critical supply chains this pipeline has previously examined only from other angles: gas-turbine power generation (yttria thermal barrier coatings, alongside the transformer/grid-equipment constraint) and data-center optical networking (erbium-doped fiber amplifiers, alongside the EML-laser/transceiver constraint). Demand for both is high and rising, supply elasticity is low because China mines roughly 90% and processes essentially all of the world's usable yttrium, and near-term substitutability is hard for the highest-purity, highest-reliability applications (turbine coatings, EDFA gain fiber). But the constraint's durability is genuinely contested: it traces to an explicit, negotiated trade truce (suspended November 7, 2025, expiring November 10, 2026) rather than a physical scarcity, China has already shown willingness to use narrower, targeted measures (blacklisting MP Materials and USA Rare Earth in June 2026) rather than blanket cutoffs, and Western buyers are stockpiling and diversifying (GE Vernova's reserve build, MP Materials' and Lynas's expanding heavy-rare-earth output) ahead of the deadline.",
+  "facts": [
+    {
+      "statement": "China's Ministry of Commerce (MOFCOM) issued Announcement No. 18 of 2025 on October 9, 2025, adding seven medium- and heavy-rare-earth elements -- including yttrium -- along with their metals, oxides, alloys, compounds and mixtures to its controlled-export list, requiring export licenses for both Chinese exporters and foreign purchasers; this announcement was not part of the later suspension and has applied without interruption since issuance.",
+      "type": "FACT",
+      "evidence_ids": ["ev-3"],
+      "confidence": "high"
+    },
+    {
+      "statement": "MOFCOM and China's General Administration of Customs jointly issued Announcement No. 70 of 2025 on November 7, 2025, suspending a broader, separate set of October 2025 export-control measures -- including a planned second wave covering five additional elements (holmium, erbium, thulium, europium and ytterbium) -- for twelve months, until November 10, 2026, following the Trump-Xi trade talks.",
+      "type": "FACT",
+      "evidence_ids": ["ev-4"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Chinese customs data show yttrium exports to non-China markets down approximately 75% in 2026 compared with 2025; China mines roughly 90% of the world's yttrium and processes essentially all globally usable yttrium oxide, making it the de facto sole supplier to data-center and turbine-equipment supply chains.",
+      "type": "FACT",
+      "evidence_ids": ["ev-1"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Yttrium is a key ingredient in the yttria-stabilized zirconia thermal barrier coatings that protect gas-turbine blades -- the same turbines whose multi-year order backlogs this pipeline's August 23, 2026 report identified as a binding constraint on AI data-center power -- and in small quantities in the multi-layer ceramic capacitors used throughout AI server electronics.",
+      "type": "FACT",
+      "evidence_ids": ["ev-1"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "GE Vernova, one of the two largest heavy-duty gas-turbine manufacturers, disclosed at its December 2025 investor day that it held enough yttrium reserves to support turbine manufacturing into 2026, and has since been working with the US government to secure additional supply amid tightening global availability.",
+      "type": "FACT",
+      "evidence_ids": ["ev-6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Erbium, used as the gain medium in erbium-doped fiber amplifiers (EDFAs) that boost optical signals in long-reach data-center-interconnect and telecom backbone links, is one of the five elements whose planned second-wave export controls were suspended in November 2025; the Financial Times reported in August 2026 that European erbium prices had risen more than 50% since June amid buyer stockpiling ahead of the November 10, 2026 suspension deadline.",
+      "type": "FACT",
+      "evidence_ids": ["ev-9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "On June 22, 2026 -- roughly five weeks after a Trump-Xi summit -- China added MP Materials and USA Rare Earth, the two leading US-based rare-earth processors positioned to reduce reliance on Chinese supply, to its export-control blacklist, using narrower, company-specific measures rather than reimposing the broader suspended controls.",
+      "type": "FACT",
+      "evidence_ids": ["ev-9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Rare-earth pricing has split into a two-tier structure: China's domestic reference prices remain comparatively stable (dysprosium at roughly $205-211/kg within China) while ex-China spot prices for the same elements run several multiples higher (dysprosium $575-2,500+/kg outside China); yttrium oxide, priced under $8/kg before the 2025 restrictions, reportedly reached close to $1,100/kg in ex-China spot and specialty markets by May 2026.",
+      "type": "FACT",
+      "evidence_ids": ["ev-8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "According to the 2026 USGS Mineral Commodity Summaries, the US government maintains no strategic rare-earth stockpile, and the US remains substantially import-reliant for processed yttrium and other heavy rare earths, the large majority sourced directly or indirectly from China.",
+      "type": "FACT",
+      "evidence_ids": ["ev-5"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "MP Materials began commissioning a heavy-rare-earth separation facility (targeted 200 tonnes/year of dysprosium and terbium nameplate capacity) in mid-2026, and Lynas Rare Earths signed a preliminary four-year, $96 million agreement with the US Department of Defense on March 16, 2026 to supply NdPr and heavy rare earths at a minimum guaranteed price; separately, USA Rare Earth's Round Top project is developing domestic processing for twelve critical minerals including yttrium and erbium.",
+      "type": "FACT",
+      "evidence_ids": ["ev-11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Semiconductor optical amplifiers (SOAs) are a technically viable alternative gain medium to erbium-doped fiber for optical amplification, offering lower cost and higher integration, but as of 2026 have not achieved commercial acceptance in data-center/telecom networks because of higher noise figures, lower saturation power and greater polarization dependence compared with EDFAs.",
+      "type": "FACT",
+      "evidence_ids": ["ev-10"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "The International Energy Agency estimated that full enforcement of China's 2025-2026 rare-earth export-control regime could put roughly $6.5 trillion of downstream global production at risk across automotive, high-tech, defense and energy industries.",
+      "type": "FACT",
+      "evidence_ids": ["ev-13"],
+      "confidence": "low"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because the binding restriction on erbium and four other heavy rare earths is a negotiated, time-limited suspension (expiring November 10, 2026) rather than a physical production shortfall, this bottleneck is more directly reversible by policy decision than the mining- or manufacturing-capacity-constrained bottlenecks (copper, transformers, HBM) this pipeline has previously examined.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-4", "ev-9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "China's decision to blacklist MP Materials and USA Rare Earth specifically, rather than reimpose broad controls, after the Trump-Xi summit suggests Beijing currently prefers calibrated, targeted leverage over its own domestic and allied downstream buyers to a blanket cutoff that would also disrupt its own export revenue and invite further escalation.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "The wide gap between China's domestic reference prices and ex-China spot prices for the same rare earths indicates Western buyers are paying a substantial, quantifiable premium for supply-chain security and non-Chinese sourcing, independent of any physical scarcity in China itself.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because gas-turbine backlogs (already multi-year, per this pipeline's August 23, 2026 report) and optical-networking equipment both sit downstream of yttrium and erbium, a sustained rare-earth supply constraint would compound -- not create a new, independent -- delay risk on AI data-center power and networking buildout timelines already stretched by other bottlenecks.",
+      "type": "INFERENCE",
+      "evidence_ids": ["ev-1", "ev-6"],
+      "confidence": "medium"
+    }
+  ],
+  "unknowns": [
+    "No source disclosed what share of GE Vernova's or other turbine makers' yttrium demand is currently met by stockpiled reserves versus new purchases, making it unclear how soon supply pressure could affect turbine delivery schedules.",
+    "Whether China will extend, narrow, or allow the November 10, 2026 suspension of erbium and the other four second-wave elements to lapse was not disclosed by any source as of this report's research date; Modern Diplomacy's analysis frames it as a live three-way decision.",
+    "No source quantified erbium- or yttrium-specific exposure at optical-networking equipment makers (e.g., Ciena) beyond general component-constraint disclosures not attributed specifically to rare earths.",
+    "The precise reconciliation between differing reported supply-decline figures (75% yttrium export decline year-on-year per one tracker versus other cited shipment or price figures) was not independently verified from primary trade data.",
+    "Every primary-source fetch attempted in this research session (pubs.usgs.gov, spectrum.ieee.org, theregister.com, english.mofcom.gov.cn, nationalinterest.org, evertiq.com, china-briefing.com, rareearthexchanges.com, technosports.co.in) was blocked by the research environment's egress proxy; facts rely on convergent web-search-result snippets, not direct page verification."
+  ],
+  "industry_chain": [
+    {
+      "name": "Rare-earth mining and separation (yttrium, erbium, heavy REEs)",
+      "role": "Upstream",
+      "major_players": ["China (state-linked miners/separators)", "MP Materials", "Lynas Rare Earths", "USA Rare Earth"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Export licensing and customs approval",
+      "role": "Components",
+      "major_players": ["China Ministry of Commerce (MOFCOM)", "General Administration of Customs"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Refined materials fabrication (yttria-stabilized coating powder, erbium-doped fiber preforms, Y-based MLCC dielectrics)",
+      "role": "Infrastructure",
+      "major_players": ["Specialty-materials processors", "fiber-preform manufacturers"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Low",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Equipment manufacturing (gas turbines, optical-amplifier modules, MLCC production)",
+      "role": "Platform",
+      "major_players": ["GE Vernova", "Siemens Energy", "Mitsubishi Power", "Ciena", "Murata", "TDK"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI data-center developers and hyperscalers",
+      "role": "Application",
+      "major_players": ["Amazon", "Microsoft", "Google", "Meta"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI compute and cloud infrastructure customers",
+      "role": "Customer",
+      "major_players": ["AI labs", "enterprises"],
+      "pricing_power": "Low",
+      "supply_elasticity": null,
+      "substitutability": null
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "Chinese processing of yttrium and erbium into usable oxides/metals",
+      "demand_growth": "High",
+      "supply_elasticity": "Low",
+      "expansion_time": "3-5+ years for non-China heavy-rare-earth separation capacity to scale materially",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "Medium",
+      "profit_capture": "Medium",
+      "opportunity_score": 3,
+      "classification": "Structural Bottleneck",
+      "rationale": "Demand from turbine coatings, optical amplifiers and electronics is high and rising, China's roughly 90% mining share and near-total processing share leave supply elasticity low, and for the highest-purity applications (EDFA gain fiber, turbine thermal barrier coatings) substitutes such as SOAs remain commercially uncompetitive, meeting the strict test for a structural bottleneck."
+    },
+    {
+      "node": "Non-China downstream fabrication and equipment manufacturing (turbines, EDFAs, MLCCs)",
+      "demand_growth": "High",
+      "supply_elasticity": "Medium",
+      "expansion_time": "1-3 years via stockpiling, diversified sourcing, recycling",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Medium",
+      "profit_capture": "Medium",
+      "opportunity_score": 2,
+      "classification": "Growth Area",
+      "rationale": "Equipment makers can and are responding via stockpiling (GE Vernova), sourcing diversification, and specialty-materials substitution efforts, giving this layer more elasticity than the upstream processing chokepoint itself, though it remains exposed to upstream price and availability shocks."
+    },
+    {
+      "node": "Domestic/allied alternative rare-earth supply chain (MP Materials, Lynas, USA Rare Earth)",
+      "demand_growth": "High",
+      "supply_elasticity": "Low",
+      "expansion_time": "multi-year, with new capacity only commissioning in 2026",
+      "substitutability": null,
+      "pricing_power": "Low",
+      "market_attention": "High",
+      "profit_capture": "Low",
+      "opportunity_score": 3,
+      "classification": "Neutral",
+      "rationale": "This layer is the intended relief valve for the bottleneck, but its own capacity is still nascent (MP Materials' heavy-rare-earth line only commissioning mid-2026) and it is itself a direct target of Chinese trade leverage (June 2026 blacklisting), so it does not yet function as a reliable independent supply source."
+    }
+  ],
+  "companies": [
+    {
+      "name": "GE Vernova",
+      "business_model": "Heavy-duty gas-turbine and power-equipment manufacturer",
+      "revenue_model": null,
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI/data-center-driven gas-turbine demand", "Electrification segment backlog growth"],
+      "customer_concentration": null,
+      "moat": null,
+      "switching_costs": null,
+      "capital_intensity": "High",
+      "management_strategy": "Building yttrium reserves and working with the US government to secure supply amid tightening global rare-earth availability.",
+      "execution_risk": "Yttrium availability is a disclosed input constraint on thermal-barrier-coating production for turbines already carrying multi-year order backlogs."
+    },
+    {
+      "name": "Ciena",
+      "business_model": "Optical-networking equipment manufacturer",
+      "revenue_model": null,
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI-backbone and data-center-interconnect demand", "1 Tbps-class coherent optics wins"],
+      "customer_concentration": null,
+      "moat": null,
+      "switching_costs": null,
+      "capital_intensity": "Medium",
+      "management_strategy": null,
+      "execution_risk": "Disclosed ongoing component constraints affecting backlog conversion in 2026 guidance, though no source attributed this specifically to erbium or rare-earth supply."
+    }
+  ],
+  "metrics": [
+    { "name": "Yttrium exports to non-China markets, YoY decline", "value": 75, "unit": "percent", "period": "2026 vs. 2025", "growth": null, "source_id": "ev-1" },
+    { "name": "China's share of global yttrium mining", "value": 90, "unit": "percent", "period": "2026", "growth": null, "source_id": "ev-1" },
+    { "name": "European erbium price increase", "value": 50, "unit": "percent (>50%)", "period": "June-August 2026", "growth": null, "source_id": "ev-9" },
+    { "name": "Yttrium oxide price, ex-China spot/specialty markets", "value": 1100, "unit": "USD/kg", "period": "May 2026", "growth": null, "source_id": "ev-8" },
+    { "name": "Yttrium oxide price, pre-restriction baseline", "value": 8, "unit": "USD/kg (under)", "period": "end of 2024", "growth": null, "source_id": "ev-8" },
+    { "name": "Dysprosium price, China domestic", "value": "205-211", "unit": "USD/kg", "period": "2026", "growth": null, "source_id": "ev-8" },
+    { "name": "Dysprosium price, ex-China", "value": "575-2,500+", "unit": "USD/kg", "period": "2026", "growth": null, "source_id": "ev-8" },
+    { "name": "MP Materials heavy-rare-earth separation nameplate capacity", "value": 200, "unit": "tonnes/year (Dy+Tb)", "period": "commissioning mid-2026", "growth": null, "source_id": "ev-11" },
+    { "name": "Lynas-DoD heavy-rare-earth supply agreement value", "value": 96, "unit": "USD million", "period": "4-year term, signed Mar 16 2026", "growth": null, "source_id": "ev-11" }
+  ],
+  "competitors": [
+    { "name": "Non-China rare-earth separation capacity (MP Materials, Lynas, USA Rare Earth)", "kind": "indirect alternative", "note": "Intended substitute supply source, but capacity is nascent and itself targeted by Chinese trade countermeasures." },
+    { "name": "Rare-earth recycling from e-waste and end-of-life electronics", "kind": "indirect alternative", "note": "Technically demonstrated recovery methods exist, but 2026 sources describe this as an emerging secondary stream, not yet a scaled primary substitute." },
+    { "name": "Semiconductor optical amplifiers (SOAs) as EDFA substitute", "kind": "indirect alternative", "note": "Technically viable but commercially uncompetitive versus EDFAs on noise and performance as of 2026." },
+    { "name": "Buyer stockpiling and diversified sourcing (e.g., GE Vernova reserves)", "kind": "indirect alternative", "note": "Near-term mitigation that defers, rather than resolves, exposure to the underlying processing chokepoint." }
+  ],
+  "valuation": { "available": false, "reason": "This is a cross-industry materials-supply structural report, not a single-company earnings or valuation analysis; no source provided verified current share price, share count, or financial data tied specifically to rare-earth exposure at any named company." },
+  "catalysts": [
+    "China's November 10, 2026 decision on whether to extend, narrow, or let the erbium/holmium/thulium/europium/ytterbium suspension lapse",
+    "GE Vernova, Siemens Energy and Mitsubishi Power Q4 2026/Q1 2027 earnings commentary on yttrium and rare-earth input costs",
+    "MP Materials' and Lynas's reported progress ramping heavy-rare-earth separation capacity toward stated nameplate targets",
+    "Further Chinese company-specific export-control actions against non-China rare-earth processors",
+    "Updated customs/trade data on yttrium and erbium export volumes to non-China markets"
+  ],
+  "bear_case": [
+    { "dimension": "Regulation", "argument": "The core restriction is a negotiated, time-limited trade-talk suspension, not a physical shortage; a straightforward extension or easing on November 10, 2026 would substantially defuse the near-term constraint." },
+    { "dimension": "Supply", "argument": "Non-China separation capacity (MP Materials, Lynas, USA Rare Earth) is already commissioning in 2026 and, even if currently small, directly targets the exact elements at issue, unlike bottlenecks (e.g., copper mine permitting) with far longer lead times." },
+    { "dimension": "Demand", "argument": "Yttrium's data-center-relevant end uses (MLCCs, small shares of turbine coatings) are a modest fraction of total yttrium demand dominated by lighting phosphors, ceramics and other industrial uses, diluting AI-specific demand pressure on price." },
+    { "dimension": "Technology", "argument": "Semiconductor optical amplifiers and rare-earth recycling both offer partial technical substitution paths that could mature faster than expected if erbium scarcity persists, eroding the 'hard substitutability' case over a multi-year horizon." },
+    { "dimension": "Economics", "argument": "The wide gap between China's stable domestic prices and elevated ex-China spot prices suggests the scarcity is substantially a policy-and-logistics artifact of the licensing regime rather than a global physical shortage, which could unwind quickly if licensing eases." }
+  ],
+  "kill_conditions": [
+    { "condition": "China extends or removes the export-control suspension on all five second-wave elements without new restrictions", "metric": "MOFCOM/GACC announcement status on Nov 10, 2026 deadline", "threshold": "Suspension extended or controls formally lifted with no new restrictions imposed", "time_window": "around November 10, 2026", "impact": "invalidate" },
+    { "condition": "Ex-China spot prices for yttrium and erbium converge back toward China domestic reference prices", "metric": "Ex-China vs. China-domestic price spread for yttrium oxide and erbium", "threshold": "Spread narrows to within 25% for two consecutive quarters", "time_window": "next 2-3 quarters", "impact": "invalidate" },
+    { "condition": "Non-China heavy-rare-earth separation capacity scales materially faster than current targets", "metric": "Combined MP Materials/Lynas/USA Rare Earth reported nameplate and actual output for yttrium/erbium-bearing heavy REEs", "threshold": "Combined non-China capacity reaches at least 15% of estimated global yttrium/erbium demand within 18 months", "time_window": "next 18 months", "impact": "invalidate" },
+    { "condition": "Gas-turbine or optical-networking equipment makers report no material delivery or cost impact from rare-earth input costs", "metric": "Quarterly earnings commentary at GE Vernova, Siemens Energy, Ciena on rare-earth-related cost or delay impact", "threshold": "No company reports rare-earth-attributable delay or material cost impact for two consecutive quarters", "time_window": "next 2-3 quarters", "impact": "weaken" },
+    { "condition": "China escalates to broad, blanket rare-earth export restrictions covering yttrium and erbium with no licensing pathway", "metric": "Scope and enforcement severity of any new MOFCOM/GACC announcement", "threshold": "Blanket restriction imposed with minimal license approvals sustained for a full quarter", "time_window": "next 2-4 quarters", "impact": "invalidate" }
+  ],
+  "validation_events": [
+    { "event": "China's decision on the November 10, 2026 rare-earth export-control suspension deadline", "expected_window": "around November 10, 2026", "supports_if": "China narrows license approvals, imposes new company-specific blacklist actions, or lets controls on erbium and the other four elements resume", "weakens_if": "China extends the full suspension or formally lifts controls with no new restrictions", "source_to_monitor": "MOFCOM/GACC announcements; trade press (Reuters, Bloomberg, Financial Times)" },
+    { "event": "GE Vernova, Siemens Energy and Mitsubishi Power Q4 2026/Q1 2027 earnings calls", "expected_window": "late January-February 2027", "supports_if": "Management cites yttrium/rare-earth input costs or availability as a turbine-delivery risk factor", "weakens_if": "Management reports no material rare-earth-related cost or delivery impact", "source_to_monitor": "Respective investor relations pages" },
+    { "event": "MP Materials, Lynas and USA Rare Earth reported progress on heavy-rare-earth (yttrium/erbium) separation capacity", "expected_window": "next 2-3 quarters", "supports_if": "Reported capacity and output remain well below stated nameplate targets or timelines slip", "weakens_if": "Capacity ramps materially ahead of schedule toward or beyond stated nameplate targets", "source_to_monitor": "Company investor relations and SEC filings" },
+    { "event": "Updated trade/customs data on yttrium and erbium export volumes to non-China markets", "expected_window": "ongoing, next 2-3 quarters", "supports_if": "Export volumes remain depressed or decline further versus pre-2025-restriction baselines", "weakens_if": "Export volumes recover materially toward pre-restriction levels", "source_to_monitor": "China customs data via trade press and industry trackers (e.g., Reuters, rare-earth market trackers)" },
+    { "event": "Ex-China vs. China-domestic rare-earth price spread tracking", "expected_window": "ongoing, next 2-3 quarters", "supports_if": "The spread stays wide or widens further, indicating persistent scarcity pricing outside China", "weakens_if": "The spread narrows materially, indicating supply access is normalizing", "source_to_monitor": "Rare-earth market pricing trackers and industry research (e.g., rare-earth-mining.com, Argus Media)" }
+  ],
+  "sources": [
+    { "id": "ev-1", "claim": "Chinese customs data show 2026 yttrium exports down roughly 75% year-on-year; China mines ~90% of global yttrium and processes essentially all globally usable yttrium oxide; yttrium feeds turbine thermal barrier coatings and multi-layer ceramic capacitors.", "source_url": "https://spectrum.ieee.org/rare-earth-shortage", "source_title": "IEEE Spectrum: \"How China's Yttrium Curbs Threaten Data Centers\" / \"A Looming Rare Earth Shortage Threatens Critical Tech\"", "source_type": "secondary", "published_at": "2026-08", "retrieved_at": "2026-09-02", "quote_or_extract": "Exports of yttrium are down by about 75 percent this year in comparison with 2025...China mines 90 percent of the world's yttrium, but it processes all of the world's mined ore into an industrially usable form...Yttrium is a key component of the thermal barrier coatings that protect turbine blades...small quantities of yttrium feed into trillions of multi-layer ceramic capacitors. [Domain blocked by egress proxy; confirmed via convergent search-result snippets only, not a direct page fetch.]", "confidence": "medium" },
+    { "id": "ev-2", "claim": "Datacenters face a direct hit from China's rare-earth curbs as the clock runs out on an escalated licensing chokeoff, with erbium and yttrium named as the two rare earths of most direct concern for IT-equipment components.", "source_url": "https://www.theregister.com/systems/2026/08/28/datacenters-face-direct-hit-from-china-rare-earth-curbs-as-clock-runs-out-on-escalated-licensing-chokeoff/5293257", "source_title": "The Register: \"Datacenters face direct hit from China rare earth curbs, as clock runs out on escalated licensing chokeoff\"", "source_type": "secondary", "published_at": "2026-08-28", "retrieved_at": "2026-09-02", "quote_or_extract": "China's export controls on rare earth minerals could start to impact datacenters, as shipments of some key materials are down 75 percent...focuses on two rare earths in particular: erbium and yttrium, which are used in components for IT equipment...In November, China is expected to either extend or remove the suspensions for some or all of the 12 rare earths currently under export controls. [Domain blocked by egress proxy; confirmed via convergent search-result snippets only.]", "confidence": "medium" },
+    { "id": "ev-3", "claim": "MOFCOM Announcement No. 18 of 2025 (October 9, 2025) added seven medium/heavy rare-earth elements, including yttrium, to China's controlled-export list, requiring licenses for Chinese exporters and foreign purchasers; this control has remained in force without interruption.", "source_url": "https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html", "source_title": "China Ministry of Commerce: Announcement No. 18 of 2025 (rare earth export controls)", "source_type": "primary", "published_at": "2025-10-09", "retrieved_at": "2026-09-02", "quote_or_extract": "Announcement 18 (2025) added seven medium- and heavy-rare-earth elements along with their metals, oxides, alloys, compounds, mixtures, and magnet materials to the controlled items list...triggers licensing obligations for both Chinese exporters and foreign purchasers...continues to apply without interruption. [Domain blocked by egress proxy; confirmed via convergent secondary-source legal-alert summaries (Mayer Brown, White & Case, CSET Georgetown) citing the announcement text, not a direct page fetch.]", "confidence": "high" },
+    { "id": "ev-4", "claim": "MOFCOM and China's General Administration of Customs issued Announcement No. 70 of 2025 (November 7, 2025), suspending a second wave of controls covering five additional elements including erbium for twelve months, until November 10, 2026.", "source_url": "https://www.pillsburylaw.com/en/news-and-insights/china-suspends-export-controls-certain-critical-minerals-related-items.html", "source_title": "Pillsbury Winthrop Shaw Pittman LLP: \"China Suspends Export Controls on Certain Critical Minerals and Related Items\"", "source_type": "secondary", "published_at": "2025-11", "retrieved_at": "2026-09-02", "quote_or_extract": "On November 7, 2025, China's Ministry of Commerce and the General Administration of Customs jointly issued Announcement No. 70 of 2025, announcing the suspension of multiple previous announcements effective immediately until November 10, 2026...The additional five rare earth elements are holmium, erbium, thulium, europium, and ytterbium. [Domain blocked by egress proxy; confirmed via convergent search-result snippets from multiple law-firm summaries (Pillsbury, Clark Hill, CIRS Group).]", "confidence": "high" },
+    { "id": "ev-5", "claim": "The 2026 USGS Mineral Commodity Summaries state the US government maintains no rare-earth stockpile and the US remains substantially import-reliant for yttrium and other heavy rare earths.", "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf", "source_title": "US Geological Survey: Mineral Commodity Summaries 2026 -- Rare Earths", "source_type": "primary", "published_at": "2026", "retrieved_at": "2026-09-02", "quote_or_extract": "The U.S. Government maintains no rare earth stockpile...the U.S. imported about 470 tonnes of yttrium products in 2024, with the large majority sourced directly or indirectly from China. [Domain blocked by egress proxy; confirmed via convergent search-result snippets summarizing the USGS publication, not a direct page fetch.]", "confidence": "medium" },
+    { "id": "ev-6", "claim": "GE Vernova's CEO said at the company's December 2025 investor day that it held enough yttrium to support turbine manufacturing into 2026, and the company is working with the US government to secure additional rare-earth supply.", "source_url": "https://evertiq.com/news/2025-12-10-ge-vernova-boosts-yttrium-reserves-as-rare-earth-pressure-intensifies", "source_title": "Evertiq: \"GE Vernova boosts yttrium reserves as rare-earth pressure intensifies\"", "source_type": "secondary", "published_at": "2025-12-10", "retrieved_at": "2026-09-02", "quote_or_extract": "GE Vernova's CEO, Scott Strazik, said the company had enough yttrium to last into 2026...GE Vernova is working with the U.S. government to secure additional yttrium supplies amid tightening global availability, and has stockpiled enough material to support turbine manufacturing into 2026. [Domain blocked by egress proxy; confirmed via convergent search-result snippets, corroborated by Investing.com reporting on the same investor-day comments.]", "confidence": "medium" },
+    { "id": "ev-7", "claim": "US-bound shipments of yttrium products fell from 333 tons to just 17 tons over an eight-month period following China's April 2025 export controls.", "source_url": "https://rareearthexchanges.com/news/erbium-yttrium-china-supply-leverage/", "source_title": "Rare Earth Exchanges: \"Erbium Yttrium China Supply Control AI Data Centers\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-09-02", "quote_or_extract": "China imposed export controls in April 2025 which led to US-bound shipments of yttrium products falling from 333 tons to just 17 tons over eight months. [Domain blocked by egress proxy; confirmed via convergent search-result snippets only; this figure is not fully reconciled with the ~75% year-on-year decline reported by other trackers, so it is treated as directionally consistent rather than independently verified.]", "confidence": "low" },
+    { "id": "ev-8", "claim": "Rare-earth pricing has split into a two-tier structure, with China-domestic prices well below ex-China spot prices for the same elements; yttrium oxide rose from under $8/kg before restrictions to nearly $1,100/kg in ex-China markets by May 2026.", "source_url": "https://rare-earth-mining.com/rare-earth-market-pricing-analysis-april-2026/", "source_title": "Rare Earth Mining: Rare Earth Market Outlook, Pricing Analysis 2026", "source_type": "secondary", "published_at": "2026-04", "retrieved_at": "2026-09-02", "quote_or_extract": "Dysprosium trades at $205-211/kg in China but $575-2,500+/kg ex-China...Yttrium oxide prices hit nearly US$1,100/kg by May 2026, up from single digits before the export restrictions. [Domain blocked by egress proxy; confirmed via convergent search-result snippets only.]", "confidence": "medium" },
+    { "id": "ev-9", "claim": "China's rare-earth truce with the US, suspending broader controls until November 10, 2026, faces a three-way decision (restore, extend, or continue narrower targeted measures); China blacklisted MP Materials and USA Rare Earth on June 22, 2026; the Financial Times reported European erbium prices up more than 50% since June 2026 amid stockpiling ahead of the deadline.", "source_url": "https://moderndiplomacy.eu/2026/08/21/is-china-preparing-to-let-its-rare-earth-truce-with-washington-expire/", "source_title": "Modern Diplomacy: \"Is China Preparing to Let Its Rare Earth Truce With Washington Expire?\"", "source_type": "secondary", "published_at": "2026-08-21", "retrieved_at": "2026-09-02", "quote_or_extract": "China agreed to suspend its sweeping new rare earth export controls in November 2025, with the suspension running until November 10, 2026. Beijing has three main options for November: restore the broader restrictions, extend the suspension, or continue with the narrower approach...on June 22, Beijing ended the pause by adding two American rare earth companies, MP Materials and USA Rare Earth, to its export-control blacklist...The Financial Times reported in August that European erbium prices had risen by more than 50 percent since June amid stockpiling. [Domain blocked by egress proxy; confirmed via convergent search-result snippets only.]", "confidence": "medium" },
+    { "id": "ev-10", "claim": "Semiconductor optical amplifiers (SOAs) are a technically viable alternative to erbium-doped fiber amplifiers but have not achieved commercial acceptance due to inferior noise, saturation power and polarization performance.", "source_url": "https://www.fs.com/blog/optical-amplifiers-faceoff-edfa-vs-fra-vs-soa-9675.html", "source_title": "FS.com: \"Optical Amplifiers Face-off: EDFA vs FRA vs SOA\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-09-02", "quote_or_extract": "SOAs offer a low-cost, compact solution for power amplification compared with the dominant erbium-doped fiber amplifiers (EDFAs)...conventional electrically-pumped SOAs suffer from larger noise figures, low saturation power, and polarization dependence, in comparison with EDFAs...SOA technologies have not gained commercial acceptance due to their inability to compete with the low cost and high performance of EDFAs. [Confirmed via search-result snippet only.]", "confidence": "medium" },
+    { "id": "ev-11", "claim": "MP Materials began commissioning a heavy-rare-earth separation facility in mid-2026 targeting 200 tonnes/year of dysprosium and terbium; Lynas signed a preliminary four-year, $96 million DoD agreement on March 16, 2026; USA Rare Earth's Round Top project targets domestic processing of twelve critical minerals including yttrium and erbium.", "source_url": "https://www.sec.gov/Archives/edgar/data/0001970622/000121390026064453/ea029340201ex99-1.htm", "source_title": "USA Rare Earth, Inc. Form 8-K (FY2026)", "source_type": "primary", "published_at": "2026", "retrieved_at": "2026-09-02", "quote_or_extract": "Round Top Project will process and separate heavy rare earth elements including dysprosium, terbium, yttrium, gadolinium, hafnium, erbium, thulium, lutetium, ytterbium, holmium, gallium, and zirconium...MP's heavy rare earth separation facility is commissioning by mid-2026, with a capacity of 200 tons/year of dysprosium and terbium nameplate capacity...Lynas has a preliminary four-year agreement worth $96 million signed with the US Department of Defense on March 16, 2026. [Domain blocked by egress proxy; confirmed via convergent search-result snippets summarizing the SEC filing and related coverage, not a direct page fetch.]", "confidence": "medium" },
+    { "id": "ev-12", "claim": "Ciena's Q3 and full-year 2026 guidance ($1.625 billion Q3 revenue, $6.3 billion full year) references ongoing component constraints affecting backlog conversion.", "source_url": "https://simplywall.st/stocks/us/tech/nyse-cien/ciena/news/are-cienas-cien-supply-constraints-quietly-rewriting-its-ope", "source_title": "Simply Wall St: \"Are Ciena's (CIEN) Supply Constraints Quietly Rewriting Its Operating Playbook?\"", "source_type": "discovery", "published_at": "2026", "retrieved_at": "2026-09-02", "quote_or_extract": "Ciena's Q3 and full year 2026 guidance calls for $1.625 billion in Q3 revenue and $6.3 billion for the year, with ongoing component constraints affecting backlog conversion. [Domain blocked by egress proxy; confirmed via search-result snippet only; no source in this research attributed Ciena's constraints specifically to rare-earth/erbium supply, so this is reported as general component-constraint context, not a rare-earth-specific claim.]", "confidence": "low" },
+    { "id": "ev-13", "claim": "The International Energy Agency estimated that full enforcement of China's rare-earth export-control rules could put roughly $6.5 trillion of downstream global production at risk across automotive, high-tech, defense and energy industries.", "source_url": "https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality", "source_title": "International Energy Agency: \"With new export controls on critical minerals, supply concentration risks become reality\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-09-02", "quote_or_extract": "Full enforcement of China's rare earth export control rules could put $6.5 trillion of downstream production at risk worldwide, spanning the automotive, high-tech, defense, and energy industries. [Domain blocked by egress proxy; confirmed via search-result snippet only; treated as a scenario estimate covering all rare earths and industries broadly, not specific to yttrium/erbium or AI data centers.]", "confidence": "low" },
+    { "id": "ev-14", "claim": "SEMICON Taiwan 2026 (opening August 31-September 2, 2026) highlighted AI-cluster interconnect and materials bottlenecks as a central industry theme, drawing over 100,000 semiconductor professionals from 65 countries.", "source_url": "https://www.techtimes.com/articles/326056/20260831/semicon-taiwan-2026-kicks-off-ai-chips-bottleneck-wires-connecting-them.htm", "source_title": "Tech Times: \"SEMICON Taiwan 2026 Kicks Off: AI Chips' Bottleneck Is Wires Connecting Them\"", "source_type": "secondary", "published_at": "2026-08-31", "retrieved_at": "2026-09-02", "quote_or_extract": "SEMICON Taiwan 2026 opened International Semiconductor Week forums August 31 in Taipei, drawing more than 100,000 semiconductor professionals from 65 countries...Data movement in today's AI systems could consume more energy than computation itself, making system architecture, not individual chip performance, the new bottleneck. [Domain blocked by egress proxy; confirmed via search-result snippet only; cited here only for dateline/context, not as evidentiary support for a specific fact above.]", "confidence": "medium" }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

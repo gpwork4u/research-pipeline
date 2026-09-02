@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>稀土瓶頸：中國對釔與鉺的出口管制,是否成為AI建設下一個結構性瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/rare-earth-yttrium-erbium-export-controls-ai-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/rare-earth-yttrium-erbium-export-controls-ai-bottleneck</guid>
+      <pubDate>Wed, 02 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>materials</category>
+      <category>networking</category>
+      <description>中國對釔與鉺加工幾近壟斷的地位,正在擠壓燃氣渦輪機與資料中心光纖網路的供應鏈,但此限制源自將於2026年11月10日到期的貿易休戰協議,而非實體短缺。
+
+中國的出口管制鎖定釔與鉺——分別用於渦輪機隔熱塗層與AI資料中心用摻鉺光纖放大器——已使非中國釔出口年減約75%,歐洲鉺價自6月起上漲逾50%。GE Vernova已動用庫存;境外價格較中國國內高出數倍。然而限制核心是一項將於2026年11月10日到期的協商暫停令,並非實體短缺——中國偏好精準列黑名單而非全面禁運,境外分離產能才剛啟動。關鍵在於北京11月的決定。</description>
+    </item>
+    <item>
       <title>許可瓶頸：地方與州政治反對是否已成為比任何實體供應限制更嚴重的 AI 資料中心產能瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/data-center-moratorium-political-opposition-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/data-center-moratorium-political-opposition-bottleneck</guid>

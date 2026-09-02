@@ -380,5 +380,37 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-rare-earth-yttrium-erbium-export-controls-ai-bottleneck",
+    "topic": "rare-earth-yttrium-erbium-export-controls-ai-bottleneck",
+    "statement": "China's near-total control of yttrium and erbium processing -- yttrium exports to non-China markets down roughly 75% year-on-year in 2026 and European erbium prices up over 50% since June -- has created a materials-level bottleneck feeding two AI-buildout-critical supply chains this pipeline has previously examined only from other angles: gas-turbine power generation (yttria thermal barrier coatings) and data-center optical networking (erbium-doped fiber amplifiers). Demand is high, supply elasticity is low given China's near-total processing share, and near-term substitutability is hard for the highest-purity applications, meeting the strict structural-bottleneck test. But the constraint is unusually reversible: it traces to a negotiated trade-truce suspension expiring November 10, 2026 rather than physical scarcity, China has favored targeted company-specific measures (blacklisting MP Materials and USA Rare Earth) over blanket cutoffs, and non-China alternative separation capacity, while nascent, is already commissioning.",
+    "confidence": "medium",
+    "created_at": "2026-09-02",
+    "updated_at": "2026-09-02",
+    "supporting_reports": ["reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md"],
+    "kill_conditions": [
+      {
+        "condition": "China extends or removes the export-control suspension on all five second-wave elements without new restrictions",
+        "metric": "MOFCOM/GACC announcement status on Nov 10, 2026 deadline",
+        "threshold": "Suspension extended or controls formally lifted with no new restrictions imposed",
+        "time_window": "around November 10, 2026",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Non-China heavy-rare-earth separation capacity scales materially faster than current targets",
+        "metric": "Combined MP Materials/Lynas/USA Rare Earth reported nameplate and actual output for yttrium/erbium-bearing heavy REEs",
+        "threshold": "Combined non-China capacity reaches at least 15% of estimated global yttrium/erbium demand within 18 months",
+        "time_window": "next 18 months",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "China escalates to broad, blanket rare-earth export restrictions covering yttrium and erbium with no licensing pathway",
+        "metric": "Scope and enforcement severity of any new MOFCOM/GACC announcement",
+        "threshold": "Blanket restriction imposed with minimal license approvals sustained for a full quarter",
+        "time_window": "next 2-4 quarters",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

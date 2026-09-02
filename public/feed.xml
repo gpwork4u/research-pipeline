@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Rare-Earth Chokepoint: Are China&apos;s Yttrium and Erbium Export Controls the AI Buildout&apos;s Next Structural Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/rare-earth-yttrium-erbium-export-controls-ai-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/rare-earth-yttrium-erbium-export-controls-ai-bottleneck</guid>
+      <pubDate>Wed, 02 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>materials</category>
+      <category>networking</category>
+      <description>China&apos;s near-monopoly on yttrium and erbium processing is squeezing gas-turbine and data-center optical-networking supply chains, but the restriction is a reversible trade-truce artifact expiring November 10, 2026, not a physical shortage.
+
+China&apos;s October and November 2025 export-control actions on yttrium and erbium -- rare earths feeding gas-turbine thermal barrier coatings and the erbium-doped fiber amplifiers that carry AI data-center network traffic -- have cut non-China yttrium exports by roughly 75% year-on-year and pushed European erbium prices up more than 50% since June 2026. GE Vernova has drawn down stockpiles to keep turbines running; ex-China prices for these materials run several multiples above China&apos;s own domestic prices. Yet the binding constraint traces to a negotiated, time-limited suspension expiring November 10, 2026, not to physical scarcity -- China has favored targeted blacklisting (MP Materials, USA Rare Earth) over blanket cutoffs, and non-China separation capacity is only now commissioning. The key uncertainty is Beijing&apos;s November decision.</description>
+    </item>
+    <item>
       <title>The Permission Bottleneck: Is Local and State Political Opposition Now Blocking More AI Data-Center Capacity Than Any Physical Supply Constraint?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/data-center-moratorium-political-opposition-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/data-center-moratorium-political-opposition-bottleneck</guid>

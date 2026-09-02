@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Yttrium oxide price, ex-China spot/specialty markets",
+    "title_zh": "氧化釔境外現貨/特殊市場價格",
+    "type": "bar",
+    "unit": "USD/kg",
+    "source_id": "ev-8",
+    "series": [
+      { "label": "End 2024 (pre-restriction)", "value": 8 },
+      { "label": "May 2026", "value": 1100 }
+    ]
+  }
+]
