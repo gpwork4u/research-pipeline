@@ -502,5 +502,50 @@
     "source_to_monitor": "Rare-earth market pricing trackers and industry research",
     "origin_report": "reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Western Digital fiscal Q1 FY2027 earnings call",
+    "expected_window": "late October 2026",
+    "supports_if": "Management reiterates sold-out capacity, growing long-term agreement coverage into 2028+, and continued Cloud-segment revenue concentration",
+    "weakens_if": "Management reports easing backlog, shortening lead times, or a pullback in hyperscaler orders",
+    "source_to_monitor": "Western Digital investor relations",
+    "origin_report": "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Seagate Technology fiscal Q1 FY2027 earnings call",
+    "expected_window": "late October 2026",
+    "supports_if": "Nearline exabyte growth and 2028 capacity allocation continue, and HAMR penetration tracks toward the 70% June 2027 target",
+    "weakens_if": "Nearline growth decelerates sharply or HAMR ramp slips behind schedule",
+    "source_to_monitor": "investors.seagate.com",
+    "origin_report": "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TrendForce Q4 2026 NAND/DRAM contract price forecast",
+    "expected_window": "around October 2026",
+    "supports_if": "Forecast reiterates or accelerates price increases, or confirms industry-wide sold-out capacity into 2027",
+    "weakens_if": "Forecast shows price growth flattening or turning negative",
+    "source_to_monitor": "trendforce.com/presscenter",
+    "origin_report": "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Kioxia Holdings / SanDisk fiscal Q2 FY2027 results and Japan investment progress update",
+    "expected_window": "around November 2026",
+    "supports_if": "Government subsidy approval and fab construction proceed on the disclosed 2032 timeline with continued strong NAND ASP growth",
+    "weakens_if": "Investment is scaled back, delayed, or subsidy approval is denied",
+    "source_to_monitor": "kioxia.com and sandisk.com newsrooms",
+    "origin_report": "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Pure Storage and NetApp next quarterly earnings calls",
+    "expected_window": "November-December 2026",
+    "supports_if": "Management continues to cite AI-driven demand outpacing supply and extended component lead times",
+    "weakens_if": "Management reports component constraints easing or lead times normalizing",
+    "source_to_monitor": "Respective investor relations pages",
+    "origin_report": "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
+    "status": "open"
   }
 ]

@@ -116,5 +116,20 @@
     "name": "Ciena",
     "reports": ["reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md"],
     "last_updated": "2026-09-02"
+  },
+  {
+    "name": "Western Digital",
+    "reports": ["reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"],
+    "last_updated": "2026-09-03"
+  },
+  {
+    "name": "Seagate Technology",
+    "reports": ["reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"],
+    "last_updated": "2026-09-03"
+  },
+  {
+    "name": "Kioxia / SanDisk",
+    "reports": ["reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"],
+    "last_updated": "2026-09-03"
   }
 ]

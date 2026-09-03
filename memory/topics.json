@@ -108,5 +108,14 @@
     "status": "active",
     "categories": ["ai-infrastructure", "semiconductors", "materials", "networking"],
     "companies": ["GE Vernova", "Ciena"]
+  },
+  {
+    "slug": "ai-storage-nand-hdd-shortage-bottleneck",
+    "title": "The Storage Wall: Are Sold-Out Hard Drives and Soaring NAND Prices AI's Next Structural Bottleneck?",
+    "last_updated": "2026-09-03",
+    "reports": ["reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"],
+    "status": "active",
+    "categories": ["ai-infrastructure", "semiconductors", "data-storage", "memory"],
+    "companies": ["Western Digital", "Seagate Technology", "Kioxia / SanDisk"]
   }
 ]

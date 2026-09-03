@@ -412,5 +412,37 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-ai-storage-nand-hdd-shortage-bottleneck",
+    "topic": "ai-storage-nand-hdd-shortage-bottleneck",
+    "statement": "AI training data, checkpoints and inference logs have driven hyperscaler demand for nearline HDD and enterprise NAND/SSD capacity to a level that has sold out hard-drive production through 2026-2028 and pushed NAND/SSD prices up 50-100%+ over the past year, meeting the strict Structural Bottleneck test at the NAND-fab layer while remaining more contestable at the HDD-assembly layer, where QLC SSD substitution already provides some elasticity; unlike geology- or permitting-bound bottlenecks, both binding layers face a defined, capital-backed capacity response (Seagate's HAMR ramp, the $31B Kioxia/SanDisk Japan investment) already underway.",
+    "confidence": "medium",
+    "created_at": "2026-09-03",
+    "updated_at": "2026-09-03",
+    "supporting_reports": ["reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"],
+    "kill_conditions": [
+      {
+        "condition": "Seagate reaches its 70% HAMR nearline penetration target on or ahead of schedule and reports shortening lead times for new orders",
+        "metric": "HAMR % of nearline exabyte run rate; new-order lead times",
+        "threshold": "70%+ HAMR penetration reported with lead times returning to pre-2025 norms",
+        "time_window": "by mid-2027",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "TrendForce or equivalent trackers report NAND/DRAM contract prices flattening or declining quarter-over-quarter",
+        "metric": "NAND/DRAM QoQ contract price change",
+        "threshold": "Two consecutive quarters of flat or declining contract prices",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Hyperscalers cancel or materially scale back long-term storage supply agreements",
+        "metric": "Reported LTA cancellations or capex pullback commentary",
+        "threshold": "Any major hyperscaler discloses reduced or canceled multi-year storage commitments",
+        "time_window": "next 2-4 quarters",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

@@ -1,5 +1,27 @@
 [
   {
+    "title": "The Storage Wall: Are Sold-Out Hard Drives and Soaring NAND Prices AI's Next Structural Bottleneck?",
+    "date": "2026-09-03",
+    "slug": "ai-storage-nand-hdd-shortage-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "data-storage",
+      "memory"
+    ],
+    "companies": [
+      "Western Digital",
+      "Seagate Technology",
+      "Kioxia / SanDisk"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/ai-storage-nand-hdd-shortage-bottleneck",
+    "path": "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
+    "one_sentence_conclusion": "AI training data, checkpoints and logs have sold out hard-drive production into 2028 and pushed NAND/SSD prices up 50-100%+, but a defined HAMR ramp and a $31B NAND fab investment already underway make this bottleneck's resolution more a matter of execution timing than open-ended scarcity."
+  },
+  {
     "title": "The Rare-Earth Chokepoint: Are China's Yttrium and Erbium Export Controls the AI Buildout's Next Structural Bottleneck?",
     "date": "2026-09-02",
     "slug": "rare-earth-yttrium-erbium-export-controls-ai-bottleneck",

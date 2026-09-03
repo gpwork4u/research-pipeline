@@ -1,0 +1,14 @@
+[
+  {
+    "title": "30TB QLC SSD vs. HDD cost multiple",
+    "title_zh": "30TB QLC SSD 對硬碟成本倍數",
+    "type": "line",
+    "unit": "cost multiple (x)",
+    "source_id": "ev-10",
+    "series": [
+      { "label": "Q1 2026", "value": 22.6 },
+      { "label": "Q2 2026", "value": 16.3 },
+      { "label": "Q3 2026", "value": 18.6 }
+    ]
+  }
+]

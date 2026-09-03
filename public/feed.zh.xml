@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>儲存高牆：售罄的硬碟與飆漲的 NAND 價格，是否為 AI 的下一個結構性瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ai-storage-nand-hdd-shortage-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ai-storage-nand-hdd-shortage-bottleneck</guid>
+      <pubDate>Thu, 03 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>data-storage</category>
+      <category>memory</category>
+      <description>AI 訓練資料、檢查點與日誌已讓硬碟產能售罄至 2028 年、NAND/SSD 價格漲逾 50%-100%，但既定的 HAMR 產能爬坡與 310 億美元 NAND 晶圓廠投資已在進行,使此瓶頸的解除更取決於執行時程,而非無止境的稀缺。
+
+Western Digital 全部 2026 年硬碟產能已售罄,長約已延伸至 2027-2028 年;Seagate 2026 財年第四季近線儲存出貨年增 43%,絕大部分產能已配置至 2028 日曆年。NAND 與企業級 SSD 價格大幅上漲——2026 年第一季企業 SSD 合約價漲約 80%——同時 Kioxia 與 SanDisk 承諾投資 310 億美元於日本新產能,期程至 2032 年。QLC SSD 正吸收硬碟售罄後的溢出需求,即使每 TB 成本仍維持 16-19 倍的持續溢價。此瓶頸在 NAND 晶圓廠層級符合嚴格結構性測試(需求極高、彈性低、替代性難),但在硬碟組裝層級較弱,QLC SSD 替代已提供部分彈性。Seagate 的 HAMR 爬坡與 Kioxia/SanDisk 投資兩大產能應對措施皆有明確揭露時程,有別於受限於地質或許可程序的瓶頸。</description>
+    </item>
+    <item>
       <title>稀土瓶頸：中國對釔與鉺的出口管制,是否成為AI建設下一個結構性瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/rare-earth-yttrium-erbium-export-controls-ai-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/rare-earth-yttrium-erbium-export-controls-ai-bottleneck</guid>
