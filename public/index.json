@@ -1,5 +1,26 @@
 [
   {
+    "title": "The Cloud Loophole: Can US Export Controls on AI Chips Survive Remote Access?",
+    "date": "2026-09-04",
+    "slug": "ai-chip-export-control-remote-access-loophole",
+    "research_type": "NEW",
+    "topics": [
+      "ai-policy",
+      "semiconductors",
+      "export-controls",
+      "geopolitics"
+    ],
+    "companies": [
+      "Nvidia",
+      "Huawei"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/ai-chip-export-control-remote-access-loophole",
+    "path": "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
+    "one_sentence_conclusion": "A House-passed bill and draft Commerce rule aim to close China's Nvidia GPU rental loophole, but Senate delay and Huawei's ramp raise doubt."
+  },
+  {
     "title": "The Storage Wall: Are Sold-Out Hard Drives and Soaring NAND Prices AI's Next Structural Bottleneck?",
     "date": "2026-09-03",
     "slug": "ai-storage-nand-hdd-shortage-bottleneck",

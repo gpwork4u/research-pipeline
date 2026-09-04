@@ -547,5 +547,50 @@
     "source_to_monitor": "Respective investor relations pages",
     "origin_report": "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Commerce Department (BIS) publishes the drafted remote-access rule in the Federal Register",
+    "expected_window": "September 2026 - Q1 2027",
+    "supports_if": "A rule is published covering Thailand/Singapore-style GPU rental with clear licensing requirements",
+    "weakens_if": "The rule is delayed indefinitely or narrowed to exclude cloud/rental access",
+    "source_to_monitor": "Federal Register / bis.gov",
+    "origin_report": "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
+    "status": "open"
+  },
+  {
+    "event": "Senate floor vote or committee markup on S. 3519 (Remote Access Security Act)",
+    "expected_window": "Q4 2026 - H1 2027",
+    "supports_if": "The bill advances out of committee or receives a floor vote",
+    "weakens_if": "The bill remains stalled in committee with no scheduled action",
+    "source_to_monitor": "congress.gov (S. 3519)",
+    "origin_report": "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
+    "status": "open"
+  },
+  {
+    "event": "Nvidia's fiscal Q3 2027 earnings call commentary on China revenue assumptions and export-control risk",
+    "expected_window": "November 2026",
+    "supports_if": "Nvidia continues to assume zero China data-center revenue and cites regulatory uncertainty around remote access",
+    "weakens_if": "Nvidia signals resuming China compute revenue or discloses no material remote-access enforcement risk",
+    "source_to_monitor": "investor.nvidia.com",
+    "origin_report": "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
+    "status": "open"
+  },
+  {
+    "event": "Further disclosed large-scale GPU rental deals or BIS/Commerce enforcement actions against third-country data-center operators",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "New deals or enforcement actions are reported, confirming the loophole remains active and contested",
+    "weakens_if": "No new deals surface and no enforcement occurs, suggesting the issue has quietly stalled",
+    "source_to_monitor": "trade press (Tom's Hardware, The Register, SemiAnalysis)",
+    "origin_report": "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
+    "status": "open"
+  },
+  {
+    "event": "Updated analyst tracking (Bernstein, TrendForce, SemiAnalysis or equivalent) of Huawei/domestic Chinese AI chip market share",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Domestic share continues rising toward or beyond 90%, reducing reliance on remote Nvidia access",
+    "weakens_if": "Domestic share stalls or declines, keeping Chinese demand for remote Nvidia access elevated",
+    "source_to_monitor": "Industry analyst reports",
+    "origin_report": "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
+    "status": "open"
   }
 ]

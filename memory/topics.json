@@ -3,91 +3,188 @@
     "slug": "cowos-packaging-broadcom-custom-ai-asics",
     "title": "CoWoS advanced-packaging capacity as the binding constraint on AI accelerator supply",
     "last_updated": "2026-08-19",
-    "reports": ["reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md"],
+    "reports": [
+      "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md"
+    ],
     "status": "active",
-    "categories": ["semiconductors", "ai-infrastructure", "advanced-packaging"],
-    "companies": ["Broadcom"]
+    "categories": [
+      "semiconductors",
+      "ai-infrastructure",
+      "advanced-packaging"
+    ],
+    "companies": [
+      "Broadcom"
+    ]
   },
   {
     "slug": "nvidia-ai-infrastructure-financing-platform",
     "title": "Nvidia's $500 billion third-party AI financing push: does it solve a capital bottleneck, or relocate a credit-risk one?",
     "last_updated": "2026-08-20",
-    "reports": ["reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md"],
+    "reports": [
+      "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md"
+    ],
     "status": "active",
-    "categories": ["ai-infrastructure", "semiconductors", "capital-markets"],
-    "companies": ["Nvidia"]
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "capital-markets"
+    ],
+    "companies": [
+      "Nvidia"
+    ]
   },
   {
     "slug": "abf-substrate-ajinomoto-ai-chip-packaging",
     "title": "ABF dielectric film and Ajinomoto's near-monopoly: the bottleneck emerging behind AI chip packaging as CoWoS eases",
     "last_updated": "2026-08-21",
-    "reports": ["reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"],
+    "reports": [
+      "reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"
+    ],
     "status": "active",
-    "categories": ["semiconductors", "ai-infrastructure", "advanced-packaging", "materials"],
-    "companies": ["Ajinomoto", "Ibiden", "Unimicron"]
+    "categories": [
+      "semiconductors",
+      "ai-infrastructure",
+      "advanced-packaging",
+      "materials"
+    ],
+    "companies": [
+      "Ajinomoto",
+      "Ibiden",
+      "Unimicron"
+    ]
   },
   {
     "slug": "hbm-memory-supercycle-ai-accelerator-bottleneck",
     "title": "The AI memory supercycle: is HBM -- not packaging or substrates -- the AI accelerator supply chain's most durable structural bottleneck?",
     "last_updated": "2026-08-22",
-    "reports": ["reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"
+    ],
     "status": "active",
-    "categories": ["semiconductors", "ai-infrastructure", "memory"],
-    "companies": ["SK Hynix", "Samsung Electronics", "Micron"]
+    "categories": [
+      "semiconductors",
+      "ai-infrastructure",
+      "memory"
+    ],
+    "companies": [
+      "SK Hynix",
+      "Samsung Electronics",
+      "Micron"
+    ]
   },
   {
     "slug": "transformer-shortage-ai-data-center-power-bottleneck",
     "title": "The AI buildout's electrical bottleneck: are grid transformers and electrical steel -- not chips -- now the binding constraint on data center capacity?",
     "last_updated": "2026-08-23",
-    "reports": ["reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"
+    ],
     "status": "active",
-    "categories": ["ai-infrastructure", "energy", "electrical-equipment", "data-centers"],
-    "companies": ["Siemens Energy", "GE Vernova", "Hitachi"]
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "electrical-equipment",
+      "data-centers"
+    ],
+    "companies": [
+      "Siemens Energy",
+      "GE Vernova",
+      "Hitachi"
+    ]
   },
   {
     "slug": "copper-supply-ai-data-center-bottleneck",
     "title": "Copper: is the physical metal behind every wire, motor and transformer becoming the AI buildout's next structural bottleneck?",
     "last_updated": "2026-08-24",
-    "reports": ["reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md"
+    ],
     "status": "active",
-    "categories": ["ai-infrastructure", "commodities", "mining", "data-centers"],
-    "companies": ["Freeport-McMoRan"]
+    "categories": [
+      "ai-infrastructure",
+      "commodities",
+      "mining",
+      "data-centers"
+    ],
+    "companies": [
+      "Freeport-McMoRan"
+    ]
   },
   {
     "slug": "optical-transceiver-laser-shortage-ai-networking-bottleneck",
     "title": "Optical transceivers and EML lasers: has AI GPU-cluster networking replaced packaging and memory as the AI buildout's tightest chokepoint?",
     "last_updated": "2026-08-26",
-    "reports": ["reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"
+    ],
     "status": "active",
-    "categories": ["ai-infrastructure", "semiconductors", "networking", "optics"],
-    "companies": ["Coherent Corp", "Lumentum Holdings"]
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "networking",
+      "optics"
+    ],
+    "companies": [
+      "Coherent Corp",
+      "Lumentum Holdings"
+    ]
   },
   {
     "slug": "helium-shortage-ai-semiconductor-bottleneck",
     "title": "Helium Shortage 5.0: is the Qatar/Strait-of-Hormuz helium crisis a durable structural bottleneck on AI-driven semiconductor fabs, or a war-contingent price shock?",
     "last_updated": "2026-08-27",
-    "reports": ["reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"
+    ],
     "status": "active",
-    "categories": ["ai-infrastructure", "semiconductors", "commodities", "energy"],
-    "companies": ["Air Products and Chemicals", "Linde plc"]
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "commodities",
+      "energy"
+    ],
+    "companies": [
+      "Air Products and Chemicals",
+      "Linde plc"
+    ]
   },
   {
     "slug": "pjm-byonc-grid-interconnection-ai-data-center-bottleneck",
     "title": "PJM's 'Bring Your Own Power' Mandate: Has US Grid Interconnection Policy Overtaken Equipment Supply as AI Data Centers' Binding Constraint?",
     "last_updated": "2026-08-28",
-    "reports": ["reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md"
+    ],
     "status": "active",
-    "categories": ["ai-infrastructure", "energy", "regulation", "data-centers"],
-    "companies": ["PJM Interconnection"]
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "regulation",
+      "data-centers"
+    ],
+    "companies": [
+      "PJM Interconnection"
+    ]
   },
   {
     "slug": "electrician-labor-shortage-ai-data-center-bottleneck",
     "title": "The AI Buildout's Human Bottleneck: Is a Skilled-Trades Labor Shortage Now Constraining Data Center Construction More Than Chips, Power Equipment or Grid Policy?",
     "last_updated": "2026-08-29",
-    "reports": ["reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"
+    ],
     "status": "active",
-    "categories": ["ai-infrastructure", "labor-market", "construction", "data-centers"],
-    "companies": ["EMCOR Group", "Comfort Systems USA", "Quanta Services"]
+    "categories": [
+      "ai-infrastructure",
+      "labor-market",
+      "construction",
+      "data-centers"
+    ],
+    "companies": [
+      "EMCOR Group",
+      "Comfort Systems USA",
+      "Quanta Services"
+    ]
   },
   {
     "slug": "data-center-moratorium-political-opposition-bottleneck",
@@ -97,25 +194,72 @@
       "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md"
     ],
     "status": "active",
-    "categories": ["ai-infrastructure", "regulation", "politics", "data-centers"],
-    "companies": ["Amazon"]
+    "categories": [
+      "ai-infrastructure",
+      "regulation",
+      "politics",
+      "data-centers"
+    ],
+    "companies": [
+      "Amazon"
+    ]
   },
   {
     "slug": "rare-earth-yttrium-erbium-export-controls-ai-bottleneck",
     "title": "The Rare-Earth Chokepoint: Are China's Yttrium and Erbium Export Controls the AI Buildout's Next Structural Bottleneck?",
     "last_updated": "2026-09-02",
-    "reports": ["reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md"],
+    "reports": [
+      "reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md"
+    ],
     "status": "active",
-    "categories": ["ai-infrastructure", "semiconductors", "materials", "networking"],
-    "companies": ["GE Vernova", "Ciena"]
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "materials",
+      "networking"
+    ],
+    "companies": [
+      "GE Vernova",
+      "Ciena"
+    ]
   },
   {
     "slug": "ai-storage-nand-hdd-shortage-bottleneck",
     "title": "The Storage Wall: Are Sold-Out Hard Drives and Soaring NAND Prices AI's Next Structural Bottleneck?",
     "last_updated": "2026-09-03",
-    "reports": ["reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"],
+    "reports": [
+      "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"
+    ],
     "status": "active",
-    "categories": ["ai-infrastructure", "semiconductors", "data-storage", "memory"],
-    "companies": ["Western Digital", "Seagate Technology", "Kioxia / SanDisk"]
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "data-storage",
+      "memory"
+    ],
+    "companies": [
+      "Western Digital",
+      "Seagate Technology",
+      "Kioxia / SanDisk"
+    ]
+  },
+  {
+    "slug": "ai-chip-export-control-remote-access-loophole",
+    "title": "The Cloud Loophole: Can US Export Controls on AI Chips Survive Remote Access?",
+    "last_updated": "2026-09-04",
+    "reports": [
+      "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-policy",
+      "semiconductors",
+      "export-controls",
+      "geopolitics"
+    ],
+    "companies": [
+      "Nvidia",
+      "Huawei"
+    ]
   }
 ]

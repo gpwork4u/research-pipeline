@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>雲端漏洞：美國AI晶片出口管制能否禁得起遠端存取？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ai-chip-export-control-remote-access-loophole</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ai-chip-export-control-remote-access-loophole</guid>
+      <pubDate>Fri, 04 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-policy</category>
+      <category>semiconductors</category>
+      <category>export-controls</category>
+      <category>geopolitics</category>
+      <description>眾議院已通過法案、商務部也在草擬新規以堵住中國租用Nvidia GPU的漏洞，但參議院擱置與華為產能攀升讓時程存疑。
+
+中國企業已合法透過泰國、新加坡、印尼與日本的資料中心租用受管制的Nvidia Blackwell GPU，已知交易包括騰訊經日本Datasection以12億美元租用15,000顆GPU，及INF Tech經印尼租用2,300顆GPU。眾議院於2026年1月以369比22票通過《遠端存取安全法案》堵住此缺口，商務部BIS也據報草擬同一漏洞的新規，最快9月公布，但參議院版本已擱置八個月，律師並質疑BIS是否有獨自執法的授權。同期Nvidia在中國的直接銷售市佔率已趨近於零，華為則加速拉升本土昇騰產能，估計將取得中國AI晶片市場約90%份額。真正受限的瓶頸並非晶片供給，而是執法機制本身。</description>
+    </item>
+    <item>
       <title>儲存高牆：售罄的硬碟與飆漲的 NAND 價格，是否為 AI 的下一個結構性瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ai-storage-nand-hdd-shortage-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ai-storage-nand-hdd-shortage-bottleneck</guid>

@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Cloud Loophole: Can US Export Controls on AI Chips Survive Remote Access?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/ai-chip-export-control-remote-access-loophole</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ai-chip-export-control-remote-access-loophole</guid>
+      <pubDate>Fri, 04 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-policy</category>
+      <category>semiconductors</category>
+      <category>export-controls</category>
+      <category>geopolitics</category>
+      <description>A House-passed bill and draft Commerce rule aim to close China&apos;s Nvidia GPU rental loophole, but Senate delay and Huawei&apos;s ramp raise doubt.
+
+Chinese firms have legally rented access to export-controlled Nvidia Blackwell GPUs through data centers in Thailand, Singapore, Indonesia and Japan, with documented deals including Tencent&apos;s $1.2 billion, 15,000-GPU contract via Japan&apos;s Datasection and INF Tech&apos;s 2,300-GPU rental via Indonesia. The House passed the Remote Access Security Act 369-22 in January 2026 to close this gap, and Commerce&apos;s BIS reportedly drafted a rule targeting the same loophole for as early as September 2026, but the Senate companion bill has sat in committee for eight months and lawyers doubt BIS&apos;s authority to act alone. Meanwhile Nvidia&apos;s direct China sales fell to roughly zero market share and Huawei is ramping domestic Ascend output toward a projected 90% share of China&apos;s AI chip market. The enforcement mechanism itself -- not physical chip supply -- is the binding constraint here.</description>
+    </item>
+    <item>
       <title>The Storage Wall: Are Sold-Out Hard Drives and Soaring NAND Prices AI&apos;s Next Structural Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/ai-storage-nand-hdd-shortage-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ai-storage-nand-hdd-shortage-bottleneck</guid>

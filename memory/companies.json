@@ -1,107 +1,150 @@
 [
   {
     "name": "Broadcom",
-    "reports": ["reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md"],
+    "reports": [
+      "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md"
+    ],
     "last_updated": "2026-08-19"
   },
   {
     "name": "Nvidia",
-    "reports": ["reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md"],
-    "last_updated": "2026-08-20"
+    "reports": [
+      "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
+      "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md"
+    ],
+    "last_updated": "2026-09-04"
   },
   {
     "name": "Ajinomoto",
-    "reports": ["reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"],
+    "reports": [
+      "reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"
+    ],
     "last_updated": "2026-08-21"
   },
   {
     "name": "Ibiden",
-    "reports": ["reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"],
+    "reports": [
+      "reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"
+    ],
     "last_updated": "2026-08-21"
   },
   {
     "name": "Unimicron",
-    "reports": ["reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"],
+    "reports": [
+      "reports/2026/08/2026-08-21-abf-substrate-ajinomoto-ai-chip-packaging.md"
+    ],
     "last_updated": "2026-08-21"
   },
   {
     "name": "SK Hynix",
-    "reports": ["reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"
+    ],
     "last_updated": "2026-08-22"
   },
   {
     "name": "Samsung Electronics",
-    "reports": ["reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"
+    ],
     "last_updated": "2026-08-22"
   },
   {
     "name": "Micron",
-    "reports": ["reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"
+    ],
     "last_updated": "2026-08-22"
   },
   {
     "name": "Siemens Energy",
-    "reports": ["reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"
+    ],
     "last_updated": "2026-08-23"
   },
   {
     "name": "GE Vernova",
-    "reports": ["reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"
+    ],
     "last_updated": "2026-08-23"
   },
   {
     "name": "Hitachi",
-    "reports": ["reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"
+    ],
     "last_updated": "2026-08-23"
   },
   {
     "name": "Freeport-McMoRan",
-    "reports": ["reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-24-copper-supply-ai-data-center-bottleneck.md"
+    ],
     "last_updated": "2026-08-24"
   },
   {
     "name": "Coherent Corp",
-    "reports": ["reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"
+    ],
     "last_updated": "2026-08-26"
   },
   {
     "name": "Lumentum Holdings",
-    "reports": ["reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-26-optical-transceiver-laser-shortage-ai-networking-bottleneck.md"
+    ],
     "last_updated": "2026-08-26"
   },
   {
     "name": "Air Products and Chemicals",
-    "reports": ["reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"
+    ],
     "last_updated": "2026-08-27"
   },
   {
     "name": "Linde plc",
-    "reports": ["reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-27-helium-shortage-ai-semiconductor-bottleneck.md"
+    ],
     "last_updated": "2026-08-27"
   },
   {
     "name": "PJM Interconnection",
-    "reports": ["reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md"
+    ],
     "last_updated": "2026-08-28"
   },
   {
     "name": "EMCOR Group",
-    "reports": ["reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"
+    ],
     "last_updated": "2026-08-29"
   },
   {
     "name": "Comfort Systems USA",
-    "reports": ["reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"
+    ],
     "last_updated": "2026-08-29"
   },
   {
     "name": "Quanta Services",
-    "reports": ["reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-29-electrician-labor-shortage-ai-data-center-bottleneck.md"
+    ],
     "last_updated": "2026-08-29"
   },
   {
     "name": "Amazon",
-    "reports": ["reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md"],
+    "reports": [
+      "reports/2026/08/2026-08-30-data-center-moratorium-political-opposition-bottleneck.md"
+    ],
     "last_updated": "2026-08-30"
   },
   {
@@ -114,22 +157,37 @@
   },
   {
     "name": "Ciena",
-    "reports": ["reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md"],
+    "reports": [
+      "reports/2026/09/2026-09-02-rare-earth-yttrium-erbium-export-controls-ai-bottleneck.md"
+    ],
     "last_updated": "2026-09-02"
   },
   {
     "name": "Western Digital",
-    "reports": ["reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"],
+    "reports": [
+      "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"
+    ],
     "last_updated": "2026-09-03"
   },
   {
     "name": "Seagate Technology",
-    "reports": ["reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"],
+    "reports": [
+      "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"
+    ],
     "last_updated": "2026-09-03"
   },
   {
     "name": "Kioxia / SanDisk",
-    "reports": ["reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"],
+    "reports": [
+      "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"
+    ],
     "last_updated": "2026-09-03"
+  },
+  {
+    "name": "Huawei",
+    "reports": [
+      "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md"
+    ],
+    "last_updated": "2026-09-04"
   }
 ]
