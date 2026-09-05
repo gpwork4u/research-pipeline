@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>Broadcom&apos;s $230 Billion Guide: CoWoS Packaging Eases, But Does Customer Concentration Prove a New Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/broadcom-ai-backlog-custom-asic-design-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/broadcom-ai-backlog-custom-asic-design-bottleneck</guid>
+      <pubDate>Sat, 05 Sep 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-packaging</category>
+      <category>custom-silicon</category>
+      <description>Broadcom&apos;s Q3 beat confirms CoWoS packaging is easing, but evidence is not yet enough to prove design-partner concentration is a new structural bottleneck.
+
+Broadcom&apos;s Q3 FY2026 results (reported September 2, 2026) beat the AI semiconductor revenue guide this pipeline tracked on its watchlist, hitting $16.7 billion (+221% YoY), and management introduced unprecedented FY2027/FY2028 targets of $115 billion and $230 billion. TSMC&apos;s CoWoS gap is separately reported narrowing from ~20% to 10% by end-2026 on a ~10x capacity build-out since 2023, and OpenAI&apos;s first Broadcom-designed chip shipped in Q3 without a cited packaging delay -- together downgrading packaging from Structural Bottleneck to Growth Area, as prior reports anticipated. What has not eased is customer concentration: Broadcom&apos;s multi-gigawatt commitments run through six hyperscale customers and almost exclusively Broadcom&apos;s own design capability. That is a material bear-case risk, but Broadcom&apos;s own guidance implies rapidly scaling supply and Jalapeno shipped on schedule -- so the evidence does not yet prove design capacity itself is a scarce bottleneck rather than an unresolved risk.</description>
+    </item>
+    <item>
       <title>The Cloud Loophole: Can US Export Controls on AI Chips Survive Remote Access?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/ai-chip-export-control-remote-access-loophole</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ai-chip-export-control-remote-access-loophole</guid>

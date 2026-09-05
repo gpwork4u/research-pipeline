@@ -2,12 +2,13 @@
   {
     "id": "thesis-cowos-packaging-broadcom-custom-ai-asics",
     "topic": "cowos-packaging-broadcom-custom-ai-asics",
-    "statement": "TSMC's CoWoS advanced-packaging capacity, not silicon wafer starts or HBM memory itself, is the binding constraint on AI accelerator supply through 2026-2027, and because allocation is won through committed multi-year volume rather than spot orders, the constraint is reinforcing the position of the largest, best-capitalized buyers (Nvidia and Broadcom's six anchor custom-ASIC customers) rather than expanding total industry throughput.",
+    "statement": "TSMC's CoWoS advanced-packaging capacity, not silicon wafer starts or HBM memory itself, is the binding constraint on AI accelerator supply through 2026-2027, and because allocation is won through committed multi-year volume rather than spot orders, the constraint is reinforcing the position of the largest, best-capitalized buyers (Nvidia and Broadcom's six anchor custom-ASIC customers) rather than expanding total industry throughput. UPDATE (2026-09-05): this packaging-specific claim is now downgraded -- TrendForce reports the CoWoS supply-demand gap narrowing from ~20% to ~10% by end-2026 on a ~10x capacity build-out since 2023, and OpenAI's first Broadcom-designed chip (Jalapeno) shipped in Q3 FY2026 without a packaging-related delay. See the companion thesis thesis-broadcom-ai-backlog-custom-asic-design-bottleneck for the current, more concentration-focused framing.",
     "confidence": "medium",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-19",
+    "updated_at": "2026-09-05",
     "supporting_reports": [
-      "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md"
+      "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
+      "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md"
     ],
     "kill_conditions": [
       {
@@ -499,6 +500,47 @@
         "metric": "Federal Register publication status",
         "threshold": "Final or interim final rule published",
         "time_window": "Q4 2026 - Q1 2027",
+        "impact": "weaken"
+      }
+    ]
+  },
+  {
+    "id": "thesis-broadcom-ai-backlog-custom-asic-design-bottleneck",
+    "topic": "broadcom-ai-backlog-custom-asic-design-bottleneck",
+    "statement": "Broadcom's Q3 FY2026 results (reported September 2, 2026) beat the ~$16 billion AI semiconductor revenue guide the original CoWoS-bottleneck thesis assumed, with AI semiconductor revenue reaching $16.7 billion (+221% YoY) and management introducing unprecedented FY2027/FY2028 targets of $115 billion and $230 billion -- guidance that itself implies Broadcom is scaling design and shipment capacity roughly 4x from FY2026 to FY2028, evidence of high rather than low supply elasticity at the design layer. TSMC's CoWoS supply-demand gap is separately reported narrowing from roughly 20% to 10% by end-2026, and OpenAI's first Broadcom-designed accelerator (Jalapeno) shipped in Q3 FY2026 without a packaging-related delay -- together downgrading the packaging layer from Structural Bottleneck to Growth Area. What remains genuinely unresolved is customer and design-partner concentration: Broadcom's backlog and multi-gigawatt commitments (Anthropic ~5GW, OpenAI 10GW by 2029, Meta 3GW) run through just six hyperscale customers and almost exclusively Broadcom's own design capability. This concentration is a material bear-case risk, but the available evidence -- Broadcom's own rapidly scaling guidance and Jalapeno's on-schedule shipment -- does not yet show the wait-times, rejected customers, or delayed tape-outs needed to classify Broadcom's design/integration capacity itself as a proven Structural Bottleneck; it remains a medium-confidence inference worth continued validation rather than an established finding.",
+    "confidence": "medium",
+    "created_at": "2026-09-05",
+    "updated_at": "2026-09-05",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "TSMC's CoWoS supply-demand gap fails to narrow further, or industry trackers report it widening again",
+        "metric": "Industry-reported CoWoS supply-demand gap percentage",
+        "threshold": "Gap remains at or above roughly 15-20% past end-2026, reversing the reported narrowing trend",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "A qualified competitor (e.g., Marvell) or an in-house hyperscaler design team wins a large new multi-gigawatt custom-accelerator program away from Broadcom",
+        "metric": "Disclosed new custom-ASIC design wins by non-Broadcom vendors",
+        "threshold": "Any disclosed multi-gigawatt program awarded to a competitor",
+        "time_window": "next 2-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Broadcom's actual Q4 FY2026 or FY2027 results materially miss the newly raised guidance",
+        "metric": "Reported AI semiconductor revenue vs. guided figure",
+        "threshold": "Miss of guidance by a material margin for one or more quarters",
+        "time_window": "next 2-4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "OpenAI's Jalapeno or Anthropic's Ironwood-based deployments slip in Q4 2026/2027 with packaging or component constraints explicitly cited as the cause",
+        "metric": "Reported shipment timelines and cited causes for any delay",
+        "threshold": "Any disclosed delay explicitly attributed to packaging/component supply",
+        "time_window": "next 2-3 quarters",
         "impact": "weaken"
       }
     ]

@@ -6,7 +6,8 @@
     "weakens_if": "Revenue misses guidance or backlog growth stalls",
     "source_to_monitor": "Broadcom investor relations (investors.broadcom.com)",
     "origin_report": "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred September 2, 2026: supports_if branch confirmed. AI semiconductor revenue $16.7B beat the ~$16B guide (+221% YoY); backlog continued growing with new FY2027/FY2028 targets of $115B/$230B. See reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md."
   },
   {
     "event": "TSMC Q3 2026 earnings call",
@@ -24,7 +25,8 @@
     "weakens_if": "OpenAI's custom ASIC ships on the revised schedule with no packaging-related delay cited",
     "source_to_monitor": "OpenAI and Broadcom public statements, trade press",
     "origin_report": "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred Q3 FY2026: weakens_if branch confirmed. OpenAI's Jalapeno chip shipped in Q3 FY2026 (continuing into Q4) on the schedule announced June 2026, with no packaging-related delay cited -- evidence the packaging-specific constraint has eased. See reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md."
   },
   {
     "event": "Hyperscaler Q3 2026 capital-expenditure guidance (Google, Meta, Microsoft, Amazon)",
@@ -591,6 +593,51 @@
     "weakens_if": "Domestic share stalls or declines, keeping Chinese demand for remote Nvidia access elevated",
     "source_to_monitor": "Industry analyst reports",
     "origin_report": "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's Q3 2026 earnings call",
+    "expected_window": "mid-October 2026",
+    "supports_if": "TSMC confirms the CoWoS supply-demand gap continuing to narrow toward or below 10% and reiterates 2026/2027 capacity and capex targets",
+    "weakens_if": "TSMC reports the gap widening again or capex/capacity guidance is cut",
+    "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
+    "origin_report": "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Broadcom's Q4 FY2026 and Q1 FY2027 earnings calls",
+    "expected_window": "December 2026 and March 2027",
+    "supports_if": "Broadcom meets or exceeds the $21.7B Q4 guide and the $115B FY2027 AI revenue target remains on track",
+    "weakens_if": "Broadcom misses Q4 guidance or walks back FY2027/FY2028 targets",
+    "source_to_monitor": "Broadcom investor relations (investors.broadcom.com)",
+    "origin_report": "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "OpenAI's Jalapeno chip moving from prototype to volume production",
+    "expected_window": "Q4 2026 - 2027",
+    "supports_if": "OpenAI/Broadcom disclose a clear production-volume ramp beyond 'small prototype' scale with no packaging-related delay",
+    "weakens_if": "Jalapeno's ramp is delayed or scaled back, with packaging or component supply cited as a cause",
+    "source_to_monitor": "OpenAI and Broadcom public statements, trade press",
+    "origin_report": "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Anthropic's roughly 3.5 gigawatt next-generation TPU compute commitment beginning to come online",
+    "expected_window": "starting 2027",
+    "supports_if": "Deployment proceeds on the disclosed schedule with Broadcom confirmed as design/integration partner",
+    "weakens_if": "Deployment is delayed, scaled back, or shifted to a different design partner",
+    "source_to_monitor": "Anthropic and Google/Broadcom public statements",
+    "origin_report": "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Disclosure of a seventh Broadcom custom-XPU customer, or a major customer moving work to a competing ASIC design house",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "A seventh customer is disclosed, showing the design-capacity bottleneck is being met by diversification of supply within Broadcom's model",
+    "weakens_if": "A current customer is reported shifting custom-silicon work to a competitor, indicating the design-capacity bottleneck is less binding than assessed",
+    "source_to_monitor": "Trade press (Tom's Hardware, SemiAnalysis, The Information)",
+    "origin_report": "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
     "status": "open"
   }
 ]

@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>博通的2300億美元指引：CoWoS封裝壓力趨緩，但客戶集中度足以證明新瓶頸嗎？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/broadcom-ai-backlog-custom-asic-design-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/broadcom-ai-backlog-custom-asic-design-bottleneck</guid>
+      <pubDate>Sat, 05 Sep 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-packaging</category>
+      <category>custom-silicon</category>
+      <description>博通第三季財報證實CoWoS封裝壓力趨緩，但證據尚不足以證明設計夥伴集中度已構成新的結構性瓶頸。
+
+博通2026財年第三季財報（9月2日）超越觀察清單追蹤的AI半導體營收指引，達167億美元（年增221%），並首度提出FY27、FY28目標1150億與2300億美元。台積電CoWoS供需缺口據報正從約20%收窄至10%，OpenAI首款博通設計晶片已出貨、未見封裝延誤——兩者共同將封裝自結構性瓶頸降級為成長領域，符合本研究管線先前報告的預期。尚未緩解的是客戶集中度：新揭露的多吉瓦承諾僅集中於六家客戶，幾乎全數仰賴博通自身設計能力。此集中度是重大反方風險，但博通自身指引意味產能正快速擴張，Jalapeño也如期出貨，故現有證據尚不足以證明設計／整合產能本身是稀缺的結構性瓶頸，而非仍待觀察的風險。</description>
+    </item>
+    <item>
       <title>雲端漏洞：美國AI晶片出口管制能否禁得起遠端存取？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ai-chip-export-control-remote-access-loophole</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ai-chip-export-control-remote-access-loophole</guid>

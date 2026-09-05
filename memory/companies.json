@@ -2,9 +2,10 @@
   {
     "name": "Broadcom",
     "reports": [
-      "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md"
+      "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
+      "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md"
     ],
-    "last_updated": "2026-08-19"
+    "last_updated": "2026-09-05"
   },
   {
     "name": "Nvidia",
@@ -189,5 +190,12 @@
       "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md"
     ],
     "last_updated": "2026-09-04"
+  },
+  {
+    "name": "TSMC",
+    "reports": [
+      "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md"
+    ],
+    "last_updated": "2026-09-05"
   }
 ]

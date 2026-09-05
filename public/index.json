@@ -1,5 +1,26 @@
 [
   {
+    "title": "Broadcom's $230 Billion Guide: CoWoS Packaging Eases, But Does Customer Concentration Prove a New Bottleneck?",
+    "date": "2026-09-05",
+    "slug": "broadcom-ai-backlog-custom-asic-design-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-packaging",
+      "custom-silicon"
+    ],
+    "companies": [
+      "Broadcom",
+      "TSMC"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/broadcom-ai-backlog-custom-asic-design-bottleneck",
+    "path": "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
+    "one_sentence_conclusion": "Broadcom's Q3 beat confirms CoWoS packaging is easing, but evidence is not yet enough to prove design-partner concentration is a new structural bottleneck."
+  },
+  {
     "title": "The Cloud Loophole: Can US Export Controls on AI Chips Survive Remote Access?",
     "date": "2026-09-04",
     "slug": "ai-chip-export-control-remote-access-loophole",

@@ -261,5 +261,24 @@
       "Nvidia",
       "Huawei"
     ]
+  },
+  {
+    "slug": "broadcom-ai-backlog-custom-asic-design-bottleneck",
+    "title": "Broadcom's $230 Billion Guide: CoWoS Packaging Eases, But Does Customer Concentration Prove a New Bottleneck?",
+    "last_updated": "2026-09-05",
+    "reports": [
+      "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-packaging",
+      "custom-silicon"
+    ],
+    "companies": [
+      "Broadcom",
+      "TSMC"
+    ]
   }
 ]
