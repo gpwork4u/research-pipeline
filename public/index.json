@@ -1,5 +1,25 @@
 [
   {
+    "title": "Ghost Demand: Are State-Level Interconnection Queue Freezes the AI Buildout's New Power Bottleneck?",
+    "date": "2026-09-06",
+    "slug": "ghost-demand-interconnection-queue-freeze-ai-data-centers",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "regulation",
+      "data-centers"
+    ],
+    "companies": [
+      "Vistra"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/ghost-demand-interconnection-queue-freeze-ai-data-centers",
+    "path": "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md",
+    "one_sentence_conclusion": "States are freezing data-center grid interconnections over \"ghost demand,\" but this looks like a self-correcting administrative bottleneck, not a proven structural one."
+  },
+  {
     "title": "Broadcom's $230 Billion Guide: CoWoS Packaging Eases, But Does Customer Concentration Prove a New Bottleneck?",
     "date": "2026-09-05",
     "slug": "broadcom-ai-backlog-custom-asic-design-bottleneck",

@@ -197,5 +197,12 @@
       "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md"
     ],
     "last_updated": "2026-09-05"
+  },
+  {
+    "name": "Vistra",
+    "reports": [
+      "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md"
+    ],
+    "last_updated": "2026-09-06"
   }
 ]

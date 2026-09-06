@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>Ghost Demand: Are State-Level Interconnection Queue Freezes the AI Buildout&apos;s New Power Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/ghost-demand-interconnection-queue-freeze-ai-data-centers</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ghost-demand-interconnection-queue-freeze-ai-data-centers</guid>
+      <pubDate>Sun, 06 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>regulation</category>
+      <category>data-centers</category>
+      <description>States are freezing data-center grid interconnections over &quot;ghost demand,&quot; but this looks like a self-correcting administrative bottleneck, not a proven structural one.
+
+Texas Governor Abbott froze all new data-center grid interconnections on August 3, 2026, after requests reached roughly 474 gigawatts -- over five times peak demand -- with Pennsylvania and Ohio imposing comparable queue-verification controls; a Reuters review found over 700 gigawatts of similar requests nationally, more than ten times actual U.S. data-center power use. Regulators attribute most of this gap to duplicative, unfunded &quot;ghost demand&quot; filings rather than real demand, making this an administrative queue-integrity problem distinct from the physical equipment shortages and political-opposition moratoria this pipeline covered in August 2026. The freeze is real -- up to roughly 1,800 Texas projects are reported halted -- but ERCOT targets audit completion around December 2026, Pennsylvania explicitly favors self-generating projects, and Vistra&apos;s dedicated nuclear supply deal with Amazon shows well-capitalized developers can route around the general queue. That combination of a concrete resolution timeline and real substitutability keeps this a Growth Area friction rather than a proven Structural Bottleneck.</description>
+    </item>
+    <item>
       <title>Broadcom&apos;s $230 Billion Guide: CoWoS Packaging Eases, But Does Customer Concentration Prove a New Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/broadcom-ai-backlog-custom-asic-design-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/broadcom-ai-backlog-custom-asic-design-bottleneck</guid>

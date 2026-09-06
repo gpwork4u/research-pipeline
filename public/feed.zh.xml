@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>幽靈需求：各州凍結電網併網申請，是否已成AI電力供給的新瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ghost-demand-interconnection-queue-freeze-ai-data-centers</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ghost-demand-interconnection-queue-freeze-ai-data-centers</guid>
+      <pubDate>Sun, 06 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>regulation</category>
+      <category>data-centers</category>
+      <description>各州正因「幽靈需求」凍結資料中心併網申請，但證據顯示這較像是可自我修正的行政瓶頸，而非已證實的結構性瓶頸。
+
+德州州長阿博特於8月3日凍結新資料中心併網申請，因申請量已達約474吉瓦——超尖峰用電五倍；賓州、俄亥俄州也採類似查核措施。路透社調查發現全美類似申請逾700吉瓦，超實際用電量十倍。監理機關多將落差歸咎投機性申請而非真實需求，屬有別於8月報告設備短缺與政治反對型暫停的行政查核問題。凍結確屬真實——德州近1,800個專案遭暫停——但ERCOT預計12月完成審核，賓州優先處理自備發電專案，Vistra與Amazon的專屬核電協議也顯示大型開發商可繞過排隊。時程明確加上替代方案存在，此議題較適合歸類為成長領域摩擦，而非已證實的結構性瓶頸。</description>
+    </item>
+    <item>
       <title>博通的2300億美元指引：CoWoS封裝壓力趨緩，但客戶集中度足以證明新瓶頸嗎？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/broadcom-ai-backlog-custom-asic-design-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/broadcom-ai-backlog-custom-asic-design-bottleneck</guid>

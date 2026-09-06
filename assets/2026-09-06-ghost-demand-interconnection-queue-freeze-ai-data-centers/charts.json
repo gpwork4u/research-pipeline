@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Texas ERCOT data-center/large-load interconnection requests",
+    "title_zh": "德州ERCOT資料中心／大型用戶併網申請量",
+    "type": "bar",
+    "unit": "gigawatts",
+    "source_id": "ev-3",
+    "series": [
+      { "label": "End 2023", "value": 48 },
+      { "label": "2026", "value": 474 }
+    ]
+  },
+  {
+    "title": "Large-load interconnection requests by region (2026)",
+    "title_zh": "各區域大型用戶併網申請量（2026年）",
+    "type": "bar",
+    "unit": "gigawatts",
+    "source_id": "ev-3",
+    "series": [
+      { "label": "Texas (ERCOT)", "value": 474 },
+      { "label": "10 major non-Texas utilities", "value": 270 }
+    ]
+  }
+]

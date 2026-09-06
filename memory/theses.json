@@ -544,5 +544,39 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-ghost-demand-interconnection-queue-freeze-ai-data-centers",
+    "topic": "ghost-demand-interconnection-queue-freeze-ai-data-centers",
+    "statement": "Texas (Governor Abbott's August 3, 2026 directive), Pennsylvania (Executive Order 2026-05, August 18) and Ohio (AEP Ohio's data-center tariff) have each moved to freeze or gate new data-center grid interconnections in response to 'ghost demand': a Reuters review found large-load electricity requests exceeding 700 gigawatts nationally and 474 gigawatts in Texas alone, over five times peak demand and roughly a tenfold rise since 2023, which regulators attribute largely to duplicative or unfunded speculative filings rather than real demand. This is a distinct bottleneck mechanism from the political-opposition moratoria and PJM curtailment-priority rules this pipeline covered in August 2026 -- an administrative queue-integrity problem, not a physical shortage or a community veto. The evidence -- a concrete ~December 2026 audit target, AEP Ohio's tariff already cutting its pipeline by more than half, and Vistra's dedicated Comanche Peak-Amazon supply deal demonstrating real substitutability -- indicates this functions as a temporary, substantially self-correcting Growth Area friction rather than a proven Structural Bottleneck.",
+    "confidence": "medium",
+    "created_at": "2026-09-06",
+    "updated_at": "2026-09-06",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "ERCOT completes its audit substantially on schedule (around December 2026) and clears a large majority of queued projects, resuming Batch Zero processing at or near its pre-freeze pace",
+        "metric": "Share of audited Texas interconnection requests cleared and Batch Zero resumption date",
+        "threshold": "Audit completed within 1-2 months of the ~December 2026 target with resumed processing",
+        "time_window": "Q4 2026 - Q1 2027",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Verified, financed demand within the audited queue turns out to be a large majority of the original 474GW headline figure",
+        "metric": "Disclosed verified vs. total requested capacity",
+        "threshold": "Verified demand exceeds roughly half of headline requested capacity",
+        "time_window": "by audit completion",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Multiple additional major data-center states adopt comparable interconnection-queue freezes or audits",
+        "metric": "Number of states adopting comparable queue-verification measures",
+        "threshold": "2 or more additional major data-center states within 2-3 quarters",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

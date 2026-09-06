@@ -280,5 +280,23 @@
       "Broadcom",
       "TSMC"
     ]
+  },
+  {
+    "slug": "ghost-demand-interconnection-queue-freeze-ai-data-centers",
+    "title": "Ghost Demand: Are State-Level Interconnection Queue Freezes the AI Buildout's New Power Bottleneck?",
+    "last_updated": "2026-09-06",
+    "reports": [
+      "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "regulation",
+      "data-centers"
+    ],
+    "companies": [
+      "Vistra"
+    ]
   }
 ]

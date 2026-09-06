@@ -639,5 +639,50 @@
     "source_to_monitor": "Trade press (Tom's Hardware, SemiAnalysis, The Information)",
     "origin_report": "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "ERCOT/PUCT completion of the governor-directed Texas data-center interconnection audit",
+    "expected_window": "around December 2026",
+    "supports_if": "Audit is delayed well beyond December 2026, or clears only a small share of the queued 474GW as legitimate",
+    "weakens_if": "Audit completes on or near schedule and clears a large majority of projects, with Batch Zero resuming at pre-freeze pace",
+    "source_to_monitor": "ercot.com market notices; PUCT Docket 59220",
+    "origin_report": "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md",
+    "status": "open"
+  },
+  {
+    "event": "ERCOT's Year 1-6 MW interconnection allocation results and final transmission plan",
+    "expected_window": "April 9, 2027 (allocations); fall 2027 (final transmission plan)",
+    "supports_if": "Allocations and transmission plan slip materially past these dates",
+    "weakens_if": "Allocations and transmission plan are delivered on or near schedule, restoring predictable interconnection timelines",
+    "source_to_monitor": "ercot.com market notices",
+    "origin_report": "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md",
+    "status": "open"
+  },
+  {
+    "event": "Additional major data-center states adopting or explicitly declining comparable interconnection-queue verification measures",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Two or more additional major data-center states (e.g., Virginia, Georgia, Arizona) adopt comparable audits or tariffs",
+    "weakens_if": "No other major data-center state follows Texas/Pennsylvania/Ohio's approach, suggesting a narrow, state-specific response",
+    "source_to_monitor": "Utility Dive, Data Center Dynamics, Data Center Frontier",
+    "origin_report": "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md",
+    "status": "open"
+  },
+  {
+    "event": "Disclosure of the verified share of Texas's audited interconnection queue found to be real, financed demand",
+    "expected_window": "with audit completion, ~Q4 2026-Q1 2027",
+    "supports_if": "Verified demand comes in well below half of the 474GW headline figure, confirming the 'ghost demand' framing",
+    "weakens_if": "Verified demand approaches or exceeds half of the headline figure, undercutting the ghost-demand framing",
+    "source_to_monitor": "ERCOT/PUCT public filings; trade press",
+    "origin_report": "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md",
+    "status": "open"
+  },
+  {
+    "event": "Further disclosed behind-the-meter or dedicated-generation deals modeled on Vistra's Comanche Peak-Amazon arrangement",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Few additional such deals are disclosed, suggesting the workaround is not scalable beyond a handful of well-capitalized players",
+    "weakens_if": "Multiple additional dedicated-supply deals are disclosed, confirming substitutability is real and growing",
+    "source_to_monitor": "Company and utility investor relations, trade press",
+    "origin_report": "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md",
+    "status": "open"
   }
 ]
