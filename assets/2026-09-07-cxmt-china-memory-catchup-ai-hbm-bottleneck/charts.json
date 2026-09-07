@@ -1,0 +1,26 @@
+[
+  {
+    "title": "CXMT global DRAM revenue share",
+    "title_zh": "CXMT 全球 DRAM 營收市占率",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "ev-1",
+    "series": [
+      { "label": "Q2 2025", "value": 4 },
+      { "label": "Q2 2026 (Counterpoint, Aug. report)", "value": 7 },
+      { "label": "Q2 2026 (Sept. reporting)", "value": 10 }
+    ]
+  },
+  {
+    "title": "2026 memory supply-demand gap",
+    "title_zh": "2026 年記憶體供需缺口",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "ev-13",
+    "series": [
+      { "label": "DRAM", "value": 4.9 },
+      { "label": "NAND", "value": 4.2 },
+      { "label": "HBM", "value": 5.1 }
+    ]
+  }
+]

@@ -1,5 +1,28 @@
 [
   {
+    "title": "China's Memory Catch-Up: Does CXMT's 10% DRAM Share Undercut the AI HBM Bottleneck?",
+    "date": "2026-09-07",
+    "slug": "cxmt-china-memory-catchup-ai-hbm-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "semiconductors",
+      "ai-infrastructure",
+      "memory",
+      "geopolitics",
+      "trade-policy"
+    ],
+    "companies": [
+      "CXMT",
+      "Samsung Electronics",
+      "SK Hynix"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/cxmt-china-memory-catchup-ai-hbm-bottleneck",
+    "path": "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
+    "one_sentence_conclusion": "CXMT's DRAM gains fill a commodity-memory gap the incumbents created; the HBM4 bottleneck itself looks tighter, not looser."
+  },
+  {
     "title": "Ghost Demand: Are State-Level Interconnection Queue Freezes the AI Buildout's New Power Bottleneck?",
     "date": "2026-09-06",
     "slug": "ghost-demand-interconnection-queue-freeze-ai-data-centers",

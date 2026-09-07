@@ -39,16 +39,18 @@
   {
     "name": "SK Hynix",
     "reports": [
-      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"
+      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
+      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md"
     ],
-    "last_updated": "2026-08-22"
+    "last_updated": "2026-09-07"
   },
   {
     "name": "Samsung Electronics",
     "reports": [
-      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"
+      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
+      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md"
     ],
-    "last_updated": "2026-08-22"
+    "last_updated": "2026-09-07"
   },
   {
     "name": "Micron",
@@ -204,5 +206,12 @@
       "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md"
     ],
     "last_updated": "2026-09-06"
+  },
+  {
+    "name": "CXMT",
+    "reports": [
+      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md"
+    ],
+    "last_updated": "2026-09-07"
   }
 ]

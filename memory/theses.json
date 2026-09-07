@@ -108,9 +108,10 @@
     "statement": "SK Hynix's, Samsung's, and Micron's 2026 results and guidance indicate that High Bandwidth Memory has become the AI accelerator supply chain's most severe and longest-duration structural bottleneck: HBM4 mass production is ramping under long-term agreements, HBM's roughly 3-to-1 wafer-consumption ratio against conventional DRAM is driving a parallel commodity-memory price shock, and SK Hynix's own CEO and controlling shareholder have publicly warned the shortage persists beyond 2030 -- longer than either the CoWoS packaging constraint (now easing) or the ABF-substrate constraint (targeted 2028-2032) this pipeline previously examined. Credible analysts disagree sharply on durability: some argue the shortage already peaked in Q2 2026 and could tip toward oversupply by 2028 as incumbent capacity, plus China's fast-scaling CXMT, lands simultaneously.",
     "confidence": "medium",
     "created_at": "2026-08-22",
-    "updated_at": "2026-08-22",
+    "updated_at": "2026-09-07",
     "supporting_reports": [
-      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"
+      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
+      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md"
     ],
     "kill_conditions": [
       {
@@ -576,6 +577,33 @@
         "threshold": "2 or more additional major data-center states within 2-3 quarters",
         "time_window": "next 2-3 quarters",
         "impact": "invalidate"
+      }
+    ]
+  },
+  {
+    "id": "thesis-cxmt-china-memory-catchup-ai-hbm-bottleneck",
+    "topic": "cxmt-china-memory-catchup-ai-hbm-bottleneck",
+    "statement": "CXMT's global DRAM share reportedly reached ~10% in Q2 2026 (versus ~7% cited by this pipeline's August 22, 2026 report for the same quarter) and it began small-batch, unqualified HBM3E shipments to two domestic Chinese customers in September 2026. This follow-up finds the gains concentrated in commodity DRAM -- a node already classified Neutral because its tightness stems from Samsung's and SK Hynix's own reallocation toward HBM4 -- while CXMT's HBM3E remains unqualified, one generation behind, and on the same ~2027 mass-production timeline already on record, not ahead of it. The HBM4 Structural Bottleneck classification from the August 22 report is reaffirmed and, if anything, strengthened: Samsung's entire 2026 HBM4 capacity is reported sold out and spot HBM prices are running roughly five times contract levels. A new, independent thread -- US revocation of Samsung's and SK Hynix's China Validated End-User status, an annual export-license review, and a reported targeted-tariff threat -- adds a separate supply-elasticity risk to those firms' legacy China-based fabs that could offset rather than reinforce any easing CXMT's rise might otherwise imply.",
+    "confidence": "medium",
+    "created_at": "2026-09-07",
+    "updated_at": "2026-09-07",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "CXMT achieves confirmed qualified, volume HBM3E or HBM4-class production with at least one design win outside mainland China",
+        "metric": "Confirmed non-Chinese customer qualification or design win for CXMT HBM output",
+        "threshold": "At least one disclosed qualification or design win outside China",
+        "time_window": "next 12-18 months",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "BIS tightens or fails to renew the annual export-license review for Samsung's or SK Hynix's China fabs, or the reported tariff threat materializes",
+        "metric": "BIS license-review outcome; confirmed tariff action",
+        "threshold": "Any confirmed license denial, material new restriction, or enacted tariff",
+        "time_window": "by Q1 2027",
+        "impact": "weaken"
       }
     ]
   }

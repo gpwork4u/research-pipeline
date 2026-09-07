@@ -6,6 +6,21 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>China&apos;s Memory Catch-Up: Does CXMT&apos;s 10% DRAM Share Undercut the AI HBM Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/cxmt-china-memory-catchup-ai-hbm-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/cxmt-china-memory-catchup-ai-hbm-bottleneck</guid>
+      <pubDate>Mon, 07 Sep 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <category>memory</category>
+      <category>geopolitics</category>
+      <category>trade-policy</category>
+      <description>CXMT&apos;s DRAM gains fill a commodity-memory gap the incumbents created; the HBM4 bottleneck itself looks tighter, not looser.
+
+Early-September 2026 reporting shows CXMT&apos;s global DRAM share reaching roughly 10% in Q2 2026, versus the 7% this pipeline&apos;s August 22, 2026 report cited for the same quarter, and CXMT beginning small-batch, unconfirmed HBM3E shipments to two domestic Chinese AI-chip customers. This engages but does not satisfy the &quot;weakens_if&quot; branch of this pipeline&apos;s open watchlist item on CXMT: the gains sit in commodity DRAM, a node already classified Neutral, while CXMT&apos;s HBM3E remains unqualified, one generation behind, and on the same 2027 mass-production timeline already on record. Meanwhile Samsung&apos;s 2026 HBM4 capacity is reported sold out and spot HBM prices run roughly five times contract levels -- evidence the core bottleneck has tightened, not eased. A new, independent thread -- US revocation of Samsung&apos;s and SK Hynix&apos;s China Validated End-User status, an annual license review, and a reported tariff threat -- adds separate supply-elasticity risk to those firms&apos; legacy China fabs. The main uncertainty is a raw data discrepancy: two trackers cite 7% and 10% CXMT share for the same quarter, unreconciled in available sources.</description>
+    </item>
+    <item>
       <title>Ghost Demand: Are State-Level Interconnection Queue Freezes the AI Buildout&apos;s New Power Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/ghost-demand-interconnection-queue-freeze-ai-data-centers</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ghost-demand-interconnection-queue-freeze-ai-data-centers</guid>

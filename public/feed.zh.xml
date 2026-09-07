@@ -6,6 +6,21 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>中國記憶體追趕：CXMT DRAM市占達一成，是否削弱了AI的HBM瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/cxmt-china-memory-catchup-ai-hbm-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/cxmt-china-memory-catchup-ai-hbm-bottleneck</guid>
+      <pubDate>Mon, 07 Sep 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <category>memory</category>
+      <category>geopolitics</category>
+      <category>trade-policy</category>
+      <description>CXMT的DRAM成長填補大廠讓出的大宗記憶體缺口；HBM4瓶頸本身看來更緊縮，而非趨緩。
+
+CXMT全球DRAM市占於2026年第二季據報達約10%，高於本管線8月22日報告引用的7%，且已向兩家中國客戶出貨未經證實的小批量HBM3E樣品。此僅觸及、未滿足觀察清單「減弱」分支：成長集中於已歸類中性的大宗DRAM，HBM3E仍未驗證、落後一代，時程與先前2027年量產預期一致。同時三星2026年HBM4產能已售罄，現貨價約合約價五倍——核心瓶頸加劇而非緩解。另一線索：美國撤銷三星、SK海力士中國廠「經驗證最終用戶」資格、改年度審查並釋出關稅威脅，增添其舊製程廠的供給風險。最大不確定性在於7%對10%的數據落差尚無來源調和。</description>
+    </item>
+    <item>
       <title>幽靈需求：各州凍結電網併網申請，是否已成AI電力供給的新瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ghost-demand-interconnection-queue-freeze-ai-data-centers</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ghost-demand-interconnection-queue-freeze-ai-data-centers</guid>

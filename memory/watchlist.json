@@ -152,7 +152,8 @@
     "weakens_if": "CXMT's HBM output scales faster than projected, or trackers show the supply-demand gap narrowing materially ahead of the 2027-2028 window some analysts already flag",
     "source_to_monitor": "TrendForce, Counterpoint Research, and SemiAnalysis published research",
     "origin_report": "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred September 2026: a mixed/partial outcome. CXMT's DRAM share rose to ~10% in Q2 2026 (TrendForce-linked reporting) vs. ~7% (Counterpoint, cited in the origin report) for the same quarter -- the tracked share metric did move, but the two figures are unreconciled. CXMT began small-batch, unqualified HBM3E shipments to two domestic customers (Alibaba's T-Head, Cambricon) in September 2026, consistent with -- not ahead of -- the origin report's already-cited ~2027 mass-production timeline, so the 'scales faster than projected' weakens_if bar was not met. Meanwhile Samsung's 2026 HBM4 capacity is reported sold out and spot HBM prices hit ~5x contract levels, indicating the HBM4 supports_if branch (persistent deficit) also holds. See reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md."
   },
   {
     "event": "Siemens Energy's Q4 FY2026 earnings call",
@@ -683,6 +684,51 @@
     "weakens_if": "Multiple additional dedicated-supply deals are disclosed, confirming substitutability is real and growing",
     "source_to_monitor": "Company and utility investor relations, trade press",
     "origin_report": "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md",
+    "status": "open"
+  },
+  {
+    "event": "Next quarterly DRAM/HBM market-share report reconciling CXMT's 7%-vs-10% Q2 2026 share discrepancy",
+    "expected_window": "around November 2026",
+    "supports_if": "CXMT's share growth decelerates or the discrepancy is reconciled toward the lower (~7%) figure",
+    "weakens_if": "CXMT's share continues rising rapidly and the higher (~10%) figure is confirmed as accurate",
+    "source_to_monitor": "TrendForce and Counterpoint Research published market-share reports",
+    "origin_report": "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Confirmation or denial of CXMT HBM3E qualification progress with Alibaba's T-Head or Cambricon Technologies",
+    "expected_window": "2027",
+    "supports_if": "No qualification or volume order materializes, or either company discloses quality/yield problems",
+    "weakens_if": "Either company confirms qualification and places a volume order, or CXMT ships HBM3E/HBM4-class product outside mainland China",
+    "source_to_monitor": "Alibaba and Cambricon public disclosures; Chinese trade press",
+    "origin_report": "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "CXMT's planned Shanghai STAR Market IPO completion and resulting audited financial disclosure",
+    "expected_window": "Q4 2026 - H1 2027",
+    "supports_if": "The IPO is delayed, downsized, or audited financials show revenue/profit materially below the SemiAnalysis-cited $50 billion FY2026 projection",
+    "weakens_if": "The IPO completes on schedule at or above the planned $4.22 billion raise with financials confirming rapid growth",
+    "source_to_monitor": "Shanghai Stock Exchange STAR Market filings; Chinese financial press",
+    "origin_report": "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Bureau of Industry and Security's next annual export-license review decision for Samsung's and SK Hynix's China fabs, or any confirmed targeted-tariff action",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "The review is renewed with no material new restriction and no tariff materializes",
+    "weakens_if": "The review tightens, is denied, or a tariff is enacted",
+    "source_to_monitor": "Federal Register; US Bureau of Industry and Security public notices",
+    "origin_report": "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Samsung's and SK Hynix's Q3 2026 earnings calls: HBM4 capacity/pricing update and any disclosed China-fab or tariff impact",
+    "expected_window": "around late October 2026",
+    "supports_if": "Both companies reiterate HBM4 capacity sold out for 2026 and report no material China-fab or tariff-related output impact",
+    "weakens_if": "Either company discloses HBM4 demand softening, yield problems, or a quantified China-fab output reduction tied to export-control or tariff constraints",
+    "source_to_monitor": "Samsung Electronics and SK Hynix investor relations",
+    "origin_report": "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
     "status": "open"
   }
 ]

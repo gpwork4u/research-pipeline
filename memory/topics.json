@@ -298,5 +298,26 @@
     "companies": [
       "Vistra"
     ]
+  },
+  {
+    "slug": "cxmt-china-memory-catchup-ai-hbm-bottleneck",
+    "title": "China's Memory Catch-Up: Does CXMT's 10% DRAM Share Undercut the AI HBM Bottleneck?",
+    "last_updated": "2026-09-07",
+    "reports": [
+      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "semiconductors",
+      "ai-infrastructure",
+      "memory",
+      "geopolitics",
+      "trade-policy"
+    ],
+    "companies": [
+      "CXMT",
+      "Samsung Electronics",
+      "SK Hynix"
+    ]
   }
 ]
