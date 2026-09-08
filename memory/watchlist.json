@@ -730,5 +730,50 @@
     "source_to_monitor": "Samsung Electronics and SK Hynix investor relations",
     "origin_report": "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Chemours' and Navin Fluorine's Opteon 2P50 manufacturing ramp progress and any additional customer trial results",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "The manufacturing ramp proceeds on the disclosed 2026 timeline and additional hyperscaler or OEM trials are announced",
+    "weakens_if": "The manufacturing ramp or trials are delayed, scaled back, or discontinued",
+    "source_to_monitor": "Chemours investor relations and press releases (chemours.com)",
+    "origin_report": "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "European Commission decision (or ECHA SEAC final opinion) on the REACH PFAS restriction proposal",
+    "expected_window": "late 2026 - 2027",
+    "supports_if": "SEAC's opinion or the Commission's eventual decision includes a specific exemption or extended timeline for dielectric/electronics-cooling PFAS uses",
+    "weakens_if": "The restriction is adopted with no exemption for cooling-fluid PFAS uses",
+    "source_to_monitor": "echa.europa.eu",
+    "origin_report": "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "EPA's TSCA Section 8(a)(7) PFAS manufacturer reporting submissions (due October 13, 2026) and any further rule revisions",
+    "expected_window": "October 2026 - early 2027",
+    "supports_if": "Reporting proceeds without further material delay and no new EPA action specifically restricts electronics-cooling PFAS/HFO fluids",
+    "weakens_if": "The rule is further delayed, or a subsequent EPA action specifically restricts cooling-fluid PFAS uses",
+    "source_to_monitor": "epa.gov, federalregister.gov",
+    "origin_report": "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next industry tracker report (Dell'Oro Group, Straits Research, or equivalent) on two-phase versus single-phase immersion-cooling market share",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Two-phase share growth decelerates or remains a small single-digit-to-low-double-digit share of total liquid cooling",
+    "weakens_if": "Two-phase share grows rapidly toward or beyond 20% of new liquid-cooling deployments",
+    "source_to_monitor": "Dell'Oro Group and Straits Research published market reports",
+    "origin_report": "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Disclosure of any hyperscaler AI data-center project delay or capacity impact attributed to cooling-fluid supply",
+    "expected_window": "ongoing, next 2-4 quarters",
+    "supports_if": "No such disclosure surfaces",
+    "weakens_if": "A hyperscaler or major AI data-center operator discloses a delay or capacity impact attributed to dielectric cooling-fluid shortage",
+    "source_to_monitor": "Trade press (Data Center Dynamics, Data Center Frontier, The Cooling Report) and hyperscaler investor disclosures",
+    "origin_report": "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md",
+    "status": "open"
   }
 ]

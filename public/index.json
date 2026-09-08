@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Forever-Chemical Cooling Bottleneck: Does 3M's PFAS Exit Threaten AI's Two-Phase Cooling Future?",
+    "date": "2026-09-08",
+    "slug": "pfas-cooling-fluid-ai-data-center-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "data-centers",
+      "materials",
+      "regulation",
+      "thermal-management"
+    ],
+    "companies": [
+      "3M",
+      "Chemours",
+      "Vertiv"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/pfas-cooling-fluid-ai-data-center-bottleneck",
+    "path": "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md",
+    "one_sentence_conclusion": "3M's PFAS exit strained two-phase cooling fluid supply, but the industry is routing around it via single-phase substitution, not yet a binding bottleneck."
+  },
+  {
     "title": "China's Memory Catch-Up: Does CXMT's 10% DRAM Share Undercut the AI HBM Bottleneck?",
     "date": "2026-09-07",
     "slug": "cxmt-china-memory-catchup-ai-hbm-bottleneck",

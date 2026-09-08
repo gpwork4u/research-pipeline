@@ -6,6 +6,21 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Forever-Chemical Cooling Bottleneck: Does 3M&apos;s PFAS Exit Threaten AI&apos;s Two-Phase Cooling Future?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/pfas-cooling-fluid-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/pfas-cooling-fluid-ai-data-center-bottleneck</guid>
+      <pubDate>Tue, 08 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>data-centers</category>
+      <category>materials</category>
+      <category>regulation</category>
+      <category>thermal-management</category>
+      <description>3M&apos;s PFAS exit strained two-phase cooling fluid supply, but the industry is routing around it via single-phase substitution, not yet a binding bottleneck.
+
+3M&apos;s 2022 exit from PFAS manufacturing removed the dominant supplier of Novec and Fluorinert fluids that powered two-phase immersion cooling, with 2026 bringing a cluster of related developments: an EPA reporting-deadline shift, an EU REACH restriction advancing toward a decision, and Chemours signing a manufacturing deal for its HFO successor fluid, Opteon 2P50. Escalating AI chip thermal design power (Nvidia&apos;s Rubin Ultra near 3.6kW) makes efficient cooling more urgent, but single-phase, PFAS-free direct-to-chip cooling already holds the majority of the liquid-cooling market and needs no dielectric fluid at all. Microsoft and Meta are reported to have paused two-phase R&amp;D over the fluid uncertainty -- evidence of substitution, not a binding shortage. The main uncertainty is timing: whether rack densities force broad adoption of two-phase cooling faster than Chemours&apos; replacement fluid can scale to commercial volume.</description>
+    </item>
+    <item>
       <title>China&apos;s Memory Catch-Up: Does CXMT&apos;s 10% DRAM Share Undercut the AI HBM Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/cxmt-china-memory-catchup-ai-hbm-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/cxmt-china-memory-catchup-ai-hbm-bottleneck</guid>

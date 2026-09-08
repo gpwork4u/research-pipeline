@@ -606,5 +606,39 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-pfas-cooling-fluid-ai-data-center-bottleneck",
+    "topic": "pfas-cooling-fluid-ai-data-center-bottleneck",
+    "statement": "3M's 2022 exit from PFAS-based fluorochemical manufacturing, discontinuing the Novec and Fluorinert fluids that underpinned nearly all commercial two-phase immersion cooling, removed the dominant fluid supplier for AI data centers' most thermally efficient cooling technology just as AI accelerator thermal design power escalates toward the multi-kilowatt-per-chip range. Multiple 2026 regulatory developments -- an EPA TSCA PFAS reporting deadline pushed to October 2026, the EU's ECHA advancing a broad REACH PFAS restriction toward a Commission decision, and multibillion-dollar PFAS litigation exposure -- compound the supply-side uncertainty. However, this does not yet meet the strict Structural Bottleneck test: single-phase, PFAS-free direct-to-chip cooling already commands the majority of the liquid-cooling market and needs no dielectric fluid; Microsoft and Meta are reported to have paused two-phase R&D over the fluid uncertainty; and a replacement fluid, Chemours' HFO-based Opteon 2P50, already has a 2026 manufacturing agreement with Navin Fluorine International and is in a full-scale customer trial. This is a genuine but narrow, largely self-resolving constraint the industry is routing around via technology substitution -- one that could become more binding only if rack densities force broad two-phase adoption faster than the replacement-fluid supply chain can scale.",
+    "confidence": "medium",
+    "created_at": "2026-09-08",
+    "updated_at": "2026-09-08",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "A major hyperscaler or AI data-center operator discloses a project delay, cancellation, or capacity shortfall explicitly attributed to two-phase dielectric cooling fluid unavailability",
+        "metric": "Disclosed capacity/delay impact attributed to cooling-fluid supply",
+        "threshold": "At least one confirmed disclosure",
+        "time_window": "next 4-6 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Chemours' Opteon 2P50 manufacturing ramp with Navin Fluorine International slips materially beyond its disclosed 2026 timeline, or the NTT DATA/Hibiya Engineering trial is discontinued",
+        "metric": "Opteon 2P50 commercialization status",
+        "threshold": "Confirmed delay or discontinued trial",
+        "time_window": "next 12 months",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Two-phase immersion cooling's share of new AI data-center liquid-cooling deployments grows materially toward or beyond 20% as rack densities rise past 500kW, despite the fluid-supply uncertainty",
+        "metric": "Two-phase immersion cooling share of new liquid-cooling deployments",
+        "threshold": "Share reaches or exceeds 20% of new deployments",
+        "time_window": "next 2-3 years",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

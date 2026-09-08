@@ -6,6 +6,21 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>永久化學物質的冷卻瓶頸：3M 退出 PFAS 是否威脅 AI 兩相冷卻的未來？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/pfas-cooling-fluid-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/pfas-cooling-fluid-ai-data-center-bottleneck</guid>
+      <pubDate>Tue, 08 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>data-centers</category>
+      <category>materials</category>
+      <category>regulation</category>
+      <category>thermal-management</category>
+      <description>3M 退出 PFAS 使兩相冷卻液供應吃緊,但產業已改用單相方案繞道,尚未構成真正瓶頸。
+
+3M 於 2022 年退出 PFAS 製造,使兩相浸沒式冷卻的主要冷卻液供應商消失;2026 年又添 EPA 申報期限調整、歐盟 REACH 限制案推進、以及 Chemours 為 HFO 替代液 Opteon 2P50 簽署量產協議等發展。AI 晶片熱設計功耗攀升(Rubin Ultra 約 3.6kW)使高效冷卻更迫切,但無需介電液的單相直接晶片冷卻已佔液冷市場多數。微軟與 Meta 據報已暫停兩相研發——顯示的是替代,而非短缺束縛。主要不確定性在於時機:機櫃密度攀升速度是否快過替代液量產爬坡速度。</description>
+    </item>
+    <item>
       <title>中國記憶體追趕：CXMT DRAM市占達一成，是否削弱了AI的HBM瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/cxmt-china-memory-catchup-ai-hbm-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/cxmt-china-memory-catchup-ai-hbm-bottleneck</guid>

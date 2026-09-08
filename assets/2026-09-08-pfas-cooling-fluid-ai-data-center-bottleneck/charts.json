@@ -1,0 +1,35 @@
+[
+  {
+    "title": "AI accelerator chip thermal design power",
+    "title_zh": "AI 加速器晶片熱設計功耗",
+    "type": "bar",
+    "unit": "kW per chip",
+    "source_id": "ev-17",
+    "series": [
+      { "label": "Rubin Ultra GPU", "value": 3.6 },
+      { "label": "Vera Rubin VR200", "value": 5 }
+    ]
+  },
+  {
+    "title": "Global immersion cooling market size",
+    "title_zh": "全球浸沒式冷卻市場規模",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "ev-16",
+    "series": [
+      { "label": "2025", "value": 1.7 },
+      { "label": "2026", "value": 2.1 }
+    ]
+  },
+  {
+    "title": "Vertiv Q2 2026 revenue vs. AI-driven order backlog",
+    "title_zh": "Vertiv 2026年Q2營收與AI驅動積壓訂單",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "ev-18",
+    "series": [
+      { "label": "Q2 2026 revenue", "value": 3.274 },
+      { "label": "Order backlog", "value": 15 }
+    ]
+  }
+]

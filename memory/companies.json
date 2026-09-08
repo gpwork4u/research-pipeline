@@ -213,5 +213,26 @@
       "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md"
     ],
     "last_updated": "2026-09-07"
+  },
+  {
+    "name": "3M",
+    "reports": [
+      "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "name": "Chemours",
+    "reports": [
+      "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md"
+    ],
+    "last_updated": "2026-09-08"
+  },
+  {
+    "name": "Vertiv",
+    "reports": [
+      "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md"
+    ],
+    "last_updated": "2026-09-08"
   }
 ]

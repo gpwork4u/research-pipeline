@@ -319,5 +319,26 @@
       "Samsung Electronics",
       "SK Hynix"
     ]
+  },
+  {
+    "slug": "pfas-cooling-fluid-ai-data-center-bottleneck",
+    "title": "The Forever-Chemical Cooling Bottleneck: Does 3M's PFAS Exit Threaten AI's Two-Phase Cooling Future?",
+    "last_updated": "2026-09-08",
+    "reports": [
+      "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "data-centers",
+      "materials",
+      "regulation",
+      "thermal-management"
+    ],
+    "companies": [
+      "3M",
+      "Chemours",
+      "Vertiv"
+    ]
   }
 ]
