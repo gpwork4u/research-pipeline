@@ -640,5 +640,46 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-asml-euv-lithography-monopoly-ai-bottleneck",
+    "topic": "asml-euv-lithography-monopoly-ai-bottleneck",
+    "statement": "ASML's sole-source monopoly on EUV lithography systems -- 100% EUV share and ~94% overall lithography share, built over roughly 30 years with no competitor ever commercializing a rival system -- meets every criterion of the strictest Structural Bottleneck test (Extreme demand growth, Low supply elasticity, Hard substitutability), making it arguably the most extreme monopoly bottleneck in the AI accelerator supply chain. However, unlike this pipeline's other confirmed Structural Bottlenecks (HBM memory), the evidence indicates this one is currently latent rather than proximate: ASML has grown EUV shipments over 45% year-over-year in 2026 and committed to further 30% capacity increases in both 2027 and 2028, broadly matching disclosed foundry demand, while trade press explicitly names advanced packaging and HBM memory -- not lithography tool availability -- as 2026's acute, binding AI chip supply constraints. September 2026's High-NA EUV commitments from TSMC (2030), Samsung (2028 DRAM) and Intel (already in production) signal rising per-chip lithography-step intensity that could tighten the capacity-to-demand ratio over time, and escalating US pressure on the Netherlands to fully ban ASML's China sales adds a distinct geopolitical variable, but as of this report ASML has out-invested visible demand rather than fallen behind it.",
+    "confidence": "medium",
+    "created_at": "2026-09-09",
+    "updated_at": "2026-09-09",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "A foundry customer (TSMC, Samsung, or Intel Foundry) explicitly attributes an AI chip production shortfall to EUV/High-NA EUV tool unavailability rather than packaging, HBM, power, or labor constraints",
+        "metric": "Primary cited cause of AI chip capacity shortfall in company disclosures",
+        "threshold": "At least one explicit primary-source disclosure naming lithography tool availability as the binding constraint",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "ASML's disclosed backlog or 2027/2028 EUV capacity expansion plans are materially cut back or delayed",
+        "metric": "ASML capacity guidance and backlog disclosures",
+        "threshold": "A confirmed downward revision to the 30%/30% 2027-2028 capacity plan or a backlog decline",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Canon's nanoimprint lithography or China's domestic EUV program achieves a qualified production win at a leading-edge node",
+        "metric": "Qualified production adoption of a non-ASML lithography technology at the leading edge",
+        "threshold": "At least one confirmed qualification/production announcement",
+        "time_window": "next 2-3 years",
+        "impact": "weaken"
+      },
+      {
+        "condition": "The Dutch government enacts a full ban on ASML sales and servicing to China, including DUV tools",
+        "metric": "Scope of Dutch/US export-control decision",
+        "threshold": "Full ban enacted covering DUV sales and servicing",
+        "time_window": "next 2 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

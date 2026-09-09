@@ -196,9 +196,10 @@
   {
     "name": "TSMC",
     "reports": [
-      "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md"
+      "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
+      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md"
     ],
-    "last_updated": "2026-09-05"
+    "last_updated": "2026-09-09"
   },
   {
     "name": "Vistra",
@@ -234,5 +235,19 @@
       "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md"
     ],
     "last_updated": "2026-09-08"
+  },
+  {
+    "name": "ASML",
+    "reports": [
+      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md"
+    ],
+    "last_updated": "2026-09-09"
+  },
+  {
+    "name": "Intel",
+    "reports": [
+      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md"
+    ],
+    "last_updated": "2026-09-09"
   }
 ]

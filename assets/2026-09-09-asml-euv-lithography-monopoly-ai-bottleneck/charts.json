@@ -1,0 +1,24 @@
+[
+  {
+    "title": "TSMC 3nm monthly wafer capacity guidance (end-2026)",
+    "title_zh": "台積電 3 奈米月產能目標（2026 年底）",
+    "type": "bar",
+    "unit": "wafers/month",
+    "source_id": "ev-22",
+    "series": [
+      { "label": "Original guide", "value": 150000 },
+      { "label": "Revised guide", "value": 180000 }
+    ]
+  },
+  {
+    "title": "ASML lithography market share by segment",
+    "title_zh": "ASML 微影設備市場佔有率（依區隔）",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "ev-12",
+    "series": [
+      { "label": "EUV systems", "value": 100 },
+      { "label": "Overall lithography", "value": 94 }
+    ]
+  }
+]

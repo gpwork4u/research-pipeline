@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>ASML 的 EUV 壟斷:AI 建設中最極端的結構性瓶頸,卻尚未真正卡住供應</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/asml-euv-lithography-monopoly-ai-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/asml-euv-lithography-monopoly-ai-bottleneck</guid>
+      <pubDate>Wed, 09 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>geopolitics</category>
+      <description>ASML 的 EUV 壟斷符合最極端瓶頸的技術條件,但真正卡住今日產出的是封裝與記憶體。
+
+ASML 是全球唯一生產 EUV 微影設備的公司,佔有 100% 的 EUV 市場與約 94% 的整體微影市佔——這項壟斷地位歷經約 30 年,至今無人複製。2026 年 9 月的事件確認其核心地位:台積電承諾 2030 年量產採用 High-NA EUV;三星承諾 2028 年於 DRAM 導入 High-NA EUV;英特爾成為首家以 High-NA EUV 大量生產邏輯晶片的公司。ASML 的 EUV 出貨量年增逾 45%,並計劃於 2027-2028 年進一步擴產。然而業界報導稱微影設備「並非主要制約」——真正卡緊 2026 年產出的是封裝與 HBM 記憶體。ASML 依定義是極端的結構性瓶頸,但依現有證據看來目前屬於潛伏型而非直接卡關;晶圓廠是否已存在隱性的 EUV 產能不足,尚未獲得證實。</description>
+    </item>
+    <item>
       <title>永久化學物質的冷卻瓶頸：3M 退出 PFAS 是否威脅 AI 兩相冷卻的未來？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/pfas-cooling-fluid-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/pfas-cooling-fluid-ai-data-center-bottleneck</guid>

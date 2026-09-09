@@ -340,5 +340,25 @@
       "Chemours",
       "Vertiv"
     ]
+  },
+  {
+    "slug": "asml-euv-lithography-monopoly-ai-bottleneck",
+    "title": "ASML's EUV Monopoly: The AI Buildout's Most Extreme Structural Bottleneck That Isn't Binding -- Yet",
+    "last_updated": "2026-09-09",
+    "reports": [
+      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "geopolitics"
+    ],
+    "companies": [
+      "ASML",
+      "TSMC",
+      "Intel"
+    ]
   }
 ]

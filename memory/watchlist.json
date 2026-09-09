@@ -775,5 +775,50 @@
     "source_to_monitor": "Trade press (Data Center Dynamics, Data Center Frontier, The Cooling Report) and hyperscaler investor disclosures",
     "origin_report": "reports/2026/09/2026-09-08-pfas-cooling-fluid-ai-data-center-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "ASML's Q3 2026 earnings call",
+    "expected_window": "mid-October 2026",
+    "supports_if": "Management reiterates the 2027 (+30%) and 2028 (+30%, under review) EUV capacity expansion plans and record backlog, continuing to cite AI as the primary demand driver",
+    "weakens_if": "Management signals a capacity expansion pause, backlog deceleration, or softer AI-driven demand commentary",
+    "source_to_monitor": "ASML investor relations (asml.com/investors)",
+    "origin_report": "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's Q3 2026 earnings call: whether lithography or packaging/HBM is cited as the binding AI chip constraint",
+    "expected_window": "mid-October 2026",
+    "supports_if": "Management continues to cite advanced packaging (CoWoS) and HBM memory, not EUV/lithography tool availability, as the binding constraint on AI chip output",
+    "weakens_if": "Management explicitly cites EUV or High-NA EUV tool availability as a new or emerging binding constraint",
+    "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
+    "origin_report": "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "US-Dutch government decision on expanding ASML's China export restrictions",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "A full ban covering DUV sales and servicing of installed China tools is enacted",
+    "weakens_if": "The proposal is dropped, narrowed, or delayed indefinitely",
+    "source_to_monitor": "Dutch government (rijksoverheid.nl) and trade press (Reuters, Bloomberg, NL Times)",
+    "origin_report": "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "China's SMEE/domestic EUV program's next disclosed milestone",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "Reported light-source power and timeline remain near the ~100-150W, 2030 pre-commercial-prototype level with no material acceleration",
+    "weakens_if": "China discloses light-source power or a qualification milestone materially closing the gap to ASML's ~250W (2017) benchmark ahead of the 2030 timeline",
+    "source_to_monitor": "Trade press (Asia Times, The Diplomat, SemiAnalysis) and Chinese state semiconductor program disclosures",
+    "origin_report": "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's and Samsung's High-NA EUV production-ramp disclosures",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "Both reaffirm or accelerate their disclosed High-NA timelines (TSMC 2030 logic; Samsung 2028 DRAM) with growing installed system counts",
+    "weakens_if": "Either company delays or scales back its High-NA EUV adoption plans",
+    "source_to_monitor": "ASML, TSMC, and Samsung investor relations and press releases",
+    "origin_report": "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
+    "status": "open"
   }
 ]

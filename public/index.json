@@ -1,5 +1,27 @@
 [
   {
+    "title": "ASML's EUV Monopoly: The AI Buildout's Most Extreme Structural Bottleneck That Isn't Binding -- Yet",
+    "date": "2026-09-09",
+    "slug": "asml-euv-lithography-monopoly-ai-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "geopolitics"
+    ],
+    "companies": [
+      "ASML",
+      "TSMC",
+      "Intel"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/asml-euv-lithography-monopoly-ai-bottleneck",
+    "path": "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
+    "one_sentence_conclusion": "ASML's EUV monopoly meets every technical test for the AI chip supply chain's most extreme bottleneck, but packaging and memory, not lithography, are what's actually binding output today."
+  },
+  {
     "title": "The Forever-Chemical Cooling Bottleneck: Does 3M's PFAS Exit Threaten AI's Two-Phase Cooling Future?",
     "date": "2026-09-08",
     "slug": "pfas-cooling-fluid-ai-data-center-bottleneck",

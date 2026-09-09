@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>ASML&apos;s EUV Monopoly: The AI Buildout&apos;s Most Extreme Structural Bottleneck That Isn&apos;t Binding -- Yet</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/asml-euv-lithography-monopoly-ai-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/asml-euv-lithography-monopoly-ai-bottleneck</guid>
+      <pubDate>Wed, 09 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>geopolitics</category>
+      <description>ASML&apos;s EUV monopoly meets every technical test for the AI chip supply chain&apos;s most extreme bottleneck, but packaging and memory, not lithography, are what&apos;s actually binding output today.
+
+ASML is the sole maker of EUV lithography systems, holding 100% of EUV and ~94% of overall lithography share -- a monopoly no competitor has replicated in ~30 years. September 2026 confirmed its centrality: TSMC committed to High-NA EUV for 2030 production, Samsung to High-NA EUV DRAM by 2028, and Intel became first to run High-NA EUV in volume logic. ASML&apos;s EUV shipments are growing over 45% year-over-year with more capacity planned for 2027-2028. Yet trade press calls lithography &quot;not the main constraint&quot; -- packaging and HBM memory bind 2026 output instead. ASML is an extreme Structural Bottleneck by definition, but on the evidence gathered appears latent rather than proximate today; whether foundries hold idle EUV capacity or are already tool-constrained is not confirmed.</description>
+    </item>
+    <item>
       <title>The Forever-Chemical Cooling Bottleneck: Does 3M&apos;s PFAS Exit Threaten AI&apos;s Two-Phase Cooling Future?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/pfas-cooling-fluid-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/pfas-cooling-fluid-ai-data-center-bottleneck</guid>
