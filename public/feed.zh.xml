@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>成熟製程瓶頸:8 吋類比與電源 IC 晶圓廠是否是 AI 建設中被忽視的結構性瓶頸?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/mature-node-power-ic-fab-capacity-ai-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/mature-node-power-ic-fab-capacity-ai-bottleneck</guid>
+      <pubDate>Thu, 10 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>analog-ics</category>
+      <description>製造圍繞每顆 AI 加速器之電源管理晶片的 8 吋成熟製程晶圓廠,其緊俏程度已悄悄追上 HBM 或 CoWoS,卻鮮少受到關注。
+
+2026 年全球 8 吋稼動率已攀升至近 90%,台積電與三星削減舊製程產能、轉向先進製程,而 AI 伺服器對電源管理 IC 的需求持續加速。德儀、onsemi 與格芯第二季各自公布 AI/資料中心營收年增 60% 至逾 100%,遠高於公司整體 6-23% 的成長。世界先進新加坡新廠第一期產能在量產前就已售罄,董事長警告 2027 漲幅將超過 2026 年。電源 IC 難以轉移至先進製程,符合嚴格瓶頸標準。主要不確定性在於中國擴產(約占新投資七成)或需求降溫能否更快緩解此緊縮。</description>
+    </item>
+    <item>
       <title>ASML 的 EUV 壟斷:AI 建設中最極端的結構性瓶頸,卻尚未真正卡住供應</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/asml-euv-lithography-monopoly-ai-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/asml-euv-lithography-monopoly-ai-bottleneck</guid>

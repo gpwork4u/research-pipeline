@@ -820,5 +820,50 @@
     "source_to_monitor": "ASML, TSMC, and Samsung investor relations and press releases",
     "origin_report": "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Texas Instruments' Q3 2026 earnings call",
+    "expected_window": "around late October 2026",
+    "supports_if": "Data-center revenue growth remains at or above the roughly 100% YoY pace reported in Q2 2026 and management reiterates extended power-management lead times",
+    "weakens_if": "Data-center revenue growth decelerates sharply or management reports lead times normalizing",
+    "source_to_monitor": "Texas Instruments investor relations",
+    "origin_report": "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "onsemi's Q3 2026 earnings call",
+    "expected_window": "around late October-early November 2026",
+    "supports_if": "Management reiterates or raises the guided more-than-doubling of 2026 AI data-center revenue and reports continued GaNEXUS design wins",
+    "weakens_if": "Management walks back the doubling guidance or reports AI data-center revenue growth decelerating",
+    "source_to_monitor": "onsemi investor relations (investor.onsemi.com)",
+    "origin_report": "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "GlobalFoundries' Q3 2026 earnings call",
+    "expected_window": "around early November 2026",
+    "supports_if": "Communications infrastructure/data-center segment growth remains at or above the 50-60% FY2026 guidance range",
+    "weakens_if": "Segment growth decelerates materially below guidance",
+    "source_to_monitor": "GlobalFoundries investor relations",
+    "origin_report": "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Vanguard International Semiconductor's Q3 2026 earnings call and Singapore fab progress update",
+    "expected_window": "around late October 2026",
+    "supports_if": "Management reiterates the 2027 wafer-price-increase warning and confirms the Singapore fab remains on schedule for 2027 production start, fully sold out",
+    "weakens_if": "Management reports the Singapore fab timeline slipping or wafer price increases being scaled back",
+    "source_to_monitor": "Vanguard International Semiconductor investor relations (vis.com.tw)",
+    "origin_report": "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TrendForce's next mature-node/8-inch foundry utilization and pricing update",
+    "expected_window": "around Q4 2026",
+    "supports_if": "Utilization remains at or above 85-90% and further price increases are reported or reaffirmed for 2027",
+    "weakens_if": "Utilization falls or forecasted 2027 price increases are revised down or dropped",
+    "source_to_monitor": "TrendForce press center (trendforce.com/presscenter)",
+    "origin_report": "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md",
+    "status": "open"
   }
 ]

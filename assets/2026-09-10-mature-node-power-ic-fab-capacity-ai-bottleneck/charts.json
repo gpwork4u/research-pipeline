@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Top-10 foundry 8-inch utilization rate",
+    "title_zh": "前十大晶圓廠 8 吋稼動率",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "ev-16",
+    "series": [
+      { "label": "2026", "value": 88 },
+      { "label": "2H 2026 (projected)", "value": 90 }
+    ]
+  },
+  {
+    "title": "Global 300mm fab equipment spending",
+    "title_zh": "全球 300 毫米晶圓廠設備支出",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "ev-14",
+    "series": [
+      { "label": "2026", "value": 133 },
+      { "label": "2027 (projected)", "value": 151 }
+    ]
+  }
+]

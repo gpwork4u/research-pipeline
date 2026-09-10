@@ -360,5 +360,26 @@
       "TSMC",
       "Intel"
     ]
+  },
+  {
+    "slug": "mature-node-power-ic-fab-capacity-ai-bottleneck",
+    "title": "The Mature-Node Squeeze: Are 8-Inch Analog and Power-IC Fabs the AI Buildout's Overlooked Structural Bottleneck?",
+    "last_updated": "2026-09-10",
+    "reports": [
+      "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "analog-ics"
+    ],
+    "companies": [
+      "Texas Instruments",
+      "onsemi",
+      "GlobalFoundries",
+      "Vanguard International Semiconductor"
+    ]
   }
 ]

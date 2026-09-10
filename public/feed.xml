@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Mature-Node Squeeze: Are 8-Inch Analog and Power-IC Fabs the AI Buildout&apos;s Overlooked Structural Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/mature-node-power-ic-fab-capacity-ai-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/mature-node-power-ic-fab-capacity-ai-bottleneck</guid>
+      <pubDate>Thu, 10 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>analog-ics</category>
+      <description>8-inch mature-node fabs making the power-management chips around every AI accelerator are quietly as tight as HBM or CoWoS, but draw far less attention.
+
+Global 8-inch foundry utilization has climbed toward 90% in 2026 as TSMC and Samsung cut legacy capacity to redeploy toward advanced nodes, even as AI-server demand for power-management ICs accelerates. Texas Instruments, onsemi and GlobalFoundries each reported 60-100%+ year-over-year growth in AI/data-center-linked revenue in Q2 2026, far outpacing their 6-23% overall growth. Vanguard International Semiconductor&apos;s new Singapore fab sold out its entire first production phase before mass production even begins, and its chairman warned 2027 wafer prices will rise more than 2026&apos;s. Power ICs cannot easily migrate to advanced nodes, meeting this pipeline&apos;s strict bottleneck test. The main uncertainty is whether Chinese mature-node expansion (~70% of new investment) or a cyclical demand cooldown could ease the squeeze faster than incumbents&apos; capacity can.</description>
+    </item>
+    <item>
       <title>ASML&apos;s EUV Monopoly: The AI Buildout&apos;s Most Extreme Structural Bottleneck That Isn&apos;t Binding -- Yet</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/asml-euv-lithography-monopoly-ai-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/asml-euv-lithography-monopoly-ai-bottleneck</guid>

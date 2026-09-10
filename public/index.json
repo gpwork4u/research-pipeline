@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Mature-Node Squeeze: Are 8-Inch Analog and Power-IC Fabs the AI Buildout's Overlooked Structural Bottleneck?",
+    "date": "2026-09-10",
+    "slug": "mature-node-power-ic-fab-capacity-ai-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "analog-ics"
+    ],
+    "companies": [
+      "Texas Instruments",
+      "onsemi",
+      "GlobalFoundries",
+      "Vanguard International Semiconductor"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/mature-node-power-ic-fab-capacity-ai-bottleneck",
+    "path": "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md",
+    "one_sentence_conclusion": "8-inch mature-node fabs making the power-management chips around every AI accelerator are quietly as tight as HBM or CoWoS, but draw far less attention."
+  },
+  {
     "title": "ASML's EUV Monopoly: The AI Buildout's Most Extreme Structural Bottleneck That Isn't Binding -- Yet",
     "date": "2026-09-09",
     "slug": "asml-euv-lithography-monopoly-ai-bottleneck",

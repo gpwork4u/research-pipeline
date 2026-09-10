@@ -681,5 +681,39 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-mature-node-power-ic-fab-capacity-ai-bottleneck",
+    "topic": "mature-node-power-ic-fab-capacity-ai-bottleneck",
+    "statement": "A cluster of 2026 disclosures -- rising global 8-inch foundry utilization (toward 90%), successive rounds of mature-node wafer price increases, and Q2 2026 earnings from Texas Instruments, onsemi, GlobalFoundries and Vanguard International Semiconductor all citing AI-driven demand for power-management ICs, power discretes, and analog/networking chips -- indicate that mature-node (8-inch and legacy 12-inch) foundry capacity has quietly become a genuine Structural Bottleneck on the AI buildout by the strict test (Extreme demand growth, Low supply elasticity, Hard substitutability for power ICs specifically), even though it receives far less market attention than the advanced-node, packaging, and memory layers this pipeline has previously examined. Vanguard's new Singapore fab selling out its entire first production phase before mass production begins is the clearest evidence of tightness. The bottleneck's durability is genuinely contested: nearly 70% of new mature-node capacity investment is concentrated among Chinese foundries rather than incumbents serving non-China AI supply chains, and mature-node shortages have historically proven cyclical (as in 2021-2022) rather than permanent.",
+    "confidence": "medium",
+    "created_at": "2026-09-10",
+    "updated_at": "2026-09-10",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Global 8-inch foundry utilization falls materially from the reported 88-90% range",
+        "metric": "Top-10 foundry 8-inch utilization rate (TrendForce)",
+        "threshold": "Utilization falls below 80% for two consecutive quarters",
+        "time_window": "next 3-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Texas Instruments, onsemi, or GlobalFoundries report AI/data-center-linked revenue growth decelerating sharply",
+        "metric": "Quarter-over-quarter data-center/comms-infrastructure revenue growth at each company",
+        "threshold": "Any of the three reports growth deceleration to below 20% YoY for two consecutive quarters",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Chinese mature-node foundry capacity scales fast enough to supply non-China AI-exposed customers at volume",
+        "metric": "Disclosed qualification of Chinese mature-node foundries by non-China analog/power-IC suppliers",
+        "threshold": "At least one confirmed qualification/design win for global (non-China) AI-server supply chains",
+        "time_window": "next 12-18 months",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

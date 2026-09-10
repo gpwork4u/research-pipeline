@@ -249,5 +249,33 @@
       "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md"
     ],
     "last_updated": "2026-09-09"
+  },
+  {
+    "name": "Texas Instruments",
+    "reports": [
+      "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "name": "onsemi",
+    "reports": [
+      "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "name": "GlobalFoundries",
+    "reports": [
+      "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md"
+    ],
+    "last_updated": "2026-09-10"
+  },
+  {
+    "name": "Vanguard International Semiconductor",
+    "reports": [
+      "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md"
+    ],
+    "last_updated": "2026-09-10"
   }
 ]
