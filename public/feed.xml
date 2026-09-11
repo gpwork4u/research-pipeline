@@ -6,6 +6,21 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Bromine Chokepoint: Did AI&apos;s Memory-Chip Etch-Gas Risk Already Pass?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/bromine-hydrogen-bromide-chip-etching-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/bromine-hydrogen-bromide-chip-etching-bottleneck</guid>
+      <pubDate>Fri, 11 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>materials</category>
+      <category>memory</category>
+      <category>geopolitics</category>
+      <description>South Korea&apos;s 97.5% dependence on Israeli-origin bromine for memory-chip etch gas is a real single point of failure, but 2026&apos;s price spike already reversed without disrupting output.
+
+Bromine, converted into semiconductor-grade hydrogen bromide (HBr), is the etch chemical used to carve transistor structures into every DRAM, NAND and HBM chip -- and South Korea imports roughly 97.5% of its bromine from Israel. A cluster of 2026 trade-press and policy analysis flagged this concentration as a chip-industry risk potentially worse than the helium shortage this pipeline covered in August. But the two largest listed bromine producers, ICL Group and Albemarle, both confirmed in their Q2 2026 earnings calls that prices peaked in April 2026 and have since normalized. No source found shows any actual DRAM, NAND or HBM output impact at Samsung, SK Hynix or Micron -- SK Hynix instead posted record, AI-driven revenue growth of 257% year-over-year. The underlying concentration risk is real and durable, but the 2026 stress test suggests it is not yet a binding constraint on AI memory supply.</description>
+    </item>
+    <item>
       <title>The Mature-Node Squeeze: Are 8-Inch Analog and Power-IC Fabs the AI Buildout&apos;s Overlooked Structural Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/mature-node-power-ic-fab-capacity-ai-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/mature-node-power-ic-fab-capacity-ai-bottleneck</guid>

@@ -865,5 +865,50 @@
     "source_to_monitor": "TrendForce press center (trendforce.com/presscenter)",
     "origin_report": "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "ICL Group's Q3 2026 earnings call",
+    "expected_window": "around November 2026",
+    "supports_if": "Bromine prices remain normalized/moderate and the Industrial Products segment's growth decelerates toward historical levels",
+    "weakens_if": "Bromine prices spike again toward or above the April 2026 peak",
+    "source_to_monitor": "ICL Group investor relations",
+    "origin_report": "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Albemarle's Q3 2026 earnings call",
+    "expected_window": "around November 2026",
+    "supports_if": "Specialties/bromine EBITDA and pricing continue normalizing as guided",
+    "weakens_if": "Management reports a renewed bromine price spike or Middle East-linked supply disruption",
+    "source_to_monitor": "Albemarle investor relations",
+    "origin_report": "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Samsung Electronics' and SK Hynix's Q3 2026 earnings calls: any disclosed bromine/HBr-related input commentary",
+    "expected_window": "around late October 2026",
+    "supports_if": "No disclosed bromine/HBr-related output impact and continued record DRAM/NAND/HBM revenue growth",
+    "weakens_if": "Either company discloses a bromine/HBr-related production constraint or output impact",
+    "source_to_monitor": "Samsung Electronics and SK Hynix investor relations",
+    "origin_report": "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further TrendForce/KITA tracking of Korea's bromine/HBr import diversification",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Korea's import dependency on Israel falls materially below 97.5% via diversified sourcing",
+    "weakens_if": "Dependency remains at or above 95% with no diversification progress",
+    "source_to_monitor": "TrendForce press center; Korea International Trade Association (KITA)",
+    "origin_report": "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Middle East geopolitical developments affecting Israel's Dead Sea bromine operations and export routes",
+    "expected_window": "ongoing, next 2-3 quarters",
+    "supports_if": "No further disruption to Israeli bromine extraction or export infrastructure",
+    "weakens_if": "Renewed conflict disrupts Dead Sea extraction or Mediterranean export routes",
+    "source_to_monitor": "Reuters/Bloomberg Middle East coverage; ICL Group operational disclosures",
+    "origin_report": "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md",
+    "status": "open"
   }
 ]

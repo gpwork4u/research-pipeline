@@ -1,5 +1,27 @@
 [
   {
+    "title": "The Bromine Chokepoint: Did AI's Memory-Chip Etch-Gas Risk Already Pass?",
+    "date": "2026-09-11",
+    "slug": "bromine-hydrogen-bromide-chip-etching-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "materials",
+      "memory",
+      "geopolitics"
+    ],
+    "companies": [
+      "ICL Group",
+      "Albemarle"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/bromine-hydrogen-bromide-chip-etching-bottleneck",
+    "path": "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md",
+    "one_sentence_conclusion": "South Korea's 97.5% dependence on Israeli-origin bromine for memory-chip etch gas is a real single point of failure, but 2026's price spike already reversed without disrupting output."
+  },
+  {
     "title": "The Mature-Node Squeeze: Are 8-Inch Analog and Power-IC Fabs the AI Buildout's Overlooked Structural Bottleneck?",
     "date": "2026-09-10",
     "slug": "mature-node-power-ic-fab-capacity-ai-bottleneck",

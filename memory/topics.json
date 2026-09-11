@@ -381,5 +381,25 @@
       "GlobalFoundries",
       "Vanguard International Semiconductor"
     ]
+  },
+  {
+    "slug": "bromine-hydrogen-bromide-chip-etching-bottleneck",
+    "title": "The Bromine Chokepoint: Did AI's Memory-Chip Etch-Gas Risk Already Pass?",
+    "last_updated": "2026-09-11",
+    "reports": [
+      "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "materials",
+      "memory",
+      "geopolitics"
+    ],
+    "companies": [
+      "ICL Group",
+      "Albemarle"
+    ]
   }
 ]

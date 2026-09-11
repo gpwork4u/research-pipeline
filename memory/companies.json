@@ -277,5 +277,19 @@
       "reports/2026/09/2026-09-10-mature-node-power-ic-fab-capacity-ai-bottleneck.md"
     ],
     "last_updated": "2026-09-10"
+  },
+  {
+    "name": "ICL Group",
+    "reports": [
+      "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md"
+    ],
+    "last_updated": "2026-09-11"
+  },
+  {
+    "name": "Albemarle",
+    "reports": [
+      "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md"
+    ],
+    "last_updated": "2026-09-11"
   }
 ]

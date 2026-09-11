@@ -715,5 +715,46 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-bromine-hydrogen-bromide-chip-etching-bottleneck",
+    "topic": "bromine-hydrogen-bromide-chip-etching-bottleneck",
+    "statement": "South Korea's 97.5% import dependency on Israeli-origin bromine -- the feedstock for the semiconductor-grade hydrogen bromide (HBr) etch gas used to carve every DRAM, NAND and HBM chip, concentrated in a single Dead Sea complex operated by ICL Group -- meets the strict Structural Bottleneck test on the geographic-concentration framing (high and rising electronics-driven demand, low near-term supply elasticity given the single dominant origin, hard substitutability for HBr in memory plasma etch). But 2026 already ran the real-world stress test: a Middle East-tension-driven price spike that peaked above $6,000/tonne in April 2026 has, by both ICL's and Albemarle's own Q2 2026 earnings calls, substantially normalized, and no source confirms any actual DRAM, NAND or HBM output reduction at Samsung, SK Hynix or Micron -- whose Q2 2026 revenue rose a record 257% year-over-year with no disclosed input-availability impact. This is a genuine, extreme concentration risk that has so far proven more resilient than the initial 2026 alarm implied, distinguishing it from this pipeline's confirmed helium and rare-earth bottlenecks where suppliers themselves describe persistent, unresolved tightness.",
+    "confidence": "medium",
+    "created_at": "2026-09-11",
+    "updated_at": "2026-09-11",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Bromine/HBr prices remain durably normalized well below the April 2026 peak with no further spike",
+        "metric": "China/regional spot bromine price",
+        "threshold": "Prices stay below $4,000/tonne for four or more consecutive quarters",
+        "time_window": "next 4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Non-Israeli raw bromine sources (Jordan Bromine Company, Albemarle Arkansas, Chinese Shandong producers) scale and are qualified for Korean/Japanese semiconductor-grade HBr supply chains",
+        "metric": "Disclosed qualification of non-Israeli-origin bromine feedstock by Korean/Japanese HBr converters",
+        "threshold": "At least one confirmed qualification or supply agreement",
+        "time_window": "next 12-18 months",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "A confirmed DRAM, NAND or HBM output disruption is publicly attributed to bromine/HBr shortage",
+        "metric": "Company disclosures (Samsung, SK Hynix, Micron)",
+        "threshold": "At least one confirmed disclosure of an output or shipment impact",
+        "time_window": "next 2-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Middle East tensions re-escalate specifically threatening Israeli Dead Sea bromine extraction or export infrastructure",
+        "metric": "Reported disruption to ICL's Dead Sea (Sodom) operations or Mediterranean export routes",
+        "threshold": "Confirmed production or export disruption",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

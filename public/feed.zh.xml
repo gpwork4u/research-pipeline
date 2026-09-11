@@ -6,6 +6,21 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>溴瓶頸:AI記憶體晶片蝕刻氣體的風險是否已經過去?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/bromine-hydrogen-bromide-chip-etching-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/bromine-hydrogen-bromide-chip-etching-bottleneck</guid>
+      <pubDate>Fri, 11 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>materials</category>
+      <category>memory</category>
+      <category>geopolitics</category>
+      <description>南韓 97.5% 的溴進口依賴以色列,是記憶體晶片蝕刻氣體的真實單點故障風險,但 2026 年的價格飆漲已在未造成產量中斷的情況下回落。
+
+溴轉化成半導體級溴化氫(HBr)後,是每顆 DRAM、NAND 與 HBM 晶片蝕刻電晶體結構所需的化學品——南韓約 97.5% 的溴進口來自以色列。2026 年多篇貿易新聞與政策分析將此集中度列為晶片產業風險,甚至指其可能超過 8 月報導的氦氣短缺。但兩大上市溴生產商 ICL Group 與 Albemarle 均在第二季財報會議證實,價格已於 4 月見頂並回落。無資料顯示三星、SK 海力士或美光的產量受實際影響——SK 海力士反繳出年增 257% 的創紀錄營收。此集中風險真實且持久,但 2026 年的實測顯示尚未構成約束。</description>
+    </item>
+    <item>
       <title>成熟製程瓶頸:8 吋類比與電源 IC 晶圓廠是否是 AI 建設中被忽視的結構性瓶頸?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/mature-node-power-ic-fab-capacity-ai-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/mature-node-power-ic-fab-capacity-ai-bottleneck</guid>
