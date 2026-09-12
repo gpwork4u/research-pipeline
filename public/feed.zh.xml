@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>設備高牆:最長 24 個月的晶圓廠設備交期,是否已成為 AI 的下一個結構性瓶頸?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/wafer-fab-equipment-lead-time-shortage-ai-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/wafer-fab-equipment-lead-time-shortage-ai-bottleneck</guid>
+      <pubDate>Sat, 12 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>geopolitics</category>
+      <description>2026 年的破紀錄訂單將晶片設備交期推至最長 24 個月、中國設備商市佔升至 6.5%,但沒有任何晶圓廠證實產能延遲係設備所致,且一家主要供應商自身交期反而縮短。
+
+應用材料、Lam Research、科磊與東京威力科創 2026 年中均創新高業績,並將 2026 年晶圓廠設備(WFE)支出指引上修至 1,500 億美元區間、2027 年上看 1,900 億美元。集邦科技 8 月 19 日報導,此需求已將沉積、蝕刻與測試設備交期拉長至 24 個月,為中國本土設備商創造機會——其全球 WFE 市佔已由 2021 年 1.2% 升至 2025 年 6.5%。對非中國先進晶圓廠而言,這似乎符合嚴格瓶頸測試:需求極高、短期供給彈性低,出口管制使替代困難。但東京威力科創自身交期反而縮短,四大供應商皆積極擴產,且無來源將台積電、三星、英特爾、美光或 SK 海力士的延遲歸因於設備交付。證據支持真實的產能吃緊,但尚未證明構成具約束力的產出限制。</description>
+    </item>
+    <item>
       <title>溴瓶頸:AI記憶體晶片蝕刻氣體的風險是否已經過去?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/bromine-hydrogen-bromide-chip-etching-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/bromine-hydrogen-bromide-chip-etching-bottleneck</guid>

@@ -756,5 +756,46 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-wafer-fab-equipment-lead-time-shortage-ai-bottleneck",
+    "topic": "wafer-fab-equipment-lead-time-shortage-ai-bottleneck",
+    "statement": "Record 2026 earnings and raised guidance from Applied Materials, Lam Research, KLA and Tokyo Electron -- all citing AI-driven demand pushing calendar-2026 wafer-fab-equipment spending to the low-$150 billion range and 2027 toward $190 billion -- have combined with TrendForce's August 19, 2026 report of deposition/etch/test tool lead times stretching to 24 months to create a rare opening for Chinese domestic toolmakers, whose global WFE share has risen from 1.2% (2021) to 6.5% (2025). For leading-edge, non-Chinese fabs (TSMC, Samsung, Intel, Micron, SK Hynix), this node plausibly meets the strict Structural Bottleneck test: demand is Extreme, supply elasticity is Low given multi-year capacity-expansion timelines at the four dominant Western/Japanese suppliers, and substitutability is Hard because Chinese tools remain unqualified for leading-edge processes and are barred by export control from non-Chinese fabs in any case. But the evidence is mixed: Tokyo Electron's own disclosed lead times actually shortened in 2026, all four major OEMs are expanding capacity aggressively, and no source found ties a specific TSMC, Samsung, Intel, Micron or SK Hynix capacity delay directly to equipment delivery rather than construction or demand planning -- meaning this may be a documented capacity squeeze without yet being a proven binding constraint on AI chip output.",
+    "confidence": "medium",
+    "created_at": "2026-09-12",
+    "updated_at": "2026-09-12",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-12-wafer-fab-equipment-lead-time-shortage-ai-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Major WFE OEM lead times normalize across the board",
+        "metric": "Disclosed order-to-delivery lead times at Applied Materials, Lam Research, KLA and Tokyo Electron",
+        "threshold": "Below 12 months sustained for 2+ consecutive quarters",
+        "time_window": "next 4-6 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Backlog-to-revenue ratio at major WFE OEMs declines materially",
+        "metric": "Reported backlog / deferred revenue",
+        "threshold": "2+ consecutive quarters of decline",
+        "time_window": "next 12 months",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Major fabs proceed on stated 2026-2027 capacity timelines with no equipment-attributed delay disclosed",
+        "metric": "TSMC/Samsung/Intel/Micron/SK Hynix capacity-timeline disclosures",
+        "threshold": "Stated targets met with no equipment-delivery cause cited for any slippage",
+        "time_window": "next 4-6 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Chinese domestic tools achieve confirmed qualification or an order from a non-Chinese fab",
+        "metric": "Disclosed qualification or purchase order outside China",
+        "threshold": "1+ confirmed instance",
+        "time_window": "next 18-24 months",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

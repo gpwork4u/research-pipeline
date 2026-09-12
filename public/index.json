@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Equipment Wall: Are Up-to-24-Month Wafer Fab Equipment Lead Times AI's Next Structural Bottleneck?",
+    "date": "2026-09-12",
+    "slug": "wafer-fab-equipment-lead-time-shortage-ai-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "geopolitics"
+    ],
+    "companies": [
+      "Applied Materials",
+      "Lam Research",
+      "KLA Corporation",
+      "NAURA Technology Group"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/wafer-fab-equipment-lead-time-shortage-ai-bottleneck",
+    "path": "reports/2026/09/2026-09-12-wafer-fab-equipment-lead-time-shortage-ai-bottleneck.md",
+    "one_sentence_conclusion": "Record 2026 orders pushed chip-equipment lead times to as long as 24 months and Chinese toolmakers' share to 6.5%, but no fab has confirmed an equipment-caused delay and one major supplier's own lead times actually shortened."
+  },
+  {
     "title": "The Bromine Chokepoint: Did AI's Memory-Chip Etch-Gas Risk Already Pass?",
     "date": "2026-09-11",
     "slug": "bromine-hydrogen-bromide-chip-etching-bottleneck",

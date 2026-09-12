@@ -401,5 +401,26 @@
       "ICL Group",
       "Albemarle"
     ]
+  },
+  {
+    "slug": "wafer-fab-equipment-lead-time-shortage-ai-bottleneck",
+    "title": "The Equipment Wall: Are Up-to-24-Month Wafer Fab Equipment Lead Times AI's Next Structural Bottleneck?",
+    "last_updated": "2026-09-12",
+    "reports": [
+      "reports/2026/09/2026-09-12-wafer-fab-equipment-lead-time-shortage-ai-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "geopolitics"
+    ],
+    "companies": [
+      "Applied Materials",
+      "Lam Research",
+      "KLA Corporation",
+      "NAURA Technology Group"
+    ]
   }
 ]

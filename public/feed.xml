@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Equipment Wall: Are Up-to-24-Month Wafer Fab Equipment Lead Times AI&apos;s Next Structural Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/wafer-fab-equipment-lead-time-shortage-ai-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/wafer-fab-equipment-lead-time-shortage-ai-bottleneck</guid>
+      <pubDate>Sat, 12 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>geopolitics</category>
+      <description>Record 2026 orders pushed chip-equipment lead times to as long as 24 months and Chinese toolmakers&apos; share to 6.5%, but no fab has confirmed an equipment-caused delay and one major supplier&apos;s own lead times actually shortened.
+
+Applied Materials, Lam Research, KLA and Tokyo Electron all posted record results in mid-2026 and raised calendar-2026 wafer-fab-equipment (WFE) spending guidance to the low-$150 billion range, with 2027 guided toward $190 billion. TrendForce reported August 19, 2026 that this demand has stretched deposition, etch and test tool lead times to as long as 24 months, opening a rare window for Chinese domestic toolmakers, whose global WFE share rose from 1.2% (2021) to 6.5% (2025). For non-Chinese leading-edge fabs, this plausibly meets the strict bottleneck test: extreme demand, low near-term elasticity, and hard substitutability given export-control bans on Chinese tools. But Tokyo Electron&apos;s own lead times shortened in 2026, all four Western/Japanese suppliers are expanding capacity, and no source ties any specific TSMC, Samsung, Intel, Micron or SK Hynix delay to equipment delivery. The evidence supports a genuine capacity squeeze, not yet a proven binding output constraint.</description>
+    </item>
+    <item>
       <title>The Bromine Chokepoint: Did AI&apos;s Memory-Chip Etch-Gas Risk Already Pass?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/bromine-hydrogen-bromide-chip-etching-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/bromine-hydrogen-bromide-chip-etching-bottleneck</guid>

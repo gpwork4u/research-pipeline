@@ -910,5 +910,50 @@
     "source_to_monitor": "Reuters/Bloomberg Middle East coverage; ICL Group operational disclosures",
     "origin_report": "reports/2026/09/2026-09-11-bromine-hydrogen-bromide-chip-etching-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Applied Materials' Q4 FY2026 earnings call",
+    "expected_window": "~mid-November 2026",
+    "supports_if": "Backlog and lead times remain elevated and FY2027 guidance is raised further",
+    "weakens_if": "Backlog growth decelerates or lead times are reported shortening",
+    "source_to_monitor": "Applied Materials investor relations",
+    "origin_report": "reports/2026/09/2026-09-12-wafer-fab-equipment-lead-time-shortage-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Lam Research's Q1 FY2027 earnings call",
+    "expected_window": "~late October 2026",
+    "supports_if": "WFE spending outlook and 'extraordinary' 2027 setup commentary are reiterated or raised",
+    "weakens_if": "Guidance is cut or lead times are reported easing",
+    "source_to_monitor": "Lam Research investor relations",
+    "origin_report": "reports/2026/09/2026-09-12-wafer-fab-equipment-lead-time-shortage-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "KLA's fiscal Q1 2027 earnings call",
+    "expected_window": "~late October 2026",
+    "supports_if": "Backlog remains near or above the guided ~$12.5B level and WFE view is maintained or raised",
+    "weakens_if": "Backlog declines or WFE view is cut",
+    "source_to_monitor": "KLA investor relations",
+    "origin_report": "reports/2026/09/2026-09-12-wafer-fab-equipment-lead-time-shortage-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's, Samsung's, Intel's, Micron's and SK Hynix's Q3 2026 earnings calls",
+    "expected_window": "~mid-to-late October 2026",
+    "supports_if": "Any company explicitly cites equipment delivery as a capacity-timeline risk",
+    "weakens_if": "No equipment-related commentary and capacity plans proceed on schedule",
+    "source_to_monitor": "Respective investor relations pages",
+    "origin_report": "reports/2026/09/2026-09-12-wafer-fab-equipment-lead-time-shortage-ai-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further TrendForce/Tom's Hardware tracking of Chinese toolmaker share gains and WFE lead times",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Chinese domestic share continues rising and lead times stay elevated at Western/Japanese suppliers",
+    "weakens_if": "Lead times normalize broadly or Chinese growth stalls on export-control-driven sub-component constraints",
+    "source_to_monitor": "TrendForce press center; Tom's Hardware",
+    "origin_report": "reports/2026/09/2026-09-12-wafer-fab-equipment-lead-time-shortage-ai-bottleneck.md",
+    "status": "open"
   }
 ]
