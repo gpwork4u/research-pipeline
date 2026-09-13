@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Memory share of standard data-center server bill of materials (midpoint of disclosed range)",
+    "title_zh": "記憶體佔標準資料中心伺服器物料成本比例(揭露區間中位數)",
+    "type": "bar",
+    "unit": "percent (midpoint)",
+    "source_id": "ev-9",
+    "series": [
+      { "label": "~1 year earlier", "value": 32.5 },
+      { "label": "2026", "value": 45 }
+    ]
+  },
+  {
+    "title": "SK Hynix total DRAM wafer capacity, current vs. 2030-2031 target",
+    "title_zh": "SK 海力士 DRAM 晶圓總產能:現況對比 2030-2031 年目標",
+    "type": "bar",
+    "unit": "thousand wafers/month",
+    "source_id": "ev-5",
+    "series": [
+      { "label": "Current (2026)", "value": 550 },
+      { "label": "2030-2031 target", "value": 1000 }
+    ]
+  }
+]

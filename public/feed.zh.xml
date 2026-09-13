@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>DDR5 排擠效應:AI 對 HBM 的爭奪,是否讓傳統記憶體成為 AI 基礎建設的下一個結構性瓶頸?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck</guid>
+      <pubDate>Sun, 13 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>memory</category>
+      <category>regulation</category>
+      <description>AI 對 HBM 的產能爭奪已使 DDR5 價格上漲 485%,並促使美光退出消費型記憶體市場,但一項未決的反托拉斯訴訟指控此稀缺係協同所致,並非純粹結構性因素。
+
+三星、SK 海力士與美光將共用的 DRAM 產能轉向高毛利 HBM,傳統 DDR4/DDR5 價格截至 2026 年 9 月已年增達 485%,預期 2027 年底前無緩解。美光已於 2026 年初退出消費型記憶體,理由是 AI 需求。記憶體現佔標準伺服器物料成本 40-50%,每年增加雲端業者約 1,000 億美元資本支出,聯想等 PC 廠商即便囤貨仍面臨「前所未見」的成本上漲。傳統 DRAM 可能符合嚴格結構性瓶頸測試:需求高、供給彈性低、替代困難。但 2026 年 6 月 25 日的集體訴訟指控三家業者協同限產——若獲證實,將使此現象轉為人為稀缺。</description>
+    </item>
+    <item>
       <title>設備高牆:最長 24 個月的晶圓廠設備交期,是否已成為 AI 的下一個結構性瓶頸?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/wafer-fab-equipment-lead-time-shortage-ai-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/wafer-fab-equipment-lead-time-shortage-ai-bottleneck</guid>

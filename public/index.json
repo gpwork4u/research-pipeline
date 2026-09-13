@@ -1,5 +1,28 @@
 [
   {
+    "title": "The DDR5 Crowd-Out: Is AI's HBM Grab Making Conventional Memory the AI Buildout's Next Structural Bottleneck?",
+    "date": "2026-09-13",
+    "slug": "ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "memory",
+      "regulation"
+    ],
+    "companies": [
+      "Samsung Electronics",
+      "SK Hynix",
+      "Micron Technology",
+      "Lenovo"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck",
+    "path": "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
+    "one_sentence_conclusion": "AI's HBM capacity grab has pushed DDR5 prices up 485% and driven Micron out of consumer memory, but a pending antitrust suit alleges the scarcity is coordinated, not purely structural."
+  },
+  {
     "title": "The Equipment Wall: Are Up-to-24-Month Wafer Fab Equipment Lead Times AI's Next Structural Bottleneck?",
     "date": "2026-09-12",
     "slug": "wafer-fab-equipment-lead-time-shortage-ai-bottleneck",

@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The DDR5 Crowd-Out: Is AI&apos;s HBM Grab Making Conventional Memory the AI Buildout&apos;s Next Structural Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck</guid>
+      <pubDate>Sun, 13 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>memory</category>
+      <category>regulation</category>
+      <description>AI&apos;s HBM capacity grab has pushed DDR5 prices up 485% and driven Micron out of consumer memory, but a pending antitrust suit alleges the scarcity is coordinated, not purely structural.
+
+Samsung, SK Hynix and Micron have redirected shared DRAM capacity toward high-margin HBM, and conventional DDR4/DDR5 prices have spiked as much as 485% YoY by September 2026, with no relief expected before late 2027. Micron exited consumer memory entirely in early 2026, citing AI demand. Memory now costs 40-50% of a standard server&apos;s bill of materials, adding an estimated $100 billion a year to hyperscaler capex, while PC makers like Lenovo absorb &quot;unprecedented&quot; inflation despite large stockpiles. Conventional DRAM plausibly meets the strict Structural Bottleneck test: high demand, low elasticity, hard substitutability. But a June 25, 2026 antitrust suit alleges the three producers coordinated the HBM shift to deliberately restrict conventional output -- a claim that, if proven, reframes this as artificial rather than structural scarcity.</description>
+    </item>
+    <item>
       <title>The Equipment Wall: Are Up-to-24-Month Wafer Fab Equipment Lead Times AI&apos;s Next Structural Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/wafer-fab-equipment-lead-time-shortage-ai-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/wafer-fab-equipment-lead-time-shortage-ai-bottleneck</guid>

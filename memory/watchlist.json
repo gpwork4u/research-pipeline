@@ -955,5 +955,50 @@
     "source_to_monitor": "TrendForce press center; Tom's Hardware",
     "origin_report": "reports/2026/09/2026-09-12-wafer-fab-equipment-lead-time-shortage-ai-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Ruling on motion to dismiss or early discovery in Garciaguirre v. Samsung Electronics (DRAM price-fixing case)",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Case proceeds past motion to dismiss with discovery revealing internal capacity-allocation coordination",
+    "weakens_if": "Case is dismissed or settled without findings of coordinated restriction",
+    "source_to_monitor": "U.S. District Court for the Northern District of California case docket; trade press (Reuters, Tom's Hardware)",
+    "origin_report": "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Samsung's and SK Hynix's Q3 2026 earnings calls: disclosed HBM vs. conventional DRAM capacity split",
+    "expected_window": "around late October 2026",
+    "supports_if": "Both reiterate prioritizing HBM capacity allocation with no disclosed increase in conventional DRAM output share",
+    "weakens_if": "Either discloses a material shift of new capacity back toward conventional DRAM",
+    "source_to_monitor": "Samsung Electronics and SK Hynix investor relations",
+    "origin_report": "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Micron's fiscal Q4 2026 earnings call: commentary on conventional DRAM/DDR5 allocation post-Crucial exit",
+    "expected_window": "late September 2026",
+    "supports_if": "Micron reiterates its post-Crucial-exit strategic pivot with no signal of resuming meaningful conventional consumer DRAM supply",
+    "weakens_if": "Micron signals reversing course on the Crucial exit or expanding conventional DRAM output",
+    "source_to_monitor": "Micron investor relations",
+    "origin_report": "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TrendForce's Q4 2026 DRAM/DDR5 contract price forecast",
+    "expected_window": "around October 2026",
+    "supports_if": "Forecast reiterates or accelerates the reported price trajectory",
+    "weakens_if": "Forecast shows sequential price growth decelerating sharply toward single digits",
+    "source_to_monitor": "TrendForce press center (trendforce.com/presscenter)",
+    "origin_report": "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further disclosed PC/server OEM (Dell, HP) price actions or configuration changes mirroring Lenovo's pattern",
+    "expected_window": "next 1-2 quarters",
+    "supports_if": "Additional OEMs disclose comparable price hikes or base-configuration memory cuts",
+    "weakens_if": "OEMs report memory costs stabilizing with no further price actions needed",
+    "source_to_monitor": "OEM investor relations and trade press (PCWorld, Tom's Hardware)",
+    "origin_report": "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
+    "status": "open"
   }
 ]

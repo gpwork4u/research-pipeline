@@ -40,24 +40,27 @@
     "name": "SK Hynix",
     "reports": [
       "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
-      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md"
+      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
+      "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md"
     ],
-    "last_updated": "2026-09-07"
+    "last_updated": "2026-09-13"
   },
   {
     "name": "Samsung Electronics",
     "reports": [
       "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
-      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md"
+      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
+      "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md"
     ],
-    "last_updated": "2026-09-07"
+    "last_updated": "2026-09-13"
   },
   {
     "name": "Micron",
     "reports": [
-      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md"
+      "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
+      "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md"
     ],
-    "last_updated": "2026-08-22"
+    "last_updated": "2026-09-13"
   },
   {
     "name": "Siemens Energy",
@@ -319,5 +322,12 @@
       "reports/2026/09/2026-09-12-wafer-fab-equipment-lead-time-shortage-ai-bottleneck.md"
     ],
     "last_updated": "2026-09-12"
+  },
+  {
+    "name": "Lenovo",
+    "reports": [
+      "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md"
+    ],
+    "last_updated": "2026-09-13"
   }
 ]

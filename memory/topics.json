@@ -422,5 +422,26 @@
       "KLA Corporation",
       "NAURA Technology Group"
     ]
+  },
+  {
+    "slug": "ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck",
+    "title": "The DDR5 Crowd-Out: Is AI's HBM Grab Making Conventional Memory the AI Buildout's Next Structural Bottleneck?",
+    "last_updated": "2026-09-13",
+    "reports": [
+      "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "memory",
+      "regulation"
+    ],
+    "companies": [
+      "Samsung Electronics",
+      "SK Hynix",
+      "Micron Technology",
+      "Lenovo"
+    ]
   }
 ]

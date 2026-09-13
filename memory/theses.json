@@ -797,5 +797,46 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck",
+    "topic": "ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck",
+    "statement": "Samsung, SK Hynix and Micron have redirected shared DRAM wafer capacity toward higher-margin HBM for AI accelerators, and the resulting crowd-out has pushed conventional DDR4/DDR5 prices up as much as 485% year-over-year by September 2026, driven Micron out of the consumer memory business, and pushed memory to 40-50% of a standard server's bill of materials. For conventional DRAM specifically, this plausibly meets the strict Structural Bottleneck test (demand High, supply elasticity Low, substitutability Hard), but a June 25, 2026 Sherman Act class action (Garciaguirre v. Samsung Electronics) alleges the shortage is a deliberately coordinated restriction rather than a purely structural constraint -- a claim neither proven nor disproven as of the research date, and the central uncertainty this thesis tracks.",
+    "confidence": "medium",
+    "created_at": "2026-09-13",
+    "updated_at": "2026-09-13",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Court finds evidence of coordinated production restriction in the DRAM price-fixing case",
+        "metric": "Garciaguirre v. Samsung Electronics case outcome/discovery findings",
+        "threshold": "Ruling or discovery disclosure confirming coordinated capacity restriction",
+        "time_window": "next 12-18 months",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "New DRAM-specific (non-HBM) fab capacity comes online and conventional DRAM prices normalize",
+        "metric": "TrendForce DDR5/DDR4 contract price index",
+        "threshold": "Sequential price increases fall below 5% QoQ for 2+ consecutive quarters",
+        "time_window": "next 4-6 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Producers disclose a rising share of new wafer capacity allocated to conventional DRAM",
+        "metric": "Disclosed capacity-allocation percentage (Samsung, SK Hynix, Micron)",
+        "threshold": "Any disclosed increase in conventional-DRAM-allocated capacity share",
+        "time_window": "next 2-4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "HBM demand growth decelerates materially, freeing wafer capacity back to conventional DRAM",
+        "metric": "HBM order/backlog growth rate (Samsung, SK Hynix, Micron disclosures)",
+        "threshold": "HBM revenue growth deceleration to low double digits or below QoQ",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]
