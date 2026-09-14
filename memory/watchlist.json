@@ -1000,5 +1000,50 @@
     "source_to_monitor": "OEM investor relations and trade press (PCWorld, Tom's Hardware)",
     "origin_report": "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "SEIA's Energy Storage Market Outlook Q3 2026",
+    "expected_window": "around December 2026",
+    "supports_if": "Data centers continue driving a rising share of C&I storage growth and the 2030 cumulative installation forecast is maintained or raised further",
+    "weakens_if": "Data-center-linked storage growth decelerates sharply or the 2030 forecast is cut",
+    "source_to_monitor": "seia.org research resources",
+    "origin_report": "reports/2026/09/2026-09-14-lithium-battery-storage-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Tesla's Q3 2026 earnings call",
+    "expected_window": "around October 2026",
+    "supports_if": "Energy storage deployment volumes keep growing but gross margin remains depressed or further vendor-quality issues are disclosed",
+    "weakens_if": "Gross margin recovers toward pre-Q2-2026 levels with no further vendor-cell issues disclosed",
+    "source_to_monitor": "Tesla investor relations (ir.tesla.com)",
+    "origin_report": "reports/2026/09/2026-09-14-lithium-battery-storage-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Form Energy's next disclosed commercial-backlog update or Form Factory 1 production-ramp milestone",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Backlog continues growing well beyond 75 GWh and Form Factory 1 ramps on schedule, confirming non-lithium substitution is scaling as claimed",
+    "weakens_if": "Backlog growth stalls or Form Factory 1 ramp is delayed",
+    "source_to_monitor": "Form Energy newsroom (formenergy.com)",
+    "origin_report": "reports/2026/09/2026-09-14-lithium-battery-storage-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Wood Mackenzie's or SMM's next lithium supply-demand balance update",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Deficit projections are reaffirmed or the 2028 deficit-onset timeline is pulled forward",
+    "weakens_if": "Deficit projections narrow materially or are pushed further out",
+    "source_to_monitor": "woodmac.com press releases; news.metal.com (SMM)",
+    "origin_report": "reports/2026/09/2026-09-14-lithium-battery-storage-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "US Treasury/BIS finalization of FEOC eligibility guidance for battery-storage investment tax credits",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "Guidance tightens further, reinforcing the cost/qualification friction on Chinese-origin battery supply",
+    "weakens_if": "Guidance is eased or delayed, reducing the trade-policy-driven cost premium on BESS",
+    "source_to_monitor": "US Treasury and IRS guidance releases; trade press (energy-storage.news)",
+    "origin_report": "reports/2026/09/2026-09-14-lithium-battery-storage-ai-data-center-bottleneck.md",
+    "status": "open"
   }
 ]

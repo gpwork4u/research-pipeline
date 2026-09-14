@@ -6,6 +6,21 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>電池瓶頸來了嗎?鋰供給、AI 資料中心儲能需求與中國關稅壓力</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/lithium-battery-storage-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/lithium-battery-storage-ai-data-center-bottleneck</guid>
+      <pubDate>Mon, 14 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>commodities</category>
+      <category>data-centers</category>
+      <category>trade-policy</category>
+      <description>AI 資料中心正推升美國電池儲能裝置量創新高,但鋰未通過嚴格瓶頸測試:非鋰化學技術與中國產量成長都削弱了稀缺論點。
+
+美國電池儲能裝置量於 2026 年第二季創下 20.2 GWh 紀錄,季增 108%,資料中心已成為商用與工業儲能成長的主要動能。此需求恰逢 2026 年 1 月美國關稅/FEOC 制度將中國電池(佔美國進口量 75%)的有效稅率推升至約 55%,碳酸鋰價格也漲至約每噸 24,000 美元的三倍水準。鋰需求確實極高,新礦供給彈性確實偏低,但替代性僅為中等:Form Energy 的非鋰鐵空氣電池已就相同的 AI 橋接電力用途取得逾 75 GWh 商業合約。2026 年更直接的緊張來源,似乎是貿易政策成本與製造執行風險(如特斯拉自身的毛利率下滑所示),而非純粹的全球鋰供給短缺。</description>
+    </item>
+    <item>
       <title>DDR5 排擠效應:AI 對 HBM 的爭奪,是否讓傳統記憶體成為 AI 基礎建設的下一個結構性瓶頸?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck</guid>

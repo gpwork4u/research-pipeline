@@ -838,5 +838,39 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-lithium-battery-storage-ai-data-center-bottleneck",
+    "topic": "lithium-battery-storage-ai-data-center-bottleneck",
+    "statement": "AI data centers are now a fast-growing driver of US battery storage demand -- SEIA reports a record 20.2 GWh installed in Q2 2026 alone, with data centers driving most of that growth -- arriving as a January 2026 US Section 301/FEOC tariff regime raised effective duties on Chinese-origin batteries (roughly 75% of US lithium-ion imports) to about 55%, and as lithium carbonate spot prices roughly tripled to about $24,000/tonne. Lithium raw-material supply plausibly meets two of the three strict Structural Bottleneck legs -- demand is Extreme and near-term new-mine supply elasticity is Low (10-30 year development timelines) -- but fails the third: non-lithium chemistries, especially Form Energy's iron-air battery (75+ GWh already under commercial agreement for the same long-duration bridge-power role), are commercializing at scale, giving Medium rather than Hard substitutability. The more immediate 2026 friction on US AI-data-center battery supply looks like trade-policy cost and manufacturing execution risk (illustrated by Tesla's own energy-segment margin collapse tied to vendor cell issues) rather than pure global lithium-material scarcity, even as Chinese lithium carbonate output itself keeps growing 7-11% month over month.",
+    "confidence": "medium",
+    "created_at": "2026-09-14",
+    "updated_at": "2026-09-14",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-14-lithium-battery-storage-ai-data-center-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Non-lithium chemistries (iron-air, sodium-ion, flow batteries) grow to a large share of new AI data-center behind-the-meter storage capacity",
+        "metric": "Non-lithium share of newly deployed data-center BTM storage capacity",
+        "threshold": "20% or more of new deployments",
+        "time_window": "next 2-3 years",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Lithium carbonate prices fall back toward pre-2026 levels despite continued AI/BESS demand growth",
+        "metric": "SMM battery-grade lithium carbonate spot price",
+        "threshold": "Sustained decline below $15,000/tonne for 2+ consecutive quarters",
+        "time_window": "next 3-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "US domestic (or FEOC-compliant allied) battery cell/module manufacturing capacity scales to cover a majority of US BESS cell demand",
+        "metric": "Domestic/allied cell capacity as a share of US BESS cell demand",
+        "threshold": "50% or more of US demand covered domestically/by allied suppliers",
+        "time_window": "next 2-3 years",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

@@ -6,6 +6,21 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Battery Bottleneck? Lithium Supply, AI Data-Center Storage Demand, and the China Tariff Squeeze</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/lithium-battery-storage-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/lithium-battery-storage-ai-data-center-bottleneck</guid>
+      <pubDate>Mon, 14 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>commodities</category>
+      <category>data-centers</category>
+      <category>trade-policy</category>
+      <description>AI data centers are pushing US battery storage to record installs, but lithium fails the strict bottleneck test: non-lithium chemistries and Chinese output growth both blunt the case for scarcity.
+
+US battery storage hit a record 20.2 GWh in Q2 2026, up 108% quarter-over-quarter, with data centers now driving most commercial &amp; industrial growth. This collides with a January 2026 US tariff/FEOC regime that pushed effective duties on Chinese batteries (75% of US imports) to about 55%, and lithium carbonate prices tripling to roughly $24,000/tonne. Lithium demand is genuinely Extreme and new-mine supply elasticity genuinely Low, but substitutability is only Medium: Form Energy&apos;s non-lithium iron-air battery already has 75+ GWh under commercial agreement for the same AI bridge-power role. The more immediate 2026 friction looks like trade-policy cost and manufacturing execution risk -- illustrated by Tesla&apos;s own margin collapse -- rather than pure global lithium scarcity.</description>
+    </item>
+    <item>
       <title>The DDR5 Crowd-Out: Is AI&apos;s HBM Grab Making Conventional Memory the AI Buildout&apos;s Next Structural Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck</guid>

@@ -443,5 +443,26 @@
       "Micron Technology",
       "Lenovo"
     ]
+  },
+  {
+    "slug": "lithium-battery-storage-ai-data-center-bottleneck",
+    "title": "The Battery Bottleneck? Lithium Supply, AI Data-Center Storage Demand, and the China Tariff Squeeze",
+    "last_updated": "2026-09-14",
+    "reports": [
+      "reports/2026/09/2026-09-14-lithium-battery-storage-ai-data-center-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "commodities",
+      "data-centers",
+      "trade-policy"
+    ],
+    "companies": [
+      "Tesla",
+      "Form Energy",
+      "CATL"
+    ]
   }
 ]

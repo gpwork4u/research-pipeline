@@ -1,0 +1,24 @@
+[
+  {
+    "title": "US battery storage installed by quarter, 2026",
+    "title_zh": "2026 年美國電池儲能季度裝置量",
+    "type": "bar",
+    "unit": "GWh",
+    "source_id": "ev-1",
+    "series": [
+      { "label": "Q1 2026", "value": 10 },
+      { "label": "Q2 2026", "value": 20.2 }
+    ]
+  },
+  {
+    "title": "Battery-grade lithium carbonate spot price",
+    "title_zh": "電池級碳酸鋰現貨價",
+    "type": "bar",
+    "unit": "USD/tonne",
+    "source_id": "ev-6",
+    "series": [
+      { "label": "May 2025", "value": 8000 },
+      { "label": "Mid-2026", "value": 24086 }
+    ]
+  }
+]

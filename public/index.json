@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Battery Bottleneck? Lithium Supply, AI Data-Center Storage Demand, and the China Tariff Squeeze",
+    "date": "2026-09-14",
+    "slug": "lithium-battery-storage-ai-data-center-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "commodities",
+      "data-centers",
+      "trade-policy"
+    ],
+    "companies": [
+      "Tesla",
+      "Form Energy",
+      "CATL"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/lithium-battery-storage-ai-data-center-bottleneck",
+    "path": "reports/2026/09/2026-09-14-lithium-battery-storage-ai-data-center-bottleneck.md",
+    "one_sentence_conclusion": "AI data centers are pushing US battery storage to record installs, but lithium fails the strict bottleneck test: non-lithium chemistries and Chinese output growth both blunt the case for scarcity."
+  },
+  {
     "title": "The DDR5 Crowd-Out: Is AI's HBM Grab Making Conventional Memory the AI Buildout's Next Structural Bottleneck?",
     "date": "2026-09-13",
     "slug": "ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck",
