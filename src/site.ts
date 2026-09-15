@@ -81,6 +81,7 @@ export const SECTION_LABELS: Record<string, { en: string; zh: string }> = {
   "Kill Conditions": { en: "Kill Conditions", zh: "推翻條件" },
   "30–90 Day Validation": { en: "30–90 Day Validation", zh: "30–90 天驗證" },
   "Final Assessment": { en: "Final Assessment", zh: "總體評估" },
+  "Sub-Questions": { en: "Sub-Questions", zh: "子問題" },
   Sources: { en: "Sources", zh: "資料來源" },
 };
 
@@ -155,6 +156,10 @@ const VERDICT_META: Record<string, { cls: string; icon: string; zh: string }> = 
 const STYLE = `
 :root {
   color-scheme: light dark;
+  /* Instrumentation voice: Latin/digits go mono, Han falls through to the
+     body stack glyph-by-glyph. */
+  --font-meta: ui-monospace, SFMono-Regular, Menlo, "PingFang TC",
+    "Noto Sans TC", sans-serif;
   --bg: #FAF7F2; --bg-stripe: #F3EFE7; --bg-head: #EFEAE0; --border: #E4DDD1;
   --ink: #2A2622; --ink-2: #55504A; --ink-3: #6E675F; --accent: #8C4A1F;
   --viz-surface: #FAF7F2; --viz-series: #2a78d6; --viz-ink: #2A2622;
@@ -181,6 +186,18 @@ p { margin: 0 0 0.75em; }
 a { color: var(--accent); text-decoration: underline;
   text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { text-decoration-thickness: 2px; }
+a:focus-visible, summary:focus-visible, details:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+
+.skip { position: absolute; left: -9999px; font-family: var(--font-meta);
+  font-size: 0.85rem; }
+.skip:focus { left: 1rem; top: 0.5rem; z-index: 10; background: var(--bg);
+  color: var(--ink); padding: 0.5rem 1rem; border: 1px solid var(--accent);
+  border-radius: 6px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}
 
 .topbar { position: sticky; top: 0; z-index: 5; background: var(--bg);
   border-bottom: 1px solid var(--border); }
@@ -213,24 +230,34 @@ main { max-width: 60rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
 
 .toc-inline { margin: 1.5rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
 @media (min-width: 1100px) { .toc-inline { display: none; } }
-.toc-inline a { font-size: 0.82rem; color: var(--ink-2); text-decoration: none;
-  border: 1px solid var(--border); border-radius: 999px; padding: 0.15rem 0.7rem; }
+.toc-inline a { font-family: var(--font-meta);
+  font-size: 0.82rem; color: var(--ink-2); text-decoration: none;
+  border: 1px solid var(--border); border-radius: 999px;
+  padding: 0.55rem 0.85rem; line-height: 1; }
 
 article { min-width: 0; }
-article > * { max-width: 36em; }
+/* Measure applies to prose only — tables, charts and pre opt into 46em below.
+   (Constraining article's direct children would cap those at 36em instead.) */
+article :is(p, ul, ol, blockquote, h1, h2, h3, .metaline, .verdict-card,
+  .notice, .toc-inline, .kicker) { max-width: 36em; }
 .report-title { font-size: 1.728em; line-height: 1.35; margin: 0.5rem 0 0.75rem;
   font-weight: 700; }
-.kicker { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em;
+.kicker { font-family: var(--font-meta); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em;
   color: var(--ink-2); margin: 0 0 0.35rem; font-weight: 600; }
 .metaline { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.75rem 0 1.25rem;
   align-items: center; }
-.badge { display: inline-flex; align-items: center; gap: 0.3rem;
+.badge { font-family: var(--font-meta);
+  display: inline-flex; align-items: center; gap: 0.3rem;
   border: 1px solid var(--border); border-radius: 999px; padding: 0 0.6rem;
   font-size: 0.78rem; color: var(--ink-2); background: var(--bg); }
+.badge.conf-high { border-color: var(--accent); color: var(--accent); }
+.badge.conf-medium { border-style: dashed; }
+.badge.conf-low { border-style: dotted; color: var(--ink-3); }
 .badge.v-build { color: var(--accent); font-weight: 650; }
 .badge.v-validate { font-weight: 650; }
 .badge.v-pause { font-weight: 650; }
 .meta { color: var(--ink-3); font-size: 0.82em; }
+.toc .toc-part { font-family: var(--font-meta); }
 
 .verdict-card { background: var(--bg-stripe); border-left: 3px solid var(--accent);
   border-radius: 0 10px 10px 0; padding: 1.1rem 1.3rem; margin: 1.25rem 0 0; }
@@ -267,7 +294,8 @@ table { border-collapse: collapse; font-size: 0.875em;
 th, td { border: 0; border-bottom: 1px solid var(--border);
   padding: 0.5em 0.75em; text-align: left; vertical-align: top; }
 td { line-height: 1.5; } td:lang(zh) { line-height: 1.6; }
-th { background: var(--bg-head); color: var(--ink-3); font-size: 0.8125em;
+th { font-family: var(--font-meta);
+  background: var(--bg-head); color: var(--ink-3); font-size: 0.8125em;
   font-weight: 600; letter-spacing: 0.03em; }
 table.zebra tbody tr:nth-child(even) { background: var(--bg-stripe); }
 
@@ -280,6 +308,7 @@ figure.chart figcaption { margin-top: 0.4rem; }
 
 details.appendix { margin-top: 4.5rem; border-top: 1px solid var(--border);
   padding-top: 1rem; }
+details.appendix + details.appendix { margin-top: 0; }
 details.appendix summary { cursor: pointer; color: var(--ink-2);
   font-weight: 600; padding: 0.5rem 0; min-height: 44px;
   display: flex; align-items: center; }
@@ -376,13 +405,14 @@ function sitePage(o: PageOpts): string {
 <style>${STYLE}</style>
 </head>
 <body>
+<a class="skip" href="#content">${o.lang === "zh" ? "跳到主要內容" : "Skip to content"}</a>
 <div class="topbar"><div class="inner">
   <a class="brand" href="${homePath}">${esc(siteTitle)}</a>
   <span class="spacer"></span>
   <a href="${feedHref}">${ui.rss}</a>
   <a class="lang" href="${o.rootPrefix}${o.altPath}">${ui.switchLabel}</a>
 </div></div>
-<main>
+<main id="content">
 ${o.body}
 <footer>${esc(ui.footer)} · <a href="https://github.com/gpwork4u/research-pipeline">research-pipeline</a></footer>
 </main>${o.scrollSpy ? SCROLL_SPY : ""}
@@ -476,10 +506,11 @@ export function renderReportPage(
   const conclusion = byKey.get("一句話結論");
 
   // --- hero: title, meta badges, verdict card with standfirst ---
+  const confCls = `conf-${String(meta.confidence).toLowerCase()}`;
   const metaline = [
-    `<span class="badge">${esc(meta.date)}</span>`,
+    `<time class="badge" datetime="${esc(meta.date)}">${esc(meta.date)}</time>`,
     `<span class="badge">${esc(meta.research_type)}</span>`,
-    `<span class="badge">${esc(ui.confidence)}: ${esc(meta.confidence)}</span>`,
+    `<span class="badge ${confCls}">${esc(ui.confidence)}: ${esc(meta.confidence)}</span>`,
     `<span class="badge">${esc(readTimeBadge(minutes, lang))}</span>`,
     ...meta.topics.map((t) => `<span class="badge">${esc(t)}</span>`),
   ].join("");
@@ -553,16 +584,24 @@ ${mdToHtml(s.content, rootPrefix)}
     partsHtml.push(`<div class="part">${items}</div>`);
   }
 
-  // --- appendix: sources collapsed with a counting summary line ---
-  const sources = byKey.get("Sources");
+  // --- appendix: scaffolding + sources, both collapsed ---
+  const subQ = byKey.get("Sub-Questions");
   let appendix = "";
+  if (subQ) {
+    const label = SECTION_LABELS["Sub-Questions"][lang];
+    appendix += `<details class="appendix" id="sub-questions">
+<summary>${esc(ui.appendix)} · ${esc(label)}</summary>
+<div class="meta">${mdToHtml(subQ.content, rootPrefix)}</div>
+</details>`;
+  }
+  const sources = byKey.get("Sources");
   if (sources) {
     const count = (sources.content.match(/^- /gm) ?? []).length;
     const summaryLabel =
       lang === "zh"
         ? `${SECTION_LABELS["Sources"].zh}（${count} 筆）`
         : `${SECTION_LABELS["Sources"].en} (${count})`;
-    appendix = `<details class="appendix" id="sources">
+    appendix += `<details class="appendix" id="sources">
 <summary>${esc(ui.appendix)} · ${esc(summaryLabel)}</summary>
 <div class="meta">${anchorSourceEntries(mdToHtml(sources.content, rootPrefix))}</div>
 </details>`;
@@ -577,7 +616,7 @@ ${mdToHtml(s.content, rootPrefix)}
   const bodyHtml = `
 <div class="layout">
 <article>
-<p class="kicker">${esc(meta.date)}</p>
+<p class="kicker"><time datetime="${esc(meta.date)}">${esc(meta.date)}</time></p>
 <h1 class="report-title">${esc(title)}</h1>
 <div class="metaline">${metaline}</div>
 ${verdictCard}
@@ -586,7 +625,7 @@ ${notice}
 ${linkEvidenceRefs(partsHtml.join("\n"))}
 ${appendix}
 </article>
-<aside class="toc"><div class="toc-part">${ui.contents}</div>${tocGroups.join("")}</aside>
+<nav class="toc" aria-label="${esc(ui.contents)}"><div class="toc-part">${ui.contents}</div>${tocGroups.join("")}</nav>
 </div>`;
 
   const altPath = lang === "zh" ? `reports/${meta.slug}/` : `zh/reports/${meta.slug}/`;
