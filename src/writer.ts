@@ -100,11 +100,11 @@ export function renderReport(research: ResearchData, narrative: Narrative): stri
 
   push(`# 一句話結論\n\n${narrative.one_sentence_conclusion}`);
   push(`# Executive Summary\n\n${narrative.executive_summary}`);
+  // Front sections stay short: the primary question, the trigger and the thesis
+  // only. Sub-questions are working scaffolding — they belong in the appendix,
+  // not in the reader's path (they were the single largest over-budget section).
   push(
     `# Research Question / Why Now\n\n**Primary question:** ${research.questions.primary}\n\n` +
-      ((research.questions.sub ?? []).length
-        ? `**Sub-questions:**\n${(research.questions.sub ?? []).map((q) => `- ${q}`).join("\n")}\n\n`
-        : "") +
       `**Why now:** ${research.topic.trigger ?? "n/a"}\n\n**Thesis:** ${research.thesis}`,
   );
   push(`# Known Facts\n\n${statementLines(research.facts)}`);
@@ -217,6 +217,12 @@ export function renderReport(research: ResearchData, narrative: Narrative): stri
   push(
     `# Final Assessment\n\n**Verdict: ${research.verdict ?? "VALIDATE"}** (confidence: ${research.confidence ?? "medium"})\n\n${narrative.final_assessment}`,
   );
+  if ((research.questions.sub ?? []).length) {
+    push(
+      `# Sub-Questions\n\n` +
+        (research.questions.sub ?? []).map((q) => `- ${q}`).join("\n"),
+    );
+  }
   push(
     `# Sources\n\n` +
       research.sources
