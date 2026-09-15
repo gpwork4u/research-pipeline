@@ -21,6 +21,8 @@ import {
   researchFilePath,
 } from "./researcher.js";
 import { reviewReport } from "./reviewer.js";
+import { checkSectionBudgets } from "./section-budget.js";
+import { canonicalHeadingKey } from "./site.js";
 import { buildRss } from "./rss.js";
 import { selectTopic } from "./topic-selector.js";
 import { translateReport, zhReportPath } from "./translator.js";
@@ -131,6 +133,24 @@ async function main() {
   const narrative = await writeNarrative(llm, research, ROOT_DIR);
   const reportMd = renderReport(research, narrative);
 
+  // Stage: Length Budget — a hard gate, like the reviewer. Over-budget prose
+  // is the failure mode this pipeline is most prone to, so it is checked
+  // before spending a review call.
+  const budgetIssues = checkSectionBudgets(
+    reportMd.replace(/^---\n[\s\S]*?\n---\n/, ""),
+    "en",
+    canonicalHeadingKey,
+  );
+  if (budgetIssues.length) {
+    for (const v of budgetIssues) {
+      log(`  over budget: ${v.section} — ${v.actual} ${v.unit} (cap ${v.cap})`);
+    }
+    log("length budget FAILED — not publishing (see AGENTS.md budgets)");
+    process.exitCode = 1;
+    return;
+  }
+  log("length budget: OK");
+
   // Stage: Review Report — FAIL is never published.
   const review = await reviewReport(llm, reportMd, research, ROOT_DIR);
   log(`review status: ${review.status} (${review.issues.length} issues)`);
@@ -157,6 +177,16 @@ async function main() {
     const zhFile = zhReportPath(reportFile);
     fs.writeFileSync(zhFile, zhMarkdown);
     log(`zh report written: ${path.relative(ROOT_DIR, zhFile)}`);
+    // zh is a faithful translation of an in-budget English report, so an
+    // overage here means the translation inflated — warn, matching the
+    // non-fatal stance on translation itself.
+    for (const v of checkSectionBudgets(
+      zhMarkdown.replace(/^---\n[\s\S]*?\n---\n/, ""),
+      "zh",
+      canonicalHeadingKey,
+    )) {
+      log(`  zh over budget: ${v.section} — ${v.actual} ${v.unit} (cap ${v.cap})`);
+    }
   } catch (err) {
     log(`zh translation failed (non-fatal): ${(err as Error).message}`);
   }

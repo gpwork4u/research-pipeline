@@ -81,3 +81,16 @@ jobs:
             ARGS="--topic \"${{ inputs.topic }}\""
           fi
           eval npm run daily -- $ARGS
+
+      # Second line of defence: the pipeline gates the English report before
+      # review, but this also covers the translated edition and any report
+      # amended by hand.
+      - name: Verify report length budgets
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD -- 'reports/**/*.md' || true)
+          if [ -z "$CHANGED" ]; then
+            echo "no report committed this run — nothing to lint"
+            exit 0
+          fi
+          echo "$CHANGED"
+          npm run lint:report -- $CHANGED
