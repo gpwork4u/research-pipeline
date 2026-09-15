@@ -193,15 +193,15 @@ a:hover { text-decoration-thickness: 2px; }
   padding: 0.05rem 0.75rem; font-size: 0.85rem; color: var(--ink-2); }
 .topbar a[href$="feed.xml"] { color: var(--ink-2); font-size: 0.85rem; }
 
-main { max-width: 60rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+main { max-width: 68rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
 .layout { display: block; }
+.toc { display: none; font-size: 0.85rem; line-height: 1.5; }
 @media (min-width: 1100px) {
-  .layout { display: grid; grid-template-columns: minmax(0, 38em) 15rem;
-    gap: 3.5rem; align-items: start; }
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 13rem;
+    gap: 2.5rem; align-items: start; }
   .toc { position: sticky; top: 3.5rem; max-height: calc(100vh - 5rem);
     overflow-y: auto; display: block; }
 }
-.toc { display: none; font-size: 0.85rem; line-height: 1.5; }
 .toc .toc-part { margin: 1.1rem 0 0.3rem; font-size: 0.72rem;
   text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-3); }
 .toc ol { list-style: none; margin: 0; padding: 0; }
@@ -217,7 +217,10 @@ main { max-width: 60rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
   border: 1px solid var(--border); border-radius: 999px; padding: 0.15rem 0.7rem; }
 
 article { min-width: 0; }
-article > * { max-width: 36em; }
+/* Prose reads best at a ~36em measure; tables/figures/pre keep their own
+   wider caps (56em) and are never constrained by this, however deep they're
+   nested inside a .part/section wrapper. */
+article p, article li, article blockquote, .standfirst, .verdict-card { max-width: 36em; }
 .report-title { font-size: 1.728em; line-height: 1.35; margin: 0.5rem 0 0.75rem;
   font-weight: 700; }
 .kicker { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em;
@@ -257,15 +260,15 @@ li { margin: 0.3em 0; }
 code { background: var(--bg-stripe); border: 1px solid var(--border);
   border-radius: 4px; padding: 0.05em 0.3em; font-size: 0.85em; }
 pre { background: var(--bg-stripe); border: 1px solid var(--border);
-  border-radius: 8px; padding: 0.8rem; overflow-x: auto; max-width: 46em; }
+  border-radius: 8px; padding: 0.8rem; overflow-x: auto; max-width: 56em; }
 pre code { border: 0; background: none; }
 hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
 
-.tablewrap { max-width: 46em; overflow-x: auto; margin: 0 0 1.25em; }
-table { border-collapse: collapse; font-size: 0.875em;
+.tablewrap { max-width: 56em; overflow-x: auto; margin: 0 0 1.25em; }
+table { border-collapse: collapse; font-size: 0.875em; width: 100%;
   font-variant-numeric: tabular-nums; }
 th, td { border: 0; border-bottom: 1px solid var(--border);
-  padding: 0.5em 0.75em; text-align: left; vertical-align: top; }
+  padding: 0.5em 0.7em; text-align: left; vertical-align: top; }
 td { line-height: 1.5; } td:lang(zh) { line-height: 1.6; }
 th { background: var(--bg-head); color: var(--ink-3); font-size: 0.8125em;
   font-weight: 600; letter-spacing: 0.03em; }
@@ -273,7 +276,7 @@ table.zebra tbody tr:nth-child(even) { background: var(--bg-stripe); }
 
 figure.chart { margin: 1.4rem 0; background: var(--viz-surface);
   border: 1px solid var(--border); border-radius: 10px; padding: 1rem;
-  max-width: 46em; }
+  max-width: 56em; }
 figure.chart h3 { margin: 0 0 0.5rem; font-size: 0.95em; }
 figure.chart svg { width: 100%; height: auto; display: block; }
 figure.chart figcaption { margin-top: 0.4rem; }
@@ -512,11 +515,12 @@ export function renderReportPage(
       secId++;
       const id = `sec-${secId}`;
       const label = SECTION_LABELS[key][lang];
-      const secKicker =
-        part.num === null ? partLabel : `${part.num}.${secNo} · ${partLabel}`;
+      // Skip the section-level kicker when it would just repeat the part-head
+      // kicker directly above it (the unnumbered Overview part).
+      const secKicker = part.num === null ? null : `${part.num}.${secNo} · ${partLabel}`;
       tocItems.push(`<li><a href="#${id}">${esc(label)}</a></li>`);
       sectionHtml.push(`<section class="sec" id="${id}">
-<p class="kicker">${esc(secKicker)}</p>
+${secKicker ? `<p class="kicker">${esc(secKicker)}</p>` : ""}
 <h2>${esc(label)}</h2>
 ${mdToHtml(sec.content, rootPrefix)}
 </section>`);
@@ -524,7 +528,6 @@ ${mdToHtml(sec.content, rootPrefix)}
       if (key === "Executive Summary" && charts.length) {
         secId++;
         sectionHtml.push(`<section class="sec" id="charts">
-<p class="kicker">${esc(partLabel)}</p>
 <h2>${ui.charts}</h2>
 ${charts.map((c) => renderChartSvg(c, lang)).join("\n")}
 </section>`);
