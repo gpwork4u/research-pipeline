@@ -350,5 +350,33 @@
       "reports/2026/09/2026-09-14-lithium-battery-storage-ai-data-center-bottleneck.md"
     ],
     "last_updated": "2026-09-14"
+  },
+  {
+    "name": "Centrus Energy",
+    "reports": [
+      "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md"
+    ],
+    "last_updated": "2026-09-15"
+  },
+  {
+    "name": "Oklo",
+    "reports": [
+      "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md"
+    ],
+    "last_updated": "2026-09-15"
+  },
+  {
+    "name": "General Matter",
+    "reports": [
+      "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md"
+    ],
+    "last_updated": "2026-09-15"
+  },
+  {
+    "name": "TerraPower",
+    "reports": [
+      "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md"
+    ],
+    "last_updated": "2026-09-15"
   }
 ]

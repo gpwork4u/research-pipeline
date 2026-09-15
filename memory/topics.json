@@ -464,5 +464,27 @@
       "Form Energy",
       "CATL"
     ]
+  },
+  {
+    "slug": "haleu-nuclear-fuel-ai-data-center-power-bottleneck",
+    "title": "The HALEU Gap: Is a Nuclear-Fuel Enrichment Bottleneck the Sleeper Constraint on AI's Advanced-Reactor Power Bet?",
+    "last_updated": "2026-09-15",
+    "reports": [
+      "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "nuclear",
+      "data-centers",
+      "regulation"
+    ],
+    "companies": [
+      "Centrus Energy",
+      "Oklo",
+      "General Matter",
+      "TerraPower"
+    ]
   }
 ]

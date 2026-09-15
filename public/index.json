@@ -1,5 +1,27 @@
 [
   {
+    "title": "The HALEU Gap: Is a Nuclear-Fuel Enrichment Bottleneck the Sleeper Constraint on AI's Advanced-Reactor Power Bet?",
+    "date": "2026-09-15",
+    "slug": "haleu-nuclear-fuel-ai-data-center-power-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "nuclear",
+      "data-centers",
+      "regulation"
+    ],
+    "companies": [
+      "Centrus Energy",
+      "Oklo"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/haleu-nuclear-fuel-ai-data-center-power-bottleneck",
+    "path": "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md",
+    "one_sentence_conclusion": "HALEU nuclear fuel is a genuine enrichment-layer bottleneck, but it gates AI's 2028-2035 advanced-reactor bet, not power under construction today."
+  },
+  {
     "title": "The Battery Bottleneck? Lithium Supply, AI Data-Center Storage Demand, and the China Tariff Squeeze",
     "date": "2026-09-14",
     "slug": "lithium-battery-storage-ai-data-center-bottleneck",

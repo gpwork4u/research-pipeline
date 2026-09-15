@@ -1045,5 +1045,50 @@
     "source_to_monitor": "US Treasury and IRS guidance releases; trade press (energy-storage.news)",
     "origin_report": "reports/2026/09/2026-09-14-lithium-battery-storage-ai-data-center-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Centrus Energy's next earnings update on its 12 metric-ton/year HALEU capacity build-out",
+    "expected_window": "around November 2026",
+    "supports_if": "Centrus reiterates the ~2029 timeline for new capacity and confirms continued Radiant/DOE contract execution",
+    "weakens_if": "Centrus reports delays to the 2029 target or funding/contract disruption",
+    "source_to_monitor": "Centrus Energy investor relations (centrusenergy.com)",
+    "origin_report": "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "General Matter's Paducah, Kentucky facility construction milestones and any disclosure of its enrichment technology",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "Construction proceeds on schedule and the company discloses a credible, licensable enrichment technology",
+    "weakens_if": "Construction stalls, DOE funding is reduced, or the company fails to disclose a viable technology",
+    "source_to_monitor": "General Matter public statements; NRC licensing dockets",
+    "origin_report": "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TerraPower's Kemmerer 1 Natrium construction progress and any further HALEU-related schedule commentary",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "TerraPower confirms the 2031 target and reports HALEU fuel deliveries proceeding under its long-term supply agreement",
+    "weakens_if": "TerraPower discloses a further schedule slip citing HALEU fuel-supply delay",
+    "source_to_monitor": "TerraPower public statements; World Nuclear News",
+    "origin_report": "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Any hyperscaler (Meta, Google, Amazon) disclosure on its advanced-reactor project timeline or fuel-supply confidence",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Hyperscalers reaffirm reactor timelines with no disclosed HALEU-related concern",
+    "weakens_if": "A hyperscaler discloses a reactor project delay or scale-back citing fuel-supply uncertainty",
+    "source_to_monitor": "Meta, Google, and Amazon investor/sustainability disclosures",
+    "origin_report": "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next DOE HALEU Availability Program allocation round or updated 2030 demand-supply balance publication",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "DOE or NEI publish a reconciled demand forecast and confirm allocations keeping pace with the 21-metric-ton NDAA benchmark and beyond",
+    "weakens_if": "DOE reports allocations falling behind the NDAA benchmark or demand forecasts widen further",
+    "source_to_monitor": "US Department of Energy (energy.gov); Nuclear Energy Institute",
+    "origin_report": "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md",
+    "status": "open"
   }
 ]

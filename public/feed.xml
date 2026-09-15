@@ -6,6 +6,21 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The HALEU Gap: Is a Nuclear-Fuel Enrichment Bottleneck the Sleeper Constraint on AI&apos;s Advanced-Reactor Power Bet?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/haleu-nuclear-fuel-ai-data-center-power-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/haleu-nuclear-fuel-ai-data-center-power-bottleneck</guid>
+      <pubDate>Tue, 15 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>nuclear</category>
+      <category>data-centers</category>
+      <category>regulation</category>
+      <description>HALEU nuclear fuel is a genuine enrichment-layer bottleneck, but it gates AI&apos;s 2028-2035 advanced-reactor bet, not power under construction today.
+
+Meta, Google, Amazon and Microsoft have together signed more nuclear power for AI data centers in 18 months than the US signed in the prior twenty years. Much of it -- Oklo&apos;s Aurora, TerraPower&apos;s Natrium, X-energy&apos;s Xe-100, Kairos&apos;s KP-FHR -- requires HALEU, a fuel enriched 5-20% that only one small US cascade (Centrus Energy) currently produces commercially, after a 2024 law banned the historically dominant Russian supplier. TerraPower&apos;s Natrium has already slipped from a 2028 to a 2031 target partly because of HALEU unavailability. Yet the AI buildout&apos;s actual nearest-term nuclear additions -- Constellation&apos;s Three Mile Island restart for Microsoft and Vistra&apos;s existing plants for Meta -- run on conventional fuel untouched by the shortage. A $2.7 billion DOE program and three separate enrichment build-outs (Centrus, General Matter, Urenco) are racing to close the gap on roughly the same timeline the advanced reactors need fuel.</description>
+    </item>
+    <item>
       <title>The Battery Bottleneck? Lithium Supply, AI Data-Center Storage Demand, and the China Tariff Squeeze</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/lithium-battery-storage-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/lithium-battery-storage-ai-data-center-bottleneck</guid>

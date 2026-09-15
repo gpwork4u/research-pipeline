@@ -6,6 +6,21 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>HALEU 缺口：核燃料濃縮瓶頸,是否正悄悄制約 AI 的先進反應爐電力賭注？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/haleu-nuclear-fuel-ai-data-center-power-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/haleu-nuclear-fuel-ai-data-center-power-bottleneck</guid>
+      <pubDate>Tue, 15 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>nuclear</category>
+      <category>data-centers</category>
+      <category>regulation</category>
+      <description>HALEU 核燃料確實是濃縮層的結構性瓶頸,但它制約的是 2028-2035 年的先進反應爐賭注,而非目前在建的電力。
+
+Meta, Google, Amazon and Microsoft have together signed more nuclear power for AI data centers in 18 months than the US signed in the prior twenty years. Much of it -- Oklo&apos;s Aurora, TerraPower&apos;s Natrium, X-energy&apos;s Xe-100, Kairos&apos;s KP-FHR -- requires HALEU, a fuel enriched 5-20% that only one small US cascade (Centrus Energy) currently produces commercially, after a 2024 law banned the historically dominant Russian supplier. TerraPower&apos;s Natrium has already slipped from a 2028 to a 2031 target partly because of HALEU unavailability. Yet the AI buildout&apos;s actual nearest-term nuclear additions -- Constellation&apos;s Three Mile Island restart for Microsoft and Vistra&apos;s existing plants for Meta -- run on conventional fuel untouched by the shortage. A $2.7 billion DOE program and three separate enrichment build-outs (Centrus, General Matter, Urenco) are racing to close the gap on roughly the same timeline the advanced reactors need fuel.</description>
+    </item>
+    <item>
       <title>電池瓶頸來了嗎?鋰供給、AI 資料中心儲能需求與中國關稅壓力</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/lithium-battery-storage-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/lithium-battery-storage-ai-data-center-bottleneck</guid>
