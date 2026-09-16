@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>燃氣渦輪之牆:多年期訂單是否已讓發電設備成為 AI 最難突破的結構性瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/gas-turbine-shortage-ai-data-center-power-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/gas-turbine-shortage-ai-data-center-power-bottleneck</guid>
+      <pubDate>Wed, 16 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>power-generation</category>
+      <category>data-centers</category>
+      <description>燃氣渦輪製造確實是 AI 電力的結構性瓶頸,但 GE Vernova 執行長指出,許可審批與工程時程往往才是真正卡關之處。
+
+All four major heavy-duty gas turbine makers -- GE Vernova, Siemens Energy, Mitsubishi Heavy Industries, Baker Hughes -- reported record, AI-data-center-cited order backlogs within a six-week window in mid-2026. GE Vernova&apos;s combined backlog and slot reservations hit 116 GW; Siemens Energy&apos;s firm backlog reached 69 GW with lead times of three-plus years; Mitsubishi&apos;s large-frame backlog reached 35 GW; Baker Hughes posted a record $37.1 billion industrial backlog. Wood Mackenzie estimates global manufacturing capacity at only 60-70 GW/year against roughly 110 GW of orders, projecting turbine prices to rise 195% by 2027. Behind-the-meter fuel cells (Bloom Energy) are scaling fast but remain roughly two orders of magnitude smaller than the OEMs&apos; combined backlog. GE Vernova&apos;s own CEO argues turbines are frequently &quot;not the gating item&quot; once permitting and construction timelines are considered -- a genuine counterpoint even as turbine scarcity itself is real and priced into the market.</description>
+    </item>
+    <item>
       <title>HALEU 缺口：核燃料濃縮瓶頸,是否正悄悄制約 AI 的先進反應爐電力賭注？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/haleu-nuclear-fuel-ai-data-center-power-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/haleu-nuclear-fuel-ai-data-center-power-bottleneck</guid>

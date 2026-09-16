@@ -1090,5 +1090,50 @@
     "source_to_monitor": "US Department of Energy (energy.gov); Nuclear Energy Institute",
     "origin_report": "reports/2026/09/2026-09-15-haleu-nuclear-fuel-ai-data-center-power-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "GE Vernova's Q3 2026 earnings call",
+    "expected_window": "around late October 2026",
+    "supports_if": "Combined gas power backlog continues growing and management reiterates the 20-30 GW/year production capacity path",
+    "weakens_if": "Backlog growth stalls, the firm-vs-reservation split deteriorates, or management signals eased lead times",
+    "source_to_monitor": "GE Vernova investor relations (gevernova.com/investors)",
+    "origin_report": "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Siemens Energy's Q4 FY2026 earnings call",
+    "expected_window": "around mid-November 2026",
+    "supports_if": "Gas turbine backlog and lead times remain at or above current levels with continued production-capacity expansion",
+    "weakens_if": "Lead times shorten materially or order growth decelerates",
+    "source_to_monitor": "Siemens Energy investor relations (siemens-energy.com)",
+    "origin_report": "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Mitsubishi Heavy Industries' Q2 FY2026 results",
+    "expected_window": "around early November 2026",
+    "supports_if": "Large-frame gas turbine backlog continues growing beyond 35 GW",
+    "weakens_if": "Backlog growth flattens or order intake guidance is cut",
+    "source_to_monitor": "Mitsubishi Heavy Industries investor relations (mhi.com/finance)",
+    "origin_report": "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Baker Hughes' Q3 2026 earnings call",
+    "expected_window": "around late October 2026",
+    "supports_if": "IET backlog and data-center Power Systems orders continue at or above the pace set in H1 2026",
+    "weakens_if": "Data-center order pace slows materially",
+    "source_to_monitor": "Baker Hughes investor relations (investors.bakerhughes.com)",
+    "origin_report": "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Wood Mackenzie's next gas turbine market/capacity update",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "The estimated gap between order volume and manufacturing capacity persists or widens",
+    "weakens_if": "Wood Mackenzie revises the capacity estimate upward enough to materially narrow the gap",
+    "source_to_monitor": "Wood Mackenzie (woodmac.com)",
+    "origin_report": "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md",
+    "status": "open"
   }
 ]

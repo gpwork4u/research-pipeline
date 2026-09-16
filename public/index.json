@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Gas Turbine Wall: Have Multi-Year Order Books Made Power Generation AI's Hardest Structural Bottleneck?",
+    "date": "2026-09-16",
+    "slug": "gas-turbine-shortage-ai-data-center-power-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "power-generation",
+      "data-centers"
+    ],
+    "companies": [
+      "GE Vernova",
+      "Siemens Energy",
+      "Mitsubishi Heavy Industries",
+      "Baker Hughes"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/gas-turbine-shortage-ai-data-center-power-bottleneck",
+    "path": "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The HALEU Gap: Is a Nuclear-Fuel Enrichment Bottleneck the Sleeper Constraint on AI's Advanced-Reactor Power Bet?",
     "date": "2026-09-15",
     "slug": "haleu-nuclear-fuel-ai-data-center-power-bottleneck",

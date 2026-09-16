@@ -486,5 +486,27 @@
       "General Matter",
       "TerraPower"
     ]
+  },
+  {
+    "slug": "gas-turbine-shortage-ai-data-center-power-bottleneck",
+    "title": "The Gas Turbine Wall: Have Multi-Year Order Books Made Power Generation AI's Hardest Structural Bottleneck?",
+    "last_updated": "2026-09-16",
+    "reports": [
+      "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "power-generation",
+      "data-centers"
+    ],
+    "companies": [
+      "GE Vernova",
+      "Siemens Energy",
+      "Mitsubishi Heavy Industries",
+      "Baker Hughes",
+      "Bloom Energy"
+    ]
   }
 ]

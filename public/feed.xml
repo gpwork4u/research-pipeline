@@ -6,6 +6,18 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Gas Turbine Wall: Have Multi-Year Order Books Made Power Generation AI&apos;s Hardest Structural Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/gas-turbine-shortage-ai-data-center-power-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/gas-turbine-shortage-ai-data-center-power-bottleneck</guid>
+      <pubDate>Wed, 16 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>power-generation</category>
+      <category>data-centers</category>
+      <description>All four major heavy-duty gas turbine makers -- GE Vernova, Siemens Energy, Mitsubishi Heavy Industries, Baker Hughes -- reported record, AI-data-center-cited order backlogs within a six-week window in mid-2026. GE Vernova&apos;s combined backlog and slot reservations hit 116 GW; Siemens Energy&apos;s firm backlog reached 69 GW with lead times of three-plus years; Mitsubishi&apos;s large-frame backlog reached 35 GW; Baker Hughes posted a record $37.1 billion industrial backlog. Wood Mackenzie estimates global manufacturing capacity at only 60-70 GW/year against roughly 110 GW of orders, projecting turbine prices to rise 195% by 2027. Behind-the-meter fuel cells (Bloom Energy) are scaling fast but remain roughly two orders of magnitude smaller than the OEMs&apos; combined backlog. GE Vernova&apos;s own CEO argues turbines are frequently &quot;not the gating item&quot; once permitting and construction timelines are considered -- a genuine counterpoint even as turbine scarcity itself is real and priced into the market.</description>
+    </item>
+    <item>
       <title>The HALEU Gap: Is a Nuclear-Fuel Enrichment Bottleneck the Sleeper Constraint on AI&apos;s Advanced-Reactor Power Bet?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/haleu-nuclear-fuel-ai-data-center-power-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/haleu-nuclear-fuel-ai-data-center-power-bottleneck</guid>

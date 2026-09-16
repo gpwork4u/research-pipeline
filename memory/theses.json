@@ -913,5 +913,53 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-gas-turbine-shortage-ai-data-center-power-bottleneck",
+    "topic": "gas-turbine-shortage-ai-data-center-power-bottleneck",
+    "statement": "Heavy-duty gas turbine manufacturing meets the strict Structural Bottleneck test: demand from AI data centers (layered on LNG and grid-reliability demand) is extreme and has pushed all four major OEMs to record backlogs simultaneously; supply elasticity is low because turbine manufacturing requires specialized, multi-year-to-build casting and assembly capacity that cannot be added quickly even with committed capital; and substitutability is hard because the behind-the-meter alternative with real near-term traction (Bloom Energy's solid-oxide fuel cells) operates at a scale roughly two orders of magnitude smaller than the OEMs' combined backlog and cannot replace a single large gas turbine's output. The countervailing case, made explicitly by GE Vernova's own CEO, is that turbines are often not the pacing item in a three-year data-center power project once permitting, EPC construction and fuel-supply timelines are considered -- meaning the bottleneck may already be shifting downstream even as turbine scarcity itself remains real and priced into the market (turbine prices up 195% since 2019, targeting $600/kW by 2027).",
+    "confidence": "medium",
+    "created_at": "2026-09-16",
+    "updated_at": "2026-09-16",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Combined OEM backlog growth stalls or reverses despite continued AI data-center capex growth, indicating the shortage is not primarily manufacturing-capacity-driven",
+        "metric": "Quarter-over-quarter change in combined GE Vernova/Siemens Energy/Mitsubishi Heavy Industries/Baker Hughes gas turbine backlog",
+        "threshold": "A quarter of flat or declining combined backlog while AI data-center capex guidance is stable or rising",
+        "time_window": "next 2-4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "A major OEM discloses gas turbine lead times shortening materially below the current 3-6 year range",
+        "metric": "Disclosed average lead time at earnings calls",
+        "threshold": "Any OEM reporting lead times under 2 years",
+        "time_window": "next 4-6 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Behind-the-meter alternatives (fuel cells, on-site solar+storage, SMRs) scale to a multi-gigawatt annual deployment rate rivaling a meaningful share of turbine OEM output",
+        "metric": "Combined annual manufacturing/deployment capacity of leading alternative-generation suppliers",
+        "threshold": "Combined alternative capacity reaching at least 10% of the ~110 GW/year order rate",
+        "time_window": "next 2-3 years",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "A hyperscaler or data-center developer discloses that project delays are dominantly attributed to permitting/interconnection rather than turbine availability, at a rate that outweighs turbine-attributed delays",
+        "metric": "Public disclosure naming the dominant delay cause across multiple projects",
+        "threshold": "At least two independent hyperscaler disclosures naming permitting/interconnection, not turbines, as the binding constraint",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "The proportion of firm backlog (versus slot reservations) at GE Vernova declines materially, or reservations are cancelled at scale",
+        "metric": "Disclosed firm-backlog share of total gas power backlog",
+        "threshold": "Firm-backlog share falling below 35% of the total, or a disclosed cancellation of 10+ GW of reservations",
+        "time_window": "next 2-4 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]
