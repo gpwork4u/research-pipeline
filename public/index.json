@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Backup Power Wall: Are Diesel and Gas Reciprocating Gensets -- Sold Out Through 2028-2030 -- AI Data Centers' Next Structural Bottleneck?",
+    "date": "2026-09-17",
+    "slug": "diesel-gas-genset-backup-power-ai-data-center-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "power-generation",
+      "data-centers"
+    ],
+    "companies": [
+      "Caterpillar",
+      "Cummins",
+      "Rolls-Royce Power Systems",
+      "HD Hyundai Heavy Industries"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/diesel-gas-genset-backup-power-ai-data-center-bottleneck",
+    "path": "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The Gas Turbine Wall: Have Multi-Year Order Books Made Power Generation AI's Hardest Structural Bottleneck?",
     "date": "2026-09-16",
     "slug": "gas-turbine-shortage-ai-data-center-power-bottleneck",

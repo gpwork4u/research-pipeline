@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>備用電力之牆:交期已排至 2028-2030 年的柴油與燃氣往復式發電機組,是否已成為 AI 資料中心的下一個結構性瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/diesel-gas-genset-backup-power-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/diesel-gas-genset-backup-power-ai-data-center-bottleneck</guid>
+      <pubDate>Thu, 17 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>power-generation</category>
+      <category>data-centers</category>
+      <description>往復式發電機組對於持續性電力確實是真正的瓶頸,但儲能電池已在快速取代其傳統備用電力的角色。
+
+Four independent manufacturers -- Caterpillar, Cummins, Rolls-Royce Power Systems, and new entrant HD Hyundai Heavy Industries -- reported record or sharply accelerating order growth tied explicitly to AI data centers within a six-week window in mid-2026. Caterpillar&apos;s backlog hit a record $72 billion with power-generation retail sales up 72% year over year; Cummins posted a record $9.5 billion quarter with some gensets sold into 2028; Rolls-Royce raised its 2030 power-generation growth target; HD Hyundai signed roughly $1.1 billion in new US contracts. Reported lead times for data-center-scale units exceed 100 weeks. The complicating evidence: hyperscalers are cutting on-site generator coverage on new projects to 15-40% of historical levels via battery storage, and Microsoft has committed to diesel-free backup designs -- suggesting substitutability is hard for continuous prime power but easing for classic emergency backup.</description>
+    </item>
+    <item>
       <title>燃氣渦輪之牆:多年期訂單是否已讓發電設備成為 AI 最難突破的結構性瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/gas-turbine-shortage-ai-data-center-power-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/gas-turbine-shortage-ai-data-center-power-bottleneck</guid>

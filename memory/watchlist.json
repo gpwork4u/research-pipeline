@@ -1135,5 +1135,50 @@
     "source_to_monitor": "Wood Mackenzie (woodmac.com)",
     "origin_report": "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Caterpillar's Q3 2026 earnings call",
+    "expected_window": "around late October 2026",
+    "supports_if": "Power & Energy segment backlog and power-generation sales continue growing and management reiterates the large reciprocating-engine capacity-expansion timeline",
+    "weakens_if": "Power-generation growth decelerates sharply or management signals easing lead times",
+    "source_to_monitor": "Caterpillar investor relations (investors.caterpillar.com)",
+    "origin_report": "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Cummins' Q3 2026 earnings call",
+    "expected_window": "around late October-early November 2026",
+    "supports_if": "Power Systems segment revenue growth continues and management reiterates large-genset capacity constraints and 2028 sell-out",
+    "weakens_if": "Power Systems growth decelerates materially or management reports large-genset capacity constraints easing",
+    "source_to_monitor": "Cummins investor relations (investor.cummins.com)",
+    "origin_report": "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Rolls-Royce's next trading update or FY2026 results",
+    "expected_window": "around November 2026 (trading update) / February 2027 (FY2026 results)",
+    "supports_if": "Power-generation order intake and data-center energy orders continue growing at or above H1 2026's pace",
+    "weakens_if": "Order growth decelerates materially or the 25%-to-2030 target is walked back",
+    "source_to_monitor": "Rolls-Royce Holdings investor relations (rolls-royce.com/investors)",
+    "origin_report": "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further HD Hyundai or other new-entrant (e.g., additional Asian engine makers) US data-center power contract disclosures",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Additional large contracts are disclosed, confirming genset scarcity is drawing new entrants into the US market",
+    "weakens_if": "No further such contracts are disclosed, suggesting near-term demand is being met by incumbent capacity",
+    "source_to_monitor": "Trade press (Korea Times, Upstream, Data Center Dynamics) and company disclosures",
+    "origin_report": "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next industry tracking of BESS-vs-generator adoption on new hyperscale campuses",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "On-site generator coverage on new projects remains structurally reduced but reciprocating-engine order books stay sold out, confirming a bifurcated bottleneck (prime power tight, backup power easing)",
+    "weakens_if": "Generator coverage on new projects recovers toward historical levels, undercutting the substitution narrative, or conversely collapses toward zero, undercutting the hard-substitutability claim for prime power",
+    "source_to_monitor": "Data Center Knowledge, Data Center Dynamics published research",
+    "origin_report": "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md",
+    "status": "open"
   }
 ]

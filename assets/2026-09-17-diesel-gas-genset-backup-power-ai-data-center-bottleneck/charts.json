@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Caterpillar total company backlog growth",
+    "title_zh": "Caterpillar 總積壓訂單成長",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "ev-2",
+    "series": [
+      { "label": "Q1 2026", "value": 63 },
+      { "label": "Q2 2026 (record)", "value": 72 }
+    ]
+  }
+]

@@ -401,5 +401,33 @@
       "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md"
     ],
     "last_updated": "2026-09-16"
+  },
+  {
+    "name": "Caterpillar",
+    "reports": [
+      "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md"
+    ],
+    "last_updated": "2026-09-17"
+  },
+  {
+    "name": "Cummins",
+    "reports": [
+      "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md"
+    ],
+    "last_updated": "2026-09-17"
+  },
+  {
+    "name": "Rolls-Royce Power Systems",
+    "reports": [
+      "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md"
+    ],
+    "last_updated": "2026-09-17"
+  },
+  {
+    "name": "HD Hyundai Heavy Industries",
+    "reports": [
+      "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md"
+    ],
+    "last_updated": "2026-09-17"
   }
 ]

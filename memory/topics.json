@@ -508,5 +508,26 @@
       "Baker Hughes",
       "Bloom Energy"
     ]
+  },
+  {
+    "slug": "diesel-gas-genset-backup-power-ai-data-center-bottleneck",
+    "title": "The Backup Power Wall: Are Diesel and Gas Reciprocating Gensets -- Sold Out Through 2028-2030 -- AI Data Centers' Next Structural Bottleneck?",
+    "last_updated": "2026-09-17",
+    "reports": [
+      "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "power-generation",
+      "data-centers"
+    ],
+    "companies": [
+      "Caterpillar",
+      "Cummins",
+      "Rolls-Royce Power Systems",
+      "HD Hyundai Heavy Industries"
+    ]
   }
 ]

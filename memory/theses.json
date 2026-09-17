@@ -961,5 +961,53 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-diesel-gas-genset-backup-power-ai-data-center-bottleneck",
+    "topic": "diesel-gas-genset-backup-power-ai-data-center-bottleneck",
+    "statement": "Large reciprocating-engine gensets meet the demand and supply-elasticity legs of the strict Structural Bottleneck test: AI-data-center-driven demand pushed Caterpillar, Cummins, Rolls-Royce Power Systems and HD Hyundai Heavy Industries to record order growth within the same reporting window, and supply elasticity is low because large-unit lead times have stretched past 100 weeks with production slots at major OEMs allocated into 2028-2030 even as all four manufacturers actively expand capacity. Substitutability is the contested leg: for continuous, 24/7 behind-the-meter prime power used while data centers await grid interconnection, gensets are hard to substitute because battery storage can only discharge power generated elsewhere, not generate it -- but for the classic emergency-backup use case, evidence of hyperscalers (Microsoft, Google) cutting on-site generator coverage to 15-40% of historical levels via battery storage and software-based workload shifting suggests substitutability is already easing faster than manufacturing capacity is expanding, at least for that narrower use case.",
+    "confidence": "medium",
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Combined OEM order/backlog growth stalls or reverses despite continued AI data-center capex growth",
+        "metric": "Quarter-over-quarter change in Power & Energy / Power Systems segment revenue or orders at Caterpillar, Cummins and Rolls-Royce Power Systems",
+        "threshold": "A quarter of flat or declining combined segment revenue/orders while AI data-center capex guidance is stable or rising",
+        "time_window": "next 2-4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "A major OEM discloses large-genset lead times shortening materially",
+        "metric": "Disclosed average lead time for data-center-scale units",
+        "threshold": "Any major OEM reporting lead times under 12 months for large units",
+        "time_window": "next 4-6 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "BESS/diesel-free adoption becomes the dominant hyperscale design practice",
+        "metric": "Reported share of new hyperscale campuses built with generator-free or near-generator-free designs",
+        "threshold": "Generator coverage on new projects falling materially below the currently reported 15% floor, or a majority of new hyperscale campuses disclosed as fully generator-free",
+        "time_window": "next 2-3 years",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "A hyperscaler discloses a fully generator-free, gigawatt-scale campus already in operation",
+        "metric": "Public disclosure of campus design",
+        "threshold": "At least one disclosed gigawatt-scale campus with zero on-site combustion backup/prime power",
+        "time_window": "next 2-3 years",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Regulatory rollback eases compliant-unit scarcity",
+        "metric": "State-level emissions permitting rules for data-center generators",
+        "threshold": "Virginia or a comparable state rolling back its Tier 4 baseline requirement",
+        "time_window": "next 2-4 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

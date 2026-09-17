@@ -6,6 +6,18 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Backup Power Wall: Are Diesel and Gas Reciprocating Gensets -- Sold Out Through 2028-2030 -- AI Data Centers&apos; Next Structural Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/diesel-gas-genset-backup-power-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/diesel-gas-genset-backup-power-ai-data-center-bottleneck</guid>
+      <pubDate>Thu, 17 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>power-generation</category>
+      <category>data-centers</category>
+      <description>Four independent manufacturers -- Caterpillar, Cummins, Rolls-Royce Power Systems, and new entrant HD Hyundai Heavy Industries -- reported record or sharply accelerating order growth tied explicitly to AI data centers within a six-week window in mid-2026. Caterpillar&apos;s backlog hit a record $72 billion with power-generation retail sales up 72% year over year; Cummins posted a record $9.5 billion quarter with some gensets sold into 2028; Rolls-Royce raised its 2030 power-generation growth target; HD Hyundai signed roughly $1.1 billion in new US contracts. Reported lead times for data-center-scale units exceed 100 weeks. The complicating evidence: hyperscalers are cutting on-site generator coverage on new projects to 15-40% of historical levels via battery storage, and Microsoft has committed to diesel-free backup designs -- suggesting substitutability is hard for continuous prime power but easing for classic emergency backup.</description>
+    </item>
+    <item>
       <title>The Gas Turbine Wall: Have Multi-Year Order Books Made Power Generation AI&apos;s Hardest Structural Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/gas-turbine-shortage-ai-data-center-power-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/gas-turbine-shortage-ai-data-center-power-bottleneck</guid>
