@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Advantest FY2026 full-year sales forecast (before vs. after July 29, 2026 revision)",
+    "title_zh": "Advantest 2026 財年全年營收財測(2026 年 7 月 29 日上調前後)",
+    "type": "bar",
+    "unit": "JPY billion",
+    "source_id": "ev-1",
+    "series": [
+      { "label": "April 2026 forecast", "value": 1420.0 },
+      { "label": "Raised July 29, 2026", "value": 1714.0 }
+    ]
+  }
+]

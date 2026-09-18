@@ -1009,5 +1009,53 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-ate-test-equipment-ai-chip-bottleneck",
+    "topic": "ate-test-equipment-ai-chip-bottleneck",
+    "statement": "Automated test equipment (ATE) for AI accelerators and HBM memory plausibly meets the demand and supply-elasticity legs of the strict Structural Bottleneck test: both Advantest and Teradyne, who together control roughly 80%+ of the global ATE market, reported record, guidance-beating AI-driven demand in the same July 2026 reporting week, and supply elasticity is constrained by a decades-old duopoly structure, lead times exceeding six months as of January 2026, and capacity-expansion plans measured in years even as they are being pulled forward. Substitutability is hard because functional test is a mandatory, non-bypassable quality gate for every AI chip and HBM stack, and Chinese domestic ATE localization remains below 10% in the high-end SoC/memory segments most relevant to AI. The complicating evidence is Teradyne's own guided sequential revenue and profit decline for Q3 2026, which management attributed to lumpy, front-half-loaded AI order timing rather than a smooth, continuously binding shortage -- suggesting the constraint may manifest as recurring capacity crunches rather than an unrelenting wall, and that today's pricing power could compress quickly if AI capex growth decelerates.",
+    "confidence": "medium",
+    "created_at": "2026-09-18",
+    "updated_at": "2026-09-18",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Combined Advantest/Teradyne quarterly bookings or backlog growth stalls despite continued AI accelerator/HBM shipment growth",
+        "metric": "QoQ change in Advantest's disclosed order trends and Teradyne's Semiconductor Test segment revenue",
+        "threshold": "A quarter of flat or declining combined order growth while AI accelerator unit shipments continue rising",
+        "time_window": "next 2-4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Either company reports ATE lead times shortening materially",
+        "metric": "Disclosed average product lead time",
+        "threshold": "Lead times falling back under 3 months",
+        "time_window": "next 3-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "A Chinese or other new ATE entrant is qualified for high-volume HBM/AI-accelerator test at a major foundry or memory maker",
+        "metric": "Disclosed qualification or production order",
+        "threshold": "At least one disclosed high-volume qualification outside Advantest/Teradyne for HBM or leading-edge AI SoC test",
+        "time_window": "next 2-3 years",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "AI accelerator demand growth decelerates sharply, reducing test-system order flow",
+        "metric": "Hyperscaler capex guidance alongside Advantest/Teradyne forward guidance",
+        "threshold": "Two consecutive quarters of guidance cuts at both companies",
+        "time_window": "next 2-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "No company across the AI accelerator supply chain ever cites ATE/test capacity as a shipment constraint, even as packaging and HBM constraints continue to be repeatedly cited",
+        "metric": "Presence/absence of ATE-specific constraint disclosures across major AI chip customers",
+        "threshold": "4+ consecutive quarters with zero ATE-specific constraint disclosures while other constraints are repeatedly disclosed",
+        "time_window": "next 4 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

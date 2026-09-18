@@ -529,5 +529,24 @@
       "Rolls-Royce Power Systems",
       "HD Hyundai Heavy Industries"
     ]
+  },
+  {
+    "slug": "ate-test-equipment-ai-chip-bottleneck",
+    "title": "The Test Wall: Are Advantest and Teradyne's Sold-Out AI Chip Testers Semiconductor's Hidden Structural Bottleneck?",
+    "last_updated": "2026-09-18",
+    "reports": [
+      "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "capital-equipment"
+    ],
+    "companies": [
+      "Advantest",
+      "Teradyne"
+    ]
   }
 ]

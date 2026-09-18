@@ -1180,5 +1180,50 @@
     "source_to_monitor": "Data Center Knowledge, Data Center Dynamics published research",
     "origin_report": "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Advantest's fiscal Q2 2026 earnings call",
+    "expected_window": "around early November 2026",
+    "supports_if": "Advantest again raises full-year guidance and reiterates or accelerates its 10,000-unit/year capacity timeline",
+    "weakens_if": "Advantest guidance flattens or its capacity-expansion timeline is pushed back",
+    "source_to_monitor": "Advantest investor relations (advantest.com/en/investors)",
+    "origin_report": "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Teradyne's Q3 2026 earnings call",
+    "expected_window": "around late October 2026",
+    "supports_if": "Despite the guided sequential dip, YoY Semiconductor Test growth remains strong and management reiterates capacity-constrained commentary into 2027",
+    "weakens_if": "Growth decelerates sharply or management signals easing lead times or order cancellations",
+    "source_to_monitor": "Teradyne investor relations (investors.teradyne.com)",
+    "origin_report": "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "SK Hynix's, Samsung's and Micron's Q3 2026 earnings calls: any explicit ATE/test-capacity commentary",
+    "expected_window": "around late October 2026",
+    "supports_if": "Any memory maker cites test/burn-in capacity, not just wafer or HBM-stacking capacity, as a factor pacing HBM4 shipment growth",
+    "weakens_if": "No memory maker cites test capacity as a distinct constraint",
+    "source_to_monitor": "Respective investor relations pages",
+    "origin_report": "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further Advantest or Teradyne capacity-expansion or new-facility announcements",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Additional capacity announcements continue arriving faster than previously scheduled, confirming sustained supply-side strain",
+    "weakens_if": "Capacity announcements slow or planned expansions are scaled back",
+    "source_to_monitor": "Company newsrooms; Digitimes and Bloomberg trade coverage",
+    "origin_report": "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Hangzhou Changchuan Technology's or peer Chinese ATE makers' next disclosed qualification progress in high-end SoC/HBM test",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "Localization in high-end SoC/memory ATE remains below 10-15%, confirming the duopoly's near-term insulation from domestic Chinese competition",
+    "weakens_if": "A Chinese ATE maker discloses qualification at a major foundry or memory maker for high-volume HBM/leading-edge SoC test",
+    "source_to_monitor": "TrendForce, Digitimes, and Chinese trade press",
+    "origin_report": "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md",
+    "status": "open"
   }
 ]

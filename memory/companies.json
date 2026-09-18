@@ -429,5 +429,19 @@
       "reports/2026/09/2026-09-17-diesel-gas-genset-backup-power-ai-data-center-bottleneck.md"
     ],
     "last_updated": "2026-09-17"
+  },
+  {
+    "name": "Advantest",
+    "reports": [
+      "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md"
+    ],
+    "last_updated": "2026-09-18"
+  },
+  {
+    "name": "Teradyne",
+    "reports": [
+      "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md"
+    ],
+    "last_updated": "2026-09-18"
   }
 ]

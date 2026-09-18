@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>測試之牆:Advantest 與 Teradyne 已被搶購一空的 AI 晶片測試機,是否為半導體業隱藏的結構性瓶頸?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ate-test-equipment-ai-chip-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ate-test-equipment-ai-chip-bottleneck</guid>
+      <pubDate>Fri, 18 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>capital-equipment</category>
+      <description>AI/HBM 晶片測試設備確實因雙占結構而供給偏緊,但 Teradyne 自身財測顯示第三季環比下滑,顯示目前緊俏尚非牢不可破的高牆。
+
+Advantest and Teradyne, who together control roughly 80% of the global chip-test equipment market, both posted record results and sharply raised guidance in the same reporting week in late July 2026. Advantest raised its full-year operating income guide by a further 70% (versus a prior 26% guide) and lifted its own industry TAM estimate 19%; Teradyne&apos;s Semiconductor Test segment grew 128% year over year on HBM and DRAM strength. Both firms are pulling forward multi-year capacity plans -- Advantest&apos;s 10,000-unit-per-year target moved up roughly two years -- yet lead times still exceeded six months as of January 2026. The complication: Teradyne guided a sequential Q3 2026 revenue and profit decline, attributing it to lumpy AI order timing, and China&apos;s high-end ATE localization remains below 10%, leaving the duopoly&apos;s near-term pricing power largely unchallenged either way.</description>
+    </item>
+    <item>
       <title>備用電力之牆:交期已排至 2028-2030 年的柴油與燃氣往復式發電機組,是否已成為 AI 資料中心的下一個結構性瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/diesel-gas-genset-backup-power-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/diesel-gas-genset-backup-power-ai-data-center-bottleneck</guid>
