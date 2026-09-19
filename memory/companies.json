@@ -443,5 +443,33 @@
       "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md"
     ],
     "last_updated": "2026-09-18"
+  },
+  {
+    "name": "Murata Manufacturing",
+    "reports": [
+      "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md"
+    ],
+    "last_updated": "2026-09-19"
+  },
+  {
+    "name": "Samsung Electro-Mechanics",
+    "reports": [
+      "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md"
+    ],
+    "last_updated": "2026-09-19"
+  },
+  {
+    "name": "TDK Corporation",
+    "reports": [
+      "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md"
+    ],
+    "last_updated": "2026-09-19"
+  },
+  {
+    "name": "Yageo Corporation",
+    "reports": [
+      "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md"
+    ],
+    "last_updated": "2026-09-19"
   }
 ]

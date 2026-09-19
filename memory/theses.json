@@ -1057,5 +1057,46 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-mlcc-capacitor-shortage-ai-server-bottleneck",
+    "topic": "mlcc-capacitor-shortage-ai-server-bottleneck",
+    "statement": "A near-duopoly of Murata Manufacturing and Samsung Electro-Mechanics, controlling an estimated 84% of AI-server-grade high-capacitance MLCC (multilayer ceramic capacitor) supply, is running production at 90-95% utilization with 12-24 month lead times to add qualified new capacity, while both posted record 2026 earnings and imposed successive double-digit price increases and steered new capacity toward long-term hyperscaler contracts -- evidence this unglamorous multi-cent passive component meets the strict Structural Bottleneck test even though it receives far less market attention than HBM memory, advanced packaging or grid equipment. Its durability is more contested than most of this pipeline's prior findings: the MLCC industry has a documented history of whipsawing from acute shortage to oversupply within about 18 months (as in 2018-2019), Chinese manufacturers and complementary technologies (silicon capacitors, polymer tantalum) are already scaling into the gap, and next-generation platforms like Nvidia's Vera Rubin could either extend or help close the shortfall depending on how fast 2027 capacity additions land.",
+    "confidence": "medium",
+    "created_at": "2026-09-19",
+    "updated_at": "2026-09-19",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "MLCC lead times normalize to pre-2026 industry-typical levels",
+        "metric": "Reported high-capacitance AI-server MLCC lead times (TrendForce)",
+        "threshold": "Lead times fall below 12 weeks for two consecutive quarters",
+        "time_window": "next 3-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Murata's or Samsung Electro-Mechanics' MLCC book-to-bill ratio falls toward or below 1.0",
+        "metric": "Quarterly MLCC book-to-bill ratio disclosed in earnings releases",
+        "threshold": "Book-to-bill at or below 1.0 for one full quarter at either company",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Aggregate hyperscaler capital-expenditure guidance decelerates materially, reducing downstream AI-server demand for MLCCs",
+        "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Silicon-capacitor or polymer-tantalum substitution reaches a meaningful share of AI-server power-delivery bulk capacitance",
+        "metric": "Reported adoption share of substitution technologies in new AI-server PDN designs",
+        "threshold": "Substitution technologies reach at least 15% of new AI-server power-delivery-network capacitance",
+        "time_window": "next 4-6 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

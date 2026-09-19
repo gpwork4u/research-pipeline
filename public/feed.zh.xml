@@ -6,6 +6,18 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>兩分錢的瓶頸：售罄的 MLCC 陶瓷電容,是否正悄悄制約 AI 伺服器生產?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/mlcc-capacitor-shortage-ai-server-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/mlcc-capacitor-shortage-ai-server-bottleneck</guid>
+      <pubDate>Sat, 19 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>passive-components</category>
+      <category>advanced-manufacturing</category>
+      <description>村田與三星電機合計掌握約 84% 的 AI 伺服器等級 MLCC 供應,兩者 2026 年均創獲利新高,並接連調漲售價(村田 4 月漲 15-35%,三星電機 8 月漲 30%)。村田 MLCC 訂單出貨比達 1.47 倍,利用率 90-95%,約 800 億日圓擴產計畫到 FY2027 僅增產 10-15%。TrendForce 指出高階產品交期已拉長至 5-10 個月,可能延續至 2027 年。但 MLCC 產業有缺貨轉過剩的歷史紀錄,矽電容、聚合物鉭電容等部分替代方案已量產,使此瓶頸持續性不如先前確認的記憶體或封裝瓶頸穩固。</description>
+    </item>
+    <item>
       <title>測試之牆:Advantest 與 Teradyne 已被搶購一空的 AI 晶片測試機,是否為半導體業隱藏的結構性瓶頸?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ate-test-equipment-ai-chip-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ate-test-equipment-ai-chip-bottleneck</guid>

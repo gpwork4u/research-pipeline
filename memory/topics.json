@@ -548,5 +548,26 @@
       "Advantest",
       "Teradyne"
     ]
+  },
+  {
+    "slug": "mlcc-capacitor-shortage-ai-server-bottleneck",
+    "title": "The Two-Cent Bottleneck: Are Sold-Out MLCC Ceramic Capacitors Quietly Constraining AI Server Production?",
+    "last_updated": "2026-09-19",
+    "reports": [
+      "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "passive-components",
+      "advanced-manufacturing"
+    ],
+    "companies": [
+      "Murata Manufacturing",
+      "Samsung Electro-Mechanics",
+      "TDK Corporation",
+      "Yageo Corporation"
+    ]
   }
 ]

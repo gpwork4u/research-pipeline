@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Two-Cent Bottleneck: Are Sold-Out MLCC Ceramic Capacitors Quietly Constraining AI Server Production?",
+    "date": "2026-09-19",
+    "slug": "mlcc-capacitor-shortage-ai-server-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "passive-components",
+      "advanced-manufacturing"
+    ],
+    "companies": [
+      "Murata Manufacturing",
+      "Samsung Electro-Mechanics",
+      "TDK Corporation",
+      "Yageo Corporation"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/mlcc-capacitor-shortage-ai-server-bottleneck",
+    "path": "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The Test Wall: Are Advantest and Teradyne's Sold-Out AI Chip Testers Semiconductor's Hidden Structural Bottleneck?",
     "date": "2026-09-18",
     "slug": "ate-test-equipment-ai-chip-bottleneck",

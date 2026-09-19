@@ -1225,5 +1225,50 @@
     "source_to_monitor": "TrendForce, Digitimes, and Chinese trade press",
     "origin_report": "reports/2026/09/2026-09-18-ate-test-equipment-ai-chip-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Murata's Q2 FY2026 (July-September 2026) earnings release",
+    "expected_window": "around late October 2026",
+    "supports_if": "Murata reports MLCC book-to-bill remaining above roughly 1.2x and reiterates capacity-constrained, price-increase commentary",
+    "weakens_if": "Book-to-bill falls toward 1.0 or management signals easing lead times or moderating price increases",
+    "source_to_monitor": "corporate.murata.com/ir",
+    "origin_report": "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Samsung Electro-Mechanics Q3 2026 earnings release",
+    "expected_window": "around late October 2026",
+    "supports_if": "MLCC revenue growth and operating margin continue rising and management reiterates sold-out AI-server capacity and further long-term contracts",
+    "weakens_if": "MLCC revenue growth decelerates sharply or operating margin contracts versus Q2 2026",
+    "source_to_monitor": "samsungsem.com investor relations",
+    "origin_report": "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TrendForce's next quarterly MLCC supply-demand and lead-time update",
+    "expected_window": "around November-December 2026",
+    "supports_if": "Lead times remain in the 5-10+ month range or are reported extending further into 2027",
+    "weakens_if": "Lead times shorten materially or TrendForce flags emerging oversupply risk for 2027",
+    "source_to_monitor": "trendforce.com/presscenter",
+    "origin_report": "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Nvidia's Vera Rubin platform launch specifications and initial shipment volumes",
+    "expected_window": "late 2026 - 2027",
+    "supports_if": "Confirmed specifications show materially higher per-rack power density and capacitor requirements than GB300, sustaining demand growth",
+    "weakens_if": "Rubin ships with materially lower capacitor intensity than trade-press estimates, or the launch slips",
+    "source_to_monitor": "nvidianews.nvidia.com",
+    "origin_report": "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Disclosure of any AI server or data-center production delay explicitly attributed to MLCC or passive-component shortage",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "A hyperscaler or AI-server OEM discloses a delay attributed to MLCC or passive-component shortage",
+    "weakens_if": "No such disclosure surfaces despite continued capex growth, suggesting the constraint is being absorbed without shipment impact",
+    "source_to_monitor": "trade press (DigiTimes, TrendForce, The Elec)",
+    "origin_report": "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md",
+    "status": "open"
   }
 ]

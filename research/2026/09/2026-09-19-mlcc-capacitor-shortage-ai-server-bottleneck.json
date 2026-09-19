@@ -1,0 +1,607 @@
+{
+  "topic": {
+    "title": "The Two-Cent Bottleneck: Are Sold-Out MLCC Ceramic Capacitors Quietly Constraining AI Server Production?",
+    "slug": "mlcc-capacitor-shortage-ai-server-bottleneck",
+    "date": "2026-09-19",
+    "research_type": "NEW",
+    "categories": ["ai-infrastructure", "semiconductors", "passive-components", "advanced-manufacturing"],
+    "score": 32,
+    "trigger": "DigiTimes reported September 14, 2026 that AI servers are consuming a growing share of global MLCC (multilayer ceramic capacitor) capacity and that Chinese suppliers are absorbing spillover demand, following Samsung Electro-Mechanics' 30% MLCC price increase (effective August 1, 2026) and Murata's 15-35% price increase (effective April 1, 2026), plus record Q1/Q2 2026 earnings at both companies driven by data-center demand."
+  },
+  "questions": {
+    "primary": "Have AI-server-grade high-capacitance MLCC ceramic capacitors become a genuine structural bottleneck on AI accelerator production, distinct from the chip, memory, packaging and power-equipment constraints this pipeline has previously examined?",
+    "sub": [
+      "How concentrated is AI-server-grade MLCC supply, and how fast can that capacity expand?",
+      "What is driving MLCC demand growth specifically from AI servers versus other end markets?",
+      "Is there a credible near-term substitute for high-capacitance MLCCs in AI server power-delivery networks?",
+      "How does the current MLCC tightness compare to the industry's historical 2018-2019 shortage-to-glut cycle?",
+      "Could Chinese MLCC manufacturers or next-generation capacitor technologies meaningfully ease the constraint before 2027?"
+    ]
+  },
+  "thesis": "A near-duopoly of Murata Manufacturing and Samsung Electro-Mechanics, controlling an estimated 84% of AI-server-grade high-capacitance MLCC (multilayer ceramic capacitor) supply, is running production at 90-95% utilization with 12-24 month lead times to add qualified new capacity, while AI servers built on Nvidia's GB300 platform consume an estimated 10-15x more MLCCs than a general-purpose server. Both leading suppliers posted record 2026 earnings, imposed successive double-digit price increases, and are steering new capacity toward long-term hyperscaler contracts -- evidence that this unglamorous multi-cent passive component meets the strict Structural Bottleneck test even though it receives far less market attention than HBM memory, advanced packaging or grid equipment. Its durability is more contested than most of this pipeline's prior findings: the MLCC industry has a well-documented history of whipsawing from acute shortage to oversupply within about 18 months, Chinese manufacturers and complementary technologies (silicon capacitors, polymer tantalum) are already scaling into the gap, and next-generation platforms like Nvidia's Vera Rubin could either extend or -- if paired with faster capacity delivery -- help close the shortfall.",
+  "facts": [
+    {
+      "statement": "Murata Manufacturing's Q1 FY2026 (April-June 2026) revenue reached a record 502.3 billion yen, up 20.7% year-over-year, driven mainly by data-center and mobility demand; the MLCC business's book-to-bill ratio reached 1.47x in the quarter.",
+      "type": "FACT",
+      "evidence_ids": ["e1"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Murata plans approximately 80 billion yen in additional MLCC capacity investment (about 40 billion yen in each of FY2026 and FY2027), focused on small-form-factor, high-capacitance specifications, but expects total capacity to increase only 10-15% from current levels once the investment is complete.",
+      "type": "FACT",
+      "evidence_ids": ["e2"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Murata notified customers in March 2026 of a 15-35% price increase on AI-server-grade and automotive-grade MLCCs, effective April 1, 2026.",
+      "type": "FACT",
+      "evidence_ids": ["e3"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Samsung Electro-Mechanics reported Q2 2026 (April-June) consolidated sales of 3,457.2 billion Korean won and operating profit of 440.4 billion won, up 107% year-over-year and 57% quarter-over-quarter; MLCC revenue grew 44% year-over-year and 19% quarter-over-quarter, and operating margin improved to 12.7% from 7.6% a year earlier.",
+      "type": "FACT",
+      "evidence_ids": ["e4"],
+      "confidence": "high"
+    },
+    {
+      "statement": "As of its Q2 2026 report, Samsung Electro-Mechanics had signed long-term MLCC supply contracts with more than 10 customers, including hyperscalers and major semiconductor companies.",
+      "type": "FACT",
+      "evidence_ids": ["e4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Samsung Electro-Mechanics notified sales partners on July 29, 2026 of a 30% price increase across its MLCC product portfolio, effective August 1, 2026, citing structural growth in global electronics demand outpacing what the supply chain can absorb.",
+      "type": "FACT",
+      "evidence_ids": ["e5"],
+      "confidence": "high"
+    },
+    {
+      "statement": "TrendForce reported on August 18, 2026 that high-end MLCC lead times have diverged to 5-10 months and that tightness may extend into 2027.",
+      "type": "FACT",
+      "evidence_ids": ["e6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "TrendForce reported on August 4, 2026 an across-the-board MLCC price surge of roughly 30%, following Samsung Electro-Mechanics' price action and reports that Taiyo Yuden was considering a similar increase effective September 1, 2026.",
+      "type": "FACT",
+      "evidence_ids": ["e7"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "DigiTimes reported on September 14, 2026 that Murata holds an estimated 45% and Samsung Electro-Mechanics an estimated 39% share of the AI-server-grade (high-capacitance, low-ESL) MLCC market, a combined 84%, and that Chinese suppliers are absorbing overflow demand these two companies cannot fill.",
+      "type": "FACT",
+      "evidence_ids": ["e8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "TrendForce reported on June 17, 2026 that cloud service providers' in-house custom-ASIC programs are concentrating demand on a narrower set of high-end MLCC specifications, and flagged a risk of structural shortages in high-end specialty MLCCs emerging in the second half of 2026.",
+      "type": "FACT",
+      "evidence_ids": ["e9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Samsung Electro-Mechanics announced in May 2026 a silicon-capacitor supply contract worth approximately $1 billion with a major global customer, covering deliveries through 2027-2028; industry analysis frames silicon capacitors as complementary to, not a substitute for, MLCCs in AI-server power-delivery networks.",
+      "type": "FACT",
+      "evidence_ids": ["e12"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Nvidia has publicly announced its Vera Rubin AI platform as the successor to its current Blackwell/GB300 generation, positioned to scale AI-factory power density and rack-level system complexity substantially beyond current deployments.",
+      "type": "FACT",
+      "evidence_ids": ["e18"],
+      "confidence": "high"
+    },
+    {
+      "statement": "The global MLCC industry experienced a severe supply shortage from early 2018 through mid-2019, driven by automotive and consumer-electronics demand growth outpacing capacity, which was followed by a rapid swing to oversupply and price erosion beginning in the second half of 2019 as double-ordered inventory was cancelled.",
+      "type": "FACT",
+      "evidence_ids": ["e14"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Chinese MLCC manufacturers -- including Guangdong Fenghua Advanced Technology and Chaozhou Three-Circle (Sanhuan Group) -- reported robust orders and high capacity utilization through mid-2026, with Fenghua implementing two price increases in 2026 totaling roughly 20%, while combined Chinese makers' global MLCC market share is reported to have risen to roughly 10%, up from about 6% in 2019.",
+      "type": "FACT",
+      "evidence_ids": ["e8", "e15", "e16"],
+      "confidence": "low"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "The combination of 90-95% reported utilization at the two leading AI-server-grade MLCC makers, 12-24 month lead times to bring new qualified high-capacitance capacity online, and successive double-digit price increases across essentially all major suppliers in 2026 indicates this segment currently meets the strict Structural Bottleneck test (extreme demand growth, low supply elasticity, hard substitutability) at least through 2027.",
+      "type": "INFERENCE",
+      "evidence_ids": ["e1", "e2", "e4", "e6", "e7", "e8", "e9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because Murata and Samsung Electro-Mechanics together hold an estimated 84% share of AI-server-grade MLCC supply and are directing new capacity primarily toward long-term contracted hyperscaler and semiconductor customers, AI-server builders without such contracts likely face materially longer effective allocation delays than the headline 5-10 month lead-time figures suggest.",
+      "type": "INFERENCE",
+      "evidence_ids": ["e4", "e6", "e8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Next-generation AI accelerator platforms such as Nvidia's Vera Rubin are likely to increase per-rack MLCC and capacitor consumption meaningfully beyond current GB300-generation levels, given reported increases in power density and rack-level energy storage, which would extend rather than relieve AI-driven demand pressure into 2027-2028; however, the specific magnitude cited in trade press (up to several hundred thousand units per rack) is a third-party estimate, not a figure Nvidia has disclosed.",
+      "type": "INFERENCE",
+      "evidence_ids": ["e11", "e18"],
+      "confidence": "low"
+    },
+    {
+      "statement": "Because MLCC shortages have historically proven cyclical rather than permanent -- the 2018-2019 episode reversed within roughly 18 months once double-ordered inventory unwound -- the current AI-driven tightness carries a meaningful risk of a comparable correction once hyperscaler capex growth decelerates or the 2027 capacity additions from Murata, Samsung Electro-Mechanics and Chinese entrants land simultaneously.",
+      "type": "INFERENCE",
+      "evidence_ids": ["e1", "e2", "e14"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Partial substitution paths already being commercially deployed -- silicon capacitors for certain power-delivery functions and polymer tantalum capacitors for bulk decoupling -- may cap the ceiling on MLCC price increases and lead-time extension compared with bottlenecks that have no substitution path at all, such as ASML's EUV lithography monopoly examined in this pipeline's September 9, 2026 report.",
+      "type": "INFERENCE",
+      "evidence_ids": ["e12", "e13"],
+      "confidence": "medium"
+    }
+  ],
+  "unknowns": [
+    "The precise current lead time and allocation status of AI-server-grade MLCCs for AI system integrators that lack long-term contracts (versus the headline hyperscaler-contracted lead times) is not independently disclosed by Murata or Samsung Electro-Mechanics.",
+    "Whether any hyperscaler or AI server OEM has publicly disclosed a production delay or shipment slip specifically attributed to MLCC or passive-component unavailability -- as opposed to GPU, HBM, or power-equipment constraints -- is unconfirmed in available sources.",
+    "The exact MLCC count and specification requirements for Nvidia's Vera Rubin platform have not been officially disclosed by Nvidia; currently circulating figures are third-party trade-press estimates of uncertain reliability.",
+    "Whether Chinese MLCC makers will achieve AI-server-grade qualification at meaningful volume before the 2027 capacity additions from Murata and Samsung Electro-Mechanics come online is unknown."
+  ],
+  "industry_chain": [
+    {
+      "name": "Ceramic dielectric and electrode raw materials (barium titanate powder, nickel and palladium electrode metals)",
+      "role": "Upstream",
+      "major_players": [],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI-server-grade high-capacitance MLCC fabrication",
+      "role": "Components",
+      "major_players": ["Murata Manufacturing", "Samsung Electro-Mechanics", "TDK Corporation", "Taiyo Yuden", "Yageo Corporation", "Walsin Technology"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "AI server power-delivery network board assembly",
+      "role": "Infrastructure",
+      "major_players": [],
+      "pricing_power": null,
+      "supply_elasticity": null,
+      "substitutability": null
+    },
+    {
+      "name": "AI accelerator platform",
+      "role": "Platform",
+      "major_players": ["Nvidia", "AMD"],
+      "pricing_power": "High",
+      "supply_elasticity": null,
+      "substitutability": null
+    },
+    {
+      "name": "Hyperscale AI data-center operators",
+      "role": "Application",
+      "major_players": [],
+      "pricing_power": null,
+      "supply_elasticity": null,
+      "substitutability": null
+    },
+    {
+      "name": "AI training and inference end customers",
+      "role": "Customer",
+      "major_players": [],
+      "pricing_power": null,
+      "supply_elasticity": null,
+      "substitutability": null
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "AI-server-grade high-capacitance MLCC fabrication (Murata / Samsung Electro-Mechanics duopoly)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "12-24 months",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "Low",
+      "profit_capture": "Medium",
+      "opportunity_score": 4,
+      "classification": "Structural Bottleneck",
+      "rationale": "Meets all three strict criteria: demand growth is Extreme (a single AI server is reported to require an order of magnitude more MLCCs than a general-purpose server, and both leading suppliers posted record profit growth on data-center demand); supply elasticity is Low (90-95% utilization, 12-24 month capacity lead times, and Murata's own ~80 billion yen investment adds only 10-15% capacity); and substitutability is Hard for the specific high-capacitance, low-ESL specifications AI power-delivery networks require, since silicon capacitors and polymer tantalum capacitors are documented as complementary rather than full replacements."
+    },
+    {
+      "node": "Barium titanate ceramic powder and nickel/palladium electrode materials",
+      "demand_growth": "High",
+      "supply_elasticity": "Medium",
+      "expansion_time": null,
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Low",
+      "profit_capture": "Low",
+      "opportunity_score": 2,
+      "classification": "Growth Area",
+      "rationale": "Raw-material cost pressure (ceramic powder and electrode metals) is contributing to MLCC price increases, but available evidence shows cost pass-through rather than a proven physical supply constraint independent of MLCC fabrication capacity itself, so it does not meet the strict Low-supply-elasticity/Hard-substitutability bar on its own."
+    },
+    {
+      "node": "Chinese MLCC manufacturing capacity",
+      "demand_growth": "High",
+      "supply_elasticity": "Medium",
+      "expansion_time": null,
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Low",
+      "profit_capture": "Low",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "Chinese makers are scaling capacity and gaining share, functioning as a partial release valve for the broader MLCC market, but they are reported to still trail Murata and Samsung Electro-Mechanics in the dielectric thickness, layer count and long-term reliability data needed for top-tier AI-server qualification, so they do not yet resolve the binding constraint at the highest specification tier."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Murata Manufacturing",
+      "business_model": "Manufactures passive electronic components, principally MLCC ceramic capacitors, for data-center, mobility, and consumer-electronics customers.",
+      "revenue_model": "Component sales under a mix of spot and long-term supply agreements.",
+      "cost_structure": "Capital-intensive fabrication with ceramic-powder and electrode-metal input costs; new capacity requires 12-24 months from investment decision to output.",
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI server and data-center demand", "mobility applications"],
+      "customer_concentration": null,
+      "moat": "Scale, process yield, and qualified high-capacitance/low-ESL specifications that are difficult for competitors to replicate quickly.",
+      "switching_costs": null,
+      "capital_intensity": "High",
+      "management_strategy": "Targeted capacity investment (~80 billion yen FY2026-FY2027) in small-form-factor, high-capacitance MLCCs, paired with price increases on AI-server and automotive-grade products.",
+      "execution_risk": null
+    },
+    {
+      "name": "Samsung Electro-Mechanics",
+      "business_model": "Manufactures MLCCs, FC-BGA substrates and other electronic components; part of the broader Samsung group.",
+      "revenue_model": "Component sales including long-term supply contracts with hyperscalers and semiconductor customers.",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": "12.7% (Q2 2026, up from 7.6% a year earlier)",
+      "growth_drivers": ["AI infrastructure spending", "MLCC and FC-BGA demand"],
+      "customer_concentration": "More than 10 long-term MLCC supply contracts disclosed with hyperscalers and major semiconductor companies as of Q2 2026.",
+      "moat": "Scale and qualified high-end MLCC/silicon-capacitor product lines for AI-server power delivery.",
+      "switching_costs": null,
+      "capital_intensity": "High",
+      "management_strategy": "Price increases (30% effective August 2026) plus diversification into a complementary silicon-capacitor product line (~$1 billion contract announced May 2026).",
+      "execution_risk": null
+    }
+  ],
+  "metrics": [
+    { "name": "Murata Q1 FY2026 revenue", "value": 502.3, "unit": "JPY billion", "period": "Apr-Jun 2026", "growth": "+20.7% YoY", "source_id": "e1" },
+    { "name": "Murata MLCC book-to-bill ratio", "value": 1.47, "unit": "ratio", "period": "Q1 FY2026", "growth": null, "source_id": "e1" },
+    { "name": "Murata additional MLCC capacity investment", "value": 80, "unit": "JPY billion", "period": "FY2026-FY2027", "growth": null, "source_id": "e2" },
+    { "name": "Murata expected capacity increase post-investment", "value": "10-15", "unit": "%", "period": "post-FY2027", "growth": null, "source_id": "e2" },
+    { "name": "Murata AI-server/automotive MLCC price increase", "value": "15-35", "unit": "%", "period": "effective April 1, 2026", "growth": null, "source_id": "e3" },
+    { "name": "Samsung Electro-Mechanics Q2 2026 operating profit", "value": 440.4, "unit": "KRW billion", "period": "Q2 2026", "growth": "+107% YoY", "source_id": "e4" },
+    { "name": "Samsung Electro-Mechanics Q2 2026 consolidated sales", "value": 3457.2, "unit": "KRW billion", "period": "Q2 2026", "growth": null, "source_id": "e4" },
+    { "name": "Samsung Electro-Mechanics MLCC revenue growth", "value": "44", "unit": "% YoY", "period": "Q2 2026", "growth": "+19% QoQ", "source_id": "e4" },
+    { "name": "Samsung Electro-Mechanics operating margin", "value": 12.7, "unit": "%", "period": "Q2 2026", "growth": "up from 7.6% YoY", "source_id": "e4" },
+    { "name": "Samsung Electro-Mechanics MLCC price increase", "value": 30, "unit": "%", "period": "effective August 1, 2026", "growth": null, "source_id": "e5" },
+    { "name": "High-end MLCC lead times", "value": "5-10", "unit": "months", "period": "August 2026", "growth": null, "source_id": "e6" },
+    { "name": "MLCC across-the-board price surge", "value": 30, "unit": "%", "period": "August 2026", "growth": null, "source_id": "e7" },
+    { "name": "Combined Murata + Samsung Electro-Mechanics AI-server-grade MLCC market share", "value": 84, "unit": "%", "period": "2026", "growth": null, "source_id": "e8" },
+    { "name": "Samsung Electro-Mechanics silicon-capacitor supply contract value", "value": 1, "unit": "USD billion", "period": "May 2026, through 2027-2028", "growth": null, "source_id": "e12" }
+  ],
+  "competitors": [
+    { "name": "TDK Corporation", "kind": "direct competitor", "note": "Estimated ~5% share of AI-grade MLCC market; negotiating price adjustments." },
+    { "name": "Taiyo Yuden", "kind": "direct competitor", "note": "Estimated ~4% share of AI-grade MLCC market; reported considering a price increase effective September 1, 2026." },
+    { "name": "Yageo Corporation", "kind": "direct competitor", "note": "Expanding high-end MLCC capacity in Kaohsiung, Taiwan, targeting AI-server X6S specifications." },
+    { "name": "Walsin Technology", "kind": "direct competitor", "note": "Expanding into high-end and automotive MLCC segments via Taiwan facility acquisitions and a new Malaysia plant." },
+    { "name": "Guangdong Fenghua Advanced Technology", "kind": "direct competitor", "note": "Chinese maker reporting robust orders and high utilization; implemented two 2026 price increases; reportedly pursuing AI-server qualification." },
+    { "name": "Silicon capacitor suppliers (e.g., Empower Semiconductor)", "kind": "indirect alternative", "note": "Embedded silicon capacitors offer a complementary, not fully substitutive, alternative for specific power-delivery functions." },
+    { "name": "Polymer tantalum capacitor suppliers", "kind": "indirect alternative", "note": "Used for bulk decoupling in some AI-server power-delivery designs as a partial MLCC substitute." }
+  ],
+  "financials": [],
+  "valuation": {
+    "available": false,
+    "reason": "This research verified disclosed revenue, profit and margin figures from Murata's and Samsung Electro-Mechanics' own earnings releases, but did not independently verify current share prices, share counts and complete financial statements needed to construct a valuation."
+  },
+  "catalysts": [
+    "Nvidia's Vera Rubin platform ramp, which trade press estimates will meaningfully increase per-rack MLCC and capacitor intensity starting 2027",
+    "Murata's ~80 billion yen capacity expansion completing across FY2026-FY2027",
+    "Chinese MLCC makers' qualification progress for AI-server-grade specifications",
+    "Silicon-capacitor and polymer-tantalum substitution adoption in AI-server power-delivery network designs"
+  ],
+  "bear_case": [
+    {
+      "dimension": "Economics",
+      "argument": "The MLCC industry has a well-documented history of whipsawing from acute shortage to oversupply within about 18 months, as occurred in 2018-2019 once double-ordered inventory was cancelled; the same dynamic could unwind the current AI-driven tightness faster than the 2027-2028 capacity timeline suggests."
+    },
+    {
+      "dimension": "Technology",
+      "argument": "Silicon capacitors and polymer tantalum capacitors are already being commercially deployed in AI-server power-delivery networks, providing a partial substitution path that pure structural bottlenecks like EUV lithography lack."
+    },
+    {
+      "dimension": "Competition",
+      "argument": "Chinese MLCC makers have already lifted combined global share from about 6% (2019) to roughly 10% and are actively pursuing AI-server qualification, adding incremental supply that could erode the Murata/Samsung Electro-Mechanics duopoly's pricing power sooner than expected."
+    },
+    {
+      "dimension": "Demand",
+      "argument": "Because MLCC demand growth is a direct derivative of hyperscaler AI accelerator shipment volumes, any deceleration in aggregate hyperscaler capital-expenditure guidance -- a risk flagged across nearly every report in this pipeline -- would flow through directly to MLCC order books and book-to-bill ratios."
+    },
+    {
+      "dimension": "Supply",
+      "argument": "Both Murata and Samsung Electro-Mechanics are simultaneously investing in new capacity (Murata's ~80 billion yen plan; Samsung Electro-Mechanics' undisclosed but implied expansion funding its 10+ long-term contracts); if these land concurrently with a Chinese capacity wave in 2027, supply could overshoot even continued AI demand growth."
+    }
+  ],
+  "kill_conditions": [
+    {
+      "condition": "MLCC lead times normalize to pre-2026 industry-typical levels",
+      "metric": "Reported high-capacitance AI-server MLCC lead times (TrendForce)",
+      "threshold": "Lead times fall below 12 weeks for two consecutive quarters",
+      "time_window": "next 3-4 quarters",
+      "impact": "invalidate"
+    },
+    {
+      "condition": "Murata's or Samsung Electro-Mechanics' MLCC book-to-bill ratio falls toward or below 1.0",
+      "metric": "Quarterly MLCC book-to-bill ratio disclosed in earnings releases",
+      "threshold": "Book-to-bill at or below 1.0 for one full quarter at either company",
+      "time_window": "next 2-3 quarters",
+      "impact": "invalidate"
+    },
+    {
+      "condition": "Aggregate hyperscaler capital-expenditure guidance decelerates materially, reducing downstream AI-server demand for MLCCs",
+      "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)",
+      "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+      "time_window": "next 2-3 quarters",
+      "impact": "weaken"
+    },
+    {
+      "condition": "Silicon-capacitor or polymer-tantalum substitution reaches a meaningful share of AI-server power-delivery bulk capacitance",
+      "metric": "Reported adoption share of substitution technologies in new AI-server PDN designs",
+      "threshold": "Substitution technologies reach at least 15% of new AI-server power-delivery-network capacitance",
+      "time_window": "next 4-6 quarters",
+      "impact": "weaken"
+    }
+  ],
+  "validation_events": [
+    {
+      "event": "Murata's Q2 FY2026 (July-September 2026) earnings release",
+      "expected_window": "around late October 2026",
+      "supports_if": "Murata reports MLCC book-to-bill remaining above roughly 1.2x and reiterates capacity-constrained, price-increase commentary",
+      "weakens_if": "Book-to-bill falls toward 1.0 or management signals easing lead times or moderating price increases",
+      "source_to_monitor": "corporate.murata.com/ir"
+    },
+    {
+      "event": "Samsung Electro-Mechanics Q3 2026 earnings release",
+      "expected_window": "around late October 2026",
+      "supports_if": "MLCC revenue growth and operating margin continue rising and management reiterates sold-out AI-server capacity and further long-term contracts",
+      "weakens_if": "MLCC revenue growth decelerates sharply or operating margin contracts versus Q2 2026",
+      "source_to_monitor": "samsungsem.com investor relations"
+    },
+    {
+      "event": "TrendForce's next quarterly MLCC supply-demand and lead-time update",
+      "expected_window": "around November-December 2026",
+      "supports_if": "Lead times remain in the 5-10+ month range or are reported extending further into 2027",
+      "weakens_if": "Lead times shorten materially or TrendForce flags emerging oversupply risk for 2027",
+      "source_to_monitor": "trendforce.com/presscenter"
+    },
+    {
+      "event": "Nvidia's Vera Rubin platform launch specifications and initial shipment volumes",
+      "expected_window": "late 2026 - 2027",
+      "supports_if": "Confirmed specifications show materially higher per-rack power density and capacitor requirements than GB300, sustaining demand growth",
+      "weakens_if": "Rubin ships with materially lower capacitor intensity than trade-press estimates, or the launch slips",
+      "source_to_monitor": "nvidianews.nvidia.com"
+    },
+    {
+      "event": "Disclosure of any AI server or data-center production delay explicitly attributed to MLCC or passive-component shortage",
+      "expected_window": "next 2-3 quarters",
+      "supports_if": "A hyperscaler or AI-server OEM discloses a delay attributed to MLCC or passive-component shortage",
+      "weakens_if": "No such disclosure surfaces despite continued capex growth, suggesting the constraint is being absorbed without shipment impact",
+      "source_to_monitor": "trade press (DigiTimes, TrendForce, The Elec)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "e1",
+      "claim": "Murata's Q1 FY2026 revenue was a record 502.3 billion yen, up 20.7% YoY, with MLCC book-to-bill at 1.47x, driven by data-center demand.",
+      "source_url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0731d/26q1-e.ashx",
+      "source_title": "Murata Manufacturing Co., Ltd. FY2026 Q1 Financial Results",
+      "source_type": "primary",
+      "published_at": "2026-07-31",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Revenue for Q1 was JPY502.3 billion, a record high on a quarterly basis, up 20.7% year-over-year... Orders were very strong in Q1, with the main content being demand for data centers, and the book-to-bill ratio for MLCCs reached 1.47 times. Primary-source domain was blocked by the egress proxy during this research; figures confirmed via a search-result snippet of the official IR document rather than a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e2",
+      "claim": "Murata plans ~80 billion yen in additional MLCC capacity investment across FY2026-FY2027, expecting only a 10-15% capacity increase once complete.",
+      "source_url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0430b/25q4-e-speach.ashx",
+      "source_title": "Murata Manufacturing Co., Ltd. FY2025 Q4 / FY2026 Outlook Earnings Release Conference",
+      "source_type": "primary",
+      "published_at": "2026-04-30",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Murata announced on April 30 an additional investment of approximately ¥80 billion in MLCC capacity, with roughly ¥40 billion allocated to each of fiscal 2026 and fiscal 2027, focused primarily on small-form-factor, high-capacitance specifications. However, even after the investment is completed, capacity will only increase by 10% to 15% from current levels. Primary-source domain was blocked by the egress proxy; confirmed via search-result snippet, not a direct fetch of the source document.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e3",
+      "claim": "Murata notified customers in March 2026 of a 15-35% price increase on AI-server-grade and automotive-grade MLCCs effective April 1, 2026.",
+      "source_url": "https://www.smbom.com/news/46373",
+      "source_title": "Murata to Raise Prices on High-End MLCCs",
+      "source_type": "secondary",
+      "published_at": "2026-03",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Murata formally notified customers in March 2026 of price increases effective April 1, 2026, raising AI-server-grade and automotive-grade MLCCs by 15%-35%.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e4",
+      "claim": "Samsung Electro-Mechanics Q2 2026 operating profit was KRW440.4 billion (+107% YoY) on sales of KRW3,457.2 billion; MLCC revenue grew 44% YoY, margin improved to 12.7% from 7.6%; long-term contracts signed with 10+ customers.",
+      "source_url": "https://m.samsungsem.com/global/newsroom/news/view.do?id=10462",
+      "source_title": "Samsung Electro-Mechanics, Q2 2026 Business Results",
+      "source_type": "primary",
+      "published_at": "2026-07-30",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Samsung Electro-Mechanics recorded consolidated sales of KRW 3,457.2 billion and operating profit of KRW 440.4 billion in the second quarter... MLCC revenue grew 19% QoQ and 44% YoY... Operating profit margin improved to 12.7% from 7.6% year-over-year... long-term contracts already signed with about 10 customers, including hyperscalers and major semiconductor companies. Primary-source domain was blocked by the egress proxy; confirmed via search-result snippets of the official newsroom release and corroborating trade press, not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e5",
+      "claim": "Samsung Electro-Mechanics notified customers on July 29, 2026 of a 30% MLCC price increase effective August 1, 2026.",
+      "source_url": "https://www.thelec.net/news/articleView.html?idxno=12636",
+      "source_title": "Samsung Electro-Mechanics to Raise MLCC Prices by 30% Starting in August",
+      "source_type": "secondary",
+      "published_at": "2026-07-29",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Samsung Electro-Mechanics has sent customers a notice announcing that it plans to raise prices for certain MLCC products by 30% from August 1, 2026. The company explained that structural growth in global electronics demand has placed pressure on the supply chain beyond what it can absorb internally.",
+      "confidence": "high"
+    },
+    {
+      "id": "e6",
+      "claim": "High-end MLCC lead times diverged to 5-10 months by August 2026; tightness may extend into 2027.",
+      "source_url": "https://www.trendforce.com/news/2026/08/18/news-mlcc-lead-times-diverge-as-high-end-products-stretch-to-5-10-months-on-ai-demand-tightness-may-extend-into-2027/",
+      "source_title": "MLCC Lead Times Diverge as High-End Products Stretch to 5-10 Months; Tightness May Extend Into 2027",
+      "source_type": "secondary",
+      "published_at": "2026-08-18",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "High-capacitance MLCC lead times have diverged from general-purpose parts, stretching to 5-10 months for AI-server-grade specifications, with tightness expected to potentially extend into 2027. Primary-source domain was blocked by the egress proxy during this research; confirmed via search-result snippet, not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e7",
+      "claim": "An across-the-board ~30% MLCC price surge was reported August 4, 2026, following Samsung Electro-Mechanics' price action.",
+      "source_url": "https://www.trendforce.com/news/2026/08/04/news-across-the-board-30-price-hike-mlcc-price-surge-intensifies/",
+      "source_title": "Across-the-Board 30% Price Hike: MLCC Price Surge Intensifies",
+      "source_type": "secondary",
+      "published_at": "2026-08-04",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "MLCC price increases have broadened across the industry to roughly 30%, following Samsung Electro-Mechanics' move, with Taiyo Yuden reportedly considering a similar hike effective September 1, 2026. Domain blocked by the egress proxy; confirmed via search-result snippet.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e8",
+      "claim": "Murata (~45%) and Samsung Electro-Mechanics (~39%) together hold ~84% share of AI-server-grade MLCC supply; Chinese suppliers absorbing overflow demand.",
+      "source_url": "https://www.digitimes.com/news/a20260914VL212/mlcc-capacity-market-semco-murata.html",
+      "source_title": "AI servers are eating MLCC capacity, and Chinese suppliers are taking what's left",
+      "source_type": "secondary",
+      "published_at": "2026-09-14",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Murata and Samsung together account for approximately 80-85% of the AI-grade MLCC market (Murata ~45%, Samsung Electro-Mechanics ~39%), and Chinese suppliers are increasingly absorbing overflow demand these two companies cannot fill. Domain blocked by the egress proxy; confirmed via search-result snippet, not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e9",
+      "claim": "CSP in-house ASIC programs are concentrating MLCC demand on a narrower spec set; TrendForce flagged risk of structural shortages in high-end specialty MLCCs emerging in 2H26.",
+      "source_url": "https://www.trendforce.com/presscenter/news/20260617-13105.html",
+      "source_title": "CSP In-House ASIC Boom Drives MLCC Specification Concentration; Structural Shortages of High-End Specialty MLCCs May Emerge in 2H26",
+      "source_type": "secondary",
+      "published_at": "2026-06-17",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Cloud service providers' expanding in-house ASIC programs are concentrating demand on a narrower range of high-end MLCC specifications, raising the risk of structural shortages of high-end specialty MLCCs in the second half of 2026. Domain blocked by the egress proxy; confirmed via search-result snippet.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e10",
+      "claim": "A single Nvidia GB300-based AI server is estimated to require roughly 30,000 MLCCs versus 1,800-2,500 for a general-purpose server.",
+      "source_url": "https://cosolvic.com/blog/murata-mlcc-price-increase-2026-ai-server-impact/",
+      "source_title": "Murata MLCC Price Increase 2026: AI Server Demand",
+      "source_type": "discovery",
+      "published_at": null,
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "A single NVIDIA GB300 AI server uses roughly 30,000 MLCCs, compared to roughly 1,800-2,500 MLCCs for a typical general-purpose server. This is a third-party trade-press estimate, not an Nvidia-disclosed figure; cited here as an illustrative order-of-magnitude estimate only.",
+      "confidence": "low"
+    },
+    {
+      "id": "e11",
+      "claim": "Trade-press estimates suggest Nvidia's Vera Rubin NVL72 rack could use roughly 182% more MLCC value than its GB300-based predecessor, with some estimates citing rack-level counts above 400,000 units.",
+      "source_url": "https://www.utmel.com/blog/categories/capacitors/ai-server-mlccs-why-nvidia-rubin-racks-require-over-600-000-capacitors",
+      "source_title": "AI Server MLCCs: Why NVIDIA Rubin Racks Require Over 600,000 Capacitors",
+      "source_type": "discovery",
+      "published_at": null,
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Nvidia's Vera Rubin VR200 NVL72 AI rack uses an estimated 182% more MLCC value than its GB300-based predecessor... next-generation AI servers like NVIDIA's Rubin architecture require over 600,000 MLCCs per rack. This is an unverified third-party estimate, not an Nvidia-disclosed specification.",
+      "confidence": "low"
+    },
+    {
+      "id": "e12",
+      "claim": "Samsung Electro-Mechanics signed a ~$1B silicon-capacitor supply deal in May 2026 through 2027-2028; silicon capacitors are complementary to, not a substitute for, MLCCs.",
+      "source_url": "https://insights.trendforce.com/p/mlcc-silicon-capacitor-power-integrity",
+      "source_title": "Powering Next-Gen AI: Capacitors' Dual-Track Evolution",
+      "source_type": "secondary",
+      "published_at": null,
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "In May 2026, Samsung Electro-Mechanics announced a silicon capacitor supply contract worth approximately USD 1 billion with a major global customer, covering deliveries through 2027 and 2028... the relationship between MLCCs and silicon capacitors should be understood as complementarity, not substitution.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e13",
+      "claim": "Polymer tantalum capacitors are being adopted as a partial MLCC alternative for bulk decoupling in AI-server power-delivery network designs.",
+      "source_url": "https://www.utmel.com/blog/categories/capacitors/mlcc-vs-polymer-tantalum-capacitors-overcoming-2026-shortages-in-ai-server-pdns",
+      "source_title": "MLCC vs Polymer Tantalum Capacitors: Overcoming 2026 Shortages in AI Server PDNs",
+      "source_type": "discovery",
+      "published_at": null,
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Conductive polymer tantalum capacitors are being implemented as AI server MLCC alternatives... a division-of-labor strategy using polymer tantalums for bulk decoupling and MLCCs for point-of-load optimizes PDN performance.",
+      "confidence": "low"
+    },
+    {
+      "id": "e14",
+      "claim": "The MLCC industry experienced a severe 2018-2019 shortage that reversed into oversupply and price erosion within about 18 months once double-ordered inventory was cancelled.",
+      "source_url": "https://passive-components.eu/how-recent-mlcc-end-of-life-announcements-helped-to-disrupt-the-high-tech-economy-in-2018-and-what-to-expect-in-2019/",
+      "source_title": "How Recent MLCC End-of-Life Announcements Helped to Disrupt the High-Tech Economy in 2018 and What to Expect in 2019",
+      "source_type": "secondary",
+      "published_at": null,
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "The global shortage of MLCC first reached worrying levels in 2018... By the second half of 2019, double-bookings began cancelling, lead times collapsed, and the market whipsawed into a glut with price erosion that lasted well into 2020.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e15",
+      "claim": "Chinese maker Guangdong Fenghua Advanced Technology reported robust orders and high utilization through mid-2026, with high-end products ~35-40% of MLCC revenue and two 2026 price increases totaling roughly 20%.",
+      "source_url": "https://passive-components.eu/mlccs-in-the-age-of-ai-q2-2026-market-tightness/",
+      "source_title": "MLCCs in the Age of AI: Q2 2026 Market Tightness",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Fenghua Advanced Technology said in July that MLCC orders remain robust and capacity utilization remains high, with high-end products accounting for around 35%-40% of MLCC revenue. Fenghua has implemented two price adjustments this year, lifting prices by around 20% from the beginning of the year.",
+      "confidence": "low"
+    },
+    {
+      "id": "e16",
+      "claim": "Combined Chinese MLCC makers' global market share has risen to roughly 10%, up from about 6% in 2019, but still trails top-tier suppliers in dielectric thickness, layer count and reliability data for AI-server qualification.",
+      "source_url": "https://en.unibetter-ic.com/top-multilayer-ceramic-capacitor-manufacturers/",
+      "source_title": "Top Multilayer Ceramic Capacitor Manufacturers",
+      "source_type": "discovery",
+      "published_at": null,
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Chinese MLCC manufacturers have lifted their combined global share to about 10% as of 2024, up from 6% in 2019... Chinese suppliers still trail the highest-end overseas MLCCs in dielectric thickness, stacked layers and long-term reliability data for AI servers.",
+      "confidence": "low"
+    },
+    {
+      "id": "e17",
+      "claim": "Barium titanate ceramic powder and nickel/palladium electrode metal cost pressure is contributing to MLCC price increases; Indonesian nickel export cuts affected fine nickel powder pricing.",
+      "source_url": "https://www.ftcelectronics.com/news/why-mlcc-prices-are-rising",
+      "source_title": "MLCC Price Increase 2026: Causes & Supply Chain Impact",
+      "source_type": "discovery",
+      "published_at": null,
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Volatility in nickel and palladium, combined with supply tightness in high-grade ceramic powders such as barium titanate, has pressured BOM cost structures. Cuts to Indonesian nickel ore exports pushed up the price of the fine nickel powder used for internal electrodes.",
+      "confidence": "low"
+    },
+    {
+      "id": "e18",
+      "claim": "Nvidia has announced its Vera Rubin AI platform as the successor to Blackwell/GB300, scaling AI-factory power density and rack-level complexity.",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform",
+      "source_title": "NVIDIA Vera Rubin Opens Agentic AI Frontier",
+      "source_type": "primary",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Nvidia's official newsroom announcement introduces the Vera Rubin platform as the next-generation successor to the current Blackwell/GB300 generation, targeting substantially higher AI-factory scale and power density.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e19",
+      "claim": "Yageo is expanding high-end MLCC capacity in Kaohsiung, Taiwan, targeting X6S specifications for AI servers; Walsin is expanding via Taiwan facility acquisitions and a new Malaysia plant.",
+      "source_url": "https://thz.com.tw/en/news_detail.aspx?CatID=f3fb8e92-4354-44cb-b213-ac69e33d6f44&ID=fd18e75a-1cbf-42ef-9adf-db1fd2909f74",
+      "source_title": "MLCC demand is exploding! An AI server now uses up to 30,000 units — six Taiwanese manufacturers poised for a major comeback",
+      "source_type": "discovery",
+      "published_at": null,
+      "retrieved_at": "2026-09-19",
+      "quote_or_extract": "Yageo has invested heavily in new high-end MLCC capacity in Kaohsiung and is identified as a key supplier of X6S MLCCs for AI servers... Walsin Technology is accelerating its expansion into high-end and automotive MLCC segments through facility acquisitions in Taiwan and building a new automated factory in Malaysia.",
+      "confidence": "low"
+    }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

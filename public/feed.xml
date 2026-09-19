@@ -6,6 +6,18 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Two-Cent Bottleneck: Are Sold-Out MLCC Ceramic Capacitors Quietly Constraining AI Server Production?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/mlcc-capacitor-shortage-ai-server-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/mlcc-capacitor-shortage-ai-server-bottleneck</guid>
+      <pubDate>Sat, 19 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>passive-components</category>
+      <category>advanced-manufacturing</category>
+      <description>Murata and Samsung Electro-Mechanics, holding an estimated 84% of AI-server-grade MLCC capacitor supply, both posted record 2026 earnings and imposed successive double-digit price increases (Murata 15-35% in April, Samsung Electro-Mechanics 30% in August) as AI servers pull far more of this multi-cent passive component than general-purpose machines. Murata&apos;s MLCC book-to-bill hit 1.47x with 90-95% utilization, and its ~¥80 billion capacity plan adds only 10-15% more output by FY2027. High-end lead times reached 5-10 months by August 2026 and may extend into 2027, per TrendForce. Yet the MLCC industry has a documented history of shortage-to-glut reversal, and partial substitutes (silicon capacitors, polymer tantalum) are already shipping, leaving this bottleneck less durable than memory or packaging constraints this pipeline has previously confirmed.</description>
+    </item>
+    <item>
       <title>The Test Wall: Are Advantest and Teradyne&apos;s Sold-Out AI Chip Testers Semiconductor&apos;s Hidden Structural Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/ate-test-equipment-ai-chip-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ate-test-equipment-ai-chip-bottleneck</guid>
