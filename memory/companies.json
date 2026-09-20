@@ -471,5 +471,19 @@
       "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md"
     ],
     "last_updated": "2026-09-19"
+  },
+  {
+    "name": "Corning",
+    "reports": [
+      "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md"
+    ],
+    "last_updated": "2026-09-20"
+  },
+  {
+    "name": "Prysmian",
+    "reports": [
+      "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md"
+    ],
+    "last_updated": "2026-09-20"
   }
 ]

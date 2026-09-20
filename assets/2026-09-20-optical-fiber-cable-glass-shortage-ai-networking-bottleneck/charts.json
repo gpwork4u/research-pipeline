@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Corning's AI-driven annualized revenue run-rate targets",
+    "title_zh": "康寧 AI 驅動的年化營收目標",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "e1",
+    "series": [
+      { "label": "End of 2026", "value": 20 },
+      { "label": "End of 2028", "value": 30 },
+      { "label": "End of 2030", "value": 40 }
+    ]
+  },
+  {
+    "title": "US fiber miles: installed vs. 2029 projected need",
+    "title_zh": "美國光纖里程：現有安裝量與 2029 年預估需求",
+    "type": "bar",
+    "unit": "million fiber miles",
+    "source_id": "e15",
+    "series": [
+      { "label": "Installed (2026 est.)", "value": 159.6 },
+      { "label": "Projected need (2029)", "value": 372.9 }
+    ]
+  }
+]

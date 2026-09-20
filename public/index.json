@@ -1,5 +1,26 @@
 [
   {
+    "title": "The Glass Wall: Is Optical Fiber Cable Manufacturing Capacity AI Networking's Next Structural Bottleneck?",
+    "date": "2026-09-20",
+    "slug": "optical-fiber-cable-glass-shortage-ai-networking-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "networking",
+      "materials",
+      "optics"
+    ],
+    "companies": [
+      "Corning",
+      "Prysmian"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/optical-fiber-cable-glass-shortage-ai-networking-bottleneck",
+    "path": "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The Two-Cent Bottleneck: Are Sold-Out MLCC Ceramic Capacitors Quietly Constraining AI Server Production?",
     "date": "2026-09-19",
     "slug": "mlcc-capacitor-shortage-ai-server-bottleneck",

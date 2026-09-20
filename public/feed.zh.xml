@@ -6,6 +6,18 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>玻璃之牆:光纖纜線製造產能,是否正成為 AI 網路的下一個結構性瓶頸?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/optical-fiber-cable-glass-shortage-ai-networking-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/optical-fiber-cable-glass-shortage-ai-networking-bottleneck</guid>
+      <pubDate>Sun, 20 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>networking</category>
+      <category>materials</category>
+      <category>optics</category>
+      <description>AI GPU 叢集所需光纖約為一般伺服器的 36 倍,2026 年需求已超越玻璃光纖產能:至少一家美國主要玻璃廠已售罄 2026 年庫存,纜線交期拉長至近一年。康寧 Q2 光通訊營收成長 32%,生成式 AI 銷售幾近翻倍,管理層直言產能供不應求。Meta、Amazon 與輝達皆於 2026 年出資支持康寧新產能;普睿司曼投資至 2031 年將美國光纖產能擴增逾一倍。新玻璃預製棒需 18-24 個月才能量產,緩解難在 2027 年前發生。共封裝光學未來或可降低光纖需求,但其供應鏈同樣要到 2027 年才可能量產。</description>
+    </item>
+    <item>
       <title>兩分錢的瓶頸：售罄的 MLCC 陶瓷電容,是否正悄悄制約 AI 伺服器生產?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/mlcc-capacitor-shortage-ai-server-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/mlcc-capacitor-shortage-ai-server-bottleneck</guid>

@@ -1270,5 +1270,50 @@
     "source_to_monitor": "trade press (DigiTimes, TrendForce, The Elec)",
     "origin_report": "reports/2026/09/2026-09-19-mlcc-capacitor-shortage-ai-server-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Corning's Q3 2026 earnings release and call",
+    "expected_window": "around late October 2026",
+    "supports_if": "Optical Communications revenue growth and Gen AI-related sales continue at or above Q2 2026's pace and management reiterates that demand exceeds production capacity",
+    "weakens_if": "Growth decelerates sharply or management signals new capacity is catching up with demand",
+    "source_to_monitor": "investor.corning.com",
+    "origin_report": "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Prysmian's next quarterly results covering the Digital Solutions segment",
+    "expected_window": "around late October-November 2026",
+    "supports_if": "Digital Solutions backlog and the disclosed 2031 capacity build-out remain on schedule with continued hyperscaler agreement announcements",
+    "weakens_if": "Order growth decelerates materially or the capacity-investment plan is scaled back",
+    "source_to_monitor": "prysmian.com investor relations",
+    "origin_report": "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further industry tracking of high-fiber-count cable lead times and pricing (Light Reading, TrendForce, CRU Group)",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Lead times remain at or beyond current levels (toward a year for constrained buyers) or extend further",
+    "weakens_if": "Lead times shorten materially toward pre-2026 norms",
+    "source_to_monitor": "lightreading.com, trendforce.com/presscenter",
+    "origin_report": "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Co-packaged optics volume-shipment milestones from Broadcom, Nvidia, or switch OEMs",
+    "expected_window": "2027",
+    "supports_if": "CPO shipments remain limited or pilot-scale through 2026-2027 as currently projected",
+    "weakens_if": "CPO ships at high volume materially ahead of the ~2027 timeline, easing fiber/transceiver demand sooner than expected",
+    "source_to_monitor": "company newsrooms; trade press (LightCounting, SemiAnalysis)",
+    "origin_report": "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Disclosure of any AI data-center or hyperscaler project delay explicitly attributed to fiber-optic cable shortage",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "At least one hyperscaler or AI-server/data-center operator discloses a delay attributed to fiber-cable unavailability",
+    "weakens_if": "No such disclosure surfaces despite continued capex growth, suggesting the constraint is being absorbed without shipment impact",
+    "source_to_monitor": "trade press (Light Reading, Data Center Dynamics, Data Center Frontier)",
+    "origin_report": "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md",
+    "status": "open"
   }
 ]

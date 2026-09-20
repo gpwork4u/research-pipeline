@@ -569,5 +569,24 @@
       "TDK Corporation",
       "Yageo Corporation"
     ]
+  },
+  {
+    "slug": "optical-fiber-cable-glass-shortage-ai-networking-bottleneck",
+    "title": "The Glass Wall: Is Optical Fiber Cable Manufacturing Capacity AI Networking's Next Structural Bottleneck?",
+    "last_updated": "2026-09-20",
+    "reports": [
+      "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "networking",
+      "materials",
+      "optics"
+    ],
+    "companies": [
+      "Corning",
+      "Prysmian"
+    ]
   }
 ]

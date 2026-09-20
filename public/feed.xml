@@ -6,6 +6,18 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Glass Wall: Is Optical Fiber Cable Manufacturing Capacity AI Networking&apos;s Next Structural Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/optical-fiber-cable-glass-shortage-ai-networking-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/optical-fiber-cable-glass-shortage-ai-networking-bottleneck</guid>
+      <pubDate>Sun, 20 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>networking</category>
+      <category>materials</category>
+      <category>optics</category>
+      <description>AI GPU clusters reportedly consume roughly 36 times more optical fiber than standard servers, and 2026 demand outran glass-fiber manufacturing capacity: at least one leading US glass maker sold out its 2026 inventory, and cable lead times stretched toward a year. Corning&apos;s Optical Communications revenue grew 32% in Q2 2026 with Gen AI sales nearly doubling, and management said it could sell more than it can currently make. Meta, Amazon and Nvidia each signed multibillion-dollar 2026 agreements anchoring new Corning capacity; Prysmian is investing to more than double US fiber output through 2031. New glass preforms take 18-24 months to bring online, so relief is unlikely before 2027. Co-packaged optics could ease fiber intensity later, but its own supply chain is not expected ready for volume before 2027 either.</description>
+    </item>
+    <item>
       <title>The Two-Cent Bottleneck: Are Sold-Out MLCC Ceramic Capacitors Quietly Constraining AI Server Production?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/mlcc-capacitor-shortage-ai-server-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/mlcc-capacitor-shortage-ai-server-bottleneck</guid>

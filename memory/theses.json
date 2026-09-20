@@ -1098,5 +1098,46 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-optical-fiber-cable-glass-shortage-ai-networking-bottleneck",
+    "topic": "optical-fiber-cable-glass-shortage-ai-networking-bottleneck",
+    "statement": "AI GPU clusters reportedly require roughly 36x more optical fiber than traditional CPU-server racks, and 2026 demand outran glass-fiber manufacturing capacity: Corning stated demand for high-density optical products exceeds its production capacity, at least one of the three leading US glass makers sold out its 2026 fiber inventory, and cable lead times stretched toward a year. Corning signed anchor multibillion-dollar 2026 agreements with Meta, Amazon and Nvidia (the latter also an equity investor) to co-fund new capacity, while Prysmian is investing to more than double US fiber output through 2031 -- evidence this meets the strict Structural Bottleneck test (extreme demand, low supply elasticity given 18-24 month preform lead times, hard substitutability at AI-cluster bandwidth/latency). This is a distinct networking-layer node from the EML-laser/transceiver constraint examined in the August 26, 2026 report -- glass-fiber manufacturing capacity itself, not the lasers or modules built from it. Confidence is medium rather than high because the germanium raw-material chokepoint narrative rests on a single, uncorroborated trade-blog source, and co-packaged optics -- while not expected to relieve demand before 2027 -- is a credible longer-run technology substitute this pipeline's hardest-confirmed bottlenecks (EUV lithography, HBM memory) lack.",
+    "confidence": "medium",
+    "created_at": "2026-09-20",
+    "updated_at": "2026-09-20",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "High-fiber-count optical cable lead times normalize toward pre-2026 industry-typical levels",
+        "metric": "Reported loose-tube and high-fiber-count cable lead times (Light Reading, TrendForce, CRU Group)",
+        "threshold": "Lead times fall below 20 weeks for two consecutive quarters",
+        "time_window": "next 3-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Corning's or Prysmian's Optical Communications / Digital Solutions order growth decelerates sharply despite continued AI capex growth",
+        "metric": "Quarterly segment revenue growth and disclosed backlog/book-to-bill commentary",
+        "threshold": "Sequential revenue growth turns negative or management signals capacity catching up with demand for two consecutive quarters",
+        "time_window": "next 2-4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Aggregate hyperscaler capital-expenditure guidance decelerates materially, reducing downstream fiber demand",
+        "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Co-packaged optics reaches high-volume shipment materially ahead of the ~2027 timeline, reducing fiber/transceiver intensity per AI cluster",
+        "metric": "Disclosed CPO port shipment volumes as a share of new AI-cluster networking deployments",
+        "threshold": "CPO ports exceed roughly 20% of new AI-cluster deployments within the next year",
+        "time_window": "next 3-4 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]
