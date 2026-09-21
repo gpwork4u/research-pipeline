@@ -1139,5 +1139,46 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-water-scarcity-ai-data-center-cooling-bottleneck",
+    "topic": "water-scarcity-ai-data-center-cooling-bottleneck",
+    "statement": "Water access for hyperscale AI data centers in drought-stressed US regions (Arizona, Georgia and similar Southeast/Southwest markets) is a real, evidenced source of regulatory, reputational and municipal-credit risk in 2026 -- Ohio rescinded a statewide wastewater permit, Arizona's Attorney General called for a construction pause, a Georgia campus was fined for unmetered draw, and Moody's flagged municipal credit risk -- but it fails this pipeline's strict Structural Bottleneck test because substitutability is not Hard: Microsoft already discloses a 90% cut in fleet water intensity and a zero-water cooling design in production, and water-technology vendors (Xylem, Ecolab/CoolIT) are visibly and profitably scaling supply in direct response to the same demand. The thesis is best read as a Growth Area for water-technology vendors and a persistent but non-existential regulatory/political risk for hyperscalers, substantially overlapping with this pipeline's August 30, 2026 political-opposition bottleneck rather than standing fully apart from it.",
+    "confidence": "medium",
+    "created_at": "2026-09-21",
+    "updated_at": "2026-09-21",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Zero-water or closed-loop cooling designs become the majority of newly announced hyperscale AI data-center capacity",
+        "metric": "Disclosed share of new hyperscale AI data-center capacity using zero-water cooling designs",
+        "threshold": "Exceeds 50% of newly announced capacity",
+        "time_window": "next 2-3 years",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "State and local water-related regulatory actions against data centers stop appearing despite continued AI buildout",
+        "metric": "Count of new state/local water-permitting restrictions, moratoria, or enforcement actions against data centers",
+        "threshold": "Fewer than 2 new actions per quarter nationally",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Hyperscaler absolute water withdrawal growth decelerates materially even as AI capital expenditure keeps growing",
+        "metric": "YoY growth in disclosed hyperscaler water withdrawal versus YoY AI capex growth",
+        "threshold": "Water-withdrawal growth falls materially below capex growth for two consecutive annual disclosures",
+        "time_window": "next 1-2 years",
+        "impact": "weaken"
+      },
+      {
+        "condition": "No municipal bond rating action ties data-center water or power infrastructure costs to credit risk despite Moody's warning",
+        "metric": "Municipal bond rating actions (Moody's, S&P) explicitly citing data-center water/power infrastructure risk",
+        "threshold": "Zero such actions over the next four quarters",
+        "time_window": "next 4 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

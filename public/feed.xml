@@ -6,6 +6,19 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Thirst Wall: Is Water Scarcity a Genuine Structural Bottleneck on AI Data-Center Growth, or a Solvable Efficiency Problem?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/water-scarcity-ai-data-center-cooling-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/water-scarcity-ai-data-center-cooling-bottleneck</guid>
+      <pubDate>Mon, 21 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>data-centers</category>
+      <category>regulation</category>
+      <category>water</category>
+      <category>sustainability</category>
+      <description>AI data centers are concentrating in drought-stressed US regions: roughly two-thirds of 809 planned facilities sit on NOAA-classified drought-stricken land. In 2026 that collision produced real friction -- Ohio scrapped a statewide wastewater permit after 7,000+ public comments, Arizona&apos;s AG called for a construction pause, a Georgia campus was caught drawing 29 million unmetered gallons, and Moody&apos;s warned of municipal credit risk. Yet Google&apos;s water consumption rose 34% in 2025 even as Microsoft simultaneously disclosed a 90% water-intensity cut and a zero-water cooling design already in production. Water-technology vendors Xylem and Ecolab are visibly scaling to meet demand, raising guidance because of it. That combination -- binding regional friction alongside a proven, scaling substitute -- means water fails this pipeline&apos;s strict &quot;Hard substitutability&quot; bar even though it remains a genuine source of regulatory and reputational risk.</description>
+    </item>
+    <item>
       <title>The Glass Wall: Is Optical Fiber Cable Manufacturing Capacity AI Networking&apos;s Next Structural Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/optical-fiber-cable-glass-shortage-ai-networking-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/optical-fiber-cable-glass-shortage-ai-networking-bottleneck</guid>

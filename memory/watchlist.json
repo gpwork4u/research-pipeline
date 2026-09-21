@@ -1315,5 +1315,50 @@
     "source_to_monitor": "trade press (Light Reading, Data Center Dynamics, Data Center Frontier)",
     "origin_report": "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Microsoft's, Google's and Amazon's next annual environmental/sustainability reports covering 2026 data",
+    "expected_window": "H1 2027",
+    "supports_if": "Absolute water withdrawal continues rising faster than disclosed efficiency gains, and siting in drought-stressed regions continues",
+    "weakens_if": "Absolute withdrawal growth decelerates sharply or a majority of newly disclosed capacity uses zero-water cooling designs",
+    "source_to_monitor": "sustainability.google, blogs.microsoft.com, sustainability.aboutamazon.com",
+    "origin_report": "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further state-level data-center water/wastewater regulatory actions following Ohio's and Arizona's 2026 moves",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Additional states adopt case-by-case or restrictive water permitting comparable to Ohio's reversal and Arizona's proposed pause",
+    "weakens_if": "States instead move toward standardized, permissive statewide permitting frameworks",
+    "source_to_monitor": "Circle of Blue; state EPA and water-authority filings",
+    "origin_report": "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Xylem's and Ecolab's next quarterly earnings calls",
+    "expected_window": "around late October 2026",
+    "supports_if": "Both continue citing AI/data-center-driven water-solution demand and raise guidance further",
+    "weakens_if": "Data-center-linked water-technology demand commentary softens or guidance is cut",
+    "source_to_monitor": "Xylem and Ecolab investor relations",
+    "origin_report": "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "A follow-up Moody's or S&P report on municipal credit risk tied to data-center water/power infrastructure",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "A specific municipal bond rating action or downgrade cites data-center-driven water/power infrastructure costs",
+    "weakens_if": "No such rating action materializes despite continued data-center growth",
+    "source_to_monitor": "moodys.com; spglobal.com/ratings",
+    "origin_report": "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Resolution of Arizona's Project Blue dispute and Attorney General Mayes's proposed statewide data-center construction pause",
+    "expected_window": "Q4 2026 - 2027",
+    "supports_if": "Arizona adopts a formal statewide pause or binding water-use restriction on new data centers",
+    "weakens_if": "The proposal is dropped or Project Blue proceeds with full water access restored",
+    "source_to_monitor": "azag.gov; azfamily.com; AZPM",
+    "origin_report": "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md",
+    "status": "open"
   }
 ]

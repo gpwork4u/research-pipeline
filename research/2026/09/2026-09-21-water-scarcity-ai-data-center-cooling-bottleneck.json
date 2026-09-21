@@ -1,0 +1,499 @@
+{
+  "topic": {
+    "title": "The Thirst Wall: Is Water Scarcity a Genuine Structural Bottleneck on AI Data-Center Growth, or a Solvable Efficiency Problem?",
+    "slug": "water-scarcity-ai-data-center-cooling-bottleneck",
+    "date": "2026-09-21",
+    "research_type": "NEW",
+    "categories": ["ai-infrastructure", "data-centers", "regulation", "water", "sustainability"],
+    "score": 31,
+    "trigger": "A cluster of water-specific events distinct from this pipeline's prior power/permitting/political-opposition reports converged in mid-to-late 2026: Ohio EPA reversed a proposed statewide data-center wastewater discharge permit on July 21, 2026 after more than 7,000 public comments opposed it; Arizona's 'Project Blue' dispute escalated when Tucson revoked a contractor's water meter in May 2026 over unauthorized water use for dust control and Attorney General Kris Mayes called for a statewide construction pause on August 31, 2026; a Georgia QTS data-center campus was found in May 2026 to have drawn 29 million gallons of unmetered water over 15 months; Moody's warned on June 25, 2026 that data-center water and power infrastructure costs pose credit risk to states and municipalities; and Google's 2026 Environmental Report disclosed 2025 water consumption up 34% year-over-year to 10.9 billion gallons even as Microsoft's June 24, 2026 blog post reported cutting fleet-wide water intensity 90% since its earliest facilities."
+  },
+  "questions": {
+    "primary": "Has water access -- distinct from power, chip, or broad political-permitting constraints this pipeline has already examined -- become a genuine, hard-to-substitute structural bottleneck on AI data-center growth in drought-stressed US regions, or is it a regionally acute but technologically solvable efficiency problem?",
+    "sub": [
+      "How much has AI-driven data-center water consumption actually grown, and how does that compare with hyperscalers' own disclosed efficiency-improvement claims?",
+      "How concentrated and inelastic is water supply in the regions where AI data centers are concentrating, and how quickly can new water rights or infrastructure be added?",
+      "Is water genuinely hard to substitute for data-center cooling, or are zero-water and closed-loop designs already a viable, scaling alternative?",
+      "Is the water constraint a distinct physical bottleneck, or largely a subset of the political/permitting bottleneck this pipeline already documented in its August 30, 2026 data-center moratorium report?",
+      "What financial or credit-market risk does data-center water demand create for municipal utilities and governments, and how directly does that risk transmit back to the hyperscalers themselves?"
+    ]
+  },
+  "thesis": "AI data centers concentrated in drought-stressed US regions (Arizona, Georgia, and other Southeast/Southwest markets) have collided with municipal water systems not built for hyperscale withdrawal, producing real regulatory and reputational friction in 2026: Ohio rescinded a statewide wastewater permit, Arizona's Attorney General called for a construction pause, and a Georgia campus was caught drawing tens of millions of unmetered gallons. Google's absolute water consumption rose 34% in 2025 even as Microsoft reports a 90% cut in water intensity since its earliest facilities and says its newest designs use no water for cooling in normal operation -- direct evidence that the leading hyperscalers already have, and are deploying, a viable substitute technology. That undercuts the strict 'Hard substitutability' test for a pipeline-wide Structural Bottleneck: water access is a genuine, regionally binding constraint on already-sited, evaporative-cooled capacity and a real source of political and municipal-credit risk (per Moody's), but it is better classified as a Growth Area for water-technology vendors (Xylem, Ecolab/CoolIT) than as a hard physical ceiling on AI compute growth overall.",
+  "facts": [
+    {
+      "statement": "Google's 2026 Environmental Report disclosed that the company's water consumption rose 34% year-over-year to 10.9 billion gallons in 2025, more than double its 2021 level, with data centers accounting for most of the increase; Google's water-stewardship projects replenished approximately 7.7 billion gallons in 2025, about 78% of its freshwater consumption, toward a 2030 goal of replenishing more than it consumes.",
+      "type": "FACT",
+      "evidence_ids": ["e1"],
+      "confidence": "high"
+    },
+    {
+      "statement": "An analysis using NOAA's National Integrated Drought Information System, reported by Tom's Hardware, found that roughly two-thirds of 809 AI data centers planned across the US -- 517 of them -- are slated for land classified as drought-stricken over the prior year, with new facilities concentrated in Arizona, New Mexico, Tennessee, Georgia, South Carolina, North Carolina and Virginia.",
+      "type": "FACT",
+      "evidence_ids": ["e2"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "The same analysis reported that data-center cooling accounts for only about 4% of the additional water AI is projected to demand by 2050, versus roughly 54% for power generation and 42% for semiconductor fabrication -- indicating cooling-water use is one part of a larger AI-linked water footprint rather than its dominant component.",
+      "type": "FACT",
+      "evidence_ids": ["e2"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "A Quality Technology Services (QTS) data-center campus roughly 20 miles south of Atlanta in Fayette County, Georgia was found in May 2026 to have drawn nearly 29 million gallons of water over 15 months through two unmetered industrial hookups, discovered only after residents complained of low water pressure; QTS was billed $147,474 by the county, and officials declined to fine the facility.",
+      "type": "FACT",
+      "evidence_ids": ["e3"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "In Tucson, Arizona, the city revoked a temporary construction water meter in May 2026 after finding that Ames Construction, a contractor for the Beale Infrastructure-developed 'Project Blue' data center, had transported city water outside Tucson's service area for dust control without authorization; the city demanded replacement of the roughly two acre-feet (about 650,000 gallons) used, and the Tucson Mayor and Council unanimously rejected any city support for, or use of city water by, the Project Blue development.",
+      "type": "FACT",
+      "evidence_ids": ["e5"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Arizona Attorney General Kris Mayes called on August 31, 2026 for a statewide pause on new data-center construction, citing water-supply concerns amid the state's ongoing water disputes.",
+      "type": "FACT",
+      "evidence_ids": ["e6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Ohio EPA announced on July 21-22, 2026 that it was abandoning a proposed statewide general permit that would have allowed all data centers in the state to discharge untreated waste- and stormwater into local waterways, after receiving more than 7,000 public comments opposed to it; the agency will instead require each project to undergo individual, case-by-case National Pollutant Discharge Elimination System permitting.",
+      "type": "FACT",
+      "evidence_ids": ["e7"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Xylem raised its 2026 adjusted earnings-per-share guidance to $5.55-$5.70 (from $5.35-$5.60) after second-quarter 2026 results beat estimates; CEO Matthew Pine attributed part of the strength to AI infrastructure expansion increasing demand for water solutions across semiconductor manufacturing, power generation and mining, and a Xylem-linked report projected water demand across these sectors rising 130% over the coming years.",
+      "type": "FACT",
+      "evidence_ids": ["e8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Ecolab agreed on March 20, 2026 to acquire CoolIT Systems, a liquid-cooling technology maker, for approximately $4.75 billion in cash to expand into water-efficient AI data-center cooling; on June 1, 2026, CoolIT announced a 15kW coldplate design for single-phase direct liquid cooling, roughly four times the capacity of its previously demonstrated coldplate.",
+      "type": "FACT",
+      "evidence_ids": ["e9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Moody's Ratings warned on June 25, 2026 that the data-center boom's power and water infrastructure demands are creating credit risks for state and local governments, since expansion costs may fall on governments or ratepayers if not fully recovered from data-center customers; separately, Moody's estimated roughly $662 billion of risk is concentrated in just five companies at the heart of the data-center buildout, and at least 14 states were considering statewide data-center moratoria in 2026.",
+      "type": "FACT",
+      "evidence_ids": ["e10"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Microsoft stated in a June 24, 2026 blog post that its newest data centers use 90% less water than its earliest facilities, that its fleet-wide water-use intensity fell to 0.27 liters per kilowatt-hour in 2025 from 2.3 L/kWh in the early 2000s (about three times better than the industry average it cites), that it is targeting a 40% water-use-intensity improvement by 2030 (25% already achieved as of 2025), and that it reached a 'water positive' milestone in fiscal year 2025 by replenishing more fresh water globally than it withdrew; Microsoft also said its newest data-center design, introduced in August 2024, uses zero water for cooling during normal operation.",
+      "type": "FACT",
+      "evidence_ids": ["e11"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Al Jazeera and Grist reported in mid-2026 that looming water cuts in Arizona, tied to Colorado River basin and groundwater stress, have intensified local opposition to new data centers, with residents and officials in Tucson and elsewhere explicitly citing water scarcity as grounds to reject or restrict projects.",
+      "type": "FACT",
+      "evidence_ids": ["e12"],
+      "confidence": "medium"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "The combination of Google's rising absolute water consumption, Microsoft's simultaneous disclosure of steep water-intensity cuts and a zero-water-cooling design, and Xylem's and Ecolab's guidance raises tied explicitly to AI-driven water-technology demand together indicate that water-efficient cooling technology is already a scaling, commercially available substitute -- meaning the water constraint fails the strict 'Hard substitutability' bar this pipeline requires for a Structural Bottleneck classification, even though it is a real and binding regional constraint on already-sited, evaporative-cooled capacity.",
+      "type": "INFERENCE",
+      "evidence_ids": ["e1", "e8", "e9", "e11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because Ohio's permit reversal, Arizona's proposed construction pause, and the broader wave of state moratoria Moody's cites are driven primarily by political and regulatory response to water-use controversies rather than by an absolute physical exhaustion of water supply, the water bottleneck substantially overlaps with -- rather than stands fully apart from -- the political-opposition bottleneck this pipeline documented on August 30, 2026; water scarcity functions here largely as the proximate trigger for permitting and moratorium risk rather than a wholly distinct binding constraint.",
+      "type": "INFERENCE",
+      "evidence_ids": ["e6", "e7", "e10"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "The Georgia and Arizona incidents suggest that unmetered or unauthorized water use is currently detected reactively (via resident complaints about water pressure or dust) rather than through proactive utility oversight, implying that the true scale of undisclosed data-center water draw in stressed regions is likely understated in current public reporting.",
+      "type": "INFERENCE",
+      "evidence_ids": ["e3", "e5"],
+      "confidence": "low"
+    },
+    {
+      "statement": "Moody's municipal credit-risk warning implies that even if water itself is not a hard physical ceiling on AI compute growth, the cost of expanding water and power infrastructure to serve data centers could still create a financial transmission channel -- from strained municipal budgets and ratepayers back to the political willingness of host communities to approve new capacity -- that indirectly constrains growth regardless of the underlying substitutability of cooling technology.",
+      "type": "INFERENCE",
+      "evidence_ids": ["e10"],
+      "confidence": "medium"
+    }
+  ],
+  "unknowns": [
+    "The precise current or planned share of new hyperscale AI data-center capacity being built with zero-water or closed-loop cooling designs, versus traditional evaporative cooling, is not disclosed in aggregate by any source reviewed.",
+    "No source in this research quantifies how much of the 517 drought-region data centers identified by NOAA-based analysis have already secured firm, long-term water rights or contracts, versus how many face genuine allocation risk.",
+    "Whether any hyperscaler has publicly disclosed an actual project delay or capacity reduction specifically attributed to water unavailability, as distinct from power, permitting, or political opposition, is not established in sources reviewed.",
+    "The extent to which Google's, Amazon's and Meta's individual data-center fleets have adopted zero-water designs comparable to Microsoft's newest facilities is not independently disclosed by those companies in the sources reviewed here."
+  ],
+  "industry_chain": [
+    {
+      "name": "Municipal and regional water supply and rights (aquifers, rivers, reservoirs, utility allocation)",
+      "role": "Upstream",
+      "major_players": [],
+      "pricing_power": "Low",
+      "supply_elasticity": "Low",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Water treatment, reuse and liquid-cooling technology",
+      "role": "Components",
+      "major_players": ["Xylem", "Ecolab", "CoolIT Systems", "Vertiv", "Munters"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Easy"
+    },
+    {
+      "name": "Data-center cooling system design and construction (evaporative vs. closed-loop/zero-water)",
+      "role": "Infrastructure",
+      "major_players": [],
+      "pricing_power": null,
+      "supply_elasticity": null,
+      "substitutability": null
+    },
+    {
+      "name": "Hyperscale AI data-center campuses",
+      "role": "Platform",
+      "major_players": ["Microsoft", "Google", "Amazon", "Meta", "QTS", "Beale Infrastructure"],
+      "pricing_power": null,
+      "supply_elasticity": null,
+      "substitutability": null
+    },
+    {
+      "name": "AI training and inference compute services",
+      "role": "Application",
+      "major_players": ["Microsoft", "Google", "Amazon", "Meta"],
+      "pricing_power": null,
+      "supply_elasticity": null,
+      "substitutability": null
+    },
+    {
+      "name": "AI end users (enterprise and consumer applications)",
+      "role": "Customer",
+      "major_players": [],
+      "pricing_power": null,
+      "supply_elasticity": null,
+      "substitutability": null
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "Municipal water access and rights for hyperscale data centers in drought-stressed US regions (Arizona, Georgia and similar Southeast/Southwest markets)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "years (new water rights, reservoirs, desalination or large-scale reuse infrastructure take roughly 3-10+ years to permit and build)",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Medium",
+      "profit_capture": "Low",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "Demand growth is Extreme (Google's water consumption rose 34% in one year) and supply elasticity is genuinely Low in specific drought-stressed regions (fixed aquifer/river allocations, permitting reversals in Ohio, a proposed construction pause in Arizona). But substitutability fails the strict 'Hard' bar: Microsoft already discloses a 90% water-intensity cut and a zero-water cooling design in production, and Xylem/Ecolab are visibly scaling substitute technology with rising guidance tied to exactly this demand. Because one of the three required conditions (Hard substitutability) is not met, this does not qualify as a pipeline-wide Structural Bottleneck, though it remains a real, binding regional constraint on already-sited, evaporative-cooled capacity."
+    },
+    {
+      "node": "Water treatment, reuse and liquid-cooling technology supply (Xylem, Ecolab/CoolIT and peers)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Medium",
+      "expansion_time": null,
+      "substitutability": "Easy",
+      "pricing_power": "Medium",
+      "market_attention": "Low",
+      "profit_capture": "Medium",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "Multiple established, well-capitalized vendors (Xylem, Ecolab/CoolIT, Vertiv, Munters) are actively expanding capacity and raising guidance in direct response to AI-driven water and cooling demand, which is the classic signature of a Growth Area rather than a bottleneck: supply is responding, not structurally fixed."
+    },
+    {
+      "node": "Political and regulatory permitting of data-center water use and discharge",
+      "demand_growth": "High",
+      "supply_elasticity": "Low",
+      "expansion_time": null,
+      "substitutability": "Medium",
+      "pricing_power": null,
+      "market_attention": "Medium",
+      "profit_capture": "Low",
+      "opportunity_score": 2,
+      "classification": "Growth Area",
+      "rationale": "Regulatory risk (Ohio's permit reversal, Arizona's proposed pause, Moody's-cited moratoria in at least 14 states) is real and slow to resolve, but it substantially overlaps with the political-opposition bottleneck this pipeline already documented on August 30, 2026, and companies retain the option -- unlike a true structural chokepoint -- of siting new capacity in less water-stressed jurisdictions or adopting zero-water designs, which keeps substitutability at Medium rather than Hard."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Xylem Inc.",
+      "business_model": "Manufactures water-treatment, transport and reuse equipment and provides related services across industrial, municipal and utility customers, including data centers.",
+      "revenue_model": "Product and equipment sales plus services, with growing exposure to AI-data-center, semiconductor and power-generation customers.",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI-driven data-center water demand", "semiconductor manufacturing water demand", "power-generation and industrial water reuse"],
+      "customer_concentration": null,
+      "moat": "Established scale and technical expertise across industrial water treatment and reuse, positioned as a direct beneficiary of AI-linked water-solution demand.",
+      "switching_costs": null,
+      "capital_intensity": "Medium",
+      "management_strategy": "Raised 2026 adjusted EPS guidance to $5.55-$5.70 citing AI-infrastructure-driven water-solution demand; published research projecting sector water demand growth of 130% over the coming years.",
+      "execution_risk": null
+    },
+    {
+      "name": "Ecolab Inc.",
+      "business_model": "Provides water, hygiene and infection-prevention products and services; expanding into AI-data-center liquid cooling through its March 2026 acquisition of CoolIT Systems.",
+      "revenue_model": "Product and service sales, with the CoolIT acquisition adding direct liquid-cooling hardware revenue tied to AI data centers.",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI-data-center liquid cooling adoption", "water-efficient cooling technology demand"],
+      "customer_concentration": null,
+      "moat": "Combines existing industrial water-treatment relationships with newly acquired direct-liquid-cooling hardware technology.",
+      "switching_costs": null,
+      "capital_intensity": "Medium",
+      "management_strategy": "Acquired CoolIT Systems for approximately $4.75 billion (announced March 20, 2026) to move deeper into water-efficient AI data-center cooling; CoolIT introduced a higher-capacity coldplate design in June 2026.",
+      "execution_risk": "Integration risk of a large cash acquisition into a technology segment (direct liquid cooling) adjacent to, but distinct from, Ecolab's core water-treatment business."
+    }
+  ],
+  "metrics": [
+    { "name": "Google 2025 water consumption", "value": 10.9, "unit": "USD billion gallons", "period": "2025", "growth": "+34% YoY", "source_id": "e1" },
+    { "name": "Google 2025 water replenished", "value": 7.7, "unit": "billion gallons", "period": "2025", "growth": null, "source_id": "e1" },
+    { "name": "US planned AI data centers analyzed for drought exposure", "value": 809, "unit": "count", "period": "2026", "growth": null, "source_id": "e2" },
+    { "name": "Of which sited in NOAA-classified drought-stricken areas", "value": 517, "unit": "count (~64%)", "period": "2026", "growth": null, "source_id": "e2" },
+    { "name": "AI water demand by 2050 attributable to data-center cooling", "value": 4, "unit": "% of total AI water demand", "period": "by 2050 (projected)", "growth": null, "source_id": "e2" },
+    { "name": "Georgia QTS campus unmetered water draw", "value": 29, "unit": "million gallons", "period": "over 15 months, disclosed May 2026", "growth": null, "source_id": "e3" },
+    { "name": "Georgia QTS campus water bill", "value": 147474, "unit": "USD", "period": "billed May 2026", "growth": null, "source_id": "e3" },
+    { "name": "Arizona Project Blue unauthorized construction water use", "value": 650000, "unit": "gallons (approx., 2 acre-feet)", "period": "disclosed May 2026", "growth": null, "source_id": "e5" },
+    { "name": "Moody's-flagged concentrated risk across data-center buildout", "value": 662, "unit": "USD billion, across 5 companies", "period": "2026", "growth": null, "source_id": "e10" },
+    { "name": "US states considering statewide data-center moratoria", "value": 14, "unit": "states (at least)", "period": "2026", "growth": null, "source_id": "e10" },
+    { "name": "Microsoft fleet-wide water-use intensity", "value": 0.27, "unit": "L/kWh", "period": "2025", "growth": "down from 2.3 L/kWh in early 2000s", "source_id": "e11" },
+    { "name": "Microsoft 2030 water-use-intensity improvement target", "value": 40, "unit": "% (25% achieved as of 2025)", "period": "target by 2030", "growth": null, "source_id": "e11" },
+    { "name": "Xylem 2026 adjusted EPS guidance (raised)", "value": "5.55-5.70", "unit": "USD per share", "period": "2026 (raised from $5.35-$5.60)", "growth": null, "source_id": "e8" },
+    { "name": "Ecolab-CoolIT Systems acquisition value", "value": 4.75, "unit": "USD billion", "period": "announced March 20, 2026", "growth": null, "source_id": "e9" }
+  ],
+  "competitors": [
+    { "name": "Vertiv Holdings", "kind": "indirect alternative", "note": "Data-center thermal-management and liquid-cooling equipment supplier; not independently detailed with AI-water-specific figures in sources reviewed." },
+    { "name": "Munters Group", "kind": "indirect alternative", "note": "Air treatment and evaporative-cooling equipment maker serving data centers; named among the broader water/cooling-technology ecosystem, not independently detailed here." },
+    { "name": "American Water Works", "kind": "indirect alternative", "note": "Named among water-related stocks positioned to benefit from data-center-driven capital spending on water infrastructure; not independently detailed with AI-specific figures in sources reviewed." },
+    { "name": "Zero-water / air-cooled data-center designs (in-house hyperscaler engineering)", "kind": "internal build", "note": "Microsoft's own newest data-center design (introduced August 2024) uses zero water for cooling during normal operation, functioning as an internal substitute for evaporative cooling." }
+  ],
+  "financials": [],
+  "valuation": {
+    "available": false,
+    "reason": "This research verified disclosed sustainability and guidance figures from Google's, Microsoft's, Xylem's and Ecolab's own disclosures, but did not independently verify current share prices, share counts or complete financial statements needed to construct a valuation."
+  },
+  "catalysts": [
+    "Broader hyperscaler adoption of zero-water or closed-loop cooling designs beyond Microsoft's newest facilities",
+    "Additional state-level moratoria or water-permitting restrictions following Ohio's and Arizona's 2026 actions",
+    "Further capacity expansion or guidance raises from water-technology vendors (Xylem, Ecolab/CoolIT and peers)",
+    "A municipal bond rating action explicitly citing data-center water/power infrastructure costs",
+    "Further disclosures of unauthorized or unmetered water use at existing data centers"
+  ],
+  "bear_case": [
+    {
+      "dimension": "Technology",
+      "argument": "Microsoft's own disclosure of a 90% water-intensity cut and a zero-water cooling design already in production shows that the leading hyperscalers have, and are deploying, a viable substitute technology -- directly undermining the 'Hard substitutability' condition required for this to qualify as a pipeline-wide Structural Bottleneck."
+    },
+    {
+      "dimension": "Regulation",
+      "argument": "Much of the friction identified here (Ohio's permit reversal, Arizona's proposed pause, state moratoria Moody's cites) is political and permitting-driven rather than a pure physical exhaustion of water supply, meaning this thesis substantially overlaps with the political-opposition bottleneck this pipeline already documented on August 30, 2026 rather than identifying a wholly distinct constraint."
+    },
+    {
+      "dimension": "Economics",
+      "argument": "Because Google's rising absolute water consumption is disclosed alongside record AI infrastructure growth, the 'shortage' narrative may partly reflect the arithmetic of rapid scale outpacing genuine efficiency gains, rather than a hard ceiling: Google's own water-replenishment programs already offset roughly 78% of 2025 consumption and are trending toward full offset by 2030."
+    },
+    {
+      "dimension": "Supply",
+      "argument": "Water-technology vendors (Xylem, Ecolab) are visibly and profitably scaling to meet demand, raising guidance because of it -- the classic signature of supply responding elastically to a price/demand signal rather than a structurally fixed input."
+    },
+    {
+      "dimension": "Execution",
+      "argument": "The clearest evidenced harms in this research (Georgia's unmetered draw, Arizona's unauthorized construction water use) are compliance and oversight failures at specific sites rather than evidence that water itself is unavailable at the necessary scale, so the thesis risks overstating a systemic constraint from site-specific governance lapses."
+    }
+  ],
+  "kill_conditions": [
+    {
+      "condition": "Zero-water or closed-loop cooling designs become the majority of newly announced hyperscale AI data-center capacity",
+      "metric": "Disclosed share of new hyperscale AI data-center capacity using zero-water cooling designs",
+      "threshold": "Exceeds 50% of newly announced capacity",
+      "time_window": "next 2-3 years",
+      "impact": "invalidate"
+    },
+    {
+      "condition": "State and local water-related regulatory actions against data centers stop appearing despite continued AI buildout",
+      "metric": "Count of new state/local water-permitting restrictions, moratoria, or enforcement actions against data centers",
+      "threshold": "Fewer than 2 new actions per quarter nationally",
+      "time_window": "next 2-3 quarters",
+      "impact": "weaken"
+    },
+    {
+      "condition": "Hyperscaler absolute water withdrawal growth decelerates materially even as AI capital expenditure keeps growing",
+      "metric": "YoY growth in disclosed hyperscaler water withdrawal versus YoY AI capex growth",
+      "threshold": "Water-withdrawal growth falls materially below capex growth for two consecutive annual disclosures",
+      "time_window": "next 1-2 years",
+      "impact": "weaken"
+    },
+    {
+      "condition": "No municipal bond rating action ties data-center water or power infrastructure costs to credit risk despite Moody's warning",
+      "metric": "Municipal bond rating actions (Moody's, S&P) explicitly citing data-center water/power infrastructure risk",
+      "threshold": "Zero such actions over the next four quarters",
+      "time_window": "next 4 quarters",
+      "impact": "weaken"
+    }
+  ],
+  "validation_events": [
+    {
+      "event": "Microsoft's, Google's and Amazon's next annual environmental/sustainability reports covering 2026 data",
+      "expected_window": "H1 2027",
+      "supports_if": "Absolute water withdrawal continues rising faster than disclosed efficiency gains, and siting in drought-stressed regions continues",
+      "weakens_if": "Absolute withdrawal growth decelerates sharply or a majority of newly disclosed capacity uses zero-water cooling designs",
+      "source_to_monitor": "sustainability.google, blogs.microsoft.com, sustainability.aboutamazon.com"
+    },
+    {
+      "event": "Further state-level data-center water/wastewater regulatory actions following Ohio's and Arizona's 2026 moves",
+      "expected_window": "next 2-3 quarters",
+      "supports_if": "Additional states adopt case-by-case or restrictive water permitting comparable to Ohio's reversal and Arizona's proposed pause",
+      "weakens_if": "States instead move toward standardized, permissive statewide permitting frameworks",
+      "source_to_monitor": "Circle of Blue; state EPA and water-authority filings"
+    },
+    {
+      "event": "Xylem's and Ecolab's next quarterly earnings calls",
+      "expected_window": "around late October 2026",
+      "supports_if": "Both continue citing AI/data-center-driven water-solution demand and raise guidance further",
+      "weakens_if": "Data-center-linked water-technology demand commentary softens or guidance is cut",
+      "source_to_monitor": "Xylem and Ecolab investor relations"
+    },
+    {
+      "event": "A follow-up Moody's or S&P report on municipal credit risk tied to data-center water/power infrastructure",
+      "expected_window": "next 2-3 quarters",
+      "supports_if": "A specific municipal bond rating action or downgrade cites data-center-driven water/power infrastructure costs",
+      "weakens_if": "No such rating action materializes despite continued data-center growth",
+      "source_to_monitor": "moodys.com; spglobal.com/ratings"
+    },
+    {
+      "event": "Resolution of Arizona's Project Blue dispute and Attorney General Mayes's proposed statewide data-center construction pause",
+      "expected_window": "Q4 2026 - 2027",
+      "supports_if": "Arizona adopts a formal statewide pause or binding water-use restriction on new data centers",
+      "weakens_if": "The proposal is dropped or Project Blue proceeds with full water access restored",
+      "source_to_monitor": "azag.gov; azfamily.com; AZPM"
+    }
+  ],
+  "sources": [
+    {
+      "id": "e1",
+      "claim": "Google's 2026 Environmental Report: 2025 water consumption up 34% YoY to 10.9 billion gallons, more than double 2021 levels, driven mostly by data centers; water-stewardship projects replenished ~7.7 billion gallons (~78% of consumption) in 2025.",
+      "source_url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/2026-environmental-report/",
+      "source_title": "Read Google's 2026 Environmental Report",
+      "source_type": "primary",
+      "published_at": "2026-06",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "Google's water consumption climbed 34% to 10.9 billion gallons in 2025, more than double 2021 levels. Data centers accounted for most of the increase. In 2025, Google's water stewardship projects replenished approximately 7.7 billion gallons of water -- roughly 78% of its 2025 freshwater consumption, marking progress toward its ambition to replenish more water than it consumes by 2030. Primary-source domain (blog.google) was blocked by the egress proxy during this research; confirmed via search-result snippets of the official Google blog post and corroborating coverage (Axios), not a direct fetch.",
+      "confidence": "high"
+    },
+    {
+      "id": "e2",
+      "claim": "NOAA-drought-based analysis: ~2/3 (517) of 809 planned US AI data centers sited in drought-stricken areas; cooling is only ~4% of AI's projected 2050 water demand vs. ~54% power generation and ~42% semiconductor fabrication.",
+      "source_url": "https://www.tomshardware.com/tech-industry/most-new-us-ai-data-centers-are-going-up-on-drought-land",
+      "source_title": "Most new U.S. AI data centers are being built in drought zones — two-thirds of 809 planned projects set for areas with water shortages",
+      "source_type": "secondary",
+      "published_at": "2026-06",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "About two-thirds of the 809 data centers planned across the U.S. are slated for land that has been in drought over the past year... 517 data centers are set to be built in areas classified as drought-stricken in the last year, according to the National Oceanic and Atmospheric Administration's National Integrated Drought Information System... data center cooling accounts for only about 4% of the additional water AI will demand by 2050, while power generation takes roughly 54% and semiconductor fabrication about 42%. Domain blocked by the egress proxy; confirmed via search-result snippet, not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e3",
+      "claim": "A QTS data-center campus in Fayette County, Georgia drew ~29 million gallons of unmetered water over 15 months, discovered via resident complaints of low water pressure; billed $147,474 by the county with no fine imposed.",
+      "source_url": "https://winbuzzer.com/2026/05/12/georgia-data-center-secretly-used-29m-gallons-of-water-xcxwbn/",
+      "source_title": "QTS Data Center Owes $147K After Unmetered Georgia Water Use",
+      "source_type": "secondary",
+      "published_at": "2026-05-12",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "A Quality Technology Services (QTS) data center campus located about 20 miles south of Atlanta had been draining the Fayette County water supply for months without the utility's knowledge... it had guzzled nearly 30 million gallons of water without paying a dime... QTS owed Fayette County $147,474 after two unmetered hookups at its Georgia data-center campus moved over 29 million gallons of water. Domain blocked by the egress proxy; confirmed via search-result snippet and corroborating coverage (Gizmodo, Tom's Hardware, Planetizen), not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e5",
+      "claim": "Tucson revoked a contractor's temporary water meter (May 2026) after unauthorized water use for dust control at the Beale Infrastructure 'Project Blue' data center; demanded replacement of ~2 acre-feet (~650,000 gallons); Tucson Mayor/Council rejected city support for or water use by the project.",
+      "source_url": "https://news.azpm.org/p/azpmnews/2026/5/28/229919-arizona-water-officials-approve-wells-tied-to-project-blue-data-center/",
+      "source_title": "Arizona water officials approve wells tied to Project Blue data center",
+      "source_type": "secondary",
+      "published_at": "2026-05-28",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "Ames Construction obtained a construction water meter within Tucson's service area and transported the water outside city limits to the Project Blue site, where it was being used for dust control -- all without authorization... Tucson city manager Tim Thomure notified project developers that the city had revoked a temporary water meter issued to the company's contractor... Thomure demanded that Beale replace the two acre-feet of water used, approximately 650,000 gallons... the city of Tucson Mayor and Council unanimously rejected any involvement with, or support for, the Project Blue Data Center Development and also rejected any use of their water resources for this facility. Domain blocked by the egress proxy; confirmed via search-result snippet, not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e6",
+      "claim": "Arizona Attorney General Kris Mayes called on August 31, 2026 for a statewide pause on new data-center construction, citing water-supply concerns.",
+      "source_url": "https://www.azfamily.com/2026/08/31/ag-mayes-calls-statewide-pause-new-data-center-construction/",
+      "source_title": "AG Mayes calls for statewide pause on new data center construction",
+      "source_type": "secondary",
+      "published_at": "2026-08-31",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "Arizona Attorney General Kris Mayes called for a statewide pause on new data center construction, citing water-supply and resource concerns as the state faces ongoing water disputes tied to data-center development. Domain blocked by the egress proxy; confirmed via search-result snippet, not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e7",
+      "claim": "Ohio EPA dropped its proposed statewide data-center wastewater discharge general permit on July 21-22, 2026 after >7,000 public comments opposed it; will require case-by-case NPDES permitting instead.",
+      "source_url": "https://www.glc.org/dailynews/20260722-permit-withdrawal",
+      "source_title": "Ohio EPA abandons proposed statewide data center wastewater permit",
+      "source_type": "secondary",
+      "published_at": "2026-07-22",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "The Ohio Environmental Protection Agency decided not to move forward with a proposed statewide permit for data centers to dispose wastewater into local waterways, opting instead to require each project to undergo its own individual permitting process... Ohio EPA confirmed that the number of public comments they received exceeded 7,000. The proposed general permit would have allowed all data centers across the state -- regardless of size, location, or type -- to discharge untreated waste- and stormwater directly into waterways. Domain blocked by the egress proxy; confirmed via search-result snippet and corroborating coverage (Circle of Blue, Ohio Statehouse News Bureau), not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e8",
+      "claim": "Xylem raised 2026 adjusted EPS guidance to $5.55-$5.70 after Q2 2026 beat; CEO cites AI infrastructure driving water-solution demand across semiconductor manufacturing, power generation and mining; a Xylem-linked report projects sector water demand up 130% over the coming years.",
+      "source_url": "https://finance.yahoo.com/technology/ai/articles/xylem-raises-annual-profit-forecast-115018598.html",
+      "source_title": "Xylem raises annual profit forecast as AI growth lifts demand for water-treatment equipment",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "Xylem raised its 2026 profit forecast after its second-quarter results beat Wall Street estimates, as cost savings and price increases boosted profitability amid strengthening AI infrastructure demand. The water-management company now expects 2026 adjusted earnings of $5.55 to $5.70 per share, compared with its previous forecast of $5.35 to $5.60 per share. CEO Matthew Pine said the expansion of AI infrastructure has increased demand for water solutions across semiconductor manufacturing, power generation, mining and other industries... a report highlighting how AI adoption is driving a sharp increase in water use across data centers, semiconductor manufacturing and power generation, with demand in these sectors projected to rise by 130% over the coming years. Domain blocked by the egress proxy; confirmed via search-result snippet and corroborating coverage (Finimize), not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e9",
+      "claim": "Ecolab agreed March 20, 2026 to acquire CoolIT Systems for ~$4.75B cash to expand into water-efficient AI data-center cooling; CoolIT announced a 15kW coldplate design (~4x prior capacity) June 1, 2026.",
+      "source_url": "https://finance.yahoo.com/technology/ai/articles/ecolab-ecl-uses-coolit-move-081422822.html",
+      "source_title": "How Ecolab (ECL) Uses CoolIT to Move Deeper Into Water-Efficient AI Data Center Cooling",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "Ecolab agreed on March 20, 2026, to acquire CoolIT Systems for approximately $4.75 billion in cash. On June 1, 2026, CoolIT Systems announced that it had developed a 15kW coldplate design for single-phase direct liquid cooling, delivering nearly four times the capacity of its previously demonstrated coldplate and extending its roadmap for future ultra-high-density AI infrastructure. Domain blocked by the egress proxy; confirmed via search-result snippet, not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e10",
+      "claim": "Moody's (June 25, 2026): data-center water/power infrastructure costs pose credit risk to states/munis; ~$662B risk concentrated in 5 companies; at least 14 states considering statewide data-center moratoria in 2026.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-25/data-center-surge-brings-risk-for-states-and-munis-moody-s-says",
+      "source_title": "Data Center Boom Raises Credit Risks for States, Munis, Moody's Warns",
+      "source_type": "secondary",
+      "published_at": "2026-06-25",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "A flood of data center projects with their heavy power and water demands are introducing credit risks for state and local governments, according to Moody's Ratings. The growth of these facilities 'may require major expansion of power, transmission and water infrastructure, creating costs that may fall on governments or ratepayers if not fully recovered from the new data centers'... Moody's flags $662 billion risk at the heart of the data center build-out by just 5 companies... At least 14 states are considering statewide moratoriums in 2026 to pause and assess the impact of data center expansion. Domain blocked by the egress proxy; confirmed via search-result snippet and corroborating coverage (Yahoo Finance, CryptoBriefing), not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e11",
+      "claim": "Microsoft (June 24, 2026): newest data centers use 90% less water than earliest facilities; fleet water intensity 0.27 L/kWh in 2025 (from 2.3 L/kWh early 2000s); targeting 40% intensity improvement by 2030 (25% achieved 2025); reached 'water positive' milestone FY25; newest design (Aug 2024) uses zero water for cooling in normal operation.",
+      "source_url": "https://blogs.microsoft.com/blog/2026/06/24/inside-microsofts-two-decade-push-to-cut-water-intensity-while-scaling-for-growth/",
+      "source_title": "Inside Microsoft's two-decade push to cut water intensity while scaling for growth",
+      "source_type": "primary",
+      "published_at": "2026-06-24",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "Microsoft has reduced its data center water consumption by 90% compared to levels when it opened its first facilities in the early 2000s. The company used 0.27 liters per kilowatt-hour last year, about three times better than the industry average. Microsoft is committed to a 40 percent improvement in datacenter water-use intensity by 2030, and as of 2025, it has reduced its water-use intensity by 25 percent... In FY25, Microsoft reached an important milestone toward its 2030 water positive commitment, replenishing more water than it withdrew across its global operations for the year... Microsoft launched a new data centre design in August 2024 that consumes zero water for cooling. Primary-source domain (blogs.microsoft.com) was blocked by the egress proxy; confirmed via search-result snippets of the official Microsoft blog post and corroborating coverage (GeekWire, Trellis, Sustainability Magazine), not a direct fetch.",
+      "confidence": "high"
+    },
+    {
+      "id": "e12",
+      "claim": "Al Jazeera/Grist (mid-2026): looming Arizona water cuts tied to Colorado River basin and groundwater stress have intensified local opposition to new data centers.",
+      "source_url": "https://www.aljazeera.com/economy/2026/6/27/with-water-cuts-looming-in-arizona-in-us-locals-fight-data-centres",
+      "source_title": "With water cuts looming in Arizona in US, locals fight data centres",
+      "source_type": "secondary",
+      "published_at": "2026-06-27",
+      "retrieved_at": "2026-09-21",
+      "quote_or_extract": "With water cuts looming in Arizona amid Colorado River basin and groundwater stress, local residents and officials are increasingly citing water scarcity as grounds to oppose or restrict new data-center development. Domain blocked by the egress proxy; confirmed via search-result snippet and corroborating coverage (Grist), not a direct fetch.",
+      "confidence": "medium"
+    }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

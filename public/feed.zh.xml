@@ -6,6 +6,19 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>缺水之牆:水資源短缺是 AI 資料中心成長的真正結構性瓶頸,還是可解決的效率問題?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/water-scarcity-ai-data-center-cooling-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/water-scarcity-ai-data-center-cooling-bottleneck</guid>
+      <pubDate>Mon, 21 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>data-centers</category>
+      <category>regulation</category>
+      <category>water</category>
+      <category>sustainability</category>
+      <description>AI 資料中心正集中設於美國乾旱地區:規劃中的 809 座設施裡,約三分之二座落於 NOAA 認定的乾旱地帶。2026 年這股衝突已釀成實際摩擦——俄亥俄州在逾 7,000 則反對意見後撤回州級廢水排放許可草案、亞利桑那州檢察長呼籲暫停建設、喬治亞州一座園區被查獲擅自抽取 2,900 萬加侖未計量用水,穆迪也對此提出市政信用風險警告。然而 Google 2025 年用水量卻成長 34%,與此同時微軟揭露用水強度降低 90%,且其零耗水冷卻設計已投入量產。水資源科技廠商 Xylem 與 Ecolab 正明顯擴大產能因應需求,並因此調高財測。這種「區域摩擦確實存在,但已有成熟替代方案持續擴大規模」的組合,意味著水資源未能通過本系列嚴格的「替代難度為高」測試,即便它仍是真實的法規與聲譽風險來源。</description>
+    </item>
+    <item>
       <title>玻璃之牆:光纖纜線製造產能,是否正成為 AI 網路的下一個結構性瓶頸?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/optical-fiber-cable-glass-shortage-ai-networking-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/optical-fiber-cable-glass-shortage-ai-networking-bottleneck</guid>

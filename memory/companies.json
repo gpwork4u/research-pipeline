@@ -485,5 +485,19 @@
       "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md"
     ],
     "last_updated": "2026-09-20"
+  },
+  {
+    "name": "Xylem",
+    "reports": [
+      "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md"
+    ],
+    "last_updated": "2026-09-21"
+  },
+  {
+    "name": "Ecolab",
+    "reports": [
+      "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md"
+    ],
+    "last_updated": "2026-09-21"
   }
 ]

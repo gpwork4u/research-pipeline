@@ -1,5 +1,27 @@
 [
   {
+    "title": "The Thirst Wall: Is Water Scarcity a Genuine Structural Bottleneck on AI Data-Center Growth, or a Solvable Efficiency Problem?",
+    "date": "2026-09-21",
+    "slug": "water-scarcity-ai-data-center-cooling-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "data-centers",
+      "regulation",
+      "water",
+      "sustainability"
+    ],
+    "companies": [
+      "Xylem",
+      "Ecolab"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/water-scarcity-ai-data-center-cooling-bottleneck",
+    "path": "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The Glass Wall: Is Optical Fiber Cable Manufacturing Capacity AI Networking's Next Structural Bottleneck?",
     "date": "2026-09-20",
     "slug": "optical-fiber-cable-glass-shortage-ai-networking-bottleneck",

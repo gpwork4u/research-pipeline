@@ -588,5 +588,25 @@
       "Corning",
       "Prysmian"
     ]
+  },
+  {
+    "slug": "water-scarcity-ai-data-center-cooling-bottleneck",
+    "title": "The Thirst Wall: Is Water Scarcity a Genuine Structural Bottleneck on AI Data-Center Growth, or a Solvable Efficiency Problem?",
+    "last_updated": "2026-09-21",
+    "reports": [
+      "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "data-centers",
+      "regulation",
+      "water",
+      "sustainability"
+    ],
+    "companies": [
+      "Xylem",
+      "Ecolab"
+    ]
   }
 ]

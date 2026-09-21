@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Microsoft data-center water-use intensity",
+    "title_zh": "微軟資料中心用水強度",
+    "type": "bar",
+    "unit": "L/kWh",
+    "source_id": "e11",
+    "series": [
+      { "label": "Early 2000s", "value": 2.3 },
+      { "label": "2025", "value": 0.27 }
+    ]
+  },
+  {
+    "title": "US planned AI data centers by drought exposure",
+    "title_zh": "美國規劃中AI資料中心之乾旱暴露情形",
+    "type": "bar",
+    "unit": "count",
+    "source_id": "e2",
+    "series": [
+      { "label": "In NOAA drought-stricken areas", "value": 517 },
+      { "label": "Not in drought-stricken areas", "value": 292 }
+    ]
+  }
+]
