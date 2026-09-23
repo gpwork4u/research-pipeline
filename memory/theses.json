@@ -37,12 +37,13 @@
   {
     "id": "thesis-nvidia-ai-infrastructure-financing-platform",
     "topic": "nvidia-ai-infrastructure-financing-platform",
-    "statement": "Nvidia's push to mobilize over $500 billion in third-party financing does not resolve a capital-quantity bottleneck -- global private credit and alternative-asset capacity is abundant and readily deployed -- but it does not resolve the harder constraint either: credible, arm's-length underwriting capacity for AI compute as loan collateral remains scarce because no large AI GPU cluster has yet completed a full multi-year depreciation and resale cycle, leaving lenders, regulators (BIS), and credit markets (Nvidia's own record CDS spread) unable to price the risk with confidence, while Nvidia's simultaneous role as chip vendor, prospective guarantor, and financing orchestrator is what critics label 'circular financing.'",
+    "statement": "Nvidia's push to mobilize over $500 billion in third-party financing does not resolve a capital-quantity bottleneck -- global private credit and alternative-asset capacity is abundant and readily deployed -- but it does not resolve the harder constraint either: credible, arm's-length underwriting capacity for AI compute as loan collateral remains scarce because no large AI GPU cluster has yet completed a full multi-year depreciation and resale cycle, leaving lenders, regulators (BIS), and credit markets (Nvidia's own record CDS spread) unable to price the risk with confidence, while Nvidia's simultaneous role as chip vendor, prospective guarantor, and financing orchestrator is what critics label 'circular financing.' FOLLOW_UP (2026-09-23): the constraint has intensified and generalized beyond Nvidia to Oracle and CoreWeave by name -- S&P downgraded Oracle to BBB- (Jul 9), Oracle's CDS widened ~40% since January, a hyperscaler CDS basket hit an 8-year high (Apollo/Slok), and CoreWeave's lenders extracted a 100-125bp spread increase and new covenants before closing an August loan. But every financing this month still closed (CoreWeave's loan, Oracle's continued bond issuance, SoftBank's planned retail bond), which reads as elastic upward repricing of credit risk rather than hard quantity rationing -- a real but somewhat less alarming supply-elasticity picture than a strict ceiling would imply. See reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md.",
     "confidence": "medium",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-20",
+    "updated_at": "2026-09-23",
     "supporting_reports": [
-      "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md"
+      "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
+      "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md"
     ],
     "kill_conditions": [
       {

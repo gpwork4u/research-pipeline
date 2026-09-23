@@ -6,6 +6,18 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Neocloud Reckoning: Do Widening Credit Spreads and CoreWeave&apos;s $35 Billion Refinancing Wall Confirm AI&apos;s Underwriting-Capacity Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck</guid>
+      <pubDate>Wed, 23 Sep 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>capital-markets</category>
+      <category>semiconductors</category>
+      <category>credit-risk</category>
+      <description>One month after Nvidia&apos;s $500 billion financing-platform announcement, the credit-risk-underwriting-capacity constraint this pipeline flagged has intensified rather than eased. CoreWeave&apos;s total debt reached $35 billion by June 30, 2026, and its lenders demanded a 100-125 basis-point spread increase plus new covenants before closing an August loan. S&amp;P downgraded Oracle to BBB- -- one notch above junk -- on July 9, citing AI capex and roughly $300 billion of OpenAI-linked backlog; Oracle&apos;s CDS spread has since widened roughly 40% since January. Apollo&apos;s Torsten Slok reports a hyperscaler CDS basket above 100 basis points, an eight-year high, while bank CDS stays flat near 40bps. Yet every financing this month still closed: CoreWeave got its loan, Oracle keeps growing its backlog, and SoftBank is readying a record retail bond. That pattern reads as credit being repriced upward, not rationed -- a real but more elastic constraint than a hard ceiling.</description>
+    </item>
+    <item>
       <title>The Thirst Wall: Is Water Scarcity a Genuine Structural Bottleneck on AI Data-Center Growth, or a Solvable Efficiency Problem?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/water-scarcity-ai-data-center-cooling-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/water-scarcity-ai-data-center-cooling-bottleneck</guid>

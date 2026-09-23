@@ -6,6 +6,18 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>新雲端算力廠的清算時刻：信用利差擴大與 CoreWeave 350 億美元再融資高牆，是否證實了 AI 的承保能力瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck</guid>
+      <pubDate>Wed, 23 Sep 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>capital-markets</category>
+      <category>semiconductors</category>
+      <category>credit-risk</category>
+      <description>輝達融資平台宣布一個月後,承保能力瓶頸不僅未緩解,反而加劇。CoreWeave 債務截至 6 月底達 350 億美元,8 月一筆貸款完成前,放款人要求利差調高 100-125 基點並加入新契約。標普 7 月 9 日將 Oracle 降至 BBB-(僅高於垃圾債),因 AI 資本支出及約 3000 億美元與 OpenAI 掛鉤積壓訂單;其 CDS 利差已較年初擴大約四成。Apollo 經濟學家 Slok 指出,大型科技 CDS 一籃子指數突破 100 基點,創八年新高,銀行 CDS 則持平於 40 基點。然而本月每筆融資仍順利完成:CoreWeave 取得貸款、Oracle 持續擴大訂單、軟銀籌備創紀錄零售債券。此模式顯示信用正被向上重新定價,而非遭配給 —— 真實但比硬性上限更具彈性。</description>
+    </item>
+    <item>
       <title>缺水之牆:水資源短缺是 AI 資料中心成長的真正結構性瓶頸,還是可解決的效率問題?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/water-scarcity-ai-data-center-cooling-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/water-scarcity-ai-data-center-cooling-bottleneck</guid>

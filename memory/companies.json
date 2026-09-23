@@ -11,9 +11,24 @@
     "name": "Nvidia",
     "reports": [
       "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
-      "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md"
+      "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
+      "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md"
     ],
-    "last_updated": "2026-09-04"
+    "last_updated": "2026-09-23"
+  },
+  {
+    "name": "CoreWeave",
+    "reports": [
+      "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  {
+    "name": "Oracle",
+    "reports": [
+      "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md"
+    ],
+    "last_updated": "2026-09-23"
   },
   {
     "name": "Ajinomoto",

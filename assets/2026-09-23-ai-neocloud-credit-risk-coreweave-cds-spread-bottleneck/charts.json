@@ -1,0 +1,35 @@
+[
+  {
+    "title": "CoreWeave total debt",
+    "title_zh": "CoreWeave 總債務",
+    "type": "bar",
+    "unit": "USD billion",
+    "source_id": "s1",
+    "series": [
+      { "label": "End of Q1 2026", "value": 22.7 },
+      { "label": "End of Q2 2026 (Jun 30)", "value": 35 }
+    ]
+  },
+  {
+    "title": "Oracle 5-year CDS spread",
+    "title_zh": "Oracle 五年期 CDS 利差",
+    "type": "bar",
+    "unit": "basis points",
+    "source_id": "s10",
+    "series": [
+      { "label": "Start of 2026", "value": 144 },
+      { "label": "Aug-Sep 2026", "value": 203 }
+    ]
+  },
+  {
+    "title": "Nvidia 5-year CDS spread",
+    "title_zh": "輝達五年期 CDS 利差",
+    "type": "bar",
+    "unit": "basis points",
+    "source_id": "s13",
+    "series": [
+      { "label": "Record intraday, Jul 27 2026", "value": 82 },
+      { "label": "Bid, Aug 19 2026", "value": 80.77 }
+    ]
+  }
+]

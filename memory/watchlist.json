@@ -71,7 +71,8 @@
     "weakens_if": "Spreads normalize toward pre-2026 levels",
     "source_to_monitor": "Credit market data and financial press coverage of CDS/bond spreads",
     "origin_report": "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred through August-September 2026: supports_if branch confirmed. Nvidia's 5-year CDS climbed to an 80.77bp bid by Aug 19 (surpassing its late-July record); S&P downgraded Oracle to BBB- on Jul 9 citing AI capex and OpenAI concentration, with Oracle's CDS widening ~40% since January to the ~200-215bp range; Apollo's Torsten Slok reported a hyperscaler CDS basket (Amazon/Google/Microsoft/Oracle) above 100bp, an 8-year high. Spreads have not normalized. See reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md."
   },
   {
     "event": "First large-scale secondary-market resale or retirement of 3+ year old frontier AI GPU clusters",
@@ -1359,6 +1360,51 @@
     "weakens_if": "The proposal is dropped or Project Blue proceeds with full water access restored",
     "source_to_monitor": "azag.gov; azfamily.com; AZPM",
     "origin_report": "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "CoreWeave's Q3 2026 earnings call and the outcome of its pending $3-3.5 billion financing",
+    "expected_window": "November 2026",
+    "supports_if": "New raises close at wider spreads or with additional covenants, and total debt continues climbing toward or beyond the $35-39B 2026 capex guide",
+    "weakens_if": "CoreWeave scales back capex, raises capital at improving terms, or a planned raise is withdrawn or fails",
+    "source_to_monitor": "investors.coreweave.com",
+    "origin_report": "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Oracle's Q2 FY2027 earnings call and any further rating-agency action",
+    "expected_window": "December 2026",
+    "supports_if": "RPO and OpenAI concentration grow further and CDS/bond spreads remain elevated or widen, or a further downgrade occurs",
+    "weakens_if": "Rating agencies stabilize or improve Oracle's outlook and CDS/bond spreads normalize toward pre-2026 levels",
+    "source_to_monitor": "investor.oracle.com; spglobal.com/ratings; moodys.com",
+    "origin_report": "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next Apollo/Torsten Slok commentary or Bank of America Global Fund Manager Survey update on AI-capex credit-risk perception",
+    "expected_window": "October-November 2026",
+    "supports_if": "The hyperscaler CDS basket remains above 100bps or widens further and a growing share of surveyed managers name AI capex as the top systemic-credit-event risk",
+    "weakens_if": "The basket narrows back toward pre-2026 levels and survey respondents' concern recedes",
+    "source_to_monitor": "apollo.com (Daily Spark); Bank of America Global Fund Manager Survey coverage",
+    "origin_report": "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Execution of definitive agreements for Nvidia's six AI compute-infrastructure financing platforms (Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR)",
+    "expected_window": "Q4 2026 - H1 2027",
+    "supports_if": "Agreements are signed with terms showing Nvidia guarantees, equity stakes, or other circular linkages to borrowing counterparties",
+    "weakens_if": "Agreements are signed with fully arm's-length, diversified, transparent terms with no Nvidia guarantee exposure",
+    "source_to_monitor": "nvidianews.nvidia.com and partner-firm investor communications",
+    "origin_report": "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Pricing outcome of SoftBank's planned ~1 trillion yen retail bond sale",
+    "expected_window": "Q4 2026",
+    "supports_if": "The offering is downsized, delayed, or requires a materially higher yield than planned, signaling investor reluctance to absorb AI-linked debt",
+    "weakens_if": "The bond prices successfully at or near its planned terms and size, showing retail demand can absorb AI-infrastructure debt",
+    "source_to_monitor": "SoftBank Group investor relations; Nikkei and Reuters Japan bond-market coverage",
+    "origin_report": "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md",
     "status": "open"
   }
 ]

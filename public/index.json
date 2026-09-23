@@ -1,5 +1,27 @@
 [
   {
+    "title": "The Neocloud Reckoning: Do Widening Credit Spreads and CoreWeave's $35 Billion Refinancing Wall Confirm AI's Underwriting-Capacity Bottleneck?",
+    "date": "2026-09-23",
+    "slug": "ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "ai-infrastructure",
+      "capital-markets",
+      "semiconductors",
+      "credit-risk"
+    ],
+    "companies": [
+      "Nvidia",
+      "CoreWeave",
+      "Oracle"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck",
+    "path": "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The Thirst Wall: Is Water Scarcity a Genuine Structural Bottleneck on AI Data-Center Growth, or a Solvable Efficiency Problem?",
     "date": "2026-09-21",
     "slug": "water-scarcity-ai-data-center-cooling-bottleneck",
