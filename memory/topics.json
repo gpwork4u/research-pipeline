@@ -628,5 +628,26 @@
       "CoreWeave",
       "Oracle"
     ]
+  },
+  {
+    "slug": "silicon-wafer-duopoly-ai-chip-bottleneck",
+    "title": "The Wafer Floor: Are Shin-Etsu and SUMCO's Capacity Discipline Making 300mm Silicon Wafers AI's Next Structural Bottleneck?",
+    "last_updated": "2026-09-24",
+    "reports": [
+      "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "materials"
+    ],
+    "companies": [
+      "SUMCO",
+      "Shin-Etsu Chemical",
+      "GlobalWafers",
+      "Siltronic"
+    ]
   }
 ]

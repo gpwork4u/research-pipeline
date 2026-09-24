@@ -1406,5 +1406,50 @@
     "source_to_monitor": "SoftBank Group investor relations; Nikkei and Reuters Japan bond-market coverage",
     "origin_report": "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "SUMCO's Q3 FY2026 earnings call",
+    "expected_window": "early November 2026",
+    "supports_if": "SUMCO reiterates the Saga/Yoshinogari delay and continued capacity discipline while reporting improving 300mm volumes and margins",
+    "weakens_if": "SUMCO announces resuming construction or signals its capacity discipline easing",
+    "source_to_monitor": "SUMCO investor relations (sumcosi.com/english/ir)",
+    "origin_report": "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Shin-Etsu Chemical's Q2 FY2026 (Jul-Sep 2026) earnings",
+    "expected_window": "late October-early November 2026",
+    "supports_if": "Shin-Etsu confirms its >20% 300mm capacity target remains on track and AI-related wafer demand keeps outpacing the broader market",
+    "weakens_if": "Shin-Etsu scales back its capacity-expansion target or reports AI-related demand growth decelerating",
+    "source_to_monitor": "Shin-Etsu Chemical investor relations (shinetsu.co.jp/en/ir)",
+    "origin_report": "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "GlobalWafers' Q3 2026 earnings call",
+    "expected_window": "early November 2026",
+    "supports_if": "Operating margin remains compressed and Novara-fire-related disruption continues weighing on output despite continued AI-driven demand",
+    "weakens_if": "Margin and output recover quickly, showing new 300mm capacity ramping smoothly",
+    "source_to_monitor": "GlobalWafers investor relations (sas-globalwafers.com)",
+    "origin_report": "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next SEMI or UBS 300mm wafer demand-supply balance and pricing update",
+    "expected_window": "Q4 2026",
+    "supports_if": "Demand-growth forecasts are reaffirmed or raised and the price increase needed to justify new capacity remains at or above the 40-50% range",
+    "weakens_if": "Demand-growth forecasts are cut materially or the required price-increase threshold narrows",
+    "source_to_monitor": "SEMI (semi.org) and UBS research as covered by trade press",
+    "origin_report": "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's, Samsung's and SK Hynix's Q3 2026 earnings calls: any explicit silicon-wafer cost/availability commentary",
+    "expected_window": "mid-to-late October 2026",
+    "supports_if": "Any of the three explicitly cites silicon-wafer cost or availability as a factor in guidance or pricing",
+    "weakens_if": "No wafer-specific commentary and capacity/output plans proceed with no cited wafer constraint",
+    "source_to_monitor": "Respective investor relations pages",
+    "origin_report": "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md",
+    "status": "open"
   }
 ]

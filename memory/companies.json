@@ -514,5 +514,33 @@
       "reports/2026/09/2026-09-21-water-scarcity-ai-data-center-cooling-bottleneck.md"
     ],
     "last_updated": "2026-09-21"
+  },
+  {
+    "name": "SUMCO",
+    "reports": [
+      "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md"
+    ],
+    "last_updated": "2026-09-24"
+  },
+  {
+    "name": "Shin-Etsu Chemical",
+    "reports": [
+      "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md"
+    ],
+    "last_updated": "2026-09-24"
+  },
+  {
+    "name": "GlobalWafers",
+    "reports": [
+      "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md"
+    ],
+    "last_updated": "2026-09-24"
+  },
+  {
+    "name": "Siltronic",
+    "reports": [
+      "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md"
+    ],
+    "last_updated": "2026-09-24"
   }
 ]

@@ -6,6 +6,18 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Wafer Floor: Are Shin-Etsu and SUMCO&apos;s Capacity Discipline Making 300mm Silicon Wafers AI&apos;s Next Structural Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/silicon-wafer-duopoly-ai-chip-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/silicon-wafer-duopoly-ai-chip-bottleneck</guid>
+      <pubDate>Thu, 24 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>materials</category>
+      <description>Every AI logic chip and HBM stack starts as a 300mm silicon wafer, and the two largest suppliers -- Shin-Etsu and SUMCO, roughly 53-54% of that market -- are behaving very differently. SUMCO indefinitely shelved a JPY225 billion, two-fab expansion in Saga Prefecture in March 2026, explicitly to prioritize AI demand over phone chips, while Shin-Etsu is expanding 300mm capacity over 20% by year-end. GlobalWafers, SK Siltron and Siltronic are all also adding capacity, and China&apos;s NSIG grew 300mm shipments over 90% in H1 2026. UBS estimated on September 18, 2026 that wafer makers need 40-50% price increases to justify new capacity, against actual 2026 chip-price hikes of only 3-10% -- suggesting the market has not yet reached scarcity pricing, and that further price increases are more likely than an outright shortage.</description>
+    </item>
+    <item>
       <title>The Neocloud Reckoning: Do Widening Credit Spreads and CoreWeave&apos;s $35 Billion Refinancing Wall Confirm AI&apos;s Underwriting-Capacity Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck</guid>

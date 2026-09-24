@@ -1181,5 +1181,46 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-silicon-wafer-duopoly-ai-chip-bottleneck",
+    "topic": "silicon-wafer-duopoly-ai-chip-bottleneck",
+    "statement": "300mm silicon wafers -- the raw substrate underlying every AI logic chip and HBM stack -- show early signs of a structural bottleneck at the oligopoly's core: Shin-Etsu and SUMCO control roughly 53-54% of global 300mm supply, and SUMCO has demonstrated deliberate low elasticity by indefinitely shelving a JPY225 billion capacity project to prioritize AI demand over phone chips, while UBS finds actual 2026 price increases (3-10%) remain far below the 40-50% needed to justify new capacity. But because Shin-Etsu, GlobalWafers, SK Siltron, Siltronic and China's NSIG are all simultaneously expanding 300mm capacity, the blended market shows meaningfully higher elasticity than the two largest incumbents alone, so the constraint is more likely to express itself as sustained price increases than as an outright shortage constraining AI chip output.",
+    "confidence": "medium",
+    "created_at": "2026-09-24",
+    "updated_at": "2026-09-24",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Combined disclosed 300mm capacity additions from GlobalWafers, SK Siltron, Shin-Etsu and Siltronic materially outrun 300mm demand growth",
+        "metric": "reported 300mm wafer capacity growth vs. UBS/SEMI demand-growth forecast",
+        "threshold": "capacity growth exceeds UBS's peak ~14% 2027 demand-growth estimate for two consecutive quarters",
+        "time_window": "12-18 months",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "SUMCO resumes or announces a new leading-edge 300mm capacity project",
+        "metric": "SUMCO capex/capacity guidance",
+        "threshold": "formal restart of Saga/Yoshinogari or a new-build announcement",
+        "time_window": "2-4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Wafer-linked price increases stall or reverse despite continued AI demand growth",
+        "metric": "TSMC/Samsung/SK Hynix disclosed wafer-cost or price changes",
+        "threshold": "sequential price increases flatten to under 2% or turn negative",
+        "time_window": "2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "A non-Chinese challenger to the oligopoly (e.g., NSIG) achieves qualification for advanced logic/HBM-grade wafers at a major foundry outside China",
+        "metric": "disclosed qualification/design-win announcements",
+        "threshold": "at least one confirmed qualification at a major non-Chinese foundry or memory maker",
+        "time_window": "next 4-6 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

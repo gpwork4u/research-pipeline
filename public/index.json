@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Wafer Floor: Are Shin-Etsu and SUMCO's Capacity Discipline Making 300mm Silicon Wafers AI's Next Structural Bottleneck?",
+    "date": "2026-09-24",
+    "slug": "silicon-wafer-duopoly-ai-chip-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "materials"
+    ],
+    "companies": [
+      "SUMCO",
+      "Shin-Etsu Chemical",
+      "GlobalWafers",
+      "Siltronic"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/silicon-wafer-duopoly-ai-chip-bottleneck",
+    "path": "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The Neocloud Reckoning: Do Widening Credit Spreads and CoreWeave's $35 Billion Refinancing Wall Confirm AI's Underwriting-Capacity Bottleneck?",
     "date": "2026-09-23",
     "slug": "ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck",

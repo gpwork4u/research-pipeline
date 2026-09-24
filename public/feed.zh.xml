@@ -6,6 +6,18 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>晶圓地板：信越與勝高的產能自律，是否讓300mm矽晶圓成為AI下一個結構性瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/silicon-wafer-duopoly-ai-chip-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/silicon-wafer-duopoly-ai-chip-bottleneck</guid>
+      <pubDate>Thu, 24 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>materials</category>
+      <description>每一顆AI邏輯晶片與HBM堆疊，起點都是一片300mm矽晶圓，而市佔最大的兩家供應商——信越與勝高，合計約53-54%——策略卻截然不同。勝高已於2026年3月無限期擱置佐賀縣兩座晶圓廠、總額2,250億日圓的擴產計畫，明確表示要將AI需求置於手機晶片之上；信越則正將300mm產能於年底前擴大逾20%。環球晶、SK矽創與世創同樣都在擴產，中國滬矽產業（NSIG）2026年上半年300mm出貨量更成長逾90%。瑞銀（UBS）於2026年9月18日估計，晶圓廠需要漲價40-50%才能合理化新產能投資，而2026年實際晶片端漲幅僅3-10%——顯示市場尚未達到真正的稀缺定價，後續漲價的可能性高於直接缺貨。</description>
+    </item>
+    <item>
       <title>新雲端算力廠的清算時刻：信用利差擴大與 CoreWeave 350 億美元再融資高牆，是否證實了 AI 的承保能力瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck</guid>

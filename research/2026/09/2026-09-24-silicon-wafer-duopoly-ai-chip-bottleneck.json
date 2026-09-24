@@ -1,0 +1,382 @@
+{
+  "topic": {
+    "title": "The Wafer Floor: Are Shin-Etsu and SUMCO's Capacity Discipline Making 300mm Silicon Wafers AI's Next Structural Bottleneck?",
+    "slug": "silicon-wafer-duopoly-ai-chip-bottleneck",
+    "date": "2026-09-24",
+    "research_type": "NEW",
+    "categories": ["ai-infrastructure", "semiconductors", "advanced-manufacturing", "materials"],
+    "score": 32,
+    "trigger": "UBS's September 18, 2026 research note estimating wafer manufacturers need 40-50% price increases to justify new capacity, SK Hynix's roughly 104% jump in wafer purchases, and SUMCO's Nikkei-reported indefinite delay of its Saga/Yoshinogari 300mm fabs to prioritize AI demand over phone chips -- against a backdrop where Shin-Etsu, GlobalWafers, SK Siltron and Siltronic are all simultaneously expanding capacity."
+  },
+  "questions": {
+    "primary": "Are Shin-Etsu Chemical and SUMCO's deliberate capacity discipline on 300mm silicon wafers now the AI buildout's structural floor -- or is aggressive expansion from GlobalWafers, SK Siltron, Siltronic and China's NSIG about to relieve it?",
+    "sub": [
+      "How fast is AI-linked (logic + HBM + AI-server NAND) demand growing relative to total 300mm wafer supply?",
+      "Why did SUMCO shelve its Saga/Yoshinogari expansion while Shin-Etsu, GlobalWafers, SK Siltron and Siltronic are all adding capacity?",
+      "What does UBS's estimate that a 40-50% price increase is needed to justify new capacity imply about supply elasticity?",
+      "How hard is it to substitute leading-edge 300mm wafer supply, and how much slack could China's NSIG realistically add?",
+      "What would confirm the wafer bottleneck is starting to bind AI chip output specifically, rather than just raising costs?"
+    ]
+  },
+  "thesis": "300mm silicon wafers -- the raw substrate every AI logic chip and HBM stack is built on -- show early signs of a structural bottleneck at the oligopoly's core (Shin-Etsu and SUMCO, ~53-54% of 300mm supply), evidenced by SUMCO's deliberate capacity restraint and UBS's finding that actual 2026 price increases remain far below the level needed to justify new capacity; but aggressive expansion from GlobalWafers, SK Siltron, Siltronic and China's NSIG means the bottleneck is more likely to express itself as sustained price increases than as an outright shortage constraining AI chip output.",
+  "facts": [
+    {
+      "statement": "SUMCO indefinitely delayed construction of two planned 300mm wafer fabs (an expansion at its Imari site and a new greenfield plant at Yoshinogari, originally a combined JPY225 billion investment approved in 2023), as reported by Nikkei around March 30, 2026, to prioritize AI data-center demand over smartphone-chip demand; Japan's METI correspondingly cut its subsidy commitment from up to JPY75 billion to JPY19.3 billion.",
+      "type": "FACT",
+      "evidence_ids": ["s5", "s6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Despite the fab delay, SUMCO's Q2 FY2026 guidance points to higher net sales and a narrowing operating loss versus Q1, driven by higher 300mm wafer volumes, with demand for leading-edge 300mm wafers -- driven by AI-related logic, HBM, and NAND for AI-server SSDs -- described as remaining strong.",
+      "type": "FACT",
+      "evidence_ids": ["s4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Shin-Etsu Chemical's Q1 FY2026 (April-June 2026) net sales rose 5.4% YoY to ¥662.4 billion and operating profit rose 4.2% to ¥173.7 billion; the company raised its FY2027 net-profit forecast 11% to ¥525 billion, AI-related demand now accounts for more than 20% of wafer sales, and Shin-Etsu is targeting over 20% additional 300mm capacity by end-2026.",
+      "type": "FACT",
+      "evidence_ids": ["s7"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Shin-Etsu and SUMCO together control roughly 53-54% of global 300mm silicon wafer supply; Shin-Etsu alone holds about 42% of the overall (all wafer sizes) global silicon wafer market and SUMCO about 20-21%, making SUMCO the second-largest supplier.",
+      "type": "FACT",
+      "evidence_ids": ["s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Micron and GlobalWafers announced on July 9, 2026 a proposed $500 million strategic financing package and a 10-year supply agreement covering GlobalWafers' 300mm raw-silicon-wafer plant in Sherman, Texas, part of Micron's broader up-to-$3 billion U.S. semiconductor-ecosystem investment.",
+      "type": "FACT",
+      "evidence_ids": ["s2"],
+      "confidence": "high"
+    },
+    {
+      "statement": "GlobalWafers reported Q2 2026 revenue of NT$15.2 billion (+8.8% QoQ), but operating margin fell to 9.4% from 15.2% a year earlier as it absorbed the cost of ramping new capacity, and a fire at its Novara, Italy facility is expected to weigh on Q3 2026 results.",
+      "type": "FACT",
+      "evidence_ids": ["s3"],
+      "confidence": "high"
+    },
+    {
+      "statement": "SK Siltron began operating a new 300mm wafer plant in Gumi, South Korea in July 2026 after a 2.3 trillion won investment that raised its capacity by roughly half, targeting utilization in the high-90% range with orders already secured from major customers -- trade press explicitly framed this as the company 'firing up new capacity as rivals pause.'",
+      "type": "FACT",
+      "evidence_ids": ["s15", "s16"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Siltronic's CEO said in a July 30, 2026 press release the company is 'well positioned to benefit from the long-term growth trends in the semiconductor industry, particularly those driven by AI,' with 300mm capacity utilization expected to stay high through 2026 on strong demand for memory and logic applications.",
+      "type": "FACT",
+      "evidence_ids": ["s1"],
+      "confidence": "high"
+    },
+    {
+      "statement": "China's National Silicon Industry Group (NSIG) reported first-half 2026 revenue up 36.5% YoY as its 300mm wafer shipments rose more than 90%, with 300mm capacity approaching 1.2 million wafers per month.",
+      "type": "FACT",
+      "evidence_ids": ["s17"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "UBS estimated in a September 18, 2026 research report that wafer manufacturers would need price increases of roughly 40-50% to economically justify building new capacity at current demand-growth rates, and separately projected 300mm wafer demand growth of 11% in 2026, 14% in 2027, and 13% in 2028.",
+      "type": "FACT",
+      "evidence_ids": ["s13"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "SK Hynix's silicon-wafer purchases jumped roughly 104% in the most recently reported period as it moved early to secure raw material amid rising prices and surging AI-driven demand.",
+      "type": "FACT",
+      "evidence_ids": ["s10"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Leading-edge wafer pricing has already risen in 2026: TSMC's advanced-node (7nm-and-below) wafer prices rose 3-10% by early 2026 with a further mature-node hike of up to 10% effective 2027; Samsung raised prices roughly 10% on certain 4nm and 8nm lines by February 2026; SK Hynix allowed key equipment suppliers to raise prices 3-4%, ending a five-year streak of price cuts.",
+      "type": "FACT",
+      "evidence_ids": ["s11", "s12"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "SEMI's official data shows worldwide silicon wafer shipments rose 13.1% YoY in Q1 2026 and 7.4% YoY in Q2 2026, with trade press attributing the growth predominantly to AI data-center demand for advanced logic and memory.",
+      "type": "FACT",
+      "evidence_ids": ["s14", "s20"],
+      "confidence": "high"
+    },
+    {
+      "statement": "AI-related demand is separately estimated at roughly 12% of total 300mm wafer volume in 2026, with AI-server-related silicon consumption growing about 46% year over year, even as 300mm wafers' overall share of total silicon-wafer volume rose from about 78% in 2025 to more than 82% by mid-2026.",
+      "type": "FACT",
+      "evidence_ids": ["s18"],
+      "confidence": "low"
+    },
+    {
+      "statement": "GlobalWafers began preparatory design work in early 2026 for a 'Phase 2' expansion of its Sherman, Texas 300mm campus (designed for up to six total phases), contingent on Phase 1's profitability, long-term customer contracts, and government support.",
+      "type": "FACT",
+      "evidence_ids": ["s19"],
+      "confidence": "medium"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because the two largest suppliers are pursuing opposite strategies -- SUMCO restraining new leading-edge capacity while Shin-Etsu, GlobalWafers, SK Siltron and Siltronic all expand -- 300mm wafer supply elasticity looks structurally low at the oligopoly's core but higher at its margins, meaning the bottleneck is more likely to show up as sustained price increases than as an outright shortage.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s5", "s6", "s7", "s2", "s15", "s1"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "UBS's finding that a 40-50% price increase is needed to justify new capacity, against actual 2026 price hikes of only 3-10% at the chip level, suggests pricing has not yet reached the level that would reliably trigger broad-based new wafer-capacity investment, implying further price increases are more likely before supply responds at scale.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s13", "s11", "s12"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "NSIG's rapid 300mm shipment growth signals China is building a credible domestic alternative, but because its output is not reported as qualified for the most advanced logic/HBM specifications, it is more likely to relieve mid-tier and domestic Chinese demand first rather than directly substitute for the AI-grade wafers non-Chinese AI supply chains need.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s17"],
+      "confidence": "low"
+    },
+    {
+      "statement": "Because AI-linked demand is still a minority (~12%) of total 300mm wafer volume but growing far faster (~46%) than the overall market, AI buyers likely act as the marginal price-setters even though they are not the majority of demand -- a common pattern for a fast-growing minority segment tightening a broader commodity market.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s18"],
+      "confidence": "low"
+    }
+  ],
+  "unknowns": [
+    "Whether SUMCO will resume the Saga/Yoshinogari fabs once -- or if -- wafer pricing rises enough to meet its investment hurdle is not yet disclosed.",
+    "No AI chipmaker or foundry has yet publicly attributed a shipment delay specifically to silicon-wafer unavailability (as opposed to packaging, HBM, or equipment); whether that remains true going forward is unknown.",
+    "The precise qualification status and roadmap of NSIG/Zing wafers for advanced logic (below roughly 28nm) or HBM-grade specifications at non-Chinese foundries is not publicly disclosed.",
+    "Exact current market prices and margins for 300mm AI-grade wafers specifically (as opposed to blended company-wide averages) are not independently verified in this research."
+  ],
+  "industry_chain": [
+    {
+      "name": "300mm polished and epitaxial silicon wafers",
+      "role": "Upstream",
+      "major_players": ["Shin-Etsu Chemical", "SUMCO", "GlobalWafers", "Siltronic", "SK Siltron", "NSIG / Zing Semiconductor"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Leading-edge logic and memory fabrication",
+      "role": "Components",
+      "major_players": ["TSMC", "Samsung", "SK Hynix", "Micron", "Intel"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI accelerators and HBM stacks",
+      "role": "Infrastructure",
+      "major_players": ["Nvidia", "AMD", "Broadcom (custom ASICs)", "SK Hynix", "Samsung", "Micron"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Hyperscalers and AI labs (compute buyers)",
+      "role": "Platform",
+      "major_players": ["Microsoft", "Google", "Amazon", "Meta", "OpenAI", "Anthropic"],
+      "pricing_power": "Low",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "300mm silicon wafer supply, leading-edge logic/HBM grade (Shin-Etsu/SUMCO core)",
+      "demand_growth": "High",
+      "supply_elasticity": "Low",
+      "expansion_time": "2-4 years (fab construction plus multi-year customer qualification)",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "Medium",
+      "profit_capture": "Medium",
+      "opportunity_score": 4,
+      "classification": "Structural Bottleneck",
+      "rationale": "Demand growth is High (11-14% per UBS, AI-server silicon +46%); the two largest suppliers, Shin-Etsu and SUMCO, control ~53-54% of 300mm supply, and SUMCO has demonstrated Low elasticity by deliberately shelving a JPY225bn capacity project rather than chasing volume; leading-edge qualification cycles make substitutability Hard. All three strict conditions are met for this specific segment."
+    },
+    {
+      "node": "Overall 300mm wafer supply (blended, including expanding challengers)",
+      "demand_growth": "High",
+      "supply_elasticity": "Medium",
+      "expansion_time": "1-3 years for incremental lines at existing sites",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Low",
+      "profit_capture": "Medium",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "GlobalWafers, SK Siltron, Siltronic and China's NSIG are all simultaneously adding 300mm capacity in 2026, showing the blended market has more supply elasticity than the two largest incumbents alone -- disqualifying the Low-elasticity condition at the market-wide level, so this reads as a Growth Area rather than a market-wide Structural Bottleneck."
+    }
+  ],
+  "companies": [
+    {
+      "name": "SUMCO",
+      "business_model": "Manufactures and sells high-purity polished and epitaxial silicon wafers (primarily 300mm and 200mm) to semiconductor fabs worldwide",
+      "revenue_model": "Wafer sales under long-term supply agreements and spot contracts",
+      "cost_structure": "Capital-intensive; high fixed costs from crystal-growing and polishing fabs, silicon feedstock and energy",
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI-related logic/HBM/NAND demand", "leading-edge 300mm wafer volume growth"],
+      "customer_concentration": null,
+      "moat": "Second-largest global wafer supplier (~20-21% share); multi-year qualification cycles for leading-edge specs create high customer switching costs",
+      "switching_costs": "High -- qualifying a new wafer supplier for leading-edge nodes takes years",
+      "capital_intensity": "Very high",
+      "management_strategy": "Prioritizing margin discipline and leading-edge (AI-driven) demand over volume growth in commodity segments; deliberately delayed new fab construction indefinitely",
+      "execution_risk": "Reported a Q1 FY2026 operating loss; earnings remain volatile and exposed to softness in non-AI (PC/smartphone) wafer demand"
+    },
+    {
+      "name": "Shin-Etsu Chemical",
+      "business_model": "Diversified chemicals and electronic-materials conglomerate; its Electronics Materials segment includes the largest global silicon wafer business (~42% share)",
+      "revenue_model": "Wafer and electronic-materials sales",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI-related demand now over 20% of wafer sales", "diversified chemicals base cushions cyclicality"],
+      "customer_concentration": null,
+      "moat": "Largest global silicon wafer share (~42%); diversified balance sheet funds counter-cyclical capacity expansion",
+      "switching_costs": "High, same qualification dynamics as SUMCO",
+      "capital_intensity": "High",
+      "management_strategy": "Expanding 300mm capacity by over 20% by end-2026 -- the opposite of SUMCO's restraint",
+      "execution_risk": "Capacity expansion could pressure margins if AI-linked demand growth disappoints"
+    },
+    {
+      "name": "GlobalWafers",
+      "business_model": "Third-largest global silicon wafer maker, building the only advanced high-volume 300mm wafer fab in the United States (Sherman, Texas)",
+      "revenue_model": "Wafer sales plus new strategic financing/supply agreements (e.g., with Micron)",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": "9.4% in Q2 2026, down from 15.2% a year earlier",
+      "growth_drivers": ["US onshoring demand", "Micron's 10-year supply agreement and $500M financing", "AI-driven 300mm demand"],
+      "customer_concentration": null,
+      "moat": "Only advanced high-volume 300mm wafer fab in the US; Micron financing/supply lock-in",
+      "switching_costs": "High",
+      "capital_intensity": "Very high (~$3.5B Sherman Phase 1 plus up to $4B further planned)",
+      "management_strategy": "Aggressively expanding US capacity despite near-term margin pressure",
+      "execution_risk": "Fire at its Novara, Italy facility disrupting Q3 2026 output; new-capacity ramp costs compressing margin"
+    },
+    {
+      "name": "Siltronic",
+      "business_model": "Pure-play silicon wafer manufacturer headquartered in Germany, supplying memory and logic customers",
+      "revenue_model": "Wafer sales",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["300mm demand for memory and logic, particularly AI applications", "Singapore capacity expansion"],
+      "customer_concentration": null,
+      "moat": "One of five major global suppliers with established multi-year qualification relationships",
+      "switching_costs": "High",
+      "capital_intensity": "High",
+      "management_strategy": "Maintaining high 300mm utilization while guiding overall 2026 sales below the prior year, reflecting softness in non-AI segments",
+      "execution_risk": "2026 sales guided in the low-to-mid single-digit percentage range below prior-year levels despite the AI tailwind, showing broader market softness outside AI-linked demand"
+    }
+  ],
+  "metrics": [
+    { "name": "Shin-Etsu + SUMCO combined 300mm wafer market share", "value": "53-54", "unit": "percent", "period": "2026", "source_id": "s8" },
+    { "name": "Shin-Etsu global silicon wafer market share", "value": 42, "unit": "percent", "period": "2026", "source_id": "s8" },
+    { "name": "300mm wafer demand growth", "value": 11, "unit": "percent YoY", "period": "2026", "source_id": "s13" },
+    { "name": "300mm wafer demand growth", "value": 14, "unit": "percent YoY", "period": "2027 (forecast)", "source_id": "s13" },
+    { "name": "Price increase UBS says needed to justify new wafer capacity", "value": "40-50", "unit": "percent", "period": "as of Sep 18, 2026", "source_id": "s13" },
+    { "name": "SK Hynix silicon wafer purchase growth", "value": 104, "unit": "percent", "period": "2026", "source_id": "s10" },
+    { "name": "TSMC advanced-node (<=7nm) wafer price increase", "value": "3-10", "unit": "percent", "period": "early 2026", "source_id": "s11" },
+    { "name": "GlobalWafers Q2 2026 revenue", "value": 15.2, "unit": "NT$ billion", "period": "Q2 2026", "source_id": "s3", "growth": "8.8% QoQ" },
+    { "name": "GlobalWafers Q2 2026 operating margin", "value": 9.4, "unit": "percent", "period": "Q2 2026", "source_id": "s3" },
+    { "name": "GlobalWafers Q2 2025 operating margin (comparison)", "value": 15.2, "unit": "percent", "period": "Q2 2025", "source_id": "s3" },
+    { "name": "SK Siltron Gumi plant investment", "value": 2.3, "unit": "KRW trillion", "period": "completed Jul 2026", "source_id": "s15" },
+    { "name": "NSIG H1 2026 revenue growth", "value": 36.5, "unit": "percent YoY", "period": "H1 2026", "source_id": "s17" },
+    { "name": "NSIG 300mm wafer shipment growth", "value": ">90", "unit": "percent YoY", "period": "H1 2026", "source_id": "s17" },
+    { "name": "AI share of total 300mm wafer volume", "value": 12, "unit": "percent", "period": "2026 (estimate)", "source_id": "s18" },
+    { "name": "AI-server-related silicon consumption growth", "value": 46, "unit": "percent YoY", "period": "2026", "source_id": "s18" },
+    { "name": "SUMCO original delayed-fab investment (Imari + Yoshinogari)", "value": 225, "unit": "JPY billion", "period": "announced 2023", "source_id": "s6" },
+    { "name": "METI subsidy cut for SUMCO delayed fabs", "value": "75 to 19.3", "unit": "JPY billion", "period": "2026", "source_id": "s6" },
+    { "name": "Micron strategic financing to GlobalWafers", "value": 500, "unit": "USD million", "period": "announced Jul 9, 2026", "source_id": "s2" }
+  ],
+  "competitors": [
+    { "name": "SK Siltron", "kind": "direct competitor", "note": "Started a new Gumi, South Korea 300mm plant in July 2026 (2.3 trillion won investment), expanding capacity roughly 50% while SUMCO restrains supply." },
+    { "name": "NSIG / Zing Semiconductor", "kind": "indirect alternative", "note": "China's largest domestic 300mm wafer maker, growing shipments over 90% YoY, but not reported as qualified for the most advanced logic/HBM specifications outside China." },
+    { "name": "Continued purchasing from Shin-Etsu/SUMCO at rising prices", "kind": "status quo", "note": "The default path for most non-Chinese foundries and memory makers given multi-year qualification switching costs." }
+  ],
+  "financials": [
+    { "company": "GlobalWafers", "period": "Q2 2026", "revenue": "NT$15.2 billion", "operating_margin": "9.4%", "note": "Net profit margin 19.4%, boosted by non-operational gains from its Siltronic share stake.", "source_id": "s3" },
+    { "company": "Shin-Etsu Chemical", "period": "Q1 FY2026 (Apr-Jun 2026)", "net_sales": "JPY 662.4 billion", "operating_profit": "JPY 173.7 billion", "net_profit": "JPY 130.8 billion", "source_id": "s7" },
+    { "company": "SUMCO", "period": "Q1 FY2026", "net_sales": "JPY 101.4 billion", "note": "Operating loss reported; Q2 FY2026 guidance points to JPY 112.0 billion in sales with a narrowing loss.", "source_id": "s4" }
+  ],
+  "valuation": { "available": false, "reason": "Current share prices, share counts and full audited financial statements for SUMCO, Shin-Etsu Chemical, GlobalWafers and Siltronic were not independently verified in this research; only disclosed quarterly revenue/margin figures are used." },
+  "catalysts": [
+    "SUMCO's Q3 FY2026 earnings call testing whether the Saga/Yoshinogari delay persists",
+    "Shin-Etsu's next update on its >20% 300mm capacity-expansion target",
+    "GlobalWafers' Novara fire recovery and Q3 2026 results",
+    "Next SEMI/UBS 300mm wafer demand-supply and pricing update",
+    "TSMC, Samsung and SK Hynix Q3 2026 earnings for any wafer-cost commentary"
+  ],
+  "bear_case": [
+    { "dimension": "Supply", "argument": "Four of five major producers (Shin-Etsu, GlobalWafers, SK Siltron, Siltronic) are actively adding 300mm capacity in 2026, which could push the blended market to Medium elasticity well before AI-grade wafers become a binding constraint on chip output." },
+    { "dimension": "Demand", "argument": "AI-linked demand is still only about 12% of total 300mm wafer volume in 2026; a broader semiconductor demand slowdown in PCs or smartphones could free up wafer capacity for AI use without requiring any new fabs." },
+    { "dimension": "Economics", "argument": "Actual 2026 chip-level price increases (roughly 3-10%) remain far below the 40-50% UBS says is needed to justify new wafer capacity, suggesting the market has not yet reached genuine scarcity pricing at the wafer level itself." },
+    { "dimension": "Competition", "argument": "China's NSIG is scaling 300mm output over 90% YoY with heavy state backing, a potential long-run release valve on the oligopoly's pricing power, at least for non-leading-edge and domestic Chinese demand." },
+    { "dimension": "Execution", "argument": "GlobalWafers' declining margin (9.4% vs 15.2% YoY) while ramping new capacity, plus its Novara fire, show that adding wafer capacity is costly and operationally fragile -- a near-term cost that could simply resolve as new capacity matures, rather than proof the bottleneck is durable." }
+  ],
+  "kill_conditions": [
+    { "condition": "Combined disclosed 300mm capacity additions from GlobalWafers, SK Siltron, Shin-Etsu and Siltronic materially outrun demand growth", "metric": "reported 300mm wafer capacity growth vs. UBS/SEMI demand-growth forecast", "threshold": "capacity growth exceeds UBS's peak ~14% 2027 demand-growth estimate for two consecutive quarters", "time_window": "12-18 months", "impact": "invalidate" },
+    { "condition": "SUMCO resumes or announces a new leading-edge 300mm capacity project", "metric": "SUMCO capex/capacity guidance", "threshold": "formal restart of Saga/Yoshinogari or a new-build announcement", "time_window": "2-4 quarters", "impact": "weaken" },
+    { "condition": "Wafer-linked price increases stall or reverse despite continued AI demand growth", "metric": "TSMC/Samsung/SK Hynix disclosed wafer-cost or price changes", "threshold": "sequential price increases flatten to under 2% or turn negative", "time_window": "2-3 quarters", "impact": "invalidate" },
+    { "condition": "A non-Chinese challenger to the oligopoly (e.g., NSIG) achieves qualification for advanced logic/HBM-grade wafers at a major foundry outside China", "metric": "disclosed qualification/design-win announcements", "threshold": "at least one confirmed qualification at a major non-Chinese foundry or memory maker", "time_window": "next 4-6 quarters", "impact": "weaken" }
+  ],
+  "validation_events": [
+    {
+      "event": "SUMCO's Q3 FY2026 earnings call",
+      "expected_window": "early November 2026",
+      "supports_if": "SUMCO reiterates the Saga/Yoshinogari delay and continued capacity discipline while reporting improving 300mm volumes and margins",
+      "weakens_if": "SUMCO announces resuming construction or signals its capacity discipline easing",
+      "source_to_monitor": "SUMCO investor relations (sumcosi.com/english/ir)"
+    },
+    {
+      "event": "Shin-Etsu Chemical's Q2 FY2026 (Jul-Sep 2026) earnings",
+      "expected_window": "late October-early November 2026",
+      "supports_if": "Shin-Etsu confirms its >20% 300mm capacity target remains on track and AI-related wafer demand keeps outpacing the broader market",
+      "weakens_if": "Shin-Etsu scales back its capacity-expansion target or reports AI-related demand growth decelerating",
+      "source_to_monitor": "Shin-Etsu Chemical investor relations (shinetsu.co.jp/en/ir)"
+    },
+    {
+      "event": "GlobalWafers' Q3 2026 earnings call",
+      "expected_window": "early November 2026",
+      "supports_if": "Operating margin remains compressed and Novara-fire-related disruption continues weighing on output despite continued AI-driven demand",
+      "weakens_if": "Margin and output recover quickly, showing new 300mm capacity ramping smoothly",
+      "source_to_monitor": "GlobalWafers investor relations (sas-globalwafers.com)"
+    },
+    {
+      "event": "Next SEMI or UBS 300mm wafer demand-supply balance and pricing update",
+      "expected_window": "Q4 2026",
+      "supports_if": "Demand-growth forecasts are reaffirmed or raised and the price increase needed to justify new capacity remains at or above the 40-50% range",
+      "weakens_if": "Demand-growth forecasts are cut materially or the required price-increase threshold narrows",
+      "source_to_monitor": "SEMI (semi.org) and UBS research as covered by trade press"
+    },
+    {
+      "event": "TSMC's, Samsung's and SK Hynix's Q3 2026 earnings calls",
+      "expected_window": "mid-to-late October 2026",
+      "supports_if": "Any of the three explicitly cites silicon-wafer cost or availability as a factor in guidance or pricing",
+      "weakens_if": "No wafer-specific commentary and capacity/output plans proceed with no cited wafer constraint",
+      "source_to_monitor": "Respective investor relations pages"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "claim": "Siltronic CEO says the company is well positioned to benefit from AI-driven long-term semiconductor growth; 300mm capacity utilization expected to stay high through 2026.", "source_url": "https://www.siltronic.com/en/press/press-releases/wafer-demand-supports-2026-sales-outlook.html", "source_title": "Siltronic AG: \"Wafer demand supports 2026 sales outlook\"", "source_type": "primary", "published_at": "2026-07-30", "retrieved_at": "2026-09-24", "quote_or_extract": "\"We therefore consider ourselves well positioned to benefit from the long-term growth trends in the semiconductor industry, particularly those driven by AI.\" -- Dr. Michael Heckmeier, CEO. Capacity utilization for 300mm wafers is expected to remain at a high level throughout the year, driven by strong demand for memory and logic applications. Note: this site was blocked by the research environment's egress proxy; the quote and figures are drawn from a convergent search-result snippet of the press release.", "confidence": "medium" },
+    { "id": "s2", "claim": "Micron announced a proposed $500 million strategic financing package and 10-year supply agreement with GlobalWafers for its Sherman, Texas 300mm wafer plant.", "source_url": "https://investors.micron.com/news/press-release/2026/Micron-Announces-Up-to-3-Billion-Strategic-Investment-to-Strengthen-U-S--Semiconductor-Ecosystem/default.aspx", "source_title": "Micron Technology: \"Micron Announces Up to $3 Billion Strategic Investment to Strengthen U.S. Semiconductor Ecosystem\"", "source_type": "primary", "published_at": "2026-07-09", "retrieved_at": "2026-09-24", "quote_or_extract": "Micron will provide GlobalWafers with $500 million in strategic financing to expand development and manufacturing at its 300mm raw silicon wafer facility in Sherman, Texas, alongside a planned ten-year supply agreement, part of Micron's plan to invest up to $3 billion in the US semiconductor supply-chain ecosystem. Note: this domain was blocked by the research environment's egress proxy; figures are drawn from convergent search-result snippets citing the official release.", "confidence": "high" },
+    { "id": "s3", "claim": "GlobalWafers reported Q2 2026 revenue of NT$15.2 billion (+8.8% QoQ) with operating margin down to 9.4% from 15.2% a year earlier; a fire at its Novara, Italy facility will weigh on Q3 2026.", "source_url": "https://www.sas-globalwafers.com/en/gwc_news_en_20260804/", "source_title": "GlobalWafers Co., Ltd.: \"GlobalWafers Reports Q2 2026 Results\"", "source_type": "primary", "published_at": "2026-08-04", "retrieved_at": "2026-09-24", "quote_or_extract": "Q2 2026 revenue of TWD 15.2 billion, up 8.8% QoQ, supported by strong AI-driven demand and high utilization; operating income margin declined to 9.4% in Q2 2026 from 15.2% in Q2 2025, reflecting the operational challenges of ramping new capacity. A fire at the Novara facility is expected to weigh on Q3 output. Note: this domain was blocked by the research environment's egress proxy; figures are drawn from convergent search-result snippets of the official release and earnings-call coverage.", "confidence": "high" },
+    { "id": "s4", "claim": "SUMCO's Q1 FY2026 results missed expectations with an operating loss; Q2 FY2026 guidance points to JPY 112.0 billion in sales with a narrowing loss, driven by higher 300mm volumes and strong AI-related logic/HBM/NAND demand.", "source_url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-sumco-misses-q1-2026-expectations-stock-dips-93CH-4687787", "source_title": "Investing.com: \"Earnings call transcript: SUMCO misses Q1 2026 expectations, stock dips\"", "source_type": "secondary", "published_at": "2026-05", "retrieved_at": "2026-09-24", "quote_or_extract": "SUMCO reported Q1 FY2026 sales of JPY 101.4 billion with an operating loss; Q2 guidance projects sales of JPY 112 billion with the operating loss narrowing, helped mainly by higher 300mm volumes, with demand for leading-edge 300mm wafers remaining strong, driven by AI-related logic, HBM, and NAND for AI server SSDs.", "confidence": "medium" },
+    { "id": "s5", "claim": "SUMCO indefinitely delayed its planned new silicon wafer plant in Saga, Japan, to prioritize AI data-center demand over phone chips.", "source_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N401091:0-japan-s-sumco-indefinitely-delays-planned-new-silicon-wafer-plant-in-saga-to-prioritise-ai-data-centre-demand-over-phone-chips-nikkei-says/", "source_title": "Reuters (via TradingView): \"Japan's SUMCO Indefinitely Delays Planned New Silicon Wafer Plant In Saga To Prioritise AI Data Centre Demand Over Phone Chips, Nikkei Says\"", "source_type": "secondary", "published_at": "2026-03-30", "retrieved_at": "2026-09-24", "quote_or_extract": "SUMCO has postponed indefinitely its plan to build a new silicon wafer factory in Saga Prefecture in order to prioritize demand from AI data centers over mobile phone chips, according to Nikkei. Note: this domain was blocked by the research environment's egress proxy; the summary is drawn from a convergent search-result snippet of the wire report.", "confidence": "medium" },
+    { "id": "s6", "claim": "SUMCO's original Saga/Yoshinogari investment was JPY225 billion (announced 2023, two fabs); Japan's METI cut its subsidy commitment from up to JPY75 billion to JPY19.3 billion after the delay.", "source_url": "https://www.trendforce.com/news/2026/04/06/news-sumco-delays-construction-of-two-silicon-wafer-fabs-amid-market-shift/", "source_title": "TrendForce: \"SUMCO Delays Construction of Two Silicon Wafer Fabs Amid Market Shift\"", "source_type": "secondary", "published_at": "2026-04-06", "retrieved_at": "2026-09-24", "quote_or_extract": "SUMCO announced a delay in constructing two new wafer fabs (an expansion at Imari and a new plant at Yoshinogari, Saga Prefecture), originally a combined JPY225 billion investment approved in 2023 with up to JPY75 billion in METI subsidies; due to the delay, the subsidy is expected to be reduced to JPY19.3 billion. Demand for wafers used in PCs and smartphones has stabilized, while demand driven by generative AI is surging.", "confidence": "medium" },
+    { "id": "s7", "claim": "Shin-Etsu Chemical's Q1 FY2026 net sales rose 5.4% YoY to JPY662.4bn, operating profit rose 4.2% to JPY173.7bn; FY2027 net-profit forecast raised 11% to JPY525bn; AI-related demand over 20% of wafer sales; targeting >20% additional 300mm capacity by end-2026.", "source_url": "https://finance.biggo.com/quote/4063.T/earnings-call/JP_4063.T_2026-07-24", "source_title": "BigGo Finance: \"Shin-Etsu FY2026 Q1 Earnings Briefing\"", "source_type": "secondary", "published_at": "2026-07-24", "retrieved_at": "2026-09-24", "quote_or_extract": "Shin-Etsu Chemical Q1 FY2026 (Apr-Jun 2026): net sales JPY662.4 billion (+5.4% YoY), operating profit JPY173.7 billion (+4.2% YoY), net profit JPY130.8 billion (+3.5% YoY); FY ending March 2027 net profit forecast raised 11% YoY to JPY525 billion. AI-related applications account for more than 20% of wafer sales; Shin-Etsu is building new plants domestically and overseas targeting over 20% additional capacity by end-2026. Note: this domain was blocked by the research environment's egress proxy; figures are drawn from a convergent search-result snippet summarizing the official earnings briefing.", "confidence": "medium" },
+    { "id": "s8", "claim": "Shin-Etsu holds about 42% of the global silicon wafer market; Shin-Etsu and SUMCO together hold roughly 53-54% of global 300mm wafer supply.", "source_url": "https://en.tmt-blog.jp/articles/company-shin-etsu-en", "source_title": "SEMI VISTA: \"Shin-Etsu Chemical explained: 42% silicon wafer market share, business breakdown and moat\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-09-24", "quote_or_extract": "Shin-Etsu Chemical holds approximately 42% of the global silicon wafer market; Shin-Etsu and SUMCO together command roughly 53-54% of global 300mm silicon wafer supply.", "confidence": "medium" },
+    { "id": "s9", "claim": "SUMCO's leading-edge production is roughly 20% of its 300mm revenue and rising; SUMCO is deliberately prioritizing margin over volume rather than expanding to meet broader demand.", "source_url": "https://privatemarketsnews.substack.com/p/the-silicon-wafers-that-two-companies", "source_title": "Private Markets News: \"The Silicon Wafers That Two Companies Refuse to Make More Of\"", "source_type": "discovery", "published_at": "2026", "retrieved_at": "2026-09-24", "quote_or_extract": "SUMCO would rather keep the market tight and the price firm than build ahead of it -- a 'margins over volume' doctrine Shin-Etsu has run for decades and SUMCO is now also following; leading-edge production is around 20% of SUMCO's 300mm revenue and rising, while mature-node/200mm remains oversupplied.", "confidence": "low" },
+    { "id": "s10", "claim": "SK Hynix's silicon wafer purchases jumped roughly 104% as it moved early to secure raw material amid rising prices and surging AI demand.", "source_url": "https://www.digitimes.com/news/a20260902PD207/sk-hynix-wafer-demand-2026-silicon-wafer.html", "source_title": "DigiTimes: \"SK Hynix wafer purchases jump 104% on AI demand\"", "source_type": "secondary", "published_at": "2026-09-02", "retrieved_at": "2026-09-24", "quote_or_extract": "SK Hynix boosted its silicon wafer purchases by more than doubling (up ~104%) from the prior quarter, moving early to secure raw materials amid rising wafer prices and surging AI demand. Note: this domain was blocked by the research environment's egress proxy; the figure is drawn from a convergent search-result snippet.", "confidence": "medium" },
+    { "id": "s11", "claim": "TSMC's advanced-node wafer prices rose 3-10% by early 2026 with a further mature-node hike of up to 10% effective 2027; Samsung raised prices roughly 10% on certain 4nm/8nm lines by February 2026; SK Hynix allowed equipment suppliers to raise prices 3-4%, ending a five-year streak of price cuts.", "source_url": "https://rcrtech.com/semiconductor-news/chip-prices-tsmc-samsung/", "source_title": "RCR Tech: \"Chip prices climb as TSMC and Samsung hike wafer costs\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-09-24", "quote_or_extract": "TSMC's price adjustments cover its entire advanced portfolio (7nm and below) with 3-10% increases confirmed by early 2026, plus a mature-node hike of up to +10% effective 2027; Samsung targeted its mainstream 5/4nm processes with roughly 10% hikes for certain 4nm and 8nm lines by February 2026; SK Hynix has tacitly allowed key equipment suppliers to raise prices 3-4%, ending a five-year streak of price reductions.", "confidence": "medium" },
+    { "id": "s12", "claim": "TSMC's 2nm wafer price is around $30,000, a 50% premium over 3nm wafers (~$21,000-22,000, up 5-10%), and 2nm capacity is booked to 2028.", "source_url": "https://tech-insider.org/ca/tsmc-2nm-wafer-price-2026/", "source_title": "Tech Insider: \"TSMC 2nm Wafer Price Hits $30,000, Booked to 2028\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-09-24", "quote_or_extract": "3nm wafer prices have increased roughly 5-10%, landing at approximately $21,000-22,000 each, while 2nm wafers are at around $30,000 per wafer, carrying a 50% premium over 3nm. Note: this domain was blocked by the research environment's egress proxy; figures are drawn from a convergent search-result snippet.", "confidence": "low" },
+    { "id": "s13", "claim": "UBS's September 18, 2026 research report estimates wafer manufacturers need 40-50% price increases to justify new capacity; 300mm wafer demand growth projected at 11% (2026), 14% (2027), 13% (2028).", "source_url": "https://tech-insider.org/ubs-silicon-wafer-prices-jump-40-percent-2027-2026/", "source_title": "Tech Insider: \"UBS Warns Silicon Wafer Prices Could Jump 40% by 2027\"", "source_type": "secondary", "published_at": "2026-09-18", "retrieved_at": "2026-09-24", "quote_or_extract": "According to UBS's September 18, 2026 research report, wafer manufacturers would need price increases of roughly 40% to 50% to justify building new capacity given current demand growth; 12-inch (300mm) wafer demand is projected to grow 11% in 2026, 14% in 2027, and 13% in 2028. Note: this domain was blocked by the research environment's egress proxy; figures are drawn from a convergent search-result snippet.", "confidence": "medium" },
+    { "id": "s14", "claim": "SEMI reported Q1 2026 global silicon wafer shipments of 3,275 million square inches, up 13.1% YoY, attributed to AI data-center demand.", "source_url": "https://ninescrolls.com/news/semi-q1-2026-silicon-wafer-shipments-hit-3-275-msi-up-13-1-year-on-year-on-ai", "source_title": "NineScrolls: \"SEMI: Q1 2026 Silicon Wafer Shipments Hit 3,275 MSI, Up 13.1% Year-on-Year on AI Data Center Demand\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-09-24", "quote_or_extract": "SEMI's Q1 2026 data shows global silicon wafer shipments of 3,275 million square inches (MSI), up 13.1% year-on-year, driven by AI data-center demand.", "confidence": "medium" },
+    { "id": "s15", "claim": "SK Siltron began operating a new 300mm wafer plant in Gumi, South Korea in July 2026 after a 2.3 trillion won investment, raising capacity roughly 50% and targeting high-90% utilization.", "source_url": "https://www.digitimes.com/news/a20260624VL221/sk-siltron-wafer-capacity-300mm-demand.html", "source_title": "DigiTimes: \"SK Siltron to bring new 300mm wafer capacity online as AI demand lifts shipments\"", "source_type": "secondary", "published_at": "2026-06-24", "retrieved_at": "2026-09-24", "quote_or_extract": "SK Siltron started up a new 300mm silicon-wafer plant in Gumi in July 2026, with a 2.3 trillion won investment that lifted capacity by roughly half; the company plans to scale output to customer schedules, targeting a utilization rate in the high-90% range, having already secured orders from major customers. Note: this domain was blocked by the research environment's egress proxy; figures are drawn from a convergent search-result snippet.", "confidence": "medium" },
+    { "id": "s16", "claim": "Trade press framed SK Siltron's new capacity as the company 'firing up new capacity as rivals pause,' betting on an AI-driven rebound while other producers hold back.", "source_url": "https://www.techtimes.com/articles/318859/20260624/sk-siltron-fires-new-wafer-capacity-rivals-pause-betting-ai-rebound.htm", "source_title": "Tech Times: \"SK Siltron Fires Up New Wafer Capacity as Rivals Pause, Betting on an AI Rebound\"", "source_type": "discovery", "published_at": "2026-06-24", "retrieved_at": "2026-09-24", "quote_or_extract": "Headline and framing directly describe the divergence in capacity strategy among 300mm wafer suppliers in 2026: SK Siltron expanding while unnamed rivals pause new capacity, betting on continued AI demand growth.", "confidence": "low" },
+    { "id": "s17", "claim": "China's NSIG reported H1 2026 revenue up 36.5% YoY as 300mm wafer shipments rose more than 90%, with 300mm capacity nearing 1.2 million wafers per month.", "source_url": "https://www.digitimes.com/news/a20260820VL212/nsig-300mm-capacity-silicon-wafer-silicon.html", "source_title": "DigiTimes: \"China silicon wafer maker NSIG nears 1.2 million monthly 300mm capacity after 90% shipment jump\"", "source_type": "secondary", "published_at": "2026-08-20", "retrieved_at": "2026-09-24", "quote_or_extract": "NSIG reported a 36.51% rise in first-half 2026 revenue as shipments of 300mm semiconductor silicon wafers increased more than 90%, with 300mm capacity nearing 1.2 million wafers per month. Note: this domain was blocked by the research environment's egress proxy; figures are drawn from a convergent search-result snippet.", "confidence": "medium" },
+    { "id": "s18", "claim": "AI's share of 300mm wafer volume is estimated at roughly 12% in 2026, with AI-server-related silicon growing around 46% in 2026; 300mm wafers' share of total silicon wafer volume rose from ~78% in 2025 to over 82% by mid-2026.", "source_url": "https://www.openpr.com/news/4602983/silicon-wafer-market-2026-accelerates-as-ai-chips-hbm-and-u-s", "source_title": "OpenPR: \"Silicon Wafer Market 2026 Accelerates as AI Chips, HBM and U.S. 300mm Capacity Reshape Semiconductor Supply\"", "source_type": "discovery", "published_at": "2026", "retrieved_at": "2026-09-24", "quote_or_extract": "AI's share of 300mm wafer volumes is estimated at roughly 12% in 2026, with server-related silicon growing around 46% in 2026; 300mm wafers supplied roughly 78% of global silicon wafer volume in 2025, rising to over 82% by mid-2026.", "confidence": "low" },
+    { "id": "s19", "claim": "GlobalWafers began preparatory design work in early 2026 for Phase 2 of its Sherman, Texas 300mm campus, contingent on Phase 1 profitability, customer contracts and government support.", "source_url": "https://focustaiwan.tw/business/202601210020", "source_title": "Focus Taiwan: \"GlobalWafers prepares for phase 2 investment in Texas\"", "source_type": "secondary", "published_at": "2026-01-21", "retrieved_at": "2026-09-24", "quote_or_extract": "GlobalWafers has begun preparatory design work for the second phase of its Texas investment; further phases depend on the first two turning a profit, on customers signing long-term contracts, and on reasonable pricing, prepayments and government support. Chairwoman Doris Hsu said the company aims to develop the Texas complex into a flagship production base.", "confidence": "medium" },
+    { "id": "s20", "claim": "SEMI's official data shows worldwide silicon wafer shipments up 13.1% YoY in Q1 2026 and 7.4% YoY in Q2 2026; trade press attributes the growth predominantly to AI data-center demand.", "source_url": "https://www.semi.org/en/semi-press-release/semi-reports-worldwide-silicon-wafer-shipments-increase-13-percent-year-on-year-in-q1-2026", "source_title": "SEMI: \"SEMI Reports Worldwide Silicon Wafer Shipments Increase 13% Year-on-Year in Q1 2026\"", "source_type": "primary", "published_at": "2026-05", "retrieved_at": "2026-09-24", "quote_or_extract": "Worldwide silicon wafer shipments rose 13.1% year-on-year in Q1 2026 to 3,275 million square inches; Q2 2026 shipments reached 3,573 MSI, up 7.4% YoY. Related trade coverage (TweakTown) described AI data centers as 'taking the lion's share' of the growth. Note: semi.org was blocked by the research environment's egress proxy; figures are drawn from convergent search-result snippets of the official SEMI release.", "confidence": "high" }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

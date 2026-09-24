@@ -1,0 +1,25 @@
+[
+  {
+    "title": "300mm silicon wafer demand growth forecast (UBS)",
+    "title_zh": "300mm矽晶圓需求成長預測（瑞銀）",
+    "type": "bar",
+    "unit": "percent YoY",
+    "source_id": "s13",
+    "series": [
+      { "label": "2026", "value": 11 },
+      { "label": "2027", "value": 14 },
+      { "label": "2028", "value": 13 }
+    ]
+  },
+  {
+    "title": "GlobalWafers operating margin, Q2 YoY comparison",
+    "title_zh": "環球晶營業利益率，Q2 年度比較",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "s3",
+    "series": [
+      { "label": "Q2 2025", "value": 15.2 },
+      { "label": "Q2 2026", "value": 9.4 }
+    ]
+  }
+]
