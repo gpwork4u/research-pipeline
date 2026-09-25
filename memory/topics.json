@@ -649,5 +649,26 @@
       "GlobalWafers",
       "Siltronic"
     ]
+  },
+  {
+    "slug": "chiller-cdu-cooling-equipment-ai-data-center-bottleneck",
+    "title": "The Cooling Wall: Are Sold-Out Chillers -- Not CDUs, Refrigerant, or Chips -- AI Data Centers' Next Structural Bottleneck?",
+    "last_updated": "2026-09-25",
+    "reports": [
+      "reports/2026/09/2026-09-25-chiller-cdu-cooling-equipment-ai-data-center-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "data-centers",
+      "thermal-management",
+      "capital-equipment"
+    ],
+    "companies": [
+      "Trane Technologies",
+      "Carrier Global",
+      "Johnson Controls",
+      "Vertiv Holdings"
+    ]
   }
 ]

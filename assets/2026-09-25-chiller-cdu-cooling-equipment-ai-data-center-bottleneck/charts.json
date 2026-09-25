@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Carrier Global Q2 2026 order growth by segment (YoY %)",
+    "title_zh": "開利（Carrier Global）2026年Q2訂單成長，依業務別（年增%）",
+    "type": "bar",
+    "unit": "percent YoY",
+    "source_id": "s2",
+    "series": [
+      { "label": "Total company orders", "value": 40 },
+      { "label": "Commercial HVAC orders", "value": 65 },
+      { "label": "Data-center orders", "value": 300 }
+    ]
+  },
+  {
+    "title": "Chiller/CDU lead times: standard vs. July 2026 (weeks, range midpoint)",
+    "title_zh": "冰水機／CDU交期：標準水準 vs. 2026年7月（週，區間中位數）",
+    "type": "bar",
+    "unit": "weeks",
+    "source_id": "s6",
+    "series": [
+      { "label": "Standard chiller lead time (20-30 wk)", "value": 25 },
+      { "label": "Standard CDU lead time (16-24 wk)", "value": 20 },
+      { "label": "Industry lead time, Jul 2026 (26-40 wk)", "value": 33 }
+    ]
+  }
+]

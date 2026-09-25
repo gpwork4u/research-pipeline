@@ -1222,5 +1222,46 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-chiller-cdu-cooling-equipment-ai-data-center-bottleneck",
+    "topic": "chiller-cdu-cooling-equipment-ai-data-center-bottleneck",
+    "statement": "Record 2026 backlogs and lengthening lead times at Trane Technologies, Carrier Global, Johnson Controls and Vertiv -- the primary manufacturers of the mechanical chillers and coolant distribution units (CDUs) that reject heat from essentially every AI data center regardless of chip vendor or cooling architecture -- indicate that large-tonnage chiller manufacturing meets the strict test for a genuine structural bottleneck (extreme demand, low near-term elasticity evidenced by lead times stretching from a 16-30 week standard to 26-40 weeks by July 2026, and hard substitutability because heat must ultimately be rejected to atmosphere in essentially every architecture), while the faster-scaling, more vendor-diverse CDU/liquid-cooling-distribution layer remains a Growth Area rather than a proven bottleneck. Unlike several prior AI-demand bottlenecks this pipeline has examined, the capacity response here looks comparatively fast and capital-light -- new plants targeted online within about a year, not several years -- and no hyperscaler has yet publicly attributed a project delay specifically to cooling-equipment unavailability.",
+    "confidence": "medium",
+    "created_at": "2026-09-25",
+    "updated_at": "2026-09-25",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-25-chiller-cdu-cooling-equipment-ai-data-center-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Chiller and CDU lead times normalize toward the pre-2026 standard range",
+        "metric": "Industry-tracked chiller/CDU lead times (The Cooling Report and peer trackers)",
+        "threshold": "Falls to the 16-24 week standard range for two consecutive quarters",
+        "time_window": "next 3-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "OEM capacity expansions bring supply back in line with orders",
+        "metric": "Reported book-to-bill ratio at Trane, Carrier and Johnson Controls",
+        "threshold": "Book-to-bill falls to roughly 1.0x for two consecutive quarters at two or more of the three OEMs",
+        "time_window": "next 3-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Hyperscalers shift materially toward cooling designs that reduce chiller tonnage per MW faster than expected",
+        "metric": "Disclosed cooling-technology mix on new hyperscale capacity",
+        "threshold": "Free-cooling or immersion share of new deployments exceeds roughly 30%",
+        "time_window": "next 2-3 years",
+        "impact": "weaken"
+      },
+      {
+        "condition": "AI hyperscaler capital-expenditure guidance decelerates materially",
+        "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

@@ -1,0 +1,402 @@
+{
+  "topic": {
+    "title": "The Cooling Wall: Are Sold-Out Chillers -- Not CDUs, Refrigerant, or Chips -- AI Data Centers' Next Structural Bottleneck?",
+    "slug": "chiller-cdu-cooling-equipment-ai-data-center-bottleneck",
+    "date": "2026-09-25",
+    "research_type": "NEW",
+    "categories": ["ai-infrastructure", "data-centers", "thermal-management", "capital-equipment"],
+    "score": 30,
+    "trigger": "Trane Technologies, Carrier Global and Johnson Controls' Q2/Q3 2026 earnings (late July-early August 2026) each disclosed record backlogs and triple-digit data-center order growth ($12.1B, >300% and $21.0B respectively), while Vertiv entered 2026 with a $15B backlog (+109% YoY); trade press (The Cooling Report, Semafor) separately reported industry-wide chiller and coolant-distribution-unit (CDU) lead times stretching from a 16-30 week standard to 26-40 weeks by July 2026 -- a distinct mechanical-equipment-layer constraint this pipeline has not yet examined (its prior water-scarcity and PFAS-cooling-fluid reports covered water consumption and dielectric-fluid chemistry, not chiller/CDU manufacturing capacity)."
+  },
+  "questions": {
+    "primary": "Are sold-out large-tonnage chillers -- not CDUs, refrigerant supply, or chip availability -- now the binding mechanical constraint on how fast AI data centers can be built, or is record OEM capacity expansion catching up fast enough to keep this a temporary lead-time bulge rather than a durable structural bottleneck?",
+    "sub": [
+      "How far are Trane, Carrier and Johnson Controls' order and backlog growth rates outrunning their disclosed capacity-expansion plans?",
+      "Why are chiller lead times lengthening even as OEMs report record capex and, per Trane's CEO, are 'not turning away orders'?",
+      "Does the CDU/liquid-cooling-distribution layer face the same constraint as large chillers, or is it more elastic?",
+      "How much near-term bite does the AIM Act's HFC refrigerant phasedown add on top of the manufacturing-capacity constraint?",
+      "What would confirm cooling equipment, rather than power, transformers or labor, is an independently binding constraint on AI data-center delivery schedules?"
+    ]
+  },
+  "thesis": "Record 2026 backlogs and lengthening lead times at Trane Technologies, Carrier Global, Johnson Controls and Vertiv -- the primary manufacturers of the mechanical chillers and coolant distribution units (CDUs) that reject heat from essentially every AI data center regardless of chip vendor or cooling architecture -- indicate that large-tonnage chiller manufacturing meets the strict test for a genuine structural bottleneck (extreme demand, low near-term elasticity evidenced by lead times stretching from a 16-30 week standard to 26-40 weeks by July 2026, and hard substitutability because heat must ultimately be rejected to atmosphere in essentially every architecture), while the faster-scaling, more vendor-diverse CDU/liquid-cooling-distribution layer remains a Growth Area rather than a proven bottleneck. Unlike several prior AI-demand bottlenecks this pipeline has examined, the capacity response here looks comparatively fast and capital-light -- new plants targeted online within about a year, not several years -- and no hyperscaler has yet publicly attributed a project delay specifically to cooling-equipment unavailability.",
+  "facts": [
+    {
+      "statement": "Trane Technologies reported a record Q2 2026 backlog of $12.1 billion, with bookings up 39% (organic +37%) and Americas Commercial HVAC bookings up 50%, a book-to-bill ratio of 123%, driven substantially by data-center demand.",
+      "type": "FACT",
+      "evidence_ids": ["s1"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Trane Technologies CEO Dave Regnery said on the Q2 2026 earnings call that the company is 'not turning away orders,' while management said capital allocation remains focused on capacity expansion and on innovations including modular chiller plants and liquid cooling (Trane has acquired LiquidStack, a two-phase immersion-cooling company).",
+      "type": "FACT",
+      "evidence_ids": ["s4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Carrier Global's Q2 2026 total orders rose approximately 40% year over year, with Commercial HVAC orders up approximately 65% and data-center orders up more than 300%; Q2 sales were $6.4 billion (+4%), and full-year 2026 guidance was raised to approximately $23 billion in sales.",
+      "type": "FACT",
+      "evidence_ids": ["s2"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Carrier raised its 2026 data-center sales forecast to approximately $2 billion from approximately $1.5 billion (after data-center revenue doubled to $1 billion in 2025), announced a new US manufacturing facility targeted to be operational by the end of Q1 2027 to help serve chiller and CDU demand, and raised 2026 capital-expenditure guidance to approximately $600 million from approximately $500 million.",
+      "type": "FACT",
+      "evidence_ids": ["s5"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Johnson Controls' Q3 FY2026 (ended June 2026) backlog reached $21.0 billion, up 32% organically year over year; total orders grew 27% organically, led by a 40% increase in systems orders, with management explicitly citing 'sustained demand from mission-critical data center environments.'",
+      "type": "FACT",
+      "evidence_ids": ["s3"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Johnson Controls raised full-year FY2026 guidance on the strength of this backlog -- organic revenue growth to approximately 8% (from 6%) and adjusted EPS to approximately $5.05 (+35% YoY) -- and said data-center revenue is projected in the high-teens percent of total FY2026 revenue, growing much faster than the rest of the portfolio.",
+      "type": "FACT",
+      "evidence_ids": ["s3"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Vertiv entered 2026 with a project backlog of roughly $15 billion, more than double (+109%) year over year, covering a 12-18 month delivery window, alongside $1.8 billion of deferred revenue (+71% YoY) reflecting substantial customer prepayments.",
+      "type": "FACT",
+      "evidence_ids": ["s10"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Vertiv reported Q1 2026 diluted EPS growth of 136% (adjusted diluted EPS +83%) and raised full-year guidance.",
+      "type": "FACT",
+      "evidence_ids": ["s11"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Chiller lead times run 20-30 weeks under normal conditions, but units above 500 tons -- the size typically required for hyperscale campuses -- run 40-60 weeks; CDU lead times run a standard 16-24 weeks.",
+      "type": "FACT",
+      "evidence_ids": ["s6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "As of July 2026, combined CDU and chiller lead times had stretched industry-wide to 26-40 weeks, with new large (1-3 MW) CDU orders quoted at 6-10 months.",
+      "type": "FACT",
+      "evidence_ids": ["s6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Industry consolidation is underway to vertically integrate thermal and power solutions: Trane acquired LiquidStack (two-phase immersion cooling), Vertiv added ThermoKey (European heat-rejection manufacturing), and Schneider Electric took a stake in Motivair (liquid cooling).",
+      "type": "FACT",
+      "evidence_ids": ["s6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Between 30% and 50% of large data-center projects scheduled for 2026 are reported delayed, attributed to a combination of power constraints, equipment shortages including cooling, and local opposition -- not lack of capital, land, or chips.",
+      "type": "FACT",
+      "evidence_ids": ["s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "A widely circulated 2026 rebuttal (SemiAnalysis) argues the 'half of 2026 US data-center capacity is canceled' framing overstates the issue: most reported 'delays' are schedule slips rather than outright cancellations, and total US data-center capacity under construction or planned continues to grow.",
+      "type": "FACT",
+      "evidence_ids": ["s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Under the US AIM Act, allowable HFC refrigerant production/consumption was cut to 40% of baseline starting 2024, en route to an 85% cut by 2036; new large chillers face a 700 GWP cap beginning January 1, 2026 or January 1, 2028 depending on refrigerant charge size and operating temperature, with most data-center chillers (which operate above -30 degC) getting the later compliance path.",
+      "type": "FACT",
+      "evidence_ids": ["s7"],
+      "confidence": "medium"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because all three major HVAC/chiller OEMs (Trane, Carrier, Johnson Controls) simultaneously report record backlogs and triple-digit data-center order growth while each is still building new manufacturing capacity rather than immediately fulfilling orders from existing lines, demand growth for cooling equipment is currently outrunning near-term supply.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s1", "s2", "s3", "s5"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Trane's CEO's 'not turning away orders' statement, combined with lead times lengthening from a 16-30 week standard to 26-40 weeks by July 2026, suggests OEMs are managing the demand-supply mismatch through backlog and extended delivery schedules rather than order rationing -- consistent with Low, not zero, supply elasticity: capacity is expanding, but not fast enough to prevent lead times from growing.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s4", "s6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because CDU lead times are shorter than large-chiller lead times, and capacity investment spans multiple vendors and technologies (Carrier's new plant, Trane's LiquidStack, Vertiv's ThermoKey, Schneider's Motivair stake), the CDU/liquid-cooling-distribution layer likely has materially higher supply elasticity than large-tonnage chillers, which require longer, more specialized manufacturing lines.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s5", "s6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Refrigerant allocation under the AIM Act phasedown is a slower-moving regulatory constraint layered on top of the equipment-manufacturing bottleneck; because most data-center chillers receive the later 2028 compliance path, its near-term bite is likely smaller than the manufacturing-capacity constraint itself.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s7"],
+      "confidence": "low"
+    }
+  ],
+  "unknowns": [
+    "No hyperscaler or AI data-center operator has yet publicly and explicitly attributed a specific project delay or capacity shortfall to chiller or CDU unavailability specifically, as distinct from power, transformers, or general equipment.",
+    "The precise capacity each OEM is adding (units or tonnage per year) versus the growth rate of hyperscaler order volume is not disclosed in enough detail to calculate a supply-demand gap percentage comparable to, e.g., TSMC's CoWoS gap.",
+    "Whether the January 2026/2028 chiller refrigerant GWP compliance deadlines will materially affect the specific large-tonnage models hyperscalers order is not yet confirmed by any OEM.",
+    "Whether chiller and CDU lead times continue lengthening, plateau, or shorten as new OEM capacity comes online through 2027 is not yet reported."
+  ],
+  "industry_chain": [
+    {
+      "name": "Refrigerant chemicals (HFC/HFO blends)",
+      "role": "Upstream",
+      "major_players": ["Chemours", "Honeywell", "Linde"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Compressors, heat exchangers and pumps",
+      "role": "Components",
+      "major_players": ["Danfoss", "Copeland", "in-house OEM manufacturing"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Large-tonnage chillers (>500 ton, hyperscale-grade)",
+      "role": "Equipment",
+      "major_players": ["Trane Technologies", "Carrier Global", "Johnson Controls"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Coolant distribution units (CDUs) / liquid-cooling distribution",
+      "role": "Equipment",
+      "major_players": ["Vertiv", "Trane (LiquidStack)", "Schneider Electric (Motivair)"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Mechanical/electrical installation and commissioning contractors",
+      "role": "Integration",
+      "major_players": ["EMCOR Group", "Comfort Systems USA", "Quanta Services"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Low",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Hyperscalers and colocation operators",
+      "role": "Platform",
+      "major_players": ["Microsoft", "Google", "Amazon", "Meta", "Equinix"],
+      "pricing_power": "Low",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "Large-tonnage chillers (>500 ton, hyperscale-grade)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "12-24 months for new manufacturing lines/plants",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "Medium",
+      "profit_capture": "Medium",
+      "opportunity_score": 4,
+      "classification": "Structural Bottleneck",
+      "rationale": "Demand growth is Extreme (300%+ data-center order growth at Carrier, record backlogs at Trane/Johnson Controls); supply elasticity is Low, evidenced by lead times lengthening from a 16-30 week standard to 26-40 weeks (500+ ton units 40-60 weeks) even as OEMs raise capex; substitutability is Hard because essentially every cooling architecture (air-cooled, direct-to-chip, immersion) still requires mechanical heat rejection to atmosphere in most climates and redundancy requirements leave little room to omit chiller capacity. All three strict conditions are met."
+    },
+    {
+      "node": "Coolant distribution units (CDUs) / liquid-cooling distribution",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Medium",
+      "expansion_time": "6-18 months",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "High",
+      "profit_capture": "Medium",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "Demand is extreme, but multiple vendors (Vertiv, Trane/LiquidStack, Schneider/Motivair) are scaling CDU output roughly in step with demand, and CDU designs can be reconfigured across direct-to-chip and immersion approaches, giving more substitutability than chillers. Fails the Low-elasticity/Hard-substitutability tests required for Structural Bottleneck."
+    },
+    {
+      "node": "HFC/HFO refrigerant supply for chillers",
+      "demand_growth": "Medium",
+      "supply_elasticity": "Medium",
+      "expansion_time": "multi-year regulatory allocation cycle",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Low",
+      "profit_capture": "Low",
+      "opportunity_score": 2,
+      "classification": "Neutral",
+      "rationale": "A regulatory phasedown constraint layers on top of physical manufacturing capacity, but most data-center chillers receive a later (2028) compliance deadline and A2L/HFO substitute refrigerants are already commercially available, so this does not meet the demand/elasticity/substitutability bar for a bottleneck today."
+    },
+    {
+      "node": "Mechanical/electrical installation and commissioning labor for cooling systems",
+      "demand_growth": "High",
+      "supply_elasticity": "Low",
+      "expansion_time": "years (skilled-trades pipeline)",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Medium",
+      "profit_capture": "Low",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "This pipeline's August 29, 2026 report already established skilled-trades labor as a distinct constraint on data-center construction generally; cooling-equipment installation adds to, but does not independently establish, a separate proven Structural Bottleneck at this layer beyond that prior finding."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Trane Technologies",
+      "business_model": "Manufactures commercial and industrial HVAC systems, chillers and building controls",
+      "revenue_model": "Equipment sales plus services and controls, increasingly under long-lead-time backlog",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["Data-center HVAC and chiller demand", "modular chiller plants", "liquid cooling via LiquidStack acquisition"],
+      "customer_concentration": null,
+      "moat": "Scale manufacturing capacity, brand trust in mission-critical cooling, and a record $12.1B backlog providing multi-year revenue visibility",
+      "switching_costs": "Medium-high given long commissioning lead times and design integration with facility engineering",
+      "capital_intensity": "High; capex targeted at 2-3% of revenue, focused on capacity expansion",
+      "management_strategy": "Expanding capacity while pursuing liquid-cooling technology via acquisition; management stated it is not turning away orders",
+      "execution_risk": "Meeting a record backlog (~$6B of which is slated for 2027 and beyond) without further lead-time extension"
+    },
+    {
+      "name": "Carrier Global",
+      "business_model": "Manufactures HVAC, refrigeration and fire/security systems, with a growing data-center-dedicated product line",
+      "revenue_model": "Equipment sales, with data-center segment specifically broken out and guided",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["Data-center chiller and CDU demand (orders +300%+ in Q2 2026)", "new US and India manufacturing capacity"],
+      "customer_concentration": null,
+      "moat": "Established hyperscaler and colocation relationships providing visibility into 2027+",
+      "switching_costs": "Medium",
+      "capital_intensity": "High; 2026 capex raised to ~$600M from ~$500M partly for cooling capacity",
+      "management_strategy": "Doubling data-center-segment revenue guidance and building new dedicated manufacturing capacity targeted online by Q1 2027",
+      "execution_risk": "New facility construction timeline risk; margin pressure noted alongside order growth"
+    },
+    {
+      "name": "Johnson Controls",
+      "business_model": "Building technologies and controls, HVAC and fire/security systems, with a large mission-critical data-center vertical",
+      "revenue_model": "Equipment, systems and services sales under a record backlog",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["Mission-critical data-center systems demand", "systems orders +40% YoY"],
+      "customer_concentration": null,
+      "moat": "$21.0B backlog (+32% organic) providing multi-year revenue visibility; broad systems/controls portfolio",
+      "switching_costs": "Medium-high",
+      "capital_intensity": "High",
+      "management_strategy": "Raised full-year guidance on the strength of data-center-driven order growth",
+      "execution_risk": "Sustaining 27%+ order growth and translating backlog into delivered, commissioned capacity without lead-time slippage"
+    },
+    {
+      "name": "Vertiv Holdings",
+      "business_model": "Data-center-focused thermal management, power and IT infrastructure equipment, including CDUs",
+      "revenue_model": "Equipment sales with a large prepaid/deferred-revenue backlog",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["Liquid-cooling CDU demand", "ThermoKey heat-rejection manufacturing acquisition"],
+      "customer_concentration": null,
+      "moat": "$15B backlog (+109% YoY) with $1.8B deferred revenue reflecting binding, prepaid customer commitments",
+      "switching_costs": "Medium",
+      "capital_intensity": "High",
+      "management_strategy": "Expanding CDU and heat-rejection manufacturing capacity via the ThermoKey acquisition",
+      "execution_risk": "Manufacturing-capacity execution needed to convert a 12-18 month backlog into delivered systems without further lead-time extension"
+    }
+  ],
+  "metrics": [
+    { "name": "Trane Technologies Q2 2026 backlog", "value": 12.1, "unit": "USD billion", "period": "Q2 2026", "source_id": "s1" },
+    { "name": "Trane Technologies Q2 2026 bookings growth", "value": 39, "unit": "percent YoY (organic 37%)", "period": "Q2 2026", "source_id": "s1" },
+    { "name": "Carrier Global Q2 2026 data-center order growth", "value": ">300", "unit": "percent YoY", "period": "Q2 2026", "source_id": "s2" },
+    { "name": "Carrier Global 2026 data-center revenue guidance", "value": "raised to ~2 from ~1.5", "unit": "USD billion", "period": "2026", "source_id": "s5" },
+    { "name": "Johnson Controls Q3 FY2026 backlog", "value": 21.0, "unit": "USD billion", "period": "Q3 FY2026", "source_id": "s3", "growth": "+32% organic YoY" },
+    { "name": "Johnson Controls Q3 FY2026 order growth", "value": 27, "unit": "percent organic YoY", "period": "Q3 FY2026", "source_id": "s3" },
+    { "name": "Vertiv backlog entering 2026", "value": 15, "unit": "USD billion", "period": "entering 2026", "source_id": "s10", "growth": "+109% YoY" },
+    { "name": "Chiller/CDU industry lead times", "value": "26-40", "unit": "weeks", "period": "as of Jul 2026", "source_id": "s6" }
+  ],
+  "competitors": [
+    { "name": "Trane Technologies", "kind": "direct competitor", "note": "Record $12.1B backlog; expanding via modular chiller plants and the LiquidStack immersion-cooling acquisition." },
+    { "name": "Carrier Global", "kind": "direct competitor", "note": "Data-center orders +300%+; building a new US manufacturing facility targeted online by Q1 2027." },
+    { "name": "Johnson Controls", "kind": "direct competitor", "note": "$21.0B backlog (+32% organic); systems orders +40% on mission-critical data-center demand." },
+    { "name": "Vertiv Holdings", "kind": "direct competitor", "note": "$15B backlog (+109% YoY); expanding CDU and heat-rejection capacity via the ThermoKey acquisition." },
+    { "name": "Schneider Electric", "kind": "direct competitor", "note": "Took a stake in Motivair to add liquid-cooling/CDU capability, part of the same vertical-integration wave." }
+  ],
+  "financials": [
+    { "company": "Trane Technologies", "period": "Q2 2026", "eps_gaap": "$4.20", "eps_adjusted": "$4.31 (+11% YoY)", "note": "Record $7.8B bookings (+39%), free cash flow ~$1.6B YTD through June 2026.", "source_id": "s1" },
+    { "company": "Carrier Global", "period": "Q2 2026", "revenue": "$6.4 billion (+4% YoY)", "eps_gaap": "$0.60", "eps_adjusted": "$0.86", "note": "FY2026 guidance raised to ~$23B sales, ~$3.5B adjusted operating profit, ~$2.90 adjusted EPS.", "source_id": "s2" },
+    { "company": "Johnson Controls", "period": "Q3 FY2026", "note": "FY2026 guidance raised to ~8% organic revenue growth and ~$5.05 adjusted EPS (+35% YoY); ~100% free-cash-flow conversion targeted.", "source_id": "s3" },
+    { "company": "Vertiv Holdings", "period": "Q1 2026", "note": "Diluted EPS growth +136% (adjusted +83%); full-year guidance raised.", "source_id": "s11" }
+  ],
+  "valuation": { "available": false, "reason": "Current share prices, share counts and full audited financial statements for Trane Technologies, Carrier Global, Johnson Controls and Vertiv Holdings were not independently verified in this research; only disclosed quarterly revenue/backlog/EPS figures are used." },
+  "catalysts": [
+    "Trane Technologies' Q3 2026 earnings call testing whether backlog and bookings growth persist",
+    "Carrier Global's Q3 2026 earnings call and progress on its new US manufacturing facility (targeted Q1 2027)",
+    "Johnson Controls' Q4 FY2026 earnings call and full-year data-center revenue mix disclosure",
+    "Vertiv's Q3 2026 earnings call and any updated backlog/book-to-bill figure",
+    "Next Cooling Report or trade-press update on chiller and CDU lead times"
+  ],
+  "bear_case": [
+    { "dimension": "Supply", "argument": "Trane's CEO said explicitly the company is 'not turning away orders,' and all four OEMs are simultaneously expanding capacity (new US/India plants, LiquidStack, ThermoKey, the Motivair stake) -- capital is flowing fast enough that this could resolve into a temporary lead-time bulge rather than a durable structural ceiling." },
+    { "dimension": "Demand", "argument": "A widely circulated 2026 rebuttal argues the 'half of 2026 capacity canceled' narrative overstates the issue -- most reported delays are schedule slips, not lost demand, meaning the true equipment gap may be narrower than headline coverage suggests." },
+    { "dimension": "Economics", "argument": "Unlike EUV lithography or CoWoS packaging, chiller/CDU manufacturing does not require multi-year fab-level capital intensity: Carrier's incremental new plant costs only about $100 million in added capex and is targeted operational in under a year, suggesting a comparatively fast capacity response versus proven fab-level bottlenecks." },
+    { "dimension": "Regulation", "argument": "The refrigerant phasedown mostly exempts the specific large-chiller class used in data centers on a delayed (2028) compliance timeline, and A2L/HFO substitute refrigerants are already commercially available, undercutting fears of a refrigerant-driven hard ceiling." },
+    { "dimension": "Technology", "argument": "Growing adoption of direct-to-chip and immersion liquid cooling, plus climate-dependent free-cooling/economizer designs, can reduce -- though not eliminate -- the mechanical chiller tonnage required per megawatt of IT load." }
+  ],
+  "kill_conditions": [
+    { "condition": "Chiller and CDU lead times normalize toward the pre-2026 standard range", "metric": "Industry-tracked chiller/CDU lead times (The Cooling Report and peer trackers)", "threshold": "Falls to the 16-24 week standard range for two consecutive quarters", "time_window": "next 3-4 quarters", "impact": "invalidate" },
+    { "condition": "OEM capacity expansions bring supply back in line with orders", "metric": "Reported book-to-bill ratio at Trane, Carrier and Johnson Controls", "threshold": "Book-to-bill falls to roughly 1.0x for two consecutive quarters at two or more of the three OEMs", "time_window": "next 3-4 quarters", "impact": "invalidate" },
+    { "condition": "Hyperscalers shift materially toward cooling designs that reduce chiller tonnage per MW faster than expected", "metric": "Disclosed cooling-technology mix on new hyperscale capacity", "threshold": "Free-cooling or immersion share of new deployments exceeds roughly 30%", "time_window": "next 2-3 years", "impact": "weaken" },
+    { "condition": "AI hyperscaler capital-expenditure guidance decelerates materially", "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon)", "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter", "time_window": "next 2-3 quarters", "impact": "weaken" }
+  ],
+  "validation_events": [
+    {
+      "event": "Trane Technologies' Q3 2026 earnings call",
+      "expected_window": "late October 2026",
+      "supports_if": "Backlog and bookings continue growing at or above Q2's pace with management still citing extended lead times",
+      "weakens_if": "Bookings growth decelerates sharply or management signals lead times shortening",
+      "source_to_monitor": "investors.tranetechnologies.com"
+    },
+    {
+      "event": "Carrier Global's Q3 2026 earnings call",
+      "expected_window": "late October 2026",
+      "supports_if": "Data-center order growth remains at or above triple digits and the new US manufacturing facility stays on its Q1 2027 timeline",
+      "weakens_if": "Data-center order growth decelerates sharply or the new facility's timeline slips",
+      "source_to_monitor": "ir.carrier.com"
+    },
+    {
+      "event": "Johnson Controls' Q4 FY2026 earnings call",
+      "expected_window": "November 2026",
+      "supports_if": "Backlog continues growing above 25% organically with data-center-driven systems orders sustained",
+      "weakens_if": "Backlog growth decelerates materially or data-center order growth stalls",
+      "source_to_monitor": "investors.johnsoncontrols.com"
+    },
+    {
+      "event": "Vertiv's Q3 2026 earnings call",
+      "expected_window": "late October 2026",
+      "supports_if": "Backlog remains at or above $15B with continued CDU/heat-rejection order growth",
+      "weakens_if": "Backlog declines or book-to-bill falls below 1.0x",
+      "source_to_monitor": "investors.vertiv.com"
+    },
+    {
+      "event": "Next trade-press update on chiller and CDU lead times",
+      "expected_window": "Q4 2026",
+      "supports_if": "Lead times remain at or beyond the 26-40 week range reported in July 2026",
+      "weakens_if": "Lead times shorten materially toward the 16-24 week standard",
+      "source_to_monitor": "The Cooling Report; Data Center Dynamics; Data Center Frontier"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "claim": "Trane Technologies reported a record Q2 2026 backlog of $12.1B, bookings up 39% (organic +37%), Americas Commercial HVAC bookings +50%, book-to-bill 123%, and raised full-year revenue and EPS guidance.", "source_url": "https://www.sec.gov/Archives/edgar/data/0001466258/000162828026050743/exhibit991-q22026earningsr.htm", "source_title": "Trane Technologies plc, Form 8-K Exhibit 99.1: \"Trane Technologies Reports Strong Second Quarter Results; Raises Full-Year Revenue and EPS Guidance\"", "source_type": "primary", "published_at": "2026-07-30", "retrieved_at": "2026-09-25", "quote_or_extract": "Record bookings of $7.8 billion, up 39 percent, with organic bookings up 37 percent; record backlog of $12.1 billion; book-to-bill of 123 percent led by Commercial HVAC across all regions; Americas Commercial HVAC bookings growth of 50 percent with data centers a key driver; diluted EPS from continuing operations $4.20, adjusted continuing EPS $4.31 (+11%). Note: this domain was blocked by the research environment's egress proxy; figures are drawn from convergent search-result snippets of the official SEC filing and press release.", "confidence": "high" },
+    { "id": "s2", "claim": "Carrier Global's Q2 2026 total orders rose ~40% YoY with data-center orders up over 300%; sales $6.4B (+4%); FY2026 guidance raised to ~$23B sales.", "source_url": "https://www.sec.gov/Archives/edgar/data/0001783180/000178318026000030/a99-q22026earningsexhibit.htm", "source_title": "Carrier Global Corporation, Form 8-K Exhibit 99: Q2 2026 Earnings Release", "source_type": "primary", "published_at": "2026-07-28", "retrieved_at": "2026-09-25", "quote_or_extract": "Total company orders up approximately 40%, with Commercial HVAC orders up approximately 65% and data-center orders up over 300%; Q2 2026 sales of $6.4 billion, up 4% (organic +3%); GAAP EPS $0.60, adjusted EPS $0.86; full-year outlook raised to approximately $23 billion in sales, ~$3.5 billion adjusted operating profit, ~$2.90 adjusted EPS. Note: this domain was blocked by the research environment's egress proxy; figures are drawn from convergent search-result snippets of the official SEC filing.", "confidence": "high" },
+    { "id": "s3", "claim": "Johnson Controls' Q3 FY2026 backlog reached $21.0B (+32% organic YoY), orders +27% organically (systems orders +40%), driven by mission-critical data-center demand; FY2026 guidance raised.", "source_url": "https://www.sec.gov/Archives/edgar/data/0000833444/000083344426000083/q3ex991xq3fy26earningsrele.htm", "source_title": "Johnson Controls International plc, Form 8-K: Q3 FY2026 Earnings Release", "source_type": "primary", "published_at": "2026-08-07", "retrieved_at": "2026-09-25", "quote_or_extract": "Q3 sales increased 9%, organic sales increased 10%; orders +27% organically, led by a 40% increase in systems orders and sustained demand from mission-critical data center environments; backlog of $21.0 billion, up 32% organically YoY; full-year guidance raised to ~8% organic revenue growth and ~$5.05 adjusted EPS (+35% YoY); data-center revenue projected in the high-teens percent of FY2026 revenue. Note: this domain was blocked by the research environment's egress proxy; figures are drawn from convergent search-result snippets of the official SEC filing and earnings-call coverage.", "confidence": "high" },
+    { "id": "s4", "claim": "Trane Technologies CEO Dave Regnery said the company is 'not turning away orders' and that capital allocation remains focused on capacity expansion including modular chiller plants and the LiquidStack immersion-cooling acquisition.", "source_url": "https://www.fool.com/earnings/call-transcripts/2026/07/30/trane-technologies-tt-q2-2026-earnings-call-transcript/", "source_title": "The Motley Fool: \"Trane Technologies (TT) Q2 2026 Earnings Call Transcript\"", "source_type": "secondary", "published_at": "2026-07-30", "retrieved_at": "2026-09-25", "quote_or_extract": "When asked about capacity constraints, CEO Dave Regnery said, in substance, that Trane is not turning away orders; management said capital allocation (targeted at 2-3% of revenue) remains focused on capacity expansion, innovation, and operational excellence, including modular chiller plants and liquid-cooling capability added via the LiquidStack acquisition.", "confidence": "medium" },
+    { "id": "s5", "claim": "Carrier raised its 2026 data-center sales forecast to ~$2B from ~$1.5B, is building a new US manufacturing facility targeted online by Q1 2027, and raised 2026 capex guidance to ~$600M from ~$500M.", "source_url": "https://www.tradingview.com/news/zacks:1b7775b1b094b:0-carrier-growth-outlook-builds-on-hvac-orders-and-data-center-demand/", "source_title": "TradingView (Zacks): \"Carrier Growth Outlook Builds on HVAC Orders and Data Center Demand\"", "source_type": "secondary", "published_at": "2026-08", "retrieved_at": "2026-09-25", "quote_or_extract": "Carrier raised its 2026 data-center sales forecast to approximately $2 billion from approximately $1.5 billion, after data-center revenue doubled to $1 billion in 2025; to meet demand, Carrier is adding manufacturing and laboratory capacity in the US and India, including a new US facility expected to be operational by the end of Q1 2027, with capital-expenditure guidance raised to approximately $600 million from approximately $500 million previously.", "confidence": "medium" },
+    { "id": "s6", "claim": "Chiller lead times run 20-30 weeks normally (40-60 weeks above 500 tons); CDU lead times run 16-24 weeks standard, stretching to 26-40 weeks industry-wide by July 2026, with large CDU orders quoted at 6-10 months; OEMs are vertically integrating thermal/power via acquisition.", "source_url": "https://thecoolingreport.com/intel/data-center-cooling-supply-chain-guide-2026.html", "source_title": "The Cooling Report: \"Where Cooling Components Come From and Why They're Late: The 2026 Data Center Cooling Supply Chain Guide\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-09-25", "quote_or_extract": "Chiller lead times run 20 to 30 weeks under normal conditions; chillers above 500 tons run 40-60 weeks. CDUs have standard lead times of 16 to 24 weeks. As of July 2026, CDUs and chillers are at 26-40 weeks; new 1-3 MW CDU orders are quoted at 6-10 months. Industry consolidation is occurring, with companies like Eaton, Trane, Vertiv, and Schneider Electric making strategic acquisitions (LiquidStack, ThermoKey, Motivair) to vertically integrate thermal and power solutions.", "confidence": "medium" },
+    { "id": "s7", "claim": "Under the AIM Act, allowable HFC production/consumption is cut to 40% of baseline from 2024 en route to an 85% cut by 2036; new large chillers face a 700 GWP cap from Jan 1, 2026 or Jan 1, 2028 depending on charge size and operating temperature, with most data-center chillers on the later path.", "source_url": "https://www.federalregister.gov/documents/2026/05/26/2026-10387/phasedown-of-hydrofluorocarbons-reconsideration-of-certain-regulatory-requirements-promulgated-under", "source_title": "Federal Register: \"Phasedown of Hydrofluorocarbons: Reconsideration of Certain Regulatory Requirements Promulgated Under the Technology Transitions Provisions of the American Innovation and Manufacturing Act of 2020\"", "source_type": "primary", "published_at": "2026-05-26", "retrieved_at": "2026-09-25", "quote_or_extract": "The AIM Act directs EPA to phase down HFC production and consumption by 85% by 2036, with allowances cut to 40% of baseline starting in 2024; the Technology Transition Rule sets GWP restrictions for chillers (a 700 GWP cap) that begin January 1, 2026 or January 1, 2028 depending on refrigerant charge size and the temperature at which the equipment is designed to operate, with most equipment operating above -30 degC (including the large majority of data-center chillers) subject to the later compliance path.", "confidence": "medium" },
+    { "id": "s8", "claim": "Between 30% and 50% of large data-center projects scheduled for 2026 are reported delayed, attributed to power constraints, equipment shortages (including cooling), and local opposition.", "source_url": "https://www.semafor.com/article/02/24/2026/data-centers-hit-by-power-delays-equipment-shortages", "source_title": "Semafor: \"Data centers hit by power delays, equipment shortages\"", "source_type": "secondary", "published_at": "2026-02-24", "retrieved_at": "2026-09-25", "quote_or_extract": "Between 30% and 50% of large data centers scheduled to come online in 2026 are expected to be delayed due to power constraints, equipment shortages -- including cooling components -- and local opposition, not for lack of capital, land or chips.", "confidence": "medium" },
+    { "id": "s9", "claim": "A rebuttal argues the 'half of 2026 US data-center capacity is canceled' framing overstates the issue: most reported delays are schedule slips, not cancellations, and total planned US data-center capacity continues to grow.", "source_url": "https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter", "source_title": "SemiAnalysis: \"Stop Saying Half of 2026 US Datacenter Capacity Is Canceled\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-09-25", "quote_or_extract": "The widely cited claim that roughly half of 2026's planned US data-center capacity is 'canceled' conflates schedule delays with outright cancellations; most of the affected capacity is being pushed later, not abandoned, and aggregate planned/under-construction capacity continues to increase.", "confidence": "medium" },
+    { "id": "s10", "claim": "Vertiv entered 2026 with a $15 billion backlog, up 109% YoY, covering a 12-18 month delivery window, plus $1.8B deferred revenue (+71% YoY).", "source_url": "https://www.barchart.com/story/news/300848/vertivs-15-billion-backlog-is-the-loudest-ai-signal-in-2026", "source_title": "Barchart: \"Vertiv's $15 Billion Backlog Is the Loudest AI Signal in 2026\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-09-25", "quote_or_extract": "Vertiv ended fiscal 2025 with a project backlog of about $15 billion, a 109% increase year over year, reflecting legally binding purchase orders rather than customer interest, extending into a 12-18 month delivery window; deferred revenue of $1.8 billion (+71% YoY) indicates customers are making substantial advance payments.", "confidence": "medium" },
+    { "id": "s11", "claim": "Vertiv reported Q1 2026 diluted EPS growth of 136% (adjusted +83%) and raised full-year guidance.", "source_url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-First-Quarter-with-Diluted-EPS-Growth-of-136-Adjusted-Diluted-EPS-Growth-of-83-Raises-Full-Year-Guidance/default.aspx", "source_title": "Vertiv Holdings Co: \"Vertiv Reports Strong First Quarter with Diluted EPS Growth of 136% (Adjusted Diluted EPS Growth of +83%); Raises Full-Year Guidance\"", "source_type": "primary", "published_at": "2026", "retrieved_at": "2026-09-25", "quote_or_extract": "Vertiv reported first-quarter 2026 diluted EPS growth of 136% and adjusted diluted EPS growth of 83%, and raised its full-year guidance. Note: this domain was blocked by the research environment's egress proxy; figures are drawn from a convergent search-result snippet of the official press release headline and body.", "confidence": "high" }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

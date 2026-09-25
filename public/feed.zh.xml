@@ -6,6 +6,18 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>散熱之牆：售罄的大型冰水機——而非CDU、冷媒或晶片——是否是AI資料中心下一個結構性瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/chiller-cdu-cooling-equipment-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/chiller-cdu-cooling-equipment-ai-data-center-bottleneck</guid>
+      <pubDate>Fri, 25 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>data-centers</category>
+      <category>thermal-management</category>
+      <category>capital-equipment</category>
+      <description>Trane、開利與江森自控在2026年第二／三季財報中均創積壓訂單新高，明確受AI資料中心散熱需求驅動；Vertiv也以150億美元積壓訂單（年增109%）邁入2026年。冰水機與CDU的產業交期已從16-30週標準延長至2026年7月的26-40週，大型冰水機交期更達40-60週。然而Trane執行長表示公司「並未拒絕任何訂單」，四家廠商同時都在擴增製造產能，最快者約八個月內即可投產。目前尚無雲端服務商公開將延誤歸咎於散熱設備本身。</description>
+    </item>
+    <item>
       <title>晶圓地板：信越與勝高的產能自律，是否讓300mm矽晶圓成為AI下一個結構性瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/silicon-wafer-duopoly-ai-chip-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/silicon-wafer-duopoly-ai-chip-bottleneck</guid>

@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Cooling Wall: Are Sold-Out Chillers -- Not CDUs, Refrigerant, or Chips -- AI Data Centers' Next Structural Bottleneck?",
+    "date": "2026-09-25",
+    "slug": "chiller-cdu-cooling-equipment-ai-data-center-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "data-centers",
+      "thermal-management",
+      "capital-equipment"
+    ],
+    "companies": [
+      "Trane Technologies",
+      "Carrier Global",
+      "Johnson Controls",
+      "Vertiv Holdings"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/chiller-cdu-cooling-equipment-ai-data-center-bottleneck",
+    "path": "reports/2026/09/2026-09-25-chiller-cdu-cooling-equipment-ai-data-center-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The Wafer Floor: Are Shin-Etsu and SUMCO's Capacity Discipline Making 300mm Silicon Wafers AI's Next Structural Bottleneck?",
     "date": "2026-09-24",
     "slug": "silicon-wafer-duopoly-ai-chip-bottleneck",

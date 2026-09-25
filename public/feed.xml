@@ -6,6 +6,18 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Cooling Wall: Are Sold-Out Chillers -- Not CDUs, Refrigerant, or Chips -- AI Data Centers&apos; Next Structural Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/chiller-cdu-cooling-equipment-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/chiller-cdu-cooling-equipment-ai-data-center-bottleneck</guid>
+      <pubDate>Fri, 25 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>data-centers</category>
+      <category>thermal-management</category>
+      <category>capital-equipment</category>
+      <description>Trane Technologies, Carrier Global and Johnson Controls each reported record backlogs in Q2/Q3 2026 -- $12.1 billion, over 300% data-center order growth, and $21.0 billion respectively -- driven explicitly by AI data-center cooling demand, while Vertiv entered 2026 with a $15 billion backlog, up 109% year over year. Industry lead times for chillers and coolant-distribution units (CDUs) stretched from a 16-30 week standard to 26-40 weeks by July 2026, with large (500+ ton) chillers running 40-60 weeks and 1-3 MW CDU orders quoted at 6-10 months. Yet Trane&apos;s CEO said the company is &quot;not turning away orders,&quot; and all four OEMs are simultaneously adding manufacturing capacity -- Carrier&apos;s new US plant, Trane&apos;s LiquidStack acquisition, Vertiv&apos;s ThermoKey addition -- with the fastest targeted online within about eight months. No hyperscaler has yet publicly blamed a delay on cooling equipment specifically.</description>
+    </item>
+    <item>
       <title>The Wafer Floor: Are Shin-Etsu and SUMCO&apos;s Capacity Discipline Making 300mm Silicon Wafers AI&apos;s Next Structural Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/silicon-wafer-duopoly-ai-chip-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/silicon-wafer-duopoly-ai-chip-bottleneck</guid>

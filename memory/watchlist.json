@@ -1451,5 +1451,50 @@
     "source_to_monitor": "Respective investor relations pages",
     "origin_report": "reports/2026/09/2026-09-24-silicon-wafer-duopoly-ai-chip-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Trane Technologies' Q3 2026 earnings call",
+    "expected_window": "late October 2026",
+    "supports_if": "Backlog and bookings continue growing at or above Q2's pace with management still citing extended lead times",
+    "weakens_if": "Bookings growth decelerates sharply or management signals lead times shortening",
+    "source_to_monitor": "investors.tranetechnologies.com",
+    "origin_report": "reports/2026/09/2026-09-25-chiller-cdu-cooling-equipment-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Carrier Global's Q3 2026 earnings call",
+    "expected_window": "late October 2026",
+    "supports_if": "Data-center order growth remains at or above triple digits and the new US manufacturing facility stays on its Q1 2027 timeline",
+    "weakens_if": "Data-center order growth decelerates sharply or the new facility's timeline slips",
+    "source_to_monitor": "ir.carrier.com",
+    "origin_report": "reports/2026/09/2026-09-25-chiller-cdu-cooling-equipment-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Johnson Controls' Q4 FY2026 earnings call",
+    "expected_window": "November 2026",
+    "supports_if": "Backlog continues growing above 25% organically with data-center-driven systems orders sustained",
+    "weakens_if": "Backlog growth decelerates materially or data-center order growth stalls",
+    "source_to_monitor": "investors.johnsoncontrols.com",
+    "origin_report": "reports/2026/09/2026-09-25-chiller-cdu-cooling-equipment-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Vertiv's Q3 2026 earnings call",
+    "expected_window": "late October 2026",
+    "supports_if": "Backlog remains at or above $15B with continued CDU/heat-rejection order growth",
+    "weakens_if": "Backlog declines or book-to-bill falls below 1.0x",
+    "source_to_monitor": "investors.vertiv.com",
+    "origin_report": "reports/2026/09/2026-09-25-chiller-cdu-cooling-equipment-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next trade-press update on chiller and CDU lead times",
+    "expected_window": "Q4 2026",
+    "supports_if": "Lead times remain at or beyond the 26-40 week range reported in July 2026",
+    "weakens_if": "Lead times shorten materially toward the 16-24 week standard",
+    "source_to_monitor": "The Cooling Report; Data Center Dynamics; Data Center Frontier",
+    "origin_report": "reports/2026/09/2026-09-25-chiller-cdu-cooling-equipment-ai-data-center-bottleneck.md",
+    "status": "open"
   }
 ]
