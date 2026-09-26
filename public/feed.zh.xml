@@ -6,6 +6,19 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>管線之牆：中游天然氣管線產能——而非渦輪機或電網——是否是AI資料中心下一個電力瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/natural-gas-pipeline-capacity-ai-data-center-power-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/natural-gas-pipeline-capacity-ai-data-center-power-bottleneck</guid>
+      <pubDate>Sat, 26 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>power-generation</category>
+      <category>regulation</category>
+      <category>data-centers</category>
+      <description>Williams、Kinder Morgan與Energy Transfer在2026年財報中均揭露創紀錄、明確與AI資料中心及電力需求掛鉤的積壓訂單：Williams完成55億美元Haynesville收購並上調長期成長目標；Kinder Morgan積壓訂單96億美元中逾60%與電力需求相關；Energy Transfer揭露逾6 Bcf/d已簽約資料中心產能。然而旗艦州際擴建案仍需數年——Power Express要到2030年7月才目標投產——而FERC改革前許可積壓平均465天。FERC於5月一致通過的改革直接針對此延誤，繞過審查的資本輕量支線僅一季即可上線。尚無雲端服務商將延誤歸咎於管線產能，分析師對實際需求的估計介於3至20 Bcf/d，差距甚大。</description>
+    </item>
+    <item>
       <title>散熱之牆：售罄的大型冰水機——而非CDU、冷媒或晶片——是否是AI資料中心下一個結構性瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/chiller-cdu-cooling-equipment-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/chiller-cdu-cooling-equipment-ai-data-center-bottleneck</guid>

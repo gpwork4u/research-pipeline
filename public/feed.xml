@@ -6,6 +6,19 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Pipeline Wall: Is Midstream Natural Gas Capacity -- Not Turbines or the Grid -- AI Data Centers&apos; Next Power Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/natural-gas-pipeline-capacity-ai-data-center-power-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/natural-gas-pipeline-capacity-ai-data-center-power-bottleneck</guid>
+      <pubDate>Sat, 26 Sep 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>power-generation</category>
+      <category>regulation</category>
+      <category>data-centers</category>
+      <description>Williams, Kinder Morgan and Energy Transfer each disclosed record or near-record 2026 project backlogs explicitly tied to AI data-center and power demand: Williams closed a $5.5B Haynesville acquisition and raised its long-term growth target; Kinder Morgan reported 60%+ of its $9.6B backlog tied to power/utility demand; Energy Transfer disclosed 6+ Bcf/d of contracted data-center capacity. Yet flagship interstate expansions take years -- Williams&apos; 950 MMcf/d Transco Power Express is not targeted online until July 2030 -- while a pre-reform FERC certificate backlog averaged 465 days. FERC&apos;s unanimous May 2026 rulemaking directly targets that permitting delay, and capital-light laterals bypassing certificate review have shipped in a single quarter. No hyperscaler has yet blamed a delay on pipeline capacity specifically, and analyst estimates of real incremental gas demand span a wide 3-20 Bcf/d by 2030.</description>
+    </item>
+    <item>
       <title>The Cooling Wall: Are Sold-Out Chillers -- Not CDUs, Refrigerant, or Chips -- AI Data Centers&apos; Next Structural Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/chiller-cdu-cooling-equipment-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/chiller-cdu-cooling-equipment-ai-data-center-bottleneck</guid>

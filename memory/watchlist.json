@@ -1496,5 +1496,50 @@
     "source_to_monitor": "The Cooling Report; Data Center Dynamics; Data Center Frontier",
     "origin_report": "reports/2026/09/2026-09-25-chiller-cdu-cooling-equipment-ai-data-center-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Williams Companies' Q3 2026 earnings call",
+    "expected_window": "early November 2026",
+    "supports_if": "Backlog and long-term growth guidance continue rising with Power Express and Atlas still on their disclosed timelines",
+    "weakens_if": "Guidance growth decelerates or Power Express/Atlas timelines slip",
+    "source_to_monitor": "investor.williams.com",
+    "origin_report": "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Kinder Morgan's Q3 2026 earnings call",
+    "expected_window": "mid-to-late October 2026",
+    "supports_if": "Backlog remains at or above $9.6B with power/data-center share sustained above 60%",
+    "weakens_if": "Backlog declines without offsetting new project announcements, or power/data-center share falls materially",
+    "source_to_monitor": "ir.kindermorgan.com",
+    "origin_report": "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Energy Transfer's Q3 2026 earnings call and any newly announced pipeline projects",
+    "expected_window": "early November 2026",
+    "supports_if": "Contracted data-center/power-plant Bcf/d grows beyond the disclosed 6+ Bcf/d and new projects are announced as previously flagged",
+    "weakens_if": "No new project announcements materialize or contracted volumes plateau",
+    "source_to_monitor": "ir.energytransfer.com",
+    "origin_report": "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "FERC action on the blanket-certificate NOPR (Docket RM25-12-001)",
+    "expected_window": "late 2026 - 2027",
+    "supports_if": "FERC finalizes the rule substantially as proposed, measurably shortening the certificate process",
+    "weakens_if": "The rule is delayed, narrowed, or challenged in a way that leaves the certificate backlog largely unchanged",
+    "source_to_monitor": "ferc.gov",
+    "origin_report": "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next East Daley Analytics or EIA Short-Term Energy Outlook update to data-center natural-gas-demand forecasts",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Forecasts move toward the higher end of the 3-20 Bcf/d range with pipeline-capacity constraints still cited as limiting",
+    "weakens_if": "Forecasts are revised down or pipeline-capacity constraints are no longer cited as a limiting factor",
+    "source_to_monitor": "East Daley Analytics (eastdaley.com); EIA Short-Term Energy Outlook (eia.gov)",
+    "origin_report": "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md",
+    "status": "open"
   }
 ]

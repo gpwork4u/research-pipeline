@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Pipeline Wall: Is Midstream Natural Gas Capacity -- Not Turbines or the Grid -- AI Data Centers' Next Power Bottleneck?",
+    "date": "2026-09-26",
+    "slug": "natural-gas-pipeline-capacity-ai-data-center-power-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "power-generation",
+      "regulation",
+      "data-centers"
+    ],
+    "companies": [
+      "Williams Companies",
+      "Kinder Morgan",
+      "Energy Transfer"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/natural-gas-pipeline-capacity-ai-data-center-power-bottleneck",
+    "path": "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The Cooling Wall: Are Sold-Out Chillers -- Not CDUs, Refrigerant, or Chips -- AI Data Centers' Next Structural Bottleneck?",
     "date": "2026-09-25",
     "slug": "chiller-cdu-cooling-equipment-ai-data-center-bottleneck",

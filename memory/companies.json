@@ -570,5 +570,26 @@
       "reports/2026/09/2026-09-25-chiller-cdu-cooling-equipment-ai-data-center-bottleneck.md"
     ],
     "last_updated": "2026-09-25"
+  },
+  {
+    "name": "Williams Companies",
+    "reports": [
+      "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md"
+    ],
+    "last_updated": "2026-09-26"
+  },
+  {
+    "name": "Kinder Morgan",
+    "reports": [
+      "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md"
+    ],
+    "last_updated": "2026-09-26"
+  },
+  {
+    "name": "Energy Transfer",
+    "reports": [
+      "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md"
+    ],
+    "last_updated": "2026-09-26"
   }
 ]

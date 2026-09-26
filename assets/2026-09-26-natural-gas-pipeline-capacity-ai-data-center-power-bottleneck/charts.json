@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Williams project timelines: laterals/behind-the-meter vs. mainline expansion (months to target in-service from Sept 2026)",
+    "title_zh": "Williams專案時程：支線／表後專案 vs. 主幹線擴建（自2026年9月起至目標投產月數）",
+    "type": "bar",
+    "unit": "months",
+    "source_id": "s6",
+    "series": [
+      { "label": "Atlas (164 MMcf/d, end-2026)", "value": 3 },
+      { "label": "Socrates (behind-the-meter, H2 2026)", "value": 3 },
+      { "label": "Transco Power Express (950 MMcf/d, Jul 2030)", "value": 46 }
+    ]
+  },
+  {
+    "title": "Data-center natural gas demand forecasts by 2030 (Bcf/d)",
+    "title_zh": "至2030年資料中心天然氣需求預測（Bcf/d）",
+    "type": "bar",
+    "unit": "Bcf/d",
+    "source_id": "s12",
+    "series": [
+      { "label": "S&P Global base case", "value": 3 },
+      { "label": "S&P Global upside", "value": 6 },
+      { "label": "Broader analyst range (upper bound)", "value": 20 },
+      { "label": "Wood Mackenzie power-sector growth (mid-2030s)", "value": 17 }
+    ]
+  }
+]

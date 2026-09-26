@@ -1263,5 +1263,39 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck",
+    "topic": "natural-gas-pipeline-capacity-ai-data-center-power-bottleneck",
+    "statement": "Record 2026 project backlogs and raised guidance at Williams Companies, Kinder Morgan and Energy Transfer -- the three largest US midstream gas-pipeline operators -- driven explicitly by AI data-center and power-generation demand, combined with a pre-existing FERC interstate-pipeline certificate backlog (~465 days average pre-reform) and multi-year in-service timelines for major expansions (Williams' 950 MMcf/d Transco Power Express not targeted online until July 2030), indicate that long-haul, FERC-certificated interstate natural gas pipeline transport capacity is a distinct, low-elasticity, hard-to-substitute structural bottleneck on AI data-center power delivery -- one layer removed from the gas-turbine manufacturing bottleneck and the electric-grid interconnection bottlenecks this pipeline has already examined. Unlike interstate mainline expansions, capital-light laterals and behind-the-meter gas-supply projects that bypass FERC's certificate process show markedly higher supply elasticity, and FERC's unanimous May 2026 blanket-certificate rulemaking directly targets the binding permitting constraint, leaving the bottleneck's durability genuinely contested given a wide (3-20 Bcf/d by 2030) analyst range on real incremental gas demand.",
+    "confidence": "medium",
+    "created_at": "2026-09-26",
+    "updated_at": "2026-09-26",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "FERC's interstate pipeline certificate backlog/average approval time shortens materially following the 2026 blanket-certificate reform",
+        "metric": "FERC-tracked pipeline certificate backlog and average decision time",
+        "threshold": "Average certificate backlog falls below roughly 180 days for two consecutive quarters",
+        "time_window": "next 4-6 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Verified/contracted data-center gas demand growth stalls well below the 3-6 Bcf/d base-case range",
+        "metric": "Aggregate disclosed contracted Bcf/d tied to data centers across Williams, Kinder Morgan and Energy Transfer",
+        "threshold": "Aggregate disclosed contracted growth flattens or declines for two consecutive quarters",
+        "time_window": "next 3-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "AI hyperscaler capital-expenditure guidance decelerates materially, reducing downstream demand for new gas-fired power and therefore pipeline capacity",
+        "metric": "Aggregate hyperscaler capital-expenditure growth guidance (Google, Meta, Microsoft, Amazon, Oracle)",
+        "threshold": "Aggregate guided capex growth decelerates materially quarter over quarter",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

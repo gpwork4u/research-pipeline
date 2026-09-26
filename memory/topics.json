@@ -670,5 +670,26 @@
       "Johnson Controls",
       "Vertiv Holdings"
     ]
+  },
+  {
+    "slug": "natural-gas-pipeline-capacity-ai-data-center-power-bottleneck",
+    "title": "The Pipeline Wall: Is Midstream Natural Gas Capacity -- Not Turbines or the Grid -- AI Data Centers' Next Power Bottleneck?",
+    "last_updated": "2026-09-26",
+    "reports": [
+      "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "power-generation",
+      "regulation",
+      "data-centers"
+    ],
+    "companies": [
+      "Williams Companies",
+      "Kinder Morgan",
+      "Energy Transfer"
+    ]
   }
 ]
