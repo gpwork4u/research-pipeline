@@ -1541,5 +1541,50 @@
     "source_to_monitor": "East Daley Analytics (eastdaley.com); EIA Short-Term Energy Outlook (eia.gov)",
     "origin_report": "reports/2026/09/2026-09-26-natural-gas-pipeline-capacity-ai-data-center-power-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Samsung Electronics' and SK Hynix's Q3 2026 earnings calls",
+    "expected_window": "late October 2026",
+    "supports_if": "Either company discloses a WF6/tungsten-related cost or production impact for the first time, in contrast to SK Hynix's April 2026 'no impact' statement",
+    "weakens_if": "Both companies reiterate no material impact and report stable wafer output and margins",
+    "source_to_monitor": "Samsung Electronics and SK Hynix investor relations",
+    "origin_report": "reports/2026/09/2026-09-27-tungsten-hexafluoride-shortage-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Kanto Denka Kogyo's and Central Glass's next interim/annual financial disclosures",
+    "expected_window": "around November 2026",
+    "supports_if": "Both companies confirm WF6 segment revenue has gone to zero and disclose a material earnings impact from the shutdown",
+    "weakens_if": "Either company discloses a resumed or substitute tungsten-feedstock source avoiding the shutdown",
+    "source_to_monitor": "Kanto Denka Kogyo and Central Glass investor relations / TDnet filings",
+    "origin_report": "reports/2026/09/2026-09-27-tungsten-hexafluoride-shortage-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Peric Special Gases' and China Shipbuilding Special Gas's next disclosed WF6 capacity and export figures",
+    "expected_window": "Q4 2026 interim/annual disclosures",
+    "supports_if": "Disclosed WF6 export volumes to Korea, Taiwan or US customers grow materially, confirming China's domestic industry is filling the ex-China supply gap",
+    "weakens_if": "Export volumes remain small, or importing countries restrict purchases of Chinese-sourced chip gases",
+    "source_to_monitor": "Company disclosures; Chinese financial press",
+    "origin_report": "reports/2026/09/2026-09-27-tungsten-hexafluoride-shortage-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "China's next dual-use export catalogue revision",
+    "expected_window": "around January 2027",
+    "supports_if": "Finished WF6 gas remains exempt from export controls, preserving the profit-capture shift toward Chinese producers",
+    "weakens_if": "China adds finished WF6 to the controlled list, closing the export loophole",
+    "source_to_monitor": "mofcom.gov.cn",
+    "origin_report": "reports/2026/09/2026-09-27-tungsten-hexafluoride-shortage-ai-chip-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's Q4 2026 and Q1 2027 earnings commentary",
+    "expected_window": "January 2027",
+    "supports_if": "TSMC discloses a WF6-related cost or supply issue for the first time",
+    "weakens_if": "TSMC reports no material impact from tungsten-gas supply conditions",
+    "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
+    "origin_report": "reports/2026/09/2026-09-27-tungsten-hexafluoride-shortage-ai-chip-bottleneck.md",
+    "status": "open"
   }
 ]

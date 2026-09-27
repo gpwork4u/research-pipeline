@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Tungsten Hexafluoride (5N-grade) Price Index: Pre-Surge vs Mid-2026",
+    "title_zh": "六氟化鎢（5N 級）價格指數：飆漲前對比 2026 年中",
+    "type": "bar",
+    "unit": "index (pre-surge baseline = 100)",
+    "source_id": "s3",
+    "series": [
+      { "label": "Pre-surge baseline", "value": 100 },
+      { "label": "Mid-2026 (>200% YoY increase)", "value": 300 }
+    ]
+  },
+  {
+    "title": "Kanto Denka Kogyo Annual Revenue",
+    "title_zh": "關東電化工業年度營收",
+    "type": "bar",
+    "unit": "JPY billion",
+    "source_id": "s11",
+    "series": [
+      { "label": "Prior fiscal year", "value": 62.35 },
+      { "label": "FY2026 (reported, pre-shutdown)", "value": 65.40 }
+    ]
+  }
+]

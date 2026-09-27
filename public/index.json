@@ -1,5 +1,27 @@
 [
   {
+    "title": "The WF6 Wall: Did China's Tungsten Export Curbs Just Create AI Chip Manufacturing's Least-Watched Structural Bottleneck?",
+    "date": "2026-09-27",
+    "slug": "tungsten-hexafluoride-shortage-ai-chip-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "materials",
+      "geopolitics"
+    ],
+    "companies": [
+      "Kanto Denka Kogyo",
+      "Central Glass",
+      "Peric Special Gases"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/tungsten-hexafluoride-shortage-ai-chip-bottleneck",
+    "path": "reports/2026/09/2026-09-27-tungsten-hexafluoride-shortage-ai-chip-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The Pipeline Wall: Is Midstream Natural Gas Capacity -- Not Turbines or the Grid -- AI Data Centers' Next Power Bottleneck?",
     "date": "2026-09-26",
     "slug": "natural-gas-pipeline-capacity-ai-data-center-power-bottleneck",

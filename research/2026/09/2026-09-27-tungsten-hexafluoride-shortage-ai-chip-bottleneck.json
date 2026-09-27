@@ -1,0 +1,498 @@
+{
+  "topic": {
+    "title": "The WF6 Wall: Did China's Tungsten Export Curbs Just Create AI Chip Manufacturing's Least-Watched Structural Bottleneck?",
+    "slug": "tungsten-hexafluoride-shortage-ai-chip-bottleneck",
+    "date": "2026-09-27",
+    "research_type": "NEW",
+    "categories": ["ai-infrastructure", "semiconductors", "materials", "geopolitics"],
+    "score": 32,
+    "trigger": "China's tightened January 2026 dual-use export catalogue drove its exports of high-purity tungsten powder to Japan to zero; Japan's two tungsten hexafluoride (WF6) producers, Kanto Denka Kogyo and Central Glass -- together roughly a quarter of global WF6 capacity -- notified Samsung, SK Hynix and TSMC in April 2026 that production would permanently cease July 1, 2026, and WF6 prices in China surged over 200% year-on-year."
+  },
+  "questions": {
+    "primary": "Has China's tungsten export tightening, by forcing the permanent shutdown of roughly a quarter of global tungsten hexafluoride (WF6) production, created a genuine structural bottleneck on AI-driven advanced-logic and memory chipmaking, or does China's own downstream WF6 industry -- unrestricted because the finished gas itself is not export-controlled -- simply reroute supply and defuse it?",
+    "sub": [
+      "How large is the Kanto Denka Kogyo/Central Glass shutdown relative to global WF6 supply, and how fast can Korean or Chinese producers fill the gap?",
+      "Do Samsung, SK Hynix and TSMC's own statements suggest a material production impact, or have they successfully hedged via inventory and supplier diversification?",
+      "Why is finished WF6 exempt from China's dual-use export controls even though upstream tungsten/APT is restricted, and what does that asymmetry do to who captures the resulting pricing power?",
+      "How does this bottleneck differ from the helium and bromine/HBr gas-shortage bottlenecks this pipeline already assessed, and does it independently meet the strict Demand/Supply/Substitutability test?",
+      "What is the price and timeline evidence on whether non-China WF6 capacity can realistically come online before 2027?"
+    ]
+  },
+  "thesis": "China's tightened tungsten export controls have forced the permanent shutdown of roughly a quarter of global tungsten hexafluoride (WF6) capacity just as AI-driven HBM and advanced-logic demand for tungsten-fill CVD is rising, but because China exempted the finished WF6 gas itself from export controls, Chinese producers such as Peric Special Gases can still export freely -- turning a supply shock centered outside China into a bottleneck that is structurally binding for the ex-China producer base, yet is simultaneously being arbitraged away by Chinese finished-gas exports, buyer inventory buffers and Korean capacity.",
+  "facts": [
+    {
+      "statement": "China's Ministry of Commerce and General Administration of Customs jointly issued Announcement No. 91 of 2025 on December 31, 2025, publishing the 2026 Catalogue of Dual-Use Items and Technologies Subject to Import and Export Licensing, effective January 1, 2026, which added tungsten-nickel alloys and tightened licensing on tungsten-related products including ammonium paratungstate (APT) and tungsten oxide destined for military-linked end uses.",
+      "type": "FACT",
+      "evidence_ids": ["s2"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Following the tightened catalogue, China's exports of high-purity tungsten powder to Japan fell to effectively zero from February through April 2026.",
+      "type": "FACT",
+      "evidence_ids": ["s4", "s10", "s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Japan's two tungsten hexafluoride (WF6) producers, Kanto Denka Kogyo and Central Glass, formally notified major customers including Samsung, SK Hynix and TSMC in April 2026 that WF6 production would permanently cease from July 1, 2026, with June 30, 2026 as the last shipment date.",
+      "type": "FACT",
+      "evidence_ids": ["s5", "s12"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Kanto Denka Kogyo and Central Glass together account for approximately 2,000-2,200 metric tons of annual WF6 capacity, roughly a quarter of estimated global supply.",
+      "type": "FACT",
+      "evidence_ids": ["s5", "s12", "s13"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Between 60% and 70% of WF6 production cost is high-purity tungsten powder feedstock, which Japan sources almost entirely from China.",
+      "type": "FACT",
+      "evidence_ids": ["s12"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "WF6 (5N-grade) prices rose over 200% year-on-year by around April 2026, and TrendForce reported the surge as continuing ahead of the Japanese output cuts.",
+      "type": "FACT",
+      "evidence_ids": ["s3"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "South Korean WF6 suppliers SK Specialty and Foosung notified Samsung Electronics, SK Hynix and DB HiTek of planned WF6 price increases of 70% to 90% for the second half of 2026.",
+      "type": "FACT",
+      "evidence_ids": ["s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "On its Q1 FY2026 earnings call (April 23, 2026), SK Hynix said it has already diversified suppliers for helium, bromine and tungsten and built up sufficient inventory, stating that although tungsten prices have risen due to geopolitical issues, there are no supply disruptions and no impact on its production.",
+      "type": "FACT",
+      "evidence_ids": ["s1"],
+      "confidence": "high"
+    },
+    {
+      "statement": "China's dual-use export controls restrict upstream tungsten raw materials (ore, APT, tungsten oxide, tungsten-nickel alloys) but do not place the finished tungsten hexafluoride gas itself on the controlled list, so Chinese-made WF6 can still be exported.",
+      "type": "FACT",
+      "evidence_ids": ["s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Peric Special Gases, a China-based WF6 and specialty-gas producer with roughly 2,200 tonnes/year of WF6 capacity, was the best-performing stock in China's A-share market in the first half of 2026, rallying more than 730%, and reports domestic WF6 market coverage above 95% and international coverage above 30%.",
+      "type": "FACT",
+      "evidence_ids": ["s8", "s7"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Kanto Denka Kogyo reported fiscal-year revenue of approximately JPY 65.40 billion (+4.89% year-on-year) and earnings of approximately JPY 3.79 billion (+16.53%), a period predating the July 2026 WF6 shutdown's financial impact.",
+      "type": "FACT",
+      "evidence_ids": ["s11"],
+      "confidence": "low"
+    },
+    {
+      "statement": "Kanto Denka Kogyo separately suffered an August 2025 fire at its Shibukawa plant that damaged a nitrogen trifluoride production line and disrupted downstream WF6 output, ahead of the 2026 tungsten-feedstock cutoff.",
+      "type": "FACT",
+      "evidence_ids": ["s12"],
+      "confidence": "low"
+    },
+    {
+      "statement": "WF6 is used to deposit tungsten thin films via chemical vapor deposition in semiconductor manufacturing, a step applied in advanced sub-7nm logic, 3D NAND, and high-bandwidth memory (HBM), where rising layer counts increase per-wafer WF6 consumption.",
+      "type": "FACT",
+      "evidence_ids": ["s3", "s6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Digitimes reported in September 2026 that Peric was expanding WF6-related capacity even as rival (non-China) suppliers raised prices, and Chinese competitor China Shipbuilding Special Gas reported semi-annual revenue up 83% year-on-year with WF6-related income up nearly threefold.",
+      "type": "FACT",
+      "evidence_ids": ["s6"],
+      "confidence": "low"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because China's export controls target upstream tungsten raw materials but exempt the finished WF6 gas, the shock is redistributing WF6 profit capture toward Chinese finished-gas producers (Peric, China Shipbuilding Special Gas) and away from Japan's Kanto Denka Kogyo and Central Glass, rather than simply removing WF6 supply from the market.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s8", "s6", "s7"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "SK Hynix's April 2026 statement that it faces no production impact, made before the July 1 shutdown actually took effect and while South Korean suppliers still had access to Chinese tungsten powder, may understate risk relative to conditions after South Korean suppliers' own 70-90% price hikes took hold in H2 2026.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s1", "s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "The bifurcation between a Structural-Bottleneck-grade shutdown in ex-China WF6 capacity and a fast-growing, unrestricted China-based WF6 industry mirrors the pattern seen in this pipeline's rare-earth and CXMT memory research: a China-controlled input chokepoint that simultaneously builds Chinese downstream market share.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s8", "s2"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because WF6 price increases (70-90% from Korean suppliers, 200%+ in China) are being passed through as cost inflation rather than accompanied by reported wafer-output cuts, the near-term effect looks more like a margin/cost bottleneck for chipmakers than an outright production-volume constraint.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s9", "s3", "s1"],
+      "confidence": "medium"
+    }
+  ],
+  "unknowns": [
+    "Whether TSMC has made any public statement on WF6 supply or cost impact; reporting that TSMC was notified of the shutdown was not corroborated by a TSMC statement in available sources.",
+    "The precise current (post-July 1, 2026) global WF6 supply-demand balance in metric tons; cited 2025-2026 demand figures (roughly 9,000-11,000 tons) come from a single non-primary market-commentary source and could not be independently corroborated.",
+    "Whether Samsung Electronics and SK Hynix's Q3 2026 earnings calls (reporting in October 2026) will show any WF6-related cost or output impact, since the shutdown took effect after their Q1 2026 statements of no impact.",
+    "Whether the Central Glass September 16, 2026 TSE/TDnet corporate disclosure found during this research relates to the WF6 shutdown; its content could not be verified because the filing was inaccessible from this research environment.",
+    "The exact global market-size figures (in USD) for tungsten hexafluoride; multiple market-research aggregators returned inconsistent, uncorroborated figures ($0.3-0.8 billion for 2025-2026) and are not cited as facts here."
+  ],
+  "industry_chain": [
+    {
+      "name": "Tungsten ore mining & APT/high-purity powder refining",
+      "role": "Upstream",
+      "major_players": [],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Ex-China WF6 finished-gas production (Japan, South Korea)",
+      "role": "Components",
+      "major_players": ["Kanto Denka Kogyo", "Central Glass", "SK Specialty", "Foosung"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "China WF6 finished-gas production",
+      "role": "Components",
+      "major_players": ["Peric Special Gases", "China Shipbuilding Special Gas"],
+      "pricing_power": "High",
+      "supply_elasticity": "High",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Semiconductor fabs (tungsten-fill CVD step)",
+      "role": "Platform",
+      "major_players": ["TSMC", "Samsung Electronics", "SK Hynix", "Micron"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI accelerator and hyperscaler customers",
+      "role": "Customer",
+      "major_players": ["Nvidia", "AMD", "hyperscalers"],
+      "pricing_power": "Low",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "Upstream high-purity tungsten powder refining",
+      "demand_growth": "High",
+      "supply_elasticity": "Low",
+      "expansion_time": "3-5+ years (non-China high-purity refining capacity is minimal)",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "Low",
+      "profit_capture": "Low",
+      "opportunity_score": 2,
+      "classification": "Structural Bottleneck",
+      "rationale": "China supplies the large majority of high-purity tungsten powder feedstock; Japan has none domestically, and building non-China refining capacity is slow and capital-intensive, while demand is rising with AI-linked chip capacity."
+    },
+    {
+      "node": "Ex-China (Japan/Korea) WF6 finished-gas production",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": ">2 years (no announced ex-China greenfield WF6 capacity as of Sept 2026)",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "Medium",
+      "profit_capture": "Medium",
+      "opportunity_score": 4,
+      "classification": "Structural Bottleneck",
+      "rationale": "Kanto Denka Kogyo and Central Glass's permanent shutdown removes roughly a quarter of global capacity with no near-term ex-China replacement; WF6 has no viable chemical substitute for tungsten-fill CVD in advanced logic, HBM and 3D NAND.",
+      "notes": "Korean suppliers (SK Specialty, Foosung) remain operating but are raising prices sharply rather than expanding volume."
+    },
+    {
+      "node": "China WF6 finished-gas production",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "High",
+      "expansion_time": "<1 year (Peric and peers reported actively expanding in 2026)",
+      "substitutability": "Medium",
+      "pricing_power": "High",
+      "market_attention": "Medium",
+      "profit_capture": "High",
+      "opportunity_score": 5,
+      "classification": "Growth Area",
+      "rationale": "China's producers have unrestricted domestic feedstock and finished WF6 is not export-controlled, letting them expand output and exports rapidly and capture rising prices -- this fails the Low-supply-elasticity leg of the Structural Bottleneck test even though demand and pricing power are both high."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Kanto Denka Kogyo",
+      "business_model": "Japanese specialty chemicals and electronic-gas manufacturer supplying tungsten hexafluoride and other fluorinated gases to semiconductor fabs.",
+      "revenue_model": "Sale of specialty gases and chemicals to semiconductor and industrial customers.",
+      "cost_structure": "60-70% of WF6 production cost is tungsten powder feedstock, per industry reporting.",
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": null,
+      "customer_concentration": "WF6 customers reported to include Samsung, SK Hynix and TSMC.",
+      "moat": "Historically one of a small number of 6N-grade (99.9999% purity) WF6 producers globally.",
+      "switching_costs": null,
+      "capital_intensity": "High (chemical processing plants); also affected by an August 2025 fire at its Shibukawa plant.",
+      "management_strategy": null,
+      "execution_risk": "Permanently ceasing WF6 production from July 1, 2026 due to loss of Chinese tungsten-powder feedstock access."
+    },
+    {
+      "name": "Central Glass",
+      "business_model": "Japanese chemicals and glass manufacturer with an electronic materials segment producing tungsten hexafluoride.",
+      "revenue_model": null,
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": null,
+      "customer_concentration": "WF6 customers reported to include Samsung, SK Hynix and TSMC.",
+      "moat": null,
+      "switching_costs": null,
+      "capital_intensity": null,
+      "management_strategy": null,
+      "execution_risk": "Permanently ceasing WF6 production from July 1, 2026 alongside Kanto Denka Kogyo."
+    },
+    {
+      "name": "Peric Special Gases",
+      "business_model": "China-based producer of electronic specialty gases and fluorine-containing materials, including tungsten hexafluoride, for semiconductor manufacturing.",
+      "revenue_model": "Sale of specialty gases domestically and, increasingly, for export.",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI-driven memory and logic capacity expansion", "unrestricted domestic tungsten feedstock access", "finished WF6 exempt from China's export controls"],
+      "customer_concentration": null,
+      "moat": "Reported >95% domestic WF6 market coverage and >30% international coverage; benefits from access to Chinese tungsten feedstock unavailable to Japanese rivals.",
+      "switching_costs": null,
+      "capital_intensity": "High",
+      "management_strategy": "Expanding WF6-related capacity through 2026 per trade-press reporting.",
+      "execution_risk": "Reported stock move (+730% H1 2026) implies high embedded expectations; a Chinese A-share subject to separate market and regulatory risk not assessed here."
+    }
+  ],
+  "metrics": [
+    { "name": "Ex-China (Japan) WF6 capacity removed", "value": "2,000-2,200", "unit": "metric tons/year (~25% of global WF6 capacity)", "period": "effective July 1, 2026", "source_id": "s5" },
+    { "name": "5N-grade WF6 price increase", "value": 200, "unit": "% year-on-year (approx.)", "period": "as of ~April-June 2026", "source_id": "s3" },
+    { "name": "Korean-supplier WF6 price hike notified to Samsung/SK Hynix/DB HiTek", "value": "70-90", "unit": "% increase for H2 2026", "period": "H2 2026", "source_id": "s9" },
+    { "name": "Peric Special Gases A-share stock performance", "value": ">730", "unit": "% gain, H1 2026", "period": "H1 2026", "source_id": "s8" },
+    { "name": "Peric Special Gases WF6 capacity", "value": "~2,200", "unit": "metric tons/year", "period": "2026", "source_id": "s7" },
+    { "name": "Peric domestic / international WF6 market coverage", "value": ">95 domestic / >30 international", "unit": "%", "period": "2026", "source_id": "s8" },
+    { "name": "China Shipbuilding Special Gas WF6-related income growth", "value": "~3x", "unit": "year-on-year, semi-annual", "period": "H1 2026", "source_id": "s6" },
+    { "name": "Kanto Denka Kogyo revenue", "value": 65.40, "unit": "JPY billion (+4.89% YoY)", "period": "FY2026 (reported, pre-shutdown)", "source_id": "s11" }
+  ],
+  "competitors": [
+    { "name": "Kanto Denka Kogyo", "kind": "direct competitor", "note": "Ceasing WF6 production July 1, 2026; ~25% of global capacity with Central Glass." },
+    { "name": "Central Glass", "kind": "direct competitor", "note": "Ceasing WF6 production July 1, 2026 alongside Kanto Denka Kogyo." },
+    { "name": "Peric Special Gases", "kind": "direct competitor", "note": "China-based; unrestricted feedstock access; reported expanding capacity and exports in 2026." },
+    { "name": "China Shipbuilding Special Gas", "kind": "direct competitor", "note": "Reported H1 2026 revenue +83% YoY with WF6-related income up ~3x." },
+    { "name": "SK Specialty", "kind": "direct competitor", "note": "South Korean WF6 supplier; notified 70-90% H2 2026 price increases to Samsung, SK Hynix, DB HiTek." },
+    { "name": "Foosung", "kind": "direct competitor", "note": "South Korean WF6 supplier; notified 70-90% H2 2026 price increases alongside SK Specialty." }
+  ],
+  "financials": [
+    { "company": "Kanto Denka Kogyo", "period": "FY2026 (reported)", "revenue_jpy_billion": 65.40, "revenue_growth_pct": 4.89, "earnings_jpy_billion": 3.79, "earnings_growth_pct": 16.53, "source_id": "s11", "note": "Predates the July 2026 WF6 shutdown's financial impact." }
+  ],
+  "valuation": { "available": false, "reason": "No single company's current market price, share count and full audited financials tied specifically to WF6 exposure were verified together from credible sources; Peric Special Gases' reported stock move is a partial market signal, not a valuation." },
+  "catalysts": [
+    "Samsung Electronics' and SK Hynix's Q3 2026 earnings calls (late October 2026) testing whether the July 1 shutdown shows up as a cost or output impact",
+    "Kanto Denka Kogyo's and Central Glass's next interim results disclosing the shutdown's financial effect",
+    "Disclosed export volumes from Peric Special Gases and China Shipbuilding Special Gas to non-China buyers",
+    "Any change to China's dual-use catalogue that brings finished WF6 itself under export control",
+    "TSMC's Q4 2026/Q1 2027 earnings commentary on tungsten-fill CVD input costs"
+  ],
+  "bear_case": [
+    { "dimension": "Supply", "argument": "China's own WF6 producers (Peric, China Shipbuilding Special Gas) have unrestricted domestic feedstock and unrestricted finished-gas exports, and are reported to be expanding capacity -- this could turn what looks like a supply shock into a redistribution of market share toward Chinese suppliers rather than a lasting global shortage." },
+    { "dimension": "Economics", "argument": "SK Hynix's own Q1 2026 earnings call stated it had diversified suppliers and secured sufficient tungsten inventory with no production impact, suggesting well-capitalized buyers can hedge around the shutdown, at least for a period." },
+    { "dimension": "Regulation", "argument": "China has eased or suspended export controls on other critical minerals in past trade negotiations; a similar reversal or exemption on tungsten would remove the root cause quickly." },
+    { "dimension": "Competition", "argument": "Korean suppliers SK Specialty and Foosung continue operating and are passing through cost increases via price hikes rather than cutting volumes, indicating the near-term effect is manifesting as margin pressure rather than an outright production stoppage." },
+    { "dimension": "Technology", "argument": "Over a multi-year horizon, alternative tungsten-fill precursor chemistries or process changes could reduce WF6 intensity per wafer, though no such substitution was identified as imminent in current sources." }
+  ],
+  "kill_conditions": [
+    { "condition": "Non-China WF6 production capacity is restored or replaced", "metric": "Ex-China (Japan + Korea + other) WF6 nameplate capacity", "threshold": "Returns to at least the pre-shutdown level (~2,200 t/yr from new or restarted non-China capacity)", "time_window": "12-24 months", "impact": "invalidate" },
+    { "condition": "China's finished-WF6 exports substitute at scale for the lost Japanese capacity", "metric": "Disclosed Chinese WF6 export volumes to Korea, Taiwan and the US", "threshold": "Exports exceed the ~2,000-2,200 t/yr lost Japanese capacity", "time_window": "12 months", "impact": "invalidate" },
+    { "condition": "Major chipmakers confirm no material production or yield impact through two consecutive quarters", "metric": "TSMC/Samsung/SK Hynix earnings-call commentary on WF6/tungsten supply", "threshold": "Two consecutive quarters of 'no impact' statements with stable wafer output", "time_window": "6-9 months", "impact": "weaken" },
+    { "condition": "WF6 spot/contract prices normalize toward pre-2026 levels", "metric": "WF6 spot/contract price", "threshold": "Falls back within ~30% of the pre-April-2026 baseline", "time_window": "12 months", "impact": "weaken" }
+  ],
+  "validation_events": [
+    {
+      "event": "Samsung Electronics' and SK Hynix's Q3 2026 earnings calls",
+      "expected_window": "late October 2026",
+      "supports_if": "Either company discloses a WF6/tungsten-related cost or production impact for the first time, in contrast to SK Hynix's April 2026 'no impact' statement",
+      "weakens_if": "Both companies reiterate no material impact and report stable wafer output and margins",
+      "source_to_monitor": "Samsung Electronics and SK Hynix investor relations"
+    },
+    {
+      "event": "Kanto Denka Kogyo's and Central Glass's next interim/annual financial disclosures",
+      "expected_window": "around November 2026",
+      "supports_if": "Both companies confirm WF6 segment revenue has gone to zero and disclose a material earnings impact from the shutdown",
+      "weakens_if": "Either company discloses a resumed or substitute tungsten-feedstock source avoiding the shutdown",
+      "source_to_monitor": "Kanto Denka Kogyo and Central Glass investor relations / TDnet filings"
+    },
+    {
+      "event": "Peric Special Gases' and China Shipbuilding Special Gas's next disclosed WF6 capacity and export figures",
+      "expected_window": "Q4 2026 interim/annual disclosures",
+      "supports_if": "Disclosed WF6 export volumes to Korea, Taiwan or US customers grow materially, confirming China's domestic industry is filling the ex-China supply gap",
+      "weakens_if": "Export volumes remain small, or importing countries restrict purchases of Chinese-sourced chip gases",
+      "source_to_monitor": "Company disclosures; Chinese financial press"
+    },
+    {
+      "event": "China's next dual-use export catalogue revision",
+      "expected_window": "around January 2027",
+      "supports_if": "Finished WF6 gas remains exempt from export controls, preserving the profit-capture shift toward Chinese producers",
+      "weakens_if": "China adds finished WF6 to the controlled list, closing the export loophole",
+      "source_to_monitor": "mofcom.gov.cn"
+    },
+    {
+      "event": "TSMC's Q4 2026 and Q1 2027 earnings commentary",
+      "expected_window": "January 2027",
+      "supports_if": "TSMC discloses a WF6-related cost or supply issue for the first time",
+      "weakens_if": "TSMC reports no material impact from tungsten-gas supply conditions",
+      "source_to_monitor": "TSMC investor relations (investor.tsmc.com)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "claim": "SK Hynix stated on its Q1 FY2026 earnings call that it has diversified suppliers for helium, bromine and tungsten, built sufficient inventory, and sees no production impact despite tungsten price increases from geopolitical issues.",
+      "source_url": "https://finance.yahoo.com/quote/HY9H.DU/earnings/HY9H.DU-Q1-2026-earnings_call-547968.html",
+      "source_title": "SK Hynix Inc. Q1 FY2026 Earnings Call Transcript (April 23, 2026)",
+      "source_type": "primary",
+      "published_at": "2026-04-23",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "\"As for the key industrial gases like helium and bromine, we have already diversified our suppliers, and we also have built up sufficient inventory as well.\" ... \"For tungsten, it is true that the prices have risen due to geopolitical issues recently. We already have secured sufficient inventory and there appear to be no disruptions in supply. There is no impact on our production.\" -- The transcript page itself was blocked by this research environment's egress proxy; this quote is drawn from a converging web-search snippet of the earnings call, not a direct fetch, so it should be treated with that caveat.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s2",
+      "claim": "China's Ministry of Commerce and General Administration of Customs jointly issued Announcement No. 91 of 2025 on December 31, 2025, publishing the 2026 dual-use export licensing catalogue (effective January 1, 2026) that tightened controls on tungsten-related products.",
+      "source_url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_c03d1e511b2b486e829d68e8f1422aff.html",
+      "source_title": "商务部 海关总署公布2026年度《两用物项和技术进出口许可证管理目录》(MOFCOM/GACC Announcement No. 91 of 2025)",
+      "source_type": "primary",
+      "published_at": "2025-12-31",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Official announcement text: the 2026 Catalogue of Dual-Use Items and Technologies Subject to Import and Export Licensing Administration takes effect January 1, 2026. The mofcom.gov.cn domain was blocked by this research environment's egress proxy on direct fetch; the announcement's existence, date and scope are corroborated by multiple independent secondary summaries (law-firm client alerts, trade press) that reference the same Announcement No. 91.",
+      "confidence": "high"
+    },
+    {
+      "id": "s3",
+      "claim": "WF6 (5N-grade) prices surged over 200% year-on-year by around mid-2026, with the increase reported as continuing ahead of the Japanese producers' scheduled output cuts.",
+      "source_url": "https://www.trendforce.com/news/2026/06/12/news-key-semiconductor-gas-wf%E2%82%86-prices-reportedly-surge-over-200-in-china-as-supply-tightens-ahead-of-japan-output-cuts/",
+      "source_title": "TrendForce: \"Key Semiconductor Gas WF6 Prices Reportedly Surge Over 200% in China as Supply Tightens Ahead of Japan Output Cuts\"",
+      "source_type": "secondary",
+      "published_at": "2026-06-12",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet reporting WF6 5N-grade price up >200% YoY and describing WF6's role in tungsten-fill CVD for advanced logic, HBM and 3D NAND.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s4",
+      "claim": "China's tightened tungsten export controls on Japan, and the resulting threat to Japan's AI chip supply chain, were reported by the South China Morning Post.",
+      "source_url": "https://www.scmp.com/economy/global-economy/article/3356921/do-chinas-export-curbs-tungsten-threaten-japans-ai-chip-supply-chain",
+      "source_title": "South China Morning Post: \"Do China's export curbs on tungsten threaten Japan's AI chip supply chain?\"",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet describing China's tungsten export tightening and its bearing on Japan's chip-gas supply chain.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s5",
+      "claim": "Japan's two WF6 producers face a permanent output halt starting July 2026, removing roughly a quarter of global WF6 capacity; the shortage is spreading from raw tungsten to chip manufacturing per Japanese industry warnings.",
+      "source_url": "https://www.digitimes.com/news/a20260625PD209/recycling-capacity-production-localization-worldwide.html",
+      "source_title": "Digitimes: \"Tungsten shortage spreads from raw material to chip manufacturing, Japan warns\"",
+      "source_type": "secondary",
+      "published_at": "2026-06-25",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet on the Japanese WF6 producers' capacity share (~25% of global supply) and the spread of the shortage into chip manufacturing.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s6",
+      "claim": "Peric Special Gases was reported expanding WF6-related capacity in September 2026 even as rival non-China suppliers raised prices; China Shipbuilding Special Gas reported H1 2026 revenue up 83% YoY with WF6-related income up nearly threefold.",
+      "source_url": "https://www.digitimes.com/news/a20260908PD212/capacity-supply-chain-demand-2026.html",
+      "source_title": "Digitimes: \"Tungsten hexafluoride supply chain alerts as Peric expands\"",
+      "source_type": "secondary",
+      "published_at": "2026-09-08",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet on Peric's capacity expansion and China Shipbuilding Special Gas's semi-annual WF6-linked revenue growth.",
+      "confidence": "low"
+    },
+    {
+      "id": "s7",
+      "claim": "Peric Special Gases has approximately 2,200 tonnes/year of WF6 production capacity and is a leading Chinese producer of electronic specialty gases, benefiting from AI-driven memory-chip demand and rival Japanese/Korean price hikes.",
+      "source_url": "https://www.trendforce.com/news/2026/03/12/news-peric-special-gases-drives-chinas-tungsten-gas-push-amid-memory-boom-and-rival-price-hikes/",
+      "source_title": "TrendForce: \"Peric Special Gases Drives China's Tungsten Gas Push Amid Memory Boom and Rival Price Hikes\"",
+      "source_type": "secondary",
+      "published_at": "2026-03-12",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet on Peric's ~2,200 t/yr WF6 capacity and its positioning against rival price hikes.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s8",
+      "claim": "Peric Special Gases was China's best-performing A-share stock in H1 2026, rallying over 730%, driven by AI-linked WF6 demand tightness; China's dual-use catalogue controls upstream tungsten materials but not the finished WF6 gas, and Peric reports >95% domestic and >30% international WF6 market coverage.",
+      "source_url": "https://www.fastmarkets.com/insights/ai-specialty-gas-tightness-drives-chinas-best-performing-a-share-in-h1/",
+      "source_title": "Fastmarkets: \"AI specialty gas tightness drives China's best-performing A-Share in H1\"",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet reporting Peric's >730% H1 2026 rally, its domestic/international WF6 market-coverage figures, and the fact that finished WF6 is not on China's dual-use control list even though upstream tungsten materials are.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s9",
+      "claim": "South Korean WF6 suppliers SK Specialty and Foosung notified Samsung Electronics, SK Hynix and DB HiTek of planned WF6 price increases of 70% to 90% for the second half of 2026.",
+      "source_url": "https://www.thelec.net/news/articleView.html?idxno=5468",
+      "source_title": "The Elec: \"Chipmakers Samsung and SK Hynix face WF6 gas price hike\"",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet on SK Specialty and Foosung's notified 70-90% WF6 price increases for H2 2026.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s10",
+      "claim": "Tungsten market participants raised concern as China tightened export controls on Japan for dual-use items, with tungsten-related exports to Japan falling toward zero in early 2026.",
+      "source_url": "https://www.fastmarkets.com/insights/tungsten-market-participants-concern-china-tightens-export-controls-japan/",
+      "source_title": "Fastmarkets: \"Tungsten market participants raise concern as China tightens export controls on Japan for dual-use items\"",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet on China's tightened tungsten export controls toward Japan and market participants' concerns.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s11",
+      "claim": "Kanto Denka Kogyo reported fiscal-year revenue of approximately JPY 65.40 billion (+4.89% YoY) and earnings of approximately JPY 3.79 billion (+16.53% YoY), for a period predating the WF6 shutdown's financial impact.",
+      "source_url": "https://stockanalysis.com/quote/tyo/4047/",
+      "source_title": "StockAnalysis.com: Kanto Denka Kogyo Co., Ltd. (TYO: 4047) financial summary",
+      "source_type": "discovery",
+      "published_at": null,
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet aggregating Kanto Denka Kogyo's reported fiscal-year revenue and earnings figures. Fiscal period end and exact filing were not independently confirmed; treated as low-confidence.",
+      "confidence": "low"
+    },
+    {
+      "id": "s12",
+      "claim": "Kanto Denka Kogyo and Central Glass, together roughly a quarter of global WF6 capacity, formally notified customers including Samsung, SK Hynix and TSMC in April 2026 of a permanent WF6 production halt effective July 1, 2026, with June 30 as the last shipment date; the shutdown followed a loss of Chinese tungsten-powder feedstock and, for Kanto Denka Kogyo, an August 2025 plant fire.",
+      "source_url": "https://finance.biggo.com/news/03fc2501-c7e4-44f3-9bd1-2e3d1b0d4ae2",
+      "source_title": "BigGo Finance: \"Tungsten Hexafluoride Supply Halt Sends Shockwaves Through Global Chip Industry: Prices Triple, Japanese Producers Face Permanent Shutdown Countdown\"",
+      "source_type": "discovery",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet aggregating the shutdown timeline, capacity share, feedstock-cost breakdown and the 2025 Shibukawa plant fire. This is an aggregator/discovery-tier source and is corroborated here only by other similarly-tiered sources (s5, s13), so treated as medium/low confidence per fact.",
+      "confidence": "low"
+    },
+    {
+      "id": "s13",
+      "claim": "Japan's WF6 producers going offline removes roughly 25% of global WF6 capacity, a major supply-chain blow to the semiconductor materials industry.",
+      "source_url": "https://www.sunsirs.com/commodity-news/petail-33539.html",
+      "source_title": "SunSirs: \"Japan Shuts Down 25% of Global WF6 Capacity: A Major Supply Chain Blow\"",
+      "source_type": "discovery",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-27",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet corroborating the ~25% global-capacity-share figure for the Japanese shutdown.",
+      "confidence": "low"
+    }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

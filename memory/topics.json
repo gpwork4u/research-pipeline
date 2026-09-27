@@ -691,5 +691,25 @@
       "Kinder Morgan",
       "Energy Transfer"
     ]
+  },
+  {
+    "slug": "tungsten-hexafluoride-shortage-ai-chip-bottleneck",
+    "title": "The WF6 Wall: Did China's Tungsten Export Curbs Just Create AI Chip Manufacturing's Least-Watched Structural Bottleneck?",
+    "last_updated": "2026-09-27",
+    "reports": [
+      "reports/2026/09/2026-09-27-tungsten-hexafluoride-shortage-ai-chip-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "materials",
+      "geopolitics"
+    ],
+    "companies": [
+      "Kanto Denka Kogyo",
+      "Central Glass",
+      "Peric Special Gases"
+    ]
   }
 ]

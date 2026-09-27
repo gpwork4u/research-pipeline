@@ -1297,5 +1297,46 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-tungsten-hexafluoride-shortage-ai-chip-bottleneck",
+    "topic": "tungsten-hexafluoride-shortage-ai-chip-bottleneck",
+    "statement": "China's tightened tungsten export controls forced Japan's Kanto Denka Kogyo and Central Glass -- roughly a quarter of global tungsten hexafluoride (WF6) capacity -- to permanently shut down WF6 production from July 1, 2026, creating a genuine Structural Bottleneck for the ex-China WF6 producer base and its upstream tungsten-powder feedstock (extreme AI-linked demand, low elasticity, hard substitutability). But because China exempted the finished WF6 gas itself from its dual-use export controls, Chinese producers (Peric Special Gases, China Shipbuilding Special Gas) can still export and are reportedly expanding output and capturing the resulting price umbrella, and SK Hynix told investors in April 2026 it had diversified suppliers and secured sufficient inventory with no production impact -- so whether this constraint actually binds AI chip output, versus being arbitraged away by Chinese exports and buyer inventories, remains unresolved.",
+    "confidence": "medium",
+    "created_at": "2026-09-27",
+    "updated_at": "2026-09-27",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-27-tungsten-hexafluoride-shortage-ai-chip-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Non-China WF6 production capacity is restored or replaced",
+        "metric": "Ex-China (Japan + Korea + other) WF6 nameplate capacity",
+        "threshold": "Returns to at least the pre-shutdown level (~2,200 t/yr from new or restarted non-China capacity)",
+        "time_window": "12-24 months",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "China's finished-WF6 exports substitute at scale for the lost Japanese capacity",
+        "metric": "Disclosed Chinese WF6 export volumes to Korea, Taiwan and the US",
+        "threshold": "Exports exceed the ~2,000-2,200 t/yr lost Japanese capacity",
+        "time_window": "12 months",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Major chipmakers confirm no material production or yield impact through two consecutive quarters",
+        "metric": "TSMC/Samsung/SK Hynix earnings-call commentary on WF6/tungsten supply",
+        "threshold": "Two consecutive quarters of 'no impact' statements with stable wafer output",
+        "time_window": "6-9 months",
+        "impact": "weaken"
+      },
+      {
+        "condition": "WF6 spot/contract prices normalize toward pre-2026 levels",
+        "metric": "WF6 spot/contract price",
+        "threshold": "Falls back within ~30% of the pre-April-2026 baseline",
+        "time_window": "12 months",
+        "impact": "weaken"
+      }
+    ]
   }
 ]
