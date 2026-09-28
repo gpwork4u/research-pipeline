@@ -711,5 +711,26 @@
       "Central Glass",
       "Peric Special Gases"
     ]
+  },
+  {
+    "slug": "aeroderivative-turbine-retreat-ai-data-center-power-bottleneck",
+    "title": "The Aeroderivative Retreat: Does Crusoe's Collapsed $1.25 Billion Boom Supersonic Turbine Deal Undermine -- or Confirm -- AI's Heavy-Frame Gas Turbine Bottleneck?",
+    "last_updated": "2026-09-28",
+    "reports": [
+      "reports/2026/09/2026-09-28-aeroderivative-turbine-retreat-ai-data-center-power-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "power-generation",
+      "data-centers"
+    ],
+    "companies": [
+      "Crusoe",
+      "Boom Supersonic",
+      "GE Vernova",
+      "Google"
+    ]
   }
 ]

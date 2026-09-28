@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>航改渦輪機的撤退：Crusoe 取消 12.5 億美元 Boom Supersonic 渦輪機交易，是削弱還是印證了 AI 重型燃氣渦輪機瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/aeroderivative-turbine-retreat-ai-data-center-power-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/aeroderivative-turbine-retreat-ai-data-center-power-bottleneck</guid>
+      <pubDate>Mon, 28 Sep 2026 01:00:00 GMT</pubDate>
+      <category>UPDATE</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>power-generation</category>
+      <category>data-centers</category>
+      <description>Crusoe 取消 Boom Supersonic 12.5 億美元渦輪機交易，看似是個別公司的策略撤退，而非瓶頸解方——重型廠商訂單並未鬆動。
+
+2026 年 9 月 25 日，Boom Supersonic 證實其唯一公開的launch customer Crusoe，將不會提取其 2025 年 12 月訂購、用以繞開重型廠商多年交期的 29 台航改渦輪機（12.5 億美元，約 1.21GW）。這是 Crusoe 三個月內第二次重大基礎設施撤退——先前於 6 月因 Google 對成本與時程的疑慮而退出懷俄明州 1.8GW 園區——且發生在 Crusoe 以 309 億美元估值完成創紀錄 39 億美元 F 輪融資後僅八天。Boom 仍表示將於 2027 年交付 250MW、2028 年達 1GW 予其他未具名客戶，顯示產品本身並未失敗。但該交付量仍比奇異、西門子能源與三菱重工合計約 220GW 的訂單量小兩到三個數量級，未見鬆動跡象。此事件看似是個別公司的資本紀律，而非解決 9 月 16 日報告所指出的燃氣渦輪機瓶頸。</description>
+    </item>
+    <item>
       <title>六氟化鎢之牆：中國的鎢出口限制是否催生了 AI 晶片製造最少被關注的結構性瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/tungsten-hexafluoride-shortage-ai-chip-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/tungsten-hexafluoride-shortage-ai-chip-bottleneck</guid>

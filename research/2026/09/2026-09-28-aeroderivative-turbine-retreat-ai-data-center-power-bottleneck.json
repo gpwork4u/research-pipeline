@@ -1,0 +1,415 @@
+{
+  "topic": {
+    "title": "The Aeroderivative Retreat: Does Crusoe's Collapsed $1.25 Billion Boom Supersonic Turbine Deal Undermine -- or Confirm -- AI's Heavy-Frame Gas Turbine Bottleneck?",
+    "slug": "aeroderivative-turbine-retreat-ai-data-center-power-bottleneck",
+    "date": "2026-09-28",
+    "research_type": "UPDATE",
+    "categories": ["ai-infrastructure", "energy", "power-generation", "data-centers"],
+    "score": 30,
+    "trigger": "Boom Supersonic CEO Blake Scholl confirmed on September 25, 2026 that Crusoe would no longer take delivery of the 29 aeroderivative 'Superpower' gas turbines it ordered in a $1.25 billion December 2025 deal -- the AI industry's most prominent attempt to route around heavy-frame turbine OEMs' multi-year lead times -- three months after Bloomberg reported Crusoe was separately pushed out of a 1.8 GW Wyoming AI campus over Google's cost and schedule concerns, and eight days after Crusoe closed a record $3.9 billion Series F at a $30.9 billion valuation."
+  },
+  "questions": {
+    "primary": "Does Crusoe's abandonment of its $1.25 billion, 29-turbine deal with Boom Supersonic -- the highest-profile attempt to route around heavy-frame OEMs' multi-year gas turbine lead times with faster-to-deploy aeroderivative turbines -- weaken or reinforce this pipeline's September 16, 2026 finding that heavy-duty gas turbine manufacturing is a genuine Structural Bottleneck on AI data-center power?",
+    "sub": [
+      "Was Crusoe's exit driven by Crusoe-specific capital discipline, or does it reveal a problem with aeroderivative turbines as a heavy-frame alternative?",
+      "How does Boom's post-Crusoe guidance of 250 MW (2027) and 1 GW (2028) compare in scale to the heavy-frame OEMs' 116 GW / 69 GW / 35 GW order books?",
+      "Does Crusoe's pattern of retreats (Wyoming in June, Boom turbines in September) despite a record $3.9 billion funding round say more about AI infrastructure capital discipline than about power-hardware supply?",
+      "What does Google's reported role in pushing Crusoe out of the Wyoming project suggest about hyperscaler risk tolerance for newer power-generation technology and developers?",
+      "Does this event change the September 16, 2026 report's Structural Bottleneck classification for heavy-frame gas turbines?"
+    ]
+  },
+  "thesis": "Crusoe's cancellation of its $1.25 billion aeroderivative-turbine order looks like a Crusoe-specific capital-allocation retreat -- its second major infrastructure pullback in three months, alongside a record funding round -- rather than evidence that aeroderivative turbines failed as a technology; Boom still guides to delivering turbines to other, unnamed customers. But because Boom's entire post-Crusoe pipeline (250 MW in 2027, 1 GW by 2028) remains roughly two to three orders of magnitude smaller than the heavy-frame OEMs' combined order books, which have not shrunk, this event reinforces rather than weakens the September 16, 2026 finding: heavy-frame gas turbine manufacturing remains the binding Structural Bottleneck, and the aeroderivative route is, like fuel cells, a sub-scale release valve rather than a substitute.",
+  "facts": [
+    {
+      "statement": "On December 9, 2025, Boom Supersonic launched its 'Superpower' natural-gas turbine business and named Crusoe as launch customer, with Crusoe ordering 29 Superpower turbines (42 MW each, ~1.21 GW total) in a deal reported at $1.25 billion; Boom simultaneously raised a $300 million funding round led by Darsana Capital Partners.",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s2"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Crusoe CEO Chase Lochmiller said at the time: 'We're proud to be partnering closely with Boom as the launch customer for Superpower, an initiative that aligns perfectly with Crusoe's energy-first approach to building the AI infrastructure of the future.'",
+      "type": "FACT",
+      "evidence_ids": ["s1"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "On September 25, 2026, Boom Supersonic CEO Blake Scholl said Crusoe and Boom would no longer launch the Superpower turbine together, ending the partnership; Scholl said the turbines are 'no longer part of Crusoe's near-term plans for primary power' at its facilities.",
+      "type": "FACT",
+      "evidence_ids": ["s3", "s4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Boom said it still expects to deliver approximately 250 MW of Superpower turbines to other, undisclosed sites in 2027 and is targeting 1 GW of deliveries by 2028; it has not named those customers or disclosed contracted volumes.",
+      "type": "FACT",
+      "evidence_ids": ["s4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Crusoe closed a $3.9 billion Series F round at a $30.9 billion post-money valuation, initially reported at roughly $3 billion / $30 billion on September 3, 2026 and finalized September 17, 2026; investors included Nvidia and the Qatar Investment Authority.",
+      "type": "FACT",
+      "evidence_ids": ["s5", "s6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Bloomberg reported on June 11, 2026 that Crusoe had been 'pushed aside' from a 1.8 GW AI data-center campus it was developing near Cheyenne, Wyoming, after Google raised cost and schedule concerns; Crusoe had demobilized from the site roughly two months before the report.",
+      "type": "FACT",
+      "evidence_ids": ["s7", "s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Crusoe itself announced on June 9, 2026 that it paused development at the Wyoming campus 'at the request of our customer,' the same statement in which it said its contracted AI infrastructure capacity was approaching 5 GW.",
+      "type": "FACT",
+      "evidence_ids": ["s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "As of this pipeline's September 16, 2026 report, the four heavy-frame gas turbine OEMs' combined order books stood at: GE Vernova 116 GW (backlog plus slot reservations, Q2 2026), Siemens Energy 69 GW firm backlog (fiscal Q3 2026), and Mitsubishi Heavy Industries 35 GW large-frame backlog (early August 2026), with Wood Mackenzie estimating global manufacturing capacity at 60-70 GW/year against roughly 110 GW/year of orders.",
+      "type": "FACT",
+      "evidence_ids": ["s9", "s10", "s11", "s12"],
+      "confidence": "medium"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because Crusoe's turbine cancellation is its second high-profile infrastructure pullback in three months (Wyoming in June, Boom turbines in September) even as it closed its largest-ever funding round, the pattern looks like a deliberate Crusoe-specific pivot toward smaller, more certain, modular projects rather than evidence that aeroderivative turbines failed to deliver.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s5", "s7", "s8", "s3"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because Boom still guides to delivering turbines to other, unnamed customers in 2027-2028, the Superpower product line does not appear to have failed technically or commercially, which weakens the case that this specific event reflects a supply-side problem with aeroderivative turbines as a class.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because the heavy-frame OEMs' combined order books (116 GW / 69 GW / 35 GW) dwarf Boom's disclosed near-term pipeline (250 MW in 2027, 1 GW by 2028) by roughly two to three orders of magnitude, aeroderivative turbines remain -- like Bloom Energy's fuel cells in the September 16 report -- a sub-scale release valve rather than a genuine substitute at the gigawatt scale the heavy-frame bottleneck operates at.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s4", "s9", "s11", "s12"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because Google's reported cost and schedule concerns drove Crusoe out of the Wyoming project, and a similar caution toward newer, less-established power hardware could plausibly extend to unproven aeroderivative turbines, hyperscaler risk-aversion may itself be reinforcing reliance on incumbent heavy-frame OEMs even where faster nominal alternatives exist.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s7", "s4"],
+      "confidence": "low"
+    }
+  ],
+  "unknowns": [
+    "Neither Crusoe nor Boom Supersonic has disclosed a specific commercial or technical reason for the split beyond Boom's own framing ('no longer part of Crusoe's near-term plans'); Crusoe has not issued its own public statement on the turbine cancellation as of the research date.",
+    "No source names Boom's other Superpower customers or discloses whether any portion of the cancelled 29-turbine order has been reassigned to them.",
+    "Whether Boom's aeroderivative turbines have encountered any technical, permitting, or delivery-timeline problems distinct from Crusoe's own stated strategic reasons was not addressed by any source found.",
+    "Whether Crusoe's $3.9 billion Series F proceeds are being redirected toward power generation at all, or purely toward compute/data-center buildout, was not disclosed in available sources.",
+    "All primary-source domains attempted (crusoe.ai, boomsupersonic.com, techcrunch.com, bloomberg.com, gevernova.com) were blocked by the research environment's egress proxy; facts rely on convergent search-result snippets rather than direct retrieval."
+  ],
+  "industry_chain": [
+    {
+      "name": "Heavy-duty gas turbine manufacturing",
+      "role": "Components",
+      "major_players": ["GE Vernova", "Siemens Energy", "Mitsubishi Heavy Industries", "Baker Hughes"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Aeroderivative / jet-derived gas turbine manufacturing",
+      "role": "Components",
+      "major_players": ["Boom Supersonic (Superpower)"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI neocloud self-build power procurement",
+      "role": "Platform",
+      "major_players": ["Crusoe", "other neoclouds"],
+      "pricing_power": "Low",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Hyperscaler power offtake / anchor customers",
+      "role": "Application",
+      "major_players": ["Google", "Microsoft", "Meta", "Amazon"],
+      "pricing_power": "High",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "Heavy-duty gas turbine manufacturing",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "3-6 years (per Sept. 16, 2026 report)",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "High",
+      "profit_capture": "High",
+      "opportunity_score": 5,
+      "classification": "Structural Bottleneck",
+      "rationale": "Reaffirmed from the September 16, 2026 report: extreme, simultaneously-confirmed demand across four OEMs; low supply elasticity given multi-year lead times; hard substitutability since the fastest-scaling alternatives remain far smaller than the OEMs' combined backlog. This event adds a data point -- a marquee 'fast workaround' customer exiting -- without any evidence the heavy-frame OEM backlogs themselves have eased."
+    },
+    {
+      "node": "Aeroderivative / jet-derived gas turbines (Boom Supersonic and peers)",
+      "demand_growth": "High",
+      "supply_elasticity": "Medium",
+      "expansion_time": "1-2 years (Boom guides to 250 MW in 2027, 1 GW by 2028)",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Medium",
+      "profit_capture": "Low",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "Loses the strict test on supply elasticity and substitutability: Boom's guided near-term pipeline (250 MW-1 GW) is two to three orders of magnitude smaller than the heavy-frame OEMs' combined order books, and its highest-profile launch customer just exited, underscoring it is not yet a scale substitute."
+    },
+    {
+      "node": "Behind-the-meter fuel cells",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Medium",
+      "expansion_time": "90-120 days per unit; ~1-2 GW/year manufacturing capacity (per Sept. 16, 2026 report)",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Medium",
+      "profit_capture": "Medium",
+      "opportunity_score": 4,
+      "classification": "Growth Area",
+      "rationale": "Carried forward from the September 16, 2026 report: a genuine but sub-scale release valve, comparable in relative scale to the aeroderivative segment assessed here."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Crusoe",
+      "business_model": "Vertically-integrated AI infrastructure developer/operator (compute, data centers, and formerly associated energy assets).",
+      "revenue_model": "Contracted AI compute and data-center capacity to hyperscaler and AI-lab customers.",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["Contracted AI infrastructure capacity approaching 5 GW as of June 2026", "Record $3.9B Series F closed September 2026"],
+      "customer_concentration": "Reported to include Google as a customer whose concerns drove Crusoe's exit from the Wyoming project.",
+      "moat": null,
+      "switching_costs": null,
+      "capital_intensity": "High; company has recently pulled back from two large fixed-infrastructure commitments (Wyoming campus, Boom turbine order) while raising record equity.",
+      "management_strategy": "Appears to be shifting toward smaller, more flexible, modular facilities and cloud services rather than large, fixed mega-campuses, per trade-press characterization of its 2026 moves.",
+      "execution_risk": "Two disclosed infrastructure-commitment reversals within three months (Wyoming, Boom turbines) despite record funding."
+    },
+    {
+      "name": "Boom Supersonic",
+      "business_model": "Aerospace company (supersonic passenger jet 'Overture') that launched a natural-gas turbine subsidiary/product line ('Superpower') in December 2025, applying jet-engine-derived turbine technology to AI data-center power.",
+      "revenue_model": "Sale/delivery of Superpower turbines to AI data-center operators; turbine sales reported as linked to funding Boom's core Overture aircraft program.",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI data-center demand for faster-to-deploy power than heavy-frame turbines"],
+      "customer_concentration": "Lost its sole disclosed launch customer (Crusoe, ~1.21 GW / $1.25B order) in September 2026; guides to other, undisclosed customers for 250 MW (2027) and 1 GW (2028).",
+      "moat": null,
+      "switching_costs": null,
+      "capital_intensity": "High; raised $300M in December 2025 tied to the Superpower launch.",
+      "management_strategy": null,
+      "execution_risk": "No disclosed named customer or firm contracted volume following the Crusoe cancellation as of the research date."
+    }
+  ],
+  "metrics": [
+    { "name": "Boom-Crusoe original deal value", "value": 1.25, "unit": "USD billion", "period": "December 2025", "source_id": "s2" },
+    { "name": "Boom-Crusoe turbine order size", "value": "29 units / ~1.21", "unit": "GW", "period": "December 2025", "source_id": "s2" },
+    { "name": "Boom Superpower unit rating", "value": 42, "unit": "MW per turbine", "period": "n/a", "source_id": "s2" },
+    { "name": "Boom's post-Crusoe delivery guidance, 2027", "value": 250, "unit": "MW", "period": "2027", "source_id": "s4" },
+    { "name": "Boom's post-Crusoe delivery target, 2028", "value": 1, "unit": "GW", "period": "2028", "source_id": "s4" },
+    { "name": "Crusoe Series F size / valuation", "value": "3.9 / 30.9", "unit": "USD billion (round size / post-money valuation)", "period": "September 2026", "source_id": "s5" },
+    { "name": "GE Vernova combined gas-power backlog + reservations", "value": 116, "unit": "GW", "period": "Q2 2026", "source_id": "s9" },
+    { "name": "Wood Mackenzie global turbine capacity vs. orders gap", "value": "60-70 vs. ~110", "unit": "GW/year", "period": "2026", "source_id": "s10" }
+  ],
+  "competitors": [
+    { "name": "GE Vernova", "kind": "direct competitor", "note": "116 GW combined heavy-frame backlog; unaffected by the Crusoe-Boom cancellation." },
+    { "name": "Siemens Energy", "kind": "direct competitor", "note": "69 GW firm heavy-frame backlog, 3+ year lead times." },
+    { "name": "Mitsubishi Heavy Industries", "kind": "direct competitor", "note": "35 GW large-frame backlog, up from 23 GW a year earlier." },
+    { "name": "Boom Supersonic (Superpower)", "kind": "indirect alternative", "note": "Aeroderivative entrant; lost its sole disclosed launch customer but still guides to 250 MW (2027) / 1 GW (2028) via undisclosed customers." },
+    { "name": "Bloom Energy", "kind": "indirect alternative", "note": "Fuel cells; ~1-2 GW annual capacity per the Sept. 16, 2026 report; unaffected by this event." }
+  ],
+  "financials": [],
+  "valuation": { "available": false, "reason": "Crusoe and Boom Supersonic are private companies without public share price, share count, or audited financial statements; Crusoe's $30.9 billion figure is a funding-round-implied private valuation, not a market valuation, and is insufficient alone to support a company valuation." },
+  "catalysts": [
+    "Boom Supersonic naming a replacement Superpower customer or confirming a first turbine delivery",
+    "Crusoe's next public infrastructure or capital-deployment disclosure following its Series F close",
+    "GE Vernova's, Siemens Energy's and Mitsubishi Heavy Industries' Q3/fiscal Q4 2026 earnings and backlog updates",
+    "Any additional AI infrastructure operator disclosing a cancelled or scaled-back gas turbine or power commitment"
+  ],
+  "bear_case": [
+    { "dimension": "Execution", "argument": "The cancellation could reflect execution or technology risk specific to Boom's unproven, first-of-a-kind aeroderivative turbine rather than Crusoe's own strategy; if so, the 'fast workaround' path is less viable than Boom's guidance suggests, and this report's read that it is Crusoe-specific could be wrong." },
+    { "dimension": "Demand", "argument": "Crusoe's pullback from two major infrastructure commitments in three months (Wyoming, Boom) could signal broader capital discipline or demand softening among AI neoclouds; if that spreads industry-wide, it would eventually ease pressure on the heavy-frame OEM backlog too, weakening rather than reinforcing the bottleneck thesis." },
+    { "dimension": "Competition", "argument": "Boom still reports a genuine, if smaller, pipeline to other customers, so this event may be idiosyncratic to one customer relationship rather than a verdict on the aeroderivative turbine segment as a whole." },
+    { "dimension": "Technology", "argument": "Neither company has disclosed the specific reason for the split, so any interpretation -- including this report's -- of 'why' is necessarily inferential in the absence of a direct statement from either party." }
+  ],
+  "kill_conditions": [
+    { "condition": "Heavy-frame OEM order books stall or decline over the next 2-3 quarters despite the Crusoe/Boom retreat", "metric": "Combined GE Vernova / Siemens Energy / Mitsubishi Heavy Industries backlog, QoQ change", "threshold": "Flat or declining combined backlog for 2+ consecutive quarters", "time_window": "2-3 quarters", "impact": "weaken" },
+    { "condition": "Other AI infrastructure operators follow Crusoe in cancelling comparable turbine or power-infrastructure commitments", "metric": "Count of confirmed cancellations of >100MW gas-power commitments by AI infrastructure operators", "threshold": ">=2 additional confirmed cancellations", "time_window": "2 quarters", "impact": "invalidate" },
+    { "condition": "Boom fails to deliver any of its guided 250 MW in 2027 to any customer", "metric": "Boom Supersonic disclosed turbine deliveries", "threshold": "0 MW delivered by end of 2027", "time_window": "through end of 2027", "impact": "weaken" },
+    { "condition": "Crusoe or Boom later confirms the split was driven by a turbine performance, permitting, or supply problem rather than Crusoe's own capital allocation", "metric": "Public company disclosure", "threshold": "Any confirmed technical/regulatory cause disclosed by either party", "time_window": "6 months", "impact": "invalidate" }
+  ],
+  "validation_events": [
+    {
+      "event": "Boom Supersonic names a replacement customer or confirms a first Superpower turbine delivery",
+      "expected_window": "2027",
+      "supports_if": "A named customer receives turbines on or near Boom's guided 250 MW (2027) schedule",
+      "weakens_if": "No customer is named and the 2027 delivery guidance slips or is withdrawn",
+      "source_to_monitor": "Boom Supersonic company statements, trade press"
+    },
+    {
+      "event": "Crusoe's next public infrastructure or funding-deployment disclosure",
+      "expected_window": "Q4 2026 - Q1 2027",
+      "supports_if": "Crusoe discloses further pullbacks from large, fixed power or infrastructure commitments, consistent with a deliberate capital-discipline pivot",
+      "weakens_if": "Crusoe re-engages a large-scale, multi-year power commitment (turbines or otherwise)",
+      "source_to_monitor": "Crusoe newsroom, trade press"
+    },
+    {
+      "event": "GE Vernova's, Siemens Energy's and Mitsubishi Heavy Industries' Q3/fiscal Q4 2026 earnings",
+      "expected_window": "late October - mid November 2026",
+      "supports_if": "Combined heavy-frame backlog continues growing past the 116 GW / 69 GW / 35 GW levels reported in the Sept. 16, 2026 report",
+      "weakens_if": "Any OEM reports backlog stalling, lead times shortening, or order cancellations",
+      "source_to_monitor": "Respective investor relations"
+    },
+    {
+      "event": "Any additional disclosure of a cancelled or scaled-back gas turbine / power commitment by an AI infrastructure operator",
+      "expected_window": "next 2 quarters",
+      "supports_if": "No further comparable cancellations are reported, isolating this event to Crusoe",
+      "weakens_if": "A second operator cancels a comparable turbine or power commitment",
+      "source_to_monitor": "Trade press (TechCrunch, DataCenterDynamics, Bloomberg)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "claim": "Boom Supersonic launched its 'Superpower' natural-gas turbine business on December 9, 2025, naming Crusoe as launch customer for 29 turbines and raising a $300 million funding round; Crusoe CEO Chase Lochmiller is quoted endorsing the partnership.",
+      "source_url": "https://www.businesswire.com/news/home/20251209195489/en/Boom-Supersonic-to-Power-AI-Data-Centers-With-Superpower-Natural-Gas-Turbines-Adds-$300-Million-in-New-Funding",
+      "source_title": "Business Wire: \"Boom Supersonic to Power AI Data Centers With Superpower Natural Gas Turbines; Adds $300 Million in New Funding\"",
+      "source_type": "primary",
+      "published_at": "2025-12-09",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "\"At Crusoe we are continuously searching for new approaches to increase real-world performance and accelerate time-to-power across our portfolio of energy assets and operations. We're proud to be partnering closely with Boom as the launch customer for Superpower...\" -- Chase Lochmiller, Crusoe co-founder and CEO. The businesswire.com domain was blocked by this research environment's egress proxy; this quote is drawn from a converging web-search snippet of the release, not a direct fetch.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s2",
+      "claim": "Crusoe ordered 29 of Boom Supersonic's 42 MW Superpower turbines (approximately 1.21 GW total) in a deal reported at $1.25 billion, announced alongside Boom's December 2025 Superpower launch.",
+      "source_url": "https://www.datacenterdynamics.com/en/news/crusoe-orders-121gw-of-natural-gas-turbines-from-prototype-airliner-co-boom-supersonic/",
+      "source_title": "DataCenterDynamics: \"Crusoe orders 1.21GW of natural gas turbines from prototype airliner co. Boom Supersonic\"",
+      "source_type": "secondary",
+      "published_at": "2025-12",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet confirming the 29-turbine, ~1.21 GW, $1.25 billion order size and 42 MW per-unit rating.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s3",
+      "claim": "Crusoe abandoned its $1.25 billion plan to use Boom Supersonic turbines at its AI data centers, reported September 25, 2026, in the context of Crusoe's recent Series F funding and its earlier Wyoming campus retreat.",
+      "source_url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+      "source_title": "TechCrunch: \"Crusoe abandons $1.25B plan to use Boom turbines at AI data centers\"",
+      "source_type": "secondary",
+      "published_at": "2026-09-25",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet reporting the deal's cancellation and its context alongside Crusoe's Series F and Wyoming pullback.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s4",
+      "claim": "Boom Supersonic CEO Blake Scholl confirmed on September 25, 2026 that Crusoe and Boom would no longer launch Superpower together; the turbines are 'no longer part of Crusoe's near-term plans for primary power'; Boom still guides to ~250 MW of deliveries to other sites in 2027 and 1 GW by 2028.",
+      "source_url": "https://www.unite.ai/boom-and-crusoe-end-superpower-turbine-launch-partnership/",
+      "source_title": "Unite.AI: \"Boom and Crusoe End Superpower Turbine Launch Partnership\"",
+      "source_type": "discovery",
+      "published_at": "2026-09-26",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet quoting Blake Scholl's statement and Boom's 250 MW (2027) / 1 GW (2028) delivery guidance to other, unnamed customers. This claim is corroborated by independent secondary reporting (s3) but the direct quote itself rests on this single discovery-tier source, so it is treated at medium confidence.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s5",
+      "claim": "Crusoe raised a $3.9 billion Series F round at a $30.9 billion post-money valuation, with an initial closing announced September 17, 2026, co-led by Atreides Management, Mubadala Capital and Valor Equity Partners, with participation from Nvidia and the Qatar Investment Authority among others.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/09/17/3364326/0/en/crusoe-raises-3-9-billion-series-f-for-its-vertically-integrated-ai-infrastructure-platform.html",
+      "source_title": "GlobeNewswire (Crusoe press release): \"Crusoe Raises $3.9 Billion Series F for its Vertically-Integrated AI Infrastructure Platform\"",
+      "source_type": "primary",
+      "published_at": "2026-09-17",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet of Crusoe's own press release confirming the round size, valuation, and investor list.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s6",
+      "claim": "Bloomberg reported September 3, 2026 that Crusoe raised over $3 billion in funding at a $30 billion valuation, an early report on the same round finalized September 17.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-03/crusoe-raises-over-3-billion-in-funding-at-30-billion-valuation",
+      "source_title": "Bloomberg: \"Crusoe Raises Over $3 Billion in Funding at $30 Billion Valuation\"",
+      "source_type": "secondary",
+      "published_at": "2026-09-03",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet corroborating the funding round's approximate size and valuation ahead of its September 17 final close.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s7",
+      "claim": "Bloomberg reported June 11, 2026 that Crusoe was pushed aside at a 1.8 GW AI data-center campus near Cheyenne, Wyoming, after Google raised cost and schedule concerns, having demobilized from the site roughly two months earlier.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-11/crusoe-pushed-aside-at-wyoming-ai-project-after-google-concerns",
+      "source_title": "Bloomberg: \"Crusoe Pushed Aside at Wyoming AI Project After Google Concerns\"",
+      "source_type": "secondary",
+      "published_at": "2026-06-11",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet reporting Google's cost/schedule concerns, Crusoe's exit, and the project's continuation without Crusoe under utility partner Black Hills.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s8",
+      "claim": "Crusoe announced June 9, 2026 that it paused development at the Wyoming campus 'at the request of our customer,' the same statement in which it said its contracted AI infrastructure capacity was approaching 5 GW.",
+      "source_url": "https://finance.yahoo.com/sectors/technology/articles/crusoe-exited-1-8-gw-180819575.html",
+      "source_title": "Yahoo Finance (Bloomberg): \"Crusoe exited 1.8 GW Wyoming data center project after Google pressure, Bloomberg reports\"",
+      "source_type": "secondary",
+      "published_at": "2026-06",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; cited via search-result snippet quoting Crusoe's own June 9, 2026 statement pausing Wyoming development 'at the request of our customer' and citing ~5 GW of contracted capacity.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s9",
+      "claim": "GE Vernova's combined gas power backlog and slot reservations reached 116 GW as of Q2 2026, per this pipeline's September 16, 2026 report.",
+      "source_url": "https://www.gevernova.com/news/press-releases/ge-vernova-reports-second-quarter-2026-financial-results-raises-2026-financial",
+      "source_title": "GE Vernova: \"GE Vernova Reports Second Quarter 2026 Financial Results and Raises 2026 Financial Guidance\"",
+      "source_type": "primary",
+      "published_at": "2026-07-22",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; figure carried forward from this pipeline's September 16, 2026 gas-turbine-shortage report, which cited the same release for the 116 GW combined backlog and reservations figure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s10",
+      "claim": "Wood Mackenzie estimated global gas turbine manufacturing capacity at 60-70 GW/year against approximately 110 GW/year of orders, per this pipeline's September 16, 2026 report.",
+      "source_url": "https://www.woodmac.com/press-releases/gas-turbine-prices-soar-195-as-market-faces-supply-demand-crisis/",
+      "source_title": "Wood Mackenzie: \"Gas turbine prices soar 195% as market faces supply-demand crisis\"",
+      "source_type": "secondary",
+      "published_at": "2026",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; figure carried forward from this pipeline's September 16, 2026 report.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s11",
+      "claim": "Siemens Energy's firm gas turbine backlog reached 69 GW in fiscal Q3 2026, with lead times of three-plus years, per this pipeline's September 16, 2026 report.",
+      "source_url": "https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q3-fy-2026.html",
+      "source_title": "Siemens Energy: \"Earnings Release Q3 FY 2026\"",
+      "source_type": "primary",
+      "published_at": "2026-08-05",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; figure carried forward from this pipeline's September 16, 2026 report.",
+      "confidence": "medium"
+    },
+    {
+      "id": "s12",
+      "claim": "Mitsubishi Heavy Industries' large-frame gas turbine backlog reached 35 GW in early August 2026, up from 23 GW a year earlier, per this pipeline's September 16, 2026 report.",
+      "source_url": "https://www.utilitydive.com/news/mitsubishi-gas-turbine-backlog-earnings/827761/",
+      "source_title": "Utility Dive: \"Mitsubishi's large-frame gas turbine backlog reaches 35 GW\"",
+      "source_type": "secondary",
+      "published_at": "2026-08",
+      "retrieved_at": "2026-09-28",
+      "quote_or_extract": "Domain blocked by this environment's egress proxy; figure carried forward from this pipeline's September 16, 2026 report.",
+      "confidence": "medium"
+    }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

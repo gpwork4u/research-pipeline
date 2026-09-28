@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Aeroderivative Retreat: Does Crusoe's Collapsed $1.25 Billion Boom Supersonic Turbine Deal Undermine -- or Confirm -- AI's Heavy-Frame Gas Turbine Bottleneck?",
+    "date": "2026-09-28",
+    "slug": "aeroderivative-turbine-retreat-ai-data-center-power-bottleneck",
+    "research_type": "UPDATE",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "power-generation",
+      "data-centers"
+    ],
+    "companies": [
+      "Crusoe",
+      "Boom Supersonic",
+      "GE Vernova",
+      "Google"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/aeroderivative-turbine-retreat-ai-data-center-power-bottleneck",
+    "path": "reports/2026/09/2026-09-28-aeroderivative-turbine-retreat-ai-data-center-power-bottleneck.md",
+    "one_sentence_conclusion": "Crusoe's collapsed $1.25 billion Boom Supersonic turbine deal looks like a company-specific retreat, not a bottleneck fix -- heavy-frame OEM order books remain untouched."
+  },
+  {
     "title": "The WF6 Wall: Did China's Tungsten Export Curbs Just Create AI Chip Manufacturing's Least-Watched Structural Bottleneck?",
     "date": "2026-09-27",
     "slug": "tungsten-hexafluoride-shortage-ai-chip-bottleneck",

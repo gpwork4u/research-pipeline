@@ -1586,5 +1586,41 @@
     "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
     "origin_report": "reports/2026/09/2026-09-27-tungsten-hexafluoride-shortage-ai-chip-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Boom Supersonic names a replacement customer or confirms a first Superpower turbine delivery",
+    "expected_window": "2027",
+    "supports_if": "A named customer receives turbines on or near Boom's guided 250 MW (2027) schedule",
+    "weakens_if": "No customer is named and the 2027 delivery guidance slips or is withdrawn",
+    "source_to_monitor": "Boom Supersonic company statements, trade press",
+    "origin_report": "reports/2026/09/2026-09-28-aeroderivative-turbine-retreat-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Crusoe's next public infrastructure or funding-deployment disclosure",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Crusoe discloses further pullbacks from large, fixed power or infrastructure commitments, consistent with a deliberate capital-discipline pivot",
+    "weakens_if": "Crusoe re-engages a large-scale, multi-year power commitment (turbines or otherwise)",
+    "source_to_monitor": "Crusoe newsroom, trade press",
+    "origin_report": "reports/2026/09/2026-09-28-aeroderivative-turbine-retreat-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "GE Vernova's, Siemens Energy's and Mitsubishi Heavy Industries' Q3/fiscal Q4 2026 earnings",
+    "expected_window": "late October - mid November 2026",
+    "supports_if": "Combined heavy-frame backlog continues growing past the 116 GW / 69 GW / 35 GW levels reported in the Sept. 16, 2026 report",
+    "weakens_if": "Any OEM reports backlog stalling, lead times shortening, or order cancellations",
+    "source_to_monitor": "Respective investor relations",
+    "origin_report": "reports/2026/09/2026-09-28-aeroderivative-turbine-retreat-ai-data-center-power-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Any additional disclosure of a cancelled or scaled-back gas turbine / power commitment by an AI infrastructure operator",
+    "expected_window": "next 2 quarters",
+    "supports_if": "No further comparable cancellations are reported, isolating this event to Crusoe",
+    "weakens_if": "A second operator cancels a comparable turbine or power commitment",
+    "source_to_monitor": "Trade press (TechCrunch, DataCenterDynamics, Bloomberg)",
+    "origin_report": "reports/2026/09/2026-09-28-aeroderivative-turbine-retreat-ai-data-center-power-bottleneck.md",
+    "status": "open"
   }
 ]
