@@ -732,5 +732,27 @@
       "GE Vernova",
       "Google"
     ]
+  },
+  {
+    "slug": "samsung-helix-digital-infrastructure-circular-financing-bottleneck",
+    "title": "Samsung's $1 Billion Helix Bet: Does a Memory Supplier Joining Nvidia's AI-Infrastructure Financing Web Deepen the Circular-Financing Bottleneck?",
+    "last_updated": "2026-09-30",
+    "reports": [
+      "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "capital-markets",
+      "semiconductors",
+      "credit-risk"
+    ],
+    "companies": [
+      "Samsung Electronics",
+      "Nvidia",
+      "KKR",
+      "Helix Digital Infrastructure",
+      "Vistra"
+    ]
   }
 ]

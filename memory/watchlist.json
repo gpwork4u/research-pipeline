@@ -1622,5 +1622,41 @@
     "source_to_monitor": "Trade press (TechCrunch, DataCenterDynamics, Bloomberg)",
     "origin_report": "reports/2026/09/2026-09-28-aeroderivative-turbine-retreat-ai-data-center-power-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Disclosure of Nvidia's, KKR's, or Samsung's specific equity stake sizes and any linked commercial terms in Helix Digital Infrastructure",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Disclosed terms show governance rights, guarantees, or linked purchase commitments among founding investors",
+    "weakens_if": "Disclosed terms are fully arm's-length with no linked commercial commitments",
+    "source_to_monitor": "Helix, KKR, Samsung and Nvidia investor communications",
+    "origin_report": "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Additional semiconductor or equipment suppliers joining Helix Digital Infrastructure or a comparable AI-infrastructure financing vehicle as equity investors",
+    "expected_window": "next 2 quarters",
+    "supports_if": "One or more additional component suppliers join as investors, reinforcing the circular pattern",
+    "weakens_if": "No additional component suppliers join over the period",
+    "source_to_monitor": "Company press releases; trade press",
+    "origin_report": "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Helix Digital Infrastructure's first disclosed data-center or power project reaching financial close or construction start",
+    "expected_window": "H1 2027",
+    "supports_if": "Project closes with disclosed generation and site details confirming the vehicle is deploying capital into physical assets",
+    "weakens_if": "Helix discloses no project progress within the window",
+    "source_to_monitor": "Helix and KKR press releases",
+    "origin_report": "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next BIS or IMF financial-stability commentary addressing component-supplier equity stakes in AI-infrastructure vehicles",
+    "expected_window": "Q4 2026 (BIS) / October 2026 (IMF Global Financial Stability Report)",
+    "supports_if": "BIS or IMF explicitly flags supplier-investor circularity as a growing risk",
+    "weakens_if": "BIS or IMF assess the risk as contained or do not address it",
+    "source_to_monitor": "bis.org and imf.org publications",
+    "origin_report": "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md",
+    "status": "open"
   }
 ]

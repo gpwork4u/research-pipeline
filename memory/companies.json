@@ -12,9 +12,10 @@
     "reports": [
       "reports/2026/08/2026-08-20-nvidia-ai-infrastructure-financing-platform.md",
       "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
-      "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md"
+      "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md",
+      "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md"
     ],
-    "last_updated": "2026-09-23"
+    "last_updated": "2026-09-30"
   },
   {
     "name": "CoreWeave",
@@ -65,9 +66,10 @@
     "reports": [
       "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
       "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
-      "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md"
+      "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
+      "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md"
     ],
-    "last_updated": "2026-09-13"
+    "last_updated": "2026-09-30"
   },
   {
     "name": "Micron",
@@ -225,9 +227,10 @@
   {
     "name": "Vistra",
     "reports": [
-      "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md"
+      "reports/2026/09/2026-09-06-ghost-demand-interconnection-queue-freeze-ai-data-centers.md",
+      "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md"
     ],
-    "last_updated": "2026-09-06"
+    "last_updated": "2026-09-30"
   },
   {
     "name": "CXMT",
@@ -627,5 +630,19 @@
       "reports/2026/09/2026-09-28-aeroderivative-turbine-retreat-ai-data-center-power-bottleneck.md"
     ],
     "last_updated": "2026-09-28"
+  },
+  {
+    "name": "KKR",
+    "reports": [
+      "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md"
+    ],
+    "last_updated": "2026-09-30"
+  },
+  {
+    "name": "Helix Digital Infrastructure",
+    "reports": [
+      "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md"
+    ],
+    "last_updated": "2026-09-30"
   }
 ]

@@ -1339,5 +1339,32 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-samsung-helix-digital-infrastructure-circular-financing-bottleneck",
+    "topic": "samsung-helix-digital-infrastructure-circular-financing-bottleneck",
+    "statement": "Samsung's $1 billion investment in Helix Digital Infrastructure is genuine new capital, but because neither Nvidia's nor Samsung's specific equity stakes or governance rights in the privately held Helix have been disclosed, the event extends -- rather than resolves -- the credit-risk-underwriting and circular-financing concerns identified in the August 20, 2026 report. It adds a new category of circular investor (an AI memory-chip supplier) to a vehicle Nvidia co-anchors, without adding any new disclosed underwriting terms.",
+    "confidence": "low",
+    "created_at": "2026-09-30",
+    "updated_at": "2026-09-30",
+    "supporting_reports": [
+      "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Helix, Samsung or Nvidia disclose fully arm's-length Helix investment terms with no linked supply agreements or governance rights",
+        "metric": "Disclosed Helix governance/ownership terms",
+        "threshold": "Public disclosure confirms no linked commercial commitments between equity stakes and chip/memory purchase agreements",
+        "time_window": "next 2 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "No further AI component suppliers join Helix or comparable financing vehicles as equity investors and Helix's fundraising stalls",
+        "metric": "Count of new component-supplier investors in AI-infrastructure vehicles",
+        "threshold": "Zero additional component-supplier investors over the window",
+        "time_window": "next 2 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

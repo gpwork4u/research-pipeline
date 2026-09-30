@@ -1,5 +1,29 @@
 [
   {
+    "title": "Samsung's $1 Billion Helix Bet: Does a Memory Supplier Joining Nvidia's AI-Infrastructure Financing Web Deepen the Circular-Financing Bottleneck?",
+    "date": "2026-09-30",
+    "slug": "samsung-helix-digital-infrastructure-circular-financing-bottleneck",
+    "research_type": "UPDATE",
+    "topics": [
+      "ai-infrastructure",
+      "capital-markets",
+      "semiconductors",
+      "credit-risk"
+    ],
+    "companies": [
+      "Samsung Electronics",
+      "Nvidia",
+      "KKR",
+      "Helix Digital Infrastructure",
+      "Vistra"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "low",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/samsung-helix-digital-infrastructure-circular-financing-bottleneck",
+    "path": "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md",
+    "one_sentence_conclusion": "Samsung's $1 billion Helix stake adds a chip supplier to Nvidia's financing web, but undisclosed terms mean it widens, not resolves, the circularity question."
+  },
+  {
     "title": "The Aeroderivative Retreat: Does Crusoe's Collapsed $1.25 Billion Boom Supersonic Turbine Deal Undermine -- or Confirm -- AI's Heavy-Frame Gas Turbine Bottleneck?",
     "date": "2026-09-28",
     "slug": "aeroderivative-turbine-retreat-ai-data-center-power-bottleneck",
