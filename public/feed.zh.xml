@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>FERC暫停PJM備援電力拍賣:AI資料中心電網瓶頸是變慢了,還是正被修復?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/pjm-reliability-backstop-suspension-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/pjm-reliability-backstop-suspension-ai-data-center-bottleneck</guid>
+      <pubDate>Thu, 01 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>regulation</category>
+      <category>data-centers</category>
+      <description>FERC因成本爭議暫停PJM的備援電力拍賣,容量缺口並未解決,AI負載限電規則也仍懸而未決。
+
+2026年9月29日,FERC接受但暫停了PJM的可靠度備援採購計畫五個月——這項一次性拍賣原本是為了填補6,831MW的備轉容量缺口,暫停原因是成本分攤與擔保條款仍有爭議。PJM隨即取消原訂9月30日至10月21日的拍賣。此事件直接呼應本研究團隊8月28日報告中的一項觀察事件,但該報告聚焦的限電優先權(BYONC)框架,其實落在另一個仍未裁決、且同時遭PJM自家市場監督人與電力供應商抗議的獨立案件中。底層的供給稀缺——連續第三年容量拍賣短缺——依然真實存在;但原本應解決此問題的監管程序,本身卻成了延遲的來源。</description>
+    </item>
+    <item>
       <title>三星10億美元投資Helix：記憶體供應商加入輝達AI基礎設施融資網,是否加深了循環融資瓶頸?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/samsung-helix-digital-infrastructure-circular-financing-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/samsung-helix-digital-infrastructure-circular-financing-bottleneck</guid>

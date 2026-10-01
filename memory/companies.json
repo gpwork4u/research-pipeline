@@ -139,9 +139,10 @@
   {
     "name": "PJM Interconnection",
     "reports": [
-      "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md"
+      "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
+      "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md"
     ],
-    "last_updated": "2026-08-28"
+    "last_updated": "2026-10-01"
   },
   {
     "name": "EMCOR Group",
@@ -644,5 +645,12 @@
       "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md"
     ],
     "last_updated": "2026-09-30"
+  },
+  {
+    "name": "Constellation Energy",
+    "reports": [
+      "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md"
+    ],
+    "last_updated": "2026-10-01"
   }
 ]

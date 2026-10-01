@@ -754,5 +754,24 @@
       "Helix Digital Infrastructure",
       "Vistra"
     ]
+  },
+  {
+    "slug": "pjm-reliability-backstop-suspension-ai-data-center-bottleneck",
+    "title": "FERC Suspends PJM's Backstop Power Auction: Does the AI Data-Center Grid Bottleneck Just Get Slower, or Does It Get Fixed?",
+    "last_updated": "2026-10-01",
+    "reports": [
+      "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "regulation",
+      "data-centers"
+    ],
+    "companies": [
+      "PJM Interconnection",
+      "Constellation Energy"
+    ]
   }
 ]

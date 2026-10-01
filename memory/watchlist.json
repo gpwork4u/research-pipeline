@@ -334,7 +334,8 @@
     "weakens_if": "FERC rejects, materially delays, or requires the framework be made voluntary",
     "source_to_monitor": "FERC.gov Docket ER26-3380 and RM26-4",
     "origin_report": "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred September 29, 2026: a mixed/partial outcome, neither the clean approval nor rejection anticipated. FERC's order actually addressed a related but distinct docket -- PJM's Reliability Backstop Procurement (ER26-3380), a capacity-auction cost-allocation mechanism -- accepting it in part but suspending it five months (to Feb 28, 2027) over unresolved cost-allocation, transmission-owner-exit, and collateral issues, forcing PJM to cancel its planned Sept 30-Oct 21, 2026 backstop auction. The BYONC-linked curtailment-priority framework this entry anticipated actually sits in a separate docket (ER26-3515, Interim Resource Adequacy Service), which remained undecided by FERC past PJM's requested Oct 12, 2026 effective date, and is itself protested by both PJM's own Independent Market Monitor and the power suppliers' trade association (EPSA). See reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md."
   },
   {
     "event": "Other RTOs' (MISO, SPP, ISO-NE, NYISO, CAISO) compliance filings under FERC's RM26-4 show-cause order",
@@ -1657,6 +1658,51 @@
     "weakens_if": "BIS or IMF assess the risk as contained or do not address it",
     "source_to_monitor": "bis.org and imf.org publications",
     "origin_report": "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "FERC's post-hearing order on PJM's Reliability Backstop Procurement (ER26-3380)",
+    "expected_window": "by February 28, 2027",
+    "supports_if": "FERC's final order keeps the RBP suspended further, requires material revisions to cost allocation or collateral terms, or rejects elements outright",
+    "weakens_if": "FERC approves a revised RBP substantially as PJM proposed, with the auction proceeding promptly",
+    "source_to_monitor": "FERC eLibrary (Docket ER26-3380); PJM Insidelines",
+    "origin_report": "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "FERC's order on PJM's companion IRAS/Large Load Registry/BYONC filing (ER26-3515)",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "FERC further delays, rejects, or materially narrows the BYONC curtailment-priority mechanism, consistent with the Market Monitor's and EPSA's protests",
+    "weakens_if": "FERC approves IRAS/BYONC substantially as filed with the curtailment-priority mechanism intact and on schedule",
+    "source_to_monitor": "FERC eLibrary (Docket ER26-3515); PJM Insidelines",
+    "origin_report": "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "PJM's rescheduled Reliability Backstop Procurement auction results, if and when conducted",
+    "expected_window": "after February 28, 2027, or further delay",
+    "supports_if": "The auction is delayed again or procures capacity well short of the 6,831 MW target",
+    "weakens_if": "The auction proceeds promptly and procures capacity at or near the full shortfall target",
+    "source_to_monitor": "PJM markets-ops auction-results releases",
+    "origin_report": "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "PJM's next Base Residual Auction (2029/2030 delivery year) results",
+    "expected_window": "~mid-2027",
+    "supports_if": "The reserve-margin shortfall persists or widens beyond the current 5.6%/6,831 MW gap",
+    "weakens_if": "The auction clears at or above PJM's 20% reliability target with no shortfall",
+    "source_to_monitor": "PJM markets-ops auction-results releases",
+    "origin_report": "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further stock/analyst reaction among PJM-exposed generators (Constellation, NRG, Talen, Vistra) to subsequent regulatory developments",
+    "expected_window": "ongoing, next 1-2 quarters",
+    "supports_if": "Continued elevated volatility or further analyst 'uncertainty' commentary tied to unresolved PJM dockets",
+    "weakens_if": "Share prices and analyst commentary stabilize once FERC issues clear, final rules",
+    "source_to_monitor": "Company investor relations; sell-side research as covered by trade press",
+    "origin_report": "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md",
     "status": "open"
   }
 ]

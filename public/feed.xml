@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>FERC Suspends PJM&apos;s Backstop Power Auction: Does the AI Data-Center Grid Bottleneck Just Get Slower, or Does It Get Fixed?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/pjm-reliability-backstop-suspension-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/pjm-reliability-backstop-suspension-ai-data-center-bottleneck</guid>
+      <pubDate>Thu, 01 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>regulation</category>
+      <category>data-centers</category>
+      <description>FERC suspended PJM&apos;s backstop power auction over cost disputes, delaying -- not resolving -- the capacity shortfall and leaving the AI-load curtailment rules undecided.
+
+On September 29, 2026, FERC accepted but suspended for five months PJM&apos;s Reliability Backstop Procurement, the one-time auction meant to close a 6,831 MW reserve-margin shortfall, over unresolved cost-allocation and collateral issues. PJM immediately canceled its planned September 30-October 21, 2026 auction. This directly engages a watchlist event from this pipeline&apos;s August 28, 2026 report, but the curtailment-priority (BYONC) framework that report centered on actually sits in a separate, still-undecided docket, protested by both PJM&apos;s own market monitor and power suppliers. The underlying scarcity -- a third consecutive capacity-auction shortfall -- remains real; the regulatory process meant to address it has become its own source of delay.</description>
+    </item>
+    <item>
       <title>Samsung&apos;s $1 Billion Helix Bet: Does a Memory Supplier Joining Nvidia&apos;s AI-Infrastructure Financing Web Deepen the Circular-Financing Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/samsung-helix-digital-infrastructure-circular-financing-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/samsung-helix-digital-infrastructure-circular-financing-bottleneck</guid>

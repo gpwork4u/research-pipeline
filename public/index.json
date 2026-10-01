@@ -1,5 +1,26 @@
 [
   {
+    "title": "FERC Suspends PJM's Backstop Power Auction: Does the AI Data-Center Grid Bottleneck Just Get Slower, or Does It Get Fixed?",
+    "date": "2026-10-01",
+    "slug": "pjm-reliability-backstop-suspension-ai-data-center-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "regulation",
+      "data-centers"
+    ],
+    "companies": [
+      "PJM Interconnection",
+      "Constellation Energy"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/pjm-reliability-backstop-suspension-ai-data-center-bottleneck",
+    "path": "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md",
+    "one_sentence_conclusion": "FERC suspended PJM's backstop power auction over cost disputes, delaying -- not resolving -- the capacity shortfall and leaving the AI-load curtailment rules undecided."
+  },
+  {
     "title": "Samsung's $1 Billion Helix Bet: Does a Memory Supplier Joining Nvidia's AI-Infrastructure Financing Web Deepen the Circular-Financing Bottleneck?",
     "date": "2026-09-30",
     "slug": "samsung-helix-digital-infrastructure-circular-financing-bottleneck",

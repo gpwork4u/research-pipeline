@@ -1366,5 +1366,39 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-pjm-reliability-backstop-suspension-ai-data-center-bottleneck",
+    "topic": "pjm-reliability-backstop-suspension-ai-data-center-bottleneck",
+    "statement": "FERC's September 29, 2026 order neither approved nor rejected the BYONC/IRAS curtailment-priority framework central to this pipeline's August 28, 2026 PJM report -- that framework sits in a separate, still-undecided docket (ER26-3515) protested by both PJM's own Independent Market Monitor and the power suppliers' trade association (EPSA). Instead, FERC suspended for five months (to February 28, 2027) a related capacity-procurement docket (ER26-3380) over unresolved cost-allocation and collateral concerns, forcing PJM to cancel its planned September-October 2026 backstop auction. PJM's underlying firm-generation-capacity shortfall -- a third consecutive Base Residual Auction shortfall (5.6%, 6,831 MW) -- remains a reaffirmed Structural Bottleneck, but the regulatory process meant to address it, contested simultaneously by ratepayer advocates and competing generators, has itself become a source of delay rather than resolution.",
+    "confidence": "medium",
+    "created_at": "2026-10-01",
+    "updated_at": "2026-10-01",
+    "supporting_reports": [
+      "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "FERC resolves the Reliability Backstop Procurement paper hearing quickly and approves a revised proposal well before the February 28, 2027 suspension deadline, allowing PJM's backstop auction to proceed close to its original schedule",
+        "metric": "Timing and substance of FERC's post-hearing order on ER26-3380",
+        "threshold": "Order issued and a backstop auction conducted within 90 days of any PJM refiling",
+        "time_window": "next 2 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "FERC approves PJM's companion IRAS/BYONC filing (ER26-3515) substantially as filed despite the Market Monitor's and EPSA's protests",
+        "metric": "FERC order on ER26-3515",
+        "threshold": "Approved without material change to the BYONC curtailment-priority mechanism",
+        "time_window": "next 1-2 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "PJM's reserve-margin shortfall closes in a subsequent Base Residual Auction",
+        "metric": "PJM BRA cleared capacity vs. reliability requirement",
+        "threshold": "A subsequent auction clears at or above the 20% reliability target with no shortfall",
+        "time_window": "next 2 auction cycles (~12-18 months)",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]
