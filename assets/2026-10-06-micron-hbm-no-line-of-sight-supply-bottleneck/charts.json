@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Analyst 12-month price targets on Micron after fiscal Q4 2026 report",
+    "title_zh": "美光公布第四財季財報後，分析師的12個月目標價",
+    "type": "bar",
+    "unit": "USD",
+    "source_id": "s7",
+    "series": [
+      { "label": "Goldman Sachs", "value": 1250 },
+      { "label": "Mizuho", "value": 1400 },
+      { "label": "Rosenblatt", "value": 1900 },
+      { "label": "DA Davidson", "value": 2100 }
+    ]
+  },
+  {
+    "title": "TrendForce Q4 2026 QoQ contract price forecast (range midpoint)",
+    "title_zh": "TrendForce 2026年第四季合約價格季增預測（區間中點）",
+    "type": "bar",
+    "unit": "percent QoQ",
+    "source_id": "s8",
+    "series": [
+      { "label": "General DRAM", "value": 12.5 },
+      { "label": "DRAM incl. HBM", "value": 17.5 },
+      { "label": "NAND", "value": 17.5 }
+    ]
+  }
+]

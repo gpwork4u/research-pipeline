@@ -1,5 +1,26 @@
 [
   {
+    "title": "Micron's Record Quarter: Does 'No Line of Sight' on HBM Supply Confirm AI Memory's Structural Bottleneck?",
+    "date": "2026-10-06",
+    "slug": "micron-hbm-no-line-of-sight-supply-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "memory"
+    ],
+    "companies": [
+      "Micron Technology",
+      "SK Hynix",
+      "Samsung Electronics"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/micron-hbm-no-line-of-sight-supply-bottleneck",
+    "path": "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
+    "one_sentence_conclusion": "Micron's record quarter and sold-out 2027 HBM book, paired with management's \"no line of sight\" to rebalancing, reaffirm HBM as AI's deepest memory bottleneck."
+  },
+  {
     "title": "FERC Suspends PJM's Backstop Power Auction: Does the AI Data-Center Grid Bottleneck Just Get Slower, or Does It Get Fixed?",
     "date": "2026-10-01",
     "slug": "pjm-reliability-backstop-suspension-ai-data-center-bottleneck",

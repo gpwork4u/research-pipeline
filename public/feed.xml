@@ -6,6 +6,19 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>Micron&apos;s Record Quarter: Does &apos;No Line of Sight&apos; on HBM Supply Confirm AI Memory&apos;s Structural Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/micron-hbm-no-line-of-sight-supply-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/micron-hbm-no-line-of-sight-supply-bottleneck</guid>
+      <pubDate>Tue, 06 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>memory</category>
+      <description>Micron&apos;s record quarter and sold-out 2027 HBM book, paired with management&apos;s &quot;no line of sight&quot; to rebalancing, reaffirm HBM as AI&apos;s deepest memory bottleneck.
+
+On September 30, 2026, Micron reported record fiscal Q4 and full-year 2026 results -- revenue of $54.23 billion, up 379% year-over-year, and 87.0% non-GAAP gross margin -- and guided fiscal Q1 2027 revenue to roughly $61.5 billion. Management disclosed it had already locked in the &quot;vast majority&quot; of calendar-2027 HBM bit supply at significantly higher prices and said it has no visibility into when supply and demand rebalance. This directly engages an open watchlist event from this pipeline&apos;s August 22, 2026 report and squarely confirms its supports_if branch. Independent TrendForce-sourced pricing data shows the tightness spreading into conventional DRAM and NAND as well. The main dissent is not about the current quarter but about durability: alongside near-unanimous analyst bullishness, Morningstar maintains a bearish long-run view of a 2028 peak followed by a sharp 2029 decline.</description>
+    </item>
+    <item>
       <title>FERC Suspends PJM&apos;s Backstop Power Auction: Does the AI Data-Center Grid Bottleneck Just Get Slower, or Does It Get Fixed?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/pjm-reliability-backstop-suspension-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/pjm-reliability-backstop-suspension-ai-data-center-bottleneck</guid>

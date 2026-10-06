@@ -773,5 +773,24 @@
       "PJM Interconnection",
       "Constellation Energy"
     ]
+  },
+  {
+    "slug": "micron-hbm-no-line-of-sight-supply-bottleneck",
+    "title": "Micron's Record Quarter: Does 'No Line of Sight' on HBM Supply Confirm AI Memory's Structural Bottleneck?",
+    "last_updated": "2026-10-06",
+    "reports": [
+      "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "memory"
+    ],
+    "companies": [
+      "Micron Technology",
+      "SK Hynix",
+      "Samsung Electronics"
+    ]
   }
 ]

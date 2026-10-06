@@ -6,6 +6,19 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>美光創紀錄財報：「看不到供需平衡」是否證實 AI 記憶體的結構性瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/micron-hbm-no-line-of-sight-supply-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/micron-hbm-no-line-of-sight-supply-bottleneck</guid>
+      <pubDate>Tue, 06 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>memory</category>
+      <description>美光創紀錄財報與售罄的 2027 年 HBM 訂單,加上管理層「看不到平衡」的表態,再次證實 HBM 是 AI 最深的記憶體瓶頸。
+
+On September 30, 2026, Micron reported record fiscal Q4 and full-year 2026 results -- revenue of $54.23 billion, up 379% year-over-year, and 87.0% non-GAAP gross margin -- and guided fiscal Q1 2027 revenue to roughly $61.5 billion. Management disclosed it had already locked in the &quot;vast majority&quot; of calendar-2027 HBM bit supply at significantly higher prices and said it has no visibility into when supply and demand rebalance. This directly engages an open watchlist event from this pipeline&apos;s August 22, 2026 report and squarely confirms its supports_if branch. Independent TrendForce-sourced pricing data shows the tightness spreading into conventional DRAM and NAND as well. The main dissent is not about the current quarter but about durability: alongside near-unanimous analyst bullishness, Morningstar maintains a bearish long-run view of a 2028 peak followed by a sharp 2029 decline.</description>
+    </item>
+    <item>
       <title>FERC暫停PJM備援電力拍賣:AI資料中心電網瓶頸是變慢了,還是正被修復?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/pjm-reliability-backstop-suspension-ai-data-center-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/pjm-reliability-backstop-suspension-ai-data-center-bottleneck</guid>

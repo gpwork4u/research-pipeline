@@ -126,7 +126,8 @@
     "weakens_if": "Micron reports softening HBM order commitments, delayed HBM4 ramp, or a pullback in guided gross margin tied to memory pricing",
     "source_to_monitor": "Micron investor relations (investors.micron.com)",
     "origin_report": "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred September 30, 2026: supports_if branch confirmed. Micron reported record fiscal Q4/full-year 2026 results (revenue $54.23B, +379% YoY; non-GAAP gross margin 87.0%) and disclosed it had completed agreements for the vast majority of calendar-2027 HBM bit supply at significantly higher year-over-year prices, with CEO Sanjay Mehrotra stating Micron has no line of sight to when supply and demand rebalance. See reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md."
   },
   {
     "event": "SK Hynix's Q3 2026 earnings call",
@@ -1703,6 +1704,33 @@
     "weakens_if": "Share prices and analyst commentary stabilize once FERC issues clear, final rules",
     "source_to_monitor": "Company investor relations; sell-side research as covered by trade press",
     "origin_report": "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Micron's fiscal Q1 2027 earnings call",
+    "expected_window": "around December 2026",
+    "supports_if": "Micron meets or exceeds its guided ~$61.5 billion revenue and ~$38.15 EPS and reiterates no visibility into HBM supply-demand rebalancing",
+    "weakens_if": "Micron misses guidance or reports softening HBM order commitments",
+    "source_to_monitor": "Micron investor relations (investors.micron.com)",
+    "origin_report": "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TrendForce's next quarterly DRAM/NAND contract-price update",
+    "expected_window": "around January 2027",
+    "supports_if": "Forecast reiterates or widens the 15-20% quarterly price-increase range for DRAM (including HBM) and NAND",
+    "weakens_if": "Forecast shows price growth flattening or reversing",
+    "source_to_monitor": "trendforce.com/presscenter",
+    "origin_report": "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Any disclosed renegotiation, delay or cancellation of a hyperscaler's long-term HBM supply agreement with Micron, SK Hynix or Samsung",
+    "expected_window": "ongoing, next 2-3 quarters",
+    "supports_if": "No such renegotiation or cancellation is disclosed",
+    "weakens_if": "A major hyperscaler is reported renegotiating down or canceling a long-term HBM agreement",
+    "source_to_monitor": "Trade press (Tom's Hardware, SemiAnalysis, DigiTimes, The Information)",
+    "origin_report": "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
     "status": "open"
   }
 ]
