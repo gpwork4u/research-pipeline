@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>Marvell 的 1,200 億美元 Google 大單:第二家可信設計廠是否證明 TSMC 產能、而非 Broadcom,才是客製晶片的真正瓶頸?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/marvell-google-custom-silicon-tsmc-capacity-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/marvell-google-custom-silicon-tsmc-capacity-bottleneck</guid>
+      <pubDate>Wed, 07 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-packaging</category>
+      <category>custom-silicon</category>
+      <description>Marvell 由 Google 支撐的 2031 年 700-900 億美元目標顯示設計產能正在分散,但兩家設計廠仍競爭同一批稀缺的 TSMC 封裝產能。
+
+2026 年 10 月 6 日,Marvell 法人說明會首次設定 2031 財年營收目標 700-900 億美元,並上調 2028 財年展望至約 200 億美元、2029 財年客製晶片目標至 120 億美元以上,成長故事建立在上限 1,200 億美元、至 2033 財年的 Google 合作之上。Marvell 股價漲 6-7%,Broadcom 同日也漲約 4%。此事直接呼應本管道 2026 年 9 月 5 日的一項殺手條件:合格競爭者奪走 Broadcom 大型專案將推翻瓶頸論點。證據顯示僅部分觸發:Google 讓 Marvell 取得新推論與周邊晶片業務,但 Broadcom 核心 TPU 關係(至2031年)不變。更持久的限制在上游:兩者皆競爭同一批有限的 TSMC CoWoS 產能(預估2026年底每月約127,000片)。</description>
+    </item>
+    <item>
       <title>美光創紀錄財報：「看不到供需平衡」是否證實 AI 記憶體的結構性瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/micron-hbm-no-line-of-sight-supply-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/micron-hbm-no-line-of-sight-supply-bottleneck</guid>

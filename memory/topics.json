@@ -792,5 +792,26 @@
       "SK Hynix",
       "Samsung Electronics"
     ]
+  },
+  {
+    "slug": "marvell-google-custom-silicon-tsmc-capacity-bottleneck",
+    "title": "Marvell's $120 Billion Google Deal: Does a Credible Second Design House Prove TSMC Capacity, Not Broadcom, Is Custom Silicon's Real Bottleneck?",
+    "last_updated": "2026-10-07",
+    "reports": [
+      "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-packaging",
+      "custom-silicon"
+    ],
+    "companies": [
+      "Marvell Technology",
+      "Broadcom",
+      "Alphabet (Google)",
+      "TSMC"
+    ]
   }
 ]

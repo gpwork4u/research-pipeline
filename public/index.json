@@ -1,5 +1,28 @@
 [
   {
+    "title": "Marvell's $120 Billion Google Deal: Does a Credible Second Design House Prove TSMC Capacity, Not Broadcom, Is Custom Silicon's Real Bottleneck?",
+    "date": "2026-10-07",
+    "slug": "marvell-google-custom-silicon-tsmc-capacity-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-packaging",
+      "custom-silicon"
+    ],
+    "companies": [
+      "Marvell Technology",
+      "Broadcom",
+      "Alphabet (Google)",
+      "TSMC"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/marvell-google-custom-silicon-tsmc-capacity-bottleneck",
+    "path": "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
+    "one_sentence_conclusion": "Marvell's Google-powered $70-90B 2031 target shows design capacity diversifying, but both design houses still compete for the same scarce TSMC packaging capacity."
+  },
+  {
     "title": "Micron's Record Quarter: Does 'No Line of Sight' on HBM Supply Confirm AI Memory's Structural Bottleneck?",
     "date": "2026-10-06",
     "slug": "micron-hbm-no-line-of-sight-supply-bottleneck",

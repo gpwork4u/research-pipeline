@@ -642,7 +642,8 @@
     "weakens_if": "A current customer is reported shifting custom-silicon work to a competitor, indicating the design-capacity bottleneck is less binding than assessed",
     "source_to_monitor": "Trade press (Tom's Hardware, SemiAnalysis, The Information)",
     "origin_report": "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred October 6, 2026: a mixed/partial outcome, closer to the weakens_if branch but not a clean match. Marvell's Investor Day confirmed a current Broadcom customer (Google) has qualified Marvell for new custom-silicon work -- a $120 billion warrant-linked deal covering TPU-attach inference accelerators, storage/network/memory-interface controllers -- rather than a seventh wholly new Broadcom customer being disclosed. However, this is incremental/attach-level diversification, not existing Broadcom work being withdrawn: Broadcom's own core Google TPU compute-die relationship (through 2031) is undisturbed, and Broadcom shares rose alongside Marvell's on the news. See reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md."
   },
   {
     "event": "ERCOT/PUCT completion of the governor-directed Texas data-center interconnection audit",
@@ -1731,6 +1732,42 @@
     "weakens_if": "A major hyperscaler is reported renegotiating down or canceling a long-term HBM agreement",
     "source_to_monitor": "Trade press (Tom's Hardware, SemiAnalysis, DigiTimes, The Information)",
     "origin_report": "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Broadcom's Q4 FY2026 earnings call",
+    "expected_window": "December 2026",
+    "supports_if": "Broadcom reiterates its Google TPU relationship is intact and FY2027/FY2028 guidance is unchanged or raised",
+    "weakens_if": "Broadcom discloses any program loss, delay, or guidance cut tied to competitive pressure from Marvell",
+    "source_to_monitor": "Broadcom investor relations (investors.broadcom.com)",
+    "origin_report": "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Marvell's fiscal Q3 FY2027 earnings call",
+    "expected_window": "late November-early December 2026",
+    "supports_if": "Marvell reports custom-silicon revenue growth tracking its raised FY2027/FY2028 targets with no disclosed Google-program slippage",
+    "weakens_if": "Marvell reports custom-silicon growth materially below its own newly raised targets",
+    "source_to_monitor": "Marvell investor relations (investor.marvell.com)",
+    "origin_report": "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's Q3 2026 earnings call: updated CoWoS capacity and customer-allocation commentary",
+    "expected_window": "mid-October 2026",
+    "supports_if": "TSMC confirms CoWoS capacity tracking toward or beyond the ~127,000 wafers/month end-2026 estimate with capacity still fully booked",
+    "weakens_if": "TSMC reports CoWoS capacity materially exceeding current estimates or lead times easing well ahead of schedule",
+    "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
+    "origin_report": "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further detail on any existing Broadcom customer's program being reduced in favor of a competitor",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "No existing Broadcom program is confirmed reduced or reallocated",
+    "weakens_if": "An existing Broadcom customer is confirmed reducing or reallocating a committed program to a competitor",
+    "source_to_monitor": "Trade press (Tom's Hardware, SemiAnalysis, The Information, DigiTimes)",
+    "origin_report": "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
     "status": "open"
   }
 ]

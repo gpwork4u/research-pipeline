@@ -1,0 +1,289 @@
+{
+  "topic": {
+    "title": "Marvell's $120 Billion Google Deal: Does a Credible Second Design House Prove TSMC Capacity, Not Broadcom, Is Custom Silicon's Real Bottleneck?",
+    "slug": "marvell-google-custom-silicon-tsmc-capacity-bottleneck",
+    "date": "2026-10-07",
+    "research_type": "FOLLOW_UP",
+    "categories": ["ai-infrastructure", "semiconductors", "advanced-packaging", "custom-silicon"],
+    "score": 32,
+    "trigger": "On October 6, 2026, Marvell held its Investor Day in New York City, where CEO Matt Murphy set a first-ever fiscal 2031 revenue target of $70-90 billion (implying ~55-60% CAGR), raised the fiscal 2028 revenue outlook to roughly $20 billion, and raised the fiscal 2029 custom-silicon revenue target to $12 billion-plus. The event leaned heavily on Marvell's expanded Google relationship: a July 29, 2026 commercial agreement covering custom silicon across Google's TPU ecosystem (AI inference accelerators, storage controllers, NICs, memory interface controllers, near-memory compute), paired with an August 18, 2026 warrant on 58.97 million Marvell shares (~$12.2 billion, ~7% of the company) that vests in 240 tranches tied to up to $120 billion of cumulative custom-product revenue through fiscal 2033. Marvell shares rose 6-7% on the Investor Day; Broadcom shares also rose about 4% the same day. This directly engages a kill condition this pipeline recorded on September 5, 2026 in thesis-broadcom-ai-backlog-custom-asic-design-bottleneck: 'A qualified competitor (e.g., Marvell) ... wins a large new multi-gigawatt custom-accelerator program away from Broadcom' -- threshold: 'Any disclosed multi-gigawatt program awarded to a competitor' -- impact: invalidate."
+  },
+  "questions": {
+    "primary": "Does Marvell's October 6, 2026 Investor Day -- a raised fiscal 2031 revenue target of $70-90 billion built substantially on a $120 billion Google warrant-linked custom-silicon deal -- trigger this pipeline's own kill condition for the Broadcom design-capacity bottleneck thesis (a qualified competitor winning a large program away from Broadcom), or does it instead confirm that TSMC's shared advanced-packaging and leading-edge wafer capacity, not any single design house, is custom AI silicon's real structural constraint?",
+    "sub": [
+      "What exactly did Marvell disclose at its October 6, 2026 Investor Day about revenue targets, custom-silicon growth, design-win pipeline, and capacity prepayments?",
+      "What is the actual scope of Marvell's Google deal -- does it replace, dilute, or merely supplement Broadcom's existing TPU design relationship with Google?",
+      "Did Broadcom's own market reaction (stock, commentary) on and around October 6, 2026 suggest the market reads Marvell's gains as a loss for Broadcom, or as an expansion of the total addressable custom-silicon market?",
+      "Does the kill condition recorded on September 5, 2026 ('a qualified competitor wins a large new multi-gigawatt program away from Broadcom') get triggered, partially triggered, or not triggered by this evidence?",
+      "Does TSMC's advanced-packaging (CoWoS) and leading-edge wafer capacity -- now demonstrably shared and contested by both Broadcom and Marvell -- remain the more durable Structural Bottleneck underneath both companies' growth?"
+    ]
+  },
+  "thesis": "Marvell's October 6, 2026 Investor Day provides the most concrete evidence yet that Broadcom's custom-ASIC design/integration capacity is not a company-specific Structural Bottleneck but a Growth Area with rising supply elasticity: Google, Broadcom's largest and most important TPU customer, has independently qualified Marvell for a real, dollar-significant slate of custom-silicon programs (inference accelerators, memory/storage/network attach silicon) worth up to $120 billion through fiscal 2033, and the market reaction -- both Marvell and Broadcom shares rising on October 6 -- shows this is being read as evidence the custom-silicon market is large enough for two credible design houses, not as Marvell displacing Broadcom from an existing program. This partially triggers but does not fully satisfy this pipeline's own September 5, 2026 kill condition for the Broadcom design-bottleneck thesis: a second qualified competitor has won large new work from a top Broadcom customer, which weakens the 'one indispensable design house' framing, but Broadcom's own core TPU compute-die relationship with Google (locked in through 2031) is intact and its FY2027/FY2028 guidance is unchanged, so this is evidence of diversification and market expansion rather than Broadcom losing an existing anchor program. The more durable constraint sits one layer upstream: both Broadcom and Marvell depend on the same finite pool of TSMC leading-edge wafer starts and CoWoS/advanced-packaging capacity (TSMC's CoWoS output is reported reaching only ~127,000 wafers/month by end-2026, with Nvidia alone booking over half and Broadcom over 240,000 wafers annually), and that capacity cannot be expanded quickly because packaging-tool lead times run 3-6 months. As more design houses succeed in winning hyperscaler business, they compete for, rather than relieve pressure on, that shared upstream pool -- reinforcing TSMC's packaging and wafer capacity, not any single design house's bandwidth, as custom AI silicon's real Structural Bottleneck.",
+  "facts": [
+    {
+      "statement": "On October 6, 2026, Marvell held its Investor Day in New York City; CEO Matt Murphy and senior leadership set a first-ever fiscal 2031 revenue target of $70-90 billion, implying roughly 55-60% compound annual growth, and raised the fiscal 2028 revenue outlook to approximately $20 billion.",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s4", "s6"],
+      "confidence": "high"
+    },
+    {
+      "statement": "At the same event, Marvell raised its fiscal 2029 custom-silicon revenue target to more than $12 billion (up from a prior $10 billion-plus target), said custom silicon already generates about $1.5 billion of annual revenue (~18% of fiscal 2026 sales), and guided custom silicon to grow more than 20% in fiscal 2027 and more than double again in fiscal 2028.",
+      "type": "FACT",
+      "evidence_ids": ["s4", "s5"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Marvell disclosed a custom-silicon design-win pipeline of more than 50 opportunities across more than 10 customers, including 3 XPU design wins and 9 XPU-attach programs across the four largest hyperscalers, and said it plans roughly $1 billion of capacity prepayments this fiscal year to secure 3nm wafer and advanced-packaging capacity, applied against future material purchases.",
+      "type": "FACT",
+      "evidence_ids": ["s4", "s5"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Marvell shares rose approximately 6-7% (to roughly $287) on October 6, 2026 following the Investor Day; Broadcom shares rose approximately 4% (to roughly $376) the same day, which coverage attributed to the market treating Marvell's pitch as validating the whole custom-silicon category rather than as a loss for Broadcom.",
+      "type": "FACT",
+      "evidence_ids": ["s5", "s6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Marvell's Google relationship, central to the Investor Day narrative, consists of a commercial agreement entered July 29, 2026 covering custom silicon programs attached to Google's TPU ecosystem -- AI inference accelerators, storage controllers, network interface controllers, memory interface controllers, and near-memory compute -- paired with a warrant issued August 18, 2026 on 58.97 million Marvell shares (strike $206.58, worth approximately $12.2 billion / ~7% of the company) that vests in 240 tranches of $500 million of custom-product revenue each, with a cumulative ceiling of $120 billion through Marvell's fiscal 2033.",
+      "type": "FACT",
+      "evidence_ids": ["s2", "s3", "s7"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Reporting from April 2026 first disclosed that Google was in talks with Marvell to develop two new AI chips -- a memory-processing unit to work alongside Google's TPUs, and a new TPU built specifically for inference -- explicitly framed by multiple outlets as Google diversifying its custom-silicon supply chain beyond Broadcom; this occurred within days of Broadcom separately securing a through-2031 TPU design agreement with Google.",
+      "type": "FACT",
+      "evidence_ids": ["s8", "s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "When the Google-Marvell commercial agreement and warrant became public in mid-to-late August 2026, Broadcom shares fell about 5% on August 19, 2026, in coverage that also cited separate VMware and AI-financing concerns as contributing factors.",
+      "type": "FACT",
+      "evidence_ids": ["s10"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Industry estimates (Morgan Stanley-sourced, via financial trade press) put TSMC's CoWoS advanced-packaging capacity at roughly 127,000 wafers per month by end-2026, up from an earlier ~100,000/month estimate; Nvidia is reported booking more than half of annual CoWoS capacity (800,000-850,000 wafers), Broadcom more than 240,000 wafers (serving Meta and Google TPU programs), and MediaTek newly entering with roughly 20,000 wafers.",
+      "type": "FACT",
+      "evidence_ids": ["s11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Bear-case commentary on Marvell's custom-silicon business centers on customer concentration (a handful of hyperscalers -- Amazon, Google, Microsoft -- account for most programs), a backloaded payoff (analysts note the bulk of the $120 billion Google ceiling would not be realized until fiscal 2029 and beyond), and prior analyst skepticism (multiple 2025-2026 downgrades citing valuation and 'lack of stickiness' in custom-silicon wins before the program mix diversified).",
+      "type": "FACT",
+      "evidence_ids": ["s12", "s13"],
+      "confidence": "medium"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because Broadcom's own stock rose (not fell) alongside Marvell's on October 6, 2026 -- in contrast to the ~5% Broadcom decline when the Google-Marvell deal itself was first priced in on August 19, 2026 -- the market's updated read is that Marvell's progress expands the total custom-silicon opportunity rather than reallocating a fixed amount of business away from Broadcom, consistent with rising industry-wide supply elasticity at the design-house layer rather than a zero-sum loss for the incumbent.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s5", "s6", "s10"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because Marvell's Google programs are concentrated in TPU-attach silicon and a new inference-specific chip rather than displacing Broadcom's core TPU compute-die design -- and because Broadcom's own TPU agreement with Google runs through 2031 -- the September 5, 2026 kill condition ('a qualified competitor wins a large new multi-gigawatt program away from Broadcom') is best read as partially triggered (weaken) rather than fully triggered (invalidate): genuine design-capacity diversification exists, but no evidence shows Broadcom losing an existing committed program.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s2", "s8", "s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because both Broadcom (240,000+ wafers/year) and Marvell (new $1 billion in capacity prepayments for 3nm wafer and advanced-packaging capacity) are independently securing allocation from the same roughly 127,000-wafer-per-month TSMC CoWoS pool that Nvidia already dominates, a second successful design house increases, rather than relieves, competition for upstream packaging and leading-edge wafer capacity -- reinforcing, not weakening, the classification of that upstream layer as the industry's binding Structural Bottleneck.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s4", "s11"],
+      "confidence": "medium"
+    }
+  ],
+  "unknowns": [
+    "Whether Marvell's Google deal numbers (240 vesting tranches toward a $120 billion ceiling) will translate into delivered custom-silicon revenue on the schedule management described, given analyst commentary that the payoff is heavily backloaded toward fiscal 2029 and beyond.",
+    "Whether Broadcom's own Q4 FY2026 and Q1 FY2027 earnings calls (expected December 2026 and March 2027) will show any disclosed impact -- positive or negative -- on its existing Google TPU program from Marvell's expanded role.",
+    "The precise current CoWoS/advanced-packaging wafer allocation Marvell itself has secured at TSMC (or another packaging house), which was not disclosed in available sources beyond the aggregate ~$1 billion prepayment figure.",
+    "Whether a seventh major Broadcom XPU customer will be disclosed, or whether any existing Broadcom hyperscale customer discloses shifting an established (not merely new/incremental) program to Marvell or another competitor -- the specific, stronger form of this pipeline's September 5, 2026 kill condition.",
+    "All primary Marvell, Google, and SEC domains attempted (investor.marvell.com, sec.gov, marvell.com) and most financial-media domains were blocked by the research environment's egress proxy; facts and figures rely on convergent search-result snippets from multiple independent outlets rather than direct verification of original filings, transcripts, or press releases."
+  ],
+  "industry_chain": [
+    {
+      "name": "Leading-edge wafer fabrication and CoWoS/advanced packaging",
+      "role": "Upstream",
+      "major_players": ["TSMC", "ASE Group", "Amkor", "UMC"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Custom-ASIC design and integration ('design houses')",
+      "role": "Components",
+      "major_players": ["Broadcom", "Marvell Technology", "MediaTek", "Alchip"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI accelerator assembly and deployment (TPU/XPU systems)",
+      "role": "Infrastructure",
+      "major_players": ["Google", "Meta", "Amazon", "Microsoft"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Hyperscaler and AI-lab compute buyers",
+      "role": "Customer",
+      "major_players": ["Google", "Meta", "Amazon", "Microsoft", "AI labs"],
+      "pricing_power": "Medium",
+      "supply_elasticity": null,
+      "substitutability": null
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "TSMC leading-edge wafer and CoWoS/advanced-packaging capacity",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "2-3+ years (new packaging tool and fab capacity); packaging-tool lead times alone run 3-6 months",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "High",
+      "profit_capture": "High",
+      "opportunity_score": 5,
+      "classification": "Structural Bottleneck",
+      "rationale": "CoWoS capacity is reported reaching only ~127,000 wafers/month by end-2026, already oversubscribed by Nvidia (>50%) and Broadcom (240,000+ wafers/year); Marvell's own $1 billion capacity prepayment to secure 3nm wafer and advanced-packaging allocation shows a second major design house now competing for the same finite pool, reaffirming rather than relieving this pipeline's prior (Aug 19 and Sept 5, 2026) classification of this layer as the industry's binding structural constraint even as the reported supply-demand gap narrows."
+    },
+    {
+      "node": "Custom-ASIC design/integration capacity (company-specific)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Medium",
+      "expansion_time": "1-2 years per qualified design house to scale an existing program",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "High",
+      "profit_capture": "High",
+      "opportunity_score": 4,
+      "classification": "Growth Area",
+      "rationale": "Marvell's Investor Day evidence -- a credible, independently-verified $120 billion Google program, a 50+ opportunity design-win pipeline across 10+ customers, and a market reaction that lifted both Marvell and Broadcom shares -- shows design-house capacity has medium (not low) supply elasticity and medium (not hard) substitutability: Google successfully qualified a second supplier without disrupting its existing Broadcom program. This downgrades company-specific design capacity further from the 'genuinely unresolved' status this pipeline assigned on September 5, 2026 toward a Growth Area, while leaving Broadcom-specific customer-concentration risk intact as a bear-case point, not a bottleneck classification."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Marvell Technology",
+      "business_model": "Designs custom silicon (XPUs and XPU-attach chips), interconnect/SerDes IP, and data-infrastructure semiconductors for hyperscale, cloud, and enterprise customers.",
+      "revenue_model": "Product sales plus milestone-linked custom-silicon programs; the Google relationship is structured around a share-warrant that vests as custom-product revenue accrues.",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["Custom silicon attach to Google's TPU ecosystem", "New XPU design wins across 10+ hyperscale customers", "AI interconnect and optical solutions"],
+      "customer_concentration": "High: core growth narrative depends on a small number of hyperscale customers (Google, Amazon, Microsoft) committing to large, multi-year custom-silicon programs.",
+      "moat": "One of two design houses (alongside Broadcom) demonstrably qualified by a top-tier hyperscaler (Google) for large-scale custom AI silicon.",
+      "switching_costs": "High once a hyperscaler commits to a Marvell-designed program, given multi-quarter design and qualification cycles.",
+      "capital_intensity": "Rising: ~$1 billion in planned capacity prepayments this fiscal year to secure 3nm wafer and advanced-packaging allocation.",
+      "management_strategy": "Diversify beyond a single large custom-silicon customer by expanding XPU and XPU-attach programs across the four largest hyperscalers, while raising multi-year revenue targets (FY2028 ~$20B, FY2031 $70-90B).",
+      "execution_risk": "Analyst skepticism persists about valuation, program 'stickiness,' and whether the backloaded Google warrant ceiling ($120B through FY2033) will be realized on the disclosed schedule."
+    },
+    {
+      "name": "Broadcom",
+      "business_model": "Designs custom AI accelerators (XPUs) for a small number of large hyperscale customers, alongside networking and infrastructure-software businesses.",
+      "revenue_model": null,
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["Core TPU compute-die design relationship with Google (locked in through 2031)", "Multi-gigawatt AI-accelerator commitments from Anthropic, OpenAI, and Meta"],
+      "customer_concentration": "High: this pipeline's September 5, 2026 report identified backlog concentrated in roughly six hyperscale customers.",
+      "moat": "Incumbent, deepest-qualified custom-ASIC design relationship with Google's core TPU program and several other anchor hyperscale customers.",
+      "switching_costs": null,
+      "capital_intensity": null,
+      "management_strategy": null,
+      "execution_risk": "Customer-concentration risk is now demonstrably real -- Google has qualified a second design house (Marvell) for new, if largely incremental and attach-level, programs -- though no evidence yet shows an existing Broadcom program being displaced."
+    },
+    {
+      "name": "Alphabet (Google)",
+      "business_model": "Designs and deploys custom TPU-based AI infrastructure for its own cloud and AI services, using external design-house partners (Broadcom, and now Marvell) rather than owning fabrication.",
+      "revenue_model": null,
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": null,
+      "customer_concentration": null,
+      "moat": null,
+      "switching_costs": null,
+      "capital_intensity": null,
+      "management_strategy": "Explicitly diversifying its custom-silicon supplier base (Broadcom plus Marvell) to gain pricing leverage, design-capacity resilience, and bottleneck hedging, while keeping its core TPU program with Broadcom intact through 2031.",
+      "execution_risk": null
+    },
+    {
+      "name": "TSMC",
+      "business_model": "Leading-edge semiconductor foundry and advanced-packaging (CoWoS) provider serving essentially every major AI-accelerator and custom-ASIC design house.",
+      "revenue_model": null,
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI-driven demand for leading-edge wafers and CoWoS packaging from Nvidia, Broadcom, Marvell, AMD, and MediaTek"],
+      "customer_concentration": null,
+      "moat": "Near-monopoly position in CoWoS-class advanced packaging and leading-edge AI-accelerator wafer fabrication.",
+      "switching_costs": null,
+      "capital_intensity": "Very high; packaging-tool lead times of 3-6 months limit how quickly CoWoS capacity (reported ~127,000 wafers/month by end-2026) can expand even as every major design house's demand grows.",
+      "management_strategy": null,
+      "execution_risk": null
+    }
+  ],
+  "metrics": [
+    { "name": "Marvell fiscal 2031 revenue target", "value": "70-90", "unit": "USD billion", "period": "FY2031 guidance (Oct 6, 2026)", "growth": "~55-60% CAGR", "source_id": "s4" },
+    { "name": "Marvell fiscal 2028 revenue outlook (raised)", "value": 20, "unit": "USD billion", "period": "FY2028 guidance (Oct 6, 2026)", "source_id": "s4" },
+    { "name": "Marvell fiscal 2029 custom-silicon revenue target (raised)", "value": "12+", "unit": "USD billion", "period": "FY2029 guidance (Oct 6, 2026)", "source_id": "s4" },
+    { "name": "Marvell custom-silicon revenue, FY2026", "value": 1.5, "unit": "USD billion (~18% of FY26 sales)", "period": "FY2026", "source_id": "s4" },
+    { "name": "Marvell stock reaction, Oct 6, 2026 Investor Day", "value": "6-7", "unit": "percent intraday gain", "period": "2026-10-06", "source_id": "s5" },
+    { "name": "Broadcom stock reaction, Oct 6, 2026 (same day as Marvell Investor Day)", "value": 4, "unit": "percent intraday gain", "period": "2026-10-06", "source_id": "s5" },
+    { "name": "Google-Marvell warrant / cumulative custom-revenue ceiling", "value": 120, "unit": "USD billion (through FY2033)", "period": "disclosed Aug 18, 2026", "source_id": "s7" },
+    { "name": "TSMC CoWoS capacity, end-2026 estimate", "value": "~127,000", "unit": "wafers/month", "period": "end-2026 estimate", "source_id": "s11" }
+  ],
+  "competitors": [
+    { "name": "Broadcom", "kind": "direct competitor", "note": "Incumbent leader in custom AI-accelerator design; retains its core Google TPU relationship through 2031 and rose in tandem with Marvell on Oct 6, 2026, suggesting market expansion rather than direct displacement." },
+    { "name": "MediaTek", "kind": "direct competitor", "note": "Newly entering the custom-ASIC/CoWoS race with roughly 20,000 wafers booked for 2026, per Morgan Stanley-sourced trade-press estimates." },
+    { "name": "In-house hyperscaler chip teams", "kind": "internal build", "note": "Amazon, Google, and Microsoft all maintain some internal silicon design capability alongside external design-house partners; the Marvell and Broadcom relationships supplement rather than replace this." }
+  ],
+  "financials": [],
+  "valuation": {
+    "available": false,
+    "reason": "This report covers a single investor-relations event and resulting market/analyst reaction rather than a full valuation exercise; current share counts and a independently verified market price were not gathered from primary sources because investor.marvell.com, sec.gov, and marvell.com were blocked by the research environment's egress proxy."
+  },
+  "catalysts": [
+    "Broadcom's Q4 FY2026 and Q1 FY2027 earnings calls (December 2026 and March 2027) for any disclosed impact on its Google TPU program",
+    "Marvell's fiscal Q3 FY2027 earnings call (expected around late November/early December 2026) for initial progress against the raised targets",
+    "Any disclosure of Marvell's specific TSMC/CoWoS wafer allocation versus the ~$1 billion capacity-prepayment figure",
+    "TSMC's Q3 2026 earnings call (mid-October 2026) for updated CoWoS capacity and customer-allocation commentary"
+  ],
+  "bear_case": [
+    { "dimension": "Competition", "argument": "Broadcom remains the incumbent with the deeper, longer-dated Google relationship (through 2031) and a reported ~70% share of the custom AI-accelerator market; Marvell's wins are concentrated in attach-level and new inference silicon rather than displacing Broadcom's core compute-die program." },
+    { "dimension": "Execution", "argument": "Analyst commentary explicitly flags that the bulk of Marvell's $120 billion Google ceiling would not be realized until fiscal 2029 and beyond, and multiple 2025-2026 downgrades cited 'lack of stickiness' in custom-silicon wins and uncertainty around Marvell's share of next-generation Amazon and Microsoft programs." },
+    { "dimension": "Supply", "argument": "Both Broadcom and Marvell depend on the same constrained TSMC CoWoS/advanced-packaging pool (~127,000 wafers/month by end-2026); if that capacity fails to expand as projected, both companies' growth targets -- not just one -- would be at risk, undermining the 'two credible design houses' framing as a genuine bottleneck hedge." },
+    { "dimension": "Valuation", "argument": "Marvell's stock had already priced in substantial optimism ahead of the Investor Day (prior analyst price-target increases into the event), and multiple analysts in 2025-2026 flagged valuation above 40x forward earnings as vulnerable to any shortfall against newly raised, highly ambitious long-term targets." }
+  ],
+  "kill_conditions": [
+    { "condition": "An existing, committed Broadcom custom-ASIC program (not merely new/incremental business) is disclosed moving to Marvell or another competitor", "metric": "Disclosed changes to existing Broadcom hyperscale custom-silicon contracts", "threshold": "Any disclosed loss of an existing committed Broadcom program to a competitor", "time_window": "next 2-4 quarters", "impact": "invalidate" },
+    { "condition": "TSMC reports CoWoS/advanced-packaging capacity expanding materially faster than the ~127,000 wafers/month end-2026 estimate, easing the shared upstream constraint", "metric": "TSMC-disclosed or industry-tracked CoWoS monthly wafer capacity", "threshold": "Capacity confirmed meaningfully above 130,000-140,000 wafers/month with lead times normalizing", "time_window": "next 2-3 quarters", "impact": "weaken" },
+    { "condition": "Marvell's actual delivered custom-silicon revenue materially misses its own FY2027/FY2028 guidance in the next 1-2 quarters", "metric": "Reported Marvell custom-silicon revenue vs. guidance", "threshold": "Material miss versus the 20%+ FY27 / more-than-double FY28 growth guidance", "time_window": "next 2 quarters", "impact": "weaken" }
+  ],
+  "validation_events": [
+    { "event": "Broadcom's Q4 FY2026 earnings call", "expected_window": "December 2026", "supports_if": "Broadcom reiterates its Google TPU relationship is intact and FY2027/FY2028 guidance is unchanged or raised", "weakens_if": "Broadcom discloses any program loss, delay, or guidance cut tied to competitive pressure from Marvell", "source_to_monitor": "Broadcom investor relations (investors.broadcom.com)" },
+    { "event": "Marvell's fiscal Q3 FY2027 earnings call", "expected_window": "late November-early December 2026", "supports_if": "Marvell reports custom-silicon revenue growth tracking its raised FY2027/FY2028 targets with no disclosed Google-program slippage", "weakens_if": "Marvell reports custom-silicon growth materially below its own newly raised targets", "source_to_monitor": "Marvell investor relations (investor.marvell.com)" },
+    { "event": "TSMC's Q3 2026 earnings call", "expected_window": "mid-October 2026", "supports_if": "TSMC confirms CoWoS capacity tracking toward or beyond the ~127,000 wafers/month end-2026 estimate with capacity still fully booked", "weakens_if": "TSMC reports CoWoS capacity materially exceeding current estimates or lead times easing well ahead of schedule", "source_to_monitor": "TSMC investor relations (investor.tsmc.com)" },
+    { "event": "Disclosure of a seventh Broadcom custom-XPU customer, or further detail on any existing customer's program being reduced in favor of a competitor", "expected_window": "next 2-3 quarters", "supports_if": "A new (seventh) Broadcom customer is disclosed, showing continued design-capacity expansion without customer loss", "weakens_if": "An existing Broadcom customer is confirmed reducing or reallocating a committed program to a competitor", "source_to_monitor": "Trade press (Tom's Hardware, SemiAnalysis, The Information, DigiTimes)" }
+  ],
+  "sources": [
+    { "id": "s1", "claim": "Marvell's investor-relations calendar confirms the company held its Investor Day on the morning of Tuesday, October 6, 2026, in New York City, with presentations from Chairman and CEO Matt Murphy and the senior leadership team, webcast live via investor.marvell.com.", "source_url": "https://investor.marvell.com/news-events/ir-calendar/detail/20261006-marvell-investor-day-2026", "source_title": "Marvell Investor Day 2026 (IR calendar listing)", "source_type": "primary", "published_at": "2026-10-06", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; event date, location and format confirmed via convergent search-result snippets citing this IR calendar page.", "confidence": "high" },
+    { "id": "s2", "claim": "Marvell's Form 8-K furnished materials related to the October 6, 2026 Investor Day presentation.", "source_url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526356217/d412696d8k.htm", "source_title": "Marvell Technology, Inc. Form 8-K (Investor Day materials), FY2026", "source_type": "primary", "published_at": "2026-10-06", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; filing's association with the Investor Day confirmed via convergent search-result snippets.", "confidence": "medium" },
+    { "id": "s3", "claim": "Marvell's Form 8-K Exhibit 99.1 for its Q2 FY2027 results (August 27, 2026) disclosed the Google warrant terms and announced the October 6, 2026 Investor Day.", "source_url": "https://www.sec.gov/Archives/edgar/data/0001835632/000183563226000022/q227_8kx812026ex-991.htm", "source_title": "Marvell Technology, Inc. Form 8-K Exhibit 99.1: Q2 FY2027 Results Press Release", "source_type": "primary", "published_at": "2026-08-27", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; figures confirmed via convergent search-result snippets independently citing this filing.", "confidence": "medium" },
+    { "id": "s4", "claim": "Benzinga reported Marvell's stock jumped on the Investor Day news of a $70-90 billion fiscal 2031 revenue goal, alongside raised near-term guidance and custom-silicon targets.", "source_url": "https://www.benzinga.com/news/26/10/62198187/marvell-investor-day-stock-jumps-90-billion-revenue-target", "source_title": "Benzinga: \"Marvell Investor Day: Stock Jumps 7% On $90 Billion Goal\"", "source_type": "secondary", "published_at": "2026-10-06", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; headline figures (FY2031 $70-90B target, stock reaction) confirmed via convergent search-result snippets summarizing this article.", "confidence": "medium" },
+    { "id": "s5", "claim": "24/7 Wall St. reported Marvell rallied about 6% and Broadcom advanced about 4% on October 6, 2026 as Marvell's Investor Day made the case for custom AI silicon, with Marvell at roughly $287 and Broadcom at roughly $376.09, and detailed Marvell's design-win pipeline (50+ opportunities, 10+ customers, 3 XPU wins, 9 XPU-attach programs) and ~$1 billion in planned capacity prepayments.", "source_url": "https://247wallst.com/investing/2026/10/06/marvell-rallies-6-as-investor-day-presses-the-custom-ai-silicon-case-broadcom-advances-4/", "source_title": "24/7 Wall St.: \"Marvell Rallies 6% as Investor Day Presses the Custom AI Silicon Case; Broadcom Advances 4%\"", "source_type": "secondary", "published_at": "2026-10-06", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; stock-move figures, design-win pipeline detail, and capacity-prepayment figure confirmed via convergent search-result snippets summarizing this article.", "confidence": "medium" },
+    { "id": "s6", "claim": "TechTimes reported Marvell targeted $90 billion in revenue by fiscal 2031 at its October 6, 2026 Investor Day, tying the growth story to the Google warrant's $120 billion custom-chip purchasing ceiling.", "source_url": "https://www.techtimes.com/articles/328671/20261006/marvell-targets-90b-revenue-2031-google-warrant-ties-120b-chip-buys-marvell-equity.htm", "source_title": "TechTimes: \"Marvell Targets $90B Revenue by 2031; Google Warrant Ties $120B Chip Buys to Marvell Equity\"", "source_type": "secondary", "published_at": "2026-10-06", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; headline figures confirmed via convergent search-result snippets summarizing this article.", "confidence": "medium" },
+    { "id": "s7", "claim": "Futurum Group's analysis detailed the Google-Marvell warrant: 58.97 million shares at a $206.58 strike (~$12.2 billion, ~7% of Marvell), vesting in 240 tranches of $500 million of custom-product revenue each, with a cumulative ceiling of $120 billion through Marvell's fiscal 2033, covering AI inference accelerators, storage controllers, NICs, memory interface controllers, and near-memory compute attached to Google's TPU ecosystem.", "source_url": "https://futurumgroup.com/insights/marvell-attaches-across-googles-tpu-stack-with-a-warrant-vesting-toward-120b/", "source_title": "Futurum Group: \"Marvell Attaches Across Google's TPU Stack With a Warrant Vesting Toward $120B\"", "source_type": "secondary", "published_at": "2026-08-18", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; warrant mechanics and deal scope confirmed via convergent search-result snippets summarizing this analysis.", "confidence": "medium" },
+    { "id": "s8", "claim": "TheNextWeb reported Google was in talks with Marvell to build custom AI inference chips as part of a strategy to diversify its custom-silicon supply chain beyond Broadcom, including a memory-processing unit and a new inference-specific TPU.", "source_url": "https://thenextweb.com/news/google-marvell-ai-chips-inference-tpu-broadcom", "source_title": "TheNextWeb: \"Google is in talks with Marvell to build custom AI inference chips as it diversifies beyond Broadcom\"", "source_type": "secondary", "published_at": "2026-04", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; the two-chip description and 'diversifies beyond Broadcom' framing confirmed via convergent search-result snippets summarizing this and related coverage (igorslab.de, Data Center Dynamics).", "confidence": "medium" },
+    { "id": "s9", "claim": "Coverage of the April 2026 Google-Marvell talks noted they came within days of Broadcom separately securing a through-2031 TPU design agreement with Google, and framed the Marvell talks as expanding Google's bargaining power and supply-chain resilience rather than replacing Broadcom.", "source_url": "https://www.igorslab.de/en/google-is-in-talks-with-marvell-about-two-new-ai-chips-putting-pressure-on-broadcom/", "source_title": "igor'sLAB: \"Google is in talks with Marvell about two new AI chips -- putting pressure on Broadcom\"", "source_type": "secondary", "published_at": "2026-04", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; the 2031 Broadcom-Google agreement timing and 'not exclusively Broadcom anymore' framing confirmed via convergent search-result snippets summarizing this article.", "confidence": "medium" },
+    { "id": "s10", "claim": "24/7 Wall St. reported Broadcom shares fell approximately 5% on August 19, 2026 as Marvell's Google custom-chip deal became public, alongside separately cited VMware and AI-financing concerns.", "source_url": "https://247wallst.com/investing/2026/08/19/broadcom-falls-5-as-marvell-lands-google-custom-chip-deal-vmware-and-financing-concerns-persist/", "source_title": "24/7 Wall St.: \"Broadcom Falls 5% as Marvell Lands Google Custom Chip Deal, VMware and Financing Concerns Persist\"", "source_type": "secondary", "published_at": "2026-08-19", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; the ~5% decline and contributing factors confirmed via convergent search-result snippets summarizing this article.", "confidence": "medium" },
+    { "id": "s11", "claim": "Financial trade press citing Morgan Stanley research estimated TSMC's CoWoS capacity would reach roughly 127,000 wafers/month by end-2026 (up from an earlier ~100,000/month estimate), with Nvidia booking over half of annual capacity (800,000-850,000 wafers), Broadcom more than 240,000 wafers (serving Meta and Google TPU programs), and MediaTek newly entering with about 20,000 wafers.", "source_url": "https://www.itiger.com/news/1121636208", "source_title": "iTiger (citing Morgan Stanley research): TSMC CoWoS capacity and customer-allocation estimates for 2026", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; capacity and allocation figures confirmed via convergent search-result snippets drawn from this and related coverage (longportapp.cn, longbridge.com).", "confidence": "medium" },
+    { "id": "s12", "claim": "Analysis argued that while Marvell's $120 billion Google deal ceiling is real, the bulk of the associated revenue and warrant-vesting payoff would not materialize until fiscal 2029 and beyond.", "source_url": "https://www.tikr.com/blog/marvells-120-billion-google-deal-is-real-heres-why-the-payoff-waits-until-2029", "source_title": "TIKR: \"Marvell's $120 Billion Google Deal Is Real. Here's Why the Payoff Waits Until 2029\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; the backloaded-payoff framing confirmed via convergent search-result snippets summarizing this analysis.", "confidence": "medium" },
+    { "id": "s13", "claim": "Industry commentary described Broadcom as holding roughly 70% of the custom AI-accelerator design market even as Marvell positions itself as the credible second design house, with the bear case centered on customer concentration across both companies.", "source_url": "https://www.heygotrade.com/en/blog/broadcom-vs-marvell-custom-ai-silicon-battle-2026/", "source_title": "HeyGoTrade: \"Broadcom vs Marvell: Custom AI Silicon Battle 2026\"", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-10-07", "quote_or_extract": "Domain blocked by research-environment egress proxy; the ~70% market-share figure and customer-concentration framing confirmed via convergent search-result snippets summarizing this analysis.", "confidence": "low" }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

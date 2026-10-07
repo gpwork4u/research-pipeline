@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>Marvell&apos;s $120 Billion Google Deal: Does a Credible Second Design House Prove TSMC Capacity, Not Broadcom, Is Custom Silicon&apos;s Real Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/marvell-google-custom-silicon-tsmc-capacity-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/marvell-google-custom-silicon-tsmc-capacity-bottleneck</guid>
+      <pubDate>Wed, 07 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-packaging</category>
+      <category>custom-silicon</category>
+      <description>Marvell&apos;s Google-powered $70-90B 2031 target shows design capacity diversifying, but both design houses still compete for the same scarce TSMC packaging capacity.
+
+On October 6, 2026, Marvell held its Investor Day and set a first-ever fiscal 2031 revenue target of $70-90 billion, raised its fiscal 2028 outlook to roughly $20 billion, and raised its fiscal 2029 custom-silicon target to $12 billion-plus, leaning on a Google relationship worth up to $120 billion through fiscal 2033. Marvell shares rose 6-7%, and -- notably -- Broadcom shares rose about 4% the same day. This directly engages a kill condition this pipeline recorded on September 5, 2026: a qualified competitor winning a large program away from Broadcom would invalidate the design-bottleneck thesis. The evidence shows partial triggering, not invalidation: Google qualified Marvell for new inference and attach-level silicon while keeping its core Broadcom TPU relationship intact through 2031. The more durable constraint sits upstream: both companies compete for the same limited TSMC CoWoS/advanced-packaging capacity (~127,000 wafers/month by end-2026).</description>
+    </item>
+    <item>
       <title>Micron&apos;s Record Quarter: Does &apos;No Line of Sight&apos; on HBM Supply Confirm AI Memory&apos;s Structural Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/micron-hbm-no-line-of-sight-supply-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/micron-hbm-no-line-of-sight-supply-bottleneck</guid>

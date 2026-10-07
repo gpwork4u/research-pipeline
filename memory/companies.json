@@ -3,9 +3,10 @@
     "name": "Broadcom",
     "reports": [
       "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
-      "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md"
+      "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
+      "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md"
     ],
-    "last_updated": "2026-09-05"
+    "last_updated": "2026-10-07"
   },
   {
     "name": "Nvidia",
@@ -224,9 +225,10 @@
     "name": "TSMC",
     "reports": [
       "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
-      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md"
+      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
+      "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md"
     ],
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-10-07"
   },
   {
     "name": "Vistra",
@@ -655,5 +657,19 @@
       "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md"
     ],
     "last_updated": "2026-10-01"
+  },
+  {
+    "name": "Marvell Technology",
+    "reports": [
+      "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md"
+    ],
+    "last_updated": "2026-10-07"
+  },
+  {
+    "name": "Alphabet (Google)",
+    "reports": [
+      "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md"
+    ],
+    "last_updated": "2026-10-07"
   }
 ]
