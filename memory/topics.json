@@ -813,5 +813,26 @@
       "Alphabet (Google)",
       "TSMC"
     ]
+  },
+  {
+    "slug": "terafab-musk-intel-14a-tsmc-foundry-bottleneck",
+    "title": "Terafab's TSMC Retreat: Does Musk's Vertically-Integrated Chip Bet on Intel's Unproven 14A Prove -- or Disprove -- That AI Buyers Can Escape the Foundry Bottleneck?",
+    "last_updated": "2026-10-08",
+    "reports": [
+      "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "custom-silicon"
+    ],
+    "companies": [
+      "Tesla",
+      "SpaceX",
+      "Intel",
+      "TSMC"
+    ]
   }
 ]

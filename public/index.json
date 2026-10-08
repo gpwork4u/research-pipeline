@@ -1,5 +1,28 @@
 [
   {
+    "title": "Terafab's TSMC Retreat: Does Musk's Vertically-Integrated Chip Bet on Intel's Unproven 14A Prove -- or Disprove -- That AI Buyers Can Escape the Foundry Bottleneck?",
+    "date": "2026-10-08",
+    "slug": "terafab-musk-intel-14a-tsmc-foundry-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "advanced-manufacturing",
+      "custom-silicon"
+    ],
+    "companies": [
+      "Tesla",
+      "SpaceX",
+      "Intel",
+      "TSMC"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/terafab-musk-intel-14a-tsmc-foundry-bottleneck",
+    "path": "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md",
+    "one_sentence_conclusion": "Musk kept TSMC out of Terafab on Oct 7, but a two-day stock swing on mere rumor shows the market still treats TSMC's involvement as decisive."
+  },
+  {
     "title": "Marvell's $120 Billion Google Deal: Does a Credible Second Design House Prove TSMC Capacity, Not Broadcom, Is Custom Silicon's Real Bottleneck?",
     "date": "2026-10-07",
     "slug": "marvell-google-custom-silicon-tsmc-capacity-bottleneck",

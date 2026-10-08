@@ -1402,5 +1402,46 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-terafab-musk-intel-14a-tsmc-foundry-bottleneck",
+    "topic": "terafab-musk-intel-14a-tsmc-foundry-bottleneck",
+    "statement": "Elon Musk's October 7, 2026 decision to keep TSMC out of an operational role in Terafab -- the vertically-integrated AI chip complex Tesla, SpaceX, xAI and Intel are building in Grimes County, Texas on Intel's unproven 14A process -- is a genuine attempt by a major AI compute buyer to route around the TSMC-centered leading-edge foundry bottleneck. But the evidence indicates the bottleneck remains Structural rather than resolved: a mere two-day rumor (Oct 4-5) that TSMC might join the project was enough to move Intel's and TSMC's share prices, SpaceX's own SEC filings describe Terafab as a non-binding 'general framework' with no committed capex schedule and no obligation for Tesla or Intel to remain, and Intel's 14A node is unproven with Terafab/Tesla as its first major external customer. Even if Terafab succeeds, its capacity is designed to serve only its sponsors' internal AI chip demand, not the broader merchant market TSMC serves, so it would not by itself relieve the bottleneck for other AI buyers.",
+    "confidence": "medium",
+    "created_at": "2026-10-08",
+    "updated_at": "2026-10-08",
+    "supporting_reports": [
+      "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Tesla or SpaceX formally exercises the non-binding exit rights disclosed in SpaceX's SEC filings and withdraws from Terafab",
+        "metric": "Public confirmation of withdrawal from Terafab by Tesla or SpaceX",
+        "threshold": "Any confirmed formal withdrawal or indefinite pause of the project",
+        "time_window": "next 2-4 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Intel's 14A process fails qualification or slips materially past its reported ~2028 target",
+        "metric": "Intel-disclosed 14A yield and qualification status and timeline",
+        "threshold": "Confirmed delay of 12+ months past the ~2028 target, or disclosed yield/qualification failure",
+        "time_window": "next 4-6 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "TSMC signs a binding operational or ownership agreement for Terafab, contradicting Musk's October 7, 2026 statement",
+        "metric": "Disclosed TSMC-Terafab contractual terms",
+        "threshold": "Any confirmed binding agreement giving TSMC an operational or manufacturing role beyond a minor sublease",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Intel discloses a second major external 14A customer beyond Tesla/Terafab",
+        "metric": "Disclosed count of named external 14A customers",
+        "threshold": "At least one additional named external 14A customer beyond Tesla/Terafab",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

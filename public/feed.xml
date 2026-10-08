@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>Terafab&apos;s TSMC Retreat: Does Musk&apos;s Vertically-Integrated Chip Bet on Intel&apos;s Unproven 14A Prove -- or Disprove -- That AI Buyers Can Escape the Foundry Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/terafab-musk-intel-14a-tsmc-foundry-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/terafab-musk-intel-14a-tsmc-foundry-bottleneck</guid>
+      <pubDate>Thu, 08 Oct 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>custom-silicon</category>
+      <description>Musk kept TSMC out of Terafab on Oct 7, but a two-day stock swing on mere rumor shows the market still treats TSMC&apos;s involvement as decisive.
+
+On October 7, 2026, Elon Musk stated his companies -- not TSMC -- will build and run Terafab, the vertically-integrated AI chip complex Tesla, SpaceX, xAI and Intel are developing in Grimes County, Texas, saying TSMC could at most &quot;sublease part of the Terafab.&quot; This followed a two-day scare: Musk&apos;s October 4-5 confirmation of &quot;discussions&quot; with TSMC knocked Intel shares down 2-4% and lifted TSMC&apos;s, on fear Intel&apos;s unproven 14A node -- Terafab&apos;s only named manufacturing process -- would be displaced. Intel CEO Lip-Bu Tan reaffirmed Intel&apos;s role the same day, and Intel shares recovered. SpaceX&apos;s own SEC filings describe Terafab as a non-binding &quot;general framework&quot; with no committed capex schedule. The episode is a genuine test of vertical integration against the TSMC-centered foundry bottleneck, but the market&apos;s sensitivity to rumor, the unproven 14A node, and the non-binding legal structure together argue the bottleneck remains Structural rather than resolved.</description>
+    </item>
+    <item>
       <title>Marvell&apos;s $120 Billion Google Deal: Does a Credible Second Design House Prove TSMC Capacity, Not Broadcom, Is Custom Silicon&apos;s Real Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/marvell-google-custom-silicon-tsmc-capacity-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/marvell-google-custom-silicon-tsmc-capacity-bottleneck</guid>

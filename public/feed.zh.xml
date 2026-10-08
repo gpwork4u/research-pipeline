@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>Terafab 的 TSMC 退場：馬斯克押注英特爾未驗證的 14A 製程進行垂直整合，證明——還是反證——AI 買家能逃脫晶圓代工瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/terafab-musk-intel-14a-tsmc-foundry-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/terafab-musk-intel-14a-tsmc-foundry-bottleneck</guid>
+      <pubDate>Thu, 08 Oct 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>advanced-manufacturing</category>
+      <category>custom-silicon</category>
+      <description>馬斯克 10 月 7 日將 TSMC 排除在 Terafab 之外，但僅憑謠言引發的兩日股價劇烈波動，顯示市場仍視 TSMC 的參與為決定性因素。
+
+2026 年 10 月 7 日，Elon Musk 表示由自家公司——而非 TSMC——建造並營運 Terafab，這是 Tesla、SpaceX、xAI 與英特爾在德州 Grimes County 共同開發的垂直整合 AI 晶片廠。他表示 TSMC 最多只能「轉租部分 Terafab」。此前兩天發生一場驚嚇：Musk 於 10 月 4 至 5 日證實與 TSMC「商談」,使英特爾股價重挫 2-4%、TSMC 股價上揚,市場擔憂英特爾未驗證的 14A 製程——Terafab 唯一指定的製程——將被取代。英特爾執行長 Lip-Bu Tan 同日重申英特爾角色不變,英特爾股價隨後回升。SpaceX 自身的美國證交會(SEC)文件將 Terafab 描述為不具約束力的「一般框架」,並無既定資本支出時程。此事件是垂直整合對抗 TSMC 中心式晶圓代工瓶頸的真實考驗,但市場對謠言的敏感度、未驗證的 14A 製程,以及不具約束力的法律結構,皆顯示該瓶頸仍屬結構性,尚未被化解。</description>
+    </item>
+    <item>
       <title>Marvell 的 1,200 億美元 Google 大單:第二家可信設計廠是否證明 TSMC 產能、而非 Broadcom,才是客製晶片的真正瓶頸?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/marvell-google-custom-silicon-tsmc-capacity-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/marvell-google-custom-silicon-tsmc-capacity-bottleneck</guid>

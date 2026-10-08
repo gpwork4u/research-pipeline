@@ -1769,5 +1769,50 @@
     "source_to_monitor": "Trade press (Tom's Hardware, SemiAnalysis, The Information, DigiTimes)",
     "origin_report": "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Intel's Q3 FY2026 earnings call",
+    "expected_window": "late October 2026",
+    "supports_if": "Intel reports no new 14A external customer and no material update on qualification milestones, keeping Terafab an isolated, high-risk bet",
+    "weakens_if": "Intel discloses a second major 14A customer or confirms qualification progress ahead of schedule",
+    "source_to_monitor": "newsroom.intel.com",
+    "origin_report": "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Tesla and SpaceX Q3 2026 updates on Terafab construction progress and capex commitments",
+    "expected_window": "late October-November 2026",
+    "supports_if": "Updates remain vague and non-binding, consistent with the 'general framework' language in SpaceX's S-1",
+    "weakens_if": "Tesla or SpaceX discloses definitive, binding capex commitments and a firm construction timeline for Terafab",
+    "source_to_monitor": "ir.tesla.com and SpaceX investor communications",
+    "origin_report": "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Resolution of TSMC's role in Terafab (sublease vs. no role vs. an expanded role)",
+    "expected_window": "next 1-2 quarters",
+    "supports_if": "TSMC's involvement stays at most a minor sublease, as Musk stated on October 7, 2026",
+    "weakens_if": "TSMC and Terafab sign a binding operational or manufacturing agreement",
+    "source_to_monitor": "Trade press (Reuters, Bloomberg) and TSMC investor relations",
+    "origin_report": "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's Q3 2026 earnings call and confirmation or denial of its separate Texas campus plans",
+    "expected_window": "mid-October 2026",
+    "supports_if": "TSMC confirms new Texas capacity plans independent of Terafab, reinforcing TSMC's position as the primary source of leading-edge US capacity",
+    "weakens_if": "TSMC denies or shelves its Texas expansion plans",
+    "source_to_monitor": "investor.tsmc.com",
+    "origin_report": "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "First disclosed wafer output or yield data from Tesla's Terafab research fab",
+    "expected_window": "next 12-18 months",
+    "supports_if": "No credible output or yield data is disclosed within the window, or disclosed yields are poor",
+    "weakens_if": "Tesla or Intel disclose credible wafer output or yield data from the research fab ahead of schedule",
+    "source_to_monitor": "Tesla and Intel investor communications, trade press",
+    "origin_report": "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md",
+    "status": "open"
   }
 ]

@@ -226,9 +226,10 @@
     "reports": [
       "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
       "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
-      "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md"
+      "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
+      "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md"
     ],
-    "last_updated": "2026-10-07"
+    "last_updated": "2026-10-08"
   },
   {
     "name": "Vistra",
@@ -276,9 +277,10 @@
   {
     "name": "Intel",
     "reports": [
-      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md"
+      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
+      "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md"
     ],
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-10-08"
   },
   {
     "name": "Texas Instruments",
@@ -671,5 +673,19 @@
       "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md"
     ],
     "last_updated": "2026-10-07"
+  },
+  {
+    "name": "Tesla",
+    "reports": [
+      "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md"
+    ],
+    "last_updated": "2026-10-08"
+  },
+  {
+    "name": "SpaceX",
+    "reports": [
+      "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md"
+    ],
+    "last_updated": "2026-10-08"
   }
 ]
