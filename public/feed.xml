@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Lithography Loophole: Does China&apos;s 343-Tool DUV Stockpile Defeat the AI Chip Export-Control Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/china-duv-lithography-stockpile-export-control-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/china-duv-lithography-stockpile-export-control-bottleneck</guid>
+      <pubDate>Fri, 09 Oct 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>export-controls</category>
+      <category>geopolitics</category>
+      <description>China&apos;s 343-tool DUV stockpile and a nascent homegrown lithography program erode the export-control bottleneck at 7nm, but low yields keep it from breaking it.
+
+A September 2026 Center for Technology &amp; Statecraft report estimates Chinese fabs hold 343 immersion DUV lithography systems -- about 270 of them ASML&apos;s exportable NXT:1980i -- worth over $13 billion, enough per the authors&apos; estimate to support 100,000+ Ascend-910C-class chips per tool annually. China has also started producing homegrown immersion DUV tools, with Huawei backing a 12-unit 2026 target already under test at SMIC. Yet reported Ascend 910C yields remain near 20-40%, domestic tools still import lenses and light sources, and ASML&apos;s own China revenue share has fallen from roughly 36% to 14% in three quarters. The bottleneck is eroding at the 7nm-class margin, not broken at the true leading edge.</description>
+    </item>
+    <item>
       <title>Terafab&apos;s TSMC Retreat: Does Musk&apos;s Vertically-Integrated Chip Bet on Intel&apos;s Unproven 14A Prove -- or Disprove -- That AI Buyers Can Escape the Foundry Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/terafab-musk-intel-14a-tsmc-foundry-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/terafab-musk-intel-14a-tsmc-foundry-bottleneck</guid>

@@ -1814,5 +1814,50 @@
     "source_to_monitor": "Tesla and Intel investor communications, trade press",
     "origin_report": "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "ASML's Q3 2026 earnings call",
+    "expected_window": "mid-to-late October 2026",
+    "supports_if": "China revenue share continues falling and management reiterates export-control impact and/or comments on domestic Chinese tool competition",
+    "weakens_if": "China revenue share stabilizes or rebounds, or management downplays any competitive threat from domestic DUV tools",
+    "source_to_monitor": "ASML investor relations (asml.com)",
+    "origin_report": "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further MATCH Act (H.R. 8170) congressional action",
+    "expected_window": "Q4 2026 - H1 2027",
+    "supports_if": "The bill advances to a floor vote or is enacted with the DUV-immersion export/servicing restrictions intact",
+    "weakens_if": "The bill stalls indefinitely in committee or is further narrowed to exclude DUV-immersion servicing restrictions",
+    "source_to_monitor": "congress.gov (H.R. 8170)",
+    "origin_report": "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Confirmed 2026 delivery counts for Yuliangsheng/Shanghai Aishengna domestic immersion DUV tools",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Confirmed deliveries fall materially short of the reported 5-12 unit target, reinforcing that the domestic workaround remains nascent",
+    "weakens_if": "Confirmed deliveries meet or exceed the higher 12-unit target, or SMIC/CXMT confirm qualification for production use",
+    "source_to_monitor": "Trade press (Reuters, Financial Times, TrendForce) and SMIC/CXMT disclosures",
+    "origin_report": "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Huawei or SMIC disclosure of Ascend 910C yield or production volume data",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Disclosed or credibly reported yields remain below 50%, or the 600,000-unit 2026 target is missed",
+    "weakens_if": "Yields are confirmed at or above 60%, or the 2026 production target is met or exceeded",
+    "source_to_monitor": "Trade press (Financial Times, DIGITIMES, TrendForce) and Huawei/SMIC public statements",
+    "origin_report": "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Dutch government decision on further tightening (or easing) DUV-immersion licensing and servicing rules",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "The Netherlands tightens licensing further or restricts servicing of already-exported tools",
+    "weakens_if": "The Netherlands eases licensing or explicitly permits continued servicing of China's existing DUV stockpile",
+    "source_to_monitor": "Dutch Ministry of Foreign Affairs announcements and trade press",
+    "origin_report": "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md",
+    "status": "open"
   }
 ]

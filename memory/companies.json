@@ -217,9 +217,10 @@
   {
     "name": "Huawei",
     "reports": [
-      "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md"
+      "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
+      "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md"
     ],
-    "last_updated": "2026-09-04"
+    "last_updated": "2026-10-09"
   },
   {
     "name": "TSMC",
@@ -270,9 +271,10 @@
   {
     "name": "ASML",
     "reports": [
-      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md"
+      "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
+      "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md"
     ],
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-10-09"
   },
   {
     "name": "Intel",
@@ -687,5 +689,12 @@
       "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md"
     ],
     "last_updated": "2026-10-08"
+  },
+  {
+    "name": "SMIC",
+    "reports": [
+      "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md"
+    ],
+    "last_updated": "2026-10-09"
   }
 ]

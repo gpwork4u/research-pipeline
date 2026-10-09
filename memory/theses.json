@@ -1443,5 +1443,46 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-china-duv-lithography-stockpile-export-control-bottleneck",
+    "topic": "china-duv-lithography-stockpile-export-control-bottleneck",
+    "statement": "China's accumulated stockpile of roughly 343 immersion DUV lithography systems (about 270 of them ASML's exportable NXT:1980i model, per a late-September 2026 CTS estimate) plus an emerging Huawei-backed homegrown immersion-DUV program already under test at SMIC give Chinese fabs multiple pathways to keep printing 7nm-class AI chips via multi-patterning even as EUV exports remain fully banned. But persistently sub-leading Ascend 910C yields (reported around 20-40%), continued dependence on imported projection lenses and light sources for the domestic tools, and ASML's own steeply declining China revenue share (reported near 36% in Q4 2025 to roughly 14% by Q2 2026) together show the export-control bottleneck is eroding at the margins, not broken: China can approximate, at a real cost and yield penalty, but has not replaced leading-edge AI chip manufacturing capability. The true leading edge (sub-7nm, EUV-dependent) remains this pipeline's Structural Bottleneck finding from September 9, 2026; China's 7nm-class workaround is classified a Growth Area.",
+    "confidence": "medium",
+    "created_at": "2026-10-09",
+    "updated_at": "2026-10-09",
+    "supporting_reports": [
+      "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Huawei or SMIC confirm Ascend 910C yields reaching international parity (roughly 60%+) at meaningful volume",
+        "metric": "Disclosed or credibly reported Ascend 910C die yield",
+        "threshold": "60% or higher, confirmed by company disclosure or convergent credible reporting, sustained at volume",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Yuliangsheng/Shanghai Aishengna confirm 2026 domestic DUV deliveries far below the already-modest 5-12 unit reported targets, or the program is confirmed stalled",
+        "metric": "Confirmed 2026 domestic immersion DUV tool deliveries",
+        "threshold": "Confirmed deliveries of 2 or fewer units, or a confirmed program pause",
+        "time_window": "by Q1 2027",
+        "impact": "weaken"
+      },
+      {
+        "condition": "The MATCH Act (or equivalent) passes with a full DUV-immersion export and servicing ban enacted, cutting off future stockpile replenishment and maintenance",
+        "metric": "Enacted US legislation or BIS rule covering DUV-immersion exports and servicing to China",
+        "threshold": "Signed into law or a final BIS rule with no material carve-out for the NXT:1980i",
+        "time_window": "next 2-4 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "ASML's disclosed China revenue share stabilizes or rebounds rather than continuing to decline",
+        "metric": "ASML disclosed quarterly China share of total net sales",
+        "threshold": "Two consecutive quarters of flat or rising China revenue share",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

@@ -834,5 +834,25 @@
       "Intel",
       "TSMC"
     ]
+  },
+  {
+    "slug": "china-duv-lithography-stockpile-export-control-bottleneck",
+    "title": "The Lithography Loophole: Does China's 343-Tool DUV Stockpile Defeat the AI Chip Export-Control Bottleneck?",
+    "last_updated": "2026-10-09",
+    "reports": [
+      "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "export-controls",
+      "geopolitics"
+    ],
+    "companies": [
+      "ASML",
+      "SMIC",
+      "Huawei"
+    ]
   }
 ]

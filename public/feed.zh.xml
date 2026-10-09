@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>光刻漏洞：中國囤積的343台DUV設備，是否已瓦解AI晶片出口管制的瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/china-duv-lithography-stockpile-export-control-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/china-duv-lithography-stockpile-export-control-bottleneck</guid>
+      <pubDate>Fri, 09 Oct 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>export-controls</category>
+      <category>geopolitics</category>
+      <description>中國343台DUV設備庫存與初步自製光刻設備計畫，正在侵蝕7奈米級的出口管制瓶頸，但良率偏低使其尚未被徹底瓦解。
+
+美國智庫Center for Technology &amp; Statecraft於2026年9月的報告估計，中國晶圓廠持有343台浸潤式DUV光刻設備——約270台為ASML可出口的NXT:1980i機型——價值超過130億美元，依作者估算單台設備每年可支撐逾10萬顆Ascend 910C等級晶片的產能。中國也已開始生產自製浸潤式DUV設備，華為支持的2026年12台目標已在中芯國際進入測試。然而，Ascend 910C的良率據報仍僅約20%至40%，自製設備仍依賴進口透鏡與光源，而ASML自身的中國營收占比三個季度內已從約36%降至14%。瓶頸正在7奈米級邊緣鬆動，但在真正的先進製程上尚未被瓦解。</description>
+    </item>
+    <item>
       <title>Terafab 的 TSMC 退場：馬斯克押注英特爾未驗證的 14A 製程進行垂直整合，證明——還是反證——AI 買家能逃脫晶圓代工瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/terafab-musk-intel-14a-tsmc-foundry-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/terafab-musk-intel-14a-tsmc-foundry-bottleneck</guid>

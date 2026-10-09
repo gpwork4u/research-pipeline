@@ -1,5 +1,27 @@
 [
   {
+    "title": "The Lithography Loophole: Does China's 343-Tool DUV Stockpile Defeat the AI Chip Export-Control Bottleneck?",
+    "date": "2026-10-09",
+    "slug": "china-duv-lithography-stockpile-export-control-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "export-controls",
+      "geopolitics"
+    ],
+    "companies": [
+      "ASML",
+      "SMIC",
+      "Huawei"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/china-duv-lithography-stockpile-export-control-bottleneck",
+    "path": "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md",
+    "one_sentence_conclusion": "China's 343-tool DUV stockpile and a nascent homegrown lithography program erode the export-control bottleneck at 7nm, but low yields keep it from breaking it."
+  },
+  {
     "title": "Terafab's TSMC Retreat: Does Musk's Vertically-Integrated Chip Bet on Intel's Unproven 14A Prove -- or Disprove -- That AI Buyers Can Escape the Foundry Bottleneck?",
     "date": "2026-10-08",
     "slug": "terafab-musk-intel-14a-tsmc-foundry-bottleneck",
