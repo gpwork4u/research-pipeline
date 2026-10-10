@@ -6,6 +6,21 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>安全稅：川普的電網設備禁令，是否加深了 AI 建設的變壓器瓶頸？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/bulk-power-equipment-ban-ai-data-center-transformer-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/bulk-power-equipment-ban-ai-data-center-transformer-bottleneck</guid>
+      <pubDate>Sat, 10 Oct 2026 01:00:00 GMT</pubDate>
+      <category>UPDATE</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>regulation</category>
+      <category>electrical-equipment</category>
+      <category>data-centers</category>
+      <description>限制中國電網大宗設備進口的新行政命令，為本已短缺的美國變壓器市場再添壓力。
+
+Executive Order 14421 (signed August 26, 2026) lets the Energy Secretary restrict foreign, predominantly Chinese, bulk-power equipment -- including transformers -- with DOE&apos;s implementing rule due December 24, 2026 after a public-comment deadline that closed October 9, 2026. Wood Mackenzie estimates the order could affect over $22 billion in imports across roughly 24 countries, landing on a market already short 15% of needed power transformers and 8% of substations in 2026, concentrated in the 100 MVA+ segment AI data centers depend on. Reshoring responses (Hitachi Energy&apos;s $250 million investment) are real but small next to the at-risk import value. This compounds, rather than resolves, the Structural Bottleneck this pipeline identified on August 23, 2026.</description>
+    </item>
+    <item>
       <title>光刻漏洞：中國囤積的343台DUV設備，是否已瓦解AI晶片出口管制的瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/china-duv-lithography-stockpile-export-control-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/china-duv-lithography-stockpile-export-control-bottleneck</guid>

@@ -1859,5 +1859,50 @@
     "source_to_monitor": "Dutch Ministry of Foreign Affairs announcements and trade press",
     "origin_report": "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "DOE's final implementing regulations under EO 14421",
+    "expected_window": "on or about December 24, 2026",
+    "supports_if": "DOE adopts a broad 'Covered Foreign Entity' standard restricting most Chinese-made transformers, inverters and battery storage with limited case-by-case exceptions",
+    "weakens_if": "DOE narrows the rule to a short entity list, grandfathers already-contracted equipment, or delays the rule beyond the 120-day deadline",
+    "source_to_monitor": "federalregister.gov; energy.gov",
+    "origin_report": "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Publication or disclosure of DOE RFI comment-period submissions (docket DOE-HQ-2026-1123, closed October 9, 2026)",
+    "expected_window": "Q4 2026",
+    "supports_if": "Utility and transformer-manufacturer comments confirm the 100 MVA+ segment is the most exposed and request transition time, reinforcing near-term shortage risk",
+    "weakens_if": "Comments show minimal reliance on Chinese-made large power transformers, or request the rule be broadened or accelerated, suggesting limited supply impact",
+    "source_to_monitor": "regulations.gov docket DOE-HQ-2026-1123",
+    "origin_report": "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Siemens Energy's, GE Vernova's and Hitachi Energy's Q4 2026/Q1 2027 earnings calls: EO 14421 sourcing/backlog commentary",
+    "expected_window": "January-March 2027",
+    "supports_if": "Management cites EO 14421 compliance, sourcing changes, or extended lead times as a factor in backlog or guidance",
+    "weakens_if": "Management reports no material EO-related sourcing impact and lead times stabilizing or shortening",
+    "source_to_monitor": "Respective investor relations pages",
+    "origin_report": "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Wood Mackenzie's or another tracker's updated 2027 power-transformer/substation supply-demand balance",
+    "expected_window": "Q1-Q2 2027",
+    "supports_if": "Shortage estimates widen beyond the 15%/8% 2026 baseline",
+    "weakens_if": "Shortage estimates narrow materially",
+    "source_to_monitor": "Wood Mackenzie published research; trade press",
+    "origin_report": "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Progress on Hitachi Energy's Tennessee and Virginia reshoring facilities and any additional peer reshoring announcements",
+    "expected_window": "through 2027",
+    "supports_if": "Facilities proceed on schedule but remain small relative to the ~$22B at-risk import value, confirming reshoring cannot fully offset the restriction near-term",
+    "weakens_if": "Multiple large-scale reshoring announcements collectively approach a material share of the at-risk import value within 18 months",
+    "source_to_monitor": "Company press releases; trade press (T&D World, Utility Dive)",
+    "origin_report": "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md",
+    "status": "open"
   }
 ]

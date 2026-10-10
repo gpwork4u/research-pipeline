@@ -87,16 +87,18 @@
     "name": "Siemens Energy",
     "reports": [
       "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md",
-      "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md"
+      "reports/2026/09/2026-09-16-gas-turbine-shortage-ai-data-center-power-bottleneck.md",
+      "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-10-10"
   },
   {
     "name": "GE Vernova",
     "reports": [
-      "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"
+      "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md",
+      "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md"
     ],
-    "last_updated": "2026-08-23"
+    "last_updated": "2026-10-10"
   },
   {
     "name": "Hitachi",
@@ -104,6 +106,13 @@
       "reports/2026/08/2026-08-23-transformer-shortage-ai-data-center-power-bottleneck.md"
     ],
     "last_updated": "2026-08-23"
+  },
+  {
+    "name": "Hitachi Energy",
+    "reports": [
+      "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md"
+    ],
+    "last_updated": "2026-10-10"
   },
   {
     "name": "Freeport-McMoRan",

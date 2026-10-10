@@ -1,5 +1,28 @@
 [
   {
+    "title": "The Security Tax: Does Trump's Bulk-Power Equipment Ban Deepen the AI Buildout's Transformer Bottleneck?",
+    "date": "2026-10-10",
+    "slug": "bulk-power-equipment-ban-ai-data-center-transformer-bottleneck",
+    "research_type": "UPDATE",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "regulation",
+      "electrical-equipment",
+      "data-centers"
+    ],
+    "companies": [
+      "Siemens Energy",
+      "GE Vernova",
+      "Hitachi Energy"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/bulk-power-equipment-ban-ai-data-center-transformer-bottleneck",
+    "path": "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md",
+    "one_sentence_conclusion": "A new executive order restricting Chinese bulk-power equipment imports layers a security tax onto an already 15%-short US transformer market."
+  },
+  {
     "title": "The Lithography Loophole: Does China's 343-Tool DUV Stockpile Defeat the AI Chip Export-Control Bottleneck?",
     "date": "2026-10-09",
     "slug": "china-duv-lithography-stockpile-export-control-bottleneck",

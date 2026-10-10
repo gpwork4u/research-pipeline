@@ -854,5 +854,26 @@
       "SMIC",
       "Huawei"
     ]
+  },
+  {
+    "slug": "bulk-power-equipment-ban-ai-data-center-transformer-bottleneck",
+    "title": "The Security Tax: Does Trump's Bulk-Power Equipment Ban Deepen the AI Buildout's Transformer Bottleneck?",
+    "last_updated": "2026-10-10",
+    "reports": [
+      "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "regulation",
+      "electrical-equipment",
+      "data-centers"
+    ],
+    "companies": [
+      "Siemens Energy",
+      "GE Vernova",
+      "Hitachi Energy"
+    ]
   }
 ]

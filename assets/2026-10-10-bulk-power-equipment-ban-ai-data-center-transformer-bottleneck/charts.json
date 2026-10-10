@@ -1,0 +1,13 @@
+[
+  {
+    "title": "US 2026 bulk-power equipment shortage, by category",
+    "title_zh": "美國 2026 年電網大宗設備短缺（按類別）",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "s5",
+    "series": [
+      { "label": "Power transformers", "value": 15 },
+      { "label": "Substations", "value": 8 }
+    ]
+  }
+]
