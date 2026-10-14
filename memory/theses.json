@@ -1485,5 +1485,46 @@
         "impact": "weaken"
       }
     ]
+  },
+  {
+    "id": "thesis-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck",
+    "topic": "super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck",
+    "statement": "Criminal prosecutions are visibly intensifying across three independent 2025-2026 chip-smuggling schemes, but each operated for roughly a year or more before detection, BIS's enforcement budget is a small fraction of the profits a single scheme can generate, and Taiwan still has no law directly banning such exports -- so the binding Structural Bottleneck is not China's demand for smuggled Nvidia chips (which remains high and largely unconstrained, a Growth Area) but the chronically under-resourced US and Taiwanese enforcement capacity needed to actually choke off the channels supplying that demand. This report classifies grey-market GPU diversion channels themselves as a Growth Area (Extreme demand, but only Medium supply elasticity given recurring independent schemes), while classifying US/Taiwan export-control enforcement capacity as the genuine Structural Bottleneck (demand High, supply elasticity Low, substitutability Hard) per the pipeline's bottleneck framework.",
+    "confidence": "medium",
+    "created_at": "2026-10-14",
+    "updated_at": "2026-10-14",
+    "supporting_reports": [
+      "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "BIS's export-enforcement budget and staffing are increased materially rather than remaining flat or declining in real terms",
+        "metric": "BIS export-enforcement budget/staffing, year over year",
+        "threshold": "A confirmed real-terms budget or headcount increase of 20%+ disclosed in an appropriations bill or BIS public statement",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "No new independent chip-smuggling scheme of comparable or larger scale is uncovered despite continued export restrictions",
+        "metric": "Count/scale of new DOJ/BIS/Taiwan chip-smuggling cases disclosed",
+        "threshold": "Zero new cases exceeding $50M in alleged diverted value over 2-3 quarters",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Taiwan's Legislative Yuan passes a Foreign Trade Act amendment that directly criminalizes unauthorized AI-chip exports to China",
+        "metric": "Status of Taiwan's proposed Foreign Trade Act amendment",
+        "threshold": "Signed into law within 12 months of this report",
+        "time_window": "next 12 months",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Chinese domestic AI chip output reaches rough performance parity with leading-edge Nvidia chips, reducing demand for smuggled chips regardless of enforcement",
+        "metric": "Domestic AI chip (e.g. Huawei Ascend) yield/performance versus leading-edge Nvidia equivalents",
+        "threshold": "Credible reporting of yield/performance within roughly 10% of leading-edge Nvidia equivalents at volume",
+        "time_window": "next 2-3 quarters",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

@@ -1904,5 +1904,50 @@
     "source_to_monitor": "Company press releases; trade press (T&D World, Utility Dive)",
     "origin_report": "reports/2026/10/2026-10-10-bulk-power-equipment-ban-ai-data-center-transformer-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Wally Liaw's trial (SDNY)",
+    "expected_window": "November 2026",
+    "supports_if": "Liaw is convicted or reaches a plea agreement, surfacing further detail on the scheme's scale and duration",
+    "weakens_if": "Liaw is acquitted or the case is substantially narrowed, undercutting the prosecution's evidentiary strength",
+    "source_to_monitor": "SDNY court filings / DOJ press releases and trade press (Bloomberg Law)",
+    "origin_report": "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Ting-Wei Sun's sentencing",
+    "expected_window": "September 2027",
+    "supports_if": "Sentencing reflects a severe penalty, signaling real deterrent intent",
+    "weakens_if": "Sentencing is lenient relative to the $2.5B alleged scheme size",
+    "source_to_monitor": "SDNY court filings, DOJ press releases",
+    "origin_report": "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Taiwan Legislative Yuan action on the proposed Foreign Trade Act amendment",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "No amendment passes, leaving the export-to-China legal gap open",
+    "weakens_if": "An amendment criminalizing such exports is passed and enacted",
+    "source_to_monitor": "Taiwan Legislative Yuan records, Taiwan trade press",
+    "origin_report": "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next BIS appropriations/budget disclosure or Stop Stealing Our Chips Act legislative action",
+    "expected_window": "next 2-3 quarters (FY2027 appropriations cycle)",
+    "supports_if": "BIS enforcement budget/staffing remains flat or declines in real terms",
+    "weakens_if": "A material funding/staffing increase or the whistleblower bill is enacted",
+    "source_to_monitor": "Congressional appropriations bills, BIS public budget disclosures",
+    "origin_report": "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Any new DOJ/BIS or Taiwan chip-smuggling indictment of comparable scale",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "A new scheme of comparable or larger scale is uncovered, showing channels keep forming",
+    "weakens_if": "No comparable new case emerges despite continued monitoring",
+    "source_to_monitor": "DOJ press releases, BIS enforcement actions, trade press",
+    "origin_report": "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md",
+    "status": "open"
   }
 ]

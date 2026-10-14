@@ -1,5 +1,27 @@
 [
   {
+    "title": "The Hairdryer Scheme: Does the Super Micro Smuggling Guilty Plea Prove Chip-Export Enforcement Is a Real Bottleneck -- or How Porous It Still Is?",
+    "date": "2026-10-14",
+    "slug": "super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "export-controls",
+      "geopolitics",
+      "regulation"
+    ],
+    "companies": [
+      "Nvidia",
+      "Super Micro Computer"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck",
+    "path": "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md",
+    "one_sentence_conclusion": "A guilty plea in the $2.5B Super Micro smuggling case shows enforcement is real, but under-resourcing -- not smuggling demand -- is the actual structural bottleneck."
+  },
+  {
     "title": "The Security Tax: Does Trump's Bulk-Power Equipment Ban Deepen the AI Buildout's Transformer Bottleneck?",
     "date": "2026-10-10",
     "slug": "bulk-power-equipment-ban-ai-data-center-transformer-bottleneck",

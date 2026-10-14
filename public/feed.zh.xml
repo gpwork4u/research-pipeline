@@ -6,6 +6,21 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>吹風機騙局：超微走私案認罪是否證明晶片出口管制執法是真瓶頸——還是暴露了執法有多漏洞百出？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck</guid>
+      <pubDate>Wed, 14 Oct 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>export-controls</category>
+      <category>geopolitics</category>
+      <category>regulation</category>
+      <description>25億美元超微走私案認罪顯示執法確實存在，但資源不足——而非走私需求——才是真正的結構性瓶頸。
+
+Ting-Wei「Willy」Sun於2026年10月8日就四項罪名認罪，涉及透過調換伺服器序號標籤、將搭載Nvidia晶片的超微伺服器轉運至中國的25億美元計畫。這是2025-2026年浮現的三個獨立轉運案件之一，另兩案為1.6億美元的「看門人行動」(Operation Gatekeeper)及台灣2026年6月的搜索行動。每案在被查獲前皆運作約一年以上，智庫估計僅三起案件的走私利潤即超過BIS全年執法預算兩倍以上。灰色市場轉運需求仍屬成長領域，尚未受到緊密供給制約；真正的結構性瓶頸,是長期資源不足、難以真正阻斷管道的執法能力。</description>
+    </item>
+    <item>
       <title>安全稅：川普的電網設備禁令，是否加深了 AI 建設的變壓器瓶頸？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/bulk-power-equipment-ban-ai-data-center-transformer-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/bulk-power-equipment-ban-ai-data-center-transformer-bottleneck</guid>

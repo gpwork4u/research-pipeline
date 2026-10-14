@@ -875,5 +875,25 @@
       "GE Vernova",
       "Hitachi Energy"
     ]
+  },
+  {
+    "slug": "super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck",
+    "title": "The Hairdryer Scheme: Does the Super Micro Smuggling Guilty Plea Prove Chip-Export Enforcement Is a Real Bottleneck -- or How Porous It Still Is?",
+    "last_updated": "2026-10-14",
+    "reports": [
+      "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "export-controls",
+      "geopolitics",
+      "regulation"
+    ],
+    "companies": [
+      "Nvidia",
+      "Super Micro Computer"
+    ]
   }
 ]
