@@ -1,5 +1,26 @@
 [
   {
+    "title": "The 6-Point Gap: Does IDC's Nvidia-Huawei China AI-Chip Data Undercut Both the 'Zero Share' and '90% Domestic' Narratives?",
+    "date": "2026-10-15",
+    "slug": "china-ai-chip-market-share-nvidia-huawei-gap-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "ai-policy",
+      "semiconductors",
+      "export-controls",
+      "geopolitics"
+    ],
+    "companies": [
+      "Nvidia",
+      "Huawei"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/china-ai-chip-market-share-nvidia-huawei-gap-bottleneck",
+    "path": "reports/2026/10/2026-10-15-china-ai-chip-market-share-nvidia-huawei-gap-bottleneck.md",
+    "one_sentence_conclusion": "IDC's 34%-to-28% Nvidia-Huawei split shows real but moderate movement, undercutting both the \"zero share\" and \"90%-domestic\" claims."
+  },
+  {
     "title": "The Hairdryer Scheme: Does the Super Micro Smuggling Guilty Plea Prove Chip-Export Enforcement Is a Real Bottleneck -- or How Porous It Still Is?",
     "date": "2026-10-14",
     "slug": "super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck",

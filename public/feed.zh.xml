@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>六個百分點的差距：IDC 的輝達-華為中國 AI 晶片數據，是否同時推翻「份額歸零」與「九成國產化」兩種敘事？</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/china-ai-chip-market-share-nvidia-huawei-gap-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/china-ai-chip-market-share-nvidia-huawei-gap-bottleneck</guid>
+      <pubDate>Thu, 15 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-policy</category>
+      <category>semiconductors</category>
+      <category>export-controls</category>
+      <category>geopolitics</category>
+      <description>IDC 的 34% 對 28% 輝達-華為分布顯示變化真實但溫和,同時推翻「份額歸零」與「九成國產」兩種說法。
+
+2026 年 10 月 13-14 日公布的 IDC 數據顯示,輝達在中國 AI 加速器出貨中 2026 年上半年份額為 34%(67.8 萬台,年減 44%),華為為 28%(57.2 萬台),雙方差距由一年前的 31 個百分點縮小至 6 個百分點。34% 的份額遠高於黃仁勳所稱中國營收「已歸零」的說法,而國產供應商合計約 47% 的份額,也遠低於部分分析師預期 2026 年底將達到的九成。本研究管道 2026 年 9 月 4 日的報告指出,真正的結構性瓶頸在於美國遠端存取執行力,而非晶片供給本身;處理此問題的參議院法案已在委員會停滯近十個月,BIS 自行草擬的規則據報也已被擱置。新數據是對該結論的再確認,而非解決。</description>
+    </item>
+    <item>
       <title>吹風機騙局：超微走私案認罪是否證明晶片出口管制執法是真瓶頸——還是暴露了執法有多漏洞百出？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck</guid>

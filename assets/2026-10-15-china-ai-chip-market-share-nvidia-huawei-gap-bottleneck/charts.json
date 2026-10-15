@@ -1,0 +1,17 @@
+[
+  {
+    "title": "China AI-accelerator vendor share, H1 2026",
+    "title_zh": "中國 AI 加速器廠商份額（2026 上半年）",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "s1",
+    "series": [
+      { "label": "Nvidia", "value": 34 },
+      { "label": "Huawei", "value": 28 },
+      { "label": "Alibaba T-Head", "value": 7 },
+      { "label": "Cambricon", "value": 5 },
+      { "label": "Baidu Kunlunxin", "value": 4 },
+      { "label": "Hygon", "value": 3 }
+    ]
+  }
+]

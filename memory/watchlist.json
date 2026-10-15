@@ -597,7 +597,8 @@
     "weakens_if": "Domestic share stalls or declines, keeping Chinese demand for remote Nvidia access elevated",
     "source_to_monitor": "Industry analyst reports",
     "origin_report": "reports/2026/09/2026-09-04-ai-chip-export-control-remote-access-loophole.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred October 13-14, 2026: a mixed/partial outcome, between the supports_if and weakens_if branches. IDC H1 2026 data showed domestic share (Huawei 28% + T-Head 7% + Cambricon 5% + Kunlunxin 4% + Hygon 3% = ~47%) rising from ~41% in 2025 -- continuing to rise, not stalling or declining (weakens_if not met) -- but far short of the ~90% end-2026 projection this entry's supports_if bar implied. Nvidia's share fell to 34% (from ~55% in 2025, 678,000 units, -44% YoY), still far above the 'dropped to zero' framing some 2026 reporting used. See reports/2026/10/2026-10-15-china-ai-chip-market-share-nvidia-huawei-gap-bottleneck.md."
   },
   {
     "event": "TSMC's Q3 2026 earnings call",
@@ -1948,6 +1949,33 @@
     "weakens_if": "No comparable new case emerges despite continued monitoring",
     "source_to_monitor": "DOJ press releases, BIS enforcement actions, trade press",
     "origin_report": "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next IDC (or equivalent) China AI-accelerator vendor-share tracker",
+    "expected_window": "around Q1 2027 (covering full-year 2026 or Q3-Q4 2026)",
+    "supports_if": "Domestic combined share continues rising past ~47% and/or Nvidia share keeps falling",
+    "weakens_if": "Nvidia's share stabilizes or rises, or domestic combined share stalls",
+    "source_to_monitor": "IDC-sourced trade press, Reuters",
+    "origin_report": "reports/2026/10/2026-10-15-china-ai-chip-market-share-nvidia-huawei-gap-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Confirmation of BIS drafted remote-access rule status (shelved vs. published)",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Shelving is confirmed, or the rule remains further delayed with no official text",
+    "weakens_if": "BIS formally publishes a rule clearly covering third-country rental access",
+    "source_to_monitor": "Federal Register, bis.gov, trade press",
+    "origin_report": "reports/2026/10/2026-10-15-china-ai-chip-market-share-nvidia-huawei-gap-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Huawei's full-year 2026 Ascend 910C shipment and revenue disclosure",
+    "expected_window": "Q1 2027",
+    "supports_if": "Huawei meets or exceeds its ~600,000-unit / ~$12B targets",
+    "weakens_if": "Huawei materially misses its targets, suggesting the domestic ramp is slower than assumed",
+    "source_to_monitor": "Huawei public statements, trade press",
+    "origin_report": "reports/2026/10/2026-10-15-china-ai-chip-market-share-nvidia-huawei-gap-bottleneck.md",
     "status": "open"
   }
 ]

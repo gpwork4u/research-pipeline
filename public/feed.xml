@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The 6-Point Gap: Does IDC&apos;s Nvidia-Huawei China AI-Chip Data Undercut Both the &apos;Zero Share&apos; and &apos;90% Domestic&apos; Narratives?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/china-ai-chip-market-share-nvidia-huawei-gap-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/china-ai-chip-market-share-nvidia-huawei-gap-bottleneck</guid>
+      <pubDate>Thu, 15 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-policy</category>
+      <category>semiconductors</category>
+      <category>export-controls</category>
+      <category>geopolitics</category>
+      <description>IDC&apos;s 34%-to-28% Nvidia-Huawei split shows real but moderate movement, undercutting both the &quot;zero share&quot; and &quot;90%-domestic&quot; claims.
+
+IDC data reported October 13-14, 2026 show Nvidia held 34% of China&apos;s AI-accelerator shipments in H1 2026 (678,000 units, -44% YoY) versus Huawei&apos;s 28% (572,000 units), narrowing their gap from 31 percentage points a year earlier to 6. That 34% share sits far above Jensen Huang&apos;s &quot;dropped to zero&quot; framing of recognized China revenue, and domestic vendors&apos; combined ~47% share is well short of the ~90% some analysts projected for end-2026. This pipeline&apos;s September 4, 2026 report identified US remote-access enforcement authority -- not chip supply -- as the binding Structural Bottleneck; the Senate bill addressing it remains stalled roughly ten months in committee, and BIS&apos;s own drafted rule is reportedly shelved. The new data reaffirms, rather than resolves, that finding.</description>
+    </item>
+    <item>
       <title>The Hairdryer Scheme: Does the Super Micro Smuggling Guilty Plea Prove Chip-Export Enforcement Is a Real Bottleneck -- or How Porous It Still Is?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck</guid>

@@ -895,5 +895,24 @@
       "Nvidia",
       "Super Micro Computer"
     ]
+  },
+  {
+    "slug": "china-ai-chip-market-share-nvidia-huawei-gap-bottleneck",
+    "title": "The 6-Point Gap: Does IDC's Nvidia-Huawei China AI-Chip Data Undercut Both the 'Zero Share' and '90% Domestic' Narratives?",
+    "last_updated": "2026-10-15",
+    "reports": [
+      "reports/2026/10/2026-10-15-china-ai-chip-market-share-nvidia-huawei-gap-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-policy",
+      "semiconductors",
+      "export-controls",
+      "geopolitics"
+    ],
+    "companies": [
+      "Nvidia",
+      "Huawei"
+    ]
   }
 ]
