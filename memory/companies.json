@@ -4,9 +4,10 @@
     "reports": [
       "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
       "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
-      "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md"
+      "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
+      "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md"
     ],
-    "last_updated": "2026-10-07"
+    "last_updated": "2026-10-16"
   },
   {
     "name": "Nvidia",
@@ -240,9 +241,10 @@
       "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
       "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
       "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
-      "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md"
+      "reports/2026/10/2026-10-08-terafab-musk-intel-14a-tsmc-foundry-bottleneck.md",
+      "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md"
     ],
-    "last_updated": "2026-10-08"
+    "last_updated": "2026-10-16"
   },
   {
     "name": "Vistra",

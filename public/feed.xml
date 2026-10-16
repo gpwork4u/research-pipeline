@@ -6,6 +6,18 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The Capex Plateau: Does TSMC&apos;s Unchanged $60-64B 2026 Guide Show Packaging Easing While Wafer Capacity Stays AI Chips&apos; Real Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck</guid>
+      <pubDate>Fri, 16 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>semiconductors</category>
+      <category>advanced-packaging</category>
+      <category>custom-silicon</category>
+      <category>ai-infrastructure</category>
+      <description>TSMC&apos;s October 15, 2026 Q3 call delivered record revenue of $46.7 billion (+16.2% QoQ) and Q4 guidance implying roughly 58% YoY growth, yet management only reiterated -- not raised again -- its $60-64 billion 2026 capex range. CoWoS/packaging commentary was flat versus July (&quot;gap remains large,&quot; never &quot;sold out&quot; or &quot;fully booked&quot;), while OSAT and Intel second-sourcing keep expanding. Meanwhile the 2-nanometer ramp alone cost 1.3 points of gross margin, and management called further capacity growth &quot;too early to quantify.&quot; This reaffirms this pipeline&apos;s September-October downgrade of packaging to a Growth Area while leaving leading-edge wafer capacity as the binding Structural Bottleneck. The main uncertainty: TSMC discloses neither CoWoS capacity nor lead times, so the &quot;gap narrowing&quot; claim rests on analyst estimates that disagree by nearly 50%.</description>
+    </item>
+    <item>
       <title>The 6-Point Gap: Does IDC&apos;s Nvidia-Huawei China AI-Chip Data Undercut Both the &apos;Zero Share&apos; and &apos;90% Domestic&apos; Narratives?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/china-ai-chip-market-share-nvidia-huawei-gap-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/china-ai-chip-market-share-nvidia-huawei-gap-bottleneck</guid>

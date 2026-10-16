@@ -16,7 +16,8 @@
     "weakens_if": "Management signals CoWoS capacity easing or capital-expenditure guidance is cut",
     "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
     "origin_report": "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Partially triggered 2026-10-16: On TSMC's Oct 15, 2026 Q3 call, management reiterated (did not raise again) 2026 capex guidance at $60-64B and described the CoWoS demand-supply gap as 'remaining large' with capacity rising 'as fast as possible' -- consistent with the supports_if branch on capex/capacity, though TSMC never used 'fully booked' or 'sold out' language (it has not used that phrasing on any 2026 call). Net effect: no capacity easing and no capex cut (weakens_if did not occur); capex/capacity branch of supports_if holds, though the literal 'fully booked' framing is unconfirmed. See reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md."
   },
   {
     "event": "OpenAI custom-ASIC shipment milestone",
@@ -607,7 +608,8 @@
     "weakens_if": "TSMC reports the gap widening again or capex/capacity guidance is cut",
     "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
     "origin_report": "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Partially triggered 2026-10-16: TSMC's Oct 15, 2026 Q3 call did not provide a fresh company-disclosed CoWoS gap percentage (TSMC does not publish CoWoS capacity or lead times), so the specific 'gap narrowing toward or below 10%' claim remains an analyst estimate (TrendForce), not newly confirmed by TSMC. However, 2026 capex guidance was reiterated (not cut) at $60-64B and no capacity easing was signaled, so the weakens_if branch did not occur. See reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md."
   },
   {
     "event": "Broadcom's Q4 FY2026 and Q1 FY2027 earnings calls",
@@ -1760,7 +1762,8 @@
     "weakens_if": "TSMC reports CoWoS capacity materially exceeding current estimates or lead times easing well ahead of schedule",
     "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
     "origin_report": "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Partially triggered 2026-10-16: TSMC's Oct 15, 2026 Q3 call gave no company-disclosed CoWoS wafer-count figure (the ~127,000 wafers/month end-2026 estimate remains a third-party analyst figure), so the specific supports_if wording cannot be confirmed verbatim. But capacity was not reported easing and capex was not cut; management said the demand-supply gap 'remains large' and capacity growth is 'too early to quantify' -- the weakens_if branch (capacity materially exceeding estimates / lead times easing well ahead of schedule) did not occur. See reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md."
   },
   {
     "event": "Further detail on any existing Broadcom customer's program being reduced in favor of a competitor",
@@ -1976,6 +1979,51 @@
     "weakens_if": "Huawei materially misses its targets, suggesting the domestic ramp is slower than assumed",
     "source_to_monitor": "Huawei public statements, trade press",
     "origin_report": "reports/2026/10/2026-10-15-china-ai-chip-market-share-nvidia-huawei-gap-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's Q4 2026 earnings call and first explicit 2027 capex figure",
+    "expected_window": "mid-January 2027",
+    "supports_if": "2027 capex is guided materially higher than the 2026 $60-64B range (e.g., toward the $75-90B+ analyst estimates), confirming wafer capacity is still the binding, intensifying constraint",
+    "weakens_if": "2027 capex is guided flat or only modestly above $64B, suggesting the wafer bottleneck is easing or demand growth is decelerating",
+    "source_to_monitor": "TSMC investor relations (investor.tsmc.com)",
+    "origin_report": "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Samsung's and SK Hynix's Q3 2026 earnings calls: wafer/equipment capacity commentary",
+    "expected_window": "late October 2026",
+    "supports_if": "Either company cites wafer-equipment lead times or leading-edge capacity constraints consistent with TSMC's framing",
+    "weakens_if": "Neither company cites any capacity constraint and plans proceed on schedule",
+    "source_to_monitor": "Respective investor relations pages",
+    "origin_report": "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next TrendForce or equivalent analyst update on CoWoS capacity and the supply-demand gap",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Gap is confirmed narrowing toward or below 10% as previously estimated",
+    "weakens_if": "Gap is reported widening again or analyst capacity estimates are revised down materially",
+    "source_to_monitor": "TrendForce and other semiconductor industry research outlets",
+    "origin_report": "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Intel's disclosure of 14A/EMIB-T customer progress beyond Tesla/Terafab",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "Intel discloses at least one additional named external packaging or foundry customer at meaningful volume",
+    "weakens_if": "No new customer is disclosed, confirming second-source packaging remains nascent",
+    "source_to_monitor": "Intel investor relations and public statements",
+    "origin_report": "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Broadcom's and Marvell's next quarterly results: AI semiconductor revenue trajectory",
+    "expected_window": "December 2026 - February 2027",
+    "supports_if": "Both report AI semiconductor revenue growth in line with or above current guidance, confirming demand continues to outstrip wafer/packaging capacity",
+    "weakens_if": "Either materially misses guidance, suggesting demand growth -- not supply -- is the binding constraint",
+    "source_to_monitor": "Broadcom and Marvell investor relations",
+    "origin_report": "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md",
     "status": "open"
   }
 ]

@@ -1,5 +1,26 @@
 [
   {
+    "title": "The Capex Plateau: Does TSMC's Unchanged $60-64B 2026 Guide Show Packaging Easing While Wafer Capacity Stays AI Chips' Real Bottleneck?",
+    "date": "2026-10-16",
+    "slug": "tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "semiconductors",
+      "advanced-packaging",
+      "custom-silicon",
+      "ai-infrastructure"
+    ],
+    "companies": [
+      "TSMC",
+      "Broadcom"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck",
+    "path": "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The 6-Point Gap: Does IDC's Nvidia-Huawei China AI-Chip Data Undercut Both the 'Zero Share' and '90% Domestic' Narratives?",
     "date": "2026-10-15",
     "slug": "china-ai-chip-market-share-nvidia-huawei-gap-bottleneck",

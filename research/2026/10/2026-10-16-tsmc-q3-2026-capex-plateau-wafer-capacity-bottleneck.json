@@ -1,0 +1,359 @@
+{
+  "topic": {
+    "title": "The Capex Plateau: Does TSMC's Unchanged $60-64B 2026 Guide Show Packaging Easing While Wafer Capacity Stays AI Chips' Real Bottleneck?",
+    "slug": "tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck",
+    "date": "2026-10-16",
+    "research_type": "FOLLOW_UP",
+    "categories": ["semiconductors", "advanced-packaging", "custom-silicon", "ai-infrastructure"],
+    "score": 31,
+    "trigger": "TSMC reported Q3 2026 results and held its earnings call on October 15, 2026 (Taiwan time) -- directly fulfilling an open watchlist validation event common to three prior reports (2026-08-19 cowos-packaging-broadcom-custom-ai-asics; 2026-09-05 broadcom-ai-backlog-custom-asic-design-bottleneck; 2026-10-07 marvell-google-custom-silicon-tsmc-capacity-bottleneck), each of which flagged 'TSMC's Q3 2026 earnings call' as the next test of whether CoWoS packaging capacity is easing or capex/capacity guidance is being cut or raised."
+  },
+  "questions": {
+    "primary": "Does TSMC's October 15, 2026 Q3 earnings call -- record revenue, Q4 guidance implying roughly 58% YoY growth, 2026 capex guidance merely reiterated at $60-64B rather than raised again, and demand-supply language described as 'remaining large' without ever using 'sold out' or 'fully booked' -- confirm this pipeline's prior downgrade of CoWoS/advanced packaging to a Growth Area while leaving leading-edge wafer capacity (N3/N2) as the real, still-unresolved Structural Bottleneck on AI chip supply?",
+    "sub": [
+      "What did TSMC's management actually say on the Q3 2026 call about CoWoS/advanced-packaging tightness, and does it use 'sold out' or 'fully booked' language?",
+      "Why did TSMC reiterate rather than raise 2026 capex guidance ($60-64B) despite record Q3 results and Q4 guidance implying roughly 58% YoY growth?",
+      "What do independent analyst estimates (TrendForce, JPMorgan, SemiWiki) show about CoWoS capacity growth and the OSAT/Intel second-sourcing trend, and how reliable are these given TSMC does not disclose CoWoS capacity or lead times?",
+      "Does the 1.3-point sequential gross-margin decline tied to the N2 ramp, alongside Wei's 'too early to quantify' capacity-growth comment, indicate leading-edge wafer capacity -- not packaging -- is now the tighter constraint?",
+      "How does this earnings call change the standing classification of CoWoS (Growth Area) versus leading-edge wafer capacity (Structural Bottleneck) set in this pipeline's September and October reports?"
+    ]
+  },
+  "thesis": "TSMC's October 15, 2026 Q3 earnings call reaffirms, rather than reverses, this pipeline's September-October downgrade of CoWoS/advanced packaging to a Growth Area: management described the demand-supply gap as merely 'remaining large' (not escalating, and never 'sold out' or 'fully booked'), while a fast-growing roster of second sources -- OSAT spillover (UMC, Amkor) and Intel's EMIB-T -- gives packaging improving (Medium) supply elasticity. But TSMC's 2026 capex guidance was only reiterated at $60-64B, not raised again despite record revenue and Q4 guidance implying roughly 58% YoY growth, and the N2 ramp alone cost TSMC 1.3 points of gross margin -- evidence that leading-edge wafer capacity itself, where no comparable second-sourcing exists, remains the deeper Structural Bottleneck on AI chip supply.",
+  "facts": [
+    {
+      "statement": "TSMC reported Q3 2026 (quarter ended September 2026) consolidated revenue of NT$1,494.24 billion (approximately US$46.7 billion, above its own July guidance of $44.6-45.8 billion), net income of NT$763.06 billion (+68.7% YoY), and diluted EPS of NT$29.43; revenue rose approximately 16.2% sequentially. Gross margin was 66.4% (down 1.3 points sequentially from 67.7% in Q2 2026), operating margin 58.7%, and net margin 51.1%.",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s3", "s4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "TSMC attributed the sequential gross-margin decline primarily to margin dilution from the initial ramp of its 2-nanometer (N2) process. Node revenue mix for Q3 2026: 3-nanometer 33% of wafer revenue, 5-nanometer 28%, 2-nanometer 8%; nodes of 7-nanometer and below (advanced nodes) together made up 79% of wafer revenue.",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "TSMC guided Q4 2026 revenue to US$52.3-54.3 billion (reported as roughly 58% YoY growth) with gross margin of 65-67%.",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "TSMC reiterated -- did not raise further, and did not cut -- its full-year 2026 capital-expenditure guidance of US$60-64 billion, the range it had raised in July 2026 from a prior $52-56 billion. Management said capital expenditure across 2026-2028 is expected to be significantly higher than the prior three years, without giving a specific 2027 figure.",
+      "type": "FACT",
+      "evidence_ids": ["s2", "s4", "s5"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "On CoWoS/advanced packaging, TSMC management (CEO C.C. Wei) said CoWoS remains the leading choice for customers, that the gap between demand and supply 'remains large,' and that TSMC is increasing packaging capacity 'as fast as possible' but that it is too early to quantify the capacity-growth percentage; management also said it is working with GlobalFoundries on backend capacity and is in production on 5x-reticle-size packages while developing 9x and 14x reticle sizes.",
+      "type": "FACT",
+      "evidence_ids": ["s2", "s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "A third-party review of TSMC's 2026 quarterly calls found no instance of TSMC itself describing CoWoS capacity as 'sold out' or 'fully booked' -- those phrases originate in trade-press and analyst reporting, not TSMC disclosure; TSMC does not publish CoWoS capacity figures or lead times.",
+      "type": "FACT",
+      "evidence_ids": ["s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Despite beating consensus (reported adjusted EPS of roughly $4.60 versus a $4.42 consensus) and raising Q4 guidance, TSMC's share price slipped on the results, which coverage attributed in part to broader market scrutiny of AI-infrastructure capital-spending sustainability.",
+      "type": "FACT",
+      "evidence_ids": ["s3", "s4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Independent industry analysts (TrendForce) estimate TSMC's CoWoS supply-demand gap is narrowing from roughly 20% to roughly 10% by end-2026, supported by a reported roughly 10x capacity build-out since 2023; separate estimates of TSMC's end-2026 CoWoS capacity range widely, from about 95,000 wafers/month (JPMorgan, crediting the AP8 facility) to 120,000-140,000 wafers/month (TrendForce), illustrating that these are analyst estimates, not TSMC-disclosed figures.",
+      "type": "FACT",
+      "evidence_ids": ["s6", "s10"],
+      "confidence": "low"
+    },
+    {
+      "statement": "Reported second-sourcing of advanced packaging is emerging but still small relative to TSMC: OSAT partners (including UMC and Amkor, per trade-press reporting) are estimated to add roughly 50,000-60,000 wafers/month of CoWoS-adjacent capacity, and Intel's competing EMIB-T packaging is estimated at roughly 15,000-20,000 wafers/month in 2027, rising to roughly 40,000-45,000 in 2028 -- both figures are supply-chain estimates, not company-disclosed guidance.",
+      "type": "FACT",
+      "evidence_ids": ["s6", "s7"],
+      "confidence": "low"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because TSMC's 2026 capex guidance was only reiterated, not raised, even as Q3 results beat guidance and Q4 guidance implies roughly 58% YoY growth, TSMC appears to already be spending at or near the pace it judges optimal for current demand -- consistent with wafer capacity, not packaging, being the tighter near-term constraint, since a true packaging-only bottleneck would more likely prompt a further packaging-specific capex increase.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s2", "s4", "s5"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because management's packaging language ('gap remains large,' 'too early to quantify') is essentially unchanged in substance from July 2026 rather than escalating, and because TSMC has never used 'sold out' or 'fully booked' phrasing in any 2026 call, the packaging-specific urgency this pipeline flagged in August appears to be holding steady or easing slightly, not worsening -- consistent with the September/October downgrade of CoWoS to a Growth Area.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s2", "s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because the N2 ramp alone cost 1.3 points of gross margin in a single quarter, and because no comparable second-source exists for TSMC's own leading-edge wafer process (unlike packaging, where OSAT and Intel are emerging alternatives), leading-edge wafer fabrication capacity -- not CoWoS -- is the node in this chain still meeting the strict Structural Bottleneck test of Low supply elasticity and Hard substitutability.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s1", "s4", "s6"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "The share-price decline despite a beat-and-raise quarter suggests the market is increasingly pricing AI-infrastructure capex sustainability risk into TSMC specifically, which would, if it continues, pressure TSMC to justify further capex increases with equally concrete demand signals rather than general AI enthusiasm.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s3", "s4"],
+      "confidence": "low"
+    }
+  ],
+  "unknowns": [
+    "The exact current CoWoS/advanced-packaging capacity figure and lead times: TSMC does not disclose these, and analyst estimates for end-2026 range from roughly 95,000 to 140,000 wafers/month, a wide enough spread that the 'gap narrowing to ~10%' claim cannot be independently verified from this session's sources.",
+    "Whether TSMC's 2027 capital-expenditure figure will in fact land near analyst estimates (ranging from roughly $75 billion to $90-105 billion across cited sources) or significantly diverge; TSMC gave no specific 2027 number on this call.",
+    "Whether Intel's EMIB-T packaging or OSAT CoWoS-adjacent capacity will scale on the estimated timelines, since both remain unproven at volume and sourced from supply-chain estimates rather than company disclosure.",
+    "Whether the post-earnings share-price decline reflects durable investor skepticism about AI capex sustainability or a short-lived reaction; no multi-day price data was available in this session.",
+    "sec.gov and investor.tsmc.com were blocked by the research environment's egress proxy this session; the hard financial figures and management-quote content attributed to TSMC's own filing and call are confirmed via multiple convergent secondary-source summaries (CNBC, TradingView, BigGo Finance, and others) rather than direct retrieval of the primary filing or transcript."
+  ],
+  "industry_chain": [
+    {
+      "name": "Leading-edge wafer fabrication (N3/N2)",
+      "role": "Upstream",
+      "major_players": ["TSMC"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "CoWoS / advanced packaging",
+      "role": "Infrastructure",
+      "major_players": ["TSMC", "UMC", "Amkor", "Intel"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Custom-ASIC design & integration",
+      "role": "Platform",
+      "major_players": ["Broadcom", "Marvell"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Hyperscaler / AI-lab buyers",
+      "role": "Customer",
+      "major_players": ["Google", "Meta", "OpenAI", "Anthropic"],
+      "pricing_power": "Low",
+      "supply_elasticity": null,
+      "substitutability": null
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "TSMC leading-edge wafer capacity (N3/N2)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "2-3 years per fab",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "High",
+      "profit_capture": "High",
+      "opportunity_score": 4,
+      "classification": "Structural Bottleneck",
+      "rationale": "Demand remains Extreme (Q4 guidance implies ~58% YoY growth); supply elasticity is Low (capex merely reiterated at $60-64B despite the beat, N2 ramp alone cost 1.3 points of margin, and Wei called the gap 'large' and capacity growth 'too early to quantify'); substitutability is Hard (no qualified second source for TSMC's leading-edge nodes exists). Meets the strict three-part test."
+    },
+    {
+      "node": "CoWoS / advanced packaging",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Medium",
+      "expansion_time": "12-18 months per capacity increment",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "High",
+      "profit_capture": "Medium",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "Demand remains Extreme, but supply elasticity has moved from Low toward Medium: TSMC's own direct expansion plus emerging OSAT spillover and Intel's EMIB-T give multiple capacity sources, and TrendForce estimates the gap narrowing from ~20% to ~10% by end-2026. TSMC never used 'sold out'/'fully booked' language this quarter. Fails the strict test on supply elasticity -- reaffirms the September/October downgrade from Structural Bottleneck to Growth Area."
+    },
+    {
+      "node": "Custom-ASIC design & integration capacity",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Medium",
+      "expansion_time": "ongoing",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "High",
+      "profit_capture": "Medium",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "Unchanged from this pipeline's October 7, 2026 finding: Broadcom's own scaling guidance and Marvell's emergence as a second qualified design house keep this node a Growth Area, not a proven Structural Bottleneck."
+    }
+  ],
+  "companies": [
+    {
+      "name": "TSMC",
+      "business_model": "Pure-play semiconductor foundry; manufactures leading-edge logic chips and advanced packaging (CoWoS) for fabless customers including Nvidia, Apple, AMD and Broadcom.",
+      "revenue_model": "Wafer fabrication and packaging fees, priced by node and volume commitment.",
+      "cost_structure": null,
+      "gross_margin": "66.4% (Q3 2026, down 1.3 points sequentially)",
+      "operating_margin": "58.7% (Q3 2026)",
+      "growth_drivers": ["AI accelerator and HPC demand across N3/N5/N2 nodes", "Advanced packaging (CoWoS) for AI chip customers", "2-nanometer ramp"],
+      "customer_concentration": null,
+      "moat": "Leading-edge process and packaging technology with multi-year lead over competitors; no qualified second source exists for its most advanced nodes.",
+      "switching_costs": "High for customers already qualified on TSMC nodes/packaging; multi-year design and qualification cycles.",
+      "capital_intensity": "Very high: $60-64 billion 2026 capex guidance, reiterated this quarter; management says 2026-2028 capex will be significantly higher than the prior three years.",
+      "management_strategy": "Reiterating rather than further raising 2026 capex despite a beat-and-raise quarter; expanding packaging capacity and collaborating with GlobalFoundries on backend capacity while developing larger reticle-size packages.",
+      "execution_risk": "N2 ramp margin dilution; share price fell on results despite the beat, reflecting market scrutiny of AI capex sustainability; no company-disclosed 2027 capex figure yet."
+    },
+    {
+      "name": "Broadcom",
+      "business_model": "Fabless custom-ASIC and networking-chip designer; relies on TSMC for wafer fabrication and advanced packaging capacity shared with other customers.",
+      "revenue_model": null,
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["Custom AI accelerator design wins for hyperscale customers"],
+      "customer_concentration": "Concentrated among roughly six anchor hyperscale customers per this pipeline's prior reporting.",
+      "moat": null,
+      "switching_costs": null,
+      "capital_intensity": null,
+      "management_strategy": null,
+      "execution_risk": "Depends on TSMC wafer and CoWoS allocation, now also contested by Marvell's growing custom-silicon business."
+    }
+  ],
+  "metrics": [
+    { "name": "TSMC Q3 2026 revenue", "value": 46.7, "unit": "USD billions", "period": "Q3 2026", "growth": "+50.9% YoY (NT$ terms); +16.2% QoQ", "source_id": "s1" },
+    { "name": "TSMC Q3 2026 net income", "value": 763.06, "unit": "NT$ billions", "period": "Q3 2026", "growth": "+68.7% YoY", "source_id": "s1" },
+    { "name": "TSMC Q3 2026 gross margin", "value": 66.4, "unit": "percent", "period": "Q3 2026", "growth": "-1.3 pp QoQ", "source_id": "s1" },
+    { "name": "TSMC Q3 2026 operating margin", "value": 58.7, "unit": "percent", "period": "Q3 2026", "growth": null, "source_id": "s1" },
+    { "name": "TSMC Q4 2026 revenue guidance", "value": "52.3-54.3", "unit": "USD billions", "period": "Q4 2026", "growth": "~+58% YoY (implied)", "source_id": "s9" },
+    { "name": "TSMC FY2026 capex guidance", "value": "60-64", "unit": "USD billions", "period": "FY2026", "growth": "unchanged since July 2026 raise from $52-56B", "source_id": "s2" },
+    { "name": "N2 (2nm) share of wafer revenue", "value": 8, "unit": "percent", "period": "Q3 2026", "growth": null, "source_id": "s1" },
+    { "name": "Nodes 7nm-and-below share of wafer revenue", "value": 79, "unit": "percent", "period": "Q3 2026", "growth": null, "source_id": "s1" },
+    { "name": "TSMC CoWoS supply-demand gap (analyst estimate)", "value": "~20 to ~10", "unit": "percent (2024 baseline to end-2026 estimate)", "period": "2024-end 2026", "growth": null, "source_id": "s6" },
+    { "name": "TSMC CoWoS capacity, end-2026 (analyst estimate range)", "value": "95,000-140,000", "unit": "wafers/month", "period": "end-2026", "growth": null, "source_id": "s6" }
+  ],
+  "competitors": [
+    { "name": "Intel (EMIB-T packaging)", "kind": "indirect alternative", "note": "Emerging second-source advanced packaging, estimated at ~15,000-20,000 wafers/month in 2027 rising to ~40,000-45,000 in 2028 (analyst estimate, not company guidance); still small relative to TSMC's CoWoS." },
+    { "name": "OSAT partners (UMC, Amkor and others)", "kind": "indirect alternative", "note": "Estimated to add ~50,000-60,000 wafers/month of CoWoS-adjacent spillover capacity (analyst estimate)." },
+    { "name": "Samsung Foundry", "kind": "direct competitor", "note": "Leading-edge logic alternative to TSMC, not separately assessed in this report's sources." }
+  ],
+  "financials": [
+    {
+      "company": "TSMC",
+      "period": "Q3 2026",
+      "revenue_ntd_billions": 1494.24,
+      "revenue_usd_billions_approx": 46.7,
+      "net_income_ntd_billions": 763.06,
+      "eps_ntd": 29.43,
+      "gross_margin_pct": 66.4,
+      "operating_margin_pct": 58.7,
+      "net_margin_pct": 51.1,
+      "source_id": "s1"
+    }
+  ],
+  "valuation": {
+    "available": false,
+    "reason": "This report tracks a packaging-versus-wafer bottleneck classification across TSMC's own earnings disclosures and industry analyst estimates, not a standalone investment valuation; no full valuation inputs (current share price, share count) tied specifically to this angle were gathered this session."
+  },
+  "catalysts": [
+    "TSMC's Q4 2026 earnings call (mid-January 2027), where a specific 2027 capex figure is expected to be given",
+    "Samsung's and SK Hynix's Q3 2026 earnings calls (late October 2026) for any equipment or wafer-capacity commentary",
+    "Next TrendForce or equivalent analyst update on CoWoS capacity and the supply-demand gap",
+    "Intel's disclosure (or non-disclosure) of a second external 14A/EMIB-T customer beyond Tesla/Terafab",
+    "Broadcom's and Marvell's next quarterly results for AI semiconductor revenue trajectory"
+  ],
+  "bear_case": [
+    {
+      "dimension": "Economics",
+      "argument": "TSMC's share price fell despite a beat-and-raise quarter, suggesting the market may already be pricing in skepticism about the sustainability of AI-related capital spending across the industry, independent of TSMC's own fundamentals."
+    },
+    {
+      "dimension": "Supply",
+      "argument": "TSMC does not disclose actual CoWoS capacity or lead times, and independent analyst estimates for end-2026 capacity range from roughly 95,000 to 140,000 wafers/month -- a spread wide enough that the 'gap narrowing to ~10%' claim this report relies on cannot be independently verified."
+    },
+    {
+      "dimension": "Competition",
+      "argument": "Second-sourcing for advanced packaging (Intel's EMIB-T, OSAT spillover) remains small-scale and unproven at volume; if it fails to scale on the estimated timelines, packaging could tighten again rather than continuing to ease."
+    },
+    {
+      "dimension": "Demand",
+      "argument": "TSMC's own capex guidance was only reiterated, not raised -- if underlying AI demand growth decelerates from current levels, the $60-64 billion already committed for 2026 could prove to be over-building relative to softer future demand, independent of whether current capacity is tight today."
+    }
+  ],
+  "kill_conditions": [
+    {
+      "condition": "TSMC states on a future call that leading-edge wafer (N3/N2) capacity is no longer demand-constrained, or that lead times have normalized to industry-typical levels",
+      "metric": "TSMC management commentary on wafer capacity/demand balance",
+      "threshold": "Explicit statement that wafer capacity is no longer the binding constraint, or quantified lead-time normalization",
+      "time_window": "next 2-3 quarters",
+      "impact": "invalidate"
+    },
+    {
+      "condition": "TSMC's 2027 capex guidance, once given, comes in at or below the current $60-64 billion 2026 range rather than materially higher",
+      "metric": "TSMC FY2027 capital-expenditure guidance",
+      "threshold": "2027 guidance at or below $64 billion",
+      "time_window": "TSMC Q4 2026 earnings call, mid-January 2027",
+      "impact": "weaken"
+    },
+    {
+      "condition": "Independent analysts (TrendForce or equivalent) report the CoWoS supply-demand gap widening again rather than continuing to narrow",
+      "metric": "Industry-reported CoWoS supply-demand gap percentage",
+      "threshold": "Reported gap at or above 15-20%, reversing the narrowing trend",
+      "time_window": "next 2-3 quarters",
+      "impact": "weaken"
+    },
+    {
+      "condition": "Intel or an OSAT partner discloses a confirmed large-scale advanced-packaging customer win at a volume comparable to TSMC's own CoWoS allocation",
+      "metric": "Disclosed second-source advanced-packaging customer commitments",
+      "threshold": "Any disclosed commitment of 10,000+ wafers/month to a non-TSMC packaging provider",
+      "time_window": "next 2-4 quarters",
+      "impact": "weaken"
+    }
+  ],
+  "validation_events": [
+    {
+      "event": "TSMC's Q4 2026 earnings call and first explicit 2027 capex figure",
+      "expected_window": "mid-January 2027",
+      "supports_if": "2027 capex is guided materially higher than the 2026 $60-64B range (e.g., toward the $75-90B+ analyst estimates), confirming wafer capacity is still the binding, intensifying constraint",
+      "weakens_if": "2027 capex is guided flat or only modestly above $64B, suggesting the wafer bottleneck is easing or demand growth is decelerating",
+      "source_to_monitor": "TSMC investor relations (investor.tsmc.com)"
+    },
+    {
+      "event": "Samsung's and SK Hynix's Q3 2026 earnings calls",
+      "expected_window": "late October 2026",
+      "supports_if": "Either company cites wafer-equipment lead times or leading-edge capacity constraints consistent with TSMC's framing",
+      "weakens_if": "Neither company cites any capacity constraint and plans proceed on schedule",
+      "source_to_monitor": "Respective investor relations pages"
+    },
+    {
+      "event": "Next TrendForce or equivalent analyst update on CoWoS capacity and the supply-demand gap",
+      "expected_window": "Q4 2026 - Q1 2027",
+      "supports_if": "Gap is confirmed narrowing toward or below 10% as previously estimated",
+      "weakens_if": "Gap is reported widening again or analyst capacity estimates are revised down materially",
+      "source_to_monitor": "TrendForce and other semiconductor industry research outlets"
+    },
+    {
+      "event": "Intel's disclosure of 14A/EMIB-T customer progress beyond Tesla/Terafab",
+      "expected_window": "next 2-3 quarters",
+      "supports_if": "Intel discloses at least one additional named external packaging or foundry customer at meaningful volume",
+      "weakens_if": "No new customer is disclosed, confirming second-source packaging remains nascent",
+      "source_to_monitor": "Intel investor relations and public statements"
+    },
+    {
+      "event": "Broadcom's and Marvell's next quarterly results",
+      "expected_window": "December 2026 - February 2027",
+      "supports_if": "Both report AI semiconductor revenue growth in line with or above current guidance, confirming demand continues to outstrip wafer/packaging capacity",
+      "weakens_if": "Either materially misses guidance, suggesting demand growth -- not supply -- is the binding constraint",
+      "source_to_monitor": "Broadcom and Marvell investor relations"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "claim": "TSMC's official Q3 2026 financial results: revenue, net income, EPS, gross/operating/net margin, and node revenue mix (N3/N5/N2).", "source_url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm", "source_title": "Taiwan Semiconductor Manufacturing Co Ltd - Form 6-K - Q3 2026 results with guidance", "source_type": "primary", "published_at": "2026-10-15", "retrieved_at": "2026-10-16", "quote_or_extract": "sec.gov was blocked by the research environment's egress proxy this session (DNS/connection refused on direct fetch); the figures attributed here -- NT$1,494.24B revenue, NT$763.06B net income (+68.7% YoY), EPS NT$29.43, gross margin 66.4%, operating margin 58.7%, net margin 51.1%, and node mix (N3 33%, N5 28%, N2 8%, 7nm-and-below 79%) -- are confirmed via multiple convergent secondary-source summaries of this same filing/release (see s3, s4) rather than direct retrieval.", "confidence": "medium" },
+    { "id": "s2", "claim": "TSMC management commentary on the Q3 2026 earnings call: 2026 capex guidance reiterated at $60-64B; CoWoS/advanced-packaging commentary (demand-supply gap 'remains large,' capacity increasing 'as fast as possible,' too early to quantify, CoWoS still leading choice, GlobalFoundries backend collaboration, 5x/9x/14x reticle-size roadmap).", "source_url": "https://investor.tsmc.com/english/quarterly-results/2026/q3", "source_title": "TSMC Investor Relations - Q3 2026 quarterly results and earnings call", "source_type": "primary", "published_at": "2026-10-15", "retrieved_at": "2026-10-16", "quote_or_extract": "investor.tsmc.com was blocked by the research environment's egress proxy this session. The management commentary summarized here is drawn from convergent WebSearch summaries of aggregator-published transcripts/summaries of this call (see s8, s9), which this session could not independently cross-check against the official transcript; treat exact wording as approximate, not verbatim.", "confidence": "low" },
+    { "id": "s3", "claim": "Corroborating report of TSMC's Q3 2026 results, the beat versus consensus, and the share-price decline on the news.", "source_url": "https://www.cnbc.com/amp/2026/10/15/tsmc-third-quarter-profit-global-ai-.html", "source_title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom", "source_type": "secondary", "published_at": "2026-10-15", "retrieved_at": "2026-10-16", "quote_or_extract": "Confirms TSMC's sixth consecutive record-profit quarter, a beat versus analyst estimates, and attributes growth to AI chip demand. (Accessed via WebSearch result summary; direct WebFetch to cnbc.com was not attempted this session.)", "confidence": "medium" },
+    { "id": "s4", "claim": "Corroborating key-facts summary: Q3 revenue NT$1.49T record, 2026 capex reiterated at $60-64B, EPS $4.60 vs $4.42 consensus, share price slipped despite the beat.", "source_url": "https://www.tradingview.com/news/tradingview:b9aeff60d735d:0-key-facts-tsmc-2330-q3-revenue-nt-1-49t-record-2026-capex-60-64b/", "source_title": "Key facts: TSMC (2330) Q3 revenue NT$1.49T record; 2026 capex $60-64B", "source_type": "secondary", "published_at": "2026-10-15", "retrieved_at": "2026-10-16", "quote_or_extract": "Confirms record NT$1.49T Q3 revenue, EPS of $4.60 versus $4.42 consensus, 2026 capex guidance reiterated at $60-64B (raised from $52-56B in July), and that TSMC's shares slipped despite the beat. Also reports management saying 2026-2028 capex will be significantly higher than the prior three years. (Accessed via WebSearch result summary; direct WebFetch to tradingview.com was not attempted this session.)", "confidence": "medium" },
+    { "id": "s5", "claim": "Report describing TSMC's maintained 2026 capex forecast and a 'cautious' framing around the 2027 outlook.", "source_url": "https://yournews.com/2026/10/15/7226910/tsmc-posts-sixth-consecutive-record-quarterly-profit-takes-cautious-view/", "source_title": "TSMC Posts Sixth Consecutive Record Quarterly Profit, Takes Cautious View for 2027", "source_type": "secondary", "published_at": "2026-10-15", "retrieved_at": "2026-10-16", "quote_or_extract": "States TSMC maintained its 2026 capital-expenditure forecast at $60-64 billion. This single outlet's characterization of a 'cautious' 2027 view was not independently corroborated by other sources found this session, so it is treated here as a low-confidence framing rather than a confirmed fact. (Accessed via WebSearch result summary.)", "confidence": "low" },
+    { "id": "s6", "claim": "TrendForce-sourced industry estimates: CoWoS supply-demand gap narrowing from ~20% to ~10% by end-2026 on a ~10x capacity build-out since 2023; capacity estimated at ~120,000-140,000 wafers/month in 2026 rising toward ~260,000 by 2028; OSAT (UMC, Amkor) spillover estimated at ~50,000-60,000 wafers/month.", "source_url": "https://www.trendforce.com/news/2026/07/16/news-tsmc-lifts-2026-capex-15-to-60-64b-hikes-sales-outlook-to-over-40-despite-q3-margin-dip/", "source_title": "TrendForce: TSMC lifts 2026 capex 15% to $60-64B, hikes sales outlook to over 40% despite Q3 margin dip", "source_type": "secondary", "published_at": "2026-07-16", "retrieved_at": "2026-10-16", "quote_or_extract": "Reports TSMC's July capex raise to $60-64B and associated CoWoS capacity/gap-narrowing estimates referenced across TrendForce's 2026 coverage. (Accessed via WebSearch result summary spanning multiple TrendForce articles; direct WebFetch to trendforce.com was not attempted this session.)", "confidence": "low" },
+    { "id": "s7", "claim": "Analyst/industry estimates of Intel's EMIB-T packaging capacity trajectory (~15,000-20,000 wafers/month in 2027, ~40,000-45,000 in 2028) as a second source to TSMC's CoWoS.", "source_url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/373574-tsmcs-cowos-capacity-to-double-by-2028-and-rivals-will-still-win-orders/", "source_title": "TSMC's CoWoS capacity to double by 2028 and rivals will still win orders", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-10-16", "quote_or_extract": "Describes supply-chain estimates for TSMC's CoWoS capacity reaching ~260,000 wafers/month by 2028 and Intel's EMIB-T as a smaller-scale second-source packaging alternative, explicitly noting these figures are analyst projections, not formal company guidance. (Accessed via WebSearch result summary.)", "confidence": "low" },
+    { "id": "s8", "claim": "Analysis confirming TSMC has not used 'sold out' or 'fully booked' language on its 2026 earnings calls regarding CoWoS, and quoting Wei's July 2026 remark that packaging capacity is 'so tight that now it's limiting my customers' growth.'", "source_url": "https://siliconanalysts.com/analysis/foundry-allocation-status-q1-2026", "source_title": "Is TSMC CoWoS Sold Out in 2026? What TSMC Actually Said", "source_type": "secondary", "published_at": "2026", "retrieved_at": "2026-10-16", "quote_or_extract": "States that 'sold out' and specific lead-time figures for CoWoS come from trade reports and analysts, not from TSMC itself, and that TSMC does not publish CoWoS capacity or lead times; cites Wei's July 2026 comment that packaging capacity is tight enough to limit customer growth. (Accessed via WebSearch result summary.)", "confidence": "medium" },
+    { "id": "s9", "claim": "Report of TSMC's Q4 2026 guidance (implied ~58% YoY revenue growth) framed as 'AI demand outpaces supply.'", "source_url": "https://finance.biggo.com/news/US_TSM_2026-10-15", "source_title": "[Taiwan Semiconductor Manufacturing Q3 2026 Earnings Call] TSMC Posts $46.7B Revenue, Up 16.2% QoQ, and Guides to a 58% YoY Surge in Q4 as AI Demand Outpaces Supply", "source_type": "secondary", "published_at": "2026-10-15", "retrieved_at": "2026-10-16", "quote_or_extract": "Reports Q3 2026 revenue of $46.7B (+16.2% QoQ) and Q4 2026 guidance implying roughly 58% YoY growth, framed as AI demand continuing to outpace supply. (Accessed via WebSearch result summary; direct WebFetch to finance.biggo.com failed -- domain blocked by the research environment's egress proxy.)", "confidence": "medium" },
+    { "id": "s10", "claim": "JPMorgan estimate of TSMC CoWoS capacity at ~95,000 wafers/month by end-2026 rising to ~112,000 by end-2027, crediting the AP8 facility -- a materially lower estimate than TrendForce's, illustrating the spread in third-party capacity estimates.", "source_url": "https://www.trendforce.com/news/?p=59316", "source_title": "TrendForce coverage citing JPMorgan's TSMC CoWoS capacity estimate", "source_type": "secondary", "published_at": "2026-09", "retrieved_at": "2026-10-16", "quote_or_extract": "Cites a JPMorgan estimate of ~95,000 wafers/month CoWoS capacity by end-2026 and ~112,000 by end-2027, driven by the AP8 facility -- notably lower than TrendForce's own 120,000-140,000 estimate, underscoring that none of these figures are TSMC-disclosed. (Accessed via WebSearch result summary.)", "confidence": "low" }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

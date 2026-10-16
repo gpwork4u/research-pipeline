@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>資本支出高原期:台積電維持 600-640 億美元的 2026 年指引,是否顯示封裝瓶頸正在緩解,而晶圓產能才是 AI 晶片真正的瓶頸?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck</guid>
+      <pubDate>Fri, 16 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>semiconductors</category>
+      <category>advanced-packaging</category>
+      <category>custom-silicon</category>
+      <category>ai-infrastructure</category>
+      <description>台積電儘管業績創紀錄,仍僅維持而非上調 2026 年資本支出 -- 顯示封裝瓶頸正朝成長領域緩解,晶圓產能才是真正的結構性瓶頸。
+
+台積電 2026 年 10 月 15 日法說會公布營收達 467 億美元(季增 16.2%)創紀錄,第四季財測隱含年增約 58%,但管理層僅維持 600-640 億美元的 2026 年資本支出區間,並未再度上調。CoWoS/封裝相關說法與 7 月相比持平(「缺口仍然很大」,從未使用「售罄」或「全數訂滿」),同時 OSAT 與英特爾的第二供應來源持續擴大。另一方面,2 奈米製程爬坡單獨造成毛利率下滑 1.3 個百分點,管理層也表示產能成長幅度「現在還難以量化」。這再次確認本研究管道 9 月至 10 月將封裝下調為成長領域的判斷,同時維持先進製程晶圓產能為具約束力的結構性瓶頸。主要不確定性在於:台積電並未揭露 CoWoS 產能或交期,「缺口縮小」的說法仍建立在分歧近五成的分析師估計之上。</description>
+    </item>
+    <item>
       <title>六個百分點的差距：IDC 的輝達-華為中國 AI 晶片數據，是否同時推翻「份額歸零」與「九成國產化」兩種敘事？</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/china-ai-chip-market-share-nvidia-huawei-gap-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/china-ai-chip-market-share-nvidia-huawei-gap-bottleneck</guid>

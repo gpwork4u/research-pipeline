@@ -914,5 +914,24 @@
       "Nvidia",
       "Huawei"
     ]
+  },
+  {
+    "slug": "tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck",
+    "title": "The Capex Plateau: Does TSMC's Unchanged $60-64B 2026 Guide Show Packaging Easing While Wafer Capacity Stays AI Chips' Real Bottleneck?",
+    "last_updated": "2026-10-16",
+    "reports": [
+      "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "semiconductors",
+      "advanced-packaging",
+      "custom-silicon",
+      "ai-infrastructure"
+    ],
+    "companies": [
+      "TSMC",
+      "Broadcom"
+    ]
   }
 ]

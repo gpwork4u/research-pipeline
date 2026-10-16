@@ -1,0 +1,24 @@
+[
+  {
+    "title": "TSMC 2026 capex guidance: before vs. after the July raise, reiterated in Q3",
+    "title_zh": "台積電 2026 年資本支出指引：7 月上調前後，第三季維持不變",
+    "type": "bar",
+    "unit": "USD billion (range midpoint)",
+    "source_id": "s2",
+    "series": [
+      { "label": "Pre-July 2026 guide ($52-56B)", "value": 54 },
+      { "label": "Post-July / Q3-reiterated ($60-64B)", "value": 62 }
+    ]
+  },
+  {
+    "title": "TSMC CoWoS supply-demand gap (analyst estimate)",
+    "title_zh": "台積電 CoWoS 供需缺口（分析師估計）",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "s6",
+    "series": [
+      { "label": "~2024 baseline", "value": 20 },
+      { "label": "End-2026 estimate", "value": 10 }
+    ]
+  }
+]
