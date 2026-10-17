@@ -1,0 +1,24 @@
+[
+  {
+    "title": "ASML lithography systems sold (quarterly)",
+    "title_zh": "ASML 光刻設備出貨量(季度)",
+    "type": "bar",
+    "unit": "systems",
+    "source_id": "s9",
+    "series": [
+      { "label": "Q2 2026", "value": 86 },
+      { "label": "Q3 2026", "value": 113 }
+    ]
+  },
+  {
+    "title": "China share of ASML system sales (quarterly)",
+    "title_zh": "中國占 ASML 系統銷售比重(季度)",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "s10",
+    "series": [
+      { "label": "Q2 2026", "value": 14 },
+      { "label": "Q3 2026", "value": 23 }
+    ]
+  }
+]

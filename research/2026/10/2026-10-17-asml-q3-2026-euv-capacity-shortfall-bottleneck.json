@@ -1,0 +1,282 @@
+{
+  "topic": {
+    "title": "ASML's Q3 2026: AI Demand Now Outruns Even Expanded EUV Capacity Through 2028",
+    "slug": "asml-q3-2026-euv-capacity-shortfall-bottleneck",
+    "date": "2026-10-17",
+    "research_type": "FOLLOW_UP",
+    "categories": ["semiconductors", "ai-infrastructure", "advanced-manufacturing", "geopolitics"],
+    "score": 30,
+    "trigger": "ASML's October 14, 2026 Q3 earnings call: CEO Christophe Fouquet said planned 2027-2028 EUV/DUV capacity will not fully meet AI-driven demand even after the previously guided +30% 2027 expansion, 2028 capacity is now being expanded beyond that +30% plan, and some customers are requesting orders for 2029 and 2030. This directly resolves the open watchlist event 'ASML's Q3 2026 earnings call (mid-October 2026)' tied to this pipeline's September 9, 2026 ASML EUV-monopoly report."
+  },
+  "questions": {
+    "primary": "Does ASML's October 14, 2026 Q3 call -- record EUR11.7B sales, raised FY2026 guidance, and Fouquet's statement that planned 2027-2028 capacity will not fully meet AI-driven demand even with expansion beyond the previously communicated +30% step -- mark the point where this pipeline's September 9 finding of a 'latent' EUV lithography Structural Bottleneck starts becoming proximate rather than purely theoretical?",
+    "sub": [
+      "What exactly did Fouquet say about 2027/2028 supply vs. demand, and how does it differ from the July 2026 guidance?",
+      "How reliable is the 'orders into 2029-2030' claim, and what does it imply about backlog visibility?",
+      "Does ASML's own capacity math (113 systems in Q3 vs. 86 in Q2; +30% 2027 plan) show it closing the gap or falling further behind?",
+      "Does the rise in China's share of ASML system sales (23% vs. 14% QoQ) complicate the export-control dimension of the bottleneck thesis from the October 9 report?",
+      "Have any foundry or memory-maker disclosures (as of October 17) corroborated lithography-tool availability as a binding constraint, or do they still cite packaging/HBM first?"
+    ]
+  },
+  "thesis": "ASML's own supplier-side admission that planned 2027-2028 EUV/DUV capacity will not fully meet AI-driven demand, even after expanding capacity beyond the previously guided +30% step, is the first primary-source signal that this pipeline's 'latent' EUV lithography Structural Bottleneck is starting to tighten toward proximate -- though no foundry or memory customer has yet named lithography tool availability, rather than packaging or HBM, as the actual binding constraint on AI chip output.",
+  "facts": [
+    {
+      "statement": "ASML reported Q3 2026 total net sales of approximately EUR11.7 billion, net income of approximately EUR5.0 billion, and a gross margin of 57.5%.",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s3", "s4"],
+      "confidence": "high"
+    },
+    {
+      "statement": "ASML sold 113 new lithography systems in Q3 2026, up from 86 systems in Q2 2026.",
+      "type": "FACT",
+      "evidence_ids": ["s9", "s11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "ASML raised its FY2026 net sales guidance to EUR44-45 billion (from EUR43-45 billion guided in July 2026) at a gross margin of about 56%, and guided Q4 2026 net sales to EUR14.2-15.2 billion at a gross margin of about 57%.",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s3", "s4"],
+      "confidence": "high"
+    },
+    {
+      "statement": "CEO Christophe Fouquet said ASML's currently planned supply for 2027 and 2028 will not fully meet demand, and the company is investigating ways to increase 2028 capacity beyond the +30% increase it communicated in July 2026; the previously guided +30% increase to 2027 low-NA EUV capacity (from about 65 systems in 2026) and +30% to DUV immersion capacity (from about 130 systems) remains in place.",
+      "type": "FACT",
+      "evidence_ids": ["s5", "s6", "s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Fouquet said that in light of their demand visibility, some customers are expressing interest in placing orders with ASML for 2029 and even 2030.",
+      "type": "FACT",
+      "evidence_ids": ["s5", "s6", "s7"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Management said customers continue to increase their short- and medium-term equipment demand forecasts with ASML, driven primarily by their views on the size and duration of AI-related investments.",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "ASML repurchased approximately EUR4.1 billion of shares in Q3 2026 under its 2026-2028 buyback program and will pay an interim 2026 dividend of EUR1.88 per share on November 4, 2026.",
+      "type": "FACT",
+      "evidence_ids": ["s9", "s1"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "China's share of ASML's Q3 2026 system sales rose to approximately 23%, up from approximately 14% in Q2 2026, according to South China Morning Post reporting, even as US-led export controls on advanced lithography tools to China remain in effect.",
+      "type": "FACT",
+      "evidence_ids": ["s10"],
+      "confidence": "low"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "A supplier stating its own expanded capacity plan will not fully meet demand through 2028 is a stronger signal of tightening than the September 9 finding that ASML's shipment growth was merely 'keeping pace' with demand -- this moves the EUV bottleneck from purely latent toward a state where supply-side scarcity is now acknowledged by the sole supplier itself.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s5", "s6", "s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Multi-year pre-booking requests for 2029-2030 slots suggest customers see lithography-tool access, not just current-year output, as the scarce resource they most need to lock in -- consistent with Low supply elasticity even as ASML's own shipment volume grows.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s5", "s6", "s7"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "The claim that supply will not meet demand remains a forward-looking management statement, not an independently verified fab-level utilization disclosure from a foundry or memory customer -- so it is better read as the lithography bottleneck's clearest primary-source warning sign to date, not confirmation that it is already the proximate constraint on AI chip output.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s5", "s6", "s8"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "A near-doubling of China's system-sales share in one quarter, even under export controls, suggests licensed non-EUV (DUV and mature-tool) sales to China are running well ahead of the gradual decline the October 9 report's thesis expected, complicating rather than resolving that thesis's China-exposure kill condition.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s10"],
+      "confidence": "low"
+    }
+  ],
+  "unknowns": [
+    "No foundry or memory-maker (TSMC, Samsung, SK Hynix, Micron, Intel) has yet disclosed, as of October 17, 2026, whether it is running EUV/High-NA tools at full utilization against unmet demand, versus holding some idle capacity.",
+    "The exact incremental 2028 capacity figure 'beyond +30%' has not been quantified by ASML; only the direction (more than previously planned) is confirmed.",
+    "Whether the reported 2029-2030 order interest reflects binding commitments or exploratory customer inquiries is unconfirmed.",
+    "Whether the Q3 2026 China system-sales share increase (23% vs. 14%) reflects DUV-only shipments, backlog timing, or a change in export-license approvals was not confirmed in sources gathered.",
+    "asml.com and sec.gov were blocked by the research environment's egress proxy; figures and quotes attributed to the SEC 6-K exhibits and ASML's own press release rely on convergent secondary-source reprints and search-result snippets, not direct retrieval."
+  ],
+  "industry_chain": [
+    {
+      "name": "EUV / High-NA EUV lithography tool manufacturing",
+      "role": "Upstream",
+      "major_players": ["ASML", "Carl Zeiss SMT"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Advanced-node foundry wafer fabrication",
+      "role": "Infrastructure",
+      "major_players": ["TSMC", "Samsung Foundry", "Intel Foundry"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Advanced packaging & HBM memory",
+      "role": "Infrastructure",
+      "major_players": ["TSMC (CoWoS)", "SK Hynix", "Samsung", "Micron"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "EUV/High-NA lithography tool supply (ASML)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "2-3 years (per capacity-expansion cycle)",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "High",
+      "profit_capture": "High",
+      "opportunity_score": 4,
+      "classification": "Structural Bottleneck",
+      "rationale": "Meets the strict test: Extreme AI-driven demand, Low elasticity (sole supplier, multi-year lead times even with +30% expansion), Hard substitutability (no qualified EUV alternative). The October 14 call is the first primary-source signal that this is tightening from latent toward proximate, since ASML itself says planned supply through 2028 will not fully meet demand."
+    },
+    {
+      "node": "Advanced-node foundry wafer fabrication (N3/N2)",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "3-5 years",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "High",
+      "profit_capture": "High",
+      "opportunity_score": 4,
+      "classification": "Structural Bottleneck",
+      "rationale": "Consistent with this pipeline's October 16, 2026 TSMC Q3 report: leading-edge wafer capacity meets the strict test independently of the lithography-tool node above."
+    },
+    {
+      "node": "Advanced packaging & HBM memory",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Medium",
+      "expansion_time": "1-2 years",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "High",
+      "profit_capture": "Medium",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "Consistent with this pipeline's September-October downgrade: demand-supply gap language is flat and second-sourcing (OSAT, Intel EMIB-T) is emerging, so it does not meet the strict three-part test even though demand is Extreme."
+    }
+  ],
+  "companies": [
+    {
+      "name": "ASML",
+      "business_model": "Sole global supplier of EUV and DUV immersion lithography systems to leading-edge semiconductor foundries and memory makers, plus recurring installed-base management/service revenue.",
+      "revenue_model": "Per-system sales (low-NA EUV, High-NA EUV, DUV immersion, tiered by capability) plus installed-base management and upgrade revenue.",
+      "cost_structure": null,
+      "gross_margin": "57.5 (Q3 2026, percent)",
+      "operating_margin": null,
+      "growth_drivers": [
+        "AI-driven logic and memory capacity expansion at TSMC, Samsung, Intel, SK Hynix and Micron",
+        "High-NA EUV production ramp",
+        "2027 EUV/DUV capacity expansion (+30%) and a 2028 expansion now planned to exceed +30%"
+      ],
+      "customer_concentration": "High: concentrated among a handful of leading-edge foundries and memory makers; China's share of system sales rose to approximately 23% in Q3 2026 from approximately 14% in Q2 2026.",
+      "moat": "Approximately 30 years and $10B+ of R&D invested in a monopoly on EUV lithography; exclusive optics relationship with Carl Zeiss SMT; no qualified leading-edge alternative exists.",
+      "switching_costs": "Extreme -- no substitute EUV technology exists at volume; foundries and memory makers have no alternative EUV tool supplier.",
+      "capital_intensity": "High -- individual EUV/High-NA systems represent large unit capital costs for both ASML and its customers; multi-year capacity-expansion commitments on both sides.",
+      "management_strategy": "Proceed with the previously guided +30% 2027 EUV/DUV capacity expansion and investigate expanding 2028 capacity beyond the previously communicated +30% step, because disclosed demand through 2027-2028 now exceeds even that expanded plan.",
+      "execution_risk": "Capacity expansion depends on long lead-time components and the Zeiss optics supply chain scaling in step; management has not yet quantified the incremental 2028 capacity beyond +30%."
+    }
+  ],
+  "metrics": [
+    { "name": "Q3 2026 net sales", "value": 11.7, "unit": "EUR billions", "period": "Q3 2026", "source_id": "s1" },
+    { "name": "Q3 2026 net income", "value": 5.0, "unit": "EUR billions", "period": "Q3 2026", "source_id": "s1" },
+    { "name": "Q3 2026 gross margin", "value": 57.5, "unit": "percent", "period": "Q3 2026", "source_id": "s9" },
+    { "name": "Systems sold Q3 2026", "value": 113, "unit": "systems", "period": "Q3 2026", "growth": "up from 86 in Q2 2026", "source_id": "s9" },
+    { "name": "FY2026 net sales guidance", "value": "44-45", "unit": "EUR billions", "period": "FY2026", "source_id": "s1" },
+    { "name": "Q4 2026 net sales guidance", "value": "14.2-15.2", "unit": "EUR billions", "period": "Q4 2026", "source_id": "s1" },
+    { "name": "2027 EUV/DUV capacity expansion plan", "value": 30, "unit": "percent increase vs. 2026 baseline", "period": "2027", "source_id": "s6" },
+    { "name": "China share of ASML system sales", "value": "23 (Q3) vs. 14 (Q2)", "unit": "percent", "period": "Q2-Q3 2026", "source_id": "s10" },
+    { "name": "Q3 2026 share buyback", "value": 4.1, "unit": "EUR billions", "period": "Q3 2026", "source_id": "s9" },
+    { "name": "Interim dividend", "value": 1.88, "unit": "EUR per share", "period": "2026 (payable Nov 4, 2026)", "source_id": "s9" }
+  ],
+  "competitors": [
+    { "name": "Canon (nanoimprint lithography)", "kind": "indirect alternative", "note": "Shipped systems in 2026; not viable at the leading edge for AI accelerator production; positioned as a complement, not an EUV substitute." },
+    { "name": "China's SMEE / domestic EUV program", "kind": "indirect alternative", "note": "Prototype light source still several generations behind ASML; no leading-edge qualified win as of this report." }
+  ],
+  "financials": [],
+  "valuation": { "available": false, "reason": "No current share price, share count, or standalone valuation analysis was gathered or central to this report's topic; it tracks ASML's supply-demand and capacity disclosures, not an investment valuation." },
+  "catalysts": [
+    "TSMC's, Samsung's, SK Hynix's and Intel's Q3/Q4 2026 earnings calls (late October-November 2026) for any explicit lithography-tool-availability commentary",
+    "ASML's Q4 2026 earnings call (January 2027) for a quantified 2028 capacity figure",
+    "Next TrendForce or SEMI equipment lead-time / WFE capex update specific to EUV/DUV tools",
+    "Dutch/US government decision on ASML's China export-licensing scope",
+    "Further reporting corroborating or disputing the 2029-2030 pre-booking claim"
+  ],
+  "bear_case": [
+    { "dimension": "Demand", "argument": "Revenue is concentrated among a handful of AI-exposed foundry and memory customers; any slowdown in hyperscaler capex could turn 'orders through 2030' into an overbooked backlog that gets trimmed, as has happened in other AI-supply-chain segments this pipeline has covered." },
+    { "dimension": "Supply", "argument": "ASML's own capacity growth (113 systems in Q3 2026 vs. 86 in Q2; a +30% 2027 plan now being extended further for 2028) shows it is actively closing the gap, which could undermine the 'Low elasticity' framing if growth outpaces even the revised demand signal." },
+    { "dimension": "Execution", "argument": "The 'cannot fully meet demand' framing rests on forward-looking management commentary, not independently verified fab-level utilization data; as of October 17, 2026, no foundry or memory customer has cited EUV/High-NA tool unavailability -- rather than packaging, HBM, power, or labor -- as the binding constraint on its own AI chip output." },
+    { "dimension": "Regulation", "argument": "China's system-sales share rising to approximately 23% even under export controls complicates the thesis: either controls are more porous than assumed (undermining the controlled-supply, Hard-substitutability framing versus Chinese domestic efforts) or a sudden full ban could abruptly remove a fifth-plus of near-term revenue visibility." }
+  ],
+  "kill_conditions": [
+    { "condition": "A foundry or memory customer explicitly attributes an AI chip output shortfall to EUV/High-NA lithography-tool unavailability rather than packaging, HBM, power, or labor constraints", "metric": "Primary-disclosed cause of AI chip capacity shortfall", "threshold": "At least one explicit primary-source disclosure naming lithography-tool availability as the binding constraint", "time_window": "next 2-3 quarters", "impact": "invalidate" },
+    { "condition": "ASML's 2027/2028 capacity expansion plans are cut back rather than extended further", "metric": "ASML capacity guidance", "threshold": "A confirmed downward revision from the +30% (2027) / beyond-+30% (2028) plan", "time_window": "next 2 quarters", "impact": "invalidate" },
+    { "condition": "ASML reports bookings or backlog declining rather than growing", "metric": "ASML disclosed backlog / bookings", "threshold": "Quarter-over-quarter backlog decline", "time_window": "next 2 quarters", "impact": "weaken" },
+    { "condition": "The Dutch or US government enacts a full ban on ASML sales and servicing to China, including DUV tools", "metric": "Scope of Dutch/US export-control decision", "threshold": "Full ban enacted covering DUV sales and servicing", "time_window": "next 2 quarters", "impact": "weaken" }
+  ],
+  "validation_events": [
+    {
+      "event": "TSMC's, Samsung's, SK Hynix's and Intel's Q3/Q4 2026 earnings calls: any explicit lithography-tool-availability commentary",
+      "expected_window": "late October - mid November 2026",
+      "supports_if": "Any foundry or memory maker explicitly names EUV/High-NA tool availability (not packaging/HBM/power) as a binding constraint on its AI chip output",
+      "weakens_if": "All continue to cite only packaging, HBM, power, or labor as binding, with no lithography-specific constraint mentioned",
+      "source_to_monitor": "Respective investor relations pages"
+    },
+    {
+      "event": "ASML's Q4 2026 earnings call and a quantified 2028 capacity/backlog disclosure",
+      "expected_window": "January 2027",
+      "supports_if": "Management confirms backlog growth and quantifies the 2028 capacity expansion beyond +30%",
+      "weakens_if": "Management scales back the 2027/2028 capacity plans or reports backlog growth stalling",
+      "source_to_monitor": "ASML investor relations / SEC 6-K filings"
+    },
+    {
+      "event": "Independent corroboration (or rebuttal) of ASML's reported 2029-2030 customer pre-booking interest",
+      "expected_window": "next 2-3 quarters",
+      "supports_if": "TrendForce, SEMI, or sell-side research corroborates multi-year pre-booking at scale",
+      "weakens_if": "Pre-booking claims are not corroborated, or bookings/book-to-bill data shows a near-term slowdown",
+      "source_to_monitor": "TrendForce, SEMI.org, sell-side research notes"
+    },
+    {
+      "event": "Dutch/US government decision on ASML's China export-licensing scope",
+      "expected_window": "Q4 2026 - Q1 2027",
+      "supports_if": "Controls tighten further even as China's system-sales share has been rising",
+      "weakens_if": "Controls are eased, or China's share declines again, resolving the complication this report raised",
+      "source_to_monitor": "Dutch government announcements; trade press (Reuters, Bloomberg)"
+    },
+    {
+      "event": "Next TrendForce or SEMI equipment lead-time / WFE capex tracking update specific to EUV/DUV tools",
+      "expected_window": "Q4 2026 - Q1 2027",
+      "supports_if": "Lead times lengthen, or 2027-2028 WFE capex estimates for lithography are revised up",
+      "weakens_if": "Lead times shorten, or lithography capex estimates are revised down",
+      "source_to_monitor": "TrendForce press center; SEMI.org"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "claim": "ASML Q3 2026 financial results press release: net sales, net income, gross margin, FY2026 and Q4 2026 guidance, management commentary on customer demand forecasts.", "source_url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm", "source_title": "ASML Holding NV - Form 6-K - Q3 2026 press release exhibit", "source_type": "primary", "published_at": "2026-10-14", "retrieved_at": "2026-10-17", "quote_or_extract": "SEC EDGAR was blocked by the research environment's egress proxy; figures and quotes attributed to this filing rely on convergent secondary-source reprints and search-result snippets, not direct retrieval.", "confidence": "high" },
+    { "id": "s2", "claim": "ASML Q3 2026 investor presentation exhibit filed alongside the earnings press release.", "source_url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/a2026_10x14xpresentation.htm", "source_title": "ASML Holding NV - Form 6-K - Q3 2026 investor presentation exhibit", "source_type": "primary", "published_at": "2026-10-14", "retrieved_at": "2026-10-17", "quote_or_extract": "SEC EDGAR was blocked by the research environment's egress proxy; this filing's existence and exhibit title were confirmed via search results, not direct retrieval.", "confidence": "medium" },
+    { "id": "s3", "claim": "ASML reported EUR11.7 billion total net sales and EUR5.0 billion net income in Q3 2026.", "source_url": "https://capital.com/en-au/news/asml-reports-11-7-billion-total-net-sales-and-5-0-billion", "source_title": "Capital.com: ASML reports EUR11.7 billion total net sales and EUR5.0 billion net income in Q3 2026", "source_type": "secondary", "published_at": "2026-10-14", "retrieved_at": "2026-10-17", "quote_or_extract": "ASML reports EUR11.7 billion total net sales and EUR5.0 billion net income in Q3 2026.", "confidence": "medium" },
+    { "id": "s4", "claim": "Wire reprint of ASML's Q3 2026 results release confirming the same headline figures.", "source_url": "https://mfn.se/all/a/asml-holding/asml-reports-eu11-7-billion-total-net-sales-and-eu5-0-billion-net-income-in-q3-2026-6f2ccf27", "source_title": "MFN.se: ASML reports EUR11.7 billion total net sales and EUR5.0 billion net income in Q3 2026", "source_type": "secondary", "published_at": "2026-10-14", "retrieved_at": "2026-10-17", "quote_or_extract": "Wire-service reprint of the official press release confirming net sales, net income and guidance figures.", "confidence": "medium" },
+    { "id": "s5", "claim": "ASML posts record EUR11.7B in sales but warns it can't keep up with AI demand; Fouquet quoted on 2027-2028 supply/demand and customer forecasts.", "source_url": "https://www.euronews.com/2026/10/14/asml-posts-record-117-billion-in-sales-but-warns-it-cant-keep-up-with-ai-demand", "source_title": "Euronews: ASML posts record EUR11.7 billion in sales but warns it can't keep up with AI demand", "source_type": "secondary", "published_at": "2026-10-14", "retrieved_at": "2026-10-17", "quote_or_extract": "Current supply planned for 2027 and 2028 will not fully meet demand; ASML is investigating ways to increase capacity for 2028 beyond the 30% increase previously communicated.", "confidence": "medium" },
+    { "id": "s6", "claim": "ASML profit beats as AI demand stretches orders into 2030; details on the +30% 2027 EUV/DUV capacity plan and 2028 expansion under evaluation.", "source_url": "https://dealroom.co/news/162388-asml-profit-beats-as-ai-demand-stretches-orders-into-2030/", "source_title": "Dealroom: ASML profit beats as AI demand stretches orders into 2030", "source_type": "secondary", "published_at": "2026-10-14", "retrieved_at": "2026-10-17", "quote_or_extract": "ASML is planning roughly 30% capacity growth in 2027 for both low-NA EUV and DUV immersion tools, with a further step beyond that already-communicated 30% now under evaluation for 2028.", "confidence": "medium" },
+    { "id": "s7", "claim": "ASML says it's getting order interest through 2030 as profit smashes expectations.", "source_url": "https://ground.news/article/5ac6418b-7cce-4e5b-b2c8-082877af3196", "source_title": "Ground News: ASML says it's getting order interest through 2030 as profit smashes expectations", "source_type": "secondary", "published_at": "2026-10-14", "retrieved_at": "2026-10-17", "quote_or_extract": "In light of their demand visibility, some customers are expressing an interest in placing orders with us for 2029 and even 2030.", "confidence": "medium" },
+    { "id": "s8", "claim": "ASML says AI chip demand will outrun its supply in 2027 and 2028.", "source_url": "https://cryptobriefing.com/asml-ai-demand-exceed-supply-2028/", "source_title": "Crypto Briefing: ASML says AI chip demand will outrun its supply in 2027 and 2028", "source_type": "secondary", "published_at": "2026-10-14", "retrieved_at": "2026-10-17", "quote_or_extract": "Management says planned supply through 2028 will not fully cover AI-driven demand, even after the previously guided capacity expansion.", "confidence": "medium" },
+    { "id": "s9", "claim": "ASML Q3 results: record quarter, capacity the constraint -- gross margin, operating profit, buyback, and dividend detail.", "source_url": "https://www.hl.co.uk/shares/share-research/asml-q3-results-record-quarter-capacity-the-constraint", "source_title": "Hargreaves Lansdown: ASML Q3 results: record quarter, capacity the constraint", "source_type": "secondary", "published_at": "2026-10-14", "retrieved_at": "2026-10-17", "quote_or_extract": "Gross margin of 57.5%; 113 new lithography systems sold in the quarter, up from 86 in Q2; free cash flow of EUR11.4 billion; EUR4.1 billion of shares repurchased; interim dividend of EUR1.88 per share payable November 4, 2026.", "confidence": "medium" },
+    { "id": "s10", "claim": "ASML's China sales rose 109% quarter over quarter in Q3 2026, per South China Morning Post reporting; China's share of system sales rose to approximately 23% from approximately 14% in Q2.", "source_url": "https://www.neoteo.com/en/asmls-china-sales-rose-109-quarter-over-quarter-in-q3-scmp-reports", "source_title": "Neoteo: ASML's China sales rose 109% quarter over quarter in Q3, SCMP reports", "source_type": "secondary", "published_at": "2026-10", "retrieved_at": "2026-10-17", "quote_or_extract": "China accounted for approximately 23% of ASML's Q3 2026 system sales, up from approximately 14% in Q2 2026, a 109% quarter-over-quarter increase.", "confidence": "low" },
+    { "id": "s11", "claim": "Summary of ASML's Q3 2026 earnings-call commentary, including management's statement that customers continue to raise their short- and medium-term equipment demand forecasts.", "source_url": "https://www.marketbeat.com/instant-alerts/transcript-what-asml-asml-said-on-its-q3-earnings-call-2026-10-14/", "source_title": "MarketBeat: Transcript -- what ASML said on its Q3 earnings call", "source_type": "secondary", "published_at": "2026-10-14", "retrieved_at": "2026-10-17", "quote_or_extract": "Our customers continue to increase their short- and medium-term equipment demand forecasts with us, driven primarily by their views on the size and duration of AI-related investments.", "confidence": "medium" }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

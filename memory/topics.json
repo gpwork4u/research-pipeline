@@ -933,5 +933,26 @@
       "TSMC",
       "Broadcom"
     ]
+  },
+  {
+    "slug": "asml-q3-2026-euv-capacity-shortfall-bottleneck",
+    "title": "ASML's Q3 2026: AI Demand Now Outruns Even Expanded EUV Capacity Through 2028",
+    "last_updated": "2026-10-17",
+    "reports": [
+      "reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "semiconductors",
+      "ai-infrastructure",
+      "advanced-manufacturing",
+      "geopolitics"
+    ],
+    "companies": [
+      "ASML",
+      "TSMC",
+      "Samsung Electronics",
+      "Intel"
+    ]
   }
 ]

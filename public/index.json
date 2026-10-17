@@ -1,5 +1,28 @@
 [
   {
+    "title": "ASML's Q3 2026: AI Demand Now Outruns Even Expanded EUV Capacity Through 2028",
+    "date": "2026-10-17",
+    "slug": "asml-q3-2026-euv-capacity-shortfall-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "semiconductors",
+      "ai-infrastructure",
+      "advanced-manufacturing",
+      "geopolitics"
+    ],
+    "companies": [
+      "ASML",
+      "TSMC",
+      "Samsung Electronics",
+      "Intel"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/asml-q3-2026-euv-capacity-shortfall-bottleneck",
+    "path": "reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "The Capex Plateau: Does TSMC's Unchanged $60-64B 2026 Guide Show Packaging Easing While Wafer Capacity Stays AI Chips' Real Bottleneck?",
     "date": "2026-10-16",
     "slug": "tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck",

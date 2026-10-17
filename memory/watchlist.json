@@ -790,7 +790,8 @@
     "weakens_if": "Management signals a capacity expansion pause, backlog deceleration, or softer AI-driven demand commentary",
     "source_to_monitor": "ASML investor relations (asml.com/investors)",
     "origin_report": "reports/2026/09/2026-09-09-asml-euv-lithography-monopoly-ai-bottleneck.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred October 14, 2026: supports_if branch confirmed, and more. ASML reiterated the +30% 2027 EUV/DUV capacity plan and said it is now evaluating expanding 2028 capacity beyond the previously communicated +30% step, because planned 2027-2028 supply will not fully meet AI-driven demand; some customers requested 2029-2030 order slots. Record Q3 results (EUR11.7B sales, EUR5.0B net income) and a raised FY2026 guide reinforced AI as the primary demand driver. See reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md."
   },
   {
     "event": "TSMC's Q3 2026 earnings call: whether lithography or packaging/HBM is cited as the binding AI chip constraint",
@@ -1826,7 +1827,8 @@
     "weakens_if": "China revenue share stabilizes or rebounds, or management downplays any competitive threat from domestic DUV tools",
     "source_to_monitor": "ASML investor relations (asml.com)",
     "origin_report": "reports/2026/10/2026-10-09-china-duv-lithography-stockpile-export-control-bottleneck.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred October 14, 2026: weakens_if branch confirmed. Per SCMP reporting, China's share of ASML's Q3 2026 system sales rose to approximately 23%, up from approximately 14% in Q2 2026 (a 109% QoQ increase), rebounding rather than continuing to fall, even as export controls remain in effect. See reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md."
   },
   {
     "event": "Further MATCH Act (H.R. 8170) congressional action",
@@ -2024,6 +2026,51 @@
     "weakens_if": "Either materially misses guidance, suggesting demand growth -- not supply -- is the binding constraint",
     "source_to_monitor": "Broadcom and Marvell investor relations",
     "origin_report": "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TSMC's, Samsung's, SK Hynix's and Intel's Q3/Q4 2026 earnings calls: any explicit lithography-tool-availability commentary",
+    "expected_window": "late October - mid November 2026",
+    "supports_if": "Any foundry or memory maker explicitly names EUV/High-NA tool availability (not packaging/HBM/power) as a binding constraint on its AI chip output",
+    "weakens_if": "All continue to cite only packaging, HBM, power, or labor as binding, with no lithography-specific constraint mentioned",
+    "source_to_monitor": "Respective investor relations pages",
+    "origin_report": "reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "ASML's Q4 2026 earnings call and a quantified 2028 capacity/backlog disclosure",
+    "expected_window": "January 2027",
+    "supports_if": "Management confirms backlog growth and quantifies the 2028 capacity expansion beyond +30%",
+    "weakens_if": "Management scales back the 2027/2028 capacity plans or reports backlog growth stalling",
+    "source_to_monitor": "ASML investor relations / SEC 6-K filings",
+    "origin_report": "reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Independent corroboration (or rebuttal) of ASML's reported 2029-2030 customer pre-booking interest",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "TrendForce, SEMI, or sell-side research corroborates multi-year pre-booking at scale",
+    "weakens_if": "Pre-booking claims are not corroborated, or bookings/book-to-bill data shows a near-term slowdown",
+    "source_to_monitor": "TrendForce, SEMI.org, sell-side research notes",
+    "origin_report": "reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Dutch/US government decision on ASML's China export-licensing scope",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Controls tighten further even as China's system-sales share has been rising",
+    "weakens_if": "Controls are eased, or China's share declines again, resolving the complication this report raised",
+    "source_to_monitor": "Dutch government announcements; trade press (Reuters, Bloomberg)",
+    "origin_report": "reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Next TrendForce or SEMI equipment lead-time / WFE capex tracking update specific to EUV/DUV tools",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Lead times lengthen, or 2027-2028 WFE capex estimates for lithography are revised up",
+    "weakens_if": "Lead times shorten, or lithography capex estimates are revised down",
+    "source_to_monitor": "TrendForce press center; SEMI.org",
+    "origin_report": "reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md",
     "status": "open"
   }
 ]

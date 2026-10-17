@@ -6,6 +6,18 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>ASML 2026 年第三季:AI 需求已超越擴產後的 EUV 產能,直到 2028 年</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/asml-q3-2026-euv-capacity-shortfall-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/asml-q3-2026-euv-capacity-shortfall-bottleneck</guid>
+      <pubDate>Sat, 17 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <category>advanced-manufacturing</category>
+      <category>geopolitics</category>
+      <description>ASML於2026年10月14日公布第三季營收約117億歐元、淨利約50億歐元,並上修全年財測至440-450億歐元,本季出貨113台設備,高於第二季的86台。真正轉折在於定性說法:執行長傅凱表示,即使2027年已guided擴產30%,目前規劃的2027-2028年產能仍無法完全滿足需求,ASML正評估2028年再加碼擴產;部分客戶已要求預訂2029至2030年產能。這是9月報告「潛伏型」EUV瓶頸首度出現的供應端收緊訊號。目前尚無晶圓廠或記憶體客戶明確指出EUV產能、而非封裝或HBM,是其自身瓶頸。中國銷售占比由約14%倍增至約23%,增添出口管制面的複雜性。</description>
+    </item>
+    <item>
       <title>資本支出高原期:台積電維持 600-640 億美元的 2026 年指引,是否顯示封裝瓶頸正在緩解,而晶圓產能才是 AI 晶片真正的瓶頸?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck</guid>
