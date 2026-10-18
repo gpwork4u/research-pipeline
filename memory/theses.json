@@ -809,12 +809,13 @@
   {
     "id": "thesis-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck",
     "topic": "ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck",
-    "statement": "Samsung, SK Hynix and Micron have redirected shared DRAM wafer capacity toward higher-margin HBM for AI accelerators, and the resulting crowd-out has pushed conventional DDR4/DDR5 prices up as much as 485% year-over-year by September 2026, driven Micron out of the consumer memory business, and pushed memory to 40-50% of a standard server's bill of materials. For conventional DRAM specifically, this plausibly meets the strict Structural Bottleneck test (demand High, supply elasticity Low, substitutability Hard), but a June 25, 2026 Sherman Act class action (Garciaguirre v. Samsung Electronics) alleges the shortage is a deliberately coordinated restriction rather than a purely structural constraint -- a claim neither proven nor disproven as of the research date, and the central uncertainty this thesis tracks.",
+    "statement": "Samsung, SK Hynix and Micron have redirected shared DRAM wafer capacity toward higher-margin HBM for AI accelerators, and the resulting crowd-out has pushed conventional DDR4/DDR5 prices up as much as 485% year-over-year by September 2026, driven Micron out of the consumer memory business, and pushed memory to 40-50% of a standard server's bill of materials. For conventional DRAM specifically, this plausibly meets the strict Structural Bottleneck test (demand High, supply elasticity Low, substitutability Hard), but a June 25, 2026 Sherman Act class action (Garciaguirre v. Samsung Electronics) alleges the shortage is a deliberately coordinated restriction rather than a purely structural constraint -- a claim neither proven nor disproven as of the research date, and the central uncertainty this thesis tracks. UPDATE (2026-10-18): IDC data confirmed an industry-wide downstream effect for the first time -- global PC shipments fell 20.1% YoY in Q3 2026, a second consecutive decline -- while TrendForce's Q4 2026 forecast shows conventional DRAM price growth still rising but decelerating sharply (10-15% QoQ) from the roughly 58-63% QoQ pace reported earlier in 2026, and the Garciaguirre antitrust case remains unresolved with its motion-to-dismiss hearing reset to November 13, 2026.",
     "confidence": "medium",
     "created_at": "2026-09-13",
-    "updated_at": "2026-09-13",
+    "updated_at": "2026-10-18",
     "supporting_reports": [
-      "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md"
+      "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
+      "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md"
     ],
     "kill_conditions": [
       {

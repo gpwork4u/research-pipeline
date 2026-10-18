@@ -1,5 +1,29 @@
 [
   {
+    "title": "PC Shipments Fall 20% as AI's HBM Grab for Conventional DRAM Reaches the Consumer Market",
+    "date": "2026-10-18",
+    "slug": "pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "memory",
+      "consumer-electronics",
+      "regulation"
+    ],
+    "companies": [
+      "Micron Technology",
+      "Samsung Electronics",
+      "SK Hynix",
+      "Lenovo"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck",
+    "path": "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "ASML's Q3 2026: AI Demand Now Outruns Even Expanded EUV Capacity Through 2028",
     "date": "2026-10-17",
     "slug": "asml-q3-2026-euv-capacity-shortfall-bottleneck",

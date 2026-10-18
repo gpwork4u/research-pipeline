@@ -6,6 +6,19 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>PC出貨量季減20%:AI搶奪HBM產能的衝擊蔓延至傳統記憶體消費市場</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck</guid>
+      <pubDate>Sun, 18 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>memory</category>
+      <category>consumer-electronics</category>
+      <category>regulation</category>
+      <description>IDC於2026年10月8日公布數據顯示,2026年第三季全球PC出貨量年減20.1%至6,270萬台,為連續第二季下滑,主因是廠商提前囤貨應對記憶體漲價,加上供給持續吃緊。這是本研究管道9月13日報告預期AI/HBM排擠傳統DRAM將造成下游衝擊的首次產業全面性證實。TrendForce 9月30日預測顯示,2026年第四季傳統DRAM價格仍將上漲(季增10-15%),但遠低於2026年初約58-63%的季增速度——訊號模糊。美光創紀錄的財年第四季財報(DRAM占營收73%)中,管理層表示對供需何時重新平衡「沒有能見度」,且新產能要到2028年底後才會到位。PC/模組通路的前瞻指標——RDIMM位元成長落後伺服器CPU成長,以及一家模組廠執行長警告2027年模組DRAM供給可能年減逾70%——顯示即使整體價格漲幅趨緩,消費端的擠壓仍在加劇。指控協同限產的反壟斷訴訟仍未解決,撤銷動議聽證已改至2026年11月13日。</description>
+    </item>
+    <item>
       <title>ASML 2026 年第三季:AI 需求已超越擴產後的 EUV 產能,直到 2028 年</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/asml-q3-2026-euv-capacity-shortfall-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/asml-q3-2026-euv-capacity-shortfall-bottleneck</guid>

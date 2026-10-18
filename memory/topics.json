@@ -954,5 +954,27 @@
       "Samsung Electronics",
       "Intel"
     ]
+  },
+  {
+    "slug": "pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck",
+    "title": "PC Shipments Fall 20% as AI's HBM Grab for Conventional DRAM Reaches the Consumer Market",
+    "last_updated": "2026-10-18",
+    "reports": [
+      "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "memory",
+      "consumer-electronics",
+      "regulation"
+    ],
+    "companies": [
+      "Micron Technology",
+      "Samsung Electronics",
+      "SK Hynix",
+      "Lenovo"
+    ]
   }
 ]

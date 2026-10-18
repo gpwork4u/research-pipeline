@@ -6,6 +6,19 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>PC Shipments Fall 20% as AI&apos;s HBM Grab for Conventional DRAM Reaches the Consumer Market</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck</guid>
+      <pubDate>Sun, 18 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>memory</category>
+      <category>consumer-electronics</category>
+      <category>regulation</category>
+      <description>IDC&apos;s October 8, 2026 data show global PC shipments fell 20.1% YoY to 62.7 million units in Q3 2026 -- a second straight quarterly decline, attributed to inventory pulled forward ahead of memory price increases plus ongoing supply constraints. That is the first industry-wide confirmation of the downstream damage this pipeline&apos;s September 13 report anticipated from AI/HBM crowding out conventional DRAM. TrendForce&apos;s September 30 forecast still shows conventional DRAM prices rising in Q4 2026 (10-15% QoQ), but decelerating sharply from the roughly 58-63% QoQ pace reported earlier in 2026 -- an ambiguous signal. Micron&apos;s record fiscal Q4 2026 results (DRAM at 73% of revenue) came with management saying it has no visibility into supply-demand rebalancing and that new capacity won&apos;t arrive before late 2028. Forward indicators specific to the PC/module channel -- RDIMM bit-growth lagging server CPU growth, and a module-maker CEO warning of a possible 70%+ YoY cut to 2027 module allocations -- suggest the consumer-facing squeeze keeps tightening even as blended price growth slows. The antitrust case alleging coordinated restriction remains unresolved, with a motion-to-dismiss hearing reset to November 13, 2026.</description>
+    </item>
+    <item>
       <title>ASML&apos;s Q3 2026: AI Demand Now Outruns Even Expanded EUV Capacity Through 2028</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/asml-q3-2026-euv-capacity-shortfall-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/asml-q3-2026-euv-capacity-shortfall-bottleneck</guid>
