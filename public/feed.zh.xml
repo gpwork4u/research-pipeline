@@ -6,6 +6,19 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>三星的30%晶圓承認:一位具名高層首度量化AI記憶體對DRAM的排擠</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck</guid>
+      <pubDate>Mon, 19 Oct 2026 01:00:00 GMT</pubDate>
+      <category>UPDATE</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>memory</category>
+      <description>一位具名三星高層首度公開為本研究線先前僅能從下游效應推論的DRAM晶圓產能轉移機制,提出具體百分比數字。
+
+TrendForce&apos;s September 29, 2026 report quoted Samsung Device Solutions executive Kim Taewoo stating HBM will take roughly 30% of industry DRAM wafer capacity in 2027, up from about 20% today -- the first company-sourced figure to quantify the capacity-reallocation mechanism this pipeline previously only inferred from downstream data in its September and October 2026 reports. TrendForce&apos;s own model shows HBM&apos;s wafer-input share (18% to 22% to 30% across 2025-2027) rising faster than its bit-supply share (8% to 9% to 13%), meaning each unit of HBM output removes disproportionate wafer capacity from the shared pool. This lands alongside Samsung&apos;s record preliminary Q3 2026 results (~107.4 trillion won operating profit, +782.5% YoY) and forecasts from TrendForce and KB Securities of 100-121% HBM price growth in 2027. Yet Samsung&apos;s own April 2026 call conceded conventional DRAM is currently more profitable than HBM, and management said it will keep a balanced mix rather than pivot toward conventional DRAM for near-term gain -- the supplier best positioned to relieve the shortage has said it will not.</description>
+    </item>
+    <item>
       <title>PC出貨量季減20%:AI搶奪HBM產能的衝擊蔓延至傳統記憶體消費市場</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck</guid>
@@ -676,18 +689,6 @@ SK Hynix reported record Q2 2026 results (revenue +257% YoY, 76% operating margi
       <description>目前 AI 加速器供給的結構性瓶頸在於 CoWoS 先進封裝產能，而非矽晶圓投片或 HBM 記憶體；且其配額分配方式正在鞏固最大的既有買家，而非擴大參與者的範圍。
 
 Broadcom 的 2026 財年財測與 TSMC 自身的產能揭露，都指向同一個關鍵限制：TSMC 的 CoWoS 先進封裝產線已被預訂一空直到 2026 年底，而即使 TSMC 正努力將月產能提升到接近四倍，擴產仍受限於長達數年的設備交期。Broadcom 的客製 AI 加速器（XPU/ASIC）業務與 Nvidia 的商用 GPU 共用同一池稀缺封裝產能，其財測包括 Q3 FY2026 AI 半導體營收 160 億美元、全年約 560 億美元，以及超過 730 億美元、集中於六家超大規模客戶的已承諾訂單。由於封裝配額是透過多年期承諾量而非現貨採購取得，這種稀缺性看來正在強化資本最雄厚的大型買家（Nvidia 與 Broadcom 的六家錨定客戶）的地位，而非擴大供給基礎。主要不確定性兼具週期性與結構性：TSMC 宣示的 2026 年底產能目標若能達成並持續，將超過目前的全年需求估計；且歷史顯示，一旦 AI 資本支出減速，封裝與記憶體週期可能迅速從稀缺翻轉為過剩。</description>
-    </item>
-    <item>
-      <title>HBM 記憶體供給作為 AI 加速器的關鍵限制</title>
-      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/hbm-supply-ai-accelerators</link>
-      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/hbm-supply-ai-accelerators</guid>
-      <pubDate>Sat, 01 Aug 2026 01:00:00 GMT</pubDate>
-      <category>NEW</category>
-      <category>semiconductors</category>
-      <category>ai-infrastructure</category>
-      <description>HBM 封裝產能目前符合 AI 加速器供給的結構性瓶頸條件，但記憶體產業的週期歷史顯示應先驗證再下定論。
-
-供應商的公開說法顯示 HBM 產能已全數售罄，而需求仍在加速；擴產受限於長達數年的封裝設備交期。依瓶頸框架評估，HBM 堆疊／TSV 封裝符合結構性瓶頸的三項條件：需求極高、供給彈性低、難以替代。主要不確定性在於週期性：三大供應商同時擴產，若 AI 資本支出減速，稀缺可能迅速翻轉為過剩。因此本論點應追蹤驗證事件，而非立即建立高度信念。</description>
     </item>
   </channel>
 </rss>

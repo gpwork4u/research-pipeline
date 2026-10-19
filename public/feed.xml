@@ -6,6 +6,17 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>Samsung&apos;s 30% Wafer Admission: A Named Executive Just Quantified AI Memory&apos;s DRAM Crowd-Out</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck</guid>
+      <pubDate>Mon, 19 Oct 2026 01:00:00 GMT</pubDate>
+      <category>UPDATE</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>memory</category>
+      <description>TrendForce&apos;s September 29, 2026 report quoted Samsung Device Solutions executive Kim Taewoo stating HBM will take roughly 30% of industry DRAM wafer capacity in 2027, up from about 20% today -- the first company-sourced figure to quantify the capacity-reallocation mechanism this pipeline previously only inferred from downstream data in its September and October 2026 reports. TrendForce&apos;s own model shows HBM&apos;s wafer-input share (18% to 22% to 30% across 2025-2027) rising faster than its bit-supply share (8% to 9% to 13%), meaning each unit of HBM output removes disproportionate wafer capacity from the shared pool. This lands alongside Samsung&apos;s record preliminary Q3 2026 results (~107.4 trillion won operating profit, +782.5% YoY) and forecasts from TrendForce and KB Securities of 100-121% HBM price growth in 2027. Yet Samsung&apos;s own April 2026 call conceded conventional DRAM is currently more profitable than HBM, and management said it will keep a balanced mix rather than pivot toward conventional DRAM for near-term gain -- the supplier best positioned to relieve the shortage has said it will not.</description>
+    </item>
+    <item>
       <title>PC Shipments Fall 20% as AI&apos;s HBM Grab for Conventional DRAM Reaches the Consumer Market</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck</guid>
@@ -668,18 +679,6 @@ On August 10, 2026, Nvidia announced financing platforms with six major financia
       <description>CoWoS advanced-packaging capacity, not silicon wafer starts or HBM memory, currently qualifies as the structural bottleneck on AI accelerator supply, and its allocation is entrenching the largest incumbent buyers rather than expanding the field.
 
 Broadcom&apos;s fiscal 2026 guidance and TSMC&apos;s own capacity disclosures both point to the same binding constraint: TSMC&apos;s CoWoS advanced-packaging lines are fully booked through 2026, and expanding them requires multi-year equipment lead times even as TSMC works to nearly quadruple monthly output. Broadcom&apos;s custom AI accelerator (XPU/ASIC) business is growing off this same scarce packaging pool alongside Nvidia&apos;s merchant GPUs, with guidance of $16 billion in Q3 FY2026 AI semiconductor revenue, a full-year target near $56 billion, and a committed backlog exceeding $73 billion concentrated in six hyperscale customers. Because packaging allocation is won through multi-year committed volume rather than spot purchasing, the scarcity appears to be reinforcing the position of the largest, best-capitalized buyers -- Nvidia and Broadcom&apos;s six anchor accounts -- rather than broadening the supply base. The main uncertainty is cyclical and structural at once: TSMC&apos;s stated capacity-ramp target for the end of 2026 would, if sustained, exceed current full-year demand estimates, and history shows packaging and memory cycles can flip from scarcity to oversupply quickly if AI capital expenditure decelerates.</description>
-    </item>
-    <item>
-      <title>HBM memory supply as the binding constraint on AI accelerators</title>
-      <link>https://gpwork4u.github.io/research-pipeline/reports/hbm-supply-ai-accelerators</link>
-      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/hbm-supply-ai-accelerators</guid>
-      <pubDate>Sat, 01 Aug 2026 01:00:00 GMT</pubDate>
-      <category>NEW</category>
-      <category>semiconductors</category>
-      <category>ai-infrastructure</category>
-      <description>HBM packaging capacity currently qualifies as a structural bottleneck for AI accelerator supply, but memory-cycle history argues for validation before conviction.
-
-Supplier statements indicate HBM capacity is fully committed while demand keeps accelerating, and expansion is gated by multi-year packaging equipment lead times. The bottleneck framework qualifies HBM stacking/TSV packaging as a structural bottleneck: extreme demand growth, low supply elasticity, and hard substitutability. The main uncertainty is cyclical: simultaneous capacity additions by all suppliers could flip scarcity into oversupply if AI capital expenditure decelerates. The thesis therefore warrants tracking its validation events rather than immediate conviction.</description>
     </item>
   </channel>
 </rss>

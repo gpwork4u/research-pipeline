@@ -1,0 +1,36 @@
+[
+  {
+    "title": "HBM Share of DRAM Wafer Input, 2025-2027",
+    "title_zh": "HBM佔DRAM晶圓投入比重,2025-2027",
+    "type": "line",
+    "unit": "percent",
+    "source_id": "s3",
+    "series": [
+      { "label": "End-2025", "value": 18 },
+      { "label": "End-2026", "value": 22 },
+      { "label": "End-2027 (forecast)", "value": 30 }
+    ]
+  },
+  {
+    "title": "HBM Share of DRAM Bit Supply, 2025-2027",
+    "title_zh": "HBM佔DRAM位元供應比重,2025-2027",
+    "type": "line",
+    "unit": "percent",
+    "source_id": "s3",
+    "series": [
+      { "label": "End-2025", "value": 8 },
+      { "label": "End-2026", "value": 9 },
+      { "label": "End-2027 (forecast)", "value": 13 }
+    ]
+  },
+  {
+    "title": "2027 HBM Blended ASP Growth Forecast (TrendForce)",
+    "title_zh": "2027年HBM混合均價成長預測(TrendForce)",
+    "type": "bar",
+    "unit": "percent YoY",
+    "source_id": "s6",
+    "series": [
+      { "label": "2027 vs 2026 (forecast)", "value": 121 }
+    ]
+  }
+]

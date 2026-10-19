@@ -2119,5 +2119,50 @@
     "source_to_monitor": "Respective OEM investor relations pages; trade press (PCWorld, Tom's Hardware)",
     "origin_report": "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Samsung's full Q3 2026 earnings call and investor presentation",
+    "expected_window": "around late October 2026",
+    "supports_if": "Samsung confirms or raises the ~30% 2027 HBM wafer-share figure and provides segment-level capacity detail consistent with Kim Taewoo's estimate",
+    "weakens_if": "Samsung provides a materially lower wafer-share figure or declines to confirm it",
+    "source_to_monitor": "Samsung Electronics investor relations (samsung.com/global/ir)",
+    "origin_report": "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "SK Hynix's Q3 2026 earnings call (wafer-allocation disclosure)",
+    "expected_window": "around late October 2026",
+    "supports_if": "SK Hynix discloses a comparable or higher HBM wafer-share trajectory and reiterates capacity-constrained conventional-DRAM commentary",
+    "weakens_if": "SK Hynix reports a lower HBM wafer-share allocation or signals easing conventional-DRAM constraints",
+    "source_to_monitor": "SK Hynix newsroom / investor relations (news.skhynix.com)",
+    "origin_report": "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "TrendForce's Q1 2027 DRAM/HBM wafer-share and contract-price forecast update",
+    "expected_window": "around January 2027",
+    "supports_if": "Forecast reaffirms or raises the 22%/30% wafer-share trajectory and the 100-121% 2027 HBM price-growth range",
+    "weakens_if": "Forecast lowers the wafer-share trajectory or narrows the price-growth range materially",
+    "source_to_monitor": "TrendForce press center (trendforce.com/presscenter)",
+    "origin_report": "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Micron's fiscal Q1 2027 earnings call (wafer-allocation disclosure)",
+    "expected_window": "December 2026",
+    "supports_if": "Micron discloses continued prioritization of HBM/server-DRAM capacity over conventional/PC-channel output, consistent with Samsung's reported allocation shift",
+    "weakens_if": "Micron discloses a reallocation of incremental capacity back toward conventional DRAM",
+    "source_to_monitor": "Micron investor relations (investors.micron.com)",
+    "origin_report": "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Disclosure of actual 2027 DRAM cleanroom capacity additions from any of the three major suppliers",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "No material new capacity is confirmed online before late 2028, consistent with prior guidance",
+    "weakens_if": "A supplier confirms new capacity online significantly ahead of schedule",
+    "source_to_monitor": "Respective company investor relations pages; trade press (TrendForce, DigiTimes)",
+    "origin_report": "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
+    "status": "open"
   }
 ]

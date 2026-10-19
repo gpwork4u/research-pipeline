@@ -1,0 +1,299 @@
+{
+  "topic": {
+    "title": "Samsung's 30% Wafer Admission: A Named Executive Just Quantified AI Memory's DRAM Crowd-Out",
+    "slug": "samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck",
+    "date": "2026-10-19",
+    "research_type": "UPDATE",
+    "categories": ["ai-infrastructure", "semiconductors", "memory"],
+    "score": 31,
+    "trigger": "TrendForce's September 29, 2026 report, citing a Reuters interview, quoted Samsung Device Solutions executive Kim Taewoo stating HBM is expected to consume nearly 30% of industry-wide DRAM wafer capacity in 2027, up from roughly 20% today -- the first time a named Samsung executive has put a specific, forward-looking percentage on the wafer-capacity mechanism this pipeline's September 13 and October 18, 2026 reports inferred only from downstream price and shipment effects. It arrives alongside Samsung's October 8, 2026 preliminary Q3 2026 earnings guidance (record ~107.4 trillion won operating profit, +782.5% YoY) and TrendForce's and KB Securities' late-September/early-October forecasts that blended HBM pricing could rise 100-121% in 2027.",
+    "trigger_source_ids": ["s3", "s1"]
+  },
+  "questions": {
+    "primary": "Does Samsung executive Kim Taewoo's named, on-record estimate that HBM will take roughly 30% of industry DRAM wafer capacity in 2027 (versus roughly 20% today) convert this pipeline's previously inferred DRAM/HBM crowd-out mechanism into company-sourced guidance, and does it change the bottleneck's expected severity?",
+    "sub": [
+      "How does the 20%-to-30% wafer-capacity-share figure relate to TrendForce's own wafer-input-share estimates (18% end-2025, 22% end-2026, 30% end-2027) and to its bit-supply-share estimates (8%, 9%, 13%)?",
+      "What does Samsung's April 2026 admission that conventional DRAM is currently more profitable than HBM, plus its stated intent to keep a 'balanced' production mix, imply about whether Samsung will voluntarily protect PC/module DRAM supply?",
+      "Do KB Securities' and TrendForce's forecasts of 100-121% HBM price increases in 2027 corroborate or complicate the capacity-share mechanism?",
+      "What do Samsung's October 8, 2026 preliminary Q3 results show about current memory profitability relative to the April 2026 baseline?",
+      "Is there evidence this mechanism is already easing (new capacity, yield gains) rather than tightening further?"
+    ]
+  },
+  "thesis": "TrendForce's September 29, 2026 report quoted Samsung Device Solutions executive Kim Taewoo stating that HBM will consume roughly 30% of industry DRAM wafer capacity in 2027, up from about 20% today -- the first company-executive-sourced, on-record figure quantifying the wafer-reallocation mechanism this pipeline previously only inferred from downstream effects described in its September and October 2026 reports. TrendForce's own model shows HBM's wafer-input share rising faster (18% to 22% to 30% across 2025-2027) than its bit-supply share (8% to 9% to 13%), meaning each incremental unit of HBM output removes a disproportionate amount of wafer capacity from the shared pool. This lands alongside Samsung's record preliminary Q3 2026 results (~107.4 trillion won operating profit, +782.5% YoY) and forecasts from TrendForce and KB Securities that 2027 HBM pricing could rise 100-121% -- even as Samsung's own April 2026 earnings call conceded conventional DRAM is currently more profitable than HBM and stated Samsung will keep a balanced mix rather than pivot toward conventional DRAM for near-term margin. The combination reinforces, rather than resolves, this pipeline's Structural Bottleneck classification for shared DRAM wafer capacity: the supplier with the clearest near-term profit incentive to relieve the conventional-DRAM shortage has said on the record it will not do so, and projects the underlying allocation shift deepening through 2027.",
+  "facts": [
+    {
+      "statement": "Samsung's October 8, 2026 preliminary Q3 2026 guidance: consolidated revenue of approximately 195 trillion won (range 194-196 trillion, about $145.4 billion), up 126.6% YoY and 13.7% QoQ; operating profit of approximately 107.4 trillion won (range 107.3-107.5 trillion), up 782.5% YoY and 20.0% QoQ -- the first quarterly operating profit above 100 trillion won in the company's history, implying a margin near 55%.",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s2", "s12", "s13"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Against pre-release FnGuide analyst consensus, Samsung's preliminary Q3 2026 revenue came in approximately 2.8% below consensus while operating profit came in approximately 0.7% above consensus.",
+      "type": "FACT",
+      "evidence_ids": ["s12"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "TrendForce's September 29, 2026 report, citing a Reuters interview with Samsung Device Solutions division executive Kim Taewoo, quoted him stating HBM is expected to take up roughly 30% of industry-wide DRAM wafer capacity in 2027, up from approximately 20% currently; because HBM and conventional DRAM are produced on shared wafer lines, further HBM growth narrows the capacity available for conventional DRAM.",
+      "type": "FACT",
+      "evidence_ids": ["s3", "s4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "TrendForce's own wafer-input-share model projects HBM accounting for approximately 18% of total DRAM wafer input among the top three suppliers at end-2025, 22% at end-2026, and 30% at end-2027, while HBM's share of total DRAM bit supply over the same years is projected at approximately 8%, 9%, and 13% respectively.",
+      "type": "FACT",
+      "evidence_ids": ["s3"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Industry estimates cited via the same TrendForce/Reuters reporting (sourced to Seoul Economic Daily) put Samsung's own monthly HBM wafer input rising from approximately 180,000 wafers currently to approximately 250,000 wafers per month in 2027, a roughly 40% increase.",
+      "type": "FACT",
+      "evidence_ids": ["s3"],
+      "confidence": "low"
+    },
+    {
+      "statement": "TrendForce's September 29, 2026 report separately forecasts blended HBM average selling price rising approximately 121% in 2027 versus 2026 as the product mix shifts toward higher-priced HBM4 and HBM4E parts; KB Securities, in commentary reported October 1, 2026, forecasts Samsung's HBM prices could rise more than 100% in 2027.",
+      "type": "FACT",
+      "evidence_ids": ["s5", "s6", "s7"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "On Samsung's April 30, 2026 (Q1 2026) earnings call, management stated it is true that conventional DRAM is currently more profitable than HBM, attributing the gap to HBM pricing being locked in under annual contracts while conventional DRAM prices are negotiated quarterly and rose faster in the then-current environment; management said it expects the profitability gap to narrow significantly in 2027 and that it intends to maintain a balanced production mix rather than shifting output toward conventional DRAM for near-term gain.",
+      "type": "FACT",
+      "evidence_ids": ["s8", "s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Samsung's Q1 2026 results (reported April 30, 2026) showed total operating profit of 57.23 trillion won against a 38.23 trillion won consensus estimate, with semiconductor-division operating profit of 53.7 trillion won, up roughly 48.8x from 1.1 trillion won in Q1 2025.",
+      "type": "FACT",
+      "evidence_ids": ["s8", "s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Samsung's October 2025 earnings call had previously disclosed that its full-year 2026 HBM4 supply was already sold out, with pre-orders exceeding planned output.",
+      "type": "FACT",
+      "evidence_ids": ["s10"],
+      "confidence": "medium"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Kim Taewoo's on-record 20%-to-30% wafer-share figure converts this pipeline's previously inferred capacity-reallocation mechanism (first proposed September 13, 2026 and evidenced only indirectly via Micron's commentary and IDC's PC-shipment data in the October 6 and October 18, 2026 reports) into company-sourced, forward-looking guidance -- stronger evidence of intent than any prior single-company disclosure in this pipeline's memory-sector coverage, because it comes from the supplier side describing its own planned allocation rather than from downstream customers describing the resulting shortage.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s3"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "The gap between HBM's rising wafer-input share (18% to 22% to 30%) and its slower-rising bit-supply share (8% to 9% to 13%) indicates HBM is becoming structurally less wafer-efficient as it scales, so each additional unit of HBM output removes a disproportionately large amount of wafer capacity from the conventional-DRAM pool -- a mechanical reason the crowd-out could intensify even without any change in demand.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s3"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Samsung's April 2026 statement that it will maintain a 'balanced' mix rather than pivot toward the currently-more-profitable conventional DRAM suggests Samsung is prioritizing long-term HBM market share and strategic-customer positioning over near-term margin optimization, reinforcing Low supply elasticity for the PC/module channel because the supplier with the clearest immediate profit incentive to relieve the shortage has stated on the record it will not do so.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s8", "s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "If TrendForce's and KB Securities' forecasts of 100-121% HBM price growth in 2027 materialize, Samsung's own April 2026 forecast that the HBM/conventional-DRAM profitability gap will narrow significantly in 2027 would likely resolve through HBM profitability catching up to conventional DRAM, rather than through conventional-DRAM prices falling -- removing, rather than creating, any near-term economic incentive for Samsung to reallocate capacity back toward the PC/module channel.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s5", "s6", "s7", "s8", "s9"],
+      "confidence": "low"
+    }
+  ],
+  "unknowns": [
+    "Whether Kim Taewoo's 20%-to-30% figure refers specifically to Samsung's own wafer capacity, to industry-wide wafer capacity across all three major DRAM suppliers, or is being used informally for both -- the secondary reporting available is not fully consistent on this distinction.",
+    "Whether Samsung's full Q3 2026 earnings call (expected around late October 2026) will provide segment-level HBM versus conventional-DRAM revenue and capacity figures that corroborate or revise the preliminary October 8 guidance and the Kim Taewoo estimate.",
+    "Whether the approximately 250,000-wafers-per-month 2027 figure for Samsung's own HBM output is a company-confirmed target or an independent analyst projection; this research pass could not confirm which.",
+    "Whether SK Hynix and Micron are reallocating wafer capacity toward HBM at a similar pace to Samsung's reported trajectory, or whether the 30% figure is specific to Samsung's own fab mix.",
+    "samsung.com, news.samsung.com, trendforce.com, wccftech.com, sammyfans.com, sammobile.com, fnnews.com, techtimes.com, iconnect007.com, siliconanalysts.com, stockhub.kr and pulse2.com were all unreachable via direct retrieval in the research environment (DNS/egress proxy blocked); all figures and quotes rely on search-result snippets of these pages rather than direct retrieval, and reprints did not fully agree on every supporting detail (e.g., the exact Q2 2026 baseline revenue figure)."
+  ],
+  "industry_chain": [
+    {
+      "name": "Shared DRAM wafer fabrication capacity (Samsung, SK Hynix, Micron)",
+      "role": "Upstream",
+      "major_players": ["Samsung Electronics", "SK Hynix", "Micron Technology"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "HBM production",
+      "role": "Components",
+      "major_players": ["Samsung Electronics", "SK Hynix", "Micron Technology"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Conventional DRAM (DDR4/DDR5) production",
+      "role": "Components",
+      "major_players": ["Samsung Electronics", "SK Hynix", "Micron Technology"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "PC/module OEMs and the retail PC market",
+      "role": "Platform",
+      "major_players": ["Lenovo", "HP", "Dell", "Apple", "ASUS"],
+      "pricing_power": "Low",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "Shared DRAM wafer fabrication capacity allocated to HBM vs. conventional DRAM",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "3-5+ years for new wafer fab capacity; no major supplier discloses new cleanroom capacity before late 2028",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "High",
+      "profit_capture": "High",
+      "opportunity_score": 5,
+      "classification": "Structural Bottleneck",
+      "rationale": "Reaffirmed and sharpened from this pipeline's September 13 and October 18, 2026 classifications. Demand growth is upgraded to Extreme now that a named Samsung executive has put a specific, rising percentage (20% now to 30% in 2027) on the allocation shift; supply elasticity remains Low given 3-5+ year wafer-fab lead times and no disclosed new capacity before late 2028; substitutability remains Hard because conventional DRAM and HBM serve different end uses on the same wafer starts. Market attention is upgraded to High because this is now a named-executive, on-record figure rather than an inference from downstream effects."
+    },
+    {
+      "node": "PC/module OEM and retail channel cost and volume pass-through",
+      "demand_growth": "Low",
+      "supply_elasticity": "Medium",
+      "expansion_time": "N/A -- OEMs and module makers do not control fab capacity",
+      "substitutability": "Medium",
+      "pricing_power": "Low",
+      "market_attention": "Medium",
+      "profit_capture": "Low",
+      "opportunity_score": 2,
+      "classification": "Neutral",
+      "rationale": "Carried forward from the October 18, 2026 classification; this node absorbs the upstream bottleneck's effects but controls no fab capacity of its own, so it fails the strict Structural Bottleneck test on supply elasticity and substitutability."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Samsung Electronics",
+      "business_model": "World's largest memory chipmaker, producing DRAM (conventional and HBM) and NAND flash alongside its device and foundry businesses.",
+      "revenue_model": "Per-bit and per-wafer sales of DRAM and NAND products across HBM (annual-contract pricing with strategic AI accelerator customers) and conventional DRAM/NAND (quarterly-negotiated pricing to PC OEMs, module makers and other customers).",
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": "~55 (implied, Q3 2026 preliminary guidance: ~107.4T KRW operating profit on ~195T KRW revenue)",
+      "growth_drivers": [
+        "HBM4 ramp and rising HBM average selling prices as product mix shifts toward HBM4/HBM4E",
+        "Record conventional DRAM and NAND pricing amid industry-wide undersupply",
+        "Rising share of shared DRAM wafer capacity allocated to HBM (reported ~20% now, ~30% in 2027)"
+      ],
+      "customer_concentration": "Rising concentration among large AI-accelerator strategic customers for HBM output, alongside broader PC/module-channel sales for conventional DRAM.",
+      "moat": "One of three global merchant DRAM suppliers (with SK Hynix and Micron) controlling the large majority of world DRAM output; high capital and process-technology barriers to entry; sold-out 2026 HBM4 supply reported as of its October 2025 earnings call.",
+      "switching_costs": null,
+      "capital_intensity": "High -- reported industry estimates put Samsung's own monthly HBM wafer input rising from roughly 180,000 to roughly 250,000 wafers by 2027.",
+      "management_strategy": "Management has stated it will maintain a balanced DRAM production mix rather than pivot toward the currently-more-profitable conventional DRAM for near-term gain, prioritizing continued HBM capacity growth and expecting the HBM/conventional-DRAM profitability gap to narrow significantly in 2027.",
+      "execution_risk": "Execution depends on HBM4 yield, qualification progress with AI accelerator customers, and whether 2027 HBM pricing forecasts (100-121% growth) materialize as expected; full Q3 2026 segment detail is not yet disclosed as of this report."
+    }
+  ],
+  "metrics": [
+    { "name": "HBM share of DRAM wafer input (top 3 suppliers)", "value": 18, "unit": "percent", "period": "end-2025", "source_id": "s3" },
+    { "name": "HBM share of DRAM wafer input (top 3 suppliers)", "value": 22, "unit": "percent", "period": "end-2026", "source_id": "s3" },
+    { "name": "HBM share of DRAM wafer input (top 3 suppliers)", "value": 30, "unit": "percent", "period": "end-2027 (forecast)", "source_id": "s3" },
+    { "name": "HBM share of DRAM bit supply (top 3 suppliers)", "value": 13, "unit": "percent", "period": "end-2027 (forecast)", "growth": "from ~8% end-2025, ~9% end-2026", "source_id": "s3" },
+    { "name": "Samsung Device Solutions exec-cited HBM share of DRAM wafer capacity", "value": "20 -> 30", "unit": "percent", "period": "2026 to 2027", "source_id": "s3" },
+    { "name": "Samsung Q3 2026 preliminary operating profit", "value": 107.4, "unit": "KRW trillions", "period": "Q3 2026 (preliminary)", "growth": "+782.5% YoY, +20.0% QoQ", "source_id": "s1" },
+    { "name": "Samsung Q3 2026 preliminary revenue", "value": 195, "unit": "KRW trillions", "period": "Q3 2026 (preliminary)", "growth": "+126.6% YoY, +13.7% QoQ", "source_id": "s1" },
+    { "name": "Samsung monthly HBM wafer input", "value": "180,000 -> 250,000", "unit": "wafers/month", "period": "current to 2027 (estimate)", "source_id": "s3" },
+    { "name": "TrendForce 2027 HBM blended ASP growth forecast", "value": 121, "unit": "percent YoY", "period": "2027 vs 2026 (forecast)", "source_id": "s6" },
+    { "name": "KB Securities 2027 Samsung HBM price growth forecast", "value": ">100", "unit": "percent", "period": "2027 (forecast)", "source_id": "s5" },
+    { "name": "Samsung Q1 2026 semiconductor division operating profit", "value": 53.7, "unit": "KRW trillions", "period": "Q1 2026", "growth": "48.8x YoY", "source_id": "s8" }
+  ],
+  "competitors": [
+    { "name": "SK Hynix", "kind": "direct competitor", "note": "Co-leads merchant DRAM/HBM supply with Samsung; no new Q3 2026-specific wafer-allocation disclosure found in this research pass." },
+    { "name": "Micron Technology", "kind": "direct competitor", "note": "Per this pipeline's October 6 and October 18, 2026 reports, disclosed no visibility into DRAM/HBM supply-demand rebalancing and no new cleanroom capacity before late 2028." }
+  ],
+  "financials": [
+    {
+      "company": "Samsung Electronics",
+      "period": "Q3 2026 (preliminary guidance)",
+      "revenue_krw_trillions": 195,
+      "operating_profit_krw_trillions": 107.4,
+      "yoy_revenue_growth_pct": 126.6,
+      "yoy_operating_profit_growth_pct": 782.5,
+      "qoq_revenue_growth_pct": 13.7,
+      "qoq_operating_profit_growth_pct": 20.0,
+      "source_id": "s1"
+    }
+  ],
+  "valuation": { "available": false, "reason": "This report tracks industry-wide DRAM/HBM wafer-capacity allocation and pricing guidance, not a standalone company valuation; while Samsung's preliminary P&L figures are reported, no current share price or share count was gathered as central to this topic." },
+  "catalysts": [
+    "Samsung's full Q3 2026 earnings call (expected around late October 2026) for segment-level HBM vs. conventional-DRAM revenue, capacity and yield detail",
+    "SK Hynix's and Micron's Q3/fiscal Q1 2027 earnings calls (late October-December 2026) for their own wafer-allocation disclosures",
+    "TrendForce's Q1 2027 DRAM/HBM contract-price forecast for confirmation of the 100-121% 2027 HBM price-growth projection",
+    "Further Reuters or trade-press reporting corroborating or revising Kim Taewoo's 20%-to-30% wafer-share figure",
+    "Any disclosed new DRAM cleanroom capacity additions from Samsung, SK Hynix, or Micron that could ease the shared-capacity constraint ahead of the late-2028 timeline previously cited"
+  ],
+  "bear_case": [
+    { "dimension": "Supply", "argument": "Samsung, SK Hynix and Micron have collectively committed very large capital expenditure increases (approximately $870 billion combined per this pipeline's September 13, 2026 report); if a material share of that capacity comes online faster than the late-2028 timeline generally cited, the wafer-share figures could shift back toward conventional DRAM well before 2027 plays out as currently forecast." },
+    { "dimension": "Economics", "argument": "If TrendForce's and KB Securities' forecast 100-121% HBM price increases for 2027 materialize, Samsung's own stated expectation that the HBM/conventional-DRAM profitability gap will narrow could make further HBM capacity expansion more attractive on pure margin economics even without any policy change, undercutting the idea that today's wafer-share commentary represents a stable, planned allocation rather than a figure that simply moves with relative pricing." },
+    { "dimension": "Demand", "argument": "The 30% 2027 figure is itself a forecast, not a locked allocation; HBM demand depends on continued hyperscaler AI-accelerator capex growth, and a material deceleration in that capex (a kill condition already tracked by this pipeline's August 2026 reports) would reduce the pressure to grow HBM's wafer share toward 30%." },
+    { "dimension": "Execution", "argument": "Kim Taewoo's figure, and the Seoul Economic Daily-sourced 180,000-to-250,000-wafer estimate, both come through secondary reprints of a Reuters interview rather than a formal company disclosure such as an earnings-call transcript or investor-day presentation; the number could be imprecise, rounded, or specific to a context (e.g., Samsung's own fabs only, not the industry) not fully captured by available reporting." }
+  ],
+  "kill_conditions": [
+    { "condition": "Samsung's full Q3 2026 earnings call provides a materially lower wafer-share figure or walks back the 30% 2027 projection", "metric": "Samsung-disclosed HBM share of DRAM wafer capacity", "threshold": "Disclosed figure below 25% for 2027 guidance", "time_window": "late October 2026", "impact": "weaken" },
+    { "condition": "TrendForce's or another independent tracker's Q1 2027 forecast shows HBM wafer-share growth decelerating or reversing", "metric": "TrendForce HBM wafer-input share forecast", "threshold": "2027 forecast revised below 25%", "time_window": "Q1 2027 (around January 2027)", "impact": "weaken" },
+    { "condition": "Samsung, SK Hynix, or Micron disclose new DRAM cleanroom capacity coming online significantly ahead of the generally cited late-2028 timeline", "metric": "Disclosed new wafer-fab capacity online date", "threshold": "Confirmed new capacity online before end-2027", "time_window": "next 1-2 years", "impact": "invalidate" },
+    { "condition": "Realized 2027 HBM contract prices come in well below the 100-121% growth forecasts", "metric": "TrendForce/KB Securities realized HBM contract ASP growth", "threshold": "Actual 2027 growth below 50%", "time_window": "2027", "impact": "weaken" }
+  ],
+  "validation_events": [
+    {
+      "event": "Samsung's full Q3 2026 earnings call and investor presentation",
+      "expected_window": "around late October 2026",
+      "supports_if": "Samsung confirms or raises the ~30% 2027 HBM wafer-share figure and provides segment-level capacity detail consistent with Kim Taewoo's estimate",
+      "weakens_if": "Samsung provides a materially lower wafer-share figure or declines to confirm it",
+      "source_to_monitor": "Samsung Electronics investor relations (samsung.com/global/ir)"
+    },
+    {
+      "event": "SK Hynix's Q3 2026 earnings call",
+      "expected_window": "around late October 2026",
+      "supports_if": "SK Hynix discloses a comparable or higher HBM wafer-share trajectory and reiterates capacity-constrained conventional-DRAM commentary",
+      "weakens_if": "SK Hynix reports a lower HBM wafer-share allocation or signals easing conventional-DRAM constraints",
+      "source_to_monitor": "SK Hynix newsroom / investor relations (news.skhynix.com)"
+    },
+    {
+      "event": "TrendForce's Q1 2027 DRAM/HBM wafer-share and contract-price forecast update",
+      "expected_window": "around January 2027",
+      "supports_if": "Forecast reaffirms or raises the 22%/30% wafer-share trajectory and the 100-121% 2027 HBM price-growth range",
+      "weakens_if": "Forecast lowers the wafer-share trajectory or narrows the price-growth range materially",
+      "source_to_monitor": "TrendForce press center (trendforce.com/presscenter)"
+    },
+    {
+      "event": "Micron's fiscal Q1 2027 earnings call",
+      "expected_window": "December 2026",
+      "supports_if": "Micron discloses continued prioritization of HBM/server-DRAM capacity over conventional/PC-channel output, consistent with Samsung's reported allocation shift",
+      "weakens_if": "Micron discloses a reallocation of incremental capacity back toward conventional DRAM",
+      "source_to_monitor": "Micron investor relations (investors.micron.com)"
+    },
+    {
+      "event": "Disclosure of actual 2027 DRAM cleanroom capacity additions from any of the three major suppliers",
+      "expected_window": "next 2-4 quarters",
+      "supports_if": "No material new capacity is confirmed online before late 2028, consistent with prior guidance",
+      "weakens_if": "A supplier confirms new capacity online significantly ahead of schedule",
+      "source_to_monitor": "Respective company investor relations pages; trade press (TrendForce, DigiTimes)"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "claim": "Samsung's official announcement of Q3 2026 earnings guidance: preliminary consolidated revenue and operating profit ranges.", "source_url": "https://news.samsung.com/my/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026", "source_title": "Samsung Newsroom: Samsung Electronics Announces Earnings Guidance for Third Quarter 2026", "source_type": "primary", "published_at": "2026-10-08", "retrieved_at": "2026-10-19", "quote_or_extract": "news.samsung.com was unreachable by direct retrieval in the research environment (DNS/egress proxy blocked); figures rely on convergent secondary-source reprints and search-result snippets (see s12, s13), not direct retrieval. Reported content: consolidated revenue guided to approximately 195 trillion won (range 194-196 trillion) and operating profit to approximately 107.4 trillion won (range 107.3-107.5 trillion), the first quarterly operating profit above 100 trillion won in company history.", "confidence": "medium" },
+    { "id": "s2", "claim": "Samsung's formal Korean-exchange public disclosure of its 3Q 2026 pre-earnings guidance.", "source_url": "https://www.samsung.com/global/ir/reports-disclosures/public-disclosure-view.84775/", "source_title": "Samsung Electronics Global IR: 3Q 2026 Pre-Earnings Guidance", "source_type": "primary", "published_at": "2026-10-08", "retrieved_at": "2026-10-19", "quote_or_extract": "samsung.com was unreachable by direct retrieval in the research environment (DNS/egress proxy blocked); figures rely on convergent secondary-source reprints (see s12, s13), not direct retrieval.", "confidence": "medium" },
+    { "id": "s3", "claim": "TrendForce coverage (citing a Reuters interview with Samsung Device Solutions executive Kim Taewoo) of HBM's rising share of industry DRAM wafer input and bit supply, and Samsung's own monthly HBM wafer-input trajectory.", "source_url": "https://www.trendforce.com/news/?p=64643", "source_title": "TrendForce News: Samsung executive on HBM's rising share of DRAM wafer capacity", "source_type": "secondary", "published_at": "2026-09-29", "retrieved_at": "2026-10-19", "quote_or_extract": "trendforce.com was unreachable by direct retrieval in the research environment (DNS/egress proxy blocked); content relies on search-result snippets. Reported content: Samsung executive Kim Taewoo said HBM is expected to take up about 30% of industry DRAM wafer capacity next year, up from roughly 20% now; HBM wafer input among the top three suppliers is projected at approximately 18% (end-2025), 22% (end-2026) and 30% (end-2027) of total DRAM wafer input, with HBM bit supply at approximately 8%, 9% and 13% of total DRAM bit supply over the same period; Seoul Economic Daily industry estimates put Samsung's monthly HBM wafer input rising from about 180,000 wafers now to about 250,000 in 2027.", "confidence": "medium" },
+    { "id": "s4", "claim": "Secondary reprint summarizing Samsung's warning that HBM growth could tighten conventional DRAM supply in 2027.", "source_url": "https://www.sammyfans.com/2026/09/29/samsung-warns-hbm-growth-could-tighten-dram-supply-in-2027/", "source_title": "SammyFans: Samsung warns HBM growth could tighten DRAM supply in 2027", "source_type": "secondary", "published_at": "2026-09-29", "retrieved_at": "2026-10-19", "quote_or_extract": "sammyfans.com was unreachable by direct retrieval; content relies on search-result snippets corroborating the Kim Taewoo wafer-share figures reported via TrendForce/Reuters.", "confidence": "low" },
+    { "id": "s5", "claim": "Secondary reprint of KB Securities' forecast that Samsung's HBM prices could rise more than 100% in 2027.", "source_url": "https://www.sammyfans.com/2026/10/01/samsung-hbm-prices-could-rise-over-100-next-year/", "source_title": "SammyFans: Samsung HBM prices could rise over 100% next year, says KB Securities", "source_type": "secondary", "published_at": "2026-10-01", "retrieved_at": "2026-10-19", "quote_or_extract": "sammyfans.com was unreachable by direct retrieval; content relies on search-result snippets reporting KB Securities' forecast of >100% 2027 Samsung HBM price growth.", "confidence": "low" },
+    { "id": "s6", "claim": "Secondary analysis of TrendForce's September 29, 2026 forecast that 2027 blended HBM average selling price will rise approximately 121% versus 2026 as the HBM4/HBM4E product mix shifts.", "source_url": "https://siliconanalysts.com/market/trendforce-2027-hbm-blended-asp-to-jump-121-as-hbm4-hbm4e-mix-shifts-2026-10-06", "source_title": "SiliconAnalysts: TrendForce - 2027 HBM Blended ASP to Jump 121% as HBM4/HBM4E Mix Shifts", "source_type": "secondary", "published_at": "2026-10-06", "retrieved_at": "2026-10-19", "quote_or_extract": "siliconanalysts.com was unreachable by direct retrieval; content relies on search-result snippets reporting TrendForce's 121% 2027 blended HBM ASP growth forecast attributed to the product-mix shift toward HBM4/HBM4E.", "confidence": "medium" },
+    { "id": "s7", "claim": "Secondary coverage corroborating TrendForce's outlook that tight DRAM supply is boosting pricing power and that HBM contract prices are set to surge in 2027.", "source_url": "https://iconnect007.com/article/150239/tight-dram-supply-boosts-pricing-power-hbm-contract-prices-set-to-surge-in-2027/150236/aep", "source_title": "I-Connect007: Tight DRAM Supply Boosts Pricing Power; HBM Contract Prices Set to Surge in 2027", "source_type": "secondary", "published_at": "2026-09-30", "retrieved_at": "2026-10-19", "quote_or_extract": "iconnect007.com was unreachable by direct retrieval; content relies on search-result snippets corroborating TrendForce's 2027 HBM pricing outlook.", "confidence": "low" },
+    { "id": "s8", "claim": "Coverage of Samsung's April 30, 2026 Q1 2026 earnings call, including the statement that conventional DRAM is currently more profitable than HBM and Samsung's Q1 2026 financial results.", "source_url": "https://wccftech.com/samsung-q1-2026-earnings-conventional-dram-more-profitable-than-hbm-right-now/", "source_title": "Wccftech: Samsung Q1 2026 Earnings - Conventional DRAM More Profitable Than HBM Right Now", "source_type": "secondary", "published_at": "2026-04-30", "retrieved_at": "2026-10-19", "quote_or_extract": "wccftech.com was unreachable by direct retrieval; content relies on search-result snippets reporting Samsung Q1 2026 total operating profit of 57.23 trillion won and semiconductor-division operating profit of 53.7 trillion won (up ~48.8x YoY).", "confidence": "medium" },
+    { "id": "s9", "claim": "Korean financial press coverage of Samsung's April 30, 2026 earnings call statement on conventional DRAM versus HBM profitability and its production-mix strategy.", "source_url": "https://en.fnnews.com/news/202604301057582454", "source_title": "FNNews (English): Samsung Q1 2026 earnings call coverage", "source_type": "secondary", "published_at": "2026-04-30", "retrieved_at": "2026-10-19", "quote_or_extract": "en.fnnews.com was unreachable by direct retrieval; content relies on search-result snippets quoting Samsung management: 'It is true that conventional DRAM is currently more profitable than HBM,' with the profitability gap expected to narrow significantly in 2027 and a stated intent to maintain a balanced production mix.", "confidence": "medium" },
+    { "id": "s10", "claim": "Samsung's October 2025 earnings call disclosure that its full-year 2026 HBM4 supply was already sold out.", "source_url": "https://www.sammobile.com/news/samsung-sells-out-of-2026-hbm4-supply-as-memory-resurgence-continues/", "source_title": "SamMobile: Samsung sells out of 2026 HBM4 supply as memory resurgence continues", "source_type": "secondary", "published_at": "2025-10-31", "retrieved_at": "2026-10-19", "quote_or_extract": "sammobile.com was unreachable by direct retrieval; content relies on search-result snippets reporting Samsung's October 2025 disclosure that 2026 HBM4 supply was sold out with pre-orders exceeding planned output.", "confidence": "medium" },
+    { "id": "s11", "claim": "Secondary coverage of Samsung's Q3 2026 earnings forecast ahead of the October 8, 2026 preliminary release, including commentary on stalled chip margins and the stronger Korean won.", "source_url": "https://www.techtimes.com/articles/328729/20261007/samsung-q3-2026-forecast-record-profit-stalled-chip-margins-won-headwind.htm", "source_title": "Tech Times: Samsung Q3 2026 Forecast - Record Profit, Stalled Chip Margins, Won Headwind", "source_type": "secondary", "published_at": "2026-10-07", "retrieved_at": "2026-10-19", "quote_or_extract": "techtimes.com was unreachable by direct retrieval; content relies on search-result snippets previewing Samsung's October 8 preliminary Q3 2026 guidance.", "confidence": "low" },
+    { "id": "s12", "claim": "Financial-data analysis of Samsung's preliminary Q3 2026 earnings versus FnGuide analyst consensus, and QoQ/YoY growth rates.", "source_url": "https://stockhub.kr/en/insights/view_1791420339349_rirmz2bfh-samsung-electronics-005930-cy26-q3-preliminary-earnings-20261008", "source_title": "StockHub: Samsung Q3 - revenue misses consensus, profit edges above expectations", "source_type": "secondary", "published_at": "2026-10-08", "retrieved_at": "2026-10-19", "quote_or_extract": "stockhub.kr was unreachable by direct retrieval; content relies on search-result snippets reporting revenue ~2.81% below and operating profit ~0.71% above FnGuide consensus, with QoQ/YoY growth rates of +13.70%/+126.59% (revenue) and +20.01%/+782.50% (operating profit).", "confidence": "medium" },
+    { "id": "s13", "claim": "Secondary coverage converting Samsung's preliminary Q3 2026 won-denominated guidance into US dollar terms.", "source_url": "https://pulse2.com/samsung-guides-to-about-145-4-billion-krw-195-trillion-in-q3-2026-sales/", "source_title": "Pulse2: Samsung Guides To About $145.4 Billion (KRW 195 Trillion) In Q3 2026 Sales", "source_type": "secondary", "published_at": "2026-10-08", "retrieved_at": "2026-10-19", "quote_or_extract": "pulse2.com was unreachable by direct retrieval; content relies on search-result snippets confirming the ~195 trillion won (~$145.4 billion) Q3 2026 sales guidance.", "confidence": "medium" }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

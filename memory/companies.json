@@ -63,9 +63,10 @@
       "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
       "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
       "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
-      "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md"
+      "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
+      "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md"
     ],
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-19"
   },
   {
     "name": "Samsung Electronics",
@@ -76,9 +77,10 @@
       "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md",
       "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
       "reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md",
-      "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md"
+      "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
+      "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md"
     ],
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-19"
   },
   {
     "name": "Micron",
@@ -86,9 +88,10 @@
       "reports/2026/08/2026-08-22-hbm-memory-supercycle-ai-accelerator-bottleneck.md",
       "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
       "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
-      "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md"
+      "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
+      "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md"
     ],
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-19"
   },
   {
     "name": "Siemens Energy",

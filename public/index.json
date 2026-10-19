@@ -1,5 +1,26 @@
 [
   {
+    "title": "Samsung's 30% Wafer Admission: A Named Executive Just Quantified AI Memory's DRAM Crowd-Out",
+    "date": "2026-10-19",
+    "slug": "samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck",
+    "research_type": "UPDATE",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "memory"
+    ],
+    "companies": [
+      "Samsung Electronics",
+      "SK Hynix",
+      "Micron Technology"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck",
+    "path": "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "PC Shipments Fall 20% as AI's HBM Grab for Conventional DRAM Reaches the Consumer Market",
     "date": "2026-10-18",
     "slug": "pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck",

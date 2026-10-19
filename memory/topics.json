@@ -976,5 +976,24 @@
       "SK Hynix",
       "Lenovo"
     ]
+  },
+  {
+    "slug": "samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck",
+    "title": "Samsung's 30% Wafer Admission: A Named Executive Just Quantified AI Memory's DRAM Crowd-Out",
+    "last_updated": "2026-10-19",
+    "reports": [
+      "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "memory"
+    ],
+    "companies": [
+      "Samsung Electronics",
+      "SK Hynix",
+      "Micron Technology"
+    ]
   }
 ]
