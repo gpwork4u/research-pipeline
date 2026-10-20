@@ -995,5 +995,26 @@
       "SK Hynix",
       "Micron Technology"
     ]
+  },
+  {
+    "slug": "cxmt-4f2-dram-chip-selloff-bottleneck-stress-test",
+    "title": "China's Unverified DRAM Claim Just Triggered a $1 Trillion Chip Selloff -- Does It Break the Memory Bottleneck?",
+    "last_updated": "2026-10-20",
+    "reports": [
+      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "memory"
+    ],
+    "companies": [
+      "CXMT",
+      "Samsung Electronics",
+      "SK Hynix",
+      "Micron Technology",
+      "Broadcom"
+    ]
   }
 ]

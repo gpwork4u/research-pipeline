@@ -1,5 +1,28 @@
 [
   {
+    "title": "China's Unverified DRAM Claim Just Triggered a $1 Trillion Chip Selloff -- Does It Break the Memory Bottleneck?",
+    "date": "2026-10-20",
+    "slug": "cxmt-4f2-dram-chip-selloff-bottleneck-stress-test",
+    "research_type": "UPDATE",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "memory"
+    ],
+    "companies": [
+      "CXMT",
+      "Samsung Electronics",
+      "SK Hynix",
+      "Micron Technology",
+      "Broadcom"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/cxmt-4f2-dram-chip-selloff-bottleneck-stress-test",
+    "path": "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "Samsung's 30% Wafer Admission: A Named Executive Just Quantified AI Memory's DRAM Crowd-Out",
     "date": "2026-10-19",
     "slug": "samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck",

@@ -1533,5 +1533,46 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test",
+    "topic": "cxmt-4f2-dram-chip-selloff-bottleneck-stress-test",
+    "statement": "CXMT's October 10, 2026 disclosure of an unverified '4F²' DRAM cell architecture triggered a disproportionate eight-session, ~15.7% Philadelphia Semiconductor Index selloff that erased an estimated $1-2 trillion in chip-sector market value by October 16, 2026. The disclosure included no yield, specification, or confirmed mass-production data, and both Samsung's and SK Hynix's own more technically mature 4F²/hybrid-bonding roadmaps still target roughly 2028 mass production; Samsung's record preliminary Q3 2026 guidance, issued two days before the news, was unaffected and unrevised. This pipeline's Structural Bottleneck classification for shared DRAM/HBM wafer capacity (Samsung, SK Hynix, Micron) therefore holds for now, with CXMT's domestic DRAM capacity classified as a Growth Area rather than a bottleneck-breaking substitute, given its continued reliance on EUV-restricted DUV lithography. However, CXMT's independently documented rapid revenue growth (first flagged in this pipeline's September 7, 2026 report) means the China-catch-up risk to that classification is real and rising faster than this week's market reaction was justified by hard evidence -- Broadcom CEO Hock Tan's own public reframing of AI infrastructure's binding constraint as capital, not chip or memory supply, adds an independent reason to validate rather than dismiss the underlying risk.",
+    "confidence": "medium",
+    "created_at": "2026-10-20",
+    "updated_at": "2026-10-20",
+    "supporting_reports": [
+      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "CXMT ships or qualifies a major customer for a 4F²-based product well ahead of Samsung's and SK Hynix's own ~2028 mass-production timelines",
+        "metric": "CXMT 4F² product shipment/qualification status",
+        "threshold": "Confirmed qualified shipment to a named customer before mid-2027",
+        "time_window": "By mid-2027",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Samsung's or SK Hynix's late-October 2026 earnings calls disclose a strategic acceleration, capacity shift, or pricing concession attributable to Chinese competitive pressure",
+        "metric": "Management commentary on competitive response to CXMT",
+        "threshold": "Any disclosed capacity or pricing change attributed to Chinese competition",
+        "time_window": "Late October 2026 earnings calls",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Realized 2027 HBM/DRAM contract price growth comes in well below the 100-121% forecasts this pipeline has tracked",
+        "metric": "Realized 2027 HBM/DRAM contract ASP growth",
+        "threshold": "Actual growth below 50%",
+        "time_window": "2027",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Independent technical verification confirms CXMT's 4F² claim is accurate and near-term manufacturable at competitive cost",
+        "metric": "Independent verification of CXMT 4F² claim",
+        "threshold": "Credible independent confirmation of density, yield, and cost competitiveness",
+        "time_window": "Next 2-4 quarters",
+        "impact": "invalidate"
+      }
+    ]
   }
 ]

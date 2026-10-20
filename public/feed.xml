@@ -6,6 +6,17 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>China&apos;s Unverified DRAM Claim Just Triggered a $1 Trillion Chip Selloff -- Does It Break the Memory Bottleneck?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/cxmt-4f2-dram-chip-selloff-bottleneck-stress-test</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/cxmt-4f2-dram-chip-selloff-bottleneck-stress-test</guid>
+      <pubDate>Tue, 20 Oct 2026 01:00:00 GMT</pubDate>
+      <category>UPDATE</category>
+      <category>ai-infrastructure</category>
+      <category>semiconductors</category>
+      <category>memory</category>
+      <description>On October 10, 2026, CXMT&apos;s president claimed a denser &quot;4F²&quot; DRAM cell architecture and a year-end DDR5 RDIMM launch, disclosing no yield, specifications, or confirmed date. The claim triggered an eight-session, ~15.7% rout in the Philadelphia Semiconductor Index through October 16 -- its longest losing streak since 2008 -- erasing an estimated $1-2 trillion in chip-sector value, with Micron down ~14.6% and SanDisk ~19% for the week, before a rebound began October 19. Samsung&apos;s and SK Hynix&apos;s own 4F²/hybrid-bonding roadmaps are more mature but still target roughly 2028 mass production, and Samsung&apos;s record Q3 guidance, issued two days before the news, was unaffected. Broadcom&apos;s CEO separately argued capital, not chips or memory, is AI infrastructure&apos;s real constraint. The reaction looks disproportionate to the disclosed facts, but CXMT&apos;s independently documented rapid growth means the underlying risk is real and worth tracking into Samsung&apos;s and SK Hynix&apos;s upcoming earnings calls.</description>
+    </item>
+    <item>
       <title>Samsung&apos;s 30% Wafer Admission: A Named Executive Just Quantified AI Memory&apos;s DRAM Crowd-Out</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck</guid>
@@ -666,19 +677,6 @@ At the OCP APAC Summit on August 11, 2026, TSMC Vice President Jun He said CoWoS
       <description>Capital itself is not scarce for the AI buildout, but credible, arm&apos;s-length underwriting capacity for AI compute as loan collateral is -- and Nvidia&apos;s $500 billion financing push, plus its own rapid retreat on the OpenAI Ohio guarantee, is direct evidence of exactly that constraint.
 
 On August 10, 2026, Nvidia announced financing platforms with six major financial institutions -- Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR -- aimed at mobilizing over $500 billion of third-party capital for AI compute infrastructure. This arrives against a backdrop of mounting concern: the Bank for International Settlements&apos; June 2026 Annual Economic Report named an AI-capex bust and &quot;circular financing&quot; collapse among its top financial-stability risks, and Nvidia&apos;s own five-year credit default swap spread hit a record 82 basis points on July 27, 2026 as reports circulated of Nvidia AI infrastructure arrangements potentially exceeding $750 billion. The clearest real-time evidence of where the actual constraint lies emerged within the research window itself: Nvidia&apos;s proposed guarantee for OpenAI&apos;s Ohio data-center campus was cut from roughly $250 billion under discussion in late July to $105 billion when the deal was finally signed on August 17, reportedly after investor pushback over balance-sheet risk concentration -- and reports characterized the original guarantee as necessary in the first place because OpenAI, projected to lose about $14 billion in 2026, lacks an investment-grade credit rating and could not otherwise access debt markets at this scale. This research concludes that global capital supply is not the binding constraint -- private credit and alternative-asset capacity is abundant and can be committed in months -- but that credible underwriting capacity for GPU-backed debt is scarce, because no large AI GPU cluster has yet completed a full multi-year depreciation and resale cycle, leaving lenders unable to confidently price the collateral. The main uncertainty is how much of this is manageable market discipline working as intended versus an early symptom of a larger, poorly disclosed structural fragility.</description>
-    </item>
-    <item>
-      <title>CoWoS advanced-packaging capacity as the binding constraint on AI accelerator supply</title>
-      <link>https://gpwork4u.github.io/research-pipeline/reports/cowos-packaging-broadcom-custom-ai-asics</link>
-      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/cowos-packaging-broadcom-custom-ai-asics</guid>
-      <pubDate>Wed, 19 Aug 2026 01:00:00 GMT</pubDate>
-      <category>NEW</category>
-      <category>semiconductors</category>
-      <category>ai-infrastructure</category>
-      <category>advanced-packaging</category>
-      <description>CoWoS advanced-packaging capacity, not silicon wafer starts or HBM memory, currently qualifies as the structural bottleneck on AI accelerator supply, and its allocation is entrenching the largest incumbent buyers rather than expanding the field.
-
-Broadcom&apos;s fiscal 2026 guidance and TSMC&apos;s own capacity disclosures both point to the same binding constraint: TSMC&apos;s CoWoS advanced-packaging lines are fully booked through 2026, and expanding them requires multi-year equipment lead times even as TSMC works to nearly quadruple monthly output. Broadcom&apos;s custom AI accelerator (XPU/ASIC) business is growing off this same scarce packaging pool alongside Nvidia&apos;s merchant GPUs, with guidance of $16 billion in Q3 FY2026 AI semiconductor revenue, a full-year target near $56 billion, and a committed backlog exceeding $73 billion concentrated in six hyperscale customers. Because packaging allocation is won through multi-year committed volume rather than spot purchasing, the scarcity appears to be reinforcing the position of the largest, best-capitalized buyers -- Nvidia and Broadcom&apos;s six anchor accounts -- rather than broadening the supply base. The main uncertainty is cyclical and structural at once: TSMC&apos;s stated capacity-ramp target for the end of 2026 would, if sustained, exceed current full-year demand estimates, and history shows packaging and memory cycles can flip from scarcity to oversupply quickly if AI capital expenditure decelerates.</description>
     </item>
   </channel>
 </rss>

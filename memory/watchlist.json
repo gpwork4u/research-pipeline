@@ -2164,5 +2164,50 @@
     "source_to_monitor": "Respective company investor relations pages; trade press (TrendForce, DigiTimes)",
     "origin_report": "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "SK Hynix's Q3 2026 earnings call",
+    "expected_window": "around October 27, 2026",
+    "supports_if": "Management addresses the CXMT news directly and reaffirms HBM/DRAM capacity plans and pricing discipline unchanged",
+    "weakens_if": "Management signals competitive concern, accelerated capacity plans, or pricing concessions tied to Chinese competition",
+    "source_to_monitor": "SK Hynix investor relations",
+    "origin_report": "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md",
+    "status": "open"
+  },
+  {
+    "event": "Samsung's full Q3 2026 earnings call and investor presentation",
+    "expected_window": "around late October 2026",
+    "supports_if": "Management dismisses the CXMT claim as immaterial near-term and confirms continued HBM wafer-share and pricing trajectory",
+    "weakens_if": "Management signals any strategic shift attributable to Chinese competitive pressure",
+    "source_to_monitor": "Samsung investor relations (samsung.com/global/ir)",
+    "origin_report": "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md",
+    "status": "open"
+  },
+  {
+    "event": "CXMT's promised DDR5 RDIMM 4F²-based product launch or sample shipment",
+    "expected_window": "by year-end 2026",
+    "supports_if": "The launch slips, no customer qualification is disclosed, or disclosed yields/specs are materially uncompetitive",
+    "weakens_if": "CXMT ships qualified samples to a named customer on schedule with competitive specifications",
+    "source_to_monitor": "Chinese trade press (Yicai Global, Caixin) and TrendForce",
+    "origin_report": "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md",
+    "status": "open"
+  },
+  {
+    "event": "Independent technical verification of CXMT's 4F² claim (teardown, analyst report, or further conference disclosure)",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "Independent analysis finds the claim exaggerated, unverified, or years from volume manufacturing",
+    "weakens_if": "Independent analysis confirms competitive density, yield, and near-term manufacturability",
+    "source_to_monitor": "TechInsights, SemiAnalysis, and IEEE/ISSCC/VLSI technical disclosures",
+    "origin_report": "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md",
+    "status": "open"
+  },
+  {
+    "event": "Broadcom's next quarterly earnings call and further Hock Tan public commentary",
+    "expected_window": "Broadcom's fiscal Q4 2026 earnings call, expected December 2026",
+    "supports_if": "Management reiterates capital, not chip or memory supply, as the binding AI-infrastructure constraint",
+    "weakens_if": "Management flags renewed wafer, HBM, or substrate supply tightness",
+    "source_to_monitor": "Broadcom investor relations (investors.broadcom.com)",
+    "origin_report": "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md",
+    "status": "open"
   }
 ]

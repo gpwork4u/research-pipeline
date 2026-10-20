@@ -5,9 +5,10 @@
       "reports/2026/08/2026-08-19-cowos-packaging-broadcom-custom-ai-asics.md",
       "reports/2026/09/2026-09-05-broadcom-ai-backlog-custom-asic-design-bottleneck.md",
       "reports/2026/10/2026-10-07-marvell-google-custom-silicon-tsmc-capacity-bottleneck.md",
-      "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md"
+      "reports/2026/10/2026-10-16-tsmc-q3-2026-capex-plateau-wafer-capacity-bottleneck.md",
+      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md"
     ],
-    "last_updated": "2026-10-16"
+    "last_updated": "2026-10-20"
   },
   {
     "name": "Nvidia",
@@ -64,9 +65,10 @@
       "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
       "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
       "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
-      "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md"
+      "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
+      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md"
     ],
-    "last_updated": "2026-10-19"
+    "last_updated": "2026-10-20"
   },
   {
     "name": "Samsung Electronics",
@@ -78,9 +80,10 @@
       "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
       "reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md",
       "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
-      "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md"
+      "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
+      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md"
     ],
-    "last_updated": "2026-10-19"
+    "last_updated": "2026-10-20"
   },
   {
     "name": "Micron",
@@ -89,9 +92,10 @@
       "reports/2026/09/2026-09-13-ddr5-conventional-memory-crowd-out-ai-hbm-bottleneck.md",
       "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
       "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
-      "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md"
+      "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
+      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md"
     ],
-    "last_updated": "2026-10-19"
+    "last_updated": "2026-10-20"
   },
   {
     "name": "Siemens Energy",
@@ -265,9 +269,10 @@
   {
     "name": "CXMT",
     "reports": [
-      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md"
+      "reports/2026/09/2026-09-07-cxmt-china-memory-catchup-ai-hbm-bottleneck.md",
+      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md"
     ],
-    "last_updated": "2026-09-07"
+    "last_updated": "2026-10-20"
   },
   {
     "name": "3M",

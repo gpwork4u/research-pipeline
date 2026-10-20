@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Weekly share-price decline, memory-sector stocks (week of Oct 12-16, 2026)",
+    "title_zh": "記憶體股當週跌幅（2026年10月12-16日當週）",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "s6",
+    "series": [
+      { "label": "Micron Technology", "value": -14.6 },
+      { "label": "SanDisk", "value": -19 },
+      { "label": "SK Hynix (approx.)", "value": -25 }
+    ]
+  },
+  {
+    "title": "SOX index decline through Oct 16, 2026 (8-session cumulative vs. that week alone)",
+    "title_zh": "SOX指數跌幅（截至10月16日，8個交易日累計與當週）",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "s8",
+    "series": [
+      { "label": "8-session cumulative", "value": -15.7 },
+      { "label": "Week of Oct 12-16 alone", "value": -11.4 }
+    ]
+  }
+]
