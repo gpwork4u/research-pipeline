@@ -6,6 +6,19 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>TC Bonder之爭：SK海力士的HBM4設備遞延,是封裝瓶頸,還是韓美-韓華的地盤之爭?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/hbm4-tc-bonder-packaging-equipment-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/hbm4-tc-bonder-packaging-equipment-bottleneck</guid>
+      <pubDate>Wed, 21 Oct 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <category>memory</category>
+      <category>advanced-packaging</category>
+      <category>capital-equipment</category>
+      <description>2026年10月14日一則報導稱,SK海力士部分原訂2026下半年交付的HBM4後端TC bonder設備訂單可能延至2027年——此為未經證實、單一來源的說法——隨後其股價連跌七個交易日。此事揭露本研究線先前未檢視的封裝設備層(用於堆疊HBM晶粒的TC bonder)。現有證據並不支持瓶頸趨緊:韓美半導體、Hanwha Semitech與ASMPT目前皆已出貨或已簽約將對SK海力士出貨TC bonder,交期僅數月,即使韓美與Hanwha仍陷於未解的專利訴訟。韓美2026年6月的SK海力士訂單(442億韓元,約為其2025年營收7.7%)相對規模遠小於2024年訂單(1,499億韓元,約為其營收94%)——與真實的供應多元化相符。真正較難的限制在數年之後:下一代HBM的混合鍵合技術,預計不會早於2029至2030年。</description>
+    </item>
+    <item>
       <title>中國一項未經驗證的DRAM說法引發一兆美元晶片拋售——它打破了記憶體瓶頸嗎?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/cxmt-4f2-dram-chip-selloff-bottleneck-stress-test</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/cxmt-4f2-dram-chip-selloff-bottleneck-stress-test</guid>
@@ -676,19 +689,6 @@ SK Hynix reported record Q2 2026 results (revenue +257% YoY, 76% operating margi
       <description>隨著台積電 CoWoS 封裝產能逐漸追上需求，AI 加速器供應鏈的約束正在往上游一層轉移，來到 ABF 介電膜與以此製成的載板——依本研究自身嚴格的判準，這是一個真正的結構性瓶頸，而 CoWoS 封裝組裝本身則愈來愈不符合這項資格。
 
 2026 年 8 月 11 日，台積電先進封裝技術暨服務部門副總經理何軍在 OCP APAC 峰會上表示，CoWoS 封裝產能已連續三年幾乎每年翻倍，如今已「非常接近」市場需求——同時明確點名記憶體與 ABF 載板將是 AI 供應鏈的下一個瓶頸。這項發言與一連串具體發展相互呼應：在全球 ABF（Ajinomoto Build-up Film）市場市佔率估計達 95% 以上、幾乎為所有高效能 IC 載板核心介電材料供應商的 Ajinomoto，已通知載板廠自 2026 年第三季起調漲價格 30%；Ibiden 在表示其 AI 伺服器載板需求持續超過產能後，揭露了一項為期三年、約 33 億美元的資本投資計畫（2026–2028 財年）；台灣的欣興電子（Unimicron）則在毛利率因折舊上升壓縮至 2026 年第二季 13.2% 的同時，將 2026 年資本支出上調至約 17 億美元。以本研究嚴格的結構性瓶頸判準（需求 High/Extreme、供給彈性 Low、可替代性 Hard）檢視，ABF 介電膜與以 ABF 為基礎的載板兩個節點均符合資格；而 CoWoS 封裝組裝本身——鑑於台積電自身表示產能三年內幾近三倍成長——在本研究中則被重新歸類為成長領域（Growth Area），而非結構性瓶頸。最主要的不確定性在於：Ajinomoto、Ibiden 與 Unimicron 目前已在進行的多年期產能投資,最終是否會像 CoWoS 本身一樣,在類似的多年期時間軸上緩解這項限制;抑或多家供應商的產能同時到位,反而可能讓當前的短缺翻轉為供過於求——正如這個產業在記憶體與封裝週期中曾經發生過的情況。</description>
-    </item>
-    <item>
-      <title>Nvidia 5,000 億美元第三方 AI 融資計畫：解決的是資本瓶頸，還是把信用風險轉移了位置？</title>
-      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/nvidia-ai-infrastructure-financing-platform</link>
-      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/nvidia-ai-infrastructure-financing-platform</guid>
-      <pubDate>Thu, 20 Aug 2026 01:00:00 GMT</pubDate>
-      <category>NEW</category>
-      <category>ai-infrastructure</category>
-      <category>semiconductors</category>
-      <category>capital-markets</category>
-      <description>對 AI 建設而言，資本本身並不稀缺；真正稀缺的是願意為 AI 運算資產做擔保、可信賴的第三方信用承作能力——而 Nvidia 的 5,000 億美元融資計畫，以及它自己迅速收縮對 OpenAI 俄亥俄州擔保金額的舉動，正是這項限制的直接證據。
-
-2026 年 8 月 10 日，Nvidia 宣布與六家主要金融機構——Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 與 KKR——建立融資平台，目標為 AI 運算基礎設施募集超過 5,000 億美元的第三方資金。此舉發生在一連串警訊之後：國際清算銀行（BIS）2026 年 6 月的年度經濟報告將 AI 資本支出泡沫破裂與「循環融資」崩潰列為其首要的金融穩定風險之一；而 Nvidia 自身的五年期信用違約交換（CDS）利差在 2026 年 7 月 27 日創下 82 個基點的歷史新高，當時市場傳出 Nvidia 的 AI 基礎設施相關安排總規模可能超過 7,500 億美元。研究期間內浮現的最清楚的即時證據，正好指出真正限制之所在：Nvidia 原本為 OpenAI 俄亥俄州資料中心園區討論中的擔保金額，從 7 月下旬討論的約 2,500 億美元，在 8 月 17 日正式簽署時降至 1,050 億美元——據報導是在投資人針對資產負債表風險過度集中表達疑慮後所做的調整；而多篇報導指出，最初之所以需要如此規模的擔保，是因為 OpenAI（預估 2026 年虧損約 140 億美元）並不具備投資等級信用評等，難以自行取得同等規模的債務融資。本研究的結論是：全球資本供給並非約束所在——私募信貸與另類資產的資金量龐大，且能在數月內到位；真正稀缺的是為 GPU 擔保債務提供可信承作的能力，因為目前尚未有任何大型 AI GPU 叢集完整走過一個多年期的折舊與轉售週期，導致放款方難以有信心地為這類抵押品定價。主要的不確定性在於：這究竟是市場紀律正常運作的表現，還是一個規模更大、揭露不足的結構性脆弱性的早期徵兆。</description>
     </item>
   </channel>
 </rss>

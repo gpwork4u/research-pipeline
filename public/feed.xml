@@ -6,6 +6,19 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>The TC Bonder Squeeze: Does SK Hynix&apos;s HBM4 Equipment Pullback Reveal a Packaging Bottleneck, or a Hanmi-Hanwha Turf War?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/hbm4-tc-bonder-packaging-equipment-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/hbm4-tc-bonder-packaging-equipment-bottleneck</guid>
+      <pubDate>Wed, 21 Oct 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>semiconductors</category>
+      <category>ai-infrastructure</category>
+      <category>memory</category>
+      <category>advanced-packaging</category>
+      <category>capital-equipment</category>
+      <description>A seven-session SK Hynix share slide followed an October 14, 2026 report that some HBM4 back-end TC-bonder equipment orders planned for H2 2026 may slip into 2027 -- an unconfirmed, single-sourced claim. This surfaces a packaging-equipment layer (TC bonders that stack HBM dies) this pipeline has not examined before. The evidence leans against a tightening bottleneck: Hanmi Semiconductor, Hanwha Semitech and ASMPT are all now shipping or contracted to ship TC bonders to SK Hynix, with delivery windows of only a few months, even as Hanmi and Hanwha remain locked in unresolved patent litigation. Hanmi&apos;s June 2026 order (44.2 billion won, ~7.7% of 2025 revenue) is far smaller, relatively, than its 2024 order (149.9 billion won, ~94% of revenue) -- consistent with real diversification, not scarcity. The harder constraint sits years out: hybrid bonding for HBM5, not expected before 2029-2030.</description>
+    </item>
+    <item>
       <title>China&apos;s Unverified DRAM Claim Just Triggered a $1 Trillion Chip Selloff -- Does It Break the Memory Bottleneck?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/cxmt-4f2-dram-chip-selloff-bottleneck-stress-test</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/cxmt-4f2-dram-chip-selloff-bottleneck-stress-test</guid>
@@ -664,19 +677,6 @@ SK Hynix reported record Q2 2026 results (revenue +257% YoY, 76% operating margi
       <description>As TSMC&apos;s CoWoS packaging capacity closes in on demand, the binding constraint on AI accelerator supply is shifting one layer upstream to ABF dielectric film and the substrates built from it -- a genuine structural bottleneck by this research&apos;s own strict test, where CoWoS assembly increasingly no longer qualifies.
 
 At the OCP APAC Summit on August 11, 2026, TSMC Vice President Jun He said CoWoS advanced-packaging capacity has nearly doubled every year for three consecutive years and is now &quot;very close&quot; to market demand -- while explicitly naming memory and ABF substrates as the AI supply chain&apos;s next bottlenecks. That statement lands alongside a concrete set of developments: Ajinomoto, which holds an estimated 95%+ share of the global market for ABF (Ajinomoto Build-up Film), the core dielectric material used in essentially all high-performance IC package substrates, notified substrate makers of a 30% price increase effective Q3 2026; Ibiden disclosed a roughly $3.3 billion, three-year capital investment plan (FY2026-2028) after stating that AI-server substrate demand continues to exceed its capacity; and Taiwan&apos;s Unimicron raised its 2026 capital expenditure to roughly $1.7 billion even as rising depreciation compressed its gross margin to 13.2% in Q2 2026. Applying this research&apos;s strict Structural Bottleneck test (demand High/Extreme, supply elasticity Low, substitutability Hard), the ABF film and ABF-based substrate nodes both qualify, while CoWoS assembly itself -- given TSMC&apos;s own account of capacity nearly tripling over three years -- is reclassified here as a Growth Area rather than a Structural Bottleneck. The main uncertainty is whether the multi-year capacity investments already underway at Ajinomoto, Ibiden, and Unimicron will resolve this constraint on a similar multi-year timeline to how CoWoS itself eased, or whether simultaneous capacity landing across suppliers could instead flip today&apos;s shortage into oversupply, as has happened before in adjacent memory and packaging cycles.</description>
-    </item>
-    <item>
-      <title>Nvidia&apos;s $500 billion third-party AI financing push: does it solve a capital bottleneck, or relocate a credit-risk one?</title>
-      <link>https://gpwork4u.github.io/research-pipeline/reports/nvidia-ai-infrastructure-financing-platform</link>
-      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/nvidia-ai-infrastructure-financing-platform</guid>
-      <pubDate>Thu, 20 Aug 2026 01:00:00 GMT</pubDate>
-      <category>NEW</category>
-      <category>ai-infrastructure</category>
-      <category>semiconductors</category>
-      <category>capital-markets</category>
-      <description>Capital itself is not scarce for the AI buildout, but credible, arm&apos;s-length underwriting capacity for AI compute as loan collateral is -- and Nvidia&apos;s $500 billion financing push, plus its own rapid retreat on the OpenAI Ohio guarantee, is direct evidence of exactly that constraint.
-
-On August 10, 2026, Nvidia announced financing platforms with six major financial institutions -- Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR -- aimed at mobilizing over $500 billion of third-party capital for AI compute infrastructure. This arrives against a backdrop of mounting concern: the Bank for International Settlements&apos; June 2026 Annual Economic Report named an AI-capex bust and &quot;circular financing&quot; collapse among its top financial-stability risks, and Nvidia&apos;s own five-year credit default swap spread hit a record 82 basis points on July 27, 2026 as reports circulated of Nvidia AI infrastructure arrangements potentially exceeding $750 billion. The clearest real-time evidence of where the actual constraint lies emerged within the research window itself: Nvidia&apos;s proposed guarantee for OpenAI&apos;s Ohio data-center campus was cut from roughly $250 billion under discussion in late July to $105 billion when the deal was finally signed on August 17, reportedly after investor pushback over balance-sheet risk concentration -- and reports characterized the original guarantee as necessary in the first place because OpenAI, projected to lose about $14 billion in 2026, lacks an investment-grade credit rating and could not otherwise access debt markets at this scale. This research concludes that global capital supply is not the binding constraint -- private credit and alternative-asset capacity is abundant and can be committed in months -- but that credible underwriting capacity for GPU-backed debt is scarce, because no large AI GPU cluster has yet completed a full multi-year depreciation and resale cycle, leaving lenders unable to confidently price the collateral. The main uncertainty is how much of this is manageable market discipline working as intended versus an early symptom of a larger, poorly disclosed structural fragility.</description>
     </item>
   </channel>
 </rss>

@@ -18,9 +18,10 @@
       "reports/2026/09/2026-09-23-ai-neocloud-credit-risk-coreweave-cds-spread-bottleneck.md",
       "reports/2026/09/2026-09-30-samsung-helix-digital-infrastructure-circular-financing-bottleneck.md",
       "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md",
-      "reports/2026/10/2026-10-15-china-ai-chip-market-share-nvidia-huawei-gap-bottleneck.md"
+      "reports/2026/10/2026-10-15-china-ai-chip-market-share-nvidia-huawei-gap-bottleneck.md",
+      "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md"
     ],
-    "last_updated": "2026-10-15"
+    "last_updated": "2026-10-21"
   },
   {
     "name": "CoreWeave",
@@ -66,9 +67,10 @@
       "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
       "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
       "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
-      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md"
+      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md",
+      "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md"
     ],
-    "last_updated": "2026-10-20"
+    "last_updated": "2026-10-21"
   },
   {
     "name": "Samsung Electronics",
@@ -81,9 +83,10 @@
       "reports/2026/10/2026-10-17-asml-q3-2026-euv-capacity-shortfall-bottleneck.md",
       "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
       "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
-      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md"
+      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md",
+      "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md"
     ],
-    "last_updated": "2026-10-20"
+    "last_updated": "2026-10-21"
   },
   {
     "name": "Micron",
@@ -93,9 +96,10 @@
       "reports/2026/10/2026-10-06-micron-hbm-no-line-of-sight-supply-bottleneck.md",
       "reports/2026/10/2026-10-18-pc-shipment-collapse-conventional-dram-ai-hbm-bottleneck.md",
       "reports/2026/10/2026-10-19-samsung-hbm-dram-wafer-capacity-crowd-out-bottleneck.md",
-      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md"
+      "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md",
+      "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md"
     ],
-    "last_updated": "2026-10-20"
+    "last_updated": "2026-10-21"
   },
   {
     "name": "Siemens Energy",
@@ -733,5 +737,26 @@
       "reports/2026/10/2026-10-14-super-micro-nvidia-chip-smuggling-export-control-enforcement-bottleneck.md"
     ],
     "last_updated": "2026-10-14"
+  },
+  {
+    "name": "Hanmi Semiconductor",
+    "reports": [
+      "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md"
+    ],
+    "last_updated": "2026-10-21"
+  },
+  {
+    "name": "ASMPT",
+    "reports": [
+      "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md"
+    ],
+    "last_updated": "2026-10-21"
+  },
+  {
+    "name": "Hanwha Semitech",
+    "reports": [
+      "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md"
+    ],
+    "last_updated": "2026-10-21"
   }
 ]

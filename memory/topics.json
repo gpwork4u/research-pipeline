@@ -1016,5 +1016,30 @@
       "Micron Technology",
       "Broadcom"
     ]
+  },
+  {
+    "slug": "hbm4-tc-bonder-packaging-equipment-bottleneck",
+    "title": "The TC Bonder Squeeze: Does SK Hynix's HBM4 Equipment Pullback Reveal a Packaging Bottleneck, or a Hanmi-Hanwha Turf War?",
+    "last_updated": "2026-10-21",
+    "reports": [
+      "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "semiconductors",
+      "ai-infrastructure",
+      "memory",
+      "advanced-packaging",
+      "capital-equipment"
+    ],
+    "companies": [
+      "SK Hynix",
+      "Hanmi Semiconductor",
+      "ASMPT",
+      "Hanwha Semitech",
+      "Samsung Electronics",
+      "Micron Technology",
+      "Nvidia"
+    ]
   }
 ]

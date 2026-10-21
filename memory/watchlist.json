@@ -2209,5 +2209,50 @@
     "source_to_monitor": "Broadcom investor relations (investors.broadcom.com)",
     "origin_report": "reports/2026/10/2026-10-20-cxmt-4f2-dram-chip-selloff-bottleneck-stress-test.md",
     "status": "open"
+  },
+  {
+    "event": "SK Hynix's Q3 2026 earnings call and investor presentation",
+    "expected_window": "late October 2026",
+    "supports_if": "Management addresses back-end equipment procurement timing directly, confirming some H2 2026 TC-bonder deliveries have slipped, or discloses a capex reallocation toward conventional DRAM",
+    "weakens_if": "Management denies any equipment-order slippage or declines to comment while reiterating unchanged HBM4/HBM4E capacity timelines",
+    "source_to_monitor": "SK Hynix investor relations / news.skhynix.com",
+    "origin_report": "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Further Korean trade-press reporting (The Elec, ET News, Hankyung, Digitimes) on SK Hynix HBM4 back-end equipment order timing",
+    "expected_window": "next 1-2 months",
+    "supports_if": "A second, independently-sourced outlet corroborates the October 2026 equipment-delay report with named sources or company confirmation",
+    "weakens_if": "No further corroborating reporting surfaces and the October 2026 report is not repeated or confirmed",
+    "source_to_monitor": "Korean semiconductor trade press (The Elec, ET News, Hankyung) and TrendForce",
+    "origin_report": "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Any ruling, settlement, or material procedural development in the Hanmi Semiconductor v. Hanwha Semitech TC-bonder patent litigation",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "A ruling or settlement meaningfully restricts either company's ability to ship TC bonders, reinforcing supply-side risk",
+    "weakens_if": "The litigation is dismissed, settled without restriction, or continues indefinitely with no operational impact on either company's shipments",
+    "source_to_monitor": "Seoul court filings; Digitimes and Korean trade press coverage",
+    "origin_report": "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Hanmi Semiconductor's and/or Hanwha Semitech's next disclosed SK Hynix (or Samsung/Micron) TC-bonder supply contract",
+    "expected_window": "next 2-3 quarters",
+    "supports_if": "A new contract confirms continued multi-sourcing and reasonable order-to-delivery lead times, consistent with Medium (not Low) supply elasticity",
+    "weakens_if": "No new contracts are disclosed for an extended period, or a disclosed contract shows materially longer lead times or a return to single-supplier concentration",
+    "source_to_monitor": "Korea Exchange (KRX) corporate disclosures; Korea Herald Business, TrendForce, KED Global",
+    "origin_report": "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Samsung's, SK Hynix's, Applied Materials', or BESI's next disclosed hybrid-bonding development milestone for HBM",
+    "expected_window": "next 2-4 quarters",
+    "supports_if": "Milestones proceed on or ahead of the ~2029-2030 HBM5 adoption timeline with growing process-validation detail",
+    "weakens_if": "Hybrid-bonding development milestones are delayed further or abandoned",
+    "source_to_monitor": "SK Hynix, Samsung, Applied Materials and BESI investor/technical disclosures; Counterpoint Research",
+    "origin_report": "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md",
+    "status": "open"
   }
 ]

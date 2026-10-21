@@ -1,5 +1,32 @@
 [
   {
+    "title": "The TC Bonder Squeeze: Does SK Hynix's HBM4 Equipment Pullback Reveal a Packaging Bottleneck, or a Hanmi-Hanwha Turf War?",
+    "date": "2026-10-21",
+    "slug": "hbm4-tc-bonder-packaging-equipment-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "semiconductors",
+      "ai-infrastructure",
+      "memory",
+      "advanced-packaging",
+      "capital-equipment"
+    ],
+    "companies": [
+      "SK Hynix",
+      "Hanmi Semiconductor",
+      "ASMPT",
+      "Hanwha Semitech",
+      "Samsung Electronics",
+      "Micron Technology",
+      "Nvidia"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "low",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/hbm4-tc-bonder-packaging-equipment-bottleneck",
+    "path": "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md",
+    "one_sentence_conclusion": ""
+  },
+  {
     "title": "China's Unverified DRAM Claim Just Triggered a $1 Trillion Chip Selloff -- Does It Break the Memory Bottleneck?",
     "date": "2026-10-20",
     "slug": "cxmt-4f2-dram-chip-selloff-bottleneck-stress-test",
