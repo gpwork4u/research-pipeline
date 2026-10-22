@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>FERC駁回PJM的AI限電計畫:電網瓶頸只是轉移到各州了嗎?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ferc-rejects-pjm-iras-byonc-curtailment-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ferc-rejects-pjm-iras-byonc-curtailment-bottleneck</guid>
+      <pubDate>Thu, 22 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>regulation</category>
+      <category>data-centers</category>
+      <description>FERC以管轄權為由駁回PJM的聯邦AI負載限電計畫,但其原本要配給的發電缺口並未改變——決定權只是轉移到各州。
+
+2026年10月9日,FERC核准PJM的大型負載定義與登記制度,但駁回了可靠度備援服務(IRAS)限電優先權框架與BYONC條款,認定其侵犯各州的零售電價管轄權。此事正是本研究團隊10月1日報告中一項仍開放的觀察事件,也符合8月28日PJM/BYONC論點所設下的「推翻」觸發條件——但僅限於這項特定的聯邦政策機制。PJM底層的發電容量缺口,經本研究團隊獨立證實為連續第三年拍賣短缺,並未受此影響。分析師預期限電優先權的決定權將轉移至各州,以賓州與俄亥俄州為先行者,而另一項關於34.94億美元(29.4億)資料中心相關容量成本由誰承擔的爭議,仍懸而未決。</description>
+    </item>
+    <item>
       <title>TC Bonder之爭：SK海力士的HBM4設備遞延,是封裝瓶頸,還是韓美-韓華的地盤之爭?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/hbm4-tc-bonder-packaging-equipment-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/hbm4-tc-bonder-packaging-equipment-bottleneck</guid>
@@ -675,20 +689,6 @@ Coherent 與 Lumentum 8 月財報皆顯示資料中心通訊營收年增 58% 至
       <description>高頻寬記憶體（HBM）已成為 AI 加速器供應鏈中持續時間最長的結構性瓶頸，SK 海力士高層預測短缺將持續到 2030 年前後，比先前檢視的封裝或基板瓶頸都更持久。
 
 SK Hynix reported record Q2 2026 results (revenue +257% YoY, 76% operating margin) as HBM4 entered mass production, and its CEO and controlling shareholder have each independently forecast the shortage persisting to around 2030. Micron sold out its entire calendar-2026 HBM supply under long-term agreements, and Samsung is racing to add roughly 50% more HBM capacity by year-end. Because HBM consumes roughly three times the wafer capacity of equivalent conventional DRAM, capacity reallocation toward HBM appears to be the direct cause of a parallel DDR5 price shock hitting PCs and smartphones. HBM production qualifies as a Structural Bottleneck under this research&apos;s strict test -- but credible analysts sharply disagree on durability: some argue the shortage already peaked in Q2 2026 and could tip toward oversupply by 2028 as incumbent capacity, plus China&apos;s fast-scaling CXMT, lands simultaneously.</description>
-    </item>
-    <item>
-      <title>ABF 介電膜與 Ajinomoto 的近乎壟斷地位：CoWoS 產能吃緊趨緩後，AI 晶片封裝背後浮現的新瓶頸</title>
-      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/abf-substrate-ajinomoto-ai-chip-packaging</link>
-      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/abf-substrate-ajinomoto-ai-chip-packaging</guid>
-      <pubDate>Fri, 21 Aug 2026 01:00:00 GMT</pubDate>
-      <category>NEW</category>
-      <category>semiconductors</category>
-      <category>ai-infrastructure</category>
-      <category>advanced-packaging</category>
-      <category>materials</category>
-      <description>隨著台積電 CoWoS 封裝產能逐漸追上需求，AI 加速器供應鏈的約束正在往上游一層轉移，來到 ABF 介電膜與以此製成的載板——依本研究自身嚴格的判準，這是一個真正的結構性瓶頸，而 CoWoS 封裝組裝本身則愈來愈不符合這項資格。
-
-2026 年 8 月 11 日，台積電先進封裝技術暨服務部門副總經理何軍在 OCP APAC 峰會上表示，CoWoS 封裝產能已連續三年幾乎每年翻倍，如今已「非常接近」市場需求——同時明確點名記憶體與 ABF 載板將是 AI 供應鏈的下一個瓶頸。這項發言與一連串具體發展相互呼應：在全球 ABF（Ajinomoto Build-up Film）市場市佔率估計達 95% 以上、幾乎為所有高效能 IC 載板核心介電材料供應商的 Ajinomoto，已通知載板廠自 2026 年第三季起調漲價格 30%；Ibiden 在表示其 AI 伺服器載板需求持續超過產能後，揭露了一項為期三年、約 33 億美元的資本投資計畫（2026–2028 財年）；台灣的欣興電子（Unimicron）則在毛利率因折舊上升壓縮至 2026 年第二季 13.2% 的同時，將 2026 年資本支出上調至約 17 億美元。以本研究嚴格的結構性瓶頸判準（需求 High/Extreme、供給彈性 Low、可替代性 Hard）檢視，ABF 介電膜與以 ABF 為基礎的載板兩個節點均符合資格；而 CoWoS 封裝組裝本身——鑑於台積電自身表示產能三年內幾近三倍成長——在本研究中則被重新歸類為成長領域（Growth Area），而非結構性瓶頸。最主要的不確定性在於：Ajinomoto、Ibiden 與 Unimicron 目前已在進行的多年期產能投資,最終是否會像 CoWoS 本身一樣,在類似的多年期時間軸上緩解這項限制;抑或多家供應商的產能同時到位,反而可能讓當前的短缺翻轉為供過於求——正如這個產業在記憶體與封裝週期中曾經發生過的情況。</description>
     </item>
   </channel>
 </rss>

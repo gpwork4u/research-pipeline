@@ -1684,6 +1684,34 @@
     "weakens_if": "FERC approves IRAS/BYONC substantially as filed with the curtailment-priority mechanism intact and on schedule",
     "source_to_monitor": "FERC eLibrary (Docket ER26-3515); PJM Insidelines",
     "origin_report": "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md",
+    "status": "triggered",
+    "outcome": "Occurred October 9, 2026: supports_if branch confirmed. FERC accepted PJM's 50 MW Large Load definition and Large Load Registry (effective Oct 12, 2026) but rejected the IRAS curtailment-priority framework and BYONC provisions as intruding on states' retail-rate jurisdiction, consistent with the Market Monitor's and EPSA's prior protests. This met the explicit 'invalidate' kill condition on the August 28, 2026 thesis for that specific federal policy mechanism, though the underlying firm-generation shortfall was untouched and curtailment-priority authority is now expected to shift to individual states (Pennsylvania and Ohio flagged as likely first movers). See reports/2026/10/2026-10-22-ferc-rejects-pjm-iras-byonc-curtailment-bottleneck.md."
+  },
+  {
+    "event": "PJM's compliance filing or refiling in Docket ER26-3515 (or a successor docket) responding to FERC's October 9, 2026 order",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "PJM's refiling narrows curtailment authority further or defers substantially to state processes",
+    "weakens_if": "PJM quickly refiles a FERC-compliant curtailment framework that restores most of the original mechanism and FERC approves it promptly",
+    "source_to_monitor": "FERC eLibrary (Docket ER26-3515); PJM Insidelines",
+    "origin_report": "reports/2026/10/2026-10-22-ferc-rejects-pjm-iras-byonc-curtailment-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Pennsylvania's and Ohio's own large-load/curtailment-priority rulemakings",
+    "expected_window": "Q4 2026 - 2027",
+    "supports_if": "One or both states adopt binding curtailment-priority or BYONC-style rules, confirming the venue shift to states",
+    "weakens_if": "States decline to act or adopt only non-binding guidance",
+    "source_to_monitor": "Pennsylvania Public Utility Commission and Public Utilities Commission of Ohio dockets; trade press",
+    "origin_report": "reports/2026/10/2026-10-22-ferc-rejects-pjm-iras-byonc-curtailment-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "PJM's next Base Residual Auction results and updated Independent Market Monitor data-center cost-allocation figures",
+    "expected_window": "~mid-2027",
+    "supports_if": "The reserve-margin shortfall persists and/or data-center-driven capacity charges continue rising beyond the $29.4 billion four-auction total",
+    "weakens_if": "The shortfall closes or the data-center-driven cost share declines materially",
+    "source_to_monitor": "PJM markets-ops auction-results releases; Monitoring Analytics reports",
+    "origin_report": "reports/2026/10/2026-10-22-ferc-rejects-pjm-iras-byonc-curtailment-bottleneck.md",
     "status": "open"
   },
   {

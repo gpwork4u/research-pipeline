@@ -171,9 +171,10 @@
     "name": "PJM Interconnection",
     "reports": [
       "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
-      "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md"
+      "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md",
+      "reports/2026/10/2026-10-22-ferc-rejects-pjm-iras-byonc-curtailment-bottleneck.md"
     ],
-    "last_updated": "2026-10-01"
+    "last_updated": "2026-10-22"
   },
   {
     "name": "EMCOR Group",
@@ -692,9 +693,10 @@
   {
     "name": "Constellation Energy",
     "reports": [
-      "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md"
+      "reports/2026/10/2026-10-01-pjm-reliability-backstop-suspension-ai-data-center-bottleneck.md",
+      "reports/2026/10/2026-10-22-ferc-rejects-pjm-iras-byonc-curtailment-bottleneck.md"
     ],
-    "last_updated": "2026-10-01"
+    "last_updated": "2026-10-22"
   },
   {
     "name": "Marvell Technology",

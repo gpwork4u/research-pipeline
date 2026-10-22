@@ -151,9 +151,10 @@
   {
     "slug": "pjm-byonc-grid-interconnection-ai-data-center-bottleneck",
     "title": "PJM's 'Bring Your Own Power' Mandate: Has US Grid Interconnection Policy Overtaken Equipment Supply as AI Data Centers' Binding Constraint?",
-    "last_updated": "2026-08-28",
+    "last_updated": "2026-10-22",
     "reports": [
-      "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md"
+      "reports/2026/08/2026-08-28-pjm-byonc-grid-interconnection-ai-data-center-bottleneck.md",
+      "reports/2026/10/2026-10-22-ferc-rejects-pjm-iras-byonc-curtailment-bottleneck.md"
     ],
     "status": "active",
     "categories": [
@@ -163,7 +164,8 @@
       "data-centers"
     ],
     "companies": [
-      "PJM Interconnection"
+      "PJM Interconnection",
+      "Constellation Energy"
     ]
   },
   {

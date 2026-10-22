@@ -1,0 +1,330 @@
+{
+  "topic": {
+    "title": "FERC Rejects PJM's AI Curtailment Plan: Does the Grid Bottleneck Just Move to the States?",
+    "slug": "ferc-rejects-pjm-iras-byonc-curtailment-bottleneck",
+    "date": "2026-10-22",
+    "research_type": "FOLLOW_UP",
+    "categories": ["ai-infrastructure", "energy", "regulation", "data-centers"],
+    "score": 32,
+    "trigger": "On October 9, 2026, FERC issued its order in Docket No. ER26-3515-000 (cited by secondary sources as 197 FERC Para 61,019, with Commissioner Rosner's concurrence) on PJM's companion Interim Resource Adequacy Service (IRAS) / Large Load Registry / BYONC filing: it accepted PJM's 50 MW Large Load definition and Large Load Registry (effective October 12, 2026) but rejected the IRAS curtailment-priority framework and bring-your-own-new-capacity (BYONC) provisions as encroaching on states' retail-rate jurisdiction. This is the exact open watchlist event from this pipeline's October 1, 2026 report and directly engages an explicit 'invalidate' kill condition set on the August 28, 2026 PJM/BYONC thesis."
+  },
+  "questions": {
+    "primary": "Does FERC's October 9, 2026 rejection of PJM's IRAS/BYONC curtailment-priority framework (Docket ER26-3515) invalidate this pipeline's August 28, 2026 finding that PJM's capacity-rationing policy reveals a structural firm-generation bottleneck, or does it simply relocate the rationing mechanism from a single federal framework to a fragmented, state-by-state patchwork while the underlying scarcity persists?",
+    "sub": [
+      "What exactly did FERC accept versus reject in its October 9, 2026 order, and on what legal/jurisdictional grounds?",
+      "Does this order satisfy the explicit 'invalidate' kill condition set in the August 28, 2026 report's thesis, and what does that mean for the thesis as a whole versus just its policy-mechanism component?",
+      "What does PJM's own public reaction and industry/law-firm commentary reveal about where curtailment-priority authority is likely to land next?",
+      "Does the rejection change the underlying dispute over who pays an estimated $29.4 billion in data-center-driven PJM capacity costs?",
+      "How does this order interact with the separate, still-pending Reliability Backstop Procurement hearing (ER26-3380) covered in this pipeline's October 1, 2026 report?"
+    ]
+  },
+  "thesis": "FERC's October 9, 2026 order granted PJM's Large Load definition and registry but rejected the Interim Resource Adequacy Service curtailment-priority and BYONC provisions as intruding on states' retail-rate authority -- squarely meeting the August 28, 2026 thesis's own 'invalidate' kill condition for that specific federal policy mechanism. But the order does not resolve, and arguably sharpens, the underlying structural bottleneck: PJM's firm-generation shortfall (reaffirmed independently by this pipeline's October 1, 2026 report as a third-consecutive-year Base Residual Auction shortfall) is untouched by this ruling, while authority over who gets curtailed first and who pays an estimated $29.4 billion in data-center-driven capacity costs now shifts to a fragmented patchwork of individual state proceedings -- with Pennsylvania and Ohio flagged by analysts as likely first movers -- rather than a single federal framework. The practical effect looks less like resolving a bottleneck and more like trading one (an unresolved federal rulemaking) for another (a potentially inconsistent, slower-moving set of state-by-state regimes).",
+  "facts": [
+    {
+      "statement": "On October 9, 2026, FERC issued an order in Docket No. ER26-3515-000 that accepted PJM's proposed 'Large Load' definition (50 MW or more of demand at a single site) and PJM's Large Load Registry, effective October 12, 2026, while rejecting the companion Interim Resource Adequacy Service (IRAS) curtailment-priority framework and the Bring-Your-Own-New-Capacity (BYONC) provisions.",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s2", "s3", "s5"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Multiple secondary reports describe FERC's stated legal reasoning as jurisdictional: the IRAS curtailment obligations fell directly on new large loads that are largely retail customers, and the proposed compensation framework for IRAS appeared to function as a retail rate -- a matter FERC held belongs to the states under the Federal Power Act, not to PJM or FERC.",
+      "type": "FACT",
+      "evidence_ids": ["s5", "s6", "s7"],
+      "confidence": "high"
+    },
+    {
+      "statement": "FERC rejected the BYONC provisions and related capacity-market (VRR curve) changes alongside IRAS because it viewed them as inextricably linked to the rejected curtailment framework, rather than severable and independently approvable.",
+      "type": "FACT",
+      "evidence_ids": ["s7", "s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "One source's docket appendix cites the order as 'Order Accepting Tariff Revisions in Part and Rejecting Tariff Revisions in Part,' PJM Interconnection, L.L.C., Docket No. ER26-3515-000, 197 FERC Para 61,019, issued with a concurrence from Commissioner Rosner.",
+      "type": "FACT",
+      "evidence_ids": ["s4"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Commissioner Rosner's concurrence argued that curtailment-priority rules for large loads are properly a state responsibility, that PJM should stand ready to adjust its own operations, and that curtailment should be used only after voluntary demand response has been exhausted.",
+      "type": "FACT",
+      "evidence_ids": ["s9"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "A PJM spokesperson said the company is reviewing the order to determine how to meet FERC's requirements while recognizing the responsibilities the Commission indicated belong to the states, described the accepted registry and definition as 'a step in that direction,' and declined to elaborate on PJM's next steps while the review is underway.",
+      "type": "FACT",
+      "evidence_ids": ["s7", "s10"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Several outlets reported the outcome was largely anticipated by market participants and that load-serving aggregators were not particularly worried about the ruling, because most stakeholders already expected individual states -- rather than PJM or FERC -- to adopt their own IRAS-style curtailment or large-load regimes, with the new PJM Large Load Registry providing states the underlying data to do so.",
+      "type": "FACT",
+      "evidence_ids": ["s11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Industry commentary following the order named Pennsylvania and Ohio as the states most likely to lead in adopting their own curtailment-priority or bring-your-own-power-style rules for large loads, following each state's prior executive or regulatory actions on data centers.",
+      "type": "FACT",
+      "evidence_ids": ["s9", "s11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "PJM's own Independent Market Monitor, Joseph Bowring, stated that data-center-driven capacity charges totaled $29.4 billion across PJM's last four Base Residual Auctions -- 46% of the $63.6 billion in total capacity charges over that period -- with data centers accounting for $6.3 billion of $16.4 billion (about 38%) in the most recent auction alone.",
+      "type": "FACT",
+      "evidence_ids": ["s13"],
+      "confidence": "high"
+    },
+    {
+      "statement": "FERC's October 9, 2026 order did not itself allocate or quantify the $29.4 billion in data-center-driven capacity costs the Independent Market Monitor had identified; the broader 'who pays' question remained explicitly unresolved after the ruling.",
+      "type": "FACT",
+      "evidence_ids": ["s13", "s14"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "PJM's IRAS/Large Load Registry/BYONC filing in Docket ER26-3515 was the same companion filing this pipeline's October 1, 2026 report identified as still undecided past PJM's requested October 12, 2026 effective date, and as separately protested by PJM's own Independent Market Monitor and by the Electric Power Supply Association (EPSA).",
+      "type": "FACT",
+      "evidence_ids": ["s1", "s15"],
+      "confidence": "high"
+    }
+  ],
+  "inferences": [
+    {
+      "statement": "Because FERC rejected the curtailment-priority and BYONC provisions specifically on jurisdictional grounds -- not on a finding that curtailment priority is unnecessary or that the underlying capacity shortfall is overstated -- the ruling most directly kills the particular federal policy vehicle this pipeline's August 28, 2026 report examined, while leaving open (and effectively inviting) a state-by-state or PJM-refiled successor mechanism to take its place.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s5", "s6", "s7", "s9"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Because this order addresses only the curtailment-priority/BYONC policy layer and leaves PJM's firm-generation shortfall -- independently reaffirmed by this pipeline's October 1, 2026 report as a third-consecutive-year Base Residual Auction shortfall -- completely untouched, the underlying Structural Bottleneck classification for firm dispatchable generation in PJM should not be revised based on this order alone.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s1", "s13"],
+      "confidence": "high"
+    },
+    {
+      "statement": "Because multiple states (at minimum Pennsylvania and Ohio, per industry commentary) are expected to pursue their own curtailment-priority or large-load rules using the data now generated by PJM's FERC-approved Large Load Registry, the practical result of this ruling looks less like eliminating a rationing mechanism than fragmenting it into a potentially slower, less consistent set of up to 13 separate state-level processes across PJM's footprint.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s9", "s11"],
+      "confidence": "medium"
+    },
+    {
+      "statement": "Because market reaction to the order was described as muted and largely anticipated, rather than triggering fresh alarm, financial markets appear to be pricing this as a procedural redirection of an already-expected policy fight rather than as new evidence the AI-data-center power bottleneck is easing or worsening.",
+      "type": "INFERENCE",
+      "evidence_ids": ["s11"],
+      "confidence": "low"
+    }
+  ],
+  "unknowns": [
+    "Whether and when PJM will refile a FERC-compliant successor to the IRAS curtailment framework, and whether such a refiling would restore most of the original mechanism or something materially narrower, is unknown.",
+    "Whether Pennsylvania, Ohio, or other PJM-member states will actually adopt binding curtailment-priority or BYONC-style rules -- as opposed to non-binding guidance or no action -- and on what timeline, is unknown.",
+    "The precise eventual allocation of the $29.4 billion in data-center-driven capacity costs identified by PJM's Independent Market Monitor was not determined by this order and remains unresolved.",
+    "The full text and legal reasoning of FERC's October 9, 2026 order, including whether any commissioner dissented rather than concurred, could not be independently verified from the sources available.",
+    "All primary FERC, PJM, and company-investor-relations domains attempted (ferc.gov, elibrary.ferc.gov, pjm.com, insidelines.pjm.com, en.wikipedia.org and others) returned DNS/connection failures under the research environment's egress policy; facts rely on convergent search-result snippets describing the order and secondary/law-firm summaries rather than direct verification of the order's full original text."
+  ],
+  "industry_chain": [
+    {
+      "name": "Gas-turbine and generation-equipment manufacturing",
+      "role": "Upstream",
+      "major_players": ["GE Vernova", "Siemens Energy", "Mitsubishi Power"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "PJM capacity market and large-load/curtailment rulemaking",
+      "role": "Infrastructure",
+      "major_players": ["PJM Interconnection"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "Federal Energy Regulatory Commission adjudication",
+      "role": "Infrastructure",
+      "major_players": ["Federal Energy Regulatory Commission"],
+      "pricing_power": "Low",
+      "supply_elasticity": "Low",
+      "substitutability": "Hard"
+    },
+    {
+      "name": "State public utility commissions and legislatures (large-load/curtailment rulemaking)",
+      "role": "Infrastructure",
+      "major_players": ["Pennsylvania Public Utility Commission", "Public Utilities Commission of Ohio"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Merchant generation owners in PJM footprint",
+      "role": "Infrastructure",
+      "major_players": ["Constellation Energy", "NRG Energy", "Talen Energy", "Vistra"],
+      "pricing_power": "High",
+      "supply_elasticity": "Low",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "AI data-center / large-load developers in PJM territory",
+      "role": "Platform",
+      "major_players": ["Hyperscalers", "neocloud operators", "colocation developers"],
+      "pricing_power": "Medium",
+      "supply_elasticity": "Medium",
+      "substitutability": "Medium"
+    },
+    {
+      "name": "Residential and commercial ratepayers in affected utility territories",
+      "role": "Customer",
+      "major_players": ["PJM-footprint utility customers"],
+      "pricing_power": "Low",
+      "supply_elasticity": null,
+      "substitutability": null
+    }
+  ],
+  "bottlenecks": [
+    {
+      "node": "Firm dispatchable generation capacity in PJM",
+      "demand_growth": "Extreme",
+      "supply_elasticity": "Low",
+      "expansion_time": "3+ years (gas turbines), longer where financing/siting lags",
+      "substitutability": "Hard",
+      "pricing_power": "High",
+      "market_attention": "High",
+      "profit_capture": "Medium",
+      "opportunity_score": 4,
+      "classification": "Structural Bottleneck",
+      "rationale": "FERC's October 9, 2026 order addressed only curtailment-priority policy, not generation supply; the third-consecutive-year Base Residual Auction shortfall this pipeline's October 1, 2026 report documented is wholly unaffected by this ruling, so the underlying physical scarcity remains a reaffirmed Structural Bottleneck."
+    },
+    {
+      "node": "Federal (FERC-level) curtailment-priority rulemaking for new large loads",
+      "demand_growth": "High",
+      "supply_elasticity": "Low",
+      "expansion_time": null,
+      "substitutability": "Hard",
+      "pricing_power": "Low",
+      "market_attention": "Medium",
+      "profit_capture": "Low",
+      "opportunity_score": 1,
+      "classification": "Neutral",
+      "rationale": "This specific channel is now closed at the federal level: FERC rejected the IRAS/BYONC curtailment framework on jurisdictional grounds. As an administrative rationing mechanism rather than a priced market, it is honestly Neutral, and its near-term relevance as a near-term national pathway has fallen further since the August 28, 2026 report."
+    },
+    {
+      "node": "State-level large-load/curtailment-priority rulemaking (e.g., Pennsylvania, Ohio)",
+      "demand_growth": "High",
+      "supply_elasticity": "Medium",
+      "expansion_time": "likely 6-18 months per state process",
+      "substitutability": "Medium",
+      "pricing_power": "Medium",
+      "market_attention": "Medium",
+      "profit_capture": "Low",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "FERC's order explicitly directs this authority to the states, and PJM's newly approved Large Load Registry supplies the data for states to act; multiple states can move at different paces and with different rules, so this qualifies as a growing but non-monopolized, substitutable venue rather than a strict bottleneck."
+    },
+    {
+      "node": "BYONC-contracted dedicated generation for large loads",
+      "demand_growth": "High",
+      "supply_elasticity": "Medium",
+      "expansion_time": null,
+      "substitutability": "Medium",
+      "pricing_power": "Low",
+      "market_attention": "Medium",
+      "profit_capture": "Medium",
+      "opportunity_score": 3,
+      "classification": "Growth Area",
+      "rationale": "With the federal mandatory BYONC mechanism rejected, voluntary dedicated-generation contracting (as Vistra's Comanche Peak-Amazon deal demonstrated, per this pipeline's September 6, 2026 report) remains available to well-capitalized developers as a workaround, consistent with a Growth Area rather than a Structural Bottleneck."
+    }
+  ],
+  "companies": [
+    {
+      "name": "PJM Interconnection",
+      "business_model": "Regional transmission organization operating wholesale electricity markets and capacity auctions across 13 US states plus Washington, D.C.",
+      "revenue_model": null,
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["Rapid AI-data-center/large-load growth straining reserve margins", "Need for a workable large-load curtailment and cost-allocation framework"],
+      "customer_concentration": null,
+      "moat": "Sole RTO/ISO for its footprint; statutory FERC-overseen market design authority.",
+      "switching_costs": null,
+      "capital_intensity": null,
+      "management_strategy": "Reviewing FERC's October 9, 2026 order to determine a compliant successor filing while recognizing that curtailment-priority and retail-rate-adjacent decisions now sit primarily with member states.",
+      "execution_risk": "Its original integrated IRAS/BYONC package was rejected in significant part; any refiling must satisfy FERC's jurisdictional concerns while coordinating with up to 13 separate state processes, raising the risk of a slower and less uniform outcome than the original single-docket approach."
+    },
+    {
+      "name": "Constellation Energy",
+      "business_model": "Merchant and regulated electricity generation, with substantial nuclear and other generation assets in the PJM footprint.",
+      "revenue_model": null,
+      "cost_structure": null,
+      "gross_margin": null,
+      "operating_margin": null,
+      "growth_drivers": ["AI-data-center-driven demand for firm, carbon-free generation in PJM"],
+      "customer_concentration": null,
+      "moat": null,
+      "switching_costs": null,
+      "capital_intensity": "High; large existing generation fleet exposed to PJM capacity-market and curtailment-policy outcomes.",
+      "management_strategy": null,
+      "execution_risk": "Continues to face regulatory uncertainty over PJM capacity-market mechanics; this report found no new company-specific disclosure or share-price data tied specifically to the October 9, 2026 order."
+    }
+  ],
+  "metrics": [
+    { "name": "PJM Large Load definition threshold", "value": 50, "unit": "MW (single site)", "period": "effective Oct 12, 2026", "source_id": "s2" },
+    { "name": "Data-center-driven capacity charges across PJM's last four Base Residual Auctions", "value": 29.4, "unit": "USD billion", "period": "trailing 4 BRAs as of Oct 2026", "source_id": "s13" },
+    { "name": "Data-center share of total PJM capacity charges, last four BRAs", "value": 46, "unit": "percent", "period": "trailing 4 BRAs as of Oct 2026", "source_id": "s13" },
+    { "name": "Data-center-driven capacity charges, most recent single BRA", "value": 6.3, "unit": "USD billion", "period": "most recent BRA as of Oct 2026", "source_id": "s13" },
+    { "name": "Total capacity charges, most recent single BRA", "value": 16.4, "unit": "USD billion", "period": "most recent BRA as of Oct 2026", "source_id": "s13" },
+    { "name": "Data-center share of capacity charges, most recent single BRA", "value": 38, "unit": "percent (approx.)", "period": "most recent BRA as of Oct 2026", "source_id": "s13" }
+  ],
+  "competitors": [
+    { "name": "NRG Energy", "kind": "direct competitor", "note": "PJM-exposed merchant generator with similar exposure to PJM capacity-market and curtailment-policy uncertainty." },
+    { "name": "Talen Energy", "kind": "direct competitor", "note": "PJM-exposed merchant generator with similar exposure to PJM capacity-market and curtailment-policy uncertainty." },
+    { "name": "Vistra", "kind": "indirect alternative", "note": "Demonstrated voluntary BYONC-style dedicated-supply contracting (Comanche Peak-Amazon) as a workaround that does not depend on a FERC-mandated curtailment framework." },
+    { "name": "Other RTOs (MISO, SPP, ISO-NE, NYISO, CAISO)", "kind": "indirect alternative", "note": "Potential alternative sites for large loads if PJM's and PJM-member states' rules remain unsettled or inconsistent." }
+  ],
+  "financials": [],
+  "valuation": {
+    "available": false,
+    "reason": "PJM Interconnection is a member-owned, not-for-profit RTO with no public equity; this report identified no new company-specific financial or share-price data tied specifically to the October 9, 2026 order for Constellation Energy or other PJM-exposed generators."
+  },
+  "catalysts": [
+    "PJM's compliance filing or refiling in Docket ER26-3515 (or a successor docket) responding to FERC's October 9, 2026 order",
+    "Pennsylvania's and Ohio's own large-load/curtailment-priority rulemakings",
+    "FERC's post-hearing ruling on PJM's related Reliability Backstop Procurement (ER26-3380)",
+    "PJM's next Base Residual Auction and any updated Independent Market Monitor cost-allocation figures"
+  ],
+  "bear_case": [
+    { "dimension": "Regulation", "argument": "FERC's rejection was narrowly jurisdictional (retail-rate authority), not a finding that curtailment priority is unneeded; PJM can refile a redesigned IRAS compliant with FERC's guidance, potentially restoring a federal framework relatively quickly." },
+    { "dimension": "Economics", "argument": "The underlying firm-capacity shortfall is unchanged by this ruling -- neither better nor worse -- so this order is a procedural/jurisdictional event, not new evidence that physical scarcity is intensifying." },
+    { "dimension": "Demand", "argument": "Multiple outlets described the outcome as largely anticipated and said aggregators were 'not particularly worried,' suggesting markets had already priced in this specific rejection rather than being newly destabilized by it." },
+    { "dimension": "Execution", "argument": "Large, well-capitalized developers can still pursue BYONC-style dedicated generation contracts voluntarily (as Vistra's Comanche Peak-Amazon deal showed) even without a FERC-mandated curtailment framework, limiting the practical effect on the best-funded players." },
+    { "dimension": "Valuation", "argument": "This order does not itself quantify or allocate the $29.4 billion cost question; the 'who pays' dispute remains open and could resolve in a way that is either favorable or unfavorable to large-load developers, independent of this specific ruling." }
+  ],
+  "kill_conditions": [
+    { "condition": "PJM refiles a FERC-compliant IRAS/curtailment-priority framework and FERC approves it within two quarters, restoring a single national rationing mechanism", "metric": "FERC action on any PJM refiling in Docket ER26-3515 or a successor docket", "threshold": "FERC approval of a revised curtailment-priority framework within 2 quarters of a PJM refiling", "time_window": "next 2-3 quarters", "impact": "invalidate" },
+    { "condition": "Fewer than two PJM-member states adopt any comparable curtailment-priority or large-load rules within 12 months, leaving large loads largely unconstrained", "metric": "Count of PJM-member states adopting state-level large-load/curtailment rules", "threshold": "Fewer than 2 of 13 PJM-member states adopt comparable rules within 12 months", "time_window": "next 12 months", "impact": "weaken" },
+    { "condition": "PJM's capacity shortfall closes in a subsequent Base Residual Auction, reducing the practical stakes of any curtailment-priority mechanism", "metric": "PJM BRA cleared capacity vs. reliability requirement", "threshold": "A subsequent auction clears at or above the 20% reliability target with no shortfall", "time_window": "next 2 auction cycles (~12-18 months)", "impact": "invalidate" }
+  ],
+  "validation_events": [
+    { "event": "PJM's compliance filing or refiling in Docket ER26-3515 (or a successor docket) responding to FERC's October 9, 2026 order", "expected_window": "Q4 2026 - Q1 2027", "supports_if": "PJM's refiling narrows curtailment authority further or defers substantially to state processes", "weakens_if": "PJM quickly refiles a FERC-compliant curtailment framework that restores most of the original mechanism and FERC approves it promptly", "source_to_monitor": "FERC eLibrary (Docket ER26-3515); PJM Insidelines" },
+    { "event": "Pennsylvania's and Ohio's own large-load/curtailment-priority rulemakings", "expected_window": "Q4 2026 - 2027", "supports_if": "One or both states adopt binding curtailment-priority or BYONC-style rules, confirming the venue shift to states", "weakens_if": "States decline to act or adopt only non-binding guidance", "source_to_monitor": "Pennsylvania Public Utility Commission and Public Utilities Commission of Ohio dockets; trade press" },
+    { "event": "FERC's post-hearing ruling on PJM's related Reliability Backstop Procurement (ER26-3380), covered in this pipeline's October 1, 2026 report", "expected_window": "by February 28, 2027", "supports_if": "Further suspension, rejection, or material revision, consistent with continued procedural delay across both PJM dockets", "weakens_if": "Prompt approval largely as filed, with the backstop auction proceeding on schedule", "source_to_monitor": "FERC eLibrary (Docket ER26-3380); PJM Insidelines" },
+    { "event": "PJM's next Base Residual Auction results and any updated Independent Market Monitor cost-allocation figures", "expected_window": "~mid-2027", "supports_if": "The reserve-margin shortfall persists and/or the Independent Market Monitor reports data-center-driven capacity charges continuing to rise beyond the $29.4 billion four-auction total", "weakens_if": "The shortfall closes or the data-center-driven cost share declines materially", "source_to_monitor": "PJM markets-ops auction-results releases; Monitoring Analytics reports" },
+    { "event": "Additional disclosed BYONC-style dedicated-generation deals by large-load developers in PJM territory, voluntarily pursued absent a FERC-mandated framework", "expected_window": "next 2-3 quarters", "supports_if": "Few additional deals are disclosed, suggesting voluntary BYONC remains a narrow workaround for only the largest developers", "weakens_if": "Multiple new deals are disclosed, showing the rejection of a mandatory framework did not meaningfully slow voluntary dedicated-generation contracting", "source_to_monitor": "Company and utility investor relations; trade press" }
+  ],
+  "sources": [
+    { "id": "s1", "claim": "PJM's Interim Resource Adequacy Service (IRAS), Large Load Registry and Bring-Your-Own-New-Capacity (BYONC) proposal was filed with FERC under Docket No. ER26-3515-000, the same docket this pipeline's October 1, 2026 report identified as still undecided past PJM's requested October 12, 2026 effective date.", "source_url": "https://www.pjm.com/-/media/DotCom/documents/ferc/filings/2026/20260923-er26-3515-000.pdf", "source_title": "PJM FERC filing on record in Docket No. ER26-3515-000", "source_type": "primary", "published_at": "2026-09-23", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy (DNS/connection failure on direct fetch); docket number, filer and general subject matter confirmed via a web-search result that returned this exact PDF URL and filename, cross-checked against multiple secondary reports describing the same ER26-3515 docket and proposal.", "confidence": "medium" },
+    { "id": "s2", "claim": "FERC's October 9, 2026 order in Docket ER26-3515 accepted PJM's Large Load definition (50 MW or more at a single site) and the Large Load Registry, effective October 12, 2026, while rejecting the IRAS curtailment framework and BYONC provisions.", "source_url": "https://www.rtoinsider.com/147920-ferc-rejects-pjm-interim-resource-adequacy-service-proposal/", "source_title": "RTO Insider: \"FERC Rejects PJM Interim Resource Adequacy Service Proposal\"", "source_type": "secondary", "published_at": "2026-10-09", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; details confirmed via a web-search result summary stating FERC rejected PJM's Interim Resource Adequacy Service (IRAS) in docket ER26-3515 in an October 9, 2026 order, accepting only the large-load definition and registry.", "confidence": "high" },
+    { "id": "s3", "claim": "FERC rejected PJM's large-load curtailment plan while keeping the load definition and registry.", "source_url": "https://www.landgate.com/news/ferc-rejected-pjm-s-large-load-plan", "source_title": "Landgate: \"FERC Rejected PJM's Large Load Plan\"", "source_type": "secondary", "published_at": "2026-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; corroborating headline and framing confirmed via web-search result listing.", "confidence": "medium" },
+    { "id": "s4", "claim": "The FERC order in Docket No. ER26-3515-000 is cited in at least one source's docket appendix as 'Order Accepting Tariff Revisions in Part and Rejecting Tariff Revisions in Part,' 197 FERC Para 61,019, issued with a concurrence from Commissioner Rosner.", "source_url": "https://adms.apps.lara.state.mi.us/Mpsc/ViewCommissionOrderDocument/27549", "source_title": "Michigan Public Service Commission record referencing PJM Interconnection, L.L.C., FERC Docket No. ER26-3515-000", "source_type": "primary", "published_at": "2026-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; docket citation and FERC reporter cite (197 FERC Para 61,019) confirmed via a web-search result synthesis that explicitly attributed this citation to a source's appendix referencing this document.", "confidence": "low" },
+    { "id": "s5", "claim": "FERC accepted PJM's Large Load definition and registry (effective Oct. 12) but rejected the IRAS curtailment-priority proposal, reasoning that IRAS placed obligations directly on large loads that are largely retail customers and that its compensation framework resembled a retail rate reserved to the states.", "source_url": "https://www.troutmanenergyreport.com/2026/10/ferc-accepts-pjms-large-load-and-large-load-registry-definition-but-rejects-interim-resource-adequacy-service-proposal/", "source_title": "Troutman Energy Report: \"FERC Accepts PJM's Large Load and Large Load Registry Definition but Rejects Interim Resource Adequacy Service Proposal\"", "source_type": "secondary", "published_at": "2026-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; legal/jurisdictional reasoning and scope of acceptance/rejection confirmed via web-search result summary of this law-firm analysis.", "confidence": "high" },
+    { "id": "s6", "claim": "FERC rejected PJM's data-center capacity curtailment rules while approving the large-load registry.", "source_url": "https://enerknol.com/ferc-rejects-pjm-data-center-capacity-rules-approves-large-load-registry/", "source_title": "EnerKnol: \"FERC Rejects PJM Data Center Rules, Approves Large-Load Registry\"", "source_type": "secondary", "published_at": "2026-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; corroborating headline and framing confirmed via web-search result listing.", "confidence": "medium" },
+    { "id": "s7", "claim": "FERC accepted elements of PJM's large-load proposal (definition, registry) but rejected others (IRAS/BYONC); PJM said it is reviewing the order to determine how to meet FERC's requirements while recognizing responsibilities FERC assigned to the states.", "source_url": "https://www.publicpower.org/periodical/article/ferc-accepts-elements-pjm-proposal-tied-large-loads-rejects-others", "source_title": "Public Power: \"FERC Accepts Elements of PJM Proposal Tied to Large Loads, Rejects Others\"", "source_type": "secondary", "published_at": "2026-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; PJM's reviewing-the-order statement and scope of acceptance/rejection confirmed via web-search result summary.", "confidence": "medium" },
+    { "id": "s8", "claim": "FERC's order kept PJM's curtail-first plan from taking effect, preserving only the 50 MW large-load definition and the registry.", "source_url": "https://mgrid.org/2026/10/10/ferc-rejects-pjms-curtail-first-plan-for-new-large-loads-and-keeps-only-the-50-mw-definition-and-a-registry/", "source_title": "MGRID: \"FERC Rejects PJM's Curtail-First Plan for New Large Loads, and Keeps Only the 50 MW Definition and a Registry\"", "source_type": "secondary", "published_at": "2026-10-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; corroborating headline and scope confirmed via web-search result listing dated October 10, 2026.", "confidence": "medium" },
+    { "id": "s9", "claim": "Regulators rejected PJM's proposed power cuts to data centers that do not bring their own power; Commissioner Rosner's concurrence said curtailment-priority rules should be set by states, with curtailment used only after voluntary demand response is exhausted; NRDC urged PJM to redraft and refile quickly; analysts expect Pennsylvania and Ohio to lead on state-level rules.", "source_url": "https://www.bisnow.com/news/national/data-center-power/federal-regulators-reject-power-cuts-to-data-centers-that-dont-bring-their-own", "source_title": "Bisnow: \"Regulators Reject Proposed Rules For Data Centers On Nation's Largest Grid\"", "source_type": "secondary", "published_at": "2026-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; Commissioner Rosner's reasoning, NRDC's reaction, and the Pennsylvania/Ohio framing confirmed via web-search result summary of this article.", "confidence": "medium" },
+    { "id": "s10", "claim": "FERC's order found IRAS provisions placed obligations on retail customers and intruded on state retail-rate authority; PJM's spokesperson said the company is reviewing the order.", "source_url": "https://www.utilitydive.com/news/ferc-pjm-large-load-interconnection-iras-byonc/832716/", "source_title": "Utility Dive: dive brief on FERC's order on PJM's Large Load, IRAS and BYONC filing", "source_type": "secondary", "published_at": "2026-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; reasoning and PJM reaction confirmed via web-search result summary.", "confidence": "medium" },
+    { "id": "s11", "claim": "Aggregators are not particularly worried about the ruling because most stakeholders expect states to implement their own IRAS-style regimes; the Large Load Registry gives states the data to do so; Pennsylvania and Ohio are expected to lead.", "source_url": "https://www.latitudemedia.com/news/ferc-rejected-pjms-data-center-curtailment-plan-whats-next-for-byoc/", "source_title": "Latitude Media: \"FERC Rejected PJM's Data Center Curtailment Plan. What's Next for BYOC?\"", "source_type": "secondary", "published_at": "2026-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; market-reaction characterization and the states-will-lead framing confirmed via web-search result summary of this article.", "confidence": "medium" },
+    { "id": "s12", "claim": "FERC approved PJM's load registry while rejecting its curtailment plan for new large loads.", "source_url": "https://www.techtarget.com/it-infrastructure/news/366652121/FERC-approves-PJM-load-registry-rejects-curtailment-plan", "source_title": "TechTarget: \"FERC approves PJM load registry, rejects curtailment plan\"", "source_type": "secondary", "published_at": "2026-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; corroborating headline and scope confirmed via web-search result listing.", "confidence": "medium" },
+    { "id": "s13", "claim": "PJM's Independent Market Monitor, Joseph Bowring, said data-center-driven capacity charges totaled $29.4 billion across PJM's last four Base Residual Auctions (46% of $63.6 billion total capacity charges), with data centers accounting for $6.3 billion of $16.4 billion (about 38%) in the most recent auction alone.", "source_url": "https://utilitydive.com/news/pjm-data-centers-capacity-auction-imm-bowring/825626", "source_title": "Utility Dive: dive brief quoting PJM Independent Market Monitor Joseph Bowring on data-center-driven capacity costs", "source_type": "secondary", "published_at": "2026-07", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; the $29.4B/46%/$6.3B/$16.4B figures and attribution to Bowring confirmed via a web-search result that quoted this dive brief directly.", "confidence": "high" },
+    { "id": "s14", "claim": "FERC's rejection of most of PJM's data-center plan left the $29.4 billion question of who ultimately pays for data-center-driven capacity costs still open.", "source_url": "https://energynewsbeat.co/?p=229965", "source_title": "Energy News Beat: \"FERC Rejects Most of PJM's Data Center Plan, and the $29.4 Billion Question of Who Pays Is Still Open\"", "source_type": "discovery", "published_at": "2026-10", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; the framing of the unresolved $29.4B cost question confirmed via web-search result summary; this is an opinion-leaning blog and is not used as the sole support for any numeric claim.", "confidence": "low" },
+    { "id": "s15", "claim": "PJM's Interim Resource Adequacy Service / Large Load Registry / BYONC filing (Docket ER26-3515) was an officially docketed FERC proceeding, consistent with notices of PJM filings appearing in the Federal Register during 2026.", "source_url": "https://www.federalregister.gov/documents/2026/08/19/2026-16927/combined-notice-of-filings-1", "source_title": "Federal Register: \"Combined Notice of Filings #1\" (2026-08-19)", "source_type": "primary", "published_at": "2026-08-19", "retrieved_at": "2026-10-22", "quote_or_extract": "Domain blocked by research-environment egress proxy; existence of this Federal Register notice of FERC filings (consistent with PJM's ER26-3515 docket being an officially noticed proceeding) confirmed via web-search result listing; specific docket-line content not independently verified.", "confidence": "low" }
+  ],
+  "verdict": "VALIDATE",
+  "confidence": "medium"
+}

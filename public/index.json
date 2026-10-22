@@ -1,5 +1,26 @@
 [
   {
+    "title": "FERC Rejects PJM's AI Curtailment Plan: Does the Grid Bottleneck Just Move to the States?",
+    "date": "2026-10-22",
+    "slug": "ferc-rejects-pjm-iras-byonc-curtailment-bottleneck",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "regulation",
+      "data-centers"
+    ],
+    "companies": [
+      "PJM Interconnection",
+      "Constellation Energy"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/ferc-rejects-pjm-iras-byonc-curtailment-bottleneck",
+    "path": "reports/2026/10/2026-10-22-ferc-rejects-pjm-iras-byonc-curtailment-bottleneck.md",
+    "one_sentence_conclusion": "FERC killed PJM's federal AI-load curtailment plan on jurisdictional grounds, but the generation shortfall it was meant to ration is untouched -- authority just shifts to the states."
+  },
+  {
     "title": "The TC Bonder Squeeze: Does SK Hynix's HBM4 Equipment Pullback Reveal a Packaging Bottleneck, or a Hanmi-Hanwha Turf War?",
     "date": "2026-10-21",
     "slug": "hbm4-tc-bonder-packaging-equipment-bottleneck",

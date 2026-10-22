@@ -6,6 +6,20 @@
     <description>Daily automated deep-research reports on technology, industry structure and bottlenecks.</description>
     <language>en</language>
     <item>
+      <title>FERC Rejects PJM&apos;s AI Curtailment Plan: Does the Grid Bottleneck Just Move to the States?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/reports/ferc-rejects-pjm-iras-byonc-curtailment-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/ferc-rejects-pjm-iras-byonc-curtailment-bottleneck</guid>
+      <pubDate>Thu, 22 Oct 2026 01:00:00 GMT</pubDate>
+      <category>FOLLOW_UP</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>regulation</category>
+      <category>data-centers</category>
+      <description>FERC killed PJM&apos;s federal AI-load curtailment plan on jurisdictional grounds, but the generation shortfall it was meant to ration is untouched -- authority just shifts to the states.
+
+On October 9, 2026, FERC accepted PJM&apos;s Large Load definition and registry but rejected the Interim Resource Adequacy Service (IRAS) curtailment-priority framework and BYONC provisions, finding they intruded on states&apos; retail-rate authority. This is the exact open watchlist event from this pipeline&apos;s October 1, 2026 report and meets an explicit &quot;invalidate&quot; kill condition set on the August 28, 2026 PJM/BYONC thesis -- but only for that specific federal policy mechanism. PJM&apos;s underlying firm-generation shortfall, reaffirmed independently as a third-consecutive-year auction shortfall, is unaffected. Analysts expect curtailment-priority authority to move to individual states, led by Pennsylvania and Ohio, while a separate $29.4 billion question of who pays for data-center-driven capacity costs remains open.</description>
+    </item>
+    <item>
       <title>The TC Bonder Squeeze: Does SK Hynix&apos;s HBM4 Equipment Pullback Reveal a Packaging Bottleneck, or a Hanmi-Hanwha Turf War?</title>
       <link>https://gpwork4u.github.io/research-pipeline/reports/hbm4-tc-bonder-packaging-equipment-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/hbm4-tc-bonder-packaging-equipment-bottleneck</guid>
@@ -663,20 +677,6 @@ Siemens Energy, GE Vernova, and Hitachi Energy each reported record 2026 grid-eq
       <description>High Bandwidth Memory has become the AI accelerator supply chain&apos;s longest-duration structural bottleneck, with SK Hynix&apos;s own leadership forecasting the shortage persisting to around 2030 -- longer than either the packaging or substrate constraints this pipeline previously examined.
 
 SK Hynix reported record Q2 2026 results (revenue +257% YoY, 76% operating margin) as HBM4 entered mass production, and its CEO and controlling shareholder have each independently forecast the shortage persisting to around 2030. Micron sold out its entire calendar-2026 HBM supply under long-term agreements, and Samsung is racing to add roughly 50% more HBM capacity by year-end. Because HBM consumes roughly three times the wafer capacity of equivalent conventional DRAM, capacity reallocation toward HBM appears to be the direct cause of a parallel DDR5 price shock hitting PCs and smartphones. HBM production qualifies as a Structural Bottleneck under this research&apos;s strict test -- but credible analysts sharply disagree on durability: some argue the shortage already peaked in Q2 2026 and could tip toward oversupply by 2028 as incumbent capacity, plus China&apos;s fast-scaling CXMT, lands simultaneously.</description>
-    </item>
-    <item>
-      <title>ABF dielectric film and Ajinomoto&apos;s near-monopoly: the bottleneck emerging behind AI chip packaging as CoWoS eases</title>
-      <link>https://gpwork4u.github.io/research-pipeline/reports/abf-substrate-ajinomoto-ai-chip-packaging</link>
-      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/reports/abf-substrate-ajinomoto-ai-chip-packaging</guid>
-      <pubDate>Fri, 21 Aug 2026 01:00:00 GMT</pubDate>
-      <category>NEW</category>
-      <category>semiconductors</category>
-      <category>ai-infrastructure</category>
-      <category>advanced-packaging</category>
-      <category>materials</category>
-      <description>As TSMC&apos;s CoWoS packaging capacity closes in on demand, the binding constraint on AI accelerator supply is shifting one layer upstream to ABF dielectric film and the substrates built from it -- a genuine structural bottleneck by this research&apos;s own strict test, where CoWoS assembly increasingly no longer qualifies.
-
-At the OCP APAC Summit on August 11, 2026, TSMC Vice President Jun He said CoWoS advanced-packaging capacity has nearly doubled every year for three consecutive years and is now &quot;very close&quot; to market demand -- while explicitly naming memory and ABF substrates as the AI supply chain&apos;s next bottlenecks. That statement lands alongside a concrete set of developments: Ajinomoto, which holds an estimated 95%+ share of the global market for ABF (Ajinomoto Build-up Film), the core dielectric material used in essentially all high-performance IC package substrates, notified substrate makers of a 30% price increase effective Q3 2026; Ibiden disclosed a roughly $3.3 billion, three-year capital investment plan (FY2026-2028) after stating that AI-server substrate demand continues to exceed its capacity; and Taiwan&apos;s Unimicron raised its 2026 capital expenditure to roughly $1.7 billion even as rising depreciation compressed its gross margin to 13.2% in Q2 2026. Applying this research&apos;s strict Structural Bottleneck test (demand High/Extreme, supply elasticity Low, substitutability Hard), the ABF film and ABF-based substrate nodes both qualify, while CoWoS assembly itself -- given TSMC&apos;s own account of capacity nearly tripling over three years -- is reclassified here as a Growth Area rather than a Structural Bottleneck. The main uncertainty is whether the multi-year capacity investments already underway at Ajinomoto, Ibiden, and Unimicron will resolve this constraint on a similar multi-year timeline to how CoWoS itself eased, or whether simultaneous capacity landing across suppliers could instead flip today&apos;s shortage into oversupply, as has happened before in adjacent memory and packaging cycles.</description>
     </item>
   </channel>
 </rss>
