@@ -1617,5 +1617,39 @@
         "impact": "invalidate"
       }
     ]
+  },
+  {
+    "id": "thesis-power-cable-capacity-ai-data-center-bottleneck",
+    "topic": "power-cable-capacity-ai-data-center-bottleneck",
+    "statement": "Reuters' October 22, 2026 interview with Nexans' CFO, combined with Nexans' own same-day nine-month 2026 results and ABB's October 20, 2026 record quarter, show power-cable and electrification-equipment demand tied explicitly to hyperscale AI data centers growing far faster (double-digit to triple-digit order growth) than the roughly three-year lead time needed to add new XLPE cable production capacity. This qualifies medium-voltage/data-center-connection cable manufacturing as a distinct new node meeting the strict Structural Bottleneck test, even though the most analogous long-haul HV transmission cable segment (Nexans' PWR-Transmission, -1.4% organic over 9M 2026) is simultaneously decelerating and ABB's own management argues its broader electrification equipment is not the limiting factor -- evidence this bottleneck is real but narrower and earlier-stage than the already-established transformer and copper constraints.",
+    "confidence": "medium",
+    "created_at": "2026-10-23",
+    "updated_at": "2026-10-23",
+    "supporting_reports": [
+      "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md"
+    ],
+    "kill_conditions": [
+      {
+        "condition": "Nexans', ABB's or Prysmian's data-center/electrification order or segment growth decelerates sharply for two consecutive quarters",
+        "metric": "YoY organic order/segment growth (PWR-Connect, PWR-Grid, ABB Electrification)",
+        "threshold": "Falls below ~20% YoY for 2 consecutive quarters",
+        "time_window": "next 2-3 quarters",
+        "impact": "weaken"
+      },
+      {
+        "condition": "Reported XLPE/CV cable production lead times shorten materially toward pre-2024 industry-typical levels",
+        "metric": "Reported cable-production-line lead times (company commentary, trade press)",
+        "threshold": "Falls below roughly 12 months for new capacity commissioning",
+        "time_window": "next 18 months",
+        "impact": "invalidate"
+      },
+      {
+        "condition": "Multiple major cable makers commission new CV-line capacity meaningfully faster than the 3-year benchmark cited",
+        "metric": "Disclosed new-line commissioning timelines",
+        "threshold": "2 or more major capacity additions commissioned in under 2 years",
+        "time_window": "next 24 months",
+        "impact": "weaken"
+      }
+    ]
   }
 ]

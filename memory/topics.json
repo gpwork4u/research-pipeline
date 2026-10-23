@@ -1043,5 +1043,25 @@
       "Micron Technology",
       "Nvidia"
     ]
+  },
+  {
+    "slug": "power-cable-capacity-ai-data-center-bottleneck",
+    "title": "Cable Capacity: Is Power Cable Manufacturing the AI Data Center Grid's Next Structural Bottleneck?",
+    "last_updated": "2026-10-23",
+    "reports": [
+      "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "energy",
+      "materials",
+      "data-centers"
+    ],
+    "companies": [
+      "Nexans",
+      "ABB",
+      "Prysmian"
+    ]
   }
 ]

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Nexans PWR segment organic growth, nine months 2026",
+    "title_zh": "Nexans各PWR部門有機成長，2026前三季",
+    "type": "bar",
+    "unit": "percent",
+    "source_id": "s2",
+    "series": [
+      { "label": "PWR-Connect", "value": 8.3 },
+      { "label": "PWR-Grid", "value": 8.1 },
+      { "label": "PWR-Transmission", "value": -1.4 }
+    ]
+  },
+  {
+    "title": "ABB order intake YoY growth, Q3 2026",
+    "title_zh": "ABB訂單年增率，2026年第三季",
+    "type": "bar",
+    "unit": "percent YoY",
+    "source_id": "s4",
+    "series": [
+      { "label": "Total orders", "value": 40 }
+    ]
+  },
+  {
+    "title": "ABB Electrification segment order growth, Q3 2026 YoY",
+    "title_zh": "ABB電氣化部門訂單成長，2026年第三季年增率",
+    "type": "bar",
+    "unit": "percent YoY",
+    "source_id": "s5",
+    "series": [
+      { "label": "Electrification orders", "value": 70 }
+    ]
+  }
+]

@@ -1,5 +1,27 @@
 [
   {
+    "title": "Cable Capacity: Is Power Cable Manufacturing the AI Data Center Grid's Next Structural Bottleneck?",
+    "date": "2026-10-23",
+    "slug": "power-cable-capacity-ai-data-center-bottleneck",
+    "research_type": "NEW",
+    "topics": [
+      "ai-infrastructure",
+      "energy",
+      "materials",
+      "data-centers"
+    ],
+    "companies": [
+      "Nexans",
+      "ABB",
+      "Prysmian"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/power-cable-capacity-ai-data-center-bottleneck",
+    "path": "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md",
+    "one_sentence_conclusion": "Nexans' CFO says cable capacity is now the AI data-center bottleneck, and the company's own order data -- double-digit growth, three-year line lead times -- backs him up."
+  },
+  {
     "title": "FERC Rejects PJM's AI Curtailment Plan: Does the Grid Bottleneck Just Move to the States?",
     "date": "2026-10-22",
     "slug": "ferc-rejects-pjm-iras-byonc-curtailment-bottleneck",

@@ -546,9 +546,10 @@
   {
     "name": "Prysmian",
     "reports": [
-      "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md"
+      "reports/2026/09/2026-09-20-optical-fiber-cable-glass-shortage-ai-networking-bottleneck.md",
+      "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md"
     ],
-    "last_updated": "2026-09-20"
+    "last_updated": "2026-10-23"
   },
   {
     "name": "Xylem",
@@ -760,5 +761,19 @@
       "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md"
     ],
     "last_updated": "2026-10-21"
+  },
+  {
+    "name": "Nexans",
+    "reports": [
+      "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md"
+    ],
+    "last_updated": "2026-10-23"
+  },
+  {
+    "name": "ABB",
+    "reports": [
+      "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md"
+    ],
+    "last_updated": "2026-10-23"
   }
 ]

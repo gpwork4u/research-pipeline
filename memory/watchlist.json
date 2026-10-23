@@ -2282,5 +2282,41 @@
     "source_to_monitor": "SK Hynix, Samsung, Applied Materials and BESI investor/technical disclosures; Counterpoint Research",
     "origin_report": "reports/2026/10/2026-10-21-hbm4-tc-bonder-packaging-equipment-bottleneck.md",
     "status": "open"
+  },
+  {
+    "event": "Nexans' FY2026 results and 2027 capacity-investment guidance (PWR-Grid/PWR-Connect)",
+    "expected_window": "around February 2027",
+    "supports_if": "Nexans reiterates or raises data-center-linked order growth and confirms the CV-line/accessories capacity investment timeline on track",
+    "weakens_if": "Nexans reports decelerating PWR-Connect/PWR-Grid growth or delays its capacity investment plan",
+    "source_to_monitor": "nexans.com investor relations",
+    "origin_report": "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "ABB's Q4 2026 and full-year 2026 results: data-center order growth and any lead-time commentary",
+    "expected_window": "around February 2027",
+    "supports_if": "Data-center-driven Electrification order growth remains at or near triple-digit/high levels and backlog continues rising",
+    "weakens_if": "Order growth decelerates sharply or management newly flags cable/component lead times as a binding constraint on its own deliveries",
+    "source_to_monitor": "new.abb.com investor relations",
+    "origin_report": "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Wood Mackenzie's or another analyst firm's next US data-center electrical-equipment market-size and lead-time update",
+    "expected_window": "Q1-Q2 2027",
+    "supports_if": "The $20B-to-$65B (2026-2030) market trajectory and 18-36 month lead-time estimates are reaffirmed or raised",
+    "weakens_if": "Estimates are revised down or lead times are reported shortening materially",
+    "source_to_monitor": "woodmac.com published research",
+    "origin_report": "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Disclosure of a specific new XLPE/CV cable production line (Nexans, Prysmian, LS Cable, Southwire, or other maker) completing commissioning",
+    "expected_window": "next 2-3 years, tracked quarterly",
+    "supports_if": "No major new line commissions faster than roughly 3 years, confirming the long expansion-time constraint",
+    "weakens_if": "Multiple lines commission in under 2 years, showing the industry can expand capacity faster than guided",
+    "source_to_monitor": "company investor relations; trade press (Wire & Cable Technology, T&D World)",
+    "origin_report": "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md",
+    "status": "open"
   }
 ]

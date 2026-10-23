@@ -6,6 +6,20 @@
     <description>每日自動產出的科技、產業結構與瓶頸深度研究報告。</description>
     <language>zh-Hant</language>
     <item>
+      <title>電纜產能:電力電纜製造會是AI資料中心電網的下一個結構性瓶頸嗎?</title>
+      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/power-cable-capacity-ai-data-center-bottleneck</link>
+      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/power-cable-capacity-ai-data-center-bottleneck</guid>
+      <pubDate>Fri, 23 Oct 2026 01:00:00 GMT</pubDate>
+      <category>NEW</category>
+      <category>ai-infrastructure</category>
+      <category>energy</category>
+      <category>materials</category>
+      <category>data-centers</category>
+      <description>Nexans財務長表示電纜產能已是AI資料中心的瓶頸,公司自家訂單數據——雙位數成長、三年產線交期——也印證了這一點。
+
+2026年10月22日,路透社報導Nexans財務長Vincent Piquet表示,電纜產能正成為AI資料中心建設的瓶頸,因為新建一條XLPE產線需約三年。同一天,Nexans自家前三季2026年財報顯示,其資料中心相關的PWR-Connect與PWR-Grid部門第三季有機成長分別達10.5%與14.8%,而長程輸電的PWR-Transmission部門卻下滑1.4%。兩天前,ABB公布2026年第三季訂單創紀錄達120.6億美元(年增40%),資料中心訂單呈「三位數」成長——但ABB自家執行長卻表示,ABB本身「通常不是交期的限制因素」。證據支持一個真實但範圍狹窄的瓶頸,集中在中壓/資料中心連接電纜製造,而非廣泛的電氣化設備或長程輸電電纜。</description>
+    </item>
+    <item>
       <title>FERC駁回PJM的AI限電計畫:電網瓶頸只是轉移到各州了嗎?</title>
       <link>https://gpwork4u.github.io/research-pipeline/zh/reports/ferc-rejects-pjm-iras-byonc-curtailment-bottleneck</link>
       <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/ferc-rejects-pjm-iras-byonc-curtailment-bottleneck</guid>
@@ -676,19 +690,6 @@ Coherent 與 Lumentum 8 月財報皆顯示資料中心通訊營收年增 58% 至
       <description>電網變壓器與其背後的電工鋼，而非晶片，才是 2026 年延遲 AI 資料中心產能的最直接實體瓶頸。
 
 西門子能源、GE Vernova 與日立能源皆公布創紀錄電網設備訂單積壓，變壓器交期長達三到六年——正是新建 AI 資料中心所需的關鍵設備。獨立報導指出，2026 年美國資料中心規劃產能中有 30-50% 將因缺乏電力設備而延遲或取消，即使業者計畫投入逾 6,500 億美元 AI 資本支出。瓶頸根源在於上游電工鋼，美國來源僅一家，品質據報較低。新產能雖在興建，但要到 2027-2028 年才會實質緩解。</description>
-    </item>
-    <item>
-      <title>AI 記憶體超級週期：HBM（而非封裝或基板）才是 AI 加速器供應鏈最持久的結構性瓶頸？</title>
-      <link>https://gpwork4u.github.io/research-pipeline/zh/reports/hbm-memory-supercycle-ai-accelerator-bottleneck</link>
-      <guid isPermaLink="true">https://gpwork4u.github.io/research-pipeline/zh/reports/hbm-memory-supercycle-ai-accelerator-bottleneck</guid>
-      <pubDate>Sat, 22 Aug 2026 01:00:00 GMT</pubDate>
-      <category>NEW</category>
-      <category>semiconductors</category>
-      <category>ai-infrastructure</category>
-      <category>memory</category>
-      <description>高頻寬記憶體（HBM）已成為 AI 加速器供應鏈中持續時間最長的結構性瓶頸，SK 海力士高層預測短缺將持續到 2030 年前後，比先前檢視的封裝或基板瓶頸都更持久。
-
-SK Hynix reported record Q2 2026 results (revenue +257% YoY, 76% operating margin) as HBM4 entered mass production, and its CEO and controlling shareholder have each independently forecast the shortage persisting to around 2030. Micron sold out its entire calendar-2026 HBM supply under long-term agreements, and Samsung is racing to add roughly 50% more HBM capacity by year-end. Because HBM consumes roughly three times the wafer capacity of equivalent conventional DRAM, capacity reallocation toward HBM appears to be the direct cause of a parallel DDR5 price shock hitting PCs and smartphones. HBM production qualifies as a Structural Bottleneck under this research&apos;s strict test -- but credible analysts sharply disagree on durability: some argue the shortage already peaked in Q2 2026 and could tip toward oversupply by 2028 as incumbent capacity, plus China&apos;s fast-scaling CXMT, lands simultaneously.</description>
     </item>
   </channel>
 </rss>
