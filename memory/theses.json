@@ -447,12 +447,13 @@
   {
     "id": "thesis-ai-storage-nand-hdd-shortage-bottleneck",
     "topic": "ai-storage-nand-hdd-shortage-bottleneck",
-    "statement": "AI training data, checkpoints and inference logs have driven hyperscaler demand for nearline HDD and enterprise NAND/SSD capacity to a level that has sold out hard-drive production through 2026-2028 and pushed NAND/SSD prices up 50-100%+ over the past year, meeting the strict Structural Bottleneck test at the NAND-fab layer while remaining more contestable at the HDD-assembly layer, where QLC SSD substitution already provides some elasticity; unlike geology- or permitting-bound bottlenecks, both binding layers face a defined, capital-backed capacity response (Seagate's HAMR ramp, the $31B Kioxia/SanDisk Japan investment) already underway.",
+    "statement": "AI training data, checkpoints and inference logs have driven hyperscaler demand for nearline HDD and enterprise NAND/SSD capacity to a level that has sold out hard-drive production through 2026-2028 and pushed NAND/SSD prices up 50-100%+ over the past year, meeting the strict Structural Bottleneck test at the NAND-fab layer while remaining more contestable at the HDD-assembly layer, where QLC SSD substitution already provides some elasticity; unlike geology- or permitting-bound bottlenecks, both binding layers face a defined, capital-backed capacity response (Seagate's HAMR ramp, the $31B Kioxia/SanDisk Japan investment) already underway. FOLLOW_UP (2026-10-24): Western Digital's fiscal Q1 FY2027 report (Oct 22, 2026) strengthens rather than weakens the thesis -- revenue grew 55% YoY to $4.38B and exabyte shipments grew 22% YoY to 248EB, but Q2 FY2027 guidance implies acceleration to ~69% YoY, and management explicitly called Q1 'a floor' for further growth. TrendForce's Q4 2026 memory price forecast (NAND +15-20% QoQ, enterprise SSD +23-28% QoQ) also shows price growth accelerating versus the Q3 2026 forecast cited in the September report, undercutting a 'shortage already peaked' read. Both tracked bottleneck-framework nodes keep their prior classifications (NAND fab: Structural Bottleneck; HDD assembly: Growth Area). Seagate, the other half of the HDD duopoly, had not yet reported its comparable quarter as of this update. See reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md.",
     "confidence": "medium",
     "created_at": "2026-09-03",
-    "updated_at": "2026-09-03",
+    "updated_at": "2026-10-24",
     "supporting_reports": [
-      "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"
+      "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
+      "reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md"
     ],
     "kill_conditions": [
       {

@@ -224,16 +224,18 @@
   {
     "name": "Western Digital",
     "reports": [
-      "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"
+      "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
+      "reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md"
     ],
-    "last_updated": "2026-09-03"
+    "last_updated": "2026-10-24"
   },
   {
     "name": "Seagate Technology",
     "reports": [
-      "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md"
+      "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
+      "reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md"
     ],
-    "last_updated": "2026-09-03"
+    "last_updated": "2026-10-24"
   },
   {
     "name": "Kioxia / SanDisk",

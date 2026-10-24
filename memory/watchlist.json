@@ -517,7 +517,8 @@
     "weakens_if": "Management reports easing backlog, shortening lead times, or a pullback in hyperscaler orders",
     "source_to_monitor": "Western Digital investor relations",
     "origin_report": "reports/2026/09/2026-09-03-ai-storage-nand-hdd-shortage-bottleneck.md",
-    "status": "open"
+    "status": "triggered",
+    "outcome": "Occurred October 22, 2026: supports_if branch confirmed, with no sign of the weakens_if branch. Revenue grew 55% YoY to $4.38B and exabyte shipments grew 22% YoY to 248EB (nearline ~90% of volume); Q2 FY2027 guidance of $5.1B implies acceleration to ~66-72% YoY, and management called Q1 'a floor' for further growth. Cloud revenue stayed concentrated at 88% of total revenue, and CEO Irving Tan cited demand visibility 'extending further out' with no mention of easing backlog or hyperscaler pullback. See reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md."
   },
   {
     "event": "Seagate Technology fiscal Q1 FY2027 earnings call",
@@ -2317,6 +2318,51 @@
     "weakens_if": "Multiple lines commission in under 2 years, showing the industry can expand capacity faster than guided",
     "source_to_monitor": "company investor relations; trade press (Wire & Cable Technology, T&D World)",
     "origin_report": "reports/2026/10/2026-10-23-power-cable-capacity-ai-data-center-bottleneck.md",
+    "status": "open"
+  },
+  {
+    "event": "Seagate Technology's fiscal Q1 FY2027 earnings call",
+    "expected_window": "next 2-4 weeks",
+    "supports_if": "Seagate reports comparable nearline exabyte acceleration, sold-out capacity, and HAMR progress on schedule",
+    "weakens_if": "Seagate reports decelerating nearline growth, easing backlog, or HAMR delays",
+    "source_to_monitor": "investors.seagate.com",
+    "origin_report": "reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md",
+    "status": "open"
+  },
+  {
+    "event": "Western Digital's actual fiscal Q2 FY2027 results",
+    "expected_window": "around late January 2027",
+    "supports_if": "Revenue meets or exceeds the guided $5.1B +/- $100M (implying ~66-72% YoY growth) and the 40TB ePMR platform reaches its targeted ~30% of nearline shipments",
+    "weakens_if": "Revenue misses guidance or the ePMR ramp falls behind its disclosed schedule",
+    "source_to_monitor": "Western Digital investor relations",
+    "origin_report": "reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md",
+    "status": "open"
+  },
+  {
+    "event": "TrendForce's actual (realized, not forecast) Q4 2026 NAND/DRAM/enterprise-SSD contract price data",
+    "expected_window": "around January 2027",
+    "supports_if": "Realized prices confirm or exceed the forecast 15-20% NAND / 23-28% enterprise-SSD QoQ increases",
+    "weakens_if": "Realized prices come in materially below the forecast ranges",
+    "source_to_monitor": "trendforce.com",
+    "origin_report": "reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md",
+    "status": "open"
+  },
+  {
+    "event": "Kioxia/SanDisk's Japan NAND investment subsidy decision and construction milestone update",
+    "expected_window": "Q4 2026 - Q1 2027",
+    "supports_if": "Subsidy approved and construction proceeds on the disclosed 2032 timeline",
+    "weakens_if": "Subsidy denied or investment scaled back",
+    "source_to_monitor": "Kioxia and SanDisk newsrooms",
+    "origin_report": "reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md",
+    "status": "open"
+  },
+  {
+    "event": "Second-generation HAMR qualification progress at Western Digital and/or Seagate",
+    "expected_window": "H2 calendar 2027",
+    "supports_if": "Qualification proceeds on or ahead of the disclosed H2 2027 schedule",
+    "weakens_if": "Qualification slips materially beyond H2 2027",
+    "source_to_monitor": "Company investor relations and trade press (StorageReview, Blocks and Files)",
+    "origin_report": "reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md",
     "status": "open"
   }
 ]

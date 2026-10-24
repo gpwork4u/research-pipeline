@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Western Digital revenue YoY growth (reported vs. guided)",
+    "title_zh": "西部數據營收年增率（實際對比財測）",
+    "type": "bar",
+    "unit": "percent YoY",
+    "source_id": "ev-2",
+    "series": [
+      { "label": "Q1 FY2027 (reported)", "value": 55 },
+      { "label": "Q2 FY2027 (guidance midpoint)", "value": 69 }
+    ]
+  },
+  {
+    "title": "TrendForce NAND contract price forecast (range midpoint, QoQ)",
+    "title_zh": "TrendForce NAND 合約價格預測（季增，取區間中點）",
+    "type": "bar",
+    "unit": "percent QoQ",
+    "source_id": "ev-6",
+    "series": [
+      { "label": "Q3 2026 forecast", "value": 12.5 },
+      { "label": "Q4 2026 forecast", "value": 17.5 }
+    ]
+  }
+]

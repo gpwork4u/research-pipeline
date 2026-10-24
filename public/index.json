@@ -1,5 +1,26 @@
 [
   {
+    "title": "Western Digital's Q1 FY2027 'Floor': Does Accelerating Storage Demand Confirm AI's Deepening Hard-Drive Bottleneck?",
+    "date": "2026-10-24",
+    "slug": "western-digital-q1-fy2027-storage-bottleneck-acceleration",
+    "research_type": "FOLLOW_UP",
+    "topics": [
+      "ai-infrastructure",
+      "semiconductors",
+      "data-storage",
+      "memory"
+    ],
+    "companies": [
+      "Western Digital",
+      "Seagate Technology"
+    ],
+    "verdict": "VALIDATE",
+    "confidence": "medium",
+    "url": "https://gpwork4u.github.io/research-pipeline/reports/western-digital-q1-fy2027-storage-bottleneck-acceleration",
+    "path": "reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md",
+    "one_sentence_conclusion": "Western Digital's Q1 FY2027 report shows the AI storage bottleneck deepening, not easing: growth is accelerating and management calls the quarter \"a floor.\""
+  },
+  {
     "title": "Cable Capacity: Is Power Cable Manufacturing the AI Data Center Grid's Next Structural Bottleneck?",
     "date": "2026-10-23",
     "slug": "power-cable-capacity-ai-data-center-bottleneck",

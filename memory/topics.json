@@ -1063,5 +1063,24 @@
       "ABB",
       "Prysmian"
     ]
+  },
+  {
+    "slug": "western-digital-q1-fy2027-storage-bottleneck-acceleration",
+    "title": "Western Digital's Q1 FY2027 'Floor': Does Accelerating Storage Demand Confirm AI's Deepening Hard-Drive Bottleneck?",
+    "last_updated": "2026-10-24",
+    "reports": [
+      "reports/2026/10/2026-10-24-western-digital-q1-fy2027-storage-bottleneck-acceleration.md"
+    ],
+    "status": "active",
+    "categories": [
+      "ai-infrastructure",
+      "semiconductors",
+      "data-storage",
+      "memory"
+    ],
+    "companies": [
+      "Western Digital",
+      "Seagate Technology"
+    ]
   }
 ]
